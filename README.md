@@ -7,20 +7,20 @@
 
 ## About / عن المكتبة
 
-An open, growing archive of Coptic Orthodox books gathered from [St-Takla.org](https://st-takla.org) and other free sources, re-published as clean, self-contained **EPUB** files (with the original page-by-page HTML kept alongside). Every book here is **free to read, copy and share** — distributed freely for the spiritual benefit and salvation of all.
+An open, growing archive of Coptic Orthodox books gathered from [St-Takla.org](https://st-takla.org) and other free sources, re-published as clean, self-contained **EPUB** files (with the original page-by-page HTML kept alongside). Every book is stored in **one** place under [`books/`](books/) and is **free to read, copy and share** — distributed freely for the spiritual benefit and salvation of all.
 
-أرشيف مفتوح ومتنامٍ للكتب القبطية الأرثوذكسية، مُجمَّع من موقع الأنبا تكلاهيمانوت ومصادر مجانية أخرى، ومُعاد نشره ككتب EPUB نظيفة ومستقلة، مع الاحتفاظ بصفحات HTML الأصلية. كل الكتب هنا مجانية للقراءة والنسخ والتوزيع.
+أرشيف مفتوح ومتنامٍ للكتب القبطية الأرثوذكسية، مُجمَّع من موقع الأنبا تكلاهيمانوت ومصادر مجانية أخرى، ومُعاد نشره ككتب EPUB نظيفة ومستقلة، مع الاحتفاظ بصفحات HTML الأصلية. كل كتاب محفوظ في مكان واحد، وكلها مجانية للقراءة والنسخ والتوزيع.
 
 ## 📖 Browse / تصفّح
 
-- **[By author / حسب المؤلف](by-author/README.md)** — [Bishop (Anba) Raphael](by-author/anba-raphael/)
-- **[By topic / حسب الموضوع](by-topic/README.md)** — [original-sin](by-topic/original-sin/)
+- **[By author / حسب المؤلف](by-author.md)**
+- **[By topic / حسب الموضوع](by-topic.md)**
 
 ## Books / الكتب
 
 | الكتاب · Book | المؤلف · Author | الموضوع · Topics | الفصول · Ch. | EPUB |
 |---|---|---|:--:|:--:|
-| [أكلت بإرادتي — *I Willingly Ate*](books/st-takla.org/anba-raphael/i-willingly-ate/) | الأنبا رافائيل الأسقف العام لكنائس وسط القاهرة<br/>Bishop (Anba) Raphael | [original-sin](by-topic/original-sin/) | 17 | [⬇](books/st-takla.org/anba-raphael/i-willingly-ate/i-willingly-ate.epub) |
+| [أكلت بإرادتي — *I Willingly Ate*](books/st-takla.org/anba-raphael/i-willingly-ate/) | الأنبا رافائيل الأسقف العام لكنائس وسط القاهرة<br/>Bishop (Anba) Raphael | original-sin | 17 | [⬇ EPUB](books/st-takla.org/anba-raphael/i-willingly-ate/i-willingly-ate.epub) |
 
 ## Reading the books / كيفية القراءة
 
@@ -32,7 +32,7 @@ Texts were digitized and published as HTML by **[St-Takla.org](https://st-takla.
 
 ## Tools / الأدوات
 
-See [`tools/`](tools/): **`sttakla_extract.py`** walks a St-Takla.org book (following its *next-page* links), saves every page, downloads the cover and illustrations, and builds a right-to-left EPUB; **`make_views.py`** regenerates these views and indexes. Code is MIT-licensed — see [`LICENSE`](LICENSE).
+See [`tools/`](tools/): **`sttakla_extract.py`** walks a St-Takla.org book (following its *next-page* links), saves every page, downloads the cover and illustrations, and builds a right-to-left EPUB; **`make_views.py`** regenerates this README and the `by-author.md` / `by-topic.md` catalogs. Code is MIT-licensed — see [`LICENSE`](LICENSE).
 
 ## Keywords
 

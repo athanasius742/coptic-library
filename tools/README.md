@@ -31,15 +31,18 @@ run `make_views.py`.
 > This extractor targets the St-Takla.org page structure. Other sources need
 > their own extractor; the EPUB builder inside is largely source-agnostic.
 
-## `make_views.py` — regenerate views & indexes
+## `make_views.py` — regenerate the catalog
 
-Rebuilds `by-author/` and `by-topic/` (symlinks into `books/`) and the browsable
-`README.md` indexes from each book's `meta.json`. Idempotent — run it whenever you
-add a book or change topics:
+Rebuilds the markdown catalog from each book's `meta.json` (+ `manifest.json`):
+the root `README.md`, the `by-author.md` and `by-topic.md` tables (links into the
+single copy under `books/`), and a per-book `README.md`. Idempotent — run it
+whenever you add a book or change metadata:
 
 ```bash
 python3 tools/make_views.py
 ```
 
-`by-author/` and `by-topic/` are **generated** — don't edit them by hand; edit a
-book's `meta.json` and re-run.
+`README.md`, `by-author.md`, `by-topic.md` and per-book `README.md` files are
+**generated** — don't edit them by hand; edit a book's `meta.json` and re-run.
+Each book lives in exactly one place under `books/`; the catalogs are just tables
+of links (no symlinks or duplicated copies).
