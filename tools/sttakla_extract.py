@@ -42,7 +42,10 @@ def fetch(url):
 
 
 def fetch_html(url):
-    return fetch(url).decode(ENC, errors="replace")
+    # Pages are windows-1256; decode to UTF-8 and fix the declared charset so the
+    # saved file (now UTF-8 bytes) renders correctly when opened directly.
+    text = fetch(url).decode(ENC, errors="replace")
+    return re.sub(r"windows-1256", "utf-8", text, flags=re.I)
 
 
 # ----------------------------- metadata --------------------------------
