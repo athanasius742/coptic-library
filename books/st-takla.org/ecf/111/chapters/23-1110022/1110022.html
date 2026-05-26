@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Nicene and Post-Nicene Fathers, Vol. 11: Saint Chrysostom: Homilies on the Acts of the Apostles and the Epistle to the Romans | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Saint Chrysostom Homilies Acts Apostles Epistle Romans">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Nicene and Post-Nicene Fathers, Vol. XI: A Commentary on the Acts of the Apostles: Homily XVII on Acts vii. 35. | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/111/1110022.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:32:18+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/111/'>111</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/111/'>111</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Nicene and Post-Nicene Fathers, Vol. XI:<br>A Commentary on the Acts of the Apostles: Homily XVII on Acts vii. 35.</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="1110021.html" id="prev">Previous</A>&nbsp;
+<A HREF="1110023.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="vi.xvii"></A>   <a name="vi.xvii-p0.1"></A> 
+<p style="font-size: 16pt" class="c21"><a name="vi.xvii-p1"></A><span class="c9"><a name="vi.xvii-p1.1"></A>Homily XVII.</span></p>  
+<p style="font-size: 16pt" class="c33"><a name="vi.xvii-p2"></A><a href="../../../../bib/kjv/act007.html#035">Acts VII. 35</a><a name="vi.xvii-p2.1"></A></p>  
+<p style="font-size: 16pt" class="c34"><a name="vi.xvii-p3"></A>&#8220;This Moses whom they refused, saying, Who made thee a ruler and a judge over us? the same did God send to be a ruler and a deliverer by the hand of the Angel which appeared to him in the bush.&#8221;</p>  
+<p style="font-size: 16pt" class="c12"><a name="vi.xvii-p4"></A><span class="c11"><a name="vi.xvii-p4.1"></A>This</span> is very suitable to the matter in hand. &#8220;This Moses,&#8221; he says. &#8220;This,&#8221; the man who had been in danger of losing his life; the man who had been set at naught by them; &#8220;this&#8221; the man whom they had declined: &#8220;this&#8221; same, God having raised up, sent unto them. &#8220;Whom they refused, saying, Who made thee a ruler?&#8221; just as they themselves (the hearers) said, &#8220;We have no king, but C&aelig;sar.&#8221; (<a href="../../../../bib/kjv/joh019.html#015">John xix. 15</a><a name="vi.xvii-p4.2"></A>.) He here shows also, that what was then done, was done by Christ. &#8220;The same did God send by the hand of the Angel,&#8221; who said unto him, &#8220;I am the God of Abraham.&#8221; &#8220;This&#8221; same Moses, he says,&#8212;and observe how he points to his renown&#8212;&#8220;this&#8221; same Moses, he says, &#8220;brought them out, after that he had showed wonders and signs in the land of Egypt, and in the Red sea, and in the wilderness forty years. This is that Moses, which said unto the children of Israel, A prophet shall the Lord your God raise up unto you of your brethren, like unto me&#8221; (<a href="../../../../bib/kjv/act007.html#036">Acts 7:36</a>, <a href="../../../../bib/kjv/act007.html#037">37</a><a name="vi.xvii-p4.3"></A>): set at naught like me. Him, likewise, Herod wished to kill, and in Egypt He found preservation just as it was with the former, even when He was a babe, He was aimed at for destruction. &#8220;This is he, that was in the Church in the wilderness with the Angel which spake to him in the mount Sina, and with our fathers: who received the lively oracles to give unto us.&#8221; (<a href="../../../../bib/kjv/act007.html#038">Acts 7.38</a><a name="vi.xvii-p4.4"></A>.) Again no mention of temple, none of sacrifice. &#8220;With the Angel,&#8221; it says, &#8220;he received the lively oracles to give unto the fathers.&#8221; It shows, that he not only wrought miracles, but also gave a law, as Christ did. Just as Christ first works miracles, and then legislates: so did Moses. But they did not hear him, keeping their disobedience, even after the miracles: &#8220;To whom,&#8221; he says, &#8220;our fathers would not obey:&#8221; (<a href="../../../../bib/kjv/act007.html#039">Acts 7.39</a><a name="vi.xvii-p4.5"></A>) after the wonders done in those forty years. And not only so, but just the contrary: &#8220;but thrust him from them, and in their hearts turned back again into Egypt. Saying unto Aaron, Make us gods to go before us; for as for this Moses, which brought us out of the land of Egypt, we wot not what is become of him. And they made a calf in those days, and offered sacrifice unto the idol, and rejoiced in the works of their own hands. Then God turned, and gave them up to worship the host of heaven; as it is written in the book of the Prophets, O ye house of Israel, have ye offered to me slain beasts and sacrifices by the space of forty years in the wilderness? Yea, ye took up the tabernacle of Moloch, and the star of your god Remphan, figures which ye made to worship them: and I will carry you away beyond Babylon.&#8221; (<a href="../../../../bib/kjv/act007.html#040">Acts 7:40</a>, <a href="../../../../bib/kjv/act007.html#043">43</a><a name="vi.xvii-p4.6"></A>.) The expression, &#8220;gave them up,&#8221; means, He suffered. &#8220;Our fathers had the tabernacle of witness in the wilderness, as he had appointed, speaking unto Moses, that he should make it according to the fashion he had seen.&#8221; (<a href="../../../../bib/kjv/act007.html#044">Acts 7.44</a><a name="vi.xvii-p4.7"></A>.) Even when there was a Tabernacle, yet there were no sacrifices. &#8220;Did ye offer unto Me slain beasts and sacrifices?&#8221; (<a href="../../../../bib/kjv/amo005.html#025">Amos v. 25</a><a name="vi.xvii-p4.8"></A>.) There was &#8220;the tabernacle of witness,&#8221; and yet it profited them nothing, but they were consumed. But neither before, nor afterwards, did the miracles profit them aught. &#8220;Which also, our fathers that came after brought in.&#8221; Seest thou, how the holy place is there wherever God may be? For to this end also he says, &#8220;in the wilderness,&#8221; to compare place with place. Then the benefit (conferred upon them): And our fathers that came after brought it in with Jesus into the possession of the Gentiles, whom God drave out before the face of our fathers, unto the days of David; who found favor before God, and desired to find a tabernacle for the God of Jacob. (<a href="../../../../bib/kjv/act007.html#045">Acts 7:45</a>, <a href="../../../../bib/kjv/act007.html#046">46</a><a name="vi.xvii-p4.9"></A>.) David &#8220;desired to find favor:&#8221; and he builded not, he, the wonderful, the great; but the castaway, Solomon. &#8220;But Solomon,&#8221; it says, &#8220;built Him an house. Howbeit the Most High dwelleth not in (places) made with hands.&#8221; (<a href="../../../../bib/kjv/act007.html#047">Acts 7.47-50</a><a name="vi.xvii-p4.10"></A>.) This was shown indeed already by what had been before said: but it is shown also by the voice of a prophet; &#8220;What house will ye build for Me? saith the Lord God. As saith the prophet, Heaven is my throne, and earth is my footstool: what house will ye build for me? saith the Lord: or what is the place of my rest? Hath not my hand made all these things?&#8221; (<a name="vi.xvii-p4.11"></A><a href="../../../../bib/kjv/isa066.html#001">Isa. 66:1</a>, <a href="../../../../bib/kjv/isa066.html#002">2</a><a name="vi.xvii-p4.12"></A>.)</p>  
+<p style="font-size: 16pt" class="c13"><a name="vi.xvii-p5"></A>Marvel not, he says, if they on whom Christ confers His benefits refuse His kingdom, seeing in the case of Moses it was just the same. (Recapitulation). &#8220;He brought them out;&#8221; and rescued them not in a general way, but also while they were in the wilderness. &#8220;Wonders and signs,&#8221; etc. (<a href="../../../../bib/kjv/act007.html#035">Acts 7.35-50</a><a name="vi.xvii-p5.1"></A>.) Do you mark that they themselves (Stephen&#146;s hearers) are concerned in those old miracles also? &#8220;This is that Moses:&#8221; (<a href="../../../../bib/kjv/act007.html#037">Acts 7.37</a><a name="vi.xvii-p5.2"></A>) he, that conversed with God; he, that had been saved out of situations so strange and wonderful; he, that wrought so great works, and had so great power. [&#8220;Which said unto the children of Israel, A prophet,&#8221; etc.] He shows, that the prophecy must by all means be fulfilled, and that Moses is not opposed to Him.&nbsp;<A NAME="fr_385"></A><A HREF="#fn_385"><FONT SIZE="1">386</FONT></A>
+ &#8220;This is he that was in the Church in the wilderness, and, that said unto the children of Israel.&#8221; (<a href="../../../../bib/kjv/act007.html#038">Acts 7.38</a><a name="vi.xvii-p6.3"></A>.) Do you mark that thence comes the root, and that &#8220;salvation is from the Jews?&#8221; (<a href="../../../../bib/kjv/joh004.html#022">John iv. 22</a><a name="vi.xvii-p6.4"></A>.) &#8220;With the Angel,&#8221; it says, &#8220;which spake unto him.&#8221; (<a name="vi.xvii-p6.5"></A><a href="../../../../bib/kjv/rom011.html#016">Rom. xi. 16</a><a name="vi.xvii-p6.6"></A>.) Lo, again he affirms that it was He (Christ) that gave the Law, seeing Moses was with &#8220;Him&#8221; in the Church in the wilderness.&nbsp;<A NAME="fr_386"></A><A HREF="#fn_386"><FONT SIZE="1">387</FONT></A>
+ And here he puts them in mind of a great marvel, of the things done in the Mount: &#8220;Who received living oracles to give unto us.&#8221; On all occasions Moses is wonderful, and (so) when need was to legislate. What means the expression, &#8220;Living oracles&#8221; (<span class="Greek"><a name="vi.xvii-p7.12"></A>&#955;&#8057;&#947;&#953;&#945;</span>)? Those, whereof the end was shown by words (<span class="Greek"><a name="vi.xvii-p7.13"></A>&#948;&#953;&#8048; &#955;&#8057;&#947;&#969;&#957;</span>): in other words, he means the prophecies.&nbsp;<A NAME="fr_387"></A><A HREF="#fn_387"><FONT SIZE="1">388</FONT></A>
+ Then follows the charge, in the first instance, against the patriarchs [after], the &#8220;signs and wonders,&#8221; after the receiving of the &#8220;lively oracles: To whom,&#8221; he says, &#8220;our fathers would not obey.&#8221; (<a href="../../../../bib/kjv/act007.html#039">Acts 7.39</a><a name="vi.xvii-p8.4"></A>.) But concerning those, Ezekiel says that they are not &#8220;living;&#8221; as when he says, &#8220;And I gave you statutes that are not good.&#8221; (<a name="vi.xvii-p8.5"></A><a href="../../../../bib/kjv/eze020.html#025">Ezek. xx. 25</a><a name="vi.xvii-p8.6"></A>.) It is with reference to those that he says, &#8220;Living. But thrust him from them, and in their hearts turned back to Egypt&#8221;&#8212;the place where they groaned, where they cried, whence they called upon God. &#8220;And said unto Aaron, Make us gods which shall go before us.&#8221; (<a href="../../../../bib/kjv/act007.html#040">Acts 7.40</a><a name="vi.xvii-p8.7"></A>.) O the folly! &#8220;Make,&#8221; say they; &#8220;that they may go before us.&#8221; Whither? &#8220;Into Egypt.&#8221;&nbsp;<A NAME="fr_388"></A><A HREF="#fn_388"><FONT SIZE="1">389</FONT></A>
+ See how hard they were to tear away from the customs of Egypt! What sayest thou? What, not wait for him that brought thee out, but flee the benefit, and deny the Benefactor? And mark how insulting they are: &#8220;For as for this Moses,&#8221; they say:&#8212;&#8220;which brought us out of the land of Egypt&#8221; nowhere the name of God: instead of that, they ascribed all to Moses. Where&nbsp;<A NAME="fr_389"></A><A HREF="#fn_389"><FONT SIZE="1">390</FONT></A>
+ they ought to give thanks (to God), they bring Moses forward: where it was, to do as the Law bade them, they no longer make account of Moses. &#8220;We know not what is become of him.&#8221; And yet he told them that he was going up to receive the Law: and they had not patience to wait forty days. &#8220;Make us gods&#8221;&#8212;they&nbsp;<A NAME="fr_390"></A><A HREF="#fn_390"><FONT SIZE="1">391</FONT></A>
+ did not say, &#8220;a God.&#8221;&#8212;And yet one may well wonder at this, that they do not even know.&#8212;&#8220;And they made a calf in those days, and offered sacrifices unto the idol, and rejoiced in the works of their own hands&#8221; (<a href="../../../../bib/kjv/act007.html#041">Acts 7.41</a><a name="vi.xvii-p11.1"></A>): for which they ought to have hid their faces. What wonder that ye know not Christ, seeing ye knew not Moses, and God Who was manifested by such wonders? But they not only knew Him not: they also insulted in another way, by their idol making. &#8220;Then God turned, and gave them up to worship the host of heaven&#8221; (<a href="../../../../bib/kjv/act007.html#042">Acts 7.42</a><a name="vi.xvii-p11.2"></A>.) Hence these same &#8220;customs&#8221; date their origin, hence the sacrifices: they were themselves the first that made sacrifices to their idols! For that is why it is marked,&nbsp;<A NAME="fr_391"></A><A HREF="#fn_391"><FONT SIZE="1">392</FONT></A>
+ &#8220;They made a calf in Horeb, and offered sacrifices to the idol:&#8221; seeing that, before this the name of sacrifice is nowhere mentioned, but only lively ordinances, and &#8220;lively oracles. And rejoiced&#8221;&#8212;that is the reason for the feasts. (<a name="vi.xvii-p12.10"></A><a href="../../../../bib/kjv/exo032.html#005">Exod. 32:5</a>, <a href="../../../../bib/kjv/exo032.html#006">6</a><a name="vi.xvii-p12.11"></A>.) &#8220;As it is written in the Book of the Prophets&#8221;&#8212;and observe, he does not cite the text without a purpose, but shows by it that there is no need of sacrifices; saying: &#8220;Did ye offer slain beasts and sacrifice to Me?&#8221;&#8212;He lays an emphasis on this word (to Me?). &#8220;Ye cannot say that it was from sacrificing to Me, that ye proceeded to sacrifice to them:&#8212;&#8220;by the space of forty years:&#8221; and this too, &#8220;in the wilderness,&#8221; where He had most signally shown Himself their Protector. &#8220;Yea, ye took up the tabernacle of Moloch, and the star of your god Remphan: images which ye made to worship them.&#8221;&nbsp;<A NAME="fr_392"></A><A HREF="#fn_392"><FONT SIZE="1">393</FONT></A>
+ The cause of sacrifices! &#8220;And I will carry you away beyond Babylon.&#8221; (<a href="../../../../bib/kjv/act007.html#043">Acts 7.43</a><a name="vi.xvii-p13.9"></A>.) Even the captivity, an impeachment of their wickedness! &#8220;But a Tabernacle,&#8221; say you, &#8220;there was (the Tabernacle) &#145;of Witness.&#146;&#8221; (<a href="../../../../bib/kjv/act007.html#044">Acts 7.44</a><a name="vi.xvii-p13.10"></A>.) (Yes,) this is why it was: that they should have God for Witness: this was all. &#8220;According to the fashion,&#8221; it says, &#8220;that was shown thee on the mount:&#8221; so&nbsp;<A NAME="fr_393"></A><A HREF="#fn_393"><FONT SIZE="1">394</FONT></A>
+ that on the mount was the Original. And this Tabernacle, moreover, &#8220;in the wilderness,&#8221; was carried about, and not locally fixed. And he calls it, &#8220;Tabernacle of witness:&#8221; i.e. (for witness) of the miracles, of the statutes.&nbsp;<A NAME="fr_394"></A><A HREF="#fn_394"><FONT SIZE="1">395</FONT></A>
+ This is the reason why both it and those (the fathers) had no Temple. &#8220;As He had appointed, that spake unto Moses, that he should make it according to the fashion that he had seen.&#8221; Again, it was none other than He (Christ) that gave the fashion itself. &#8220;Until the days of David&#8221; (<a href="../../../../bib/kjv/act007.html#045">Acts 7.45</a><a name="vi.xvii-p15.14"></A>): and there was no temple! And yet the Gentiles also had been driven out: for that is why he mentions this: &#8220;Whom God drave out,&#8221; he says, &#8220;before the face of our fathers. Whom He drave out,&#8221; he says: and even then, no Temple! And so many wonders, and no mention of a Temple! So that, although first there is a Tabernacle, yet nowhere a Temple. &#8220;Until the days of David,&#8221; he says: even David, and no Temple! &#8220;And he sought to find favor before God&#8221; (<a href="../../../../bib/kjv/act007.html#046">Acts 7.46</a><a name="vi.xvii-p15.15"></A>): and built not:&#8212;so far was the Temple from being a great matter! &#8220;But Solomon built Him an house.&#8221; (<a href="../../../../bib/kjv/act007.html#047">Acts 7.47</a><a name="vi.xvii-p15.16"></A>.) They thought Solomon was great: but that he was not better than his father, nay not even equal to him, is manifest. &#8220;Howbeit the Most High dwelleth not in temples made with hands; as saith the prophet, Heaven is My throne, and earth is My footstool.&#8221; (<a href="../../../../bib/kjv/act007.html#048">Acts 7:48</a>, <a href="../../../../bib/kjv/act007.html#049">49</a><a name="vi.xvii-p15.17"></A>.) Nay, not even these are worthy of God, forasmuch as they are made, seeing they are creatures, the works of His hand. See how he leads them on by little and little (showing) that not even these are to be mentioned. And again the prophecy says openly, &#8220;What house will ye build Me?&#8221; etc. (<a href="../../../../bib/kjv/act007.html#050">Acts 7.50</a><a name="vi.xvii-p15.18"></A>.)</p>  
+<p style="font-size: 16pt" class="c13"><a name="vi.xvii-p16"></A>What is the reason that at this point he speaks in the tone of invective (<span class="Greek"><a name="vi.xvii-p16.1"></A>&#954;&#945;&#964;&#945;&#966;&#959;&#961;&#953;&#954;&#8037;&#962;</span>)? Great was his boldness of speech, when at the point to die: for in fact I think he knew that this was the case. &#8220;Ye stiffnecked,&#8221; he says, &#8220;and uncircumcised in heart and ears.&#8221; This also is from the prophets: nothing is of himself. &#8220;Ye do always resist the Holy Ghost: as your fathers did, so do ye.&#8221; (<a href="../../../../bib/kjv/act007.html#051">Acts 7.51</a><a name="vi.xvii-p16.2"></A>.) When it was not His will that sacrifices should be, ye sacrifice: when it is His will, then again ye do not sacrifice: when He would not give you commandments, ye drew them to you: when ye got them, ye neglected them. Again, when the Temple stood, ye worshipped idols: when it is His will to be worshipped without a Temple, ye do the opposite. Observe, he says not, &#8220;Ye resist God,&#8221; but, &#8220;the Spirit:&#8221; so far was he from knowing any difference between Them. And, what is greater: &#8220;As your fathers did,&#8221; he says, &#8220;so do ye.&#8221; Thus also did Christ (reproach them), forasmuch as they were always boasting much of their fathers. &#8220;Which of the prophets have not your fathers persecuted? and they have slain them which showed before of the coming of the Just One:&#8221; he still says, &#8220;the Just One,&#8221; wishing to check them: &#8220;of Whom ye have been now the betrayers and murderers&#8221;&#8212;two charges he lays against them&nbsp;<A NAME="fr_395"></A><A HREF="#fn_395"><FONT SIZE="1">396</FONT></A>
+&#8212;&#8220;who have received the Law by the disposition of Angels, and have not kept it.&#8221; (<a href="../../../../bib/kjv/act007.html#052">Acts 7.52</a><a name="vi.xvii-p17.1"></A>.) How, &#8220;By the disposition of Angels?&#8221; Some say (The Law), disposed by Angels; or, put into his hand by the Angel Who appeared to him in the bush; for was He man? No wonder that He&nbsp;<A NAME="fr_396"></A><A HREF="#fn_396"><FONT SIZE="1">397</FONT></A>
+ who wrought those works, should also have wrought these.&nbsp;<A NAME="fr_397"></A><A HREF="#fn_397"><FONT SIZE="1">398</FONT></A>
+ &#8220;Ye slew them who preached of Him,&#8221; much more Himself. He shows them disobedient both to God, and to Angels, and the Prophets, and the Spirit, and to all: as also Scripture saith elsewhere: &#8220;Lord, they have slain Thy Prophets, and thrown down Thine altars.&#8221; (<a name="vi.xvii-p19.7"></A><a href="../../../../bib/kjv/kg1019.html#010">1 Kings xix. 10</a><a name="vi.xvii-p19.8"></A>.) They, then, stand up for the Law, and say, &#8220;He blasphemeth against Moses:&#8221; he shows, therefore, that it is they who blaspheme, and that (their blasphemy is not only against Moses, but) against God; shows that &#8220;they&#8221; from the very beginning have been doing this: that &#8220;they&#8221; have themselves destroyed their &#8220;customs,&#8221; that there is no need of these: that while accusing him, and saying that he opposed Moses, they themselves were opposing the Spirit: and not merely opposing, but with murder added to it: and that they had their enmity all along from the very beginning. Seest thou, that he shows them to be acting in opposition both to Moses and to all others, and not keeping the Law? And yet Moses had said, &#8220;A Prophet shall the Lord raise up unto you: and the rest also told of this (Christ) that He would come: and the prophet again said, &#8220;What house will ye build Me?&#8221; and again, &#8220;Did ye offer to Me slain beasts and sacrifices&#8221; those &#8220;forty years?&#8221; (<a name="vi.xvii-p19.9"></A><a href="../../../../bib/kjv/deu018.html#018">Deut. xviii. 18</a><a name="vi.xvii-p19.10"></A>.)</p>  
+<p style="font-size: 16pt" class="c13"><a name="vi.xvii-p20"></A>Such is the boldness of speech of a man bearing the Cross. Let us then also imitate this: though it be not a time of war, yet it is always the time for boldness of speech. For, &#8220;I spake,&#8221; says one, &#8220;in Thy testimonies before kings, and was not ashamed.&#8221; (<a href="../../../../bib/kjv/psa019.html#046">Ps. cxix. 46</a><a name="vi.xvii-p20.1"></A>.) If we chance to be among heathens, let us thus stop their mouths. without wrath, without harshness. (Comp. Hom. in <a href="../../../../bib/kjv/co1004.html#000">1 Cor. iv.</a><a name="vi.xvii-p20.2"></A> &sect;6; xxxiii. &sect;4, 5; Col. xi.<a name="vi.xvii-p20.3"></A> &sect;2.) For if we do it with wrath, it no longer seems to be the boldness (of one who is confident of his cause,) but passion: but if with gentleness, this is boldness indeed. For&nbsp;<A NAME="fr_398"></A><A HREF="#fn_398"><FONT SIZE="1">399</FONT></A>
+ in one and the same thing success and failure cannot possibly go together. The boldness is a success: the anger is a failure. Therefore, if we are to have boldness, we must be clean from wrath that none may impute our words to that. No matter how just your words may be, when you speak with anger, you ruin all: no matter how boldly you speak, how fairly reprove, or what not. See this man, how free from passion as he discourses to them! For he did not abuse them: he did but remind them of the words of the Prophets. For, to show you that it was not anger, at the very moment he was suffering evil at their hands, he prayed, saying, &#8220;Lay not to their charge this sin.&#8221; So far was he from speaking these words in anger; no, he spake in grief and sorrow for their sakes. As indeed this is why it speaks of his appearance, that &#8220;they saw his face as it had been the face of an angel,&#8221; on purpose that they might believe. Let us then be clean from wrath. The Holy Spirit dwelleth not where wrath is: cursed is the wrathful. It cannot be that aught wholesome should approach, where wrath goes forth. For as in a storm at sea, great is the tumult, loud the clamor, and then would be no time for lessons of wisdom (<span class="Greek"><a name="vi.xvii-p21.5"></A>&#966;&#953;&#955;&#959;&#963;&#959;&#966;&#949;&#7989;&#957;</span>): so neither in wrath. If the soul is to be in a condition either to say, or to be disciplined to, aught of philosophy, it must first be in the haven. Seest thou not how, when we wish to converse on matters of serious import, we look out for places free from noise, where all is stillness, all calm, that we may not be put out and discomposed? But if noise from without discomposes, much more disturbance from within. Whether one pray, to no purpose does he pray &#8220;with wrath and disputings:&#8221; (<a href="../../../../bib/kjv/ti1002.html#008">1 Tim. ii. 8</a><a name="vi.xvii-p21.6"></A>) whether he speak, he will only make himself ridiculous: whether he hold his peace, so again it will be even then: whether he eat, he is hurt even then: whether he drink, or whether he drink not; whether he sit, or stand, or walk; whether he sleep: for even in their dreams such fancies haunt them. For what is there in such men that is not disagreeable? Eyes unsightly, mouth distorted, limbs agitated and swollen, tongue foul and sparing no man, mind distraught, gestures uncomely: much to disgust. Mark the eyes of demoniacs, and those of drunkards and madmen; in what do they differ from each other? Is not the whole madness? For what though it be but for the moment? The madman too is possessed for the moment: but what is worse than this? And they are not ashamed at that excuse; &#8220;I knew not (saith one) what I said.&#8221; And how came it that thou didst not know this, thou the rational man, thou that hast the gift of reason, on purpose that thou mayest not act the part of the creatures without reason, just like a wild horse, hurried away by rage and passion? In truth, the very excuse is criminal. For thou oughtest to have known what thou saidst. &#8220;It was the passion,&#8221; say you, &#8220;that spoke the words, not I.&#8221; How should it be that? For passion has no power, except it get it from you. You might as well say, &#8220;It was my hand that inflicted the wounds, not I.&#8221; What occasion, think you, most needs wrath? would you not say, war and battle? But even then, if anything is done with wrath, the whole is spoiled and undone. For of all men, those who fight had best not be enraged: of all men, those had best not be enraged, who want to hurt (<span class="Greek"><a name="vi.xvii-p21.7"></A>&#964;&#959;&#8058;&#962; &#8017;&#946;&#961;&#8055;&#950;&#959;&#957;&#964;&#945;&#962;</span>). And how is it possible to fight then? you will ask. With reason, with self-command (<span class="Greek"><a name="vi.xvii-p21.8"></A>&#7952;</span><span class="Greek"><a name="vi.xvii-p21.9"></A>&#960;&#953;&#949;&#953;&#954;&#949;&#8055;&amp; 139&#903;</span>): since fighting is, to stand in opposition. Seest thou not that even these (common) wars are regulated by definite law, and order, and times? For wrath is nothing but an irrational impulse: and an irrational creature cannot possibly perform aught rational. For instance, the man here spoke such words, and did it without passion. And Elias said,&#8221; How long will ye halt on both your knees?&#8221; (<a name="vi.xvii-p21.10"></A><a href="../../../../bib/kjv/kg1018.html#021">1 Kings xviii. 21</a><a name="vi.xvii-p21.11"></A>) and spake it not in passion. And Phinees slew, and did it without passion. For passion suffers not a man to see, but, just as in a night-battle, it leads him, with eyes blindfolded and ears stopped up, where it will. Then let us rid ourselves of this demon, at its first beginning let us quell it, let us put the sign of the Cross on our breast, as it were a curb. Wrath is a shameless dog: but let it learn to hear the law. If there be in a sheep-fold a dog so savage as not to obey the command of the shepherd, nor to know his voice, all is lost and ruined. He is kept along with the sheep: but if he makes a meal on the sheep, he is useless, and is put to death. If he has learnt to obey thee, feed thy dog: he is useful when it is against the wolves, against robbers, and against the captain of the robbers that he barks, not against the sheep, not against friends. If he does not obey he ruins all: if he learns not to mind thee, he destroys all. The mildness in thee let not wrath consume, but let it guard it, and feed it up. And it will guard it, that it may feed in much security, if it destroy wicked and evil thoughts, if it chase away the devil from every side. So is gentleness preserved, when evil works are nowhere admitted: so we become worthy of respect, when we learn not to be shameless. For nothing renders a man so shameless, as an evil conscience. Why are harlots without shame? Why are virgins shamefaced? Is it not from their sin that the former, from their chastity that the latter, are such? For nothing makes a person so shameless, as sin. &#8220;And yet on the contrary,&#8221; say you, &#8220;it puts to shame.&#8221; Yes; him who condemns himself: but him that is past blushing, it renders even more reckless: for desperation makes daring. For &#8220;the wicked,&#8221; saith the Scripture, &#8220;when he is come into the depths of evils, despiseth.&#8221; (<a name="vi.xvii-p21.12"></A><a href="../../../../bib/kjv/pro018.html#003">Prov. xviii. 3</a><a name="vi.xvii-p21.13"></A>.) But he that is shameless, will also be reckless, and he that is reckless, will be daring.</p>  
+<p style="font-size: 16pt" class="c13"><a name="vi.xvii-p22"></A>See in what way gentleness is destroyed, when evil thoughts gnaw at it. This is why there is such a dog, barking mightily: we have also sling and stone (ye know what I mean): we have also spear and enclosure and cattle-fold: let us guard our thoughts unhurt. If the dog be gentle (<span class="Greek"><a name="vi.xvii-p22.1"></A>&#963;&#945;&#8055;&#957;&#8131;</span>) with the sheep, but savage against those without, and keep vigilant watch, this is the excellence of a dog: and, be he ever so famished, not to devour the sheep; be he ever so full, not to spare the wolves. Such too is anger meant to be: however provoked, not to forsake gentleness; however at quiet, to be on the alert against evil thoughts: to acknowledge the friend, and not for any beating forsake him, and for all his caressing, to fly at the intruder. The devil uses caressing full oft: let&nbsp;<A NAME="fr_399"></A><A HREF="#fn_399"><FONT SIZE="1">400</FONT></A>
+ the dog know at sight that he is an intruder. So also let us caress (<span class="Greek"><a name="vi.xvii-p23.17"></A>&#963;&#945;&#8055;&#957;&#969;&#956;&#949;&#957;</span>) Virtue, though she put us to pain, and show our aversion to Vice, though she give us pleasure. Let us not be worse than the dogs, which, even when whipped and throttled, do not desert their master: but if&nbsp;<A NAME="fr_400"></A><A HREF="#fn_400"><FONT SIZE="1">401</FONT></A>
+ the stranger also feed them, even so they do hurt. There are times when anger is useful; but this is when it barks against strangers. What means it, &#8220;Whosoever is angry with his brother without a cause?&#8221; (<a href="../../../../bib/kjv/mat005.html#022">Matt. v. 22</a><a name="vi.xvii-p24.11"></A>.) It means, Stand not up in thine own quarrel, neither avenge thyself: if thou see another suffering deadly wrong, stretch out thy hand to help him. This is no longer passion, when thou art clear of all feeling for thyself alone. David had gotten Saul into his power, and was not moved by passion, did not thrust the spear into him, the enemy he had in his power; but took his revenge upon the Devil. (<a name="vi.xvii-p24.12"></A><a href="../../../../bib/kjv/sa1026.html#007">1 Sam. xxvi. 7</a><a name="vi.xvii-p24.13"></A>.) Moses, when he saw a stranger doing an injury, even slew him (<a name="vi.xvii-p24.14"></A><a href="../../../../bib/kjv/exo002.html#022">Exod. ii. 22</a><a name="vi.xvii-p24.15"></A>): but when one of his own people, he did not so: them that were brethren he would have reconciled; the others not so. That &#8220;most meek&#8221; (<a name="vi.xvii-p24.16"></A><a href="../../../../bib/kjv/num012.html#003">Num. xii. 3</a><a name="vi.xvii-p24.17"></A>) Moses, as Scripture witnesseth of him, see how he was roused! But not so, we: on the contrary, where we ought to show meekness, no wild beast so fierce as we: but where we ought to be roused, none so dull and sluggish. (Hom. vi. <i>de laud. Pauli, ad fin.</i>) On no occasion do we use our faculties to the purpose they were meant for: and therefore it is that our life is spent to no purpose. For even in the case of implements; if one use them, one instead of other, all is spoilt: if one take his sword, and then, where he should use it and cut with it, uses only his hand, he does no good: again, where he should use his hand, by taking the sword in hand he spoils all. In like manner also the physician, if where he ought to cut, he cuts not, and where he ought not, he does cut, mars all. Wherefore, I beseech you, let us use the thing (<span class="Greek"><a name="vi.xvii-p24.18"></A>&#964;&#8101; &#960;&#961;&#8049;&#947;&#956;&#945;&#964;&#953;</span>) at its proper time. The proper time for anger is never, where we move in our own quarrel: but if it is our duty to correct others, then is the time to use it, that we may by force deliver others. (<i>Hom. in Matt</i>. xvi. &sect;7.) So shall we both be like unto God, always keeping a spirit free from wrath, and shall attain unto the good things that are to come, through the grace and loving-kindness of our Lord Jesus Christ, with whom, to the Father and the Holy Ghost together, be glory, dominion, and honor, now and evermore, world without end. Amen.</p>    
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_385"></A><A HREF="1110022.html#fr_385">i:386</A> <a name="vi.xvii-p5.3"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p6"></A> Here the innovator, not perceiving that the renewed exposition began above, inserts the formula <span class="Greek"><a name="vi.xvii-p6.1"></A>&#8125;</span><span class="Greek"><a name="vi.xvii-p6.2"></A>&#913;&#955;&#955;&#8125; &#7988;&#948;&#969;&#956;&#949;&#957; &#7940;&#957;&#969;&#952;&#949;&#957; &#964;&#8048; &#949;&#7984;&#961;&#951;&#956;&#8051;&#957;&#945;</span>, and then has: &#8220;This, it says, is Moses, which said, A Prophet, etc. To this, I suppose, Christ refers, when He says, &#145;Salvation is of the Jews,&#146; hinting at Himself. This is he that was in the wilderness, with the Angel that spake unto him. Lo, again he shows, that it was He,&#8221; etc. So Edd.</p>
+<A NAME="fn_386"></A><A HREF="1110022.html#fr_386">i:387</A> <a name="vi.xvii-p6.7"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p7"></A> The meaning of <a href="../../../../bib/kjv/act007.html#038">Acts 7.38</a><a name="vi.xvii-p7.1"></A> is that Moses became (<span class="Greek"><a name="vi.xvii-p7.2"></A>&#947;&#949;&#957;&#8057;&#956;&#949;&#957;&#959;&#962;</span>) a mediator between God (represented by the Angel) and the people. Cf. <a name="vi.xvii-p7.3"></A><a href="../../../../bib/kjv/gal003.html#019">Gal. iii. 19</a><a name="vi.xvii-p7.4"></A> where the law is said to have been &#8220;ordained through angels, by the hand of a mediator&#8221; (Moses). No mention is made of angels as revealers of the law in <a href="../../../../bib/kjv/exo019.html#000">Exodus xix</a><a name="vi.xvii-p7.5"></A>. the first mention of angels in connection with the giving of the law being in a highly poetic passage in Moses&#146; benediction, <a name="vi.xvii-p7.6"></A><a href="../../../../bib/kjv/deu033.html#002">Deut. xxxiii. 2</a><a name="vi.xvii-p7.7"></A>. (Even here the Heb. text is uncertain. Cf. the lxx. <i>in loco</i>). The function of angels in the giving of the law has a prominent place in later Jewish theology as opposed to the action of mere human ministers. The New Testament notices on the subject reflect this later phase of thought (Cf. <a name="vi.xvii-p7.8"></A><a href="../../../../bib/kjv/act007.html#053">Acts vii. 53</a><a name="vi.xvii-p7.9"></A>; <a href="../../../../bib/kjv/heb002.html#002">Heb. ii. 2</a><a name="vi.xvii-p7.10"></A>). See Lightfoot on <a href="../../../../bib/kjv/gal002.html#019">Gal. ii. 19</a><a name="vi.xvii-p7.11"></A>.&#8212;G.B.S.</p>
+<A NAME="fn_387"></A><A HREF="1110022.html#fr_387">i:388</A> <a name="vi.xvii-p7.14"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p8"></A> By <span class="Greek"><a name="vi.xvii-p8.1"></A>&#955;&#8057;&#947;&#953;&#945; &#950;&#8182;&#957;&#964;&#945;</span> are meant living oracles in the sense of operative, effectual, as Jesus affirmed his words to be &#8220;spirit and life&#8221; (<a href="../../../../bib/kjv/joh006.html#063">John vi. 63</a><a name="vi.xvii-p8.2"></A>). They contain vital truth. The law was indeed &#8220;weak&#8221; (<a href="../../../../bib/kjv/rom008.html#003">Rom. viii. 3</a><a name="vi.xvii-p8.3"></A>) but it was so &#8220;through the flesh,&#8221; i.e. human sinfulness. It was not inherently weak but was so relatively to the great power of sin in man which needed to be overcome.&#8212;G.B.S.</p>
+<A NAME="fn_388"></A><A HREF="1110022.html#fr_388">i:389</A> <a name="vi.xvii-p8.8"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p9"></A> It is not probable that this passage (<a name="vi.xvii-p9.1"></A>v. 39, 40) means that the people proposed to return to Egypt (as Chrys.). In the O.T. the constant representation is that the golden calf (or bull) was worshipped as the image of the divinity who had <i>led them out of Egypt</i> (<a name="vi.xvii-p9.2"></A><a href="../../../../bib/kjv/exo032.html#004">Ex. xxxii. 4</a><a name="vi.xvii-p9.3"></A>; <a href="../../../../bib/kjv/kg1012.html#028">1 Kings xii. 28</a><a name="vi.xvii-p9.4"></A>). It seems clearly implied in <a name="vi.xvii-p9.5"></A><a href="../../../../bib/kjv/eze020.html#007">Ezek. 20:7</a>, <a href="../../../../bib/kjv/eze020.html#008">8</a>, <a href="../../../../bib/kjv/eze020.html#024">24</a><a name="vi.xvii-p9.6"></A>, that the Israelites while in Egypt had been much addicted to the idolatry of the country. The meaning here is that, being discouraged and disappointed on account of Moses&#146; continued absence in the mount, they were ready to transfer their allegiance from Jehovah to some of the divinities to whose worship they had previously been accustomed. The worship of cattle was especially common, as of Apis at Memphis and Mnevis at Heliopolis.&#8212;G.B.S.</p>
+<A NAME="fn_389"></A><A HREF="1110022.html#fr_389">i:390</A> <a name="vi.xvii-p9.7"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p10"></A> <span class="Greek"><a name="vi.xvii-p10.1"></A>&#8142;</span><span class="Greek"><a name="vi.xvii-p10.2"></A>&#917;&#957;&#952;&#945; &#956;&#8050;&#957; &#949;&#8016;&#967;&#945;&#961;&#953;&#963;&#964;&#949;&#8150;&#957; &#7956;&#948;&#949;&#953;</span>, A, B, C. D. F., but N. and Cat. <span class="Greek"><a name="vi.xvii-p10.3"></A>&#7936;</span><span class="Greek"><a name="vi.xvii-p10.4"></A>&#967;&#945;&#961;&#953;&#963;&#964;&#949;&#8150;&#957;</span>.&#8212;<span class="Greek"><a name="vi.xvii-p10.5"></A>&#917;.</span> <span class="Greek"><a name="vi.xvii-p10.6"></A>&#922;&#945;&#8054; &#7956;&#957;&#966;&#945; &#956;&#8050;&#957; &#945;&#8016;&#964;&#959;&#8058;&#962; &#7936;&#967;&#945;&#961;&#953;&#963;&#964;&#949;&#8150;&#957; &#7974;&#957;</span>. Edd. <span class="Greek"><a name="vi.xvii-p10.7"></A>&#949;&#8016;&#967;</span>.</p>
+<A NAME="fn_390"></A><A HREF="1110022.html#fr_390">i:391</A> <a name="vi.xvii-p10.8"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p11"></A> This clause, omitted by A. B. C , is preserved by N. and the Catena. The calf was one, yet they called it Gods: on which St. Chrys. remarks elsewhere, that they added polytheism to idolatry.&#8212;The next sentence may perhaps be completed thus: &#8220;that they did not even know that there is One God.&#8221;&#8212;Edd. from E.F.D. &#8220;So frantic are they, that they know not what they say.&#8221;</p>
+<A NAME="fn_391"></A><A HREF="1110022.html#fr_391">i:392</A> <a name="vi.xvii-p11.3"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p12"></A> <span class="Greek"><a name="vi.xvii-p12.1"></A>&#948;&#953;&#8048; &#947;&#8048;&#961; &#964;&#959;&#8166;&#964;&#959; &#7952;&#960;&#953;&#963;&#951;&#956;&#945;&#8055;&#957;&#949;&#964;&#945;&#953;</span>. The meaning is: Stephen was accused of speaking against &#8220;the customs,&#8221;&#8212;sacrifices, temple, feasts, etc. Therefore he significantly points to that critical conjuncture from which these &#8220;customs&#8221; date their introduction: namely, the Provocation at Horeb. Prior to that, he tells of &#8220;living oracles,&#8221; life-giving precepts: after it, and as its consequence, sacrifices, etc., those statutes which were not good, and ordinances by which a man shall not live, as God says by Ezekiel. Not a word of sacrifice till then: and the first mention is, of the sacrifices offered to the calf. In like manner, &#8220;they rejoiced,&#8221; &#8220;the people ate and drank, and rose up to play:&#8221; and in consequence of this, the feasts were prescribed: <span class="Greek"><a name="vi.xvii-p12.2"></A>&#954;&#945;&#8054; &#949;&#8016;&#966;&#961;&#945;&#8055;&#957;&#959;&#957;&#964;&#959;, &#966;&#951;&#963;&#8055;&#957;&#903; &#948;&#953;&#8048; &#964;&#959;&#8166;&#964;&#959; &#954;&#945;&#8054; &#7953;&#959;&#961;&#964;&#945;&#8055;</span>.&#8212;<span class="Greek"><a name="vi.xvii-p12.3"></A>&#8125;</span><span class="Greek"><a name="vi.xvii-p12.4"></A>&#917;</span><span class="Greek"><a name="vi.xvii-p12.5"></A>&#960;&#953;&#963;&#951;&#956;&#945;&#8055;&#957;&#949;&#964;&#945;&#953;</span> might be rendered, &#8220;he marks,&#8221; &#8220;puts a mark upon it&#8221; (so the innovator, who substitutes, <span class="Greek"><a name="vi.xvii-p12.6"></A>&#964;&#959;&#8166;&#964;&#959; &#954;&#945;&#8054; &#916;&#945;&#965;&#8054;&#948; &#7952;&#960;&#953;&#963;&#951;&#956;&#945;&#953;&#957;&#8057;&#956;&#949;&#957;&#959;&#962; &#955;&#8051;&#947;&#949;&#953;</span>): we take it passively, &#8220;there is a mark set over it&#8212;it is emphatically denoted.&#8221; In the active, the verb taken intransitively means &#8220;to betoken or announce itself,&#8221; &#8220;make its first appearance.&#8221;&#8212;In the Treatise <i>adv. Jud&aelig;os,</i> iv. &sect;6. tom. i. 624. C. St. Chrysostom gives this account of the legal sacrifices: &#8220;To what purpose unto Me is the multitude of your sacrifices? etc. (<a name="vi.xvii-p12.7"></A><a href="../../../../bib/kjv/isa001.html#000">Isaiah i.</a><a name="vi.xvii-p12.8"></A>, 11, ff.) Do ye hear how it is most plainly declared, that God did not from the first require these at your hands? Had He required them, He would have obliged those famous saints who were before the Law to observe this practice. &#145;Then wherefore has He permitted it now?&#146; In condescension to your infirmity. As a physician in his treatment of a delirious patient, etc.: thus did God likewise. For seeing them so frantic in their lust for sacrifices, that they were ready, unless they got them, to desert to idols: nay not only ready, but that they had already deserted, thereupon He permitted sacrifices. And that this is the reason, is clear from the order of events. After the feast which they made to the demons, then it was that He permitted sacrifices: all but saying: &#145;Ye are mad, and will needs sacrifice: well then, at any rate sacrifice to Me.&#146;&#8221;&#8212;(What follows may serve to illustrate the brief remark a little further on, <span class="Greek"><a name="vi.xvii-p12.9"></A>&#922;&#945;&#8054; &#7969; &#945;&#7984;&#967;&#956;&#945;&#955;&#969;&#963;&#8055;&#945; &#954;&#945;&#964;&#951;&#947;&#959;&#961;&#8055;&#945; &#964;&#8134;&#962; &#954;&#945;&#954;&#8055;&#945;&#962;</span>.) &#8220;But even this, He did not permit to continue to the end, but by a most wise method, withdrew them from it&#8230;For He did not permit it to be done in any place of the whole world, but in Jerusalem only. Anon, when for a short time they had sacrificed, he destroyed the city. Had He openly said, Desist, they, such was their insane passion for sacrificing, would not readily have complied. But now perforce, the place being taken away, He secretly withdrew them from their frenzy.&#8221; So here: &#8220;Even the captivity impeaches the wickedness (which was the cause of the permission of sacrifice.&#8221;)</p>
+<A NAME="fn_392"></A><A HREF="1110022.html#fr_392">i:393</A> <a name="vi.xvii-p12.12"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p13"></A> Our passage here follows the lxx. which speaks of Moloch and Remphan. The terms in the original (vid. R.V.: <a href="../../../../bib/kjv/amo005.html#025">Amos v. 25-27</a><a name="vi.xvii-p13.1"></A>) are &#8220;Siccuth&#8221; and &#8220;Chiun.&#8221; It is a disputed point whether these are in the prophecy names of divinities or whether they mean respectively &#8220;tabernacle&#8221; and &#8220;shrine&#8221; (or image). The difficulty lies in the ambiguity of the Hebrew text. The name Moloch being akin to the Hebrew word for king (<span class="Hebrew"><a name="vi.xvii-p13.2"></A>&#1502;&#1500;&#1498;</span>), confusion might easily arise. The N.T. text varies from the lxx. only in adding the word <span class="Greek"><a name="vi.xvii-p13.3"></A>&#960;&#961;&#959;&#963;&#954;&#965;&#957;&#949;&#8150;&#957;</span> (<a href="../../../../bib/kjv/act007.html#043">Acts 7.43</a><a name="vi.xvii-p13.4"></A>) to lay emphasis upon the charge of idolatry, and in replacing Damascus by Babylon (<a href="../../../../bib/kjv/act007.html#043">Acts 7.43</a><a name="vi.xvii-p13.5"></A>), an interpretation from the standpoint of subsequent history. The statement of our text that the Israelites fell into the worship of these divinities <i>in the wilderness</i> rests upon extra-Pentateuchal tradition, derived, perhaps, from such prohibitions of Moloch-worship and similar idolatries as are found in <a href="../../../../bib/kjv/lev018.html#021">Lev. 18:21</a>, <a href="../../../../bib/kjv/deu018.html#010">Deut. 18:10</a><a name="vi.xvii-p13.6"></A><a href="../../../../bib/kjv/lev018.html#021">Lev. xviii. 21</a><a name="vi.xvii-p13.7"></A>, and <a href="../../../../bib/kjv/deu018.html#010">Deut. xviii. 10</a><a name="vi.xvii-p13.8"></A>. The charge in the prophecy of Amos is a general one referring to the frequent lapses of the people into image-worship down to his own time.&#8212;G.B.S.</p>
+<A NAME="fn_393"></A><A HREF="1110022.html#fr_393">i:394</A> <a name="vi.xvii-p13.11"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p14"></A> <span class="Greek"><a name="vi.xvii-p14.1"></A>&#8037;</span><span class="Greek"><a name="vi.xvii-p14.2"></A>&#963;&#964;&#949; &#7952;&#957; &#964;&#8183; &#8004;&#961;&#949;&#953; &#7969; &#8017;&#960;&#959;&#947;&#961;&#945;&#966;&#8052; &#947;&#8051;&#947;&#959;&#957;&#949;</span>. In the following sentences, there are numerous variations in Edd. from the old text, but they do not materially affect the sense, and certainly do not improve it.</p>
+<A NAME="fn_394"></A><A HREF="1110022.html#fr_394">i:395</A> <a name="vi.xvii-p14.3"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p15"></A> The expression here used&#8212;<span class="Greek"><a name="vi.xvii-p15.1"></A>&#7969;</span> <span class="Greek"><a name="vi.xvii-p15.2"></A>&#963;&#954;&#951;&#957;&#8052; &#964;&#959;&#8166; &#956;&#945;&#961;&#964;&#965;&#961;&#8055;&#959;&#965;</span> is the constant but inexact lxx. translation of <span class="Hebrew"><a name="vi.xvii-p15.3"></A>&#1488;&#1492;&#1500; &#1502;&#1493;&#1506;&#1491;</span> &#8220;tent of meeting&#8221;&#8212;i.e. the tent where God met the people. From a misunderstanding of the etymology of <span class="Hebrew"><a name="vi.xvii-p15.4"></A>&#1502;&#1465;&#1493;&#1506;&#1491;</span> (it being taken from <span class="Hebrew"><a name="vi.xvii-p15.5"></A>&#1506;&#1493;&#1491;</span> <i>to witness</i>, instead of from <span class="Hebrew"><a name="vi.xvii-p15.6"></A>&#1497;&#1506;&#1491;</span> <i>to assemble</i>) it was translated by <span class="Greek"><a name="vi.xvii-p15.7"></A>&#956;&#945;&#961;&#964;&#965;&#961;&#8055;&#959;&#957;</span>&#8212;a rendering which has occasioned frequent misunderstanding. <span class="Greek"><a name="vi.xvii-p15.8"></A>&#924;&#945;&#961;&#964;&#965;&#961;&#8055;&#959;&#957;</span> is rightly used in the lxx. to render <span class="Hebrew"><a name="vi.xvii-p15.9"></A>&#1506;&#1491;&#1493;&#1514;</span> (from <span class="Hebrew"><a name="vi.xvii-p15.10"></A>&#1506;&#1493;&#1468;&#1491;</span>) in <a name="vi.xvii-p15.11"></A><a href="../../../../bib/kjv/exo025.html#022">Exod. xxv. 22</a><a name="vi.xvii-p15.12"></A>; <a href="../../../../bib/kjv/num009.html#015">Num. ix. 15</a><a name="vi.xvii-p15.13"></A>.&#8212;G.B.S.</p>
+<A NAME="fn_395"></A><A HREF="1110022.html#fr_395">i:396</A> <a name="vi.xvii-p16.3"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p17"></A> E. F. D. Edd. add, &#8220;that they knew (Him) not, and that they murdered (Him):&#8221; but the meaning is, that they betrayed, and that they murdered: or, as below, Their fathers slew the Prophets, and they, Him Whom they preached.</p>
+<A NAME="fn_396"></A><A HREF="1110022.html#fr_396">i:397</A> <a name="vi.xvii-p17.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p18"></A> <span class="Greek"><a name="vi.xvii-p18.1"></A>&#964;&#8056;&#957; &#7952;&#954;&#949;&#8150;&#957;&#945; &#960;&#959;&#953;&#8053;&#963;&#945;&#957;&#964;&#945;</span>, A. B. C. N. Cat. i.e. that Christ, Who, as the Angel, did those works, etc. The modern text <span class="Greek"><a name="vi.xvii-p18.2"></A>&#964;&#959;&#8058;&#962; &#7952;&#954;. &#960;&#959;&#953;&#8053;&#963;&#945;&#957;&#964;&#945;&#962;</span>: that those who did those wickednesses, etc.: and so &#338;c. seems to have taken it: &#8220;If ye killed them who preached Him to come, no wonder that ye kill Me,&#8221; etc.&#8212;Below, for <span class="Greek"><a name="vi.xvii-p18.3"></A>&#927;&#7985; &#964;&#959;&#8055;&#957;&#965;&#957; &#7936;&#957;&#964;&#953;&#960;&#959;&#953;&#959;&#8166;&#957;&#964;&#945;&#953; &#964;&#959;&#8166; &#957;&#8057;&#956;&#959;&#965;, &#954;&#945;&#8054; &#7956;&#955;&#949;&#947;&#959;&#957;</span>, A. B. N. (N. corrected <span class="Greek"><a name="vi.xvii-p18.4"></A>&#959;&#8023;&#964;&#959;&#953; &#957;&#8166;&#957;</span>) have <span class="Greek"><a name="vi.xvii-p18.5"></A>&#927;&#8016; &#964;&#959;&#8055;&#957;&#965;&#957; &#954;. &#964;. &#955;</span>. and A. <span class="Greek"><a name="vi.xvii-p18.6"></A>&#955;&#8051;&#947;&#959;&#957;&#964;&#949;&#962;</span>: &#8220;Therefore they claim not the Law (on their side), saying,&#8221; etc.</p>
+<A NAME="fn_397"></A><A HREF="1110022.html#fr_397">i:398</A> <a name="vi.xvii-p18.7"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p19"></A> <span class="Greek"><a name="vi.xvii-p19.1"></A>&#8125;</span><span class="Greek"><a name="vi.xvii-p19.2"></A>&#913;&#947;&#947;&#8051;&#955;&#969;&#957;</span> (<a href="../../../../bib/kjv/act007.html#053">Acts 7.53</a><a name="vi.xvii-p19.3"></A>) cannot refer (as Chrys.) to the Jehovah-angel of the bush. It refers to angels as the mediators in the giving of the law, an idea which appears in the lxx., the N.T. elsewhere (<a name="vi.xvii-p19.4"></A><a href="../../../../bib/kjv/gal003.html#019">Gal. iii. 19</a><a name="vi.xvii-p19.5"></A>; <a href="../../../../bib/kjv/heb002.html#002">Heb. ii. 2</a><a name="vi.xvii-p19.6"></A>) and is prominent in later Jewish theology (Cf. Josephus, <i>Ant.</i> XV. v. 3) Vid. note *, p. 107.&#8212;G.B.S.</p>
+<A NAME="fn_398"></A><A HREF="1110022.html#fr_398">i:399</A> <a name="vi.xvii-p20.4"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p21"></A> <span class="Greek"><a name="vi.xvii-p21.1"></A>&#927;&#8016; &#947;&#8048;&#961; &#948;&#8059;&#957;&#945;&#964;&#945;&#953; &#8001;&#956;&#959;&#8166; &#954;&#945;&#8054; &#954;&#945;&#964;&#8048; &#964;&#945;&#8016;&#964;&#8056;&#957;</span> <span class="Greek"><a name="vi.xvii-p21.2"></A>(</span><span class="Greek"><a name="vi.xvii-p21.3"></A>&#954;&#945;&#964;&#8125; &#945;&#8016;&#964;&#8056;&#957;</span> A. C. and N. originally) <span class="Greek"><a name="vi.xvii-p21.4"></A>&#954;&#945;&#8054; &#954;&#945;&#964;&#8057;&#961;&#952;&#969;&#956;&#945; &#949;&#7990;&#957;&#945;&#953; &#954;&#945;&#8054; &#7952;&#955;&#8049;&#964;&#964;&#969;&#956;&#945;. &#8190;&#919; &#960;&#945;&#961;&#961;&#951;&#963;&#8055;&#945;, &#954;&#945;&#964;&#8057;&#961;&#952;&#969;&#956;&#945;&#903; &#8001; &#952;&#965;&#956;&#8056;&#962;, &#7952;&#955;&#8049;&#964;&#964;&#969;&#956;&#945;</span>.</p>
+<A NAME="fn_399"></A><A HREF="1110022.html#fr_399">i:400</A> <a name="vi.xvii-p22.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p23"></A> Edd. from E. <span class="Greek"><a name="vi.xvii-p23.1"></A>&#931;&#945;&#8055;&#957;&#949;&#953; &#8001; &#948;&#953;&#8049;&#946;&#959;&#955;&#959;&#962; &#960;&#959;&#955;&#955;&#8049;&#954;&#953;&#962; &#8033;&#962; &#8001; &#954;&#8059;&#969;&#957;, &#7936;&#955;&#955;&#8048; &#947;&#957;&#8061;&#964;&#969; &#960;&#8118;&#962; &#8005;&#964;&#953;</span>. &#8220;The devil fawns full oft as the dog, but let every man know that,&#8221; etc. A. B. C. N. <span class="Greek"><a name="vi.xvii-p23.2"></A>&#8033;</span><span class="Greek"><a name="vi.xvii-p23.3"></A>&#962;</span> <span class="Greek"><a name="vi.xvii-p23.4"></A>&#8001; &#954;&#8059;&#969;&#957; &#949;&#7984;&#948;&#8051;&#964;&#969;</span> <span class="Greek"><a name="vi.xvii-p23.5"></A>(</span><span class="Greek"><a name="vi.xvii-p23.6"></A>&#7984;</span><span class="Greek"><a name="vi.xvii-p23.7"></A>&#948;&#8051;&#964;&#969;</span> <span class="Greek"><a name="vi.xvii-p23.8"></A>&#935;.)</span> <span class="Greek"><a name="vi.xvii-p23.9"></A>&#8005;</span><span class="Greek"><a name="vi.xvii-p23.10"></A>&#964;&#953;</span>. We restore the true reading by omitting <span class="Greek"><a name="vi.xvii-p23.11"></A>&#8033;</span><span class="Greek"><a name="vi.xvii-p23.12"></A>&#962;</span>. &#8220;The dog&#8221; is anger: the devil <span class="Greek"><a name="vi.xvii-p23.13"></A>&#963;&#945;&#8055;&#957;&#949;&#953;</span>, not <i>as</i> the dog, but <i>upon</i> the dog, as the <span class="Greek"><a name="vi.xvii-p23.14"></A>&#7936;</span><span class="Greek"><a name="vi.xvii-p23.15"></A>&#955;&#955;&#8057;&#964;&#961;&#953;&#959;&#962;</span> in the preceding sentence. &#8220;Let our faithful watch-dog see at once that he is an intruder.&#8221; In the following sentence the image is so far incongruous, as <span class="Greek"><a name="vi.xvii-p23.16"></A>&#963;&#945;&#8055;&#957;&#969;&#956;&#949;&#957;</span> here has a different reference: viz. &#8220;as the dog fawns upon the friend though beaten, so let us,&#8221; etc.</p>
+<A NAME="fn_400"></A><A HREF="1110022.html#fr_400">i:401</A> <a name="vi.xvii-p23.18"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xvii-p24"></A> <span class="Greek"><a name="vi.xvii-p24.1"></A>&#7938;</span><span class="Greek"><a name="vi.xvii-p24.2"></A>&#957; &#948;&#8050; &#945;&#8016;&#964;&#959;&#8058;&#962; &#954;&#945;&#8054; &#964;&#961;&#8051;&#966;&#8131; &#8001; &#7936;&#955;&#955;&#8057;&#964;&#961;&#953;&#959;&#962; &#954;&#945;&#8054; &#959;&#8021;&#964;&#969; &#946;&#955;&#8049;&#960;&#964;&#959;&#965;&#963;&#953;&#957;</span> <span class="Greek"><a name="vi.xvii-p24.3"></A>(&#913;.</span> <span class="Greek"><a name="vi.xvii-p24.4"></A>&#946;&#955;&#8049;&#968;&#959;&#965;&#963;&#953;&#957;</span>). The antithesis seems to require the sense to be, &#8220;While, if the stranger even feed them, for all that, they do him a mischief.&#8221; But the words <span class="Greek"><a name="vi.xvii-p24.5"></A>&#964;&#961;&#8051;&#966;&#8131;</span> and <span class="Greek"><a name="vi.xvii-p24.6"></A>&#946;&#955;&#8049;&#960;&#964;&#959;&#965;&#963;&#953;&#957;</span> are scarcely suitable in the sense, <span class="Greek"><a name="vi.xvii-p24.7"></A>&#964;&#961;&#959;&#966;&#8052;&#957; &#948;&#953;&#948;&#8183;</span> and <span class="Greek"><a name="vi.xvii-p24.8"></A>&#955;&#965;&#956;&#945;&#8055;&#957;&#959;&#957;&#964;&#945;&#953;</span>. Edd. have from E. alone, <span class="Greek"><a name="vi.xvii-p24.9"></A>&#960;&#8182;&#962; &#959;&#8016; &#956;&#8118;&#955;&#955;&#959;&#957; &#946;&#955;&#8049;&#968;&#959;&#965;&#963;&#953;&#957;</span>; in the sense, &#8220;If however the stranger (not merely caresses but) also (regularly) feeds them, how shall they not do more hurt (than good)?&#8221; i.e. &#8220;If the devil be suffered to pamper our anger, that which should have been our safeguard will prove a bane to us.&#8221;&#8212;Perhaps this is the sense intended in the old reading; but if so, <span class="Greek"><a name="vi.xvii-p24.10"></A>&#954;&#945;&#8054; &#959;&#8021;&#964;&#969;</span> is unsuitable.</p>
+<p><HR>
+<CENTER>
+<A HREF="1110023.html">Next: Homily XVIII on Acts vii. 54.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/111/1110022.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/111/1110022.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/y8mtxsy'>tak.la/y8mtxsy</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/y8mtxsy';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+

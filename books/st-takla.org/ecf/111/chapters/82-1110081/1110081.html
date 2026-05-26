@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Nicene and Post-Nicene Fathers, Vol. 11: Saint Chrysostom: Homilies on the Acts of the Apostles and the Epistle to the Romans | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Saint Chrysostom Homilies Acts Apostles Epistle Romans">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Nicene and Post-Nicene Fathers, Vol. XI: The Homilies of St. John Chrysostom on Paul's Epistle to the Romans: Homily XVIII on Rom. x. 14, 15. | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/111/1110081.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:32:15+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/111/'>111</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/111/'>111</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Nicene and Post-Nicene Fathers, Vol. XI:<br>The Homilies of St. John Chrysostom on Paul's Epistle to the Romans: Homily XVIII on Rom. x. 14, 15.</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="1110080.html" id="prev">Previous</A>&nbsp;
+<A HREF="1110082.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="vii.xx"></A>   <a name="vii.xx-p0.1"></A> 
+<p style="font-size: 16pt" class="c33"><a name="vii.xx-p1"></A><a href="../../../../bib/kjv/rom010.html#014">Rom. 10:14</a>, <a href="../../../../bib/kjv/rom010.html#015">15</a><a name="vii.xx-p1.1"></A></p> 
+<p style="font-size: 16pt" class="c21"><a name="vii.xx-p2"></A><span class="c9"><a name="vii.xx-p2.1"></A>Homily XVIII.</span></p>  
+<p style="font-size: 16pt" class="c34"><a name="vii.xx-p3"></A>&#8220;How then shall they call on Him in Whom they have not believed? and how shall they believe in Him of Whom they have not heard? and how shall they hear without a preacher? and how shall they preach except they be sent? as it is written.&#8221;</p>  
+<p style="font-size: 16pt" class="c12"><a name="vii.xx-p4"></A><span class="c11"><a name="vii.xx-p4.1"></A>Here</span> again he takes from them all excuse. For since he had said, &#8220;I bear them record that they have a zeal of God, but not according to knowledge,&#8221; and that &#8220;being ignorant of God&#146;s righteousness, they submitted not themselves&#8221; to it: he next shows, that for this ignorance itself they were punishable before God. This he does not say indeed so, but he makes it good by carrying on his discourse in the way of question, and so convicting them more clearly, by framing the whole passage out of objections and answers. But look further back. The Prophet, saith he, said, &#8220;Whosoever shall call upon the Name of the Lord shall be saved.&#8221; Now somebody might say perhaps, &#8220;But how could they call upon Him Whom they had not believed? Then there is a question from him after the objection; And why did they not believe? Then an objection again. A person certainly may say, And how could they believe, since they had not heard? Yet hear they did, he implies. Then another objection again. &#8220;And how could they hear without a preacher?&#8221; Then an answer again. Yet preach they did, and there were many sent forth for this very purpose. And whence does it appear that these are those persons sent? Then he brings the prophet in next, who says, &#8220;How beautiful are the feet of them that preach the Gospel of peace, and bring glad tidings of good things!&#8221; (<a name="vii.xx-p4.2"></A><a href="../../../../bib/kjv/isa003.html#007">Is. iii. 7</a><a name="vii.xx-p4.3"></A>.) You see how by the kind of preaching he points out the preachers. For there was nothing else that these men went about telling everywhere, but those unspeakable good things, and the peace made by God with men. And so by disbelieving, it is not we, he implies, whom you disbelieve, but Isaiah the prophet, who spake many years ago, that we were to be sent, and to preach, and to say what we do say. If the being saved, then, came of calling upon Him, and calling upon Him from believing, and believing from hearing, and hearing from preaching, and preaching from being sent, and if they were sent, and did preach, and the prophet went round with them to point them out, and proclaim them, and say that these were they whom they showed of so many ages ago, whose feet even they praised because of the matter of their preaching; then it is quite clear that the not believing was their own fault only. And that because God&#146;s part had been fulfilled completely.&nbsp;<A NAME="fr_1494"></A><A HREF="#fn_1494"><FONT SIZE="1">1495</FONT></A>
+</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p6"></A><a href="../../../../bib/kjv/rom010.html#016">Rom. 10:16</a>, <a href="../../../../bib/kjv/rom010.html#017">17</a><a name="vii.xx-p6.1"></A>. &#8220;But they have not all obeyed the Gospel. For Esaias saith, Lord, who hath believed our report? So then faith cometh by hearing, and hearing by the word of God.&#8221; (<a href="../../../../bib/kjv/isa053.html#001">Isa. 53.1</a><a name="vii.xx-p6.2"></A>.)</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p7"></A>Since they pressed him with another objection again to this effect, that if these were the persons sent upon the mission by God, all ought to have hearkened to them: observe Paul&#146;s judgment, and see how he shows that this very thing which made the confusion, did in fact do away with confusion and embarrassment. What offends you, O Jew, he would say, after so great and abundant evidence, and demonstration of the points? that all did not submit to the Gospel? Why this very thing, when taken along with the others, is of force to certify thee of the truth of my statements, even in that some do not believe. For this too the prophet foretold. Notice his unspeakable wisdom too; how he shows more than they were looking for, or expected him to have to say in reply. For what is it that you say? he means. Is it that all have not believed the Gospel? Well! Isaiah foretold this too from of old. Or rather, not this only, but even much more than this. For the complaint you make is Why did not all believe? But Isaiah goes further than this. For what is it he says? &#8220;Lord, who hath believed our report?&#8221; Then since he had rid himself of this embarrassment. by making the Prophet a bulwark against them, he again keeps to the line he was before upon. For as he had said that they must call upon Him, but that they who call must believe, and they who believe must hear first, but they who are to hear must have preachers, and the preachers be sent, and as he had shown that they were sent, and had preached; as he is going to bring in another objection again, taking occasion first of another quotation from the Prophet, by which he had met the objection a little back, he thus interweaves it, and connects it with what went before. For since he had produced the Prophet as saying, &#8220;Lord, who hath believed our report&#8221; (<span class="Greek"><a name="vii.xx-p7.1"></A>&#7936;</span><span class="Greek"><a name="vii.xx-p7.2"></A>&#954;&#959;&#8085;</span>)? he happily seizes on the quotation, as proving what he says, &#8220;So then faith cometh by hearing&#8221; (<span class="Greek"><a name="vii.xx-p7.3"></A>&#7936;</span><span class="Greek"><a name="vii.xx-p7.4"></A>&#954;&#959;&#7973;&#962;</span>). And this he makes not a mere naked statement. But as the Jews were forever seeking a sign, and the sight of the Resurrection, and were gaping after the thing much; he says, Yet the Prophet promised no such thing, but that it was by hearing that we were to believe. Hence he makes this good first, and says, &#8220;so then faith cometh by hearing.&#8221; And then since this seemed a mean thing to say, see how he elevates it. For he says, I was not speaking of mere hearing, nor of the need of hearing men&#146;s words and believing them, but I mean a great sort of hearing. For the hearing is &#8220;by the word of God.&#8221; They were not speaking their own, but they were telling what they learnt from God. And this is a higher thing than miracles. For we are equally bound to believe and to obey God, whether speaking or working miracles.&nbsp;<A NAME="fr_1495"></A><A HREF="#fn_1495"><FONT SIZE="1">1496</FONT></A>
+ Since both works and miracles come of His words. For both the heaven and everything else was established in this way. (<a href="../../../../bib/kjv/psa033.html#006">Ps. xxxiii. 6-8</a><a name="vii.xx-p8.2"></A>.) After showing then that we ought to believe the prophets, who always speak God&#146;s words, and not to look after anything more, he proceeds next to the objection I mentioned, and says,</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p9"></A><a href="../../../../bib/kjv/rom010.html#018">Rom. 10.18</a><a name="vii.xx-p9.1"></A>. &#8220;But I say, Have they not heard?&#8221;</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p10"></A>What, he means, if the preachers were sent, and did preach what they were bid, and these did not hear? Then comes a most perfect reply to the objection.</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p11"></A>&#8220;Yes, verily, their sound went into all the earth, and their words unto the ends of the world.&#8221;&nbsp;<A NAME="fr_1496"></A><A HREF="#fn_1496"><FONT SIZE="1">1497</FONT></A>
+</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p22"></A>What do you say? he means. They have not heard? Why the whole world, and the ends of the earth, have heard. And have you, amongst whom the heralds abode such a long time, and of whose land they were, not heard? Now can this ever be? Sure if the ends of the world heard, much more must you. Then again another objection.</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p23"></A><a href="../../../../bib/kjv/rom010.html#019">Rom. 10.19</a><a name="vii.xx-p23.1"></A>. &#8220;But I say, Did not Israel know?&#8221;</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p24"></A>For what if they heard, he means, but did not know what was said, nor understand that these were the persons sent? Are they not to be forgiven for their ignorance? By no means. For Isaiah had described their character in the words, &#8220;How beautiful are the feet of them that preach the Gospel of peace.&#8221; (<a name="vii.xx-p24.1"></A><a href="../../../../bib/kjv/isa052.html#007">Is. lii. 7</a><a name="vii.xx-p24.2"></A>.) And before him the Lawgiver himself. Hence he proceeds.</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p25"></A>&#8220;First Moses saith, I will provoke you to jealousy by them that are no people, and by a foolish nation I will anger you.&#8221; (<a name="vii.xx-p25.1"></A><a href="../../../../bib/kjv/deu032.html#021">Deut. xxxii. 21</a><a name="vii.xx-p25.2"></A>.)</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p26"></A>And so they ought even from him to have been able to distinguish the preachers, not from the fact of these disbelieving only, not from the fact of their preaching peace, not from the fact of their bringing the glad tidings of those good things, not from the word being sown in every part of the world, but from the very fact of their seeing their inferiors, those of the Gentiles, in greater honor. For what they had never heard, nor their forefathers, that wisdom did these&nbsp;<A NAME="fr_1497"></A><A HREF="#fn_1497"><FONT SIZE="1">1498</FONT></A>
+ on a sudden embrace (<span class="Greek"><a name="vii.xx-p27.1"></A>&#7953;</span><span class="Greek"><a name="vii.xx-p27.2"></A>&#966;&#953;&#955;&#959;&#963;&#8057;&#966;&#959;&#965;&#957;</span>). And this was a mark of such intense honor, as should gall them, and lead them to jealousy, and to recollection of the prophecy of Moses, which said, &#8220;I will provoke you to jealousy by them that are no people.&#8221; For it was not the greatness of the honor alone that was enough to throw them upon jealousy, but the fact too that a nation had come to enjoy these things which was of so little account that it could hardly be considered a nation at all. &#8220;For I will provoke you to jealousy, by them which are no nation, and by a foolish nation will I anger you.&#8221; For what more foolish than the Greeks (Heathen, see pp. 373, 377)? or what of less account? See how by every means God had given from of old indications and clear signs of these times, in order to remove their blindness. For it was not any little corner in which the thing was done, but in land, and in sea, and in every quarter of the globe. And they saw those in the enjoyment of countless blessings now, who had formerly been objects of their contempt. One should consider then that this is that people of which Moses said, &#8220;I will provoke you to jealousy by them that are no people, and by a foolish nation will I anger you.&#8221; Was it Moses only then that said this? No, for Isaiah also after Him saith so. And this is why Paul said, &#8220;First Moses,&#8221; to show that a second will come who says the same things in a clearer and plainer way. As then he says above, that Esaias crieth, so too here.</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p28"></A><a href="../../../../bib/kjv/rom010.html#020">Rom. 10.20</a><a name="vii.xx-p28.1"></A>. &#8220;But Esaias is very bold, and saith.&#8221;</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p29"></A>Now what he means is something of this kind. He put a violence on himself, and was ambitious to speak, not some thing veiled over, but to set things even naked before your eyes, and choosing rather to run (Origen <i>in loc</i>.) into dangers from being plain spoken, than by looking to his own safety, to leave you any shelter for your impenetrableness; although it was not the manner of prophecy to say this so clearly; but still to stop your mouths most completely, he tells the whole beforehand clearly and distinctly. The whole! what whole? Why your being cast out, and also their being brought in; speaking as follows, &#8220;I was found of them that sought Me not, I was made manifest of them that asked not after Me.&#8221; (<a name="vii.xx-p29.1"></A><a href="../../../../bib/kjv/isa065.html#001">Is. lxv. 1</a><a name="vii.xx-p29.2"></A>.) Who then are they that sought not? who they that asked not after Him? Clearly not the Jews, but they of the Gentiles, who hitherto had not known Him. As then Moses gave their characteristic mark in the words, &#8220;no people&#8221; and &#8220;a foolish nation,&#8221; so here also he takes the same ground to point them out from, viz. their extreme ignorance. And this was a very great blame to attach to the Jews, that they who sought Him not found Him, and they who sought Him lost Him.</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p30"></A><a href="../../../../bib/kjv/rom010.html#021">Rom. 10.21</a><a name="vii.xx-p30.1"></A>. &#8220;But unto Israel He saith, All the day long have I stretched forth My hands unto a disobedient and gainsaying people.&#8221; (<a name="vii.xx-p30.2"></A><a href="../../../../bib/kjv/isa065.html#002">Is. lxv. 2</a><a name="vii.xx-p30.3"></A>.)</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p31"></A>Observe now that difficulty, which so many make a subject of question, is discovered laid up from of old in the words of the Prophet, and with a clear solution to it too. And what is this? You heard Paul say before. &#8220;What shall we say then? That the Gentiles which followed not after righteousness have attained unto righteousness. But Israel which followed after the law of righteousness hath not attained to the law of righteousness.&#8221; (<a name="vii.xx-p31.1"></A><a href="../../../../bib/kjv/rom009.html#030">Rom. 9:30</a>, <a href="../../../../bib/kjv/rom009.html#031">31</a><a name="vii.xx-p31.2"></A>.) This Esaias also says here. For to say, &#8220;I was found of them that sought me not, I was made manifest unto them which asked not after me,&#8221; is the same with saying, &#8220;that the Gentiles which followed not after righteousness have attained unto righteousness.&#8221; Then to show that what was happening was not of God&#146;s grace only, but also of the temper of those who came to Him, as also the casting off of the others came of the disputatiousness of those who disobeyed, hear what he proceeds with. &#8220;But to Israel He saith, All the day long have I stretched forth My hands to a disobedient and gainsaying people;&#8221; here meaning by the day the whole period of the former dispensation. But the stretching out of the hands, means calling and drawing&nbsp;<A NAME="fr_1498"></A><A HREF="#fn_1498"><FONT SIZE="1">1499</FONT></A>
+ them to Him, and inviting them. Then to show that the fault was all their own, he says &#8220;to a disobedient and gainsaying people.&#8221; You see what a great charge this is against them! For they did not obey Him even when He invited them, but they gainsaid Him, and that when they saw Him doing so, not once or twice or thrice, but the whole period. But others who had never known Him, had the power to draw Him to them. Not that he says they themselves had the power to do it, but to take away lofty imaginings even from those of the Gentiles, and to show that it was His grace that wrought the whole, He says, I was made manifest, and I was found. It may be said, Were they then void of everything? By no means, for the taking of the things found, and the getting a knowledge of what was manifested to them, was what they contributed themselves.&nbsp;<A NAME="fr_1499"></A><A HREF="#fn_1499"><FONT SIZE="1">1500</FONT></A>
+ Then to prevent these saying, But why wast Thou not made manifest to us also? he sets down what is more than this, that I not only was made manifest, but I even continue with My hands stretched out, inviting them, and displaying all the concern of an affectionate father, and a mother that is set on her child. See how he has brought us a most lucid answer to all the difficulties before raised, by showing that it was from their own temper that ruin had befallen them, and that they are wholly undeserving of pardon. For though they had both heard and understood what was said, still not even then were they minded to come to Him. And what is far more, He did not cause them to hear these things and to understand them only, but a thing which hath more force to rouse them up and draw them to Him, when they were disobedient and gain-saying, He added to the others. Now what is this? It is His exasperating them, and making them jealous. For ye know the domineering might of the passion, and how great the power is which jealousy is naturally possessed of for bringing all disputatiousness to an end, and rousing those who have grown remiss. And why need one say this of man when in brutes without reason, and children before they are of full age, the power it shows is so great? For a child often will not submit to its father when it is called, but continues obstinate. But when another child has notice taken of it, then it even though not called comes to its father&#146;s bosom, and what calling could not do, provoking to jealousy will. This then God also did. For He not only called and stretched out His hands, but stirred up in them the feeling of jealousy also, by bringing those far inferior to them (a thing which makes men excessively jealous) not into their good things, but (what was a much stronger step, and makes the feeling even more domineering,) into much greater good things, and of greater necessity than theirs, and such as they had never even fancied in a dream. But still they did not submit. What pardon then do they deserve who exhibit such excessive obstinacy? None. Yet this he does not say himself, but leaves it to the consciences of his hearers, to gather it from the conclusion of what he had stated, and again also confirms it by what he goes on to in his usual wisdom. And this he did also above, by introducing objections both in the case of the Law (see on <a href="../../../../bib/kjv/rom007.html#007">Rom. vii. 7</a><a name="vii.xx-p33.1"></A>, pp. 420, I) and of the people, which presented an accusation beyond the true one; and then in the answer, which was to overthrow this, yielding as much as he pleased, and as the case allowed, so as to make what he was saying not unwelcome. And this he doth here, writing as follows:</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p34"></A><a href="../../../../bib/kjv/rom011.html#001">Rom. 11.1</a><a name="vii.xx-p34.1"></A>. &#8220;I say then, Hath God cast away His people whom He foreknew? God forbid.&#8221;&nbsp;<A NAME="fr_1500"></A><A HREF="#fn_1500"><FONT SIZE="1">1501</FONT></A>
+</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p36"></A>And he introduces the form a person would use in doubt, as though taking occasion from what had been said, and after making this alarming statement, by the denial of it he causes the sequel to be allowed with readiness; and what by all the former arguments he had been laboring to show that he makes good here also. What then is this? That even if there be but a few saved, the promise yet stands good. This is why he does not merely say &#8220;people,&#8221; but &#8220;people which He foreknew.&#8221; Then proceeding with the proof that the &#8220;people&#8221; were not cast off, &#8220;For I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin.&#8221;</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p37"></A>I, he says, the instructor, the preacher. Now since this seemed contrary to what was said before in the words, &#8220;Who hath believed our report?&#8221; and, &#8220;All the day long have I stretched forth My hands to a disobedient and gainsaying people;&#8221; and, &#8220;I will provoke you to jealousy by them which are no people;&#8221; he was not satisfied with the deprecation, nor with having said, &#8220;God forbid,&#8221; but makes it good by taking it up again and saying, &#8220;God hath not cast away His people.&#8221; But this is not a confirmation, men may say, but an assertion. Observe then the confirmation, both the first, and that which follows it. For the first is that he was himself of that race. But He would not, if on the point of casting them off, have chosen from them him to whom He entrusted all the preaching, and the affairs of the world, and all mysteries, and the whole economy. This then is one proof, but the next, after it, is his saying, that &#8220;people whom He foreknew,&#8221; that is, who He knew clearly were suited to it, and would receive the faith. (Pococke on Hos. p. 23. See <a name="vii.xx-p37.1"></A><a href="../../../../bib/kjv/act002.html#041">Acts ii. 41</a><a name="vii.xx-p37.2"></A>; iv. 4; xxi. 20.) For three, five, even ten thousand were believers from among them. And so to prevent any from saying, Art thou the people, then? And because thou hast been called, hath the nation been called? he proceeds.</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p38"></A><a href="../../../../bib/kjv/rom011.html#002">Rom. 11.2</a><a name="vii.xx-p38.1"></A>. &#8220;He hath not cast off His people, whom He foreknew.&#8221;</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p39"></A>As though he said, I have with me three, five, or ten thousand. What then? has the people come to be&nbsp;<A NAME="fr_1501"></A><A HREF="#fn_1501"><FONT SIZE="1">1502</FONT></A>
+ three, five, or ten thousand? that seed that compared with the stars of heaven for multitude, or the sand of the sea? Is this the way you deceive us and put a cheat upon us, by making the whole people thyself and the few that are with thee; and didst thou inflate us with idle hopes, and say that the promise has been fulfilled, when all are lost, and the salvation comes down to a few? This is all bombast and vanity! we cannot away with such sophistry as this! Now, that they may not say this, see how in the sequel he proceeds to the answer, not giving the objection indeed, but before it grounding the answer to it upon ancient history. What then is the answer?</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p41"></A><a href="../../../../bib/kjv/rom011.html#002">Rom. 11.2-5</a><a name="vii.xx-p41.1"></A>. &#8220;Wot ye not,&#8221; he says, &#8220;what the Scripture saith of Elias? how he (so most; <span class="c14"><a name="vii.xx-p41.2"></A>mss.</span> Sav. who) maketh intercession to God against Israel, saying, Lord, they have killed Thy prophets, and digged down Thine altars; and I am left alone, and they seek my life. But what saith the answer of God unto him? I have reserved to Myself seven thousand men, who have not bowed the knee to the image of Baal. Even so then at this present time also, there is a remnant according to the election of grace.&#8221;</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p42"></A>What he means is nearly this. &#8220;God hath not cast off His people.&#8221; For had He done so, He would have admitted none of them. But if He did admit some, He hath not cast them off. Still it is said, if He had not cast off, He would have admitted all. This does not follow; since in Elijah&#146;s time the part to be saved had come down to &#8220;seven thousand:&#8221; and now also there are probably many that believe. But if you do not know who they are, this is no wonder, for that prophet, who was so great and good a man, did not know. But God ordered things for Himself when even the prophet knew them not. But consider his judgment. Now in proving what was before him, he covertly augments the charge against them. For this is why he gave the whole passage, that he might parade before them their untowardness, and show that they had been so from of old. For if he had not wished this, but had directed his whole attention to prove that the people lay in the few, he would have said that even in Elijah&#146;s time, seven thousand were left. But now he reads to them the passage further back, as having been throughout at pains to show that it was no strange thing that they did with Christ, and the Apostles, but their habitual practice. For to prevent their saying that it was as a deceiver we put Christ to death, and as impostors that we persecute the Apostles, he brings forward the text which says, &#8220;Lord, they have killed Thy prophets, and digged down thine altars.&#8221; (<a name="vii.xx-p42.1"></A><a href="../../../../bib/kjv/kg1019.html#014">1 Kings xix. 14</a><a name="vii.xx-p42.2"></A>.) Then in order not to make his discourse galling to them, he attaches another reason to the bringing forward of the text. For he quotes it not as if it was on purpose to accuse them, but as if intent upon showing some other things. And he leaves them without any excuse even by what had before been done. For observe how strong the accusation is even from the person speaking. For it is neither Paul, nor Peter, nor James, nor John, but one whom they held in the greatest estimation, the chief of the Prophets, the friend of God, a man who had been so very zealous&nbsp;<A NAME="fr_1502"></A><A HREF="#fn_1502"><FONT SIZE="1">1503</FONT></A>
+ in their behalf as even to be given up to hunger for them, who even to this day hath never died. What then doth this man say? &#8220;Lord, they have killed Thy prophets, and digged down Thine altars; and I am left alone, and they seek my life.&#8221; What could be more brutal cruelty than this? For when they should have besought pardon for the offences they had already committed, they were minded even to kill him. And all these things put them quite beyond pardon. For it was not during the prevalence of the famine, but when the season was favorable, and their shame was done away, and the devils (i.e. false gods) had been put to shame, and the power of God had been shown, and the king had bowed beneath it, that they committed these audacities, passing from murder to murder, and making away with their teachers, and such as would bring them to a better mind. What then could they have to say to this? Were they too deceivers? Were they too impostors? Did they not know whence they were either? But they distressed you. Yes, but they also told you goodly things. But what of the altars? the altars too did not surely distress you? Did they too exasperate you? See of what obstinacy, of what insolence they were ever yielding proofs! This is why in another passage too Paul says, when writing to the Thessalonians, &#8220;Ye also have suffered like things of your own countrymen, even as they have of the Jews, who both killed the Lord, and their own prophets, and have persecuted us, and please not God, and are contrary to all men (<a name="vii.xx-p43.4"></A><a href="../../../../bib/kjv/th1002.html#014">1 Thess. 2:14</a>, <a href="../../../../bib/kjv/th1002.html#015">15</a><a name="vii.xx-p43.5"></A>); which is what he says here too, that they both digged down the altars, and killed the prophets. But what saith the answer of God unto him? &#8220;I have reserved to Myself seven thousand men who have not bowed the knee to the image of Baal.&#8221; (<a name="vii.xx-p43.6"></A><a href="../../../../bib/kjv/kg1019.html#018">1 Kings xix. 18</a><a name="vii.xx-p43.7"></A>.) And what has this to do with the present subject? some may say. It hath a great deal to do with the present subject. For he shows here that it is the worthy that God useth to save even if the promise be made to the whole nation. And this he pointed out above when he said, &#8220;Though the number of the children of Israel be as the sand of the sea, a remnant shall be saved.&#8221; And, &#8220;Except the Lord of Sabaoth had left us a seed, we should have become as Sodoma.&#8221; (<a name="vii.xx-p43.8"></A><a href="../../../../bib/kjv/rom009.html#027">Rom. 9:27</a>, <a href="../../../../bib/kjv/rom009.html#029">29</a><a name="vii.xx-p43.9"></A>.) And he points it out from this passage also. Wherefore he proceeds to say, &#8220;Even so then at this present time also, there is a remnant according to the election of grace.&#8221; Observe that each word maintains its own rank, showing at once God&#146;s grace, and the obedient temper of them that receive salvation. For by saying election, he showed the approval of them, but by saying grace, he showed the gift of God.</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p44"></A><a href="../../../../bib/kjv/rom011.html#006">Rom. 11.6</a><a name="vii.xx-p44.1"></A>. &#8220;And if by grace, then it is no more of works, otherwise grace is no more grace: but if it be of works, then is it no more grace,&nbsp;<A NAME="fr_1503"></A><A HREF="#fn_1503"><FONT SIZE="1">1504</FONT></A>
+ otherwise work is no more work.&#8221;</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p46"></A>He again springs upon the disputatiousness of the Jews, in what has just been quoted; and on this ground bereaves them of excuse. For you cannot, he means, so much as say, that the Prophets called indeed, and God invited, and the state of things cried aloud, and the provoking to jealousy was enough to draw us to Him, but what was enjoined was grievous, and this is why we could not draw nigh, since we had a display of works demanded of us, and laborious well-doings. For you cannot even say this. For how should God have demanded this of you, when this would just throw His grace into the shade? And this he said out of a wish to show that He was most desirous that they might be saved. (<a href="../../../../bib/kjv/deu005.html#029">Deut. v. 29</a><a name="vii.xx-p46.1"></A>.) For not only would their salvation be easily brought about, but it was also God&#146;s greatest glory to display His love toward man. Why then are you afraid of drawing nigh, since you have no works demanded of you? Why are you bickering and quarrelsome, when grace is before you, and why keep putting me the Law forward to no purpose whatsoever? For you will not be saved by that, and will mar this gift also; since if you pertinaciously insist on being saved by it, you do away with this grace of God. Then that they might not think this strange, having first taken those seven thousand; he said that they were saved by grace. For when he says, &#8220;Even so then at this present time also there is a remnant according to the election of grace;&#8221; he shows that they also were saved by grace. And not hereby only, but likewise by saying, &#8220;I have reserved unto Myself.&#8221; For this is the language of One Who showeth that He Himself was the chief Contributor. And if by grace, it will be said, how came we all not to be saved? Because ye would not. For grace, though it be grace, saves the willing, not those who will not have it, and turn away from it, who persist in fighting against it, and opposing themselves to it. Observe how throughout the point he is proving is, &#8220;Not as though the Word of God had taken none effect,&#8221; by showing that the worthy were those to whom the promise came, and that these, few though they be, may yet be the people of God; and indeed he had stated it in the beginning of the Epistle with much force, where he says, &#8220;For what if some did not believe&#8221; (<a name="vii.xx-p46.2"></A><a href="../../../../bib/kjv/rom003.html#003">Rom. iii. 3</a><a name="vii.xx-p46.3"></A>), and did not even stop at this, but proceeded, &#8220;Yea, let God be true, and every man a liar.&#8221; (<a href="../../../../bib/kjv/rom003.html#004">Rom. 3.4</a><a name="vii.xx-p46.4"></A>.) And here again he confirms it another way, and shows the force of grace, and that always the one were being saved, the other perished. Let us then give thanks, that we belong to them that are being saved, and not having been able to save ourselves by works, were saved by the gift of God. But in giving thanks, let us not do this in words only, but in works and actions. For this is the genuine thanksgiving, when we do those things whereby God is sure to be glorified, and flee from those from which we have been set free. For if we, after insulting the King, instead of being punished have been honored, and then go and insult Him afresh, since we are detected in the utmost ingratitude, we should with justice have to suffer the utmost punishment, one greater far than the former. For the former insolence did not show us so ungrateful as that committed after honor and much attention shown us. Let us then flee those things from which we have been set free, and not give thanks with our mouths only, lest it be said of us also, &#8220;This people honoreth Me with their lips, but with their heart is far from Me.&#8221; (<a name="vii.xx-p46.5"></A><a href="../../../../bib/kjv/isa029.html#013">Is. xxix. 13</a><a name="vii.xx-p46.6"></A>.) For how is it else than unseemly, when the &#8220;heavens declare the glory of God&#8221; (<a name="vii.xx-p46.7"></A><a href="../../../../bib/kjv/psa019.html#001">Ps. xix. 1</a><a name="vii.xx-p46.8"></A>), and thou, for whom the heavens were made that glorify Him, doest such things that through thee the God that made thee is blasphemed? It is for this that not only he that blasphemeth, but thyself also, wilt be liable to punishment. For the heavens also do not glorify God by sending forth a voice but by putting others upon doing it at the sight of them, and yet they are said &#8220;to declare the glory of God.&#8221; Thus too they that furnish a life to be wondered at, even though they hold their peace, yet glorify God, when others through them glorify Him. For He is not so much reverenced because of the heaven, as of a spotless life. When then we are discoursing with the Gentiles, we cite (4 <span class="c14"><a name="vii.xx-p46.9"></A>mss.</span> read or point to the reading, &#8220;let us not cite&#8221;) not the heavens before them, but the men, whom though they were in worse plight than brutes, He hath persuaded to be the Angels&#146; competitors. And we (1 <span class="c14"><a name="vii.xx-p46.10"></A>mss.</span> &#8220;let us&#8221;) stop their mouths by speaking of this change. For far better than the heaven is man, and a soul brighter than their beauty may he possess. For it, though visible for so long a time, did not persuade much. But Paul, after preaching a short time, drew the whole world unto him. (St. Aug. on <a href="../../../../bib/kjv/psa019.html#004">Ps. xix. 4</a><a name="vii.xx-p46.11"></A>.) For he possessed a soul no less than the heaven, which was able to draw all men unto him. Our soul is not a match even for the earth: but his is equal to the heavens. That stands indeed keeping to its own boundary and rule; but the loftiness of his soul transcended all the heavens, and conversed with Christ Himself. (<a name="vii.xx-p46.12"></A><a href="../../../../bib/kjv/co2010.html#015">2 Cor. x. 15</a><a name="vii.xx-p46.13"></A>; <a href="../../../../bib/kjv/rom015.html#019">Rom. xv. 19</a><a name="vii.xx-p46.14"></A>, etc.) And the beauty of it was so great, that even God heraldeth it forth. For the stars did the angels marvel at when they were made. (<a href="../../../../bib/kjv/job038.html#007">Job xxxviii. 7</a><a name="vii.xx-p46.15"></A>.) But this He marvelled at when He saith, &#8220;He is a chosen vessel unto Me.&#8221; (<a href="../../../../bib/kjv/act009.html#015">Acts ix. 15</a><a name="vii.xx-p46.16"></A>.) And this Heaven doth a cloud many times overshadow. But Paul&#146;s soul no temptation overshadowed but even in storms he was clearer to the sight than the hard sky (<span class="Greek"><a name="vii.xx-p46.17"></A>&#963;&#964;&#945;&#952;&#949;&#961;&#7941;&#962;</span> <span class="Greek"><a name="vii.xx-p46.18"></A>&#956;&#949;&#963;&#951;&#956;&#946;&#961;&#8055;&#945;&#962;</span><span class="Greek"><a name="vii.xx-p46.19"></A>)</span> at noon, and shone constantly as it had done before the clouds came on. For the Sun who shone in him sent not forth such rays as to be over-clouded by the concourse of temptations, but even then shone forth the more. Wherefore he says, &#8220;My grace is sufficient for thee, for My Strength is made perfect in weakness.&#8221; (<a href="../../../../bib/kjv/co2012.html#009">2 Cor. xii. 9</a><a name="vii.xx-p46.20"></A>.) Let us then strive to be like him, and then even to what we are this heaven will be as nothing, if we wish it, nor yet the sun, nor the whole world. For these are for us, and not we for them. Let us show that we are worthy of having had these made for us. For if we be found unworthy of these, how shall we be worthy a kingdom? For indeed all that live so as to blaspheme God are unworthy to see the sun. They who blaspheme Him are unworthy to enjoy the creatures who glorify Him: since even a son who insulteth his father is unworthy to be waited upon by the approved servants. Hence these will enjoy glory, and that great glory; but we shall have to undergo punishment and vengeance.</p>  
+<p style="font-size: 16pt" class="c13"><a name="vii.xx-p47"></A>How miserable then will it be for the creation which was made for thee to be fashioned &#8220;according to the glorious liberty of the children of God,&#8221; (<a name="vii.xx-p47.1"></A><a href="../../../../bib/kjv/rom008.html#021">Rom. viii. 21</a><a name="vii.xx-p47.2"></A>) but for us who were made children of God, through our much listlessness, to be sent away to destruction and hell, for whose sake the creation shall enjoy that great festal time? Now to keep this from coming to pass, let such of us as have a pure soul keep it still such, or rather let us make its brightness more intense. And let those of us that have a soiled one, not despair. For &#8220;if&#8221; (he says) &#8220;your sins be as purple, I will make them white as snow. And if they be as scarlet, I will make them white as wool.&#8221; (<a name="vii.xx-p47.3"></A><a href="../../../../bib/kjv/isa001.html#018">Is. i. 18</a><a name="vii.xx-p47.4"></A>.) But when it is God that promiseth, doubt not, but do those things whereby thou mayest draw to thee these promises. Are they unnumbered, the fearful and outrageous acts done by thee? And what of this? For hitherto thou art not gone away into the grave where no man shah confess. (<a href="../../../../bib/kjv/isa038.html#018">Isa. 38:18</a>, <a href="../../../../bib/kjv/psa006.html#005">Ps. 6:5</a><a name="vii.xx-p47.5"></A>.) Hitherto the arena (<span class="Greek"><a name="vii.xx-p47.6"></A>&#952;&#8051;&#945;&#964;&#961;&#959;&#957;</span>) is not broken up for thee, but thou art standing within the line, and thou art able even by a struggle at the last to recover all thy defeats. Thou art not yet come to where the rich man was, for thee to hear it said, &#8220;there is a gulf betwixt you and us.&#8221; (<a name="vii.xx-p47.7"></A><a href="../../../../bib/kjv/luk016.html#026">Luke xvi. 26</a><a name="vii.xx-p47.8"></A>.) The Bridegroom is not yet at hand, that one should fear to give you of his oil. Still canst thou buy and store up. And there is not one yet to say, &#8220;Not so; lest there be not enough for us and and you&#8221; (<a href="../../../../bib/kjv/mat025.html#009">Matt. xxv. 9</a><a name="vii.xx-p47.9"></A>); but there are many that sell, the naked, the hungry, the sick, the imprisoned. Give food to these, clothing to those, visit the sick, and the oil will come more than from fountains. The day of account is not here. Use the time as need be, and make deductions from the debts, and to him that oweth &#8220;an hundred measures of oil, say, Take thy bill and write fifty.&#8221; (<a name="vii.xx-p47.10"></A><a href="../../../../bib/kjv/luk016.html#006">Luke xvi. 6</a><a name="vii.xx-p47.11"></A>.) And with money, and with words,&nbsp;<A NAME="fr_1504"></A><A HREF="#fn_1504"><FONT SIZE="1">1505</FONT></A>
+ and with every other thing do in like manner, imitating that steward. And advise this to thyself, and also to thy relatives, for thou hast still the power of saying so. Thou art not yet come to the necessity of calling in another in their behalf, but thou hast power to give advice at once to thyself and to others. (<a href="../../../../bib/kjv/luk016.html#028">Luke 16.28</a><a name="vii.xx-p48.2"></A>.) But when thou art gone away thither, neither of these things wilt thou have it in thy power to do at need. And with good reason. For thou who hast had so long a period fixed thee, and neither done thyself good, nor any else, how when thou art under the Judge&#146;s hands shalt thou be able to obtain this grace? Putting all these things together then, let us cling fast to our own salvation, and not lose the opportunity of this life present. For it is possible, it is, even at our last breath to please God. It is possible to gain approval by thy last will, not indeed in such way as in our lifetime, still it is possible. How, and in what way? If thou leavest Him among thine heirs, and givest Him also (<span class="Greek"><a name="vii.xx-p48.3"></A>&#954;&#945;&#8054; &#945;&#8016;&#964;&#8101;</span>) a portion of thine whole estate. Hast thou not fed Him in thy lifetime? At all events when departed, when thou art no longer owner, give Him a share of thy goods. He is loving unto man, He doth not deal niggardly by thee. It is a mark to be sure of a greater desire, and so it will be more rewarded, to feed Him in thy lifetime. But if thou hast not done this, at all events do the next best thing. Leave Him joint-heir (see p. 384) with thy children, and if thou art dilatory over this, bethink thyself that His Father made thee joint-heir with Him, and break down thy inhuman spirit. For what excuse wilt thou have if thou dost not even make Him a sharer with thy children, who made thee share the Heaven, and was slain for thee? And yet all that ever He did, He did not in repayment of a debt, but as bestowing a favor. But you after so great benefits, have been made a debtor as well. And yet, though things are so, it is as if receiving a favor, not as demanding payment of a debt, that He crowneth thee; and this too when what He is to receive is His own. Give then thy money, which is now no longer of any use to thee, and of which thou art no longer owner; and He will give thee a Kingdom which shall be of service to thee perpetually, and with it will bestow also the things of this life. For if He be made the joint heir of thy children, He doth lighten their orphanage for them, do away with plots against them, beat off insults, stop the mouths of pettifoggers. And if they themselves be unable to stand up for their bequeathments, He will Himself stand up, and not let them be broken through. But if He do even allow this, then He makes up of Himself all that was ordered in the will with still greater liberality, because He has been but mentioned in it. Leave Him then thine heir. For it is to Him that thou art upon the point of going. He will be thy Judge Himself in the trial for all that hath been done here. But there are some so miserable and pinched, that though they have no children, still they have not the courage to do this, but approve of giving that they have to hangers on, and to flatterers, and to this person and to that, sooner than to Christ, Who hath done them so great benefits. And what can be more unreasonable than this conduct? For if one were to compare men of this cast to asses, aye, or to stones, one shall not still be saying anything tantamount to their unreasonableness and senselessness. Nor could one find a similitude to put before you their madness and dementedness. For what pardon shall they obtain for not having fed Him in their lifetime, who, even when they are on the point of departing to Him, have not the inclination to give Him but a trifle out of those goods, of which they are no longer the owners, but are of such an inimical and hostile disposition, as not even to give Him a share in what is useless to themselves? Do you not know how many of mankind have not even been counted worthy to obtain an end of this kind, but have been snatched off suddenly? But thee doth God empower to give orders to thy kindred, and to speak with them about thy property, and set all that is in thy house in order. What defence then wilt thou have to set up, when even after receiving this favor from Him, thou hast treacherously given up the benefit, and art standing as it were in diametrical opposition to thy forefathers in the faith? For they even in their lifetime sold all, and brought it to the Apostle&#146;s feet. But thou, even at thy death, dost not give any share to them that need. What is the better part, and gives one much boldness, is to remedy poverty in one&#146;s lifetime. But if thou hast not been minded to do this, at all events do upon thy death-bed some noble act. For this is not what a strong love for Christ would do, yet still it is an act of love. For if thou wilt not have the high place with the Lambs, still even to be after them at all is no light thing, and so not to be placed with the goats nor on the left hand. But if thou wilt not do even this, what plea is to rescue thee, when neither the fear of death nor thy money having become henceforth of no use to thee, nor the leaving of safety behind thee to thy children, nor the laying up of much pardon there against the time to come, will make thee merciful to man? Wherefore I advise, as the best thing, that in your lifetime you give the larger half of your goods to the poor. But if there be any of so narrow a soul as not to have the heart to do so, at all events let them by necessity become merciful. For when you were living as if there were no death, then you clung close to your goods. But now since you have learnt that you are to die, at least now give over your opinion, and deliberate about your affairs as one that must die. Or rather as one that ought to enjoy immortal life for evermore. For if what I am going to say be distasteful, and big with horror, still it must be said. Reckon with thy slaves the Lord. Art thou giving thy slaves liberty? Give Christ liberty from famine, from distress, from imprisonment, from nakedness. Art thou horrified at the words? Is it not then more horrible when thou dost not even thus much? And here the word makes thy blood curdle. But when thou art gone to that world, and hast to hear things far more grievous than these, and seest the tortures which are incurable, what wilt thou say? To whom wilt thou flee for refuge? Whom wilt thou call to thy alliance and assistance? Will it be Abraham? He will not hearken to thee. Or those virgins? They will not give thee of their oil. Thy father then or thy grandfather? But none even of these, if he be ever so holy, will have it in his power to reverse that sentence. Weighing then all these things, to Him Who alone is Lord to blot out the bill against thee and to quench that flame, to Him make prayer and supplication, and propitiate Him, by now feeding Him and clothing Him continually: that in this world thou mayest depart with a good hope, and when thou art there thou mayest enjoy eternal blessings, which may we all attain to by the grace and love toward man, etc.</p>    
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_1494"></A><A HREF="1110081.html#fr_1494">i:1495</A> <a name="vii.xx-p4.4"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.xx-p5"></A> <a href="../../../../bib/kjv/rom010.html#014">Rom. 10:14</a>, <a href="../../../../bib/kjv/rom010.html#015">15</a><a name="vii.xx-p5.1"></A> state a threefold objection to Paul&#146;s doctrine of the Jews&#146; responsibility. <a href="../../../../bib/kjv/rom010.html#016">Rom. 10.16-21</a><a name="vii.xx-p5.2"></A> are the reply to this objection. Paul takes up three points which are summarized in the objections. (1) Shall the fact that they have not believed constitute any excuse? (<a href="../../../../bib/kjv/rom010.html#016">Rom. 10:16</a>, <a href="../../../../bib/kjv/rom010.html#017">17</a><a name="vii.xx-p5.3"></A>). The apostle answers that the real fact is that the message of faith and of the Messianic salvation has been proclaimed to the Jews and a large part of them have rejected and disobeyed it. They must therefore have heard, for disobedience, on the one hand, and faith, on the other, depends upon hearing the message and hearing it depends upon God having spoken it. (2) Then comes the prior question concerning the hearing on which disobedience or hearing is dependent (<a href="../../../../bib/kjv/rom010.html#018">Rom. 10.18</a><a name="vii.xx-p5.4"></A>). Certainly they have heard, answers Paul, for we might apply to God&#146;s message the words of the Psalm (<a href="../../../../bib/kjv/psa019.html#005">Psa. 19.5</a><a name="vii.xx-p5.5"></A>) which describe the movements of the heavenly bodies, so plain and wide-spread have been God&#146;s messages concerning Christ and the principles on which his Gospel is based. (3) Since Israel has heard, does it not follow that they knew and are therefore inexcusable? (<a href="../../../../bib/kjv/rom010.html#019">Rom. 10.19</a><a name="vii.xx-p5.6"></A>). Yes. The Jews complain that God&#146;s promise has failed; that He has not preserved to them their promised prerogatives. Hence it is excusable for them to fall away from confidence in Him, etc. The apostle answers that this is an entire misunderstanding of their own providential history. The coming of the Gentiles into the kingdom of God was already foreshadowed in the Old Testament, e.g. Moses (<a href="../../../../bib/kjv/deu032.html#021">Deut. xxxii. 21</a><a name="vii.xx-p5.7"></A>) speaks of Israel being made jealous and angry by a &#8220;no-people&#8221;&#8212;&#8220;a foolish nation&#8221; (heathen). And again, Isaiah (<a href="../../../../bib/kjv/isa065.html#001">Isa. 65:1</a>, <a href="../../../../bib/kjv/isa065.html#002">2</a><a name="vii.xx-p5.8"></A>) uses very bold words which the apostle applies to the relation of Jews and Gentiles. The three points placed in close relation are: (1) Israel has heard and (2) hence knows, and (3) is blameworthy for the rejection of the Messiah.&#8212;G.B.S.</p>
+<A NAME="fn_1495"></A><A HREF="1110081.html#fr_1495">i:1496</A> <a name="vii.xx-p7.5"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.xx-p8"></A> Four <span class="c14"><a name="vii.xx-p8.1"></A>mss.</span> The believing and obeying God equally when He speaks and when He works wonders.</p>
+<A NAME="fn_1496"></A><A HREF="1110081.html#fr_1496">i:1497</A> <a name="vii.xx-p11.1"></A>
+<p style="font-size: 16pt" class="c38"><a name="vii.xx-p12"></A> <a href="../../../../bib/kjv/psa019.html#004">Ps. xix. 4</a><a name="vii.xx-p12.1"></A>(V and LXX. xviii). The mystical interpretation of this Psalm here indicated, is acknowledged by the Church in using it on Christmas day. An ancient Latin hymn has this paraphrase on a part of it:</p>  
+<p style="font-size: 16pt" class="c39"><a name="vii.xx-p13"></A>From Chastity, His Palace bright,</p>  
+<p style="font-size: 16pt" class="c39"><a name="vii.xx-p14"></A>Forth came the Bridegroom decked with light,</p>  
+<p style="font-size: 16pt" class="c39"><a name="vii.xx-p15"></A>Giant! God and Man in one!</p>  
+<p style="font-size: 16pt" class="c39"><a name="vii.xx-p16"></A>Glad His glorious race to run.</p>  
+<p style="font-size: 16pt" class="c39"><a name="vii.xx-p17"></A>From the Eternal Father sent</p>  
+<p style="font-size: 16pt" class="c39"><a name="vii.xx-p18"></A>Back to Him His circuit bent,</p>  
+<p style="font-size: 16pt" class="c39"><a name="vii.xx-p19"></A>Down to hell His path descends,</p>  
+<p style="font-size: 16pt" class="c40"><a name="vii.xx-p20"></A>At the throne of God it ends.</p>  
+<p style="font-size: 16pt" class="endnote"><a name="vii.xx-p21"></A>Origen on this passage (t. iv. p. 627), and St. Augustin on the Psalm, enlarge upon its Christian interpretation.</p>
+<A NAME="fn_1497"></A><A HREF="1110081.html#fr_1497">i:1498</A> <a name="vii.xx-p26.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.xx-p27"></A> &#8220;They&#8221; &#8220;their&#8221; i.e. the Jews: &#8220;these&#8221; i.e. the Gentiles.</p>
+<A NAME="fn_1498"></A><A HREF="1110081.html#fr_1498">i:1499</A> <a name="vii.xx-p31.3"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.xx-p32"></A> This of course does not exclude the other interpretation of J. Martyr. <i>Apol.</i> i. 35. p. 27 O.T. <i>Tryph.</i> 97, p. 193 O.T. and others. See, on the contrary, St. <a href="../../../../bib/kjv/joh012.html#032">John xii. 32</a><a name="vii.xx-p32.1"></A>, also St. Cyr. Hier. Cat. xiii. 27, and note, p. 157 O.T. add St. Cyprian, Test. ii. 20, p. 56, O.T. and note.</p>
+<A NAME="fn_1499"></A><A HREF="1110081.html#fr_1499">i:1500</A> <a name="vii.xx-p32.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.xx-p33"></A> As in Cornelius&#146; case. See p. 379, and context.</p>
+<A NAME="fn_1500"></A><A HREF="1110081.html#fr_1500">i:1501</A> <a name="vii.xx-p34.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.xx-p35"></A> The central thought of <a href="../../../../bib/kjv/rom011.html#000">Rom. 11</a><a name="vii.xx-p35.1"></A>. is that Israel&#146;s rejection is not forever; the nation is to be restored. The order of thought is as follows: (1) The rejection is <i>partial.</i> The Scriptures furnish analogous examples of partial falls and rejections of the nation, <a href="../../../../bib/kjv/rom011.html#001">Rom. 11.1-10</a><a name="vii.xx-p35.2"></A>. (2) The fall of Israel is <i>temporary.</i> Some branches were cut off because of unbelief and Gentile branches inserted in their place, but the natural branches shall yet be restored, <a href="../../../../bib/kjv/rom011.html#011">Rom. 11.11-24</a><a name="vii.xx-p35.3"></A>. (3) Reflections upon the wise and gracious purposes of God in all these dispensations, <a href="../../../../bib/kjv/rom011.html#025">Rom. 11.25-36</a><a name="vii.xx-p35.4"></A>.&#8212;G.B.S.</p>
+<A NAME="fn_1501"></A><A HREF="1110081.html#fr_1501">i:1502</A> <a name="vii.xx-p39.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.xx-p40"></A> Field with one <span class="c14"><a name="vii.xx-p40.1"></A>ms</span>. reads &#8220;What then? Is this the people? is that seed come to be 3, 5, or 10,000?&#8221; and mentions with approval the reading of the Catena &#8220;What then? are the people come down to thee and 3, 5, or 10,000?&#8221;</p>
+<A NAME="fn_1502"></A><A HREF="1110081.html#fr_1502">i:1503</A> <a name="vii.xx-p42.3"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.xx-p43"></A> Referring to his words, <a name="vii.xx-p43.1"></A><a href="../../../../bib/kjv/kg1019.html#014">1 Kings xix. 14</a><a name="vii.xx-p43.2"></A>, and to his sharing in the famine, <a href="../../../../bib/kjv/kg1017.html#013">1 Kings 17.13</a><a name="vii.xx-p43.3"></A>.</p>
+<A NAME="fn_1503"></A><A HREF="1110081.html#fr_1503">i:1504</A> <a name="vii.xx-p44.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.xx-p45"></A> 4 <span class="c14"><a name="vii.xx-p45.1"></A>mss.</span> omit these words: most early <span class="c14"><a name="vii.xx-p45.2"></A>mss.</span> and versions of the N.T. omit the whole second half of the verse.</p>
+<A NAME="fn_1504"></A><A HREF="1110081.html#fr_1504">i:1505</A> <a name="vii.xx-p47.12"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.xx-p48"></A> All Field&#146;s <span class="c14"><a name="vii.xx-p48.1"></A>mss.</span> om. &#8220;words,&#8221; which however may mean offence given by words.</p>
+<p><HR>
+<CENTER>
+<A HREF="1110082.html">Next: Homily XIX on Rom. xi. 7.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/111/1110081.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/111/1110081.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/kxsbac9'>tak.la/kxsbac9</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/kxsbac9';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+

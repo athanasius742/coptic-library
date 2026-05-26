@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Nicene and Post-Nicene Fathers, Vol. 11: Saint Chrysostom: Homilies on the Acts of the Apostles and the Epistle to the Romans | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Saint Chrysostom Homilies Acts Apostles Epistle Romans">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Nicene and Post-Nicene Fathers, Vol. XI: A Commentary on the Acts of the Apostles: Homily XLIV on Acts xx. 17-21. | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/111/1110049.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:32:16+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/111/'>111</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/111/'>111</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Nicene and Post-Nicene Fathers, Vol. XI:<br>A Commentary on the Acts of the Apostles: Homily XLIV on Acts xx. 17-21.</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="1110048.html" id="prev">Previous</A>&nbsp;
+<A HREF="1110050.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="vi.xliv"></A>   <a name="vi.xliv-p0.1"></A> 
+<p style="font-size: 16pt" class="c21"><a name="vi.xliv-p1"></A><span class="c9"><a name="vi.xliv-p1.1"></A>Homily XLIV.</span></p>  
+<p style="font-size: 16pt" class="c33"><a name="vi.xliv-p2"></A><a href="../../../../bib/kjv/act020.html#017">Acts XX. 17-21</a><a name="vi.xliv-p2.1"></A></p>  
+<p style="font-size: 16pt" class="c34"><a name="vi.xliv-p3"></A>&#8220;And from Miletus he sent to Ephesus, and called the elders of the Church. And when they were come to him, he said unto them, Ye know, from the first day that I came into Asia, after what manner I have been with you at all seasons, serving the Lord with all humility of mind, and with many tears, and temptations, which befell me by the lying in wait of the Jews: and how I kept back nothing that was profitable unto you, but have showed you, and have taught you publicly, and from house to house, testifying both to the Jews, and also to the Greeks, repentance toward God and faith toward our Lord Jesus Christ.&#8221;</p>  
+<p style="font-size: 16pt" class="c12"><a name="vi.xliv-p4"></A><span class="c11"><a name="vi.xliv-p4.1"></A>See</span> him, hasting to sail by, and yet not overlooking them, but taking order for all. Having sent for the rulers, through those he discourses to them (the Ephesians): but it is worthy of admiration, how finding himself under a necessity of saying certain great things about himself, he tries to make the least he can of it (<span class="Greek"><a name="vi.xliv-p4.2"></A>&#960;&#949;&#953;&#961;&#7941;&#964;&#945; &#956;&#949;&#964;&#961;&#953;&#8049;&#950;&#949;&#953;&#957;</span>). &#8220;Ye know.&#8221; For just as Samuel, when about to deliver up the government to Saul says in their presence, &#8220;Have I taken aught of your hands? Ye are witnesses, and God also&#8221; (<a name="vi.xliv-p4.3"></A><a href="../../../../bib/kjv/sa1012.html#003">1 Sam. 12:3</a>, <a href="../../../../bib/kjv/sa1012.html#005">5</a><a name="vi.xliv-p4.4"></A>); (so Paul here). David also, when disbelieved, says, &#8220;I was with the flock keeping my father&#146;s sheep: and when the bear came, I scared her away with my hands&#8221; (<a name="vi.xliv-p4.5"></A><a href="../../../../bib/kjv/sa1017.html#034">1 Sam. 17:34</a>, <a href="../../../../bib/kjv/sa1017.html#035">35</a><a name="vi.xliv-p4.6"></A>): and Paul himself too says to the Corinthians, &#8220;I am become a fool; ye have compelled me.&#8221; (<a name="vi.xliv-p4.7"></A><a href="../../../../bib/kjv/co2012.html#011">2 Cor. xii. 11</a><a name="vi.xliv-p4.8"></A>.) Nay, God Himself also does the same, not speaking of himself upon any and every occasion, but only when He is disbelieved, then He brings up His benefits. Accordingly, see what Paul does here: first he adduces their own testimony: that you may not imagine his words to be mere boasting, he calls the hearers themselves as witnesses of the things he says, since he was not likely to speak lies in their presence. This is the excellence of a teacher, to have for witnesses of his merits those who are his disciples. And what is wonderful, Not for one day nor for two, says he, have I continued doing this. He wishes to cheer them for the future, that they may bravely bear all things, both the parting from him, and the trials about to take place&#8212;just as it was in the case of Moses and Joshua. And see how he begins: &#8220;How I have been with you the whole time, serving the Lord with all humility of mind.&#8221; Observe, what most becomes rulers: &#8220;hating pride&#8221; (<a name="vi.xliv-p4.9"></A><a href="../../../../bib/kjv/exo018.html#021">Exod. xviii. 21</a><a name="vi.xliv-p4.10"></A>, LXX.), says (Moses): which (qualification) is especially in point for rulers, because to them there is (almost) a necessity of becoming arrogant. This (humility) is the groundwork of all that is good, as in fact Christ saith,&nbsp;<A NAME="fr_1015"></A><A HREF="#fn_1015"><FONT SIZE="1">1016</FONT></A>
+ &#8220;Blessed are the poor in spirit.&#8221; (<a href="../../../../bib/kjv/mat005.html#003">Matt. v. 3</a><a name="vi.xliv-p5.1"></A>.) And (here) not simply, &#8220;with humility of mind,&#8221; but, &#8220;with all humility.&#8221; For there are many kinds of humility, in word and in action, towards rulers, and toward the ruled. Will you that I mention to you some kinds of humility? There are some who are lowly towards those who are lowly, and high towards the high: this is not the character of humility.&nbsp;<A NAME="fr_1016"></A><A HREF="#fn_1016"><FONT SIZE="1">1017</FONT></A>
+ Some then are such. Then, that he may not seem to be arrogant, he lays a foundation beforehand, removing that suspicion: For, &#8220;if, says he, I have acted &#145;with all humility of mind,&#146; it is not from arrogance that I say the things I say.&#8221; Then for his gentleness, ever with much condescension making them his fellows. &#8220;With you,&#8221; he says, &#8220;have I been, serving the Lord;&#8221; he makes the good works common to them with himself: none of it his own peculiar. &#8220;What?&#8221; (you will say) &#8220;why, against God could he possibly bear himself arrogantly?&#8221; And yet there are many who do bear themselves arrogantly against God: but this man not even against his own disciples. This is the merit of a teacher, by his own achievements of virtue to form the character of his disciples. Then for his fortitude, upon which also he is very concise. &#8220;With many tears,&#8221; he says, &#8220;and temptations which befell me by the lying in wait of the Jews.&#8221; Do you see that he grieves at their doings? But here too he seems to show how sympathizing he was: for he suffered for those who were going to perdition, for the doers themselves: what was done to himself, he even rejoiced at it; for he belonged to that band which &#8220;rejoiced that they were counted worthy to suffer shame for that Name&#8221; (<a href="../../../../bib/kjv/act005.html#041">Acts v. 41</a><a name="vi.xliv-p6.1"></A>): and again he says, &#8220;Now I rejoice in my sufferings for you&#8221; (<a name="vi.xliv-p6.2"></A><a href="../../../../bib/kjv/col001.html#024">Col. i. 24</a><a name="vi.xliv-p6.3"></A>): and again, &#8220;For our light affliction, which is but for the moment, worketh for us a far more exceeding and eternal weight of glory.&#8221; (<a name="vi.xliv-p6.4"></A><a href="../../../../bib/kjv/co2004.html#017">2 Cor. iv. 17</a><a name="vi.xliv-p6.5"></A>). These things, however, he says, by way of making the least of his merits (<span class="Greek"><a name="vi.xliv-p6.6"></A>&#956;&#949;&#964;&#961;&#953;&#8049;&#950;&#969;&#957;</span>). But there he show his fortitude, not so much of daring, as of enduring: &#8220;I,&#8221; says he, &#8220;have been evil entreated, but it was with you: and what is indeed the grievous part of the business, at the hands of Jews.&#8221; Observe, he puts here both love and fortitude. Mark, here, I pray you, a character of teaching: &#8220;I kept back nothing,&#8221; he says, ungrudging fulness, unshrinking promptness&#8212;&#8220;of what was profitable unto you:&#8221; because there were things which they did not need to learn. For as the hiding some things would have been like grudging, so the saying all things would be folly. This is why he adds, &#8220;that was profitable unto you. But have showed you, and have taught you:&#8221; have not only said, but also taught: not doing this either as a mere matter of form. For that this is what he means, observe what he says: &#8220;publicly, and from house to house:&#8221; thereby representing the exceeding toil, the great earnestness and endurance. &#8220;Both Jews, and Greeks.&#8221; Not (addressing myself) to you alone. &#8220;Testifying:&#8221; here, the boldness of speech: and that, even though we do no good, yet we must speak: for&nbsp;<A NAME="fr_1017"></A><A HREF="#fn_1017"><FONT SIZE="1">1018</FONT></A>
+ this is the meaning of &#8220;testifying,&#8221; when we speak to those who do not pay attention: and so the word <span class="Greek"><a name="vi.xliv-p7.4"></A>&#948;&#953;&#945;&#956;&#945;&#961;&#964;&#8059;&#961;&#945;&#963;&#952;&#945;&#953;</span> is for the most part used. &#8220;I call heaven and earth to witness&#8221; (<a href="../../../../bib/kjv/deu004.html#026">Deut. iv. 26</a><a name="vi.xliv-p7.5"></A>), <span class="Greek"><a name="vi.xliv-p7.6"></A>&#948;&#953;&#945;&#956;&#945;&#961;&#964;&#8059;&#961;&#959;&#956;&#945;&#953;</span>, Moses says: and now Paul himself, <span class="Greek"><a name="vi.xliv-p7.7"></A>&#916;&#953;&#945;&#956;&#945;&#961;&#964;&#965;&#961;&#8057;&#956;&#949;&#957;&#959;&#962;</span> &#8220;both to Jews and Greeks repentance toward God.&#8221; What testifiest thou? That they should be careful about their manner of life: that they should repent, and draw near to God. &#8220;Both to Jews and Greeks&#8221;&#8212;for neither did the Jews know Him&#8212;both&nbsp;<A NAME="fr_1018"></A><A HREF="#fn_1018"><FONT SIZE="1">1019</FONT></A>
+ by reason of their works, he says, &#8220;repentance towards God,&#8221; and, by reason that they knew not the Son, he adds, &#8220;and faith in the Lord Jesus.&#8221; To what end, then, sayest thou these things? to what end dost thou put them in mind of them? What has come of it? hast thou anything to lay to their charge? Having first alarmed their feeling, then he adds, &#8220;And now, behold, I go bound in the Spirit unto Jerusalem, not knowing the things that shall befall me there: save that the Holy Ghost witnesseth in every city, saying that bonds and afflictions abide me. But none of these things move me, neither count I my life dear unto myself, so that I might finish my course with joy, and the ministry, which I have received of the Lord Jesus, to testify the Gospel of the grace of God.&#8221; (<a href="../../../../bib/kjv/act020.html#022">Acts 20.22-24</a><a name="vi.xliv-p8.5"></A>). Wherefore says he this? By way of preparing them to be always ready to meet dangers, whether seen or unseen, and in all things to obey the Spirit.&nbsp;<A NAME="fr_1019"></A><A HREF="#fn_1019"><FONT SIZE="1">1020</FONT></A>
+ He shows that it is for great objects that he is led away from them. &#8220;Save that the Holy Ghost,&#8221; he says, &#8220;in every city witnesseth to me saying&#8221;&#8212;to show that he departs willingly; that (see Hom. xlv. p. 273) you may not imagine it any bond or necessity, when he says, &#8220;bound in the Spirit&#8212;that in every city bonds and afflictions await me.&#8221; Then also he adds this, &#8220;I count not my life dear, until I shall have fulfilled my course and the ministry, which I received of the Lord Jesus.&#8221; Until I shall have finished my course, says he, with joy. Do you mark how (clearly) these were the words not of one lamenting, but of one who forbore to make the most (of his troubles) (<span class="Greek"><a name="vi.xliv-p9.3"></A>&#956;&#949;&#964;&#961;&#953;&#8049;&#950;&#959;&#957;&#964;&#959;&#962;</span>), of one who would instruct those (whom he addressed), and sympathize with them in the things which were befalling He says not, &#8220;I grieve indeed,&nbsp;<A NAME="fr_1020"></A><A HREF="#fn_1020"><FONT SIZE="1">1021</FONT></A>
+ but one must needs bear it:&#8221; &#8220;but,&#8221; says he, &#8220;of none of those things do I make account, neither do I have,&#8221; i.e. account &#8220;my life dear to me.&#8221; Why this again? not to extol himself, but to teach them, as by the former words, humility, so by these, fortitude and boldness: &#8220;I have it not precious,&#8221; i.e. &#8220;I love it not before this: I account it more precious to finish my course, to testify.&#8221; And he says not, &#8220;to preach,&#8221; &#8220;to teach&#8221;&#8212;but what says he? &#8220;to testify (<span class="Greek"><a name="vi.xliv-p10.10"></A>&#948;&#953;&#945;&#956;&#945;&#961;&#964;&#8059;&#961;&#945;&#963;&#952;&#945;&#953;</span>)&#8212;the Gospel of the grace of God.&#8221; He is about to say something more uncomfortable (<span class="Greek"><a name="vi.xliv-p10.11"></A>&#966;&#959;&#961;&#964;&#953;&#954;&#8061;&#964;&#949;&#961;&#959;&#957;</span>), namely, &#8220;I am pure from the blood of all men (because on my part) there is nothing lacking:&#8221; he is about to lay upon them the whole weight and burden: so he first mollifies their feelings by saying, &#8220;And now behold I know that ye shall see my face no more.&#8221; The consolation&nbsp;<A NAME="fr_1021"></A><A HREF="#fn_1021"><FONT SIZE="1">1022</FONT></A>
+ is twofold: both that &#8220;my face ye shall see no more,&#8221; for in heart I am with you: and that it was not they alone (who should see him no more): for, &#8220;ye shall see my face no more, ye all, among whom I have gone about preaching the Kingdom.&#8221;&nbsp;<A NAME="fr_1022"></A><A HREF="#fn_1022"><FONT SIZE="1">1023</FONT></A>
+ So that he may well (say), "Wherefore I take you to record (read <span class="Greek"><a name="vi.xliv-p12.5"></A>&#948;&#953;&#8056; &#956;&#945;&#961;&#964;</span>. for <span class="Greek"><a name="vi.xliv-p12.6"></A>&#948;&#953;&#945;&#956;&#945;&#961;&#964;</span>.),&#8212;seeing I shall be with you no more&#8212;&#8220;that I am pure from the blood of all men.&#8221; (<a href="../../../../bib/kjv/act020.html#026">Acts 20.26</a><a name="vi.xliv-p12.7"></A>.) Do you mark how he terrifies them, and troubled and afflicted as their souls are, how hard he rubs them (<span class="Greek"><a name="vi.xliv-p12.8"></A>&#7952;</span><span class="Greek"><a name="vi.xliv-p12.9"></A>&#960;&#953;&#964;&#961;&#8055;&#946;&#949;&#953;</span>)? But it was necessary. &#8220;For I have not shunned,&#8221; he says, &#8220;to declare unto you all the counsel of God.&#8221; (<a href="../../../../bib/kjv/act020.html#027">Acts 20.27</a><a name="vi.xliv-p12.10"></A>.) Why then, he who does not speak, has blood to answer for: that is, murder! Nothing could be more terrifying than this. He shows that they also, if they <i>do</i> it not, have blood to answer for. So, whereas he seems to be justifying himself, in fact he is terrifying them. &#8220;Take heed therefore unto yourselves, and to all the flock, over the which the Holy Ghost hath made you overseers (or, bishops) to feed the Church of God (see note 3), which He hath purchased with His own blood.&#8221; (<a href="../../../../bib/kjv/act020.html#028">Acts 20.28</a><a name="vi.xliv-p12.11"></A>.) Do you mark? he enjoins them two things. Neither success in bringing others right of itself is any gain&#8212;for, I fear, he says, &#8220;lest by any means, when I have preached to others, I myself should be a cast-away&#8221; (<a name="vi.xliv-p12.12"></A><a href="../../../../bib/kjv/co1009.html#027">1 Cor. ix. 27</a><a name="vi.xliv-p12.13"></A>); nor the being diligent for one&#146;s self alone. For such an one is selfish, and seeks his own good only, and is like to him who buried his talent. &#8220;Take heed to yourselves:&#8221; this he says, not because our own salvation is more precious than that of the flock, but because, when we take heed to ourselves, then the flock also is a gainer. &#8220;In which the Holy Ghost hath made you overseers, to feed the Church of God.&#8221; See, it is from the Spirit ye have your ordination. This is one constraint: then he says, &#8220;To feed the Church of the Lord.&#8221;&nbsp;<A NAME="fr_1023"></A><A HREF="#fn_1023"><FONT SIZE="1">1024</FONT></A>
+ Lo! another obligation: the Church is the Lord&#146;s.&nbsp;<A NAME="fr_1024"></A><A HREF="#fn_1024"><FONT SIZE="1">1025</FONT></A>
+ And a third: &#8220;which He hath purchased with His own blood.&#8221; It shows&nbsp;<A NAME="fr_1025"></A><A HREF="#fn_1025"><FONT SIZE="1">1026</FONT></A>
+ how precious the concern is; that the peril is about no small matters, seeing that even His own blood He spared not. He indeed, that he might reconcile those who were enemies, poured out even His blood: but thou, even when they are become thy friends, art not able to retain them. &#8220;For I know this, that after my departing shall grievous wolves enter in among you, not sparing the flock.&#8221; (<a href="../../../../bib/kjv/act020.html#029">Acts 20.29</a><a name="vi.xliv-p15.3"></A>.) Again he engages (<span class="Greek"><a name="vi.xliv-p15.4"></A>&#7952;</span><span class="Greek"><a name="vi.xliv-p15.5"></A>&#960;&#953;&#963;&#964;&#961;&#8051;&#966;&#949;&#953;</span>) them from another quarter, from the things which should come after: as when he says, &#8220;We wrestle not against flesh and blood. After my departing,&#8221; he says, &#8220;grievous wolves shall enter in among you&#8221; (<a href="../../../../bib/kjv/eph006.html#012">Eph. vi. 12</a><a name="vi.xliv-p15.6"></A>); twofold the evil, both that he himself would not be present, and that others would assail them. &#8220;Then why depart, if thou knowest this beforehand?&#8221; The Spirit draws me, he says. Both &#8220;wolves,&#8221; and &#8220;grievous, not sparing the flock;&#8221; and what is worse, even &#8220;from among your own selves:&#8221; the grievous thing (this), when the war is moreover an intestine war. The matter is exceeding serious, for it is &#8220;the Church of the Lord:&#8221; great the peril for with blood He redeemed it: mighty the war, and twofold. &#8220;Also of your own selves shall men arise, speaking perverse things, to draw away disciples after them.&#8221; (<a href="../../../../bib/kjv/act020.html#030">Acts 20.30</a><a name="vi.xliv-p15.7"></A>.) &#8220;How then? what comfort shall there be?&#8221; &#8220;Therefore watch, and remember, that by the space of three years I ceased not to warn every one night and day with tears.&#8221; (<a href="../../../../bib/kjv/act020.html#031">Acts 20.31</a><a name="vi.xliv-p15.8"></A>.) See how many strong expressions are here: &#8220;with tears,&#8221; and &#8220;night and day,&#8221; and &#8220;every one.&#8221; For it was not that if he saw many,&nbsp;<A NAME="fr_1026"></A><A HREF="#fn_1026"><FONT SIZE="1">1027</FONT></A>
+ then he came in (to the work), but even were it for a single soul, he was capable of doing everything (for that one soul). So it was, in fact, that he compacted them together (<span class="Greek"><a name="vi.xliv-p16.6"></A>&#963;&#965;&#957;&#949;&#954;&#961;&#8057;&#964;&#951;&#963;&#949;&#957;</span>) (so firmly as he did). &#8220;Enough done on my part: three years have I remained:&#8221; they had establishing enough, he says; enough of roofing. &#8220;With tears,&#8221; he says. Seest thou that the tears were on this account? The bad man grieves not: grieve thou: perhaps he will grieve also. As, when the sick man sees his physician partaking of food, he also is incited to do the same: so likewise here, when he sees thee weeping, he is softened: he will be a good and great man.&nbsp;<A NAME="fr_1027"></A><A HREF="#fn_1027"><FONT SIZE="1">1028</FONT></A>
+</p>  
+<p style="font-size: 16pt" class="c13"><a name="vi.xliv-p18"></A>(Recapitulation.) &#8220;Not knowing,&#8221; he says, &#8220;the things that shall befall me.&#8221; (<a href="../../../../bib/kjv/act020.html#022">Acts 20:22</a>, <a href="../../../../bib/kjv/act020.html#023">23</a><a name="vi.xliv-p18.1"></A>.) Then is this why thou departest? By no means; on the contrary (I know that), &#8220;bonds and afflictions await me.&#8221; That (there are) trials, I know, but of what kind I know not: which was more grievous. &#8220;But none of these things move me&#8221; (<a href="../../../../bib/kjv/act020.html#024">Acts 20.24</a><a name="vi.xliv-p18.2"></A>): for do not suppose that I say these things as lamenting them: for &#8220;I hold not my own life dear.&#8221; It is to raise up their minds that he says all this, and to persuade them not only not to flee, but also to bear nobly. Therefore it is that he calls it a &#8220;course&#8221; and a &#8220;ministry,&#8221; on the one hand, showing it to be glorious from its being a race, on the other, showing what was due from it, as being a ministry. I am a minister: nothing more. Having comforted them, that they might not grieve that he was so evil entreated, and having told them that he endured those things &#8220;with joy,&#8221; and having shown the fruits of them, then (and not before) he brings in that which would give them pain, that he may not overwhelm their minds. &#8220;And&nbsp;<A NAME="fr_1028"></A><A HREF="#fn_1028"><FONT SIZE="1">1029</FONT></A>
+ now behold,&#8221; etc. &#8220;Wherefore I take you to record, that I am pure from the blood of all men, because I have not shrunk from declaring unto you the whole counsel of God&#8221; (<a href="../../../../bib/kjv/act020.html#025">Acts 20.25-27</a><a name="vi.xliv-p19.8"></A>): * * * that (counsel) which concerns the present matter. &#8220;For I know this,&#8221; etc. (<a href="../../../../bib/kjv/act020.html#029">Acts 20.29</a><a name="vi.xliv-p19.9"></A>.) &#8220;What then,&#8221; someone might say, &#8220;thinkest thou thyself so great? if thou shouldest depart, are we to die?&#8221; I say not this, he replies, that my absence causeth this: but what? That there should rise up against you certain of another sort: he says not, &#8220;because of my departing,&#8221; but &#8220;after my departing:&#8221; that is, after his going on his journey.&#8212;And yet this thing has happened already: much more (then will it happen) hereafter. Then we have the cause, &#8220;to draw away disciples after them.&#8221; (<a href="../../../../bib/kjv/act020.html#030">Acts 20.30</a><a name="vi.xliv-p19.10"></A>). That there are heresies, this is the cause, and no other than this. Then comes also consolation. But if He &#8220;purchased&#8221; it &#8220;with His own blood,&#8221; He will assuredly stand forward in its defence. &#8220;Night and day,&#8221; he says, &#8220;I cease not to warn with tears.&#8221; (<a href="../../../../bib/kjv/act020.html#031">Acts 20.31</a><a name="vi.xliv-p19.11"></A>.) This might well be said in our case also: and though the speech seems to refer peculiarly to the teachers, it is common also to the disciples. For what, though I speak and exhort and weep night and day, while the disciple obeys not? Therefore&nbsp;<A NAME="fr_1029"></A><A HREF="#fn_1029"><FONT SIZE="1">1030</FONT></A>
+ it is that he says, &#8220;I take you to record:&#8221; since also himself says, &#8220;I am pure from the blood of all men: for I have not shunned to declare unto you.&#8221; (<a href="../../../../bib/kjv/act020.html#026">Acts 20:26</a>, <a href="../../../../bib/kjv/act020.html#027">27</a><a name="vi.xliv-p20.1"></A>.) Why then, this only is to be a teacher, to declare, to preach, to instruct, shrink from nothing, to exhort night and day: but if, while one is doing all this, nothing comes of it, ye know what remains. Then ye have another justification: &#8220;I am pure from the blood of all men.&#8221; Think not that these words are spoken to us only: for indeed this speech is addressed to you also, that ye should attend to the things spoken, that ye should not start away from the hearing. What can I do? Lo! each day I rend myself with crying out, &#8220;Depart from the theatres:&#8221; and many laugh at us: &#8220;Desist from swearing, from covetousness:&#8221; numberless are our exhortations, and there is none to hear us. But I do not discourse during night? Fain would I do this also in the night time, and at your tables, if it were possible that one could be divided into ten thousand pieces, so as to be present with you and discourse. But if once in the week we call to you, and ye shrink back, and some of you do not even come here, and you that do come, depart having received no profit,&#8212;what shall we do? Many I know even sneer at us, that we are forever discoursing about the same things: so wearisome are we become to you by very satiety. But for this not we are to blame, but the hearers may thank themselves. For he indeed who is making good progress, rejoices to hear the same things always; it seems to be his praises that he hears spoken: but he who does not wish to get on, seems even to be annoyed, and though he hear the same thing but twice, it seems to him that he is hearing it often.</p>  
+<p style="font-size: 16pt" class="c13"><a name="vi.xliv-p21"></A>&#8220;I am pure,&#8221; he says, &#8220;from the blood of all men.&#8221; (<a href="../../../../bib/kjv/act020.html#026">Acts 20.26</a><a name="vi.xliv-p21.1"></A>.) This was fit and proper for Paul to say, but we dare not say it, conscious as we are of numberless faults. Wherefore for him the ever vigilant, ever at hand, the man enduring all things for the sake of the salvation of his disciples, it was fit and proper to say this: but we must say that of Moses, &#8220;The Lord was wroth with me for your sakes&#8221; (<a href="../../../../bib/kjv/deu003.html#026">Deut. iii. 26</a><a name="vi.xliv-p21.2"></A>), because ye lead us also into many sins. For when we are dispirited at seeing you make no progress, is not the greater part of our strength struck down? For what, I ask you has been done? Lo! by the grace of God we also have now passed the space of three years,&nbsp;<A NAME="fr_1030"></A><A HREF="#fn_1030"><FONT SIZE="1">1031</FONT></A>
+ not indeed night and day exhorting you, but doing this, often every third day, or every seventh. What more has come of it? We accuse, we rebuke, we weep, we are in anguish, although not openly, yet in heart. But those (inward) tears are far more bitter than these (outward ones): for these indeed bring a kind of relief to the feelings of the sorrowful, whereas those aggravate it, and bind it fast. Since when there is any cause of grief, and one cannot give vent to the sorrow, lest he should seem to be vainglorious, think what he suffers! Were it not that people would tax me with excessive love of display, you would see me each day shedding fountains of tears: but to those my chamber is witness, and my hours of solitude. For believe me I have (at times) despaired of my own salvation, but from my mourning on your account, I have not even leisure to bemoan my own evils: so entirely are ye all in all to me. And whether I perceive you to be advancing, then, for very delight, I am not sensible of my own evils: or whether I see you not advancing, such is my grief, I again dismiss my own cares from my thoughts: brightening up on account of your good things, though I myself have evils without number, and saddened on account of your painful things, though my own successes are without number. For what hope is there for the teacher, when his flock is destroyed? What kind of life, what kind of expectation is there for him? With what sort of confidence will he stand up before God? what will he say? For grant that he has nothing laid to his charge, has no punishment to suffer, but is &#8220;pure from the blood of all men:&#8221; yet even so will he suffer a grief incurable: since fathers also though they be not liable to be called to account for their children&#146;s sins, nevertheless have grief and vexation. And this profits them nothing,&nbsp;<A NAME="fr_1031"></A><A HREF="#fn_1031"><FONT SIZE="1">1032</FONT></A>
+ nor shields them (<span class="Greek"><a name="vi.xliv-p23.2"></A>&#960;&#961;&#959;&#8055;&#963;&#964;&#945;&#964;&#945;&#953;</span>). &#8220;For it is they that watch for our souls, as those that must give account.&#8221; (<a href="../../../../bib/kjv/heb013.html#017">Heb. xiii. 17</a><a name="vi.xliv-p23.3"></A>.) This seems to be a fearful thing: to me this gives no concern after your destruction. For whether I give account, or not, it is no profit to me. Might it be, that ye were saved, and I to give account because of you: ye saved, and I charged with not having fulfiled my part! For my anxiety is not that you should be saved through me as the means, but only that you should be saved, no matter by what person as the instrument. Ye know not the pangs of spiritual childbirth, how overpowering they are; how he who is in travail with this birth, would rather be cut into ten thousand pieces, than see one of those to whom he has given birth perishing and undone. Whence shall we persuade you? By no other argument indeed, but by what has been done, in all that regards you we shall clear ourselves.&nbsp;<A NAME="fr_1032"></A><A HREF="#fn_1032"><FONT SIZE="1">1033</FONT></A>
+ We too shall be able to say, that in nothing have we &#8220;shrunk from declaring&#8221; to you the whole truth: nevertheless we grieve: and that we do grieve, is manifest from the numberless plans we lay and contrivances we devise. And yet we might say to ourselves, What matters it to me? I have done my part, &#8220;I am pure from&#8221; (their) &#8220;blood:&#8221; but this is not enough for comfort. If we could tear open our heart, and show it to you, ye would see with what largeness it holds (you) within it, both women and children and men; for such is the power of love, that it makes the soul more spacious than the heaven. &#8220;Receive us,&#8221; says (Paul): &#8220;we have wronged no man, ye are not straitened in us.&#8221; (<a name="vi.xliv-p24.9"></A><a href="../../../../bib/kjv/co2007.html#002">2 Cor. vii. 2</a><a name="vi.xliv-p24.10"></A>; vi. 12.) He had all Corinth in his heart, and says, &#8220;Ye are not straitened: be ye also enlarged&#8221; (<a name="vi.xliv-p24.11"></A><a href="../../../../bib/kjv/co2006.html#013">2 Cor. vi. 13</a><a name="vi.xliv-p24.12"></A>); but I myself could not say this, for I well know, that ye both love me and receive me. But what is the profit either from my love or from yours, when the things pertaining to God thrive not in us? It is a ground for greater sorrow, an occasion of worse mischief (<span class="Greek"><a name="vi.xliv-p24.13"></A>&#955;&#8059;&#956;&#951;&#962;</span>, al. <span class="Greek"><a name="vi.xliv-p24.14"></A>&#955;&#8059;&#960;&#951;&#962;</span>). I have nothing to lay to your charge: &#8220;for I bear you record, that, if it had been possible, ye would have plucked out your own eyes, and have given them to me.&#8221; (<a href="../../../../bib/kjv/gal004.html#015">Gal. iv. 15</a><a name="vi.xliv-p24.15"></A>.) &#8220;We yearn not only to give you the Gospel, but also our own souls.&#8221; (<a name="vi.xliv-p24.16"></A><a href="../../../../bib/kjv/th1002.html#008">1 Thess. ii. 8</a><a name="vi.xliv-p24.17"></A>.) We are loved and we love (you): but this is not the question. But let us love Christ, &#8220;for the first commandment is, Thou shalt love the Lord thy God: and the second is like unto it, And thy neighbor as thyself.&#8221; (<a href="../../../../bib/kjv/mat022.html#037">Matt. xxii. 37-39</a><a name="vi.xliv-p24.18"></A>.) We have the second, we need the first: need the first, exceedingly, both I and you. We have it, but not as we ought. Let us love Him: ye know how great a reward is laid up for them that love Christ: let us love Him with fervor of soul, that, enjoying his goodwill, we may escape the stormy waves of this present life, and be found worthy to obtain the good things promised to them that love Him, through the grace and mercy of His only-begotten Son, with whom to the Father, together with the Holy Ghost, be glory, might, honor, now and ever, world without end. Amen.</p>    
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_1015"></A><A HREF="1110049.html#fr_1015">i:1016</A> <a name="vi.xliv-p4.11"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p5"></A> i.e. putting this foremost of the Beatitudes.</p>
+<A NAME="fn_1016"></A><A HREF="1110049.html#fr_1016">i:1017</A> <a name="vi.xliv-p5.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p6"></A> Something more ought to follow, but the report is imperfect. Mod. text &#8220;Others again there are who are not such as these, but who in the case of both characters preserve according to the occasion both the lowly and the high bearing: which thing indeed above all is characteristic of humility. Since then he is about to teach them such things, lest he should seem to be arrogant,&#8221; etc.</p>
+<A NAME="fn_1017"></A><A HREF="1110049.html#fr_1017">i:1018</A> <a name="vi.xliv-p6.7"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p7"></A> <span class="Greek"><a name="vi.xliv-p7.1"></A>&#932;&#8056; &#947;&#8048;&#961; &#948;&#953;&#945;&#956;&#945;&#961;&#964;&#8059;&#961;&#945;&#963;&#952;&#945;&#953; &#964;&#959;&#8166;&#964;&#8057; &#7952;&#963;&#964;&#953;&#957;, &#8005;&#964;&#945;&#957;</span><span class="Greek"><a name="vi.xliv-p7.2"></A>..&#8230;</span><span class="Greek"><a name="vi.xliv-p7.3"></A>&#932;&#8056; &#947;&#8048;&#961; &#948;&#953;&#945;&#956;&#945;&#961;&#964;&#8059;&#961;&#945;&#963;&#952;&#945;&#953; &#8033;&#962; &#7952;&#960;&#8054; &#964;&#8056; &#960;&#959;&#955;&#8058; &#964;&#959;&#8166;&#964;&#8057; &#7952;&#963;&#964;&#953;&#957;</span>.</p>
+<A NAME="fn_1018"></A><A HREF="1110049.html#fr_1018">i:1019</A> <a name="vi.xliv-p7.8"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p8"></A> Old text <span class="Greek"><a name="vi.xliv-p8.1"></A>&#948;&#953;&#8049; &#964;&#949; &#964;&#8048; &#7956;&#961;&#947;&#945;, &#948;&#953;&#8049; &#964;&#949; &#964;&#8056;&#957; &#933;&#7985;&amp; 232&#903;&#957; &#7936;&#947;&#957;&#959;&#949;&#8150;&#957;&#903; &#954;&#945;&#8054; &#960;&#8055;&#963;&#964;&#953;&#957; &#964;&#8052;&#957; &#949;&#7984;&#962; &#964;&#8056;&#957; &#922;. &#8125;&#921;</span>. as if all this were said in explanation of the preceding <span class="Greek"><a name="vi.xliv-p8.2"></A>&#927;&#8016;&#948;&#8050; &#947;&#8048;&#961; &#8125;&#921;&#959;&#965;&#948;&#945;&#8150;&#959;&#953; &#8084;&#948;&#949;&#963;&#945;&#957; &#945;&#8016;&#964;&#8057;&#957;</span>. But <span class="Greek"><a name="vi.xliv-p8.3"></A>&#948;&#8055;&#945; &#964;&#949; &#964;&#8048; &#7956;&#961;&#947;&#945;</span> explains the clause <span class="Greek"><a name="vi.xliv-p8.4"></A>&#964;&#8052;&#957; &#949;&#7984;&#962; &#964;&#8056;&#957; &#920;&#949;&#8056;&#957; &#956;&#949;&#964;&#8049;&#957;&#959;&#953;&#945;&#957;</span>, which requires to be inserted as in the Translation. Mod. text &#8220;both because they were ignorant of the Son, and because of their works, and their not having faith in the Lord Jesus.&#8221;</p>
+<A NAME="fn_1019"></A><A HREF="1110049.html#fr_1019">i:1020</A> <a name="vi.xliv-p8.6"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p9"></A> Chrys. understands &#8220;bound in the spirit&#8221; to mean constrained by the Holy Spirit (so Theophylact, Beza, Calvin, Wordsworth <i>et al.</i>). The fact that the Holy Spirit is mentioned in the next verse (<a href="../../../../bib/kjv/act020.html#023">Acts 20.23</a><a name="vi.xliv-p9.1"></A>) in such a way as to be distinguished apparently from &#8220;the spirit&#8221; here mentioned, has led most critics to believe that &#8220;the spirit&#8221; was Paul&#146;s own spirit (so Meyer, Lechler, Lange, DeWette, Ewald, Alford, Hackett, Gloag). <span class="Greek"><a name="vi.xliv-p9.2"></A>&#916;&#949;&#948;&#949;&#956;&#8051;&#957;&#959;&#962;</span> should not be taken as meaning bound with chains in prospect, i.e., as seen in his spirit in advance (as Bengel, Conybeare and Howson), but rather constrained, inwardly constrained.&#8212;G.B.S.</p>
+<A NAME="fn_1020"></A><A HREF="1110049.html#fr_1020">i:1021</A> <a name="vi.xliv-p9.4"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p10"></A> <span class="c11"><a name="vi.xliv-p10.1"></A>mss.</span> Cat. and Edd. <span class="Greek"><a name="vi.xliv-p10.2"></A>&#7936;</span><span class="Greek"><a name="vi.xliv-p10.3"></A>&#955;&#947;&#8182;&#956;&#949;&#957;</span> &#8220;let us grieve:&#8221; but Savile, <span class="Greek"><a name="vi.xliv-p10.4"></A>&#7936;</span><span class="Greek"><a name="vi.xliv-p10.5"></A>&#955;&#947;&#8182; &#956;&#8051;&#957;</span>. The next clause <span class="Greek"><a name="vi.xliv-p10.6"></A>&#7936;</span><span class="Greek"><a name="vi.xliv-p10.7"></A>&#955;&#955;&#8125; &#959;&#8016;&#948;&#8050; &#7969;&#947;&#959;&#8166;&#956;&#945;&#953;</span>, or, <span class="Greek"><a name="vi.xliv-p10.8"></A>&#7936;</span><span class="Greek"><a name="vi.xliv-p10.9"></A>&#955;&#955;&#8125; &#959;&#8016;&#948;&#8050;, &#8190;&#919;&#947;&#959;&#8166;&#956;&#945;&#953;</span>, requires something to make sense of it, as in the Translation.</p>
+<A NAME="fn_1021"></A><A HREF="1110049.html#fr_1021">i:1022</A> <a name="vi.xliv-p10.12"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p11"></A> <span class="Greek"><a name="vi.xliv-p11.1"></A>&#916;&#953;&#960;&#955;&#8134; &#7969; &#960;&#945;&#961;&#945;&#956;&#965;&#952;&#8055;&#945;</span>. The meaning is, &#8220;It was his face that they would see no more: he chooses that expression by way of softening matters, implying that in spirit he would be present: and again, all ye, not they only, so that the grief was not peculiar to them:&#8221; but this being rather obscure, A. substitutes <span class="Greek"><a name="vi.xliv-p11.2"></A>&#7936;</span><span class="Greek"><a name="vi.xliv-p11.3"></A>&#952;&#965;&#956;&#8055;&#945;</span>, and mod. text <span class="Greek"><a name="vi.xliv-p11.4"></A>&#916;&#953;&#960;&#955;&#8134; &#7969; &#955;&#8059;&#960;&#951;</span>, i.e. &#8220;the dejection (or, the sorrow) was twofold, both the being to see his face no more, and the, All of them.&#8221;</p>
+<A NAME="fn_1022"></A><A HREF="1110049.html#fr_1022">i:1023</A> <a name="vi.xliv-p11.5"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p12"></A> Neither of the two ideas which Chrys. draws from <a href="../../../../bib/kjv/act020.html#025">Acts 20.25</a><a name="vi.xliv-p12.1"></A>&#8212;(<i>a</i>) that though absent in body, he would be present with them in spirit; (<i>b</i>) that the &#8220;all&#8221; addressed refers to the whole company&#8212;comes naturally from the text. The apostle states his firm conviction that he shall not again visit Ephesus. Whether he ever did so or not, we do not know. The probabilities in the case would depend upon the question of a release from his Roman imprisonment. He hoped for such a release and intended to visit Coloss&aelig; (<a href="../../../../bib/kjv/plm001.html#022">Philem. 22</a><a name="vi.xliv-p12.2"></A>). On the supposition of such a release and on the consequent supposition of the Pauline authorship of the Pastoral Epistles, a visit after this time to Ephesus becomes very probable, especially since we find the apostle (<a name="vi.xliv-p12.3"></A><a href="../../../../bib/kjv/ti2004.html#013">2 Tim. 4:13</a>, <a href="../../../../bib/kjv/ti2004.html#020">20</a><a name="vi.xliv-p12.4"></A>) at Troas and Miletus.&#8212;G.B.S.</p>
+<A NAME="fn_1023"></A><A HREF="1110049.html#fr_1023">i:1024</A> <a name="vi.xliv-p12.14"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p13"></A> Hence it appears that St. Chrys. reads <span class="Greek"><a name="vi.xliv-p13.1"></A>&#922;&#965;&#961;&#8055;&#959;&#965;</span> not <span class="Greek"><a name="vi.xliv-p13.2"></A>&#920;&#949;&#959;&#8166;</span> in this text, though in the citation the Scribes give it according to the other reading, <span class="Greek"><a name="vi.xliv-p13.3"></A>&#920;&#949;&#959;&#8166;</span>.</p>
+<A NAME="fn_1024"></A><A HREF="1110049.html#fr_1024">i:1025</A> <a name="vi.xliv-p13.4"></A>
+<p style="font-size: 16pt"><a name="vi.xliv-p14"></A> It is an interesting fact that in this passage where the reading vacillates between <span class="Greek"><a name="vi.xliv-p14.1"></A>&#922;&#965;&#961;&#8055;&#959;&#965;</span> and <span class="Greek"><a name="vi.xliv-p14.2"></A>&#952;&#949;&#959;&#8166;</span>, while the report of the Homily has given us <span class="Greek"><a name="vi.xliv-p14.3"></A>&#952;&#949;&#959;&#8166;</span>, the citation of the N. T. text favors the reading <span class="Greek"><a name="vi.xliv-p14.4"></A>&#922;&#965;&#961;&#8055;&#959;&#965;</span>. The great majority of <span class="c14"><a name="vi.xliv-p14.5"></A>mss.</span> read <span class="Greek"><a name="vi.xliv-p14.6"></A>&#964;&#959;&#8166; &#922;&#965;&#961;&#8055;&#959;&#965;</span>: <span class="Hebrew"><a name="vi.xliv-p14.7"></A>&#1488;</span> and B. have <span class="Greek"><a name="vi.xliv-p14.8"></A>&#964;&#959;&#8166; &#952;&#949;&#959;&#8166;</span> (the usual Pauline formula). Many critics hold that <span class="Greek"><a name="vi.xliv-p14.9"></A>&#922;&#965;&#961;</span>. was changed to <span class="Greek"><a name="vi.xliv-p14.10"></A>&#952;</span>. in accordance with Pauline usage in the Epistles. The idea of the &#8220;blood of God&#8221; is against the reading <span class="Greek"><a name="vi.xliv-p14.11"></A>&#952;&#949;&#959;&#8166;</span>. Modern critics are nearly equally divided. Alford, Westcott and Hort, read <span class="Greek"><a name="vi.xliv-p14.12"></A>&#952;&#949;&#959;&#8166;</span>; Meyer, Tischendorf, <span class="Greek"><a name="vi.xliv-p14.13"></A>&#922;&#965;&#961;&#8055;&#959;&#965;</span>; to us the latter seems decidedly preferable.&#8212;G.B.S.</p>
+<A NAME="fn_1025"></A><A HREF="1110049.html#fr_1025">i:1026</A> <a name="vi.xliv-p14.14"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p15"></A> <span class="Greek"><a name="vi.xliv-p15.1"></A>&#948;&#949;&#8055;&#954;&#957;&#965;&#963;&#953; &#964;&#8055;&#956;&#953;&#959;&#957; &#964;&#8056; &#960;&#961;&#8118;&#947;&#956;&#945;, &#8005;&#964;&#953;</span>. Mod. text. <span class="Greek"><a name="vi.xliv-p15.2"></A>&#960;&#959;&#955;&#8058; &#948;&#949;&#8055;&#954;&#957;. &#948;&#7984; &#8039;&#957; &#949;&#7990;&#960;&#949; &#964;&#8055;&#956;&#953;&#959;&#957; &#964;&#8056; &#960;&#961;</span>. So Edd. <i>Multum ostendit dum dicit pretiosam rem.</i> Ben.</p>
+<A NAME="fn_1026"></A><A HREF="1110049.html#fr_1026">i:1027</A> <a name="vi.xliv-p15.9"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p16"></A> <span class="Greek"><a name="vi.xliv-p16.1"></A>&#927;&#8016; &#947;&#8048;&#961; &#949;&#7984; &#960;&#959;&#955;&#955;&#959;&#8058;&#962; &#949;&#7990;&#948;&#949; &#964;&#8057;&#964;&#949; &#7952;&#966;&#949;&#8055;&#963;&#945;&#964;&#959;</span> (mod. <span class="Greek"><a name="vi.xliv-p16.2"></A>&#7952;</span><span class="Greek"><a name="vi.xliv-p16.3"></A>&#966;&#949;&#8055;&#948;&#949;&#964;&#959;</span>). <i>Non enim si multos vidisset, eis pepercisset,</i> Ben. But Cat. has preserved the true reading, <span class="Greek"><a name="vi.xliv-p16.4"></A>&#7952;</span><span class="Greek"><a name="vi.xliv-p16.5"></A>&#966;&#8055;&#963;&#964;&#945;&#964;&#959;</span>.</p>
+<A NAME="fn_1027"></A><A HREF="1110049.html#fr_1027">i:1028</A> <a name="vi.xliv-p16.7"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p17"></A> <span class="Greek"><a name="vi.xliv-p17.1"></A>&#8142;</span><span class="Greek"><a name="vi.xliv-p17.2"></A>&#917;&#963;&#964;&#945;&#953; &#967;&#961;&#951;&#963;&#964;&#8056;&#962; &#954;&#945;&#8054; &#956;&#8051;&#947;&#945;&#962; &#7936;&#957;&#8053;&#961;</span>. The second epithet, being evidently unsuitable, mod. text gives, <span class="Greek"><a name="vi.xliv-p17.3"></A>&#967;&#961;&#951;&#963;&#964;&#8056;&#962; &#7936;&#957;&#8052;&#961; &#954;&#945;&#8054; &#960;&#961;&#8118;&#959;&#962; &#947;&#949;&#957;&#8053;&#963;&#949;&#964;&#945;&#953;</span>. But perhaps <span class="Greek"><a name="vi.xliv-p17.4"></A>&#967;. &#7936;. &#954;&#945;&#8054; &#956;</span>. belongs to the next sentence, as an exclamation on <a href="../../../../bib/kjv/act020.html#022">Acts 20.22</a><a name="vi.xliv-p17.5"></A>. &#8220;A good and great man!&#8221; and for <span class="Greek"><a name="vi.xliv-p17.6"></A>&#956;&#945;&#955;&#8049;&#963;&#963;&#949;&#964;&#945;&#953;&#903; &#7956;&#963;&#964;&#945;&#953;</span> we may read <span class="Greek"><a name="vi.xliv-p17.7"></A>&#956;&#945;&#955;&#945;&#967;&#952;&#8053;&#963;&#949;&#964;&#945;&#953;</span>.</p>
+<A NAME="fn_1028"></A><A HREF="1110049.html#fr_1028">i:1029</A> <a name="vi.xliv-p18.3"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p19"></A> Old text: <span class="Greek"><a name="vi.xliv-p19.1"></A>&#7989;</span><span class="Greek"><a name="vi.xliv-p19.2"></A>&#957;&#945; &#956;&#8052; &#954;&#945;&#964;&#945;&#967;&#8061;&#963;&#8131; &#945;&#8016;&#964;&#8182;&#957; &#964;&#8052;&#957; &#948;&#953;&#8049;&#957;&#959;&#953;&#945;&#957;</span>, followed by the latter part of <a href="../../../../bib/kjv/act020.html#027">Acts 20.27</a><a name="vi.xliv-p19.3"></A>. <span class="Greek"><a name="vi.xliv-p19.4"></A>&#932;&#959;&#8166; &#7936;&#957;&#945;&#947;&#947;&#949;&#8150;&#955;&#945;&#953; &#8017;&#956;&#8150;&#957; &#954;. &#964;. &#955;</span>. But the connection may also be, &#8220;I have not shrunk&#8212;of course in due order and proportion&#8221; (or something of that kind) &#8220;that he may not overwhelm their minds, from declaring,&#8221; etc. It might seem, however, from the comment which follows, viz <span class="Greek"><a name="vi.xliv-p19.5"></A>&#964;&#8052;&#957; &#960;&#949;&#961;&#8054; &#964;&#959;&#8166; &#960;&#945;&#961;&#8057;&#957;&#964;&#959;&#962; &#960;&#961;&#8049;&#947;&#956;&#945;&#964;&#959;&#962;</span>, that Chrys. is here proposing an interpretation of <a href="../../../../bib/kjv/act020.html#027">Acts 20.27</a><a name="vi.xliv-p19.6"></A> different from what was implied in the first exposition, p. 269, and from that of <a href="../../../../bib/kjv/act020.html#020">Acts 20.20</a><a name="vi.xliv-p19.7"></A>: i.e. &#8220;painful as it is, I have not shrunk from announcing to you all the counsel of God, to wit, as touching the present matter, my separation from you, so that ye shall see my face no more.&#8221; But this being very unsatisfactory, it is better to take the connection thus: Nor does he now shrink from declaring to them the whole counsel of God concerning the coming events, and their duty and responsibility therein. (We have therefore placed the mark of an hiatus before this clause.)&#8212;Mod. text substitutes, &#8220;But what is this (that he adds), &#145;Also of your own selves shall men arise, speaking perverse things.&#146; What then,&#8221; etc.</p>
+<A NAME="fn_1029"></A><A HREF="1110049.html#fr_1029">i:1030</A> <a name="vi.xliv-p19.12"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p20"></A> The text is evidently confused or defective here. Mod. text &#8220;For that none may fancy it plea enough for his justification, that he is a disciple while yet he does not yield, therefore having said, I take you to record, he adds, for I have not shunned,&#8221; etc.</p>
+<A NAME="fn_1030"></A><A HREF="1110049.html#fr_1030">i:1031</A> <a name="vi.xliv-p21.3"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p22"></A> St. Chrysostom succeeded Nectarius in the Archbishopric of Constantinople, 26th Feb. Coss. Honorius iv. and Eutychianus <span class="c14"><a name="vi.xliv-p22.1"></A>a.d.</span> 398. Socrat. vi. 2.&#8212;From the following passage it appears that these Homm. though begun after Easter, perhaps of <span class="c14"><a name="vi.xliv-p22.2"></A>a.d.</span> 400, extended over a considerable period of time, not being preached every day.&#8212;Below, mod. text spoils the sense by altering <span class="Greek"><a name="vi.xliv-p22.3"></A>&#960;&#953;&#954;&#961;&#8057;&#964;&#949;&#961;&#945;</span> into <span class="Greek"><a name="vi.xliv-p22.4"></A>&#954;&#959;&#965;&#966;&#8057;&#964;&#949;&#961;&#945;</span>.</p>
+<A NAME="fn_1031"></A><A HREF="1110049.html#fr_1031">i:1032</A> <a name="vi.xliv-p22.5"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p23"></A> Mod. text inserts a <span class="Greek"><a name="vi.xliv-p23.1"></A>&#966;&#951;&#963;&#8055;&#957;</span>, and makes the sentence interrogative. &#8220;And does this, you will say, profit them nothing nor shield them, that they watch for our souls? But then they watch as they that must give an account: and to some indeed this seems to be terrible.&#8221; The meaning in general seems to be: &#8220;If they perish, yet surely you can comfort yourself with the thought, that you at least are pure from their blood. No, this thought avails nothing to ward off (that sorrow). &#8220;Because they watch,&#8221; etc.&#8212;this seems a fearful thing. But if you be lost, it is not the thought of my accountability that gives me most concern&#8212;it is the thought of your perishing. Oh! that I might in the last day find you saved though not through me, yea, though I myself thereafter were called to account as not having done my part by you!&#8221;</p>
+<A NAME="fn_1032"></A><A HREF="1110049.html#fr_1032">i:1033</A> <a name="vi.xliv-p23.4"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vi.xliv-p24"></A> <span class="Greek"><a name="vi.xliv-p24.1"></A>&#8190;</span><span class="Greek"><a name="vi.xliv-p24.2"></A>&#917;&#964;&#8051;&#961;&#969;&#952;&#949;&#957; &#956;&#8050;&#957; &#959;&#8016;&#948;&#945;&#956;&#8057;&#952;&#949;&#957;, &#7936;&#960;&#8056; &#948;&#8050; &#964;&#8182;&#957; &#947;&#949;&#957;&#959;&#956;&#8051;&#957;&#969;&#957;</span>) meaning perhaps, &#8220;From what has been done by us in our ministry: we will endeavor to persuade you by reminding you of all our care and pains for our salvation:&#8221;) <span class="Greek"><a name="vi.xliv-p24.3"></A>&#964;&#8048; &#954;&#945;&#952;&#8125; &#8017;&#956;&#8118;&#962; &#960;&#8049;&#957;&#964;&#945; &#7936;&#960;&#959;&#955;&#965;&#963;&#8057;&#956;&#949;&#952;&#945;. &#8125;&#913;&#960;&#959;&#955;&#8059;&#949;&#963;&#952;&#945;&#953;</span> <span class="Greek"><a name="vi.xliv-p24.4"></A>(</span><span class="Greek"><a name="vi.xliv-p24.5"></A>&#7952;</span><span class="Greek"><a name="vi.xliv-p24.6"></A>&#947;&#954;&#955;&#8053;&#956;&#945;&#964;&#945;</span>), is frequent in Chrys., often confused with &#7936;&#960;&#959;&#955;&#959;&#8059;&#949;&#963;&#952;&#945;&#953; and <span class="Greek"><a name="vi.xliv-p24.7"></A>&#7936;</span><span class="Greek"><a name="vi.xliv-p24.8"></A>&#960;&#959;&#948;&#8059;&#949;&#963;&#952;&#945;&#953;</span>. See Mr. Field&#146;s <i>Index and Annotat. in Hom. Matth.</i></p>
+<p><HR>
+<CENTER>
+<A HREF="1110050.html">Next: Homily XLV on Acts xx. 32.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/111/1110049.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/111/1110049.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/djbbft6'>tak.la/djbbft6</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/djbbft6';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+
