@@ -1,0 +1,1870 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. I: The Apostolic Fathers, Justin Martyr, Irenaeus | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Apostolic Justin Martyr Irenaeus">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol I Index | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/001/index.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:35:20+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/001/'>001</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/001/'>001</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h2>Ante-Nicene Fathers, Vol I Index</h2>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+</CENTER>
+<HR>
+<H1 ALIGN="CENTER">Ante-Nicene Fathers, Vol. I</H1>
+<H3 ALIGN="CENTER">The Apostolic Fathers, Justin Martyr, Irenaeaus</H3>
+<HR>
+
+<A NAME="section_000"></A>
+<H3 ALIGN="CENTER">Title Page</H3>
+<A HREF="0010000.html">Title Page</A><BR>
+<A HREF="0010001.html">Preface</A><BR>
+<A HREF="0010002.html">Introductory Notice</A><BR>
+
+<A NAME="section_001"></A>
+<H3 ALIGN="CENTER">CLEMENT OF ROME</H3>
+<A HREF="0010003.html">CLEMENT OF ROME</A><BR>
+<A HREF="0010004.html">Introductory Note to the First Epistle...</A><BR>
+<A HREF="0010005.html">First Epistle to the Corinthians</A><BR>
+<A HREF="0010006.html">Chapter I.&#8212;The salutation. Praise of...</A><BR>
+<A HREF="0010007.html">Chapter II.&#8212;Praise of the...</A><BR>
+<A HREF="0010008.html">Chapter III.&#8212;The sad state of the...</A><BR>
+<A HREF="0010009.html">Chapter IV.&#8212;Many evils have already...</A><BR>
+<A HREF="0010010.html">Chapter V.&#8212;No less evils have arisen...</A><BR>
+<A HREF="0010011.html">Chapter VI.&#8212;Continuation. Several...</A><BR>
+<A HREF="0010012.html">Chapter VII.&#8212;An exhortation to...</A><BR>
+<A HREF="0010013.html">Chapter VIII.&#8212;Continuation...</A><BR>
+<A HREF="0010014.html">Chapter IX.&#8212;Examples of the saints.</A><BR>
+<A HREF="0010015.html">Chapter X.&#8212;Continuation of the...</A><BR>
+<A HREF="0010016.html">Chapter XI.&#8212;Continuation. Lot.</A><BR>
+<A HREF="0010017.html">Chapter XII.&#8212;The rewards of faith...</A><BR>
+<A HREF="0010018.html">Chapter XIII.&#8212;An exhortation to...</A><BR>
+<A HREF="0010019.html">Chapter XIV.&#8212;We should obey God...</A><BR>
+<A HREF="0010020.html">Chapter XV.&#8212;We must adhere to those...</A><BR>
+<A HREF="0010021.html">Chapter XVI.&#8212;Christ as an example of...</A><BR>
+<A HREF="0010022.html">Chapter XVII.&#8212;The saints as examples...</A><BR>
+<A HREF="0010023.html">Chapter XVIII.&#8212;David as an example...</A><BR>
+<A HREF="0010024.html">Chapter XIX.&#8212;Imitating these...</A><BR>
+<A HREF="0010025.html">Chapter XX.&#8212;The peace and harmony of...</A><BR>
+<A HREF="0010026.html">Chapter XXI.&#8212;Let us obey God, and...</A><BR>
+<A HREF="0010027.html">Chapter XXII.&#8212;These exhortations are...</A><BR>
+<A HREF="0010028.html">Chapter XXIII.&#8212;Be humble, and...</A><BR>
+<A HREF="0010029.html">Chapter XXIV.&#8212;God continually shows...</A><BR>
+<A HREF="0010030.html">Chapter XXV.&#8212;The ph&#339;nix an emblem...</A><BR>
+<A HREF="0010031.html">Chapter XXVI.&#8212;We shall rise again,...</A><BR>
+<A HREF="0010032.html">Chapter XXVII.&#8212;In the hope of the...</A><BR>
+<A HREF="0010033.html">Chapter XXVIII.&#8212;God sees all things:...</A><BR>
+<A HREF="0010034.html">Chapter XXIX.&#8212;Let us also draw near...</A><BR>
+<A HREF="0010035.html">Chapter XXX.&#8212;Let us do those things...</A><BR>
+<A HREF="0010036.html">Chapter XXXI.&#8212;Let us see by what...</A><BR>
+<A HREF="0010037.html">Chapter XXXII.&#8212;We are justified not...</A><BR>
+<A HREF="0010038.html">Chapter XXXIII.&#8212;But let us not give...</A><BR>
+<A HREF="0010039.html">Chapter XXXIV.&#8212;Great is the reward...</A><BR>
+<A HREF="0010040.html">Chapter XXXV.&#8212;Immense is this...</A><BR>
+<A HREF="0010041.html">Chapter XXXVI.&#8212;All blessings are...</A><BR>
+<A HREF="0010042.html">Chapter XXXVII.&#8212;Christ is our...</A><BR>
+<A HREF="0010043.html">Chapter XXXVIII.&#8212;Let the members of...</A><BR>
+<A HREF="0010044.html">Chapter XXXIX.&#8212;There is no reason...</A><BR>
+<A HREF="0010045.html">Chapter XL.&#8212;Let us preserve in the...</A><BR>
+<A HREF="0010046.html">Chapter XLI.&#8212;Continuation of the...</A><BR>
+<A HREF="0010047.html">Chapter XLII.&#8212;The order of ministers...</A><BR>
+<A HREF="0010048.html">Chapter XLIII.&#8212;Moses of old stilled...</A><BR>
+<A HREF="0010049.html">Chapter XLIV.&#8212;The ordinances of the...</A><BR>
+<A HREF="0010050.html">Chapter XLV.&#8212;It is the part of the...</A><BR>
+<A HREF="0010051.html">Chapter XLVI.&#8212;Let us cleave to the...</A><BR>
+<A HREF="0010052.html">Chapter XLVII.&#8212;Your recent discord...</A><BR>
+<A HREF="0010053.html">Chapter XLVIII.&#8212;Let us return to the...</A><BR>
+<A HREF="0010054.html">Chapter XLIX.&#8212;The praise of love.</A><BR>
+<A HREF="0010055.html">Chapter L.&#8212;Let us pray to be thought...</A><BR>
+<A HREF="0010056.html">Chapter LI.&#8212;Let the partakers in...</A><BR>
+<A HREF="0010057.html">Chapter LII.&#8212;Such a confession is...</A><BR>
+<A HREF="0010058.html">Chapter LIII.&#8212;The love of Moses...</A><BR>
+<A HREF="0010059.html">Chapter LIV.&#8212;He who is full of love...</A><BR>
+<A HREF="0010060.html">Chapter LV.&#8212;Examples of such love.</A><BR>
+<A HREF="0010061.html">Chapter LVI.&#8212;Let us admonish and...</A><BR>
+<A HREF="0010062.html">Chapter LVII.&#8212;Let the authors of...</A><BR>
+<A HREF="0010063.html">Chapter LVIII.&#8212;Blessings sought for...</A><BR>
+<A HREF="0010064.html">Chapter LIX.&#8212;The Corinthians are...</A><BR>
+
+<A NAME="section_002"></A>
+<H3 ALIGN="CENTER">MATHETES</H3>
+<A HREF="0010065.html">MATHETES</A><BR>
+<A HREF="0010066.html">Introductory Note to the Epistle of...</A><BR>
+<A HREF="0010067.html">Epistle to Diognetus</A><BR>
+<A HREF="0010068.html">Chapter I.&#8212;Occasion of the epistle.</A><BR>
+<A HREF="0010069.html">Chapter II.&#8212;The vanity of idols.</A><BR>
+<A HREF="0010070.html">Chapter III.&#8212;Superstitions of the...</A><BR>
+<A HREF="0010071.html">Chapter IV.&#8212;The other observances of...</A><BR>
+<A HREF="0010072.html">Chapter V.&#8212;The manners of the...</A><BR>
+<A HREF="0010073.html">Chapter VI.&#8212;The relation of...</A><BR>
+<A HREF="0010074.html">Chapter VII.&#8212;The manifestation of...</A><BR>
+<A HREF="0010075.html">Chapter VIII.&#8212;The miserable state of...</A><BR>
+<A HREF="0010076.html">Chapter IX.&#8212;Why the Son was sent so...</A><BR>
+<A HREF="0010077.html">Chapter X.&#8212;The blessings that will...</A><BR>
+<A HREF="0010078.html">Chapter XI.&#8212;These things are worthy...</A><BR>
+<A HREF="0010079.html">Chapter XII.&#8212;The importance of...</A><BR>
+
+<A NAME="section_003"></A>
+<H3 ALIGN="CENTER">POLYCARP</H3>
+<A HREF="0010080.html">POLYCARP</A><BR>
+<A HREF="0010081.html">Introductory Note to the Epistle of...</A><BR>
+<A HREF="0010082.html">Epistle to the Philippians</A><BR>
+<A HREF="0010083.html">Chapter I.&#8212;Praise of the...</A><BR>
+<A HREF="0010084.html">Chapter II.&#8212;An exhortation to...</A><BR>
+<A HREF="0010085.html">Chapter III.&#8212;Expressions of personal...</A><BR>
+<A HREF="0010086.html">Chapter IV.&#8212;Various exhortations.</A><BR>
+<A HREF="0010087.html">Chapter V.&#8212;The duties of deacons,...</A><BR>
+<A HREF="0010088.html">Chapter VI.&#8212;The duties of presbyters...</A><BR>
+<A HREF="0010089.html">Chapter VII.&#8212;Avoid the Docet&aelig;, and...</A><BR>
+<A HREF="0010090.html">Chapter VIII.&#8212;Persevere in hope and...</A><BR>
+<A HREF="0010091.html">Chapter IX.&#8212;Patience inculcated.</A><BR>
+<A HREF="0010092.html">Chapter X.&#8212;Exhortation to the...</A><BR>
+<A HREF="0010093.html">Chapter XI.&#8212;Expression of grief on...</A><BR>
+<A HREF="0010094.html">Chapter XII.&#8212;Exhortation to various...</A><BR>
+<A HREF="0010095.html">Chapter XIII.&#8212;Concerning the...</A><BR>
+<A HREF="0010096.html">Chapter XIV.&#8212;Conclusion.</A><BR>
+<A HREF="0010097.html">Introductory Note to the Martyrdom of...</A><BR>
+<A HREF="0010098.html">The Martyrdom of Polycarp</A><BR>
+<A HREF="0010099.html">Chapter I.&#8212;Subject of which we...</A><BR>
+<A HREF="0010100.html">Chapter II.&#8212;The wonderful constancy...</A><BR>
+<A HREF="0010101.html">Chapter III.&#8212;The constancy of...</A><BR>
+<A HREF="0010102.html">Chapter IV.&#8212;Quintus the apostate.</A><BR>
+<A HREF="0010103.html">Chapter V.&#8212;The departure and vision...</A><BR>
+<A HREF="0010104.html">Chapter VI.&#8212;Polycarp is betrayed by...</A><BR>
+<A HREF="0010105.html">Chapter VII.&#8212;Polycarp is found by...</A><BR>
+<A HREF="0010106.html">Chapter VIII.&#8212;Polycarp is brought...</A><BR>
+<A HREF="0010107.html">Chapter IX.&#8212;Polycarp refuses to...</A><BR>
+<A HREF="0010108.html">Chapter X.&#8212;Polycarp confesses...</A><BR>
+<A HREF="0010109.html">Chapter XI.&#8212;No threats have any...</A><BR>
+<A HREF="0010110.html">Chapter XII.&#8212;Polycarp is sentenced...</A><BR>
+<A HREF="0010111.html">Chapter XIII.&#8212;The funeral pile is...</A><BR>
+<A HREF="0010112.html">Chapter XIV.&#8212;The prayer of Polycarp.</A><BR>
+<A HREF="0010113.html">Chapter XV.&#8212;Polycarp is not injured...</A><BR>
+<A HREF="0010114.html">Chapter XVI.&#8212;Polycarp is pierced by...</A><BR>
+<A HREF="0010115.html">Chapter XVII.&#8212;The Christians are...</A><BR>
+<A HREF="0010116.html">Chapter XVIII.&#8212;The body of Polycarp...</A><BR>
+<A HREF="0010117.html">Chapter XIX.&#8212;Praise of the martyr...</A><BR>
+<A HREF="0010118.html">Chapter XX.&#8212;This epistle is to be...</A><BR>
+<A HREF="0010119.html">Chapter XXI.&#8212;The date of the...</A><BR>
+<A HREF="0010120.html">Chapter XXII.&#8212;Salutation.</A><BR>
+
+<A NAME="section_004"></A>
+<H3 ALIGN="CENTER">IGNATIUS</H3>
+<A HREF="0010121.html">IGNATIUS</A><BR>
+<A HREF="0010122.html">Introductory Note to the Epistles of...</A><BR>
+<A HREF="0010123.html">Epistle to the Ephesians: Shorter and...</A><BR>
+<A HREF="0010124.html">Chapter I.&#8212;Praise of the Ephesians.</A><BR>
+<A HREF="0010125.html">Chapter II.&#8212;Congratulations and...</A><BR>
+<A HREF="0010126.html">Chapter III.&#8212;Exhortations to unity.</A><BR>
+<A HREF="0010127.html">Chapter IV.&#8212;The same continued.</A><BR>
+<A HREF="0010128.html">Chapter V.&#8212;The praise of unity.</A><BR>
+<A HREF="0010129.html">Chapter VI.&#8212;Have respect to the...</A><BR>
+<A HREF="0010130.html">Chapter VII.&#8212;Beware of false...</A><BR>
+<A HREF="0010131.html">Chapter VIII.&#8212;Renewed praise of the...</A><BR>
+<A HREF="0010132.html">Chapter IX.&#8212;Ye have given no heed to...</A><BR>
+<A HREF="0010133.html">Chapter X.&#8212;Exhortations to prayer,...</A><BR>
+<A HREF="0010134.html">Chapter XI.&#8212;An exhortation to fear...</A><BR>
+<A HREF="0010135.html">Chapter XII.&#8212;Praise of the...</A><BR>
+<A HREF="0010136.html">Chapter XIII.&#8212;Exhortation to meet...</A><BR>
+<A HREF="0010137.html">Chapter XIV.&#8212;Exhortations to faith...</A><BR>
+<A HREF="0010138.html">Chapter XV.&#8212;Exhortation to confess...</A><BR>
+<A HREF="0010139.html">Chapter XVI.&#8212;The fate of false...</A><BR>
+<A HREF="0010140.html">Chapter XVII.&#8212;Beware of false...</A><BR>
+<A HREF="0010141.html">Chapter XVIII.&#8212;The glory of the...</A><BR>
+<A HREF="0010142.html">Chapter XIX.&#8212;Three celebrated...</A><BR>
+<A HREF="0010143.html">Chapter XX.&#8212;Promise of another...</A><BR>
+<A HREF="0010144.html">Chapter XX.&#8212;Exhortations to...</A><BR>
+<A HREF="0010145.html">Chapter XXI.&#8212;Conclusion.</A><BR>
+<A HREF="0010146.html">Epistle to the Magnesians: Shorter and...</A><BR>
+<A HREF="0010147.html">Chapter I.&#8212;Reason of writing the...</A><BR>
+<A HREF="0010148.html">Chapter II.&#8212;I rejoice in your...</A><BR>
+<A HREF="0010149.html">Chapter III.&#8212;Honour your youthful...</A><BR>
+<A HREF="0010150.html">Chapter IV.&#8212;Some wickedly act...</A><BR>
+<A HREF="0010151.html">Chapter V.&#8212;Death is the fate of all...</A><BR>
+<A HREF="0010152.html">Chapter VI.&#8212;Preserve harmony.</A><BR>
+<A HREF="0010153.html">Chapter VII.&#8212;Do nothing without the...</A><BR>
+<A HREF="0010154.html">Chapter VIII.&#8212;Caution against false...</A><BR>
+<A HREF="0010155.html">Chapter IX.&#8212;Let us live with Christ.</A><BR>
+<A HREF="0010156.html">Chapter X.&#8212;Beware of Judaizing.</A><BR>
+<A HREF="0010157.html">Chapter XI.&#8212;I write these things to...</A><BR>
+<A HREF="0010158.html">Chapter XII.&#8212;Ye are superior to me.</A><BR>
+<A HREF="0010159.html">Chapter XIII.&#8212;Be established in...</A><BR>
+<A HREF="0010160.html">Chapter XIV.&#8212;Your prayers requested.</A><BR>
+<A HREF="0010161.html">Chapter XV.&#8212;Salutations.</A><BR>
+<A HREF="0010162.html">Epistle to the Trallians: Shorter and...</A><BR>
+<A HREF="0010163.html">Chapter I.&#8212;Acknowledgment of their...</A><BR>
+<A HREF="0010164.html">Chapter II.&#8212;Be subject to the...</A><BR>
+<A HREF="0010165.html">Chapter III.&#8212;Honour the deacons,...</A><BR>
+<A HREF="0010166.html">Chapter IV.&#8212;I have need of humility.</A><BR>
+<A HREF="0010167.html">Chapter V.&#8212;I will not teach you...</A><BR>
+<A HREF="0010168.html">Chapter VI.&#8212;Abstain from the poison...</A><BR>
+<A HREF="0010169.html">Chapter VII.&#8212;The same continued.</A><BR>
+<A HREF="0010170.html">Chapter VIII.&#8212;Be on your guard...</A><BR>
+<A HREF="0010171.html">Chapter IX.&#8212;Reference to the history...</A><BR>
+<A HREF="0010172.html">Chapter X.&#8212;The reality of Christ&#146;s...</A><BR>
+<A HREF="0010173.html">Chapter XI.&#8212;Avoid the deadly errors...</A><BR>
+<A HREF="0010174.html">Chapter XII.&#8212;Continue in unity and...</A><BR>
+<A HREF="0010175.html">Chapter XIII.&#8212;Conclusion.</A><BR>
+<A HREF="0010176.html">Epistle to the Romans: Shorter and...</A><BR>
+<A HREF="0010177.html">Chapter I.&#8212;As a prisoner, I hope to...</A><BR>
+<A HREF="0010178.html">Chapter II.&#8212;Do not save me from...</A><BR>
+<A HREF="0010179.html">Chapter III.&#8212;Pray rather that I may...</A><BR>
+<A HREF="0010180.html">Chapter IV.&#8212;Allow me to fall a prey...</A><BR>
+<A HREF="0010181.html">Chapter V.&#8212;I desire to die.</A><BR>
+<A HREF="0010182.html">Chapter VI.&#8212;By death I shall attain...</A><BR>
+<A HREF="0010183.html">Chapter VII.&#8212;Reason of desiring to...</A><BR>
+<A HREF="0010184.html">Chapter VIII.&#8212;Be ye favourable to...</A><BR>
+<A HREF="0010185.html">Chapter IX.&#8212;Pray for the church in...</A><BR>
+<A HREF="0010186.html">Chapter X.&#8212;Conclusion.</A><BR>
+<A HREF="0010187.html">Epistle to the Philadelphians: Shorter...</A><BR>
+<A HREF="0010188.html">Chapter I.&#8212;Praise of the bishop.</A><BR>
+<A HREF="0010189.html">Chapter II.&#8212;Maintain union with the...</A><BR>
+<A HREF="0010190.html">Chapter III.&#8212;Avoid schismatics.</A><BR>
+<A HREF="0010191.html">Chapter IV.&#8212;Have but one Eucharist,...</A><BR>
+<A HREF="0010192.html">Chapter V.&#8212;Pray for me.</A><BR>
+<A HREF="0010193.html">Chapter VI.&#8212;Do not accept Judaism.</A><BR>
+<A HREF="0010194.html">Chapter VII.&#8212;I have exhorted you to...</A><BR>
+<A HREF="0010195.html">Chapter VIII.&#8212;The same continued.</A><BR>
+<A HREF="0010196.html">Chapter IX.&#8212;The Old Testament is...</A><BR>
+<A HREF="0010197.html">Chapter X.&#8212;Congratulate the...</A><BR>
+<A HREF="0010198.html">Chapter XI.&#8212;Thanks and salutation.</A><BR>
+<A HREF="0010199.html">Epistle to the Smyrn&aelig;ans: Shorter and...</A><BR>
+<A HREF="0010200.html">Chapter I.&#8212;Thanks to God for your...</A><BR>
+<A HREF="0010201.html">Chapter II.&#8212;Christ&#146;s true passion.</A><BR>
+<A HREF="0010202.html">Chapter III.&#8212;Christ was possessed of...</A><BR>
+<A HREF="0010203.html">Chapter IV.&#8212;Beware of these...</A><BR>
+<A HREF="0010204.html">Chapter V.&#8212;Their dangerous errors.</A><BR>
+<A HREF="0010205.html">Chapter VI&#8212;Unbelievers in the blood...</A><BR>
+<A HREF="0010206.html">Chapter VII.&#8212;Let us stand aloof from...</A><BR>
+<A HREF="0010207.html">Chapter VIII.&#8212;Let nothing be done...</A><BR>
+<A HREF="0010208.html">Chapter IX.&#8212;Honour the bishop.</A><BR>
+<A HREF="0010209.html">Chapter X.&#8212;Acknowledgment of their...</A><BR>
+<A HREF="0010210.html">Chapter XI.&#8212;Request to them to send...</A><BR>
+<A HREF="0010211.html">Chapter XII.&#8212;Salutations.</A><BR>
+<A HREF="0010212.html">Chapter XIII.&#8212;Conclusion.</A><BR>
+<A HREF="0010213.html">Epistle to Polycarp: Shorter and Longer...</A><BR>
+<A HREF="0010214.html">Chapter I.&#8212;Commendation and...</A><BR>
+<A HREF="0010215.html">Chapter II.&#8212;Exhortations.</A><BR>
+<A HREF="0010216.html">Chapter III.&#8212;Exhortations.</A><BR>
+<A HREF="0010217.html">Chapter IV.&#8212;Exhortations.</A><BR>
+<A HREF="0010218.html">Chapter V.&#8212;The duties of husbands...</A><BR>
+<A HREF="0010219.html">Chapter VI.&#8212;The duties of the...</A><BR>
+<A HREF="0010220.html">Chapter VII.&#8212;Request that Polycarp...</A><BR>
+<A HREF="0010221.html">Chapter VIII.&#8212;Let other churches...</A><BR>
+<A HREF="0010222.html">Introductory Note to the Syriac Version...</A><BR>
+<A HREF="0010223.html">Epistle to Polycarp: Syriac Version</A><BR>
+<A HREF="0010224.html">Chapter I.</A><BR>
+<A HREF="0010225.html">Chapter II.</A><BR>
+<A HREF="0010226.html">Chapter III.</A><BR>
+<A HREF="0010227.html">Chapter IV.</A><BR>
+<A HREF="0010228.html">Chapter V.</A><BR>
+<A HREF="0010229.html">Chapter VI.</A><BR>
+<A HREF="0010230.html">Chapter VII.</A><BR>
+<A HREF="0010231.html">Chapter VIII.</A><BR>
+<A HREF="0010232.html">Epistle to the Ephesians: Syriac Version</A><BR>
+<A HREF="0010233.html">Chapter I.</A><BR>
+<A HREF="0010234.html">Chapter III. </A><BR>
+<A HREF="0010235.html">Chapter VIII. </A><BR>
+<A HREF="0010236.html">Chapter IX.</A><BR>
+<A HREF="0010237.html">Chapter X.</A><BR>
+<A HREF="0010238.html">Chapter XIV. </A><BR>
+<A HREF="0010239.html">Chapter XV.</A><BR>
+<A HREF="0010240.html">Chapter XVIII. </A><BR>
+<A HREF="0010241.html">Chapter XIX.</A><BR>
+<A HREF="0010242.html">Epistle to the Romans: Syriac Version</A><BR>
+<A HREF="0010243.html">Chapter I.</A><BR>
+<A HREF="0010244.html">Chapter II.</A><BR>
+<A HREF="0010245.html">Chapter III.</A><BR>
+<A HREF="0010246.html">Chapter IV.</A><BR>
+<A HREF="0010247.html">Chapter V.</A><BR>
+<A HREF="0010248.html">Chapter VI.</A><BR>
+<A HREF="0010249.html">Chapter VII.</A><BR>
+<A HREF="0010250.html">Chapter IX. </A><BR>
+<A HREF="0010251.html">Introductory Note to the Spurious...</A><BR>
+<A HREF="0010252.html">Epistle to the Tarsians</A><BR>
+<A HREF="0010253.html">Chapter I.&#8212;His own sufferings:...</A><BR>
+<A HREF="0010254.html">Chapter II.&#8212;Cautions against false...</A><BR>
+<A HREF="0010255.html">Chapter III.&#8212;The true doctrine...</A><BR>
+<A HREF="0010256.html">Chapter IV.&#8212;Continuation.</A><BR>
+<A HREF="0010257.html">Chapter V.&#8212;Refutation of the...</A><BR>
+<A HREF="0010258.html">Chapter VI.&#8212;Continuation.</A><BR>
+<A HREF="0010259.html">Chapter VII.&#8212;Continuation.</A><BR>
+<A HREF="0010260.html">Chapter VIII.&#8212;Exhortations to...</A><BR>
+<A HREF="0010261.html">Chapter IX.&#8212;Exhortations to the...</A><BR>
+<A HREF="0010262.html">Chapter X.&#8212;Salutations.</A><BR>
+<A HREF="0010263.html">Epistle to the Antiochians</A><BR>
+<A HREF="0010264.html">Chapter I.&#8212;Cautions against error.</A><BR>
+<A HREF="0010265.html">Chapter II.&#8212;The true doctrine...</A><BR>
+<A HREF="0010266.html">Chapter III.&#8212;The same continued.</A><BR>
+<A HREF="0010267.html">Chapter IV.&#8212;Continuation.</A><BR>
+<A HREF="0010268.html">Chapter V.&#8212;Denunciation of false...</A><BR>
+<A HREF="0010269.html">Chapter VI.&#8212;Renewed cautions.</A><BR>
+<A HREF="0010270.html">Chapter VII.&#8212;Exhortation to...</A><BR>
+<A HREF="0010271.html">Chapter VIII.&#8212;Exhortations to the...</A><BR>
+<A HREF="0010272.html">Chapter IX.&#8212;Duties of husbands,...</A><BR>
+<A HREF="0010273.html">Chapter X.&#8212;Duties of masters and...</A><BR>
+<A HREF="0010274.html">Chapter XI.&#8212;Inculcation of various...</A><BR>
+<A HREF="0010275.html">Chapter XII.&#8212;Salutations.</A><BR>
+<A HREF="0010276.html">Chapter XIII.&#8212;Salutations continued.</A><BR>
+<A HREF="0010277.html">Chapter XIV.&#8212;Conclusion.</A><BR>
+<A HREF="0010278.html">Epistle to Hero, a Deacon of Antioch</A><BR>
+<A HREF="0010279.html">Chapter I.&#8212;Exhortations to...</A><BR>
+<A HREF="0010280.html">Chapter II.&#8212;Cautions against false...</A><BR>
+<A HREF="0010281.html">Chapter III.&#8212;Exhortations as to...</A><BR>
+<A HREF="0010282.html">Chapter IV.&#8212;Servants and women are...</A><BR>
+<A HREF="0010283.html">Chapter V.&#8212;Various relative duties.</A><BR>
+<A HREF="0010284.html">Chapter VI&#8212;Exhortations to purity...</A><BR>
+<A HREF="0010285.html">Chapter VII.&#8212;Solemn charge to Hero,...</A><BR>
+<A HREF="0010286.html">Chapter VIII.&#8212;Salutations.</A><BR>
+<A HREF="0010287.html">Chapter IX.&#8212;Concluding salutations...</A><BR>
+<A HREF="0010288.html">Epistle to the Philippians</A><BR>
+<A HREF="0010289.html">Chapter I.&#8212;Reason for writing the...</A><BR>
+<A HREF="0010290.html">Chapter II.&#8212;Unity of the three...</A><BR>
+<A HREF="0010291.html">Chapter III.&#8212;Christ was truly born,...</A><BR>
+<A HREF="0010292.html">Chapter IV.&#8212;The malignity and folly...</A><BR>
+<A HREF="0010293.html">Chapter V.&#8212;Apostrophe to Satan.</A><BR>
+<A HREF="0010294.html">Chapter VI.&#8212;Continuation.</A><BR>
+<A HREF="0010295.html">Chapter VII.&#8212;Continuation:...</A><BR>
+<A HREF="0010296.html">Chapter VIII.&#8212;Continuation:...</A><BR>
+<A HREF="0010297.html">Chapter IX.&#8212;Continuation: ignorance...</A><BR>
+<A HREF="0010298.html">Chapter X.&#8212;Continuation: audacity of...</A><BR>
+<A HREF="0010299.html">Chapter XI.&#8212;Continuation: audacity...</A><BR>
+<A HREF="0010300.html">Chapter XII.&#8212;The meek reply of...</A><BR>
+<A HREF="0010301.html">Chapter XIII.&#8212;Various exhortations...</A><BR>
+<A HREF="0010302.html">Chapter XIV.&#8212;Farewells and cautions.</A><BR>
+<A HREF="0010303.html">Chapter XV.&#8212;Salutations. Conclusion.</A><BR>
+<A HREF="0010304.html">Epistle from Maria of Cassobel&aelig;</A><BR>
+<A HREF="0010305.html">Mary of Cassobel&aelig; to Ignatius</A><BR>
+<A HREF="0010306.html">Chapter I.&#8212;Occasion of the epistle.</A><BR>
+<A HREF="0010307.html">Chapter II.&#8212;Youth may be allied with...</A><BR>
+<A HREF="0010308.html">Chapter III.&#8212;Examples of youthful...</A><BR>
+<A HREF="0010309.html">Chapter IV.&#8212;The same subject...</A><BR>
+<A HREF="0010310.html">Chapter V.&#8212;Expressions of respect...</A><BR>
+<A HREF="0010311.html">Epistle to Mary at Neapolis</A><BR>
+<A HREF="0010312.html">Chapter I.&#8212;Acknowledgment of her...</A><BR>
+<A HREF="0010313.html">Chapter II.&#8212;His own condition.</A><BR>
+<A HREF="0010314.html">Chapter III.&#8212;He had complied with...</A><BR>
+<A HREF="0010315.html">Chapter IV.&#8212;Commendation and...</A><BR>
+<A HREF="0010316.html">Chapter V.&#8212;Salutations and good...</A><BR>
+<A HREF="0010317.html">First Epistle to St John</A><BR>
+<A HREF="0010318.html">Ignatius, and the brethren who are with...</A><BR>
+<A HREF="0010319.html">Second Epistle to St John</A><BR>
+<A HREF="0010320.html">His friend Ignatius to John the holy...</A><BR>
+<A HREF="0010321.html">Epistle to Mary the Virgin</A><BR>
+<A HREF="0010322.html">Her friend Ignatius to the...</A><BR>
+<A HREF="0010323.html">Epistle from Mary the Virgin</A><BR>
+<A HREF="0010324.html">The lowly handmaid of Christ Jesus to...</A><BR>
+<A HREF="0010325.html">Introductory Note to the Martyrdom of...</A><BR>
+<A HREF="0010326.html">The Martyrdom of Ignatius</A><BR>
+<A HREF="0010327.html">Chapter I.&#8212;Desire of Ignatius for...</A><BR>
+<A HREF="0010328.html">Chapter II.&#8212;Ignatius is condemned by...</A><BR>
+<A HREF="0010329.html">Chapter III.&#8212;Ignatius sails to...</A><BR>
+<A HREF="0010330.html">Chapter IV.&#8212;Ignatius writes to the...</A><BR>
+<A HREF="0010331.html">Chapter V.&#8212;Ignatius is brought to...</A><BR>
+<A HREF="0010332.html">Chapter VI.&#8212;Ignatius is devoured by...</A><BR>
+<A HREF="0010333.html">Chapter VII.&#8212;Ignatius appears in a...</A><BR>
+
+<A NAME="section_005"></A>
+<H3 ALIGN="CENTER">BARNABAS</H3>
+<A HREF="0010334.html">BARNABAS</A><BR>
+<A HREF="0010335.html">Introductory Note to the Epistle of...</A><BR>
+<A HREF="0010336.html">The Epistle of Barnabas</A><BR>
+<A HREF="0010337.html">Chapter I.&#8212;After the salutation, the...</A><BR>
+<A HREF="0010338.html">Chapter II.&#8212;The Jewish sacrifices...</A><BR>
+<A HREF="0010339.html">Chapter III.&#8212;The fasts of the Jews...</A><BR>
+<A HREF="0010340.html">Chapter IV.&#8212;Antichrist is at hand:...</A><BR>
+<A HREF="0010341.html">Chapter V.&#8212;The new covenant, founded...</A><BR>
+<A HREF="0010342.html">Chapter VI.&#8212;The sufferings of...</A><BR>
+<A HREF="0010343.html">Chapter VII.&#8212;Fasting, and the goat...</A><BR>
+<A HREF="0010344.html">Chapter VIII.&#8212;The red heifer a type...</A><BR>
+<A HREF="0010345.html">Chapter IX.&#8212;The spiritual meaning of...</A><BR>
+<A HREF="0010346.html">Chapter X.&#8212;Spiritual significance of...</A><BR>
+<A HREF="0010347.html">Chapter XI.&#8212;Baptism and the cross...</A><BR>
+<A HREF="0010348.html">Chapter XII.&#8212;The cross of Christ...</A><BR>
+<A HREF="0010349.html">Chapter XIII.&#8212;Christians, and not...</A><BR>
+<A HREF="0010350.html">Chapter XIV.&#8212;The Lord hath given us...</A><BR>
+<A HREF="0010351.html">Chapter XV.&#8212;The false and the true...</A><BR>
+<A HREF="0010352.html">Chapter XVI.&#8212;The spiritual temple of...</A><BR>
+<A HREF="0010353.html">Chapter XVII.&#8212;Conclusion of the...</A><BR>
+<A HREF="0010354.html">Chapter XVIII.&#8212;Second part of the...</A><BR>
+<A HREF="0010355.html">Chapter XIX.&#8212;The way of light.</A><BR>
+<A HREF="0010356.html">Chapter XX.&#8212;The way of darkness.</A><BR>
+<A HREF="0010357.html">Chapter XXI.&#8212;Conclusion.</A><BR>
+
+<A NAME="section_006"></A>
+<H3 ALIGN="CENTER">PAPIAS</H3>
+<A HREF="0010358.html">PAPIAS</A><BR>
+<A HREF="0010359.html">Introductory Note to the Fragments of...</A><BR>
+<A HREF="0010360.html">Fragments</A><BR>
+<A HREF="0010361.html">I. From the exposition of the oracles of...</A><BR>
+<A HREF="0010362.html">II.</A><BR>
+<A HREF="0010363.html">III.</A><BR>
+<A HREF="0010364.html">IV.</A><BR>
+<A HREF="0010365.html">V.</A><BR>
+<A HREF="0010366.html">VI.</A><BR>
+<A HREF="0010367.html">VII.</A><BR>
+<A HREF="0010368.html">VIII.</A><BR>
+<A HREF="0010369.html">IX.</A><BR>
+<A HREF="0010370.html">X.</A><BR>
+
+<A NAME="section_007"></A>
+<H3 ALIGN="CENTER">JUSTIN MARTYR</H3>
+<A HREF="0010371.html">JUSTIN MARTYR</A><BR>
+<A HREF="0010372.html">Introductory Note to the Writings of...</A><BR>
+<A HREF="0010373.html">The First Apology</A><BR>
+<A HREF="0010374.html">Chapter I.&#8212;Address.</A><BR>
+<A HREF="0010375.html">Chapter II.&#8212;Justice demanded.</A><BR>
+<A HREF="0010376.html">Chapter III.&#8212;Claim of judicial...</A><BR>
+<A HREF="0010377.html">Chapter IV.&#8212;Christians unjustly...</A><BR>
+<A HREF="0010378.html">Chapter V.&#8212;Christians charged with...</A><BR>
+<A HREF="0010379.html">Chapter VI.&#8212;Charge of atheism...</A><BR>
+<A HREF="0010380.html">Chapter VII.&#8212;Each Christian must be...</A><BR>
+<A HREF="0010381.html">Chapter VIII.&#8212;Christians confess...</A><BR>
+<A HREF="0010382.html">Chapter IX.&#8212;Folly of idol worship.</A><BR>
+<A HREF="0010383.html">Chapter X.&#8212;How God is to be served.</A><BR>
+<A HREF="0010384.html">Chapter XI.&#8212;What kingdom Christians...</A><BR>
+<A HREF="0010385.html">Chapter XII.&#8212;Christians live as...</A><BR>
+<A HREF="0010386.html">Chapter XIII.&#8212;Christians serve God...</A><BR>
+<A HREF="0010387.html">Chapter XIV.&#8212;The demons misrepresent...</A><BR>
+<A HREF="0010388.html">Chapter XV.&#8212;What Christ himself...</A><BR>
+<A HREF="0010389.html">Chapter XVI.&#8212;Concerning patience and...</A><BR>
+<A HREF="0010390.html">Chapter XVII.&#8212;Christ taught civil...</A><BR>
+<A HREF="0010391.html">Chapter XVIII.&#8212;Proof of immortality...</A><BR>
+<A HREF="0010392.html">Chapter XIX.&#8212;The resurrection...</A><BR>
+<A HREF="0010393.html">Chapter XX.&#8212;Heathen analogies to...</A><BR>
+<A HREF="0010394.html">Chapter XXI.&#8212;Analogies to the...</A><BR>
+<A HREF="0010395.html">Chapter XXII.&#8212;Analogies to the...</A><BR>
+<A HREF="0010396.html">Chapter XXIII.&#8212;The argument.</A><BR>
+<A HREF="0010397.html">Chapter XXIV.&#8212;Varieties of heathen...</A><BR>
+<A HREF="0010398.html">Chapter XXV.&#8212;False Gods abandoned by...</A><BR>
+<A HREF="0010399.html">Chapter XXVI.&#8212;Magicians not trusted...</A><BR>
+<A HREF="0010400.html">Chapter XXVII.&#8212;Guilt of exposing...</A><BR>
+<A HREF="0010401.html">Chapter XXVIII.&#8212;God&#146;s care for...</A><BR>
+<A HREF="0010402.html">Chapter XXIX.&#8212;Continence of...</A><BR>
+<A HREF="0010403.html">Chapter XXX.&#8212;Was Christ not a...</A><BR>
+<A HREF="0010404.html">Chapter XXXI.&#8212;Of the Hebrew...</A><BR>
+<A HREF="0010405.html">Chapter XXXII.&#8212;Christ predicted by...</A><BR>
+<A HREF="0010406.html">Chapter XXXIII.&#8212;Manner of Christ&#146;s...</A><BR>
+<A HREF="0010407.html">Chapter XXXIV.&#8212;Place of Christ&#146;s...</A><BR>
+<A HREF="0010408.html">Chapter XXXV.&#8212;Other fulfilled...</A><BR>
+<A HREF="0010409.html">Chapter XXXVI.&#8212;Different modes of...</A><BR>
+<A HREF="0010410.html">Chapter XXXVII.&#8212;Utterances of the...</A><BR>
+<A HREF="0010411.html">Chapter XXXVIII.&#8212;Utterances of the...</A><BR>
+<A HREF="0010412.html">Chapter XXXIX.&#8212;Direct predictions by...</A><BR>
+<A HREF="0010413.html">Chapter XL.&#8212;Christ&#146;s advent...</A><BR>
+<A HREF="0010414.html">Chapter XLI.&#8212;The crucifixion...</A><BR>
+<A HREF="0010415.html">Chapter XLII.&#8212;Prophecy using the...</A><BR>
+<A HREF="0010416.html">Chapter XLIII.&#8212;Responsibility...</A><BR>
+<A HREF="0010417.html">Chapter XLIV.&#8212;Not nullified by...</A><BR>
+<A HREF="0010418.html">Chapter XLV.&#8212;Christ&#146;s session in...</A><BR>
+<A HREF="0010419.html">Chapter XLVI.&#8212;The Word in the world...</A><BR>
+<A HREF="0010420.html">Chapter XLVII.&#8212;Desolation of Jud&aelig;a...</A><BR>
+<A HREF="0010421.html">Chapter XLVIII.&#8212;Christ&#146;s work and...</A><BR>
+<A HREF="0010422.html">Chapter XLIX.&#8212;His rejection by the...</A><BR>
+<A HREF="0010423.html">Chapter L.&#8212;His humiliation...</A><BR>
+<A HREF="0010424.html">Chapter LI.&#8212;The majesty of Christ.</A><BR>
+<A HREF="0010425.html">Chapter LII.&#8212;Certain fulfilment of...</A><BR>
+<A HREF="0010426.html">Chapter LIII.&#8212;Summary of the...</A><BR>
+<A HREF="0010427.html">Chapter LIV.&#8212;Origin of heathen...</A><BR>
+<A HREF="0010428.html">Chapter LV.&#8212;Symbols of the cross.</A><BR>
+<A HREF="0010429.html">Chapter LVI.&#8212;The demons still...</A><BR>
+<A HREF="0010430.html">Chapter LVII.&#8212;And cause persecution.</A><BR>
+<A HREF="0010431.html">Chapter LVIII.&#8212;And raise up...</A><BR>
+<A HREF="0010432.html">Chapter LIX.&#8212;Plato&#146;s obligation to...</A><BR>
+<A HREF="0010433.html">Chapter LX.&#8212;Plato&#146;s doctrine of...</A><BR>
+<A HREF="0010434.html">Chapter LXI.&#8212;Christian baptism.</A><BR>
+<A HREF="0010435.html">Chapter LXII.&#8212;Its imitation by...</A><BR>
+<A HREF="0010436.html">Chapter LXIII.&#8212;How God appeared to...</A><BR>
+<A HREF="0010437.html">Chapter LXIV.&#8212;Further...</A><BR>
+<A HREF="0010438.html">Chapter LXV.&#8212;Administration of the...</A><BR>
+<A HREF="0010439.html">Chapter LXVI.&#8212;Of the Eucharist.</A><BR>
+<A HREF="0010440.html">Chapter LXVII.&#8212;Weekly worship of the...</A><BR>
+<A HREF="0010441.html">Chapter LXVIII.&#8212;Conclusion.</A><BR>
+<A HREF="0010442.html">Epistle of Adrian in behalf of the...</A><BR>
+<A HREF="0010443.html">Epistle of Antoninus to the common...</A><BR>
+<A HREF="0010444.html">Epistle of Marcus Aurelius to the...</A><BR>
+<A HREF="0010445.html">The Second Apology</A><BR>
+<A HREF="0010446.html">Chapter I.&#8212;Introduction.</A><BR>
+<A HREF="0010447.html">Chapter II.&#8212;Urbicus condemns the...</A><BR>
+<A HREF="0010448.html">Chapter III.&#8212;Justin accuses Crescens...</A><BR>
+<A HREF="0010449.html">Chapter IV.&#8212;Why the Christians do...</A><BR>
+<A HREF="0010450.html">Chapter V.&#8212;How the angels...</A><BR>
+<A HREF="0010451.html">Chapter VI.&#8212;Names of God and of...</A><BR>
+<A HREF="0010452.html">Chapter VII.&#8212;The world preserved for...</A><BR>
+<A HREF="0010453.html">Chapter VIII.&#8212;All have been hated in...</A><BR>
+<A HREF="0010454.html">Chapter IX.&#8212;Eternal punishment not a...</A><BR>
+<A HREF="0010455.html">Chapter X.&#8212;Christ compared with...</A><BR>
+<A HREF="0010456.html">Chapter XI.&#8212;How Christians view...</A><BR>
+<A HREF="0010457.html">Chapter XII.&#8212;Christians proved...</A><BR>
+<A HREF="0010458.html">Chapter XIII.&#8212;How the Word has been...</A><BR>
+<A HREF="0010459.html">Chapter XIV.&#8212;Justin prays that this...</A><BR>
+<A HREF="0010460.html">Chapter XV.&#8212;Conclusion.</A><BR>
+<A HREF="0010461.html">Dialogue with Trypho</A><BR>
+<A HREF="0010462.html">Chapter I.&#8212;Introduction.</A><BR>
+<A HREF="0010463.html">Chapter II.&#8212;Justin describes his...</A><BR>
+<A HREF="0010464.html">Chapter III.&#8212;Justin narrates the...</A><BR>
+<A HREF="0010465.html">Chapter IV.&#8212;The soul of itself...</A><BR>
+<A HREF="0010466.html">Chapter V.&#8212;The soul is not in its...</A><BR>
+<A HREF="0010467.html">Chapter VI.&#8212;These things were...</A><BR>
+<A HREF="0010468.html">Chapter VII.&#8212;The knowledge of truth...</A><BR>
+<A HREF="0010469.html">Chapter VIII.&#8212;Justin by his colloquy...</A><BR>
+<A HREF="0010470.html">Chapter IX.&#8212;The Christians have not...</A><BR>
+<A HREF="0010471.html">Chapter X.&#8212;Trypho blames the...</A><BR>
+<A HREF="0010472.html">Chapter XI.&#8212;The law abrogated; the...</A><BR>
+<A HREF="0010473.html">Chapter XII.&#8212;The Jews violate the...</A><BR>
+<A HREF="0010474.html">Chapter XIII.&#8212;Isaiah teaches that...</A><BR>
+<A HREF="0010475.html">Chapter XIV.&#8212;Righteousness is not...</A><BR>
+<A HREF="0010476.html">Chapter XV.&#8212;In what the true fasting...</A><BR>
+<A HREF="0010477.html">Chapter XVI.&#8212;Circumcision given as a...</A><BR>
+<A HREF="0010478.html">Chapter XVII.&#8212;The Jews sent persons...</A><BR>
+<A HREF="0010479.html">Chapter XVIII.&#8212;Christians would...</A><BR>
+<A HREF="0010480.html">Chapter XIX.&#8212;Circumcision unknown...</A><BR>
+<A HREF="0010481.html">Chapter XX.&#8212;Why choice of meats was...</A><BR>
+<A HREF="0010482.html">Chapter XXI.&#8212;Sabbaths were...</A><BR>
+<A HREF="0010483.html">Chapter XXII.&#8212;So also were...</A><BR>
+<A HREF="0010484.html">Chapter XXIII.&#8212;The opinion of the...</A><BR>
+<A HREF="0010485.html">Chapter XXIV.&#8212;The Christians&#146;...</A><BR>
+<A HREF="0010486.html">Chapter XXV.&#8212;The Jews boast in vain...</A><BR>
+<A HREF="0010487.html">Chapter XXVI.&#8212;No salvation to the...</A><BR>
+<A HREF="0010488.html">Chapter XXVII.&#8212;Why God taught the...</A><BR>
+<A HREF="0010489.html">Chapter XXVIII.&#8212;True righteousness...</A><BR>
+<A HREF="0010490.html">Chapter XXIX.&#8212;Christ is useless to...</A><BR>
+<A HREF="0010491.html">Chapter XXX.&#8212;Christians possess the...</A><BR>
+<A HREF="0010492.html">Chapter XXXI.&#8212;If Christ&#146;s power be...</A><BR>
+<A HREF="0010493.html">Chapter XXXII.&#8212;Trypho objecting that...</A><BR>
+<A HREF="0010494.html">Chapter XXXIII.&#8212;Ps. cx. is not...</A><BR>
+<A HREF="0010495.html">Chapter XXXIV.&#8212;Nor does Ps. lxxii....</A><BR>
+<A HREF="0010496.html">Chapter XXXV.&#8212;Heretics confirm the...</A><BR>
+<A HREF="0010497.html">Chapter XXXVI.&#8212;He proves that Christ...</A><BR>
+<A HREF="0010498.html">Chapter XXXVII.&#8212;The same is proved...</A><BR>
+<A HREF="0010499.html">Chapter XXXVIII.&#8212;It is an annoyance...</A><BR>
+<A HREF="0010500.html">Chapter XXXIX.&#8212;The Jews hate the...</A><BR>
+<A HREF="0010501.html">Chapter XL.&#8212;He returns to the Mosaic...</A><BR>
+<A HREF="0010502.html">Chapter XLI.&#8212;The oblation of fine...</A><BR>
+<A HREF="0010503.html">Chapter XLII.&#8212;The bells on the...</A><BR>
+<A HREF="0010504.html">Chapter XLIII.&#8212;He concludes that the...</A><BR>
+<A HREF="0010505.html">Chapter XLIV.&#8212;The Jews in vain...</A><BR>
+<A HREF="0010506.html">Chapter XLV.&#8212;Those who were...</A><BR>
+<A HREF="0010507.html">Chapter XLVI.&#8212;Trypho asks whether a...</A><BR>
+<A HREF="0010508.html">Chapter XLVII.&#8212;Justin communicates...</A><BR>
+<A HREF="0010509.html">Chapter XLVIII.&#8212;Before the divinity...</A><BR>
+<A HREF="0010510.html">Chapter XLIX.&#8212;To those who object...</A><BR>
+<A HREF="0010511.html">Chapter L.&#8212;It is proved from Isaiah...</A><BR>
+<A HREF="0010512.html">Chapter LI.&#8212;It is proved that this...</A><BR>
+<A HREF="0010513.html">Chapter LII.&#8212;Jacob predicted two...</A><BR>
+<A HREF="0010514.html">Chapter LIII.&#8212;Jacob predicted that...</A><BR>
+<A HREF="0010515.html">Chapter LIV.&#8212;What the blood of the...</A><BR>
+<A HREF="0010516.html">Chapter LV.&#8212;Trypho asks that Christ...</A><BR>
+<A HREF="0010517.html">Chapter LVI.&#8212;God who appeared to...</A><BR>
+<A HREF="0010518.html">Chapter LVII.&#8212;The Jew objects, why...</A><BR>
+<A HREF="0010519.html">Chapter LVIII.&#8212;The same is proved...</A><BR>
+<A HREF="0010520.html">Chapter LIX.&#8212;God distinct from the...</A><BR>
+<A HREF="0010521.html">Chapter LX.&#8212;Opinions of the Jews...</A><BR>
+<A HREF="0010522.html">Chapter LXI&#8212;Wisdom is begotten of...</A><BR>
+<A HREF="0010523.html">Chapter LXII.&#8212;The words &#8220;Let Us...</A><BR>
+<A HREF="0010524.html">Chapter LXIII.&#8212;It is proved that...</A><BR>
+<A HREF="0010525.html">Chapter LXIV.&#8212;Justin adduces other...</A><BR>
+<A HREF="0010526.html">Chapter LXV.&#8212;The Jew objects that...</A><BR>
+<A HREF="0010527.html">Chapter LXVI.&#8212;He proves from Isaiah...</A><BR>
+<A HREF="0010528.html">Chapter LXVII.&#8212;Trypho compares Jesus...</A><BR>
+<A HREF="0010529.html">Chapter LXVIII.&#8212;He complains of the...</A><BR>
+<A HREF="0010530.html">Chapter LXIX.&#8212;The devil, since he...</A><BR>
+<A HREF="0010531.html">Chapter LXX.&#8212;So also the mysteries...</A><BR>
+<A HREF="0010532.html">Chapter LXXI.&#8212;The Jews reject the...</A><BR>
+<A HREF="0010533.html">Chapter LXXII.&#8212;Passages have been...</A><BR>
+<A HREF="0010534.html">Chapter LXXIII.&#8212;[The words] &#8220;From...</A><BR>
+<A HREF="0010535.html">Chapter LXXIV.&#8212;The beginning of Ps....</A><BR>
+<A HREF="0010536.html">Chapter LXXV.&#8212;It is proved that...</A><BR>
+<A HREF="0010537.html">Chapter LXXVI.&#8212;From other passages...</A><BR>
+<A HREF="0010538.html">Chapter LXXVII.&#8212;He returns to...</A><BR>
+<A HREF="0010539.html">Chapter LXXVIII.&#8212;He proves that this...</A><BR>
+<A HREF="0010540.html">Chapter LXXIX.&#8212;He proves against...</A><BR>
+<A HREF="0010541.html">Chapter LXXX.&#8212;The opinion of Justin...</A><BR>
+<A HREF="0010542.html">Chapter LXXXI.&#8212;He endeavours to...</A><BR>
+<A HREF="0010543.html">Chapter LXXXII.&#8212;The prophetical...</A><BR>
+<A HREF="0010544.html">Chapter LXXXIII.&#8212;It is proved that...</A><BR>
+<A HREF="0010545.html">Chapter LXXXIV.&#8212;That prophecy,...</A><BR>
+<A HREF="0010546.html">Chapter LXXXV.&#8212;He proves that Christ...</A><BR>
+<A HREF="0010547.html">Chapter LXXXVI.&#8212;There are various...</A><BR>
+<A HREF="0010548.html">Chapter LXXXVII.&#8212;Trypho maintains in...</A><BR>
+<A HREF="0010549.html">Chapter LXXXVIII.&#8212;Christ has not...</A><BR>
+<A HREF="0010550.html">Chapter LXXXIX.&#8212;The cross alone is...</A><BR>
+<A HREF="0010551.html">Chapter XC.&#8212;The stretched-out hands...</A><BR>
+<A HREF="0010552.html">Chapter XCI.&#8212;The cross was foretold...</A><BR>
+<A HREF="0010553.html">Chapter XCII.&#8212;Unless the scriptures...</A><BR>
+<A HREF="0010554.html">Chapter XCIII.&#8212;The same kind of...</A><BR>
+<A HREF="0010555.html">Chapter XCIV.&#8212;In what sense he who...</A><BR>
+<A HREF="0010556.html">Chapter XCV.&#8212;Christ took upon...</A><BR>
+<A HREF="0010557.html">Chapter XCVI.&#8212;That curse was a...</A><BR>
+<A HREF="0010558.html">Chapter XCVII.&#8212;Other predictions of...</A><BR>
+<A HREF="0010559.html">Chapter XCVIII.&#8212;Predictions of...</A><BR>
+<A HREF="0010560.html">Chapter XCIX.&#8212;In the commencement of...</A><BR>
+<A HREF="0010561.html">Chapter C.&#8212;In what sense Christ is...</A><BR>
+<A HREF="0010562.html">Chapter CI.&#8212;Christ refers all things...</A><BR>
+<A HREF="0010563.html">Chapter CII.&#8212;The prediction of the...</A><BR>
+<A HREF="0010564.html">Chapter CIII.&#8212;The Pharisees are the...</A><BR>
+<A HREF="0010565.html">Chapter CIV.&#8212;Circumstances of...</A><BR>
+<A HREF="0010566.html">Chapter CV.&#8212;The Psalm also predicts...</A><BR>
+<A HREF="0010567.html">Chapter CVI.&#8212;Christ&#146;s resurrection...</A><BR>
+<A HREF="0010568.html">Chapter CVII.&#8212;The same is taught...</A><BR>
+<A HREF="0010569.html">Chapter CVIII.&#8212;The resurrection of...</A><BR>
+<A HREF="0010570.html">Chapter CIX.&#8212;The conversion of the...</A><BR>
+<A HREF="0010571.html">Chapter CX.&#8212;A portion of the...</A><BR>
+<A HREF="0010572.html">Chapter CXI.&#8212;The two advents were...</A><BR>
+<A HREF="0010573.html">Chapter CXII.&#8212;The Jews expound these...</A><BR>
+<A HREF="0010574.html">Chapter CXIII.&#8212;Joshua was a figure...</A><BR>
+<A HREF="0010575.html">Chapter CXIV.&#8212;Some rules for...</A><BR>
+<A HREF="0010576.html">Chapter CXV.&#8212;Prediction about the...</A><BR>
+<A HREF="0010577.html">Chapter CXVI.&#8212;It is shown how this...</A><BR>
+<A HREF="0010578.html">Chapter CXVII.&#8212;Malachi&#146;s prophecy...</A><BR>
+<A HREF="0010579.html">Chapter CXVIII.&#8212;He exhorts to...</A><BR>
+<A HREF="0010580.html">Chapter CXIX.&#8212;Christians are the...</A><BR>
+<A HREF="0010581.html">Chapter CXX.&#8212;Christians were...</A><BR>
+<A HREF="0010582.html">Chapter CXXI.&#8212;From the fact that the...</A><BR>
+<A HREF="0010583.html">Chapter CXXII.&#8212;The Jews understand...</A><BR>
+<A HREF="0010584.html">Chapter CXXIII.&#8212;Ridiculous...</A><BR>
+<A HREF="0010585.html">Chapter CXXIV.&#8212;Christians are the...</A><BR>
+<A HREF="0010586.html">Chapter CXXV.&#8212;He explains what force...</A><BR>
+<A HREF="0010587.html">Chapter CXXVI.&#8212;The various names of...</A><BR>
+<A HREF="0010588.html">Chapter CXXVII.&#8212;These passages of...</A><BR>
+<A HREF="0010589.html">Chapter CXXVIII.&#8212;The Word is sent...</A><BR>
+<A HREF="0010590.html">Chapter CXXIX.&#8212;That is confirmed...</A><BR>
+<A HREF="0010591.html">Chapter CXXX.&#8212;He returns to the...</A><BR>
+<A HREF="0010592.html">Chapter CXXXI.&#8212;How much more...</A><BR>
+<A HREF="0010593.html">Chapter CXXXII.&#8212;How great the power...</A><BR>
+<A HREF="0010594.html">Chapter CXXXIII.&#8212;The...</A><BR>
+<A HREF="0010595.html">Chapter CXXXIV.&#8212;The marriages of...</A><BR>
+<A HREF="0010596.html">Chapter CXXXV.&#8212;Christ is king of...</A><BR>
+<A HREF="0010597.html">Chapter CXXXVI.&#8212;The Jews, in...</A><BR>
+<A HREF="0010598.html">Chapter CXXXVII.&#8212;He exhorts the Jews...</A><BR>
+<A HREF="0010599.html">Chapter CXXXVIII.&#8212;Noah is a figure...</A><BR>
+<A HREF="0010600.html">Chapter CXXXIX.&#8212;The blessings, and...</A><BR>
+<A HREF="0010601.html">Chapter CXL.&#8212;In Christ all are free....</A><BR>
+<A HREF="0010602.html">Chapter CXLI.&#8212;Free-will in men and...</A><BR>
+<A HREF="0010603.html">Chapter CXLII.&#8212;The Jews return...</A><BR>
+<A HREF="0010604.html">The Discourse to the Greeks</A><BR>
+<A HREF="0010605.html">Chapter I.&#8212;Justin justifies his...</A><BR>
+<A HREF="0010606.html">Chapter II.&#8212;The Greek theogony...</A><BR>
+<A HREF="0010607.html">Chapter III.&#8212;Follies of the Greek...</A><BR>
+<A HREF="0010608.html">Chapter IV.&#8212;Shameless practices of...</A><BR>
+<A HREF="0010609.html">Chapter V.&#8212;Closing appeal.</A><BR>
+<A HREF="0010610.html">Hortatory Address to the Greeks</A><BR>
+<A HREF="0010611.html">Chapter I.&#8212;Reasons for addressing...</A><BR>
+<A HREF="0010612.html">Chapter II&#8212;The poets are unfit to be...</A><BR>
+<A HREF="0010613.html">Chapter III.&#8212;Opinions of the school...</A><BR>
+<A HREF="0010614.html">Chapter IV.&#8212;Opinions of Pythagoras...</A><BR>
+<A HREF="0010615.html">Chapter V.&#8212;Opinions of Plato and...</A><BR>
+<A HREF="0010616.html">Chapter VI.&#8212;Further disagreements...</A><BR>
+<A HREF="0010617.html">Chapter VII.&#8212;Inconsistencies of...</A><BR>
+<A HREF="0010618.html">Chapter VIII.&#8212;Antiquity,...</A><BR>
+<A HREF="0010619.html">Chapter IX.&#8212;The antiquity of Moses...</A><BR>
+<A HREF="0010620.html">Chapter X&#8212;Training and inspiration...</A><BR>
+<A HREF="0010621.html">Chapter XI.&#8212;Heathen oracles testify...</A><BR>
+<A HREF="0010622.html">Chapter XII.&#8212;Antiquity of Moses...</A><BR>
+<A HREF="0010623.html">Chapter XIII.&#8212;History of the...</A><BR>
+<A HREF="0010624.html">Chapter XIV.&#8212;A warning appeal to the...</A><BR>
+<A HREF="0010625.html">Chapter XV.&#8212;Testimony of Orpheus to...</A><BR>
+<A HREF="0010626.html">Chapter XVI.&#8212;Testimony of the Sibyl.</A><BR>
+<A HREF="0010627.html">Chapter XVII.&#8212;Testimony of Homer.</A><BR>
+<A HREF="0010628.html">Chapter XVIII.&#8212;Testimony of...</A><BR>
+<A HREF="0010629.html">Chapter XIX.&#8212;Testimony of...</A><BR>
+<A HREF="0010630.html">Chapter XX.&#8212;Testimony of Plato.</A><BR>
+<A HREF="0010631.html">Chapter XXI.&#8212;The namelessness of...</A><BR>
+<A HREF="0010632.html">Chapter XXII.&#8212;Studied ambiguity...</A><BR>
+<A HREF="0010633.html">Chapter XXIII.&#8212;Plato&#146;s...</A><BR>
+<A HREF="0010634.html">Chapter XXIV.&#8212;Agreement of Plato and...</A><BR>
+<A HREF="0010635.html">Chapter XXV.&#8212;Plato&#146;s knowledge of...</A><BR>
+<A HREF="0010636.html">Chapter XXVI.&#8212;Plato indebted to the...</A><BR>
+<A HREF="0010637.html">Chapter XXVII.&#8212;Plato&#146;s knowledge...</A><BR>
+<A HREF="0010638.html">Chapter XXVIII.&#8212;Homer&#146;s...</A><BR>
+<A HREF="0010639.html">Chapter XXIX.&#8212;Origin of Plato&#146;s...</A><BR>
+<A HREF="0010640.html">Chapter XXX.&#8212;Homer&#146;s knowledge of...</A><BR>
+<A HREF="0010641.html">Chapter XXXI.&#8212;Further proof of...</A><BR>
+<A HREF="0010642.html">Chapter XXXII.&#8212;Plato&#146;s doctrine of...</A><BR>
+<A HREF="0010643.html">Chapter XXXIII.&#8212;Plato&#146;s idea of...</A><BR>
+<A HREF="0010644.html">Chapter XXXIV.&#8212;Whence men attributed...</A><BR>
+<A HREF="0010645.html">Chapter XXXV.&#8212;Appeal to the Greeks.</A><BR>
+<A HREF="0010646.html">Chapter XXXVI.&#8212;True knowledge not...</A><BR>
+<A HREF="0010647.html">Chapter XXXVII.&#8212;Of the Sibyl.</A><BR>
+<A HREF="0010648.html">Chapter XXXVIII.&#8212;Concluding appeal.</A><BR>
+<A HREF="0010649.html">On the Sole Government of God</A><BR>
+<A HREF="0010650.html">Chapter I.&#8212;Object of the author.</A><BR>
+<A HREF="0010651.html">Chapter II.&#8212;Testimonies to the unity...</A><BR>
+<A HREF="0010652.html">Chapter III.&#8212;Testimonies to a future...</A><BR>
+<A HREF="0010653.html">Chapter IV.&#8212;God desires not...</A><BR>
+<A HREF="0010654.html">Chapter V.&#8212;The vain pretensions of...</A><BR>
+<A HREF="0010655.html">Chapter VI.&#8212;We should acknowledge...</A><BR>
+<A HREF="0010656.html">On the Resurrection, Fragments</A><BR>
+<A HREF="0010657.html">Chapter I.&#8212;The self-evidencing power...</A><BR>
+<A HREF="0010658.html">Chapter II.&#8212;Objections to the...</A><BR>
+<A HREF="0010659.html">Chapter III.&#8212;If the members rise,...</A><BR>
+<A HREF="0010660.html">Chapter IV.&#8212;Must the deformed rise...</A><BR>
+<A HREF="0010661.html">Chapter V.&#8212;The resurrection of the...</A><BR>
+<A HREF="0010662.html">Chapter VI.&#8212;The resurrection...</A><BR>
+<A HREF="0010663.html">Chapter VII.&#8212;The body valuable in...</A><BR>
+<A HREF="0010664.html">Chapter VIII.&#8212;Does the body cause...</A><BR>
+<A HREF="0010665.html">Chapter IX.&#8212;The resurrection of...</A><BR>
+<A HREF="0010666.html">Chapter X.&#8212;The body saved, and will...</A><BR>
+<A HREF="0010667.html">Other Fragments from the Lost Writings...</A><BR>
+<A HREF="0010668.html">I.</A><BR>
+<A HREF="0010669.html">II.</A><BR>
+<A HREF="0010670.html">III.</A><BR>
+<A HREF="0010671.html">IV.</A><BR>
+<A HREF="0010672.html">V.</A><BR>
+<A HREF="0010673.html">VI.</A><BR>
+<A HREF="0010674.html">VII.</A><BR>
+<A HREF="0010675.html">VIII.</A><BR>
+<A HREF="0010676.html">IX.</A><BR>
+<A HREF="0010677.html">X.</A><BR>
+<A HREF="0010678.html">XI.</A><BR>
+<A HREF="0010679.html">XII.</A><BR>
+<A HREF="0010680.html">XIII.</A><BR>
+<A HREF="0010681.html">XIV.</A><BR>
+<A HREF="0010682.html">XV.</A><BR>
+<A HREF="0010683.html">XVI.</A><BR>
+<A HREF="0010684.html">XVII.</A><BR>
+<A HREF="0010685.html">XVIII.</A><BR>
+<A HREF="0010686.html">XIX.</A><BR>
+<A HREF="0010687.html">Introductory Note to the Martyrdom of...</A><BR>
+<A HREF="0010688.html">The Martyrdom of Justin Martyr</A><BR>
+<A HREF="0010689.html">Chapter I.&#8212;Examination of Justin by...</A><BR>
+<A HREF="0010690.html">Chapter II.&#8212;Examination of Justin...</A><BR>
+<A HREF="0010691.html">Chapter III.&#8212;Examination of Chariton...</A><BR>
+<A HREF="0010692.html">Chapter IV.&#8212;Rusticus threatens the...</A><BR>
+<A HREF="0010693.html">Chapter V.&#8212;Sentence pronounced and...</A><BR>
+
+<A NAME="section_008"></A>
+<H3 ALIGN="CENTER">IREN&AElig;US</H3>
+<A HREF="0010694.html">IREN&AElig;US</A><BR>
+<A HREF="0010695.html">Introductory Note to Iren&aelig;us Against...</A><BR>
+<A HREF="0010696.html">Against Heresies: Book I</A><BR>
+<A HREF="0010697.html">Preface.</A><BR>
+<A HREF="0010698.html">Chapter I.&#8212;Absurd ideas of the...</A><BR>
+<A HREF="0010699.html">Chapter II.&#8212;The Propator was known...</A><BR>
+<A HREF="0010700.html">Chapter III.&#8212;Texts of Holy Scripture...</A><BR>
+<A HREF="0010701.html">Chapter IV.&#8212;Account given by the...</A><BR>
+<A HREF="0010702.html">Chapter V.&#8212;Formation of the...</A><BR>
+<A HREF="0010703.html">Chapter VI.&#8212;The threefold kind of...</A><BR>
+<A HREF="0010704.html">Chapter VII.&#8212;The mother Achamoth,...</A><BR>
+<A HREF="0010705.html">Chapter VIII.&#8212;How the Valentinians...</A><BR>
+<A HREF="0010706.html">Chapter IX.&#8212;Refutation of the...</A><BR>
+<A HREF="0010707.html">Chapter X.&#8212;Unity of the faith of the...</A><BR>
+<A HREF="0010708.html">Chapter XI.&#8212;The opinions of...</A><BR>
+<A HREF="0010709.html">Chapter XII.&#8212;The doctrines of the...</A><BR>
+<A HREF="0010710.html">Chapter XIII.&#8212;The deceitful arts and...</A><BR>
+<A HREF="0010711.html">Chapter XIV.&#8212;The various hypotheses...</A><BR>
+<A HREF="0010712.html">Chapter XV.&#8212;Sige relates to Marcus...</A><BR>
+<A HREF="0010713.html">Chapter XVI.&#8212;Absurd interpretations...</A><BR>
+<A HREF="0010714.html">Chapter XVII.&#8212;The theory of the...</A><BR>
+<A HREF="0010715.html">Chapter XVIII.&#8212;Passages from Moses,...</A><BR>
+<A HREF="0010716.html">Chapter XIX.&#8212;Passages of Scripture...</A><BR>
+<A HREF="0010717.html">Chapter XX.&#8212;The apocryphal and...</A><BR>
+<A HREF="0010718.html">Chapter XXI.&#8212;The views of redemption...</A><BR>
+<A HREF="0010719.html">Chapter XXII.&#8212;Deviations of heretics...</A><BR>
+<A HREF="0010720.html">Chapter XXIII.&#8212;Doctrines and...</A><BR>
+<A HREF="0010721.html">Chapter XXIV.&#8212;Doctrines of...</A><BR>
+<A HREF="0010722.html">Chapter XXV.&#8212;Doctrines of...</A><BR>
+<A HREF="0010723.html">Chapter XXVI.&#8212;Doctrines of...</A><BR>
+<A HREF="0010724.html">Chapter XXVII.&#8212;Doctrines of Cerdo...</A><BR>
+<A HREF="0010725.html">Chapter XXVIII.&#8212;Doctrines of Tatian,...</A><BR>
+<A HREF="0010726.html">Chapter XXIX.&#8212;Doctrines of various...</A><BR>
+<A HREF="0010727.html">Chapter XXX.&#8212;Doctrines of the...</A><BR>
+<A HREF="0010728.html">Chapter XXXI.&#8212;Doctrines of the...</A><BR>
+<A HREF="0010729.html">Against Heresies: Book II</A><BR>
+<A HREF="0010730.html">Preface.</A><BR>
+<A HREF="0010731.html">Chapter I.&#8212;There is but one God: the...</A><BR>
+<A HREF="0010732.html">Chapter II.&#8212;The world was not formed...</A><BR>
+<A HREF="0010733.html">Chapter III.&#8212;The Bythus and Pleroma...</A><BR>
+<A HREF="0010734.html">Chapter IV.&#8212;The absurdity of the...</A><BR>
+<A HREF="0010735.html">Chapter V.&#8212;This world was not formed...</A><BR>
+<A HREF="0010736.html">Chapter VI.&#8212;The angels and the...</A><BR>
+<A HREF="0010737.html">Chapter VII.&#8212;Created things are not...</A><BR>
+<A HREF="0010738.html">Chapter VIII.&#8212;Created things are not...</A><BR>
+<A HREF="0010739.html">Chapter IX.&#8212;There is but one Creator...</A><BR>
+<A HREF="0010740.html">Chapter X.&#8212;Perverse interpretations...</A><BR>
+<A HREF="0010741.html">Chapter XI.&#8212;The heretics, from their...</A><BR>
+<A HREF="0010742.html">Chapter XII.&#8212;The Triacontad of the...</A><BR>
+<A HREF="0010743.html">Chapter XIII.&#8212;The first order of...</A><BR>
+<A HREF="0010744.html">Chapter XIV.&#8212;Valentinus and his...</A><BR>
+<A HREF="0010745.html">Chapter XV.&#8212;No account can be given...</A><BR>
+<A HREF="0010746.html">Chapter XVI.&#8212;The Creator of the...</A><BR>
+<A HREF="0010747.html">Chapter XVII.&#8212;Inquiry into the...</A><BR>
+<A HREF="0010748.html">Chapter XVIII.&#8212;Sophia was never...</A><BR>
+<A HREF="0010749.html">Chapter XIX.&#8212;Absurdities of the...</A><BR>
+<A HREF="0010750.html">Chapter XX.&#8212;Futility of the...</A><BR>
+<A HREF="0010751.html">Chapter XXI.&#8212;The twelve apostles...</A><BR>
+<A HREF="0010752.html">Chapter XXII.&#8212;The thirty &AElig;ons are...</A><BR>
+<A HREF="0010753.html">Chapter XXIII.&#8212;The woman who...</A><BR>
+<A HREF="0010754.html">Chapter XXIV.&#8212;Folly of the arguments...</A><BR>
+<A HREF="0010755.html">Chapter XXV.&#8212;God is not to be sought...</A><BR>
+<A HREF="0010756.html">Chapter XXVI.&#8212;&#8220;Knowledge puffeth...</A><BR>
+<A HREF="0010757.html">Chapter XXVII.&#8212;Proper mode of...</A><BR>
+<A HREF="0010758.html">Chapter XXVIII.&#8212;Perfect knowledge...</A><BR>
+<A HREF="0010759.html">Chapter XXIX.&#8212;Refutation of the...</A><BR>
+<A HREF="0010760.html">Chapter XXX.&#8212;Absurdity of their...</A><BR>
+<A HREF="0010761.html">Chapter XXXI.&#8212;Recapitulation and...</A><BR>
+<A HREF="0010762.html">Chapter XXXII.&#8212;Further exposure of...</A><BR>
+<A HREF="0010763.html">Chapter XXXIII.&#8212;Absurdity of the...</A><BR>
+<A HREF="0010764.html">Chapter XXXIV.&#8212;Souls can be...</A><BR>
+<A HREF="0010765.html">Chapter XXXV.&#8212;Refutation of...</A><BR>
+<A HREF="0010766.html">Against Heresies: Book III</A><BR>
+<A HREF="0010767.html">Preface.</A><BR>
+<A HREF="0010768.html">Chapter I.&#8212;The apostles did not...</A><BR>
+<A HREF="0010769.html">Chapter II.&#8212;The heretics follow...</A><BR>
+<A HREF="0010770.html">Chapter III.&#8212;A refutation of the...</A><BR>
+<A HREF="0010771.html">Chapter IV.&#8212;The truth is to be found...</A><BR>
+<A HREF="0010772.html">Chapter V.&#8212;Christ and His apostles,...</A><BR>
+<A HREF="0010773.html">Chapter VI&#8212;The Holy Ghost,...</A><BR>
+<A HREF="0010774.html">Chapter VII.&#8212;Reply to an objection...</A><BR>
+<A HREF="0010775.html">Chapter VIII.&#8212;Answer to an...</A><BR>
+<A HREF="0010776.html">Chapter IX.&#8212;One and the same God,...</A><BR>
+<A HREF="0010777.html">Chapter X.&#8212;Proofs of the foregoing,...</A><BR>
+<A HREF="0010778.html">Chapter XI&#8212;Proofs in continuation,...</A><BR>
+<A HREF="0010779.html">Chapter XII.&#8212;Doctrine of the rest of...</A><BR>
+<A HREF="0010780.html">Chapter XIII&#8212;Refutation of the...</A><BR>
+<A HREF="0010781.html">Chapter XIV.&#8212;If Paul had known any...</A><BR>
+<A HREF="0010782.html">Chapter XV.&#8212;Refutation of the...</A><BR>
+<A HREF="0010783.html">Chapter XVI.&#8212;Proofs from the...</A><BR>
+<A HREF="0010784.html">Chapter XVII.&#8212;The apostles teach...</A><BR>
+<A HREF="0010785.html">Chapter XVIII.&#8212;Continuation of the...</A><BR>
+<A HREF="0010786.html">Chapter XIX.&#8212;Jesus Christ was not a...</A><BR>
+<A HREF="0010787.html">Chapter XX.&#8212;God showed himself, by...</A><BR>
+<A HREF="0010788.html">Chapter XXI.&#8212;A vindication of the...</A><BR>
+<A HREF="0010789.html">Chapter XXII.&#8212;Christ assumed actual...</A><BR>
+<A HREF="0010790.html">Chapter XXIII.&#8212;Arguments in...</A><BR>
+<A HREF="0010791.html">Chapter XXIV.&#8212;Recapitulation of the...</A><BR>
+<A HREF="0010792.html">Chapter XXV.&#8212;This world is ruled by...</A><BR>
+<A HREF="0010793.html">Elucidation</A><BR>
+<A HREF="0010794.html">Against Heresies: Book IV</A><BR>
+<A HREF="0010795.html">Preface.</A><BR>
+<A HREF="0010796.html">Chapter I.&#8212;The Lord acknowledged but...</A><BR>
+<A HREF="0010797.html">Chapter II.&#8212;Proofs from the plain...</A><BR>
+<A HREF="0010798.html">Chapter III.&#8212;Answer to the cavils of...</A><BR>
+<A HREF="0010799.html">Chapter IV.&#8212;Answer to another...</A><BR>
+<A HREF="0010800.html">Chapter V.&#8212;The author returns to his...</A><BR>
+<A HREF="0010801.html">Chapter VI.&#8212;Explanation of the words...</A><BR>
+<A HREF="0010802.html">Chapter VII.&#8212;Recapitulation of the...</A><BR>
+<A HREF="0010803.html">Chapter VIII.&#8212;Vain attempts of...</A><BR>
+<A HREF="0010804.html">Chapter IX.&#8212;There is but one author,...</A><BR>
+<A HREF="0010805.html">Chapter X.&#8212;The Old Testament...</A><BR>
+<A HREF="0010806.html">Chapter XI.&#8212;The old prophets and...</A><BR>
+<A HREF="0010807.html">Chapter XII.&#8212;It clearly appears that...</A><BR>
+<A HREF="0010808.html">Chapter XIII.&#8212;Christ did not...</A><BR>
+<A HREF="0010809.html">Chapter XIV.&#8212;If God demands...</A><BR>
+<A HREF="0010810.html">Chapter XV.&#8212;At first God deemed it...</A><BR>
+<A HREF="0010811.html">Chapter XVI.&#8212;Perfect righteousness...</A><BR>
+<A HREF="0010812.html">Chapter XVII.&#8212;Proof that God did not...</A><BR>
+<A HREF="0010813.html">Chapter XVIII.&#8212;Concerning sacrifices...</A><BR>
+<A HREF="0010814.html">Chapter XIX.&#8212;Earthly things may be...</A><BR>
+<A HREF="0010815.html">Chapter XX.&#8212;That one God formed all...</A><BR>
+<A HREF="0010816.html">Chapter XXI.&#8212;Abraham&#146;s faith was...</A><BR>
+<A HREF="0010817.html">Chapter XXII.&#8212;Christ did not come...</A><BR>
+<A HREF="0010818.html">Chapter XXIII.&#8212;The patriarchs and...</A><BR>
+<A HREF="0010819.html">Chapter XXIV.&#8212;The conversion of the...</A><BR>
+<A HREF="0010820.html">Chapter XXV.&#8212;Both covenants were...</A><BR>
+<A HREF="0010821.html">Chapter XXVI.&#8212;The treasure hid in...</A><BR>
+<A HREF="0010822.html">Chapter XXVII&#8212;The sins of the men of...</A><BR>
+<A HREF="0010823.html">Chapter XXVIII.&#8212;Those persons prove...</A><BR>
+<A HREF="0010824.html">Chapter XXIX.&#8212;Refutation of the...</A><BR>
+<A HREF="0010825.html">Chapter XXX.&#8212;Refutation of another...</A><BR>
+<A HREF="0010826.html">Chapter XXXI.&#8212;We should not hastily...</A><BR>
+<A HREF="0010827.html">Chapter XXXII.&#8212;That one God was the...</A><BR>
+<A HREF="0010828.html">Chapter XXXIII.&#8212;Whosoever confesses...</A><BR>
+<A HREF="0010829.html">Chapter XXXIV.&#8212;Proof against the...</A><BR>
+<A HREF="0010830.html">Chapter XXXV.&#8212;A refutation of those...</A><BR>
+<A HREF="0010831.html">Chapter XXXVI.&#8212;The prophets were...</A><BR>
+<A HREF="0010832.html">Chapter XXXVII.&#8212;Men are possessed of...</A><BR>
+<A HREF="0010833.html">Chapter XXXVIII.&#8212;Why man was not...</A><BR>
+<A HREF="0010834.html">Chapter XXXIX.&#8212;Man is endowed with...</A><BR>
+<A HREF="0010835.html">Chapter XL.&#8212;One and the same God the...</A><BR>
+<A HREF="0010836.html">Chapter XLI.&#8212;Those persons who do...</A><BR>
+<A HREF="0010837.html">Against Heresies: Book V</A><BR>
+<A HREF="0010838.html">Preface.</A><BR>
+<A HREF="0010839.html">Chapter I.&#8212;Christ alone is able to...</A><BR>
+<A HREF="0010840.html">Chapter II.&#8212;When Christ visited us...</A><BR>
+<A HREF="0010841.html">Chapter III.&#8212;The power and glory of...</A><BR>
+<A HREF="0010842.html">Chapter IV.&#8212;Those persons are...</A><BR>
+<A HREF="0010843.html">Chapter V.&#8212;The prolonged life of the...</A><BR>
+<A HREF="0010844.html">Chapter VI.&#8212;God will bestow...</A><BR>
+<A HREF="0010845.html">Chapter VII.&#8212;Inasmuch as Christ did...</A><BR>
+<A HREF="0010846.html">Chapter VIII.&#8212;The gifts of the Holy...</A><BR>
+<A HREF="0010847.html">Chapter IX.&#8212;Showing how that passage...</A><BR>
+<A HREF="0010848.html">Chapter X.&#8212;By a comparison drawn...</A><BR>
+<A HREF="0010849.html">Chapter XI.&#8212;Treats upon the actions...</A><BR>
+<A HREF="0010850.html">Chapter XII.&#8212;Of the difference...</A><BR>
+<A HREF="0010851.html">Chapter XIII.&#8212;In the dead who were...</A><BR>
+<A HREF="0010852.html">Chapter XIV.&#8212;Unless the flesh were...</A><BR>
+<A HREF="0010853.html">Chapter XV.&#8212;Proofs of the...</A><BR>
+<A HREF="0010854.html">Chapter XVI.&#8212;Since our bodies return...</A><BR>
+<A HREF="0010855.html">Chapter XVII.&#8212;There is but one Lord...</A><BR>
+<A HREF="0010856.html">Chapter XVIII.&#8212;God the Father and...</A><BR>
+<A HREF="0010857.html">Chapter XIX.&#8212;A comparison is...</A><BR>
+<A HREF="0010858.html">Chapter XX.&#8212;Those pastors are to be...</A><BR>
+<A HREF="0010859.html">Chapter XXI.&#8212;Christ is the head of...</A><BR>
+<A HREF="0010860.html">Chapter XXII.&#8212;The true Lord and the...</A><BR>
+<A HREF="0010861.html">Chapter XXIII.&#8212;The devil is well...</A><BR>
+<A HREF="0010862.html">Chapter XXIV.&#8212;Of the constant...</A><BR>
+<A HREF="0010863.html">Chapter XXV.&#8212;The fraud, pride, and...</A><BR>
+<A HREF="0010864.html">Chapter XXVI.&#8212;John and Daniel have...</A><BR>
+<A HREF="0010865.html">Chapter XXVII.&#8212;The future judgment...</A><BR>
+<A HREF="0010866.html">Chapter XXVIII.&#8212;The distinction to...</A><BR>
+<A HREF="0010867.html">Chapter XXIX.&#8212;All things have been...</A><BR>
+<A HREF="0010868.html">Chapter XXX.&#8212;Although certain as to...</A><BR>
+<A HREF="0010869.html">Chapter XXXI.&#8212;The preservation of...</A><BR>
+<A HREF="0010870.html">Chapter XXXII.&#8212;In that flesh in...</A><BR>
+<A HREF="0010871.html">Chapter XXXIII.&#8212;Further proofs of...</A><BR>
+<A HREF="0010872.html">Chapter XXXIV.&#8212;He fortifies his...</A><BR>
+<A HREF="0010873.html">Chapter XXXV.&#8212;He contends that these...</A><BR>
+<A HREF="0010874.html">Chapter XXXVI.&#8212;Men shall be actually...</A><BR>
+<A HREF="0010875.html">Fragments from the Lost Writings of...</A><BR>
+<A HREF="0010876.html">I.</A><BR>
+<A HREF="0010877.html">II.</A><BR>
+<A HREF="0010878.html">III.</A><BR>
+<A HREF="0010879.html">IV.</A><BR>
+<A HREF="0010880.html">V.</A><BR>
+<A HREF="0010881.html">VI.</A><BR>
+<A HREF="0010882.html">VII.</A><BR>
+<A HREF="0010883.html">VIII.</A><BR>
+<A HREF="0010884.html">IX.</A><BR>
+<A HREF="0010885.html">X.</A><BR>
+<A HREF="0010886.html">XI.</A><BR>
+<A HREF="0010887.html">XII.</A><BR>
+<A HREF="0010888.html">XIII.</A><BR>
+<A HREF="0010889.html">XIV.</A><BR>
+<A HREF="0010890.html">XV.</A><BR>
+<A HREF="0010891.html">XVI.</A><BR>
+<A HREF="0010892.html">XVII.</A><BR>
+<A HREF="0010893.html">XVIII.</A><BR>
+<A HREF="0010894.html">XIX.</A><BR>
+<A HREF="0010895.html">XX.</A><BR>
+<A HREF="0010896.html">XXI.</A><BR>
+<A HREF="0010897.html">XXII.</A><BR>
+<A HREF="0010898.html">XXIII.</A><BR>
+<A HREF="0010899.html">XXIV.</A><BR>
+<A HREF="0010900.html">XXV.</A><BR>
+<A HREF="0010901.html">XXVI.</A><BR>
+<A HREF="0010902.html">XXVII.</A><BR>
+<A HREF="0010903.html">XXVIII.</A><BR>
+<A HREF="0010904.html">XXIX.</A><BR>
+<A HREF="0010905.html">XXX.</A><BR>
+<A HREF="0010906.html">XXXI.</A><BR>
+<A HREF="0010907.html">XXXII.</A><BR>
+<A HREF="0010908.html">XXXIII.</A><BR>
+<A HREF="0010909.html">XXXIV.</A><BR>
+<A HREF="0010910.html">XXXV.</A><BR>
+<A HREF="0010911.html">XXXVI.</A><BR>
+<A HREF="0010912.html">XXXVII.</A><BR>
+<A HREF="0010913.html">XXXVIII.</A><BR>
+<A HREF="0010914.html">XXXIX.</A><BR>
+<A HREF="0010915.html">XL.</A><BR>
+<A HREF="0010916.html">XLI.</A><BR>
+<A HREF="0010917.html">XLII.</A><BR>
+<A HREF="0010918.html">XLIII.</A><BR>
+<A HREF="0010919.html">XLIV.</A><BR>
+<A HREF="0010920.html">XLV.</A><BR>
+<A HREF="0010921.html">XLVI.</A><BR>
+<A HREF="0010922.html">XLVII.</A><BR>
+<A HREF="0010923.html">XLVIII.</A><BR>
+<A HREF="0010924.html">XLIX.</A><BR>
+<A HREF="0010925.html">L.</A><BR>
+<A HREF="0010926.html">LI.</A><BR>
+<A HREF="0010927.html">LII.</A><BR>
+<A HREF="0010928.html">LIII.</A><BR>
+<A HREF="0010929.html">LIV.</A><BR>
+<A HREF="0010930.html">LV.</A><BR>
+
+<A NAME="section_009"></A>
+<H3 ALIGN="CENTER">Indexes</H3>
+<A HREF="0010931.html">Indexes</A><BR>
+<A HREF="0010932.html">Subject Index</A><BR>
+<A HREF="0010933.html">Index of Scripture References</A><BR>
+<A HREF="0010934.html">Greek Words and Phrases</A><BR>
+<A HREF="0010935.html">Hebrew Words and Phrases</A><BR>
+<A HREF="0010936.html">Index of Pages of the Print Edition</A><BR>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/001/index.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/001/index.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/6fcvhp4'>tak.la/6fcvhp4</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/6fcvhp4';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+

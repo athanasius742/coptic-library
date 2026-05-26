@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. I: The Apostolic Fathers, Justin Martyr, Irenaeus | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Apostolic Justin Martyr Irenaeus">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol I: IREN&AElig;US: Introductory Note to Iren&aelig;us Against... | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/001/0010695.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:35:26+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/001/'>001</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/001/'>001</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Ante-Nicene Fathers, Vol I:
+<br>
+IREN&AElig;US: Introductory Note to Iren&aelig;us Against...</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="0010694.html" id="prev">Previous</A>&nbsp;
+<A HREF="0010696.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="ix.i"></A>  <A NAME="page_309"><FONT SIZE=1 COLOR=GREEN>p. 309</FONT></A> <a name="ix.i-Page_309"></A>  <h2 align="center"><a name="ix.i-p0.1"></A>Introductory Note to Iren&aelig;us Against Heresies</h2>    
+<p style="font-size: 16pt"><a name="ix.i-p1"></A>[<span class="upper"><a name="ix.i-p1.1"></A>a.d.</span> 120&#8211;202.] <span class="upper"><a name="ix.i-p1.2"></A>This</span> history introduces us to the Church in her Western outposts. We reach the banks of the Rhone, where for nearly a century Christian missions have flourished. Between Marseilles and Smyrna there seems to have been a brisk trade, and Polycarp had sent Pothinus into Celtic Gaul at an early date as its evangelist. He had fixed his see at Lyons, when Iren&aelig;us joined him as a presbyter, having been his fellow-pupil under Polycarp. There, under the &#8220;good Aurelius,&#8221; as he is miscalled (<span class="upper"><a name="ix.i-p1.3"></A>a.d.</span> 177), arose the terrible persecution which made &#8220;the martyrs of Lyons and Vienne&#8221; so memorable. It was during this persecution that Iren&aelig;us was sent to Rome with letters of remonstrance against the rising pestilence of heresy; and he was probably the author of the account of the sufferings of the martyrs which is appended to their testimony.&nbsp;<A NAME="fr_2648"></A><A HREF="#fn_2648"><FONT SIZE="1">2649</FONT></A>
+ But he had the mortification of finding the Montanist heresy patronized by Eleutherus the Bishop of Rome; and there he met an old friend from the school of Polycarp, who had embraced the Valentinian heresy. We cannot doubt that to this visit we owe the lifelong struggle of Iren&aelig;us against the heresies that now came in, like locusts, to devour the harvests of the Gospel. But let it be noted here, that, so far from being &#8220;the mother and mistress&#8221; of even the Western Churches, Rome herself is a mission of the Greeks;&nbsp;<A NAME="fr_2649"></A><A HREF="#fn_2649"><FONT SIZE="1">2650</FONT></A>
+ Southern Gaul is evangelized from Asia Minor, and Lyons checks the heretical tendencies of the Bishop at Rome. Ante-Nicene Christianity, and indeed the Church herself, appears in Greek costume which lasts through the synodical period; and Latin Christianity, when it begins to appear, is African, and not Roman. It is strange that those who have recorded this great historical fact have so little perceived its bearings upon Roman pretensions in the Middle Ages and modern times.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p4"></A>Returning to Lyons, our author found that the venerable Pothinus had closed his holy career by a martyr&#146;s death; and naturally Iren&aelig;us became his successor. When the emissaries of heresy followed him, and began to disseminate their licentious practices and foolish doctrines by the aid of &#8220;silly women,&#8221; the great work of his life began. He condescended to study these diseases of the human mind like a wise physician; and, sickening as was the process of classifying and describing them, he made this also his laborious task, that he might enable others to withstand and to overcome them. The works he has left us are monuments of his fidelity to Christ, and to the charges of St. Paul, St. Peter, and St. Jude, whose solemn warnings now proved to be prophecies. No marvel that the great apostle, &#8220;night and day with tears,&#8221; had forewarned the churches of &#8220;the grievous wolves&#8221; which were to make havoc of the fold.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p5"></A>If it shocks the young student of the virgin years of Christianity to find such a state of things, let him reflect that it was all foretold by Christ himself, and demonstrates the malice and power of the adversary. &#8220;An enemy hath done this,&#8221; said the Master. The spirit that was then working  <A NAME="page_310"><FONT SIZE=1 COLOR=GREEN>p. 310</FONT></A> <a name="ix.i-Page_310"></A>  &#8220;in the children of disobedience,&#8221; now manifested itself. The awful visions of the Apocalypse began to be realized. It was now evident in what sense &#8220;the Prince of peace&#8221; had pronounced His mission, &#8220;not peace, but a sword.&#8221; In short, it became a conspicuous fact, that the Church here on earth is &#8220;militant;&#8221; while, at the same time, there was seen to be a profound philosophy in the apostolic comment,&nbsp;<A NAME="fr_2650"></A><A HREF="#fn_2650"><FONT SIZE="1">2651</FONT></A>
+ &#8220;There must be also heresies among you, that they which are approved may be made manifest.&#8221; In the divine economy of Providence it was permitted that every form of heresy which was ever to infest the Church should now exhibit its essential principle, and attract the censures of the faithful. Thus testimony to primitive truth was secured and recorded: the language of catholic orthodoxy was developed and defined, and landmarks of faith were set up for perpetual memorial to all generations. It is a striking example of this divine economy, that the see of Rome was allowed to exhibit its fallibility very conspicuously at this time, and not only to receive the rebukes of Iren&aelig;us, but to accept them as wholesome and necessary; so that the heresy of Eleutherus, and the spirit of Diotrephes in Victor, have enabled reformers ever since, and even in the darkest days of pontifical despotism, to testify against the manifold errors patronized by Rome. Hilary and other Gallicans have been strengthened by the example of Iren&aelig;us, and by his faithful words of reproof and exhortation, to resist Rome, even down to our own times.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p7"></A>That the intolerable absurdities of Gnosticism should have gained so many disciples, and proved itself an adversary to be grappled with and not despised, throws light on the condition of the human mind under heathenism, even when it professed &#8220;knowledge&#8221; and &#8220;philosophy.&#8221; The task of Iren&aelig;us was twofold: (1) to render it impossible for any one to confound Gnosticism with Christianity, and (2) to make it impossible for such a monstrous system to survive, or ever to rise again. His task was a nauseous one; but never was the spirit enjoined by Scripture more patiently exhibited, nor with more entire success.&nbsp;<A NAME="fr_2651"></A><A HREF="#fn_2651"><FONT SIZE="1">2652</FONT></A>
+ If Julian had found Gnosticism just made to his hand, and powerful enough to suit his purposes, the whole history of his attempt to revive Paganism would have been widely different. Iren&aelig;us demonstrated its essential unity with the old mythology, and with heathen systems of philosophy. If the fog and malaria that rose with the Day-star, and obscured it, were speedily dispersed, our author is largely to be identified with the radiance which flowed from the Sun of righteousness, and with the breath of the Spirit that banished them for ever.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p9"></A>The Episcopate of Iren&aelig;us was distinguished by labours, &#8220;in season and out of season,&#8221; for the evangelization of Southern Gaul; and he seems to have sent missionaries into other regions of what we now call France. In spite of Paganism and heresy, he rendered Lyons a Christian city; and Marcus seems to have retreated before his terrible castigation, taking himself off to regions beyond the Pyrenees.&nbsp;<A NAME="fr_2652"></A><A HREF="#fn_2652"><FONT SIZE="1">2653</FONT></A>
+ But the pacific name he bears, was rendered yet more illustrious by his interposition to compose the Easter Controversy, then threatening to impair, if not to destroy, the unity of the Church. The beautiful <i>concordat</i> between East and West, in which Polycarp and Anicetus had left the question, was now disturbed by Victor, Bishop of Rome, whose turbulent spirit would not accept the compromise of his predecessor. Iren&aelig;us remonstrates with him in a catholic spirit, and overrules his impetuous temper. At the Council of Nice, the rule for the observance of Easter was finally settled by the whole Church; and the forbearing example of Iren&aelig;us, no doubt contributed greatly to this happy result. The blessed peacemaker survived this great triumph, for a short time only, closing his life, like a true shepherd, with thousands of his flock, in the massacre (<span class="upper"><a name="ix.i-p10.1"></A>a.d.</span> 202) stimulated by the wolfish Emperor Severus.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p11"></A>The <span class="upper"><a name="ix.i-p11.1"></A>Introductory Notice</span> of the learned translators&nbsp;<A NAME="fr_2653"></A><A HREF="#fn_2653"><FONT SIZE="1">2654</FONT></A>
+ is as follows:&#8212;</p>  
+<p style="font-size: 16pt"><a name="ix.i-p13"></A>  <A NAME="page_311"><FONT SIZE=1 COLOR=GREEN>p. 311</FONT></A> <a name="ix.i-Page_311"></A>  <span class="upper"><a name="ix.i-p13.1"></A>The</span> work of Iren&aelig;us <i>Against Heresies</i> is one of the most precious remains of early Christian antiquity. It is devoted, on the one hand, to an account and refutation of those multiform Gnostic heresies which prevailed in the latter half of the second century; and, on the other hand, to an exposition and defence of the Catholic faith.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p14"></A>In the prosecution of this plan, the author divides his work into five books. The first of these contains a minute description of the tenets of the various heretical sects, with occasional brief remarks in illustration of their absurdity, and in confirmation of the truth to which they were opposed. In his second book, Iren&aelig;us proceeds to a more complete demolition of those heresies which he has already explained, and argues at great length against them, on grounds principally of reason. The three remaining books set forth more directly the true doctrines of revelation, as being in utter antagonism to the views held by the Gnostic teachers. In the course of this argument, many passages of Scripture are quoted and commented on; many interesting statements are made, bearing on the rule of faith; and much important light is shed on the doctrines, held, as well as the practices observed, by the Church of the second century.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p15"></A>It may be made matter of regret, that so large a portion of the work of Iren&aelig;us is given to an exposition of the manifold Gnostic speculations. Nothing more absurd than these has probably ever been imagined by rational beings. Some ingenious and learned men have indeed endeavoured to reconcile the wild theories of these heretics with the principles of reason; but, as Bishop Kaye remarks (<i>Eccl. Hist. of the Second and Third Centuries</i>, p. 524), &#8220;a more arduous or unpromising undertaking cannot well be conceived.&#8221; The fundamental object of the Gnostic speculations was doubtless to solve the two grand problems of all religious philosophy, viz., How to account for the existence of evil; and, How to reconcile the finite with the infinite. But these ancient theorists were not more successful in grappling with such questions than have been their successors in modern times. And by giving loose reins to their imagination, they built up the most incongruous and ridiculous systems; while, by deserting the guidance of Scripture they were betrayed into the most pernicious and extravagant errors.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p16"></A>Accordingly, the patience of the reader is sorely tried, in following our author through those mazes of absurdity which he treads, in explaining and refuting these Gnostic speculations. This is especially felt in the perusal of the first two books, which, as has been said, are principally devoted to an exposition and subversion of the various heretical systems. But the vagaries of the human mind, however melancholy in themselves, are never altogether destitute of instruction. And in dealing with those set before us in this work, we have not only the satisfaction of becoming acquainted with the currents of thought prevalent in these early times, but we obtain much valuable information regarding the primitive Church, which, had it not been for these heretical schemes, might never have reached our day.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p17"></A>Not a little of what is contained in the following pages will seem almost unintelligible to the English reader. And it is scarcely more comprehensible to those who have pondered long on the original. We have inserted brief notes of explanation where these seemed specially necessary. But we have not thought it worth while to devote a great deal of space to the elucidation of those obscure Gnostic views which, in so many varying forms, are set forth in this work. For the same reason, we give here no account of the origin, history, and successive phases of Gnosticism. Those who wish to know the views of the learned on these points, may consult the writings of Neander, Baur, and others, among the Germans, or the lectures of Dr. Burton in English; while a succinct description of the whole matter will be found in the &#8220;Preliminary Observations on the Gnostic System,&#8221; prefixed to Harvey&#146;s edition of Iren&aelig;us.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p18"></A>The great work of Iren&aelig;us, now for the first time translated into English, is unfortunately no longer extant in the original. It has come down to us only in an ancient Latin version, with the exception of the greater part of the first book, which has been preserved in the original Greek, through means of copious quotations made by Hippolytus and Epiphanius. The text, both Latin  <A NAME="page_312"><FONT SIZE=1 COLOR=GREEN>p. 312</FONT></A> <a name="ix.i-Page_312"></A>  and Greek, is often most uncertain. Only three <span class="upper"><a name="ix.i-p18.1"></A>mss.</span> of the work <i>Against Heresies</i> are at present known to exist. Others, however, were used in the earliest printed editions put forth by Erasmus. And as these codices were more ancient than any now available, it is greatly to be regretted that they have disappeared or perished. One of our difficulties throughout, has been to fix the readings we should adopt, especially in the first book. Varieties of reading, actual or conjectural, have been noted only when some point of special importance seemed to be involved.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p19"></A>After the text has been settled, according to the best judgment which can be formed, the work of translation remains; and that is, in this case, a matter of no small difficulty. Iren&aelig;us, even in the original Greek, is often a very obscure writer. At times he expresses himself with remarkable clearness and terseness; but, upon the whole, his style is very involved and prolix. And the Latin version adds to these difficulties of the original, by being itself of the most barbarous character. In fact, it is often necessary to make a conjectural re-translation of it into Greek, in order to obtain some inkling of what the author wrote. Dodwell supposes this Latin version to have been made about the end of the fourth century; but as Tertullian seems to have used it, we must rather place it in the beginning of the third. Its author is unknown, but he was certainly little qualified for his task. We have endeavoured to give as close and accurate a translation of the work as possible, but there are not a few passages in which a guess can only be made as to the probable meaning.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p20"></A>Iren&aelig;us had manifestly taken great pains to make himself acquainted with the various heretical systems which he describes. His mode of exposing and refuting these is generally very effective. It is plain that he possessed a good share of learning, and that he had a firm grasp of the doctrines of Scripture. Not unfrequently he indulges in a kind of sarcastic humour, while inveighing against the folly and impiety of the heretics. But at times he gives expression to very strange opinions. He is, for example, quite peculiar in imagining that our Lord lived to be an <i>old</i> man, and that His public ministry embraced at least <i>ten</i> years. But though, on these and some other points, the judgment of Iren&aelig;us is clearly at fault, his work contains a vast deal of sound and valuable exposition of Scripture, in opposition to the fanciful systems of interpretation which prevailed in his day.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p21"></A>We possess only very scanty accounts of the personal history of Iren&aelig;us. It has been generally supposed that he was a native of Smyrna, or some neighbouring city, in Asia Minor. Harvey, however, thinks that he was probably born in Syria, and removed in boyhood to Smyrna. He himself tells us (iii. 3, 4) that he was in early youth acquainted with Polycarp, the illustrious bishop of that city. A sort of clue is thus furnished as to the date of his birth. Dodwell supposes that he was born so early as <span class="upper"><a name="ix.i-p21.1"></A>a.d.</span> 97, but this is clearly a mistake; and the general date assigned to his birth is somewhere between <span class="upper"><a name="ix.i-p21.2"></A>a.d.</span> 120 and <span class="upper"><a name="ix.i-p21.3"></A>a.d.</span> 140.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p22"></A>It is certain that Iren&aelig;us was bishop of Lyons, in France, during the latter quarter of the second century. The exact period or circumstances of his ordination cannot be determined. Eusebius states (<i>Hist. Eccl.</i>, v. 4) that he was, while yet a presbyter, sent with a letter, from certain members of the Church of Lyons awaiting martyrdom, to Eleutherus, bishop of Rome; and that (v. 5) he succeeded Pothinus as bishop of Lyons, probably about <span class="upper"><a name="ix.i-p22.1"></A>a.d.</span> 177. His great work <i>Against Heresies</i> was, we learn, written during the episcopate of Eleutherus, that is, between <span class="upper"><a name="ix.i-p22.2"></A>a.d.</span> 182 and <span class="upper"><a name="ix.i-p22.3"></A>a.d.</span> 188, for Victor succeeded to the bishopric of Rome in <span class="upper"><a name="ix.i-p22.4"></A>a.d.</span> 189. This new bishop of Rome took very harsh measures for enforcing uniformity throughout the Church as to the observance of the paschal solemnities. On account of the severity thus evinced, Iren&aelig;us addressed to him a letter (only a fragment of which remains), warning him that if he persisted in the course on which he had entered, the effect would be to rend the Catholic Church in pieces. This letter had the desired result; and the question was more temperately debated, until finally settled by the Council of Nice.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p23"></A>The full title of the principal work of Iren&aelig;us, as given by Eusebius (<i>Hist. Eccl.</i>, v. 7), and  <A NAME="page_313"><FONT SIZE=1 COLOR=GREEN>p. 313</FONT></A> <a name="ix.i-Page_313"></A>  indicated frequently by the author himself, was <i>A Refutation and Subversion of Knowledge falsely so called</i>, but it is generally referred to under the shorter title, <i>Against Heresies</i>. Several other smaller treatises are ascribed to Iren&aelig;us; viz., <i>An Epistle to Florinus</i>, of which a small fragment has been preserved by Eusebius; a treatise <i>On the Valentinian Ogdoad</i>; a work called forth by the paschal controversy, entitled <i>On Schism</i>, and another <i>On Science</i>; all of which that remain will be found in our next volume of his writings. Iren&aelig;us is supposed to have died about <span class="upper"><a name="ix.i-p23.1"></A>a.d.</span> 202; but there is probably no real ground for the statement of Jerome, repeated by subsequent writers, that he suffered martyrdom, since neither Tertullian nor Eusebius, nor other early authorities, make any mention of such a fact.</p>  
+<p style="font-size: 16pt"><a name="ix.i-p24"></A>As has been already stated, the first printed copy of our author was given to the world by Erasmus. This was in the year 1526. Between that date and 1571, a number of reprints were produced in both folio and octavo. All these contained merely the ancient barbarous Latin version, and were deficient towards the end by five entire chapters. These latter were supplied by the edition of Feuardent, Professor of Divinity at Paris, which was published in 1575, and went through six subsequent editions. Previously to this, however, another had been set forth by Gallasius, a minister of Geneva, which contained the first portions of the Greek text from Epiphanius. Then, in 1702, came the edition of Grabe, a learned Prussian, who had settled in England. It was published at Oxford, and contained considerable additions to the Greek text, with fragments. Ten years after this there appeared the important Paris edition by the Benedictine monk Massuet. This was reprinted at Venice in the year 1724, in two thin folio volumes, and again at Paris in a large octavo, by the Abb&eacute; Migne, in 1857. A German edition was published by Stieren in 1853. In the year 1857 there was also brought out a Cambridge edition, by the Rev. Wigan Harvey, in two octavo volumes. The two principal features of this edition are: the additions which have been made to the Greek text from the recently discovered <i>Philosophoumena</i> of Hippolytus; and the further addition of thirty-two fragments of a Syriac version of the Greek text of Iren&aelig;us, culled from the Nitrian collection of Syriac <span class="upper"><a name="ix.i-p24.1"></A>mss.</span> in the British Museum. These fragments are of considerable interest, and in some instances rectify the readings of the barbarous Latin version, where, without such aid, it would have been unintelligible. The edition of Harvey will be found constantly referred to in the notes appended to our translation.</p>    
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_2648"></A><A HREF="0010695.html#fr_2648">309:2649</A> <a name="ix.i-p1.4"></A>
+<p style="font-size: 16pt" class="endnote"><a name="ix.i-p2"></A> Eusebius, book v. to the twenty-seventh chapter, should be read as an introduction to this author.</p> 
+<A NAME="fn_2649"></A><A HREF="0010695.html#fr_2649">309:2650</A> <a name="ix.i-p2.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="ix.i-p3"></A> Milman, <i>Hist. Latin Christianity</i>, b. i. pp. 27, 28, and the notes.</p> 
+<A NAME="fn_2650"></A><A HREF="0010695.html#fr_2650">310:2651</A> <a name="ix.i-p5.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="ix.i-p6"></A> <a href="../../../../bib/kjv/co1011.html#019">1 Cor. xi. 19</a><a name="ix.i-p6.1"></A>.</p> 
+<A NAME="fn_2651"></A><A HREF="0010695.html#fr_2651">310:2652</A> <a name="ix.i-p7.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="ix.i-p8"></A> <a href="../../../../bib/kjv/ti2002.html#024">2 Tim. 2:24</a>, <a href="../../../../bib/kjv/ti2002.html#025">25</a>, <a href="../../../../bib/kjv/ti2002.html#026">26</a><a name="ix.i-p8.1"></A>.</p> 
+<A NAME="fn_2652"></A><A HREF="0010695.html#fr_2652">310:2653</A> <a name="ix.i-p9.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="ix.i-p10"></A> On the authority of St. Jerome. See Guett&eacute;e, <i>De l&#146;&eacute;glise de France</i>, vol. 1. p. 27.</p> 
+<A NAME="fn_2653"></A><A HREF="0010695.html#fr_2653">310:2654</A> <a name="ix.i-p11.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="ix.i-p12"></A> The first two books of Iren&aelig;us <i>Against Heresies</i> have been translated by Dr. Roberts. The groundwork of the translation of the third book, and that portion of the fourth book which is continued in this volume, has been furnished by the Rev. W. H. Rambaut. An attempt has been made, in rendering this important author into English, to adhere as closely as possible to the original. It would have been far easier to give a loose and flowing translation of the obscure and involved sentences of Iren&aelig;us; but the object has been studiously kept in view, to place the English reader, as much as possible, in the position of one who has immediate access to the Greek or Latin text.</p> 
+<p><HR>
+<CENTER>
+<A HREF="0010696.html">Next: Against Heresies: Book I</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/001/0010695.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/001/0010695.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/dkdt8kd'>tak.la/dkdt8kd</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/dkdt8kd';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+
