@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. VI: Fathers of the Third Century: Gregory Thaumaturgus, Dionysius the Great, Julius Africanus, Anatolius and Minor Writers, Methodius, Arnobius | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Gregory Thaumaturgus Dionysius Great Julius Africanus Anatolius Methodius Arnobius">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol VI: The Second Homily | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/006/0060024.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:34:48+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/006/'>006</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/006/'>006</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Ante-Nicene Fathers, Vol VI:
+<br>
+The Second Homily</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="0060023.html" id="prev">Previous</A>&nbsp;
+<A HREF="0060025.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+</p>   <h2 align="CENTER"><a></a> The Second Homily </h2>  
+<p style="font-size: 16pt"><a></a> On the Annunciation to the Holy Virgin Mary.<sup><a href="footnote/fn11.html">1</a></sup> </p>    <ul>
+<p style="font-size: 16pt"><a></a> Discourse Second.</p>  </ul>
+<p style="font-size: 16pt">It is our duty to present to God, like sacrifices, all the festivals and hymnal celebrations; and first of all, the annunciation to the holy mother of God, to wit, the salutation made to her by the angel, "Hail, thou that art highly favoured!" For first of all wisdom<sup><a href="footnote/fn11.html#P1191_296906">2</a></sup> and saving doctrine in the New Testament was this salutation, "Hail, thou that art highly favoured!" conveyed to us from the Father of lights. And this address, "highly favoured,"<sup><a href="footnote/fn11.html#P1192_297112">3</a></sup> embraced the whole nature of men. "Hail, thou that art highly favoured"<sup><a href="footnote/fn11.html#P1193_297210">4</a></sup> in the holy conception and in the glorious pregnancy, "I bring you good tidings of great joy, which shall be to all people."<sup><a href="footnote/fn11.html#P1194_297361">5</a></sup> And again the Lord, who came for the purpose of accomplishing a saving passion, said, "I will see you, and ye shall rejoice; and your joy no man taketh from you."<sup><a href="footnote/fn11.html#P1195_297540">6</a></sup> And after His resurrection again, by the hand of the holy women, He gave us first of all the salutation "Hail! "<sup><a href="footnote/fn11.html#P1196_297670">7</a></sup> And again, the apostle made the announcement in similar terms, saying, "Rejoice evermore: pray without ceasing: in everything give thanks."<sup><a href="footnote/fn11.html#P1197_297830">8</a></sup> See, then, dearly beloved, how the Lord has conferred upon us everywhere, and indivisibly, the joy that is beyond conception, and perennial. For since the holy Virgin, in the life of the flesh, was in possession of the incorruptible citizenship, and walked as such in all manner of virtues, and lived a life more excellent than man's common standard; therefore the Word that cometh from God the Father thought it meet to assume the flesh, and endue the perfect man from her, in order that in the same flesh in which sin entered into the world, and death by sin, sin might be condemned in the flesh, and that the tempter of sin might be overcome in the burying<sup><a href="footnote/fn11.html#P1198_298512">9</a></sup> of the holy body, and that therewith also the beginning of the resurrection might be exhibited, and life eternal instituted in the world, and fellowship established for men with God the Father. And what shall we state, or what shall we pass by here? or who shall explain what is incomprehensible in the mystery? But for the present let us fall back upon our subject. Gabriel was sent to the holy virgin; the incorporeal was despatched to her who in the body pursued the incorruptible conversation, and lived in purity and in virtues. And when he came to her, he first addressed her with the salutation, "Hail, thou that art highly favoured! the Lord is with thee." Hail, thou that art highly favoured! for thou doest what is worthy of joy indeed, since thou hast put on the vesture of purity, and art girt with the cincture of prudence. Hail, thou that art highly favoured! for to thy lot it has fallen to be the vehicle of celestial joy. Hail, thou that art highly favoured! for through thee joy is decreed for the whole creation, and the human race receives again by thee its pristine dignity. Hail, thou that art highly favoured! for in thy arms the Creator of all things shall be carried. And she was perplexed by this word; for she was inexperienced in all the addresses of men, and welcomed quiet, as the mother of prudence and purity; (yet) being a pure, and immaculate, and stainless image<sup><a href="footnote/fn11.html#P1199_299997">10</a></sup> herself, she shrank not in terror from the angelic apparition, like most of the prophets, as indeed true virginity has a kind of affinity and equality with the angels. For the holy Virgin guarded carefully the torch of virginity, and gave diligent heed that it should not be extinguished or defiled. And as one who is clad in a brilliant robe deems it a matter of great moment that no impurity or filth be suffered to touch it anywhere, so did the holy Mary consider with herself, and said: Does this act of attention imply any deep design or seductive purpose? Shall this word "Hail" prove the cause of trouble to me, as of old the fair promise of being made like God, which was given her by the serpent-devil, proved to our first mother Eve? Has the devil, who is the author of all evil, become transformed again into an angel of light; and bearing a grudge against my espoused husband for his admirable temperance, and having assailed him with some fair-seeming address, and finding himself powerless to overcome a mind so firm, and to deceive the man, has he turned his attack upon me, as one endowed with a more susceptible mind; and is this word "Hail" (Grace be with thee) spoken as the sign of gracelessness hereafter? Is this benediction and salutation uttered in irony? Is there not some poison concealed in the honey? Is it not the address of one who brings good tidings, while the end of the same is to make me the designer's prey? And how is it that he can thus salute one whom he knows not? These things she pondered in perplexity with herself, and expressed in words. Then again the archangel addressed her with the announcement of a joy which all may believe in, and which shall not be taken away, and said to her, "Fear not, Mary, for thou hast found favour with God." Shortly hast thou the proof of what has been said. For I not only give yon to understand that there is nothing to fear, but I show you the very key to the absence of all cause for fear. For through me all the heavenly powers hail thee, the holy virgin: yea rather, He Himself, who is Lord of all the heavenly powers and of all creation, has selected thee as the holy one and the wholly fair; and through thy holy, and chaste, and pure, and undefiled womb the enlightening Pearl comes forth for the salvation of all the world: since of all the race of man thou art by birth the holy one, and the more honourable, and the purer, and the more pious than any other: and thou hast a mind whiter than the snow, and a body made purer than any gold, however fine, and a womb such as the object which Ezekiel saw, and which he has described in these terms: "And the likeness of the living creatures upon the head was as the firmament, and as the appearance of the terrible crystal, and the likeness of the throne above them was as the appearance of a sapphire-stone: and above the throne it was as the likeness of a man, and as the appearance of amber; and within it there was, as it were, the likeness of fire round about."<sup><a href="footnote/fn12.html#P1200_303014">11</a></sup> </p>  
+<p style="font-size: 16pt">Clearly, then, did the prophet behold in type Him who was born of the holy virgin, whom thou, O holy virgin, wouldest have had no strength to bear, hadst thou not beamed forth for that time<sup><a href="footnote/fn12.html#P1202_303230">12</a></sup> with all that is glorious and virtuous. And with what words of laudation, then, shall we describe her virgin-dignity? With what indications and proclamations of praise shall we celebrate her stainless figure? With what spiritual song or word shall we honour her who is most glorious among the angels? She is planted in the house of God like a fruitful olive that the Holy Spirit overshadowed; and by her means are we called sons and heirs of the kingdom of Christ. She is the ever-blooming paradise of incorruptibility, wherein is planted the tree that giveth life, and that furnisheth to all the fruits of immortality. She is the boast and glory of virgins, and the exultation of mothers. She is the sure support of the believing, and the succourer<sup><a href="footnote/fn12.html#P1203_304004">13</a></sup> of the pious. She is the vesture of light, and the domicile of virtue.<sup><a href="footnote/fn12.html#P1204_304104">14</a></sup> She is the ever-flowing fountain, wherein the water of life sprang and produced the Lord's incarnate manifestation. She is the monument of righteousness; and all who become lovers of her, and set their affections on virgin-like ingenuousness and purity, shall enjoy the grace of angels. All who keep themselves from wine and intoxication, and from the wanton enjoyments of strong drink, shall be made glad with the products of the life-bearing plant. All who have preserved the lamp of virginity unextinguished shall be privileged to receive the amaranthine crown of immortality. All who have possessed themselves of the stainless robe of temperance shall be received into the mystical bride-chamber of righteousness. All who have come nearer the angelic degree than others shall also enter into the more real enjoyment of their Lord's beatitude. All who have possessed the illuminating oil of understanding, and the pure incense of conscience, shall inherit the promise of spiritual favour and the spiritual adoption. All who worthily observe the festival of the Annunciation of the Virgin Mary, the mother of God, acquire as their meet recompense the fuller interest in the message, "Hail, thou that art highly favoured!" It is our duty, therefore, to keep this feast, seeing that it has tilled the whole world with joy and gladness. And let us keep it with psalms, and hymns, and spiritual songs. Of old did Israel also keep their festival, but then it was with unleavened bread and bitter herbs, of which the prophet says: "I will turn their feasts into afflictions and lamentation, and their joy into shame."<sup><a href="footnote/fn12.html#P1205_305734">15</a></sup> But our afflictions our Lord has assured us He will turn into joy by the fruits of penitence.<sup><a href="footnote/fn12.html#P1206_305848">16</a></sup> And again, the first covenant maintained the righteous requirements<sup><a href="footnote/fn12.html#P1207_305936">17</a></sup> of a divine service, as in the case of our forefather Abraham; but these stood in the inflictions of pain in the flesh by circumcision, until the time of the fulfilment. "The law was given to them through Moses" for their discipline; "but grace and truth" have been given to us by Jesus Christ.<sup><a href="footnote/fn12.html#P1208_306277">18</a></sup> The beginning of all these blessings to us appeared in the annunciation to Mary, the highly-favoured, in the economy of the Saviour which is worthy of all praise, and in His divine and supra-mundane instruction. Thence rise the rays of the light of understanding upon us. Thence spring for us the fruits of wisdom and immortality, sending forth the clear pure streams of piety. Thence come to us the brilliant splendours of the treasures of divine knowledge. "For this is life eternal, that we may know the true God, and Jesus Christ whom He hath sent."<sup><a href="footnote/fn12.html#P1209_306848">19</a></sup> And again, "Search the Scriptures, for in them ye think ye have eternal life."<sup><a href="footnote/fn12.html#P1210_306946">20</a></sup> For on this account the treasure of the knowledge of God is revealed to them who search the divine oracles. That treasure of the inspired Scriptures the Paraclete has unfolded to us this day. And let the tongue of prophecy and the doctrine of apostles be the treasure of wisdom to us; for without the law and the prophets, or the evangelists and the apostles, it is not possible to have the certain hope of salvation. For by the tongue of the holy prophets and apostles our Lord speaks, and God takes pleasure in the words of the saints; not that He requires the spoken address, but that He delights in the good disposition; not that He receives any profit from men, but that He finds a restful satisfaction in the rightly-affected soul of the righteous. For it is not that Christ is magnified by what we say; but as we receive benefits from Him, we proclaim with grateful mind His beneficence to us; not that we can attain to what is worthy therein, but that we give the meet return to the best of our ability. And when the Gospels or the Epistles, therefore, are read, let not your attention centre on the book or on the reader, but on the God who speaks to you from heaven. For the book is but that which is seen, while Christ is the divine subject spoken of. It brings us then the glad tidings of that economy of the Saviour, which is worthy of all praise, to wit, that, though He was God, He became man through kindness toward man, and did not lay aside, indeed, the dignity which was His from all eternity, but assumed the economy that should work salvation. It brings us the glad tidings of that economy of the Saviour worthy of all praise, to wit, that He sojourned with us as a physician for the sick, who did not heal them with potions, but restored them by the inclination of His philanthropy.</p>  
+<p style="font-size: 16pt">It brings us the glad tidings of this economy of the Saviour altogether to be praised, to wit, that to them who had wandered astray the way of salvation was shown, and that to the despairing the grace of salvation was made known, which blesses all in different modes; searching after the erring, enlightening the blinded, giving life to the dead, setting free the slaves, redeeming the captives, and becoming all things to all of us in order to be the true way of salvation to us: and all this He does, not by reason of our goodwill toward Him, but in virtue of a benignity that is proper to our Benefactor Himself. For the Saviour did all, not in order that He might acquire virtue Himself, but that He might put us in possession of eternal life. He made man, indeed, after the image of God, and appointed him to live in a paradise of pleasure. But the man being deceived by the devil, and having become a transgressor of the divine commandment, was made subject to the doom of death. Whence, also, those born of him were involved in their father's liability in virtue of their succession, and had the reckoning of condemnation required of them. "For death reigned from Adam to Moses."<sup><a href="footnote/fn12.html#P1212_309986">21</a></sup> But the Lord. in His benignity toward man, when He saw the creature He Himself had formed now held by the power of death, did not turn away finally from him whom He had made in His own image, but visited him in each generation, and forsook him not; and manifesting Himself first of all among the patriarchs, and then proclaiming Himself in the law, and presenting the likeness of Himself<sup><a href="footnote/fn12.html#P1213_310391">22</a></sup> in the prophets, He presignified the economy of salvation. When, moreover, the fulness of the times came for His glorious appearing, He sent beforehand the archangel Gabriel to bear the glad tidings to the Virgin Mary. And he came down from the ineffable powers above to the holy Virgin, and addressed her first of all with the salutation, "Hail, thou that art highly favoured." And when this word, "Hail, thou that art highly favoured," reached her, in the very moment of her hearing it, the Holy Spirit entered into the undefiled temple of the Virgin, and her mind and her members were sanctified together. And nature stood opposite, and natural intercourse at a distance, beholding with amazement the Lord of nature, in a manner contrary to nature, or rather above nature, doing a miraculous work in the body; and by the very weapons by which the devil strove against us, Christ also saved us, taking to Himself our passible body in order that He might impart the greater grace<sup><a href="footnote/fn12.html#P1214_311392">23</a></sup> to the being who was deficient in it. And "where sin abounded, grace did much more abound." And appropriately was grace sent to the holy Virgin. For this word also is contained in the oracle of the evangelic history: "And in the sixth month the angel Gabriel was sent to a virgin espoused to a man whose name was Joseph, of the house and lineage of David; and the virgin's name was Mary; "<sup><a href="footnote/fn12.html#P1215_311796">24</a></sup> and so forth. And this was the first month to the holy Virgin. Even as Scripture says in the book of the law: "This month shall be unto you the beginning of months: it shall be the first month among the months of the year to you."<sup><a href="footnote/fn12.html#P1216_312082">25</a></sup> "Keep ye the feast of the holy passover to the Lord in all your generations." it was also the sixth month to Zacharias. And rightly, then, did the holy Virgin prove to be of the family of David, and she had her home in Bethlehem, and was betrothed rightfully to Joseph, in accordance with the laws of relationship. And her espoused husband was her guardian, and possessor also of the untarnished incorruption which was hers. And the name given to the holy Virgin was one that became her exceedingly. For she was called Mary, and that, by interpretation, means <i>illumination</i>. And what shines more brightly that the light of virginity? For this reason also the virtues are called virgins by those who strive rightly to get at their true nature. But if it is so great a blessing to have a virgin heart, how great a boon will it be to have the flesh that cherishes virginity along with the soul!</p>  
+<p style="font-size: 16pt">Thus the holy Virgin, while still in the flesh, maintained the incorruptible life, and received in faith the things which were announced by the archangel. And thereafter she journeyed diligently to her relation Elisabeth in the hill-country. "And she entered into the house of Zacharias, and saluted Elisabeth,"<sup><a href="footnote/fn12.html#P1218_313343">26</a></sup> in imitation of the angel. "And it came to pass, that, when Elisabeth heard the salutation of Mary, the babe leapt with joy in her womb; and Elisabeth was filled with the Holy Ghost."<sup><a href="footnote/fn12.html#P1219_313544">27</a></sup> Thus the voice of Mary wrought with power, and filled Elisabeth with the Holy Ghost. And by her tongue, as from an ever-flowing fountain, she sent forth a stream of gracious gifts in the way of prophecy to her relation; and while the feet of her child were bound in the womb,<sup><a href="footnote/fn12.html#P1220_313837">28</a></sup> she prepared to dance and leap. And that was the sign of a marvellous jubilation. For wherever she was who was highly favoured, there she filled all things with joy. "And Elisabeth spake out with a loud voice, and said, Blessed art thou among women, and blessed is the fruit of thy womb. And whence is this to me, that the mother of my Lord should come to me? Blessed art thou among women."<sup><a href="footnote/fn12.html#P1221_314287">29</a></sup> For thou hast become to women the beginning of the new creation.<sup><a href="footnote/fn12.html#P1222_314373">30</a></sup> Thou hast given to us boldness of access into paradise, and thou hast put to flight our ancient woe. For after thee the race of woman shall no more be made the subject of reproach. No more do the successors of Eve fear the ancient curse, or the pangs of childbirth. For Christ, the Redeemer of our race, the Saviour of all nature, the spiritual Adam who has healed the hurt of the creature of earth, cometh forth from thy holy womb. "Blessed art thou among women, and blessed is the fruit of thy womb." For He who bears all blessings for us is manifested as thy fruit. This we read in the clear words of her who was barren; but yet more clearly did the holy Virgin herself express this again when she presented to God the song replete with thanksgiving, and acceptance, and divine knowledge; announcing ancient things together with what was new; proclaiming along with things which were of old, things also which belong to the consummation of the ages; and summing up in a short discourse the mysteries of Christ. "And Mary said, My soul doth magnify the Lord, and my spirit hath rejoiced in God my Saviour," and so forth. "He hath holpen His servant Israel in remembrance of His mercy, and of the covenant which He established with Abraham and with his seed for ever."<sup><a href="footnote/fn12.html#P1223_315666">31</a></sup> Thou seest how the holy Virgin has surpassed even the perfection of the patriarchs, and how she confirms the covenant which was made with Abraham by God, when He said, "This is the covenant which I shall establish between me and thee."<sup><a href="footnote/fn12.html#P1224_315924">32</a></sup> Wherefore He has come and confirmed the covenant with Abraham, having received mystically in Himself the sign of circumcision, and having proved Himself the fulfilment of the law and the prophets. This song of prophecy, therefore, did the holy mother of God render to God, saying, "My soul doth magnify the Lord, and my spirit hath rejoiced in God my Saviour: for He that is mighty hath done to me great things, and holy is His name." For having made me the mother of God, He has also preserved me a virgin; and by my womb the fulness of all generations is headed up together for sanctification. For He hath blessed every age, both men and women, both young men and youths, and old men. "He hath made strength with His arm,"<sup><a href="footnote/fn12.html#P1225_316682">33</a></sup> on our behalf, against death and against the devil, having torn the handwriting of our sins. "He hath scattered the proud in the imagination of their hearts; "yea, He hath scattered the devil himself, and all the demons that serve under him. For he was overweeningly haughty in his heart, seeing that he dared to say, "I will set my throne above the clouds, and I will be like the Most High."<sup><a href="footnote/fn12.html#P1226_317092">34</a></sup> And now, how He scattered him the prophet has indicated in what follows, where he says, "Yet now thou shalt be brought down to hell,"<sup><a href="footnote/fn12.html#P1227_317245">35</a></sup> and all thy hosts with thee. For He has overthrown everywhere his altars and the worship of vain gods, and He has prepared for Himself a peculiar people out of the heathen nations. "He hath put down the mighty from their seats, and exalted them of low degree." In these terms is intimated in brief the extrusion of the Jews and the admission of the Gentiles. For the elders of the Jews and the scribes in the law, and those who were richly privileged with other prerogatives, because they used their riches ill and their power lawlessly, were cast down by Him from every seat, whether of prophecy or of priesthood, whether of legislature or of doctrine, and were stripped of all their ancestral wealth, and of their sacrifices and multitudinous festivals, and of all the honourable privileges of the kingdom. Spoiled of all these boons, as naked fugitives they were cast out into captivity. And in their stead the humble were exalted, namely, the Gentile peoples who hungered after righteousness. For, discovering their own lowliness, and the hunger that pressed upon them for the knowledge of God, they pleaded for the divine word, though it were but for crumbs of the same, like the woman of Canaan;<sup><a href="footnote/fn12.html#P1228_318467">36</a></sup> and for this reason they were filled with the riches of the divine mysteries. For the Christ who was born of the Virgin, and who is our God, has given over the whole inheritance of divine blessings to the Gentiles. "He hath holpen His servant Israel."<sup><a href="footnote/fn12.html#P1229_318738">37</a></sup> Not any Israel in general, indeed, but His servant, who in very deed maintains the true nobility of Israel. And on this account also did the mother of God call Him servant (Son) and heir. For when He had found the same labouring painfully in the letter and the law, He called him by grace. It is such an Israel, therefore, that He called and hath holpen in remembrance of His mercy. "As He spake to our fathers, I to Abraham and to his seed for ever." In these few words is comprehended the whole mystery of the economy. For, with the purpose of saving the race of men, and fulfilling the covenant that was made with our fathers, Christ has once "bowed the heavens and come down."<sup><a href="footnote/fn12.html#P1230_319436">38</a></sup> And thus He shows Himself to us as we are capable of receiving Him, in order that we might have power to see Him, and handle Him, and hear Him when the speaketh. And on this account did God the Word deem it meet to take to Himself the flesh and the perfect humanity by a woman, the holy Virgin; and He was born a man, in order that He might discharge our debt, and fulfil even in Himself<sup><a href="footnote/fn12.html#P1231_319843">39</a></sup> the ordinances of the covenant made with Abraham, in its rite of circumcision, and all the other legal appointments connected with it. And after she had spoken these words the holy Virgin went to Nazareth; and from that a decree of Caesar led her to come again to Bethlehem; and so, as proceeding herself from the royal house, she was brought to the royal house of David along with Joseph her espoused husband. And there ensued there the mystery which transcends all wonders,-the Virgin brought forth and bore in her hand Him who bears the whole creation by His word. "And there was no room for them in the inn."<sup><a href="footnote/fn12.html#P1232_320479">40</a></sup> He found no room who founded the whole earth by His word. She nourished with her milk Him who imparts sustenance and life to everything that hath breath. She wrapped Him in swaddling-clothes who binds the whole creation fast with His word. She laid Him in a manger who rides seated upon the cherubim.<sup><a href="footnote/fn12.html#P1233_320797">41</a></sup> A light from heaven shone round about Him who lighteneth the whole creation. The hosts of heaven attended Him with their doxologies who is glorified in heaven from before all ages. A star with its torch guided them who had come from the distant parts of earth toward Him who is the true Orient. From the East came those who brought gifts to Him who for our sakes became poor. And the holy mother of God kept these words, and pondered them in her heart, like one who was the receptacle of all the mysteries. Thy praise, O most holy Virgin, surpasses all laudation, by reason of the God who received the flesh and was born man of thee. To thee every creature, of things in heaven, and things on earth, and things under the earth, offers the meet offering of honour. For thou hast been indeed set forth as the true cherubic throne. Thou shinest as the very brightness of light in the high places of the kingdoms of intelligence;<sup><a href="footnote/fn12.html#P1234_321741">42</a></sup> where the Father, who is without beginning, and whose power thou hadst overshadowing thee, is glorified; where also the Son is worshipped, whom thou didst bear according to the flesh; and where the Holy Spirit is praised, who effected in thy womb the generation of the mighty King. Through thee, O thou that art highly favoured, is the holy and consubstantial Trinity known in the world. Together with thyself, deem us also worthy to be made partakers of thy perfect grace in Jesus Christ our Lord: with whom, and with the Holy Spirit, be glory to the Father, now and ever, and unto the ages of the ages. Amen.<sup><a href="footnote/fn12.html#P1235_322470">43</a></sup> </p>   
+<p><HR>
+<CENTER>
+<A HREF="0060025.html">Next: The Third Homily</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/006/0060024.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/006/0060024.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/vd2qtdq'>tak.la/vd2qtdq</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/vd2qtdq';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+
