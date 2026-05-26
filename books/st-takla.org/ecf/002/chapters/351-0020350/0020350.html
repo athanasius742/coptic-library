@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. II: The Apostolic Fathers, Hermas, Tatian, Athenagoras, Theophilus and Clement of Alexandria | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Apostolic Hermas Tatian Athenagoras Theophilus Clement Alexandria">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol II: CLEMENT OF ALEXANDRIA: Elucidations | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/002/0020350.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:35:15+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/002/'>002</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/002/'>002</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Ante-Nicene Fathers, Vol II:
+<br>
+CLEMENT OF ALEXANDRIA: Elucidations</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="0020349.html" id="prev">Previous</A>&nbsp;
+<A HREF="0020351.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="vi.iv.iii.i"></A>  <h3 align="center" align="center"><a name="vi.iv.iii.i-p0.1"></A>Elucidations.</h3>  <h5 align="center"><a name="vi.iv.iii.i-p0.2"></A>I.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p1"></A>(See p. 381, cap. i.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p2"></A><span class="sc"><a name="vi.iv.iii.i-p2.1"></A>In</span> his third book, Clement exposes the Basilidians and others who perverted the rule of our Lord, which permissively, but not as of obligation, called some to the self-regimen of a single life, on condition of their possessing the singular gift requisite to the same. True continence, he argues, implies the command of the tongue, and all manner of concupiscence, such as greed of wealth, or luxury in using it. If, by a divine faculty and gift of grace, it enables us to practice temperance, very well; but more is necessary. As to marriage, he states what seems to him to be the truth. We honour celibate chastity, and esteem them blest to whom this is God&#146;s gift. We  <A NAME="page_403"><FONT SIZE=1 COLOR=GREEN>p. 403</FONT></A> <a name="vi.iv.iii.i-Page_403"></A>also admire a single marriage, and the dignity which pertains to one marriage only; admitting, nevertheless, that we ought to compassionate others, and to bear one another&#146;s burdens, lest any one, when he thinks he stands, should himself also fall. The apostle enjoins, with respect to a second marriage, &#8220;If thou art tempted by concupiscence, resort to a lawful wedlock.&#8221;</p>  
+<p style="font-size: 16pt"><a name="vi.iv.iii.i-p3"></A>Our author then proceeds to a castigation of Carpocrates, and his son Epiphanes, an Alexandrian on his father&#146;s side, who, though he lived but seventeen years, his mother being a Cephallenian, received divine honours at Sama, where a magnificent temple, with altars and shrines, was erected to him; the Cephallenians celebrating his apotheosis, by a new-moon festival, with sacrifices, libations and hymns, and convivialities. This youth acquired, from his father, a knowledge of Plato&#146;s philosophy and of the circle of the sciences. He was the author of the jargon about monads,&nbsp;<A NAME="fr_2674"></A><A HREF="#fn_2674"><FONT SIZE="1">2675</FONT></A>
+ of which see Iren&aelig;us; and from him comes the heresy of those subsequently known as Carpocratians. He left a book, <i>De Justitia,</i> in which he contends for what he represents as Plato&#146;s idea of a community of women in sexual relations. Justly does our author reckon him a destroyer alike of law and Gospel, unworthy even of being classed with decent heretics; and he attributes to his followers all those abominations which had been charged upon the Christians. This illustrates the terrible necessity, which then existed, of drawing a flaming line of demarcation between the Church, and the wolves in sheeps&#146; clothing, who thus dishonoured the name of Christ, by associating such works of the devil with the adoption of a nominal discipleship. It should be mentioned that Mosheim questions the story of Epiphanes. (See his <i>Hist. of the First Three Centuries,</i> vol. i. p. 448.)</p>  <h5 align="center"><a name="vi.iv.iii.i-p4.1"></A>II.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p5"></A>(See p. 383, cap. ii. note 1.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p6"></A>The early disappearance of the Christian <i>agap&aelig;</i> may probably be attributed to the terrible abuse of the word here referred to, by the licentious Carpocratians. The genuine <i>agap&aelig;</i> were of apostolic origin (2 Pet. ii. 13; <a href="../../../../bib/kjv/jde001.html#012">Jude 12</a><a name="vi.iv.iii.i-p6.1"></A>), but were often abused by hypocrites, even under the apostolic eye (<a href="../../../../bib/kjv/co1011.html#021">1 Corinthians 11:21</a><a name="vi.iv.iii.i-p6.2"></A>). In the Gallican Church, a survival or relic of these feasts of charity is seen in the <i>pain b&eacute;ni;</i> and, in the Greek churches. in the <span class="Greek"><a name="vi.iv.iii.i-p6.3"></A>&#7936;&#957;&#964;&#8055;&#948;&#969;&#961;&#959;&#957;</span> or <i>eulogi&aelig;</i> distributed to non-communicants at the close of the Eucharist, from the loaf out of which the bread of oblation is supposed to have been cut.</p>  <h5 align="center"><a name="vi.iv.iii.i-p6.4"></A>III.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p7"></A>(See p. 383, note 3.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p8"></A>Next, he treats of the Marcionites, who rejected marriage on the ground that the material creation is in itself evil.  Promising elsewhere to deal with this general false principle, he refutes Marcion, and with him the Greeks who have condemned the generative law of nature, specifying Heraclitus, Empedocles, the Sibyl, Homer, and others; but he defends Plato against Marcion, who represents him as teaching the depravity of matter. He proceeds to what the dramatists have exhibited of human misery. He shows the error of those who represent the Pythagoreans as on that account denying themselves the intimacies of conjugal society; for he says they practiced this restraint, only after having given themselves a family. He explains the prohibition of the bean, by Pythagoras, on the very ground, that it occasioned sterility in women according to Theophrastus. Clement expounds the true meaning of Christ&#146;s words, perverted by those who abstained from marriage not in honour of encraty, but as an insane impeachment of the divine wisdom in the material creation.</p>  <A NAME="page_404"><FONT SIZE=1 COLOR=GREEN>p. 404</FONT></A> <a name="vi.iv.iii.i-Page_404"></A>  <h5 align="center"><a name="vi.iv.iii.i-p8.1"></A>IV.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p9"></A>(See p. 385, note 3.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p10"></A>He refutes the Carpocratians, also, in their slanders against the deacon Nicolas, showing that the Nicolaitans had abused his name and words. Likewise, concerning Matthias, he exposes a similar abuse. He castigates one who seduced a maiden into impurity by an absurd perversion of Scripture, and thoroughly exposes this blasphemous abuse of the apostolic text. He subjoins another refutation of one of those heretics, and allows that some might adopt the opinion of his dupes, if, as the Valentinians would profess, only spiritual communion were concerned.</p>  
+<p style="font-size: 16pt"><a name="vi.iv.iii.i-p11"></A>Seeing, however, that these heretics, and the followers of Prodicus, who wrongfully call themselves <i>gnostics,</i> claimed a practical indulgence in all manner of disgusting profligacies, he convicts them by arguments derived from right reason and from the Scriptures, and by human laws as well. Further, he exposes the folly of those who pretended that the less honourable parts of man are not the work of the Creator, and overwhelms their presumption by abundant argument, exploding, at the same time, their corruptions of the sacred text of the Scriptures.</p>  <h5 align="center"><a name="vi.iv.iii.i-p11.1"></A>V.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p12"></A>(See p. 388, note 3.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p13"></A>To relieve himself of a more particular struggle with each individual heresy, he proceeds to reduce them under two heads: (1) Those who teach a reckless mode of life (<span class="Greek"><a name="vi.iv.iii.i-p13.1"></A>&#7936;&#948;&#953;&#945;&#966;&#8057;&#961;&#969;&#962; &#950;&#8134;&#957;</span>), and (2) those who impiously affect continence. To the first, he opposes the plain propriety and duty of a decorous way of living continently; showing, that as it cannot be denied that there are certain abominable and filthy lusts, which, as such, must be shunned, therefore there is no such thing as living &#8220;indifferently&#8221; with respect to them. He who lives to the flesh, moreover, is condemned; nor can the likeness and image of God be regained, or eternal life be ensured, save by a strict observance of divine precepts. Further, our author shows that true Christian liberty consists, not, as they vociferate, in self-indulgence, but, on the contrary, is founded in an entire freedom from perturbations of mind and passion, and from all filthy lusts.</p>  <h5 align="center"><a name="vi.iv.iii.i-p13.2"></A>VI.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p14"></A>(See p. 389, note 4.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p15"></A>As to the second class of heretics, he reproves the contemners of God&#146;s ordinance, who boast of a false continence, and scorn holy matrimony and the creation of a family. He contends with them by the authority of St. John, and first answers objections of theirs, based on certain apocryphal sayings of Christ to Salome; next, somewhat obscurely, he answers their notions of laws about marriage imposed in the Old Law, and, as they pretend, abrogated in the New; thirdly, he rebukes their perpetual clatter about the uncleanness of conjugal relations; and, fourth, he pulverizes their arguments derived from the fact, that the children of the resurrection &#8220;neither marry, nor are given in marriage.&#8221;</p>  
+<p style="font-size: 16pt"><a name="vi.iv.iii.i-p16"></A>Then he gives his attention to another class of heretics boasting that they followed the example of Christ, and presuming to teach that marriage is of the devil. He expounds the exceptional celibacy of the Messiah, by the two natures of the Godman, which need nothing but a reverent statement to expose the fallacy of arguing from His example in this particular, seeing He, alone, of all the sons of men, is thus supreme over all considerations of human nature, pure and simple, as it exists in the sons of Adam. Moreover, He espoused the Church, which is His  <A NAME="page_405"><FONT SIZE=1 COLOR=GREEN>p. 405</FONT></A> <a name="vi.iv.iii.i-Page_405"></A>wife. Clement expounds very wisely those sayings of our Lord which put honour upon voluntary celibacy, where the gift has been imparted, for His better service.</p>  
+<p style="font-size: 16pt"><a name="vi.iv.iii.i-p17"></A>And here let it be noted, how continually the heresies of these times seem to turn on this matter of the sexes. It is impossible to cleanse a dirty house, without raising a dust and a bad smell; and heathenism, which had made lust into a religion, and the worship of its gods a school of gross vice, penetrating all classes of society, could not be exorcised, and give place to faith, hope and charity, without this process of conflict, in which Clement distinguishes himself. At the same time, the wisdom of our Lord&#146;s precepts and counsels are manifest, in this history. Alike He taught the sanctity and blessedness of marriage and maternity, and the exceptional blessedness of the celibate when received as a gift of God, for a peculiar ministry. Thus heathen morals were rebuked and castigated, womanhood was lifted to a sphere of unwonted honour, and the home was created and sanctified in the purity and chastity of the Christian wife; while yet a celibate chastity was recognised as having a high place in the Christian system. The Lord prescribes to all, whether married or unmarried, a law of discipline and evangelical encraty. The Christian homes of England and America may be pointed out, thank God, as illustrating the divine wisdom; while the degraded monasteries of Italy and Spain and South America, with the horrible history of enforced celibacy in the Latin priesthood, are proofs of the unwisdom of those who imported into the Western churches the very heresies and abortive argumentations which Clement disdains, while he pulverizes them and blows them away, thoroughly purging his floor, and burning up this chaff.</p>  <h5 align="center"><a name="vi.iv.iii.i-p17.1"></A>VII.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p18"></A>(See p. 390, note 16.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p19"></A>Here it is specially important to observe what Clement demonstrates, not only from the teachings of the apostles, of Elijah and Samuel and the Master Himself, but, finally and irrefragably, from the apostolic example. He names St. Peter here as elsewhere, and notes his memorable history as a married man.&nbsp;<A NAME="fr_2675"></A><A HREF="#fn_2675"><FONT SIZE="1">2676</FONT></A>
+ He supposes St. Paul himself to have been married; and he instances St. Philip the deacon, and his married daughters, besides giving the right exposition of a passage which Carpocrates had shamefully distorted from its plain significance.</p>  <h5 align="center"><a name="vi.iv.iii.i-p20.1"></A>VIII.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p21"></A>(See p. 391, note 18.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p22"></A>He passes to a demonstration of the superiority of Christian continence over the sort of self-constraint lauded by Stoics and other philosophers. God only can enable man to practice a genuine continence, not merely contending with depraved lusts, but eradicating them. Here follow some interesting examples drawn from the brahmins and fakirs of India; interesting tokens, by the way, of the assaults the Gospel had already made upon their strongholds about the Ganges.</p>  <h5 align="center"><a name="vi.iv.iii.i-p22.1"></A>IX.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p23"></A>(See, p. 392, note 4.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p24"></A>Briefly he explains another text, &#8220;Sin shall not have dominion over you,&#8221; which the heretics wrested from the purpose and intent of St. Paul. He also returns to a passage from the apocryphal Gospel of the Hebrews, and to the pretended conversation of Christ with Salome, treating it, perhaps, with more consideration than it merits.</p>  <A NAME="page_406"><FONT SIZE=1 COLOR=GREEN>p. 406</FONT></A> <a name="vi.iv.iii.i-Page_406"></A>  <h5 align="center"><a name="vi.iv.iii.i-p24.1"></A>X.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p25"></A>(See p. 392, note 11.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p26"></A>But this Gospel of the Hebrews, and another apocryphal Gospel, that of the Egyptians, may be worthy of a few words just here. Jones (<i>On the Canon</i>, vol. i. p. 206) very learnedly maintains that Clement &#8220;never saw it,&#8221; nor used it for any quotation of his own. And, as for a Gospel written in the Hebrew tongue, Clement could not read Hebrew; the single citation he makes out of it, being, probably, at second hand. Greatly to the point is the argument of Lardner,&nbsp;<A NAME="fr_2676"></A><A HREF="#fn_2676"><FONT SIZE="1">2677</FONT></A>
+ therefore, who says, as settling the question of the value of these books, &#8220;If Clement, who lived at Alexandria, and was so well acquainted with almost all sorts of books, had (but a slight, or) no knowledge at all of them, how obscure must they have been; how little regarded by Catholic Christians.&#8221;</p>  <h5 align="center"><a name="vi.iv.iii.i-p27.1"></A>XI.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p28"></A>(See p. 393, note 5; also Elucidation xvii. p. 408, <i>infra</i>.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p29"></A>Ingenious is Clement&#146;s exposition of that saying of our Lord, &#8220;Where two or three are met together in my name,&#8221; etc. He explodes a monstrous exposition of the text, and ingeniously applies it to the Christian family. The husband and the wife living in chaste matrimony, and the child which God bestows, are three in sweet society, who may claim and enjoy the promise. This reflects great light upon the Christian home, as it rose, like a flower, out of the &#8220;Church in the house.&#8221; Family prayers, the graces before and after meat, the hymn &#8220;On lighting the lamps at eventide,&#8221; and the <i>complines</i>, or prayers at bedtime, are all the products of the divine contract to be with the &#8220;two or three&#8221; who are met in His name to claim that inconceivably precious promise. Other texts from St. Matthew are explained, in their Catholic verity, by our venerable author.</p>  <h5 align="center"><a name="vi.iv.iii.i-p29.1"></A>XII.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p30"></A>(See p. 394, note 1.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p31"></A>He further expounds the Catholic idea of marriage, and rescues, from heretical adulteration, the precept of Moses (<a href="../../../../bib/kjv/exo019.html#015">Ex. xix. 15</a><a name="vi.iv.iii.i-p31.1"></A>); introducing a lucid parallel, with the Apostolic command,&nbsp;<A NAME="fr_2677"></A><A HREF="#fn_2677"><FONT SIZE="1">2678</FONT></A>
+ &#8220;Come out from among them, and be separate,&#8221; etc. He turns the tables on his foul antagonists; showing them that this very law obliges the Catholic Christian to separate himself alike from the abominations of the heathen, and from the depraved heretics who abuse the word of God, and &#8220;wrest the Scriptures to their own destruction.&#8221; This eleventh chapter of the third book abounds in Scriptural citations and expositions, and is to be specially praised for asserting the purity of married life, in connection with the inspired law concerning fasting and abstinence (<a href="../../../../bib/kjv/co1007.html#003">1 Cor. vii. 3-5</a><a name="vi.iv.iii.i-p32.4"></A>), laid down by the reasonably ascetic St. Paul.</p>  <h5 align="center"><a name="vi.iv.iii.i-p32.5"></A>XIII.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p33"></A>(See p. 396, note 5.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p34"></A>The melancholy example of Tatian is next instanced, in his departures from orthodox encraty. Against poor Tatian&#146;s garrulity, he proves the sanctity of marriage, alike in the New and the Old Testaments. A curious argument he adduces against the <i>ceremonial</i> washing prescribed by the  <A NAME="page_407"><FONT SIZE=1 COLOR=GREEN>p. 407</FONT></A> <a name="vi.iv.iii.i-Page_407"></A>law (<a href="../../../../bib/kjv/lev015.html#018">Lev. xv. 18</a><a name="vi.iv.iii.i-p34.1"></A>), but not against the same as a dictate of natural instinct. He considers that particular ceremonial law a protest against the polygamy which God tolerated, but never authorized, under Moses; and its abrogation (i.e., by the Synod of Jerusalem), is a testimony that there is no uncleanness, whatever, in the chaste society of the married pair, in Christ. He rescues other texts from the profane uses of the heretics, proving that our duty to abstain from laying up treasures here, merely layouts the care of the poor and needy; and that the saying, that &#8220;the children of the kingdom neither marry nor are given in marriage,&#8221; respects only their estate after the resurrection. So the command about &#8220;caring for the things of God,&#8221; is harmonized with married life. But our author dwells on the apostle&#146;s emphatic counsels against second marriages. It is noteworthy how deeply Clement&#146;s orthodoxy has rooted itself in the Greek churches, where the clergy must be once married, but are not permitted to marry a second time.</p>  
+<p style="font-size: 16pt"><a name="vi.iv.iii.i-p35"></A>A curious objection is met and dismissed. The man who excused himself &#8220;because he had married a wife,&#8221; was a great card for heretical manipulations; but no need of saying that Clement knows how to turn this, also, upon their own hands.</p>  <h5 align="center"><a name="vi.iv.iii.i-p35.1"></A>XIV.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p36"></A>(See p. 398, note 8.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p37"></A>Julius Cassianus (assigned by Lardner to <span class="sc"><a name="vi.iv.iii.i-p37.1"></A>a.d.</span> 190) was an Alexandrian Encratite, of whom, whatever his faults, Clement speaks not without respect. He is quoted with credit in the <i>Stromata</i> (book i. cap. xxi. p. 324), but comes into notice here, as having led off the school of Docetism. But Clement does not treat him as he does the vulgar and licentious errorist. He reproves him for his use of the Gospel according to the Egyptians, incidentally testifying to the Catholic recognition of only four Gospels. He refutes a Platonic idea of Cassian, as to the pre-existence of the soul. Also, he promises a full explanation, elsewhere, of &#8220;the coats of skins&#8221; (which Cassian seems to have thought the flesh itself), wherewith Adam and Eve were clothed. Lardner refers us to Beausobre for a curious discussion of this matter. Clement refutes a false argument from Christ&#146;s hyperbole of hatred to wife and children and family ties, and also gives lucid explanations of passages from Isaiah, Jeremiah, and Ezra, which had been wrested to heretical abuse. In a similar manner, he overthrows what errorists had built upon Job&#146;s saying, &#8220;who can bring a clean thing out of the unclean;&#8221; as also their false teachings on the texts, &#8220;In sin hath my mother conceived me,&#8221; &#8220;the fruit of my body for the sin of my soul,&#8221; and the apostolic instance of the athlete who is &#8220;temperate in all things.&#8221;</p>  <h5 align="center"><a name="vi.iv.iii.i-p37.2"></A>XV.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p38"></A>(See p. 400, cap. xvii. and 401, note 2.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p39"></A>He proclaims the purity of physical generation, because of the parturition of the Blessed Virgin; castigating the docetism of Cassian, who had presumed to speak of the body of Jesus as a phantasm, and the grosser blasphemies of Marcion and Valentinus, equally destructive to the Christ of the Gospel.&nbsp;<A NAME="fr_2678"></A><A HREF="#fn_2678"><FONT SIZE="1">2679</FONT></A>
+ He overturns the whims of these latter deceivers, about Adam&#146;s society with his wife, and concludes that our Lord&#146;s assumption of the flesh of His mother, was a sufficient corroboration of that divine law by which the generations of mankind are continued.</p>  <h5 align="center"><a name="vi.iv.iii.i-p40.2"></A>XVI.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p41"></A>(See p, 402, note 8.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p42"></A>From all which Clement concludes that his two classes of heretics are alike wanderers from Catholic orthodoxy; whether, on the one hand, under divers pretexts glorifying an unreal continence  <A NAME="page_408"><FONT SIZE=1 COLOR=GREEN>p. 408</FONT></A> <a name="vi.iv.iii.i-Page_408"></A>against honourable marriage, or, on the other, persuading themselves as speciously to an unlimited indulgence of their sinful lusts and passions. Once more he quotes the Old Testament and the New, which denounce uncleanness, but not the conjugal relations. He argues with indignation upon those who degrade the estate to which a bishop is called as &#8220;the husband of one wife, ruling his own house and children well.&#8221; Then he reverts to his idea of &#8220;the two or three,&#8221; maintaining that a holy marriage makes the bishop&#146;s home &#8220;a house of the Lord&#8221; (see note 75, p. 1211, <i>ed</i>. Migne). And he concludes the book by repeating his remonstrance against the claim of these heretics to be veritable <i>Gnostics</i>,&#8212;a name he will by no means surrender to the enemies of truth.</p>  <h5 align="center"><a name="vi.iv.iii.i-p42.1"></A>XVII.</h5>  
+<p style="font-size: 16pt" class="Centered"><a name="vi.iv.iii.i-p43"></A>(On <a href="../../../../bib/kjv/mat018.html#020">Matt. xviii. 20</a><a name="vi.iv.iii.i-p43.2"></A>, p. 393; and, see Elucidation XI, <i>supra</i>.)</p>  
+<p style="font-size: 16pt" class="skip"><a name="vi.iv.iii.i-p44"></A>To the interpretation I have thought preferable, and which I ventured to enlarge, it should be added that our author subjoins others, founded on flesh, soul, and spirit; on vocation, election, and the Gnostic accepting both; and on the Jew and the Gentile, and the Church gathered from each race.</p>  
+<p style="font-size: 16pt"><a name="vi.iv.iii.i-p45"></A>Over and over again Clement asserts that a life of chaste wedlock is not to be accounted imperfect.</p>  
+<p style="font-size: 16pt"><a name="vi.iv.iii.i-p46"></A>On the celibate in practice, see <i><span><a name="vi.iv.iii.i-p46.1"></A>Le C&eacute;libat des Pr&ecirc;tres</span></i>, <span><a name="vi.iv.iii.i-p46.2"></A>par l&#146;abb&eacute; Chavard, Gen&egrave;va,</span> 1874.</p>  <h5 align="center"><a name="vi.iv.iii.i-p46.3"></A>XVIII.</h5>  
+<p style="font-size: 16pt"><a name="vi.iv.iii.i-p47"></A>The <i>Commentaria </i>of Le Nourry have been my guide to the brief analysis of these Elucidations, though I have not always allowed the learned Benedictine to dictate an opinion, or to control my sense of our author&#146;s argument.</p>    
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_2674"></A><A HREF="0020350.html#fr_2674">403:2675</A> <a name="vi.iv.iii.i-p3.1"></A>
+<p style="font-size: 16pt"><a name="vi.iv.iii.i-p4"></A> See vol. i. p. 332, note 4, this series.</p>
+<A NAME="fn_2675"></A><A HREF="0020350.html#fr_2675">405:2676</A> <a name="vi.iv.iii.i-p19.1"></A>
+<p style="font-size: 16pt"><a name="vi.iv.iii.i-p20"></A> See the touching story of St.  Peter&#146;s words to his wife as she was led to martyrdom (<i>Stromata</i>, book vii. p. 451, Edinburgh Edition).</p>
+<A NAME="fn_2676"></A><A HREF="0020350.html#fr_2676">406:2677</A> <a name="vi.iv.iii.i-p26.1"></A>
+<p style="font-size: 16pt"><a name="vi.iv.iii.i-p27"></A> Works, ii. 252. See, also, the apocryphal collection in this series, hereafter.</p>
+<A NAME="fn_2677"></A><A HREF="0020350.html#fr_2677">406:2678</A> <a name="vi.iv.iii.i-p31.2"></A>
+<p style="font-size: 16pt"><a name="vi.iv.iii.i-p32"></A> <a href="../../../../bib/kjv/co2006.html#017">2 Cor. vi. 17</a><a name="vi.iv.iii.i-p32.1"></A>. Compare <a href="../../../../bib/kjv/exo029.html#045">Ex. xxix. 45</a><a name="vi.iv.iii.i-p32.2"></A>, and <a href="../../../../bib/kjv/lev026.html#012">Lev. xxvi. 12</a><a name="vi.iv.iii.i-p32.3"></A>.</p>
+<A NAME="fn_2678"></A><A HREF="0020350.html#fr_2678">407:2679</A> <a name="vi.iv.iii.i-p39.1"></A>
+<p style="font-size: 16pt"><a name="vi.iv.iii.i-p40"></A> In using the phrase <i>ecclesia nostra</i> (<span class="Greek"><a name="vi.iv.iii.i-p40.1"></A>&#7969; &#954;&#945;&#964;&#8048; &#964;&#8052;&#957; &#7960;&#954;&#954;&#955;&#951;&#963;&#953;&#945;&#957; &#954;&#945;&#952;&#8125; &#7969;&#956;&#945;&#962;</span>), which I take to refer to the church militant, we encounter a formula which we use differently in our day.</p>
+<p><HR>
+<CENTER>
+<A HREF="0020351.html">Next: Book IV.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/002/0020350.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/002/0020350.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/ssav3pv'>tak.la/ssav3pv</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/ssav3pv';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+
