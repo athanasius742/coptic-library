@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. IX: Recently Discovered Additions to Early Christian Literature; Commentaries of Origen: The Gospel of Peter, The Diatessaron of Tatian, The Apocalypse of Peter, The Vision of Paul, The Apocalypses of the Virgin and Sedrach, The Testament of Abraham, The Acts of Xanthippe and Polyxena, The Narrative of Zosimus, The Apology of Aristides, The Epistles of Clement (complete text), Origen's Commentary on John, Books 1-10, and Commentary on Matthew, Books 1, 2, and 10-14.; full text etext at St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fars Gospel Peter Diatessar Tatian Apocalypse Peter Visi Paul Apocalypses  Virgin Sedrach Testament Abraham Acts Xanthippe Polyxena Narrative Zosimus Apology Aristides Epistles Clement Origen's Commentary John Books 1-10 Commentary Matw">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol IX: Epistle to Gregory and Origen's Commentary on the Gospel of John.: Introduction. | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/009/0090193.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:34:09+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/009/'>009</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/009/'>009</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Ante-Nicene Fathers, Vol IX:
+<br>
+Epistle to Gregory and Origen's Commentary on the Gospel of John.: Introduction.</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="0090192.html" id="prev">Previous</A>&nbsp;
+<A HREF="0090194.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="xv.i"></A> <A NAME="page_291"><FONT SIZE=1 COLOR=GREEN>p. 291</FONT></A> <a name="xv.i-Page_291"></A>
+<p style="font-size: 16pt" class="c11"><a name="xv.i-p1"></A><span class="c10"><a name="xv.i-p1.1"></A>Commentaries of Origen.</span></p> 
+<p style="font-size: 16pt" class="Centered"><a name="xv.i-p2"></A> &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</p> 
+<p style="font-size: 16pt" class="c33"><a name="xv.i-p3"></A><span class="c10"><a name="xv.i-p3.1"></A>Introduction.</span></p> 
+<p style="font-size: 16pt" class="Centered"><a name="xv.i-p4"></A> &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</p> 
+<p style="font-size: 16pt" class="c12"><a name="xv.i-p5"></A><span class="sc"><a name="xv.i-p5.1"></A>For</span> a general account of Origen and of his works we may refer to Dr. Crombie&#146;s <i>Life of Origen</i>, in vol. iv. of this series (xxiii. in Clark&#146;s issue).&#160; The principal facts of his career are as follows:&#160; He was born of Christian parents at Alexandria about the year 185 <span class="sc"><a name="xv.i-p5.2"></A>a.d.</span>, and from his earliest youth devoted himself to the study of Scripture in such a way as to suggest that he was destined for a great career.&#160; His father suffered martyrdom in the year 202, and Origen very soon afterwards succeeded the great Clement as head of the school at Alexandria.&#160; Thirteen years after, the persecution of Caracalla drove him from his own country to C&aelig;sarea, where though still a layman he preached at church meetings.&#160; Recalled to Alexandria, he laboured there for fifteen years further as teacher and author, till in the year 231 his ordination at C&aelig;sarea to the office of presbyter drew upon him the condemnation of the bishop of Alexandria and became the occasion of his permanent withdrawal from the place of his birth.&#160; At C&aelig;sarea he now formed a new school of Christian training similar to that from which he had been driven.&#160; At this time, as well as in the earlier period of his life, he made various journeys to different parts of the world.&#160; His death was brought about by sufferings inflicted on him in the persecution of Decius, and took place at Tyre, probably in the year 254.</p> 
+<p style="font-size: 16pt" class="c13"><a name="xv.i-p6"></A>Part of the Commentary on John, the first great work of Christian interpretation, and part of that on Matthew, written by the father at a later period of his life, are here presented to the reader; and a few words of introduction may be added on Origen&#146;s work as an expositor and on these two works in particular.</p> 
+<p style="font-size: 16pt" class="c13"><a name="xv.i-p7"></A>Though Origen was the first great interpreter of Scripture in the Church, commentaries had been written before his.&#160; He speaks of those who had preceded him in this activity; and though but little survives of the labours of these earlier expositors, we know that the work of commenting on Scripture was zealously carried on in the Gnostic churches in the latter part of the second century, and several of the older exegetes in the Church are also known to us by name and reputation.&#160; Heracleon the Gnostic commentator on John, who is often cited and often rather unfairly dealt with by Origen, as he follows him over the same ground, belonged to the Valentinian school.&#160; Many of his comments the reader will find to be very just and shrewd; but the tenets of his school led him into many extravagances.&#160; Of Pant&aelig;nus, head of the catechetical school at Alexandria in the end of the second and early years of the third century, we hear that he interpreted many of the books of Scripture.&#160; We also learn that he preceded Clement and Origen, his successors in office, in the application of Gentile learning to Christian studies; the broad and liberal tone of Alexandrian theology may be due in part to his influence.&#160; Much of his exegetical work was still extant in the days of Jerome, who, however, reports that he did more for the Church as a teacher than as a writer.&#160; Only fragments of his Commentaries now remain.&#160; In Clement&#146;s works, on the contrary, we find, if not any set commentaries, various extended discussions of particular texts.&#160; We also find in him a theory of Scripture, its inspiration and its nature, which is followed also by Origen, and which determines the whole character of Alexandrian exegesis.&#160; In accordance with the general tendency of that age, which witnessed a reaction from the independence of philosophy and an appeal in many quarters to the authority of ancient oracles and writings, the Alexandrian school treats Scripture as an inspired and infallible storehouse of truth,&#8212;of truth, however, not patent to the simple reader, but requiring the spiritual man to discern its mystic import.&#160; Clement discusses the question why divine things are <A NAME="page_292"><FONT SIZE=1 COLOR=GREEN>p. 292</FONT></A> <a name="xv.i-Page_292"></A>wrapped up in mysteries, and holds that all who have spoken of such things have dealt with them in this way.&#160; Everything in Scripture, therefore, has a mystical in addition to its obvious meaning.&#160; Every minute particular about the tabernacle and its furniture is charged with an unseen truth.&#160; The effect of such a view of Scripture on exegesis is necessarily that the interpreter finds in the inspired words not what they plainly convey, but what most interests his own mind.&#160; In assigning to each verse its spiritual meaning, he is neither guided nor restrained by any rule or system, but enjoys complete liberty.&#160; The natural good sense of these great scholars curbed to some extent the licence of their theory; but with such a view of Scripture they could not but run into many an extravagance; and the allegorical method of interpretation, which so long prevailed in Christendom and is still practised in some quarters, dates from Alexandria.&#160; The roots of it lie further back, in Jewish rabbinical treatment of the Old Testament, and in the Greek philosophy of Alexandria.&#160; In Philo, the great contemporary of Christ at Alexandria, rabbinical and Greek learning met, and Scripture being a divine authority and having to furnish evidence of Greek philosophical doctrines, the allegorical method of interpretation was called to perform large services.&#160; To Philo&#146;s eyes all wisdom was contained in the Pentateuch, and many an idea of which Moses never dreamed had to be extracted from that ancient record.&#160; The method was older than Clement and Origen, but it was through them that it became so firmly established in the Church.</p> 
+<p style="font-size: 16pt" class="c13"><a name="xv.i-p8"></A>In Origen we first find a great teacher who deliberately sets himself to the task of explaining Scripture.&#160; He became, at the early age of eighteen, the head of the catechetical school at Alexandria, an institution which not only trained catechumens but provided open lectures, on every part of Christian learning, and from that time to his death, at the age of sixty-nine, he was constantly engaged in the work of public exposition.&#160; At Alexandria his expositions took place in the school, but at C&aelig;sarea they formed part of the church services, so that the reports of those belonging to the C&aelig;sarean period provide us with the earliest examples we possess of the discourse at Christian meetings.&#160; In an activity which he practised so much Origen acquired extraordinary skill and facility, and gained the highest reputation, even beyond the limits of the Church.&#160; It is no wonder, therefore, if he succeeded in treating nearly the whole Bible in this way, a thing which might no doubt be said of many a Christian teacher since his day; for he was not one who was apt to repeat himself, but was constantly pressing on to break new ground.</p> 
+<p style="font-size: 16pt" class="c13"><a name="xv.i-p9"></A>But the reported homilies form only a part&#8212;and that not the most important part&#8212;of his exegetical works.&#160; What he gave in his homilies was necessarily designed for edification; it had to be plain enough to be understood by a mixed audience, and serviceable to their needs.&#160; Origen believed, however, that there was very much in Scripture that lay beyond the capacity of the ordinary mind, and that the highest way of treating Scripture was not that of practical application, but that of searching after its hidden sense.&#160; In the fourth book of his <i>De Principiis</i> (vol. x. of Clark&#146;s set) he sets forth his views about the Scriptures.&#160; &#8220;As man,&#8221; he there says, &#8220;consists of body, soul, and spirit, so in the same way does Scripture, which has been arranged to be given by God for the salvation of man.&#8221;&#160; Scripture, therefore, has three senses, the bodily (somatic) or the obvious matter-of-fact sense, the psychical or moral sense, which serves for edification of the pious, and, highest of all, the spiritual sense.&#160; For this latter sense of Scripture Origen has many names,&#8212;as many as forty have been counted,&#8212;he calls it the heavenly sense, the intellectual, the anagogical, the mystic, the hidden.&#160; This is what chiefly engages his interest in the work of expounding.&#160; Scripture is to him full of mysteries, every jot and tittle has its secret, and to read these heavenly mysteries is the highest object of the interpreter.&#160; In addition, therefore, to his oral expositions (<span class="Greek"><a name="xv.i-p9.1"></A>&#8001;&#956;&#953;&#955;&#8055;&#945;&#953;</span>) and the short notes (<span class="Greek"><a name="xv.i-p9.2"></A>&#963;&#951;&#956;&#949;&#953;&#8061;&#963;&#949;&#953;&#962;</span>) which are generally reckoned as a third class of his exegetical works, we have the written commentaries, books, or <span class="Greek"><a name="xv.i-p9.3"></A>&#964;&#8057;&#956;&#959;&#953;</span> of Origen, in which he discusses Scripture without being hampered by the requirements of edification, according to the method which alone he recognizes as adequate.&#160; He was enabled to devote himself to this labour by the generosity of a rich friend, Ambrosius, who urged him to undertake it, and provided funds for the payment of shorthand writers and copyists.&#160; We are told that seven of the former were at one time placed at his disposal.&#160; The work which he was thus led to undertake Origen felt to be very responsible and burdensome; it was not to be approached without fervent prayer, and he sometimes complains that it is too much for him, and that it is only the urgent commands of Ambrosius that make him go on with it.&#160; (See the opening chapters of the various books on John.)</p> 
+<p style="font-size: 16pt" class="c13"><a name="xv.i-p10"></A>What has been said will to some extent explain the nature of these commentaries, parts <A NAME="page_293"><FONT SIZE=1 COLOR=GREEN>p. 293</FONT></A> <a name="xv.i-Page_293"></A>of which are now for the first time presented to the English reader.&#160; There is a side of them, however, of which we have not yet spoken.&#160; Origen was a great scholar as well as a great theologian; and he thought it right, as the reader may see from the letter to Gregory also here given, that scholarship should contribute all it could to the study of Scripture.&#160; Of his multifarious knowledge and of his easy command of all the science and philosophy of his day, the reader may judge for himself even from what is now presented to him.&#160; His work on the words of Scripture has a value quite independently of his theological views.&#160; Some of the most important qualifications of the worthy interpreter of Scripture he possesses in a supreme degree.&#160; His knowledge of Scripture is extraordinary both for its range and its minute accuracy.&#160; He had no concordance to help him; but he was himself a concordance.&#160; Whatever word occurs he is able to bring from every part of Scripture the passages in which it is used.&#160; He quotes passages, it is true, which are only verbally connected with the text before him and have no affinity of idea; the wealth of illustration he has at his command does not always assist, but sometimes, as the reader will see, impedes his progress:&#160; yet the wonder is not diminished of such a knowledge of all parts of the Bible as is probably without parallel.&#160; It has to be added that he is strong in grammar, and has a true eye for the real meaning of his text; the discussions in which he does this often leave nothing to be desired.&#160; In defining his terms he often goes far astray; he has to define them according to the science of his day; but he is not guilty of loose construction of sentences.&#160; Another matter in which he is distinguished is that of textual criticism.&#160; He is the first great textual critic of the Church.&#160; That his name occurs more frequently than that of any other father in the digests of early readings of the text of the New Testament, is due no doubt to the fact that he is the earliest writer of commentaries which have been preserved; his commentaries contain complete texts of the portions of Scripture commented on, as well as copious quotations from other parts of Scripture.&#160; But he was keenly interested in the text of the New Testament for its own sake.&#160; He tells us that many variations already existed in his day in different copies.&#160; And he preserves many readings which afterwards disappeared from the Bible.&#160; It has also to be said that he often quotes the same text differently in different passages, so that it appears probable that he used several copies of the N.T. books, and that these copies differed from each other.&#160; If, therefore, as Tischendorf suggests, Origen made a collation of the various texts of the N.T. with which he was acquainted, as he did with his texts of the O.T. in his Hexapla, he had no strong views as to which text was to be followed.&#160; He sometimes expresses an opinion as to which is the true reading (pp. 368 sq.), but he does so on grounds which the textual critics of the present day could not approve.</p> 
+<p style="font-size: 16pt" class="c13"><a name="xv.i-p11"></A>It may be stated here that the translators of Origen in this volume have sought to represent their author&#146;s critical position with regard to Scripture by translating his Scripture quotations from his text.&#160; As he used the Septuagint version of the Old Testament, many of his quotations from that part of Scripture appear in a form unfamiliar to the English reader.&#160; In the New Testament, also, his text is also very different from that which afterwards prevailed in the Church.</p> 
+<p style="font-size: 16pt" class="c13"><a name="xv.i-p12"></A>The weakness of Origen as an interpreter is his want of historical feeling or of any conception of such a thing as growth or development in revelation.&#160; His mind slips incessantly away from the real scenes and events recorded in Scripture, to the ideal region where he conceives that the truths reside which these prefigure.&#160; Scripture is to him not a record of actual occurrences which took place as they are narrated, but a storehouse of types of heavenly things, which alone are real.&#160; He scoffs at the notion that historical facts should be regarded as the chief outcome of a Scripture narrative (John, book x. 15&#8211;17, pp. 389&#8211;394).&#160; When he does treat the facts as facts he has many a shrewd observation and many a beautiful application.&#160; But the facts are to a large extent in his way; they have to give place to something more important.&#160; He sees very well how the synoptic narratives clash with that of John; no better demonstration of this need be looked for than he gives in the tenth book of his John; from this, however, he infers not that the books must have had different sources of information, but that the literal meaning of the passages must be altogether disregarded, and their true purport looked for, not in the things of history, but in the things of the Spirit.&#160; The water-pots at the feast in Cana (<i>De Principiis</i>), the shoe latchet of the Saviour (John, book vi. 17), the ass and foal (John, book x. 18), each must receive a transcendent application.</p> 
+<p style="font-size: 16pt" class="c13"><a name="xv.i-p13"></A>It follows from this that the commentaries are deficient in order and sequence.&#160; The method which calls the writer to look at every step for spiritual meanings, combined with his own extraordinary fertility of imagination and wealth of matter, makes these books very disconnected.&#160; At each point a number of questions suggests itself as to possible mean<A NAME="page_294"><FONT SIZE=1 COLOR=GREEN>p. 294</FONT></A> <a name="xv.i-Page_294"></A>ings; a host of texts is brought at once from every part of Scripture to afford illustration, and these again have to be considered.&#160; Very modestly are the questions and themes introduced.&#160; The tone is as far as possible from being <i>ex cathedra</i>; it is rather that of a student groping his way, and asking at each step for assistance.&#160; And the great mass of the questions thus raised is left, apparently, unanswered.&#160; So that the work as a whole is rather a great collection of materials for future consideration than a finished treatise.</p> 
+<p style="font-size: 16pt" class="c13"><a name="xv.i-p14"></A>Such being the characteristics of Origen&#146;s commentaries, they have by many been regarded as unsuitable for the general reader, and unfavourably compared with those of later writers, to whom the interpretation of Scripture was not weighted with such difficulties as Origen had to contend with.&#160; Our author does not carry us along in his commentaries with a stream of golden eloquence; his interests are intellectual more than literary or practical, his work is scientific rather than popular.&#160; Perhaps the historical student has more to gain from them than the preacher.&#160; But among the pages which witness chiefly to restless intellectual energy and unwearied diligence, there are also many passages of rare and touching beauty, when the writer realizes the greatness of the Christian salvation, or when the heavenly things to the search for which all his labour is devoted shine by their own brightness on his sight.</p> 
+<p style="font-size: 16pt" class="c13"><a name="xv.i-p15"></A>The Commentaries on John are the earliest work of Christian exegesis which has come down to us, and are therefore placed in this volume before those on Matthew.&#160; The first five books on John were written at Alexandria before Origen&#146;s compulsory withdrawal from that city to C&aelig;sarea in 231.&#160; In chaps. 4 and 8 of the first book he speaks of this work as being the first fruits of his activity as a writer on Holy Scripture.&#160; The sixth book, as he tells us in vi. 1, had been begun at Alexandria, but the manuscript had been left behind, so that a new beginning had to be made at C&aelig;sarea.&#160; The work was again interrupted by the persecution of Maximian in 238; the volumes from the twenty-second to the last were written after that date.&#160; At the end of the thirty-second volume, which is the last we now possess, the writer has only reached <a href="../../../../bib/kjv/joh013.html#033">John xiii. 33</a><a name="xv.i-p15.1"></A>, but he tells us in his Commentary on Matthew that he has spoken of the two thieves in his work on John.&#160; In the time of Eusebius only twenty-two books survived out of the whole number, which seems to have been thirty-nine.&#160; We now possess books i., ii., vi., x., xiii., xix., xx., xxviii., xxxii., some of which, however, are not complete, and a few fragments.&#160; The thirteenth book begins in the middle of the story of the Samaritan woman.&#160; Ambrosius had wished that story to be completed in the twelfth book, but Origen did not like to make his books too long, and on this point disregarded the authority of his mentor.&#160; The nineteenth and twentieth books are both occupied with the eighth chapter of John, which, if it was all treated on the same scale, must have occupied two more books in addition to these.&#160; The thirty-second book scarcely completes the thirteenth chapter of the Gospel; and if the remaining chapters only occupied seven books, the treatment of these must have been much more condensed.</p> 
+<p style="font-size: 16pt" class="c13"><a name="xv.i-p16"></A>Two Latin translations of Origen&#146;s John were made in the sixteenth century, one by Ambrosius Ferrarius of Milan from the Venice Codex, the other by Joachim Perionius.</p> 
+<p style="font-size: 16pt" class="c13"><a name="xv.i-p17"></A>The Commentaries on John and on Matthew are both embraced in several manuscripts.&#160; Of those on John, Mr. A. E. Brooke (<i>Texts and Studies</i>, vol. i. No. 4; <i>The Fragments of Heracleon</i>, pp. 1&#8211;30; &#8220;the <span class="sc"><a name="xv.i-p17.1"></A>mss.</span> of Origen&#146;s Commentaries on S. John&#8221;) enumerates eight or nine.&#160; The Munich <span class="sc"><a name="xv.i-p17.2"></A>ms.</span> of the thirteenth century is the source of all the rest.&#160; Huet, the first editor (1668), used the Codex Regius (Paris) of the sixteenth century, which is in many passages mutilated and disfigured.&#160; The brothers Delarue (1733&#8211;1759) used the <span class="sc"><a name="xv.i-p17.3"></A>mss.</span> Barberinus and Bodleianus, which are more complete, and Lommatzsch (1831) follows his predecessors.&#160; The present translations are from the text of Lommatzsch, which is in many places very defective.&nbsp;<A NAME="fr_4444"></A><A HREF="#fn_4444"><FONT SIZE="1">4445</FONT></A>
+</p>   
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_4444"></A><A HREF="0090193.html#fr_4444">294:4445</A> <a name="xv.i-p17.4"></A>
+<p style="font-size: 16pt" class="endnote"><a name="xv.i-p18"></A> Mr. Brooke&#146;s revised text of the Commentary of Origen on St. John&#146;s Gospel (2 vols., Cambridge University Warehouse) appeared unfortunately too late to be used in the preparation of this volume.</p>
+<p><HR>
+<CENTER>
+<A HREF="0090194.html">Next: Letter of Origen to Gregory.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/009/0090193.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/009/0090193.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/aj2p95c'>tak.la/aj2p95c</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/aj2p95c';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+
