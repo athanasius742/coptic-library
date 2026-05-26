@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. III: Latin Christianity: Its Founder, Tertullian; I. Apologetic; II. Anti-Marcion; III. Ethical | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Tertullian">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol III: Tertullian: Part II: Dr. Holmes' Note. | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/003/0030443.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:35:05+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/003/'>003</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/003/'>003</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Ante-Nicene Fathers, Vol III:
+<br>
+Tertullian: Part II: Dr. Holmes' Note.</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="0030442.html" id="prev">Previous</A>&nbsp;
+<A HREF="0030444.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="v.iv.v.xliv"></A>
+<p style="font-size: 16pt" class="c18"><a name="v.iv.v.xliv-p1"></A> <span class="c17"><a name="v.iv.v.xliv-p1.1"></A>Dr. Holmes&#146; Note.</span></p> 
+<p style="font-size: 16pt" class="Centered"><a name="v.iv.v.xliv-p2"></A> &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</p> 
+<p style="font-size: 16pt" class="c19"><a name="v.iv.v.xliv-p3"></A>Dr. Holmes appends the following as a note to the Fourth Book.&#160; (See cap. vi. p. 351.)</p> 
+<p style="font-size: 16pt" class="c20"><a name="v.iv.v.xliv-p4"></A>The following statement, abridged from Dr. Lardner (<i>The History of Heretics</i>, chap. x. secs. 35&#8211;40), may be useful to the reader, in reference to the subject of the preceding Book:&#8212;Marcion received but eleven books of the New Testament, and these strangely curtailed and altered.&#160; He divided them into two parts, which he called <span class="Greek"><a name="v.iv.v.xliv-p4.1"></A>&#964;&#8056; &#917;&#8016;&#945;&#947;&#947;&#8051;&#955;&#953;&#959;&#957;</span> (<i>the Gospel</i>) and <span class="Greek"><a name="v.iv.v.xliv-p4.2"></A>&#964;&#8056; &#8125;&#913;&#960;&#959;&#963;&#964;&#959;&#955;&#953;&#954;&#8057;&#957;</span> (<i>the Apostolicon</i>).</p> 
+<p style="font-size: 16pt" class="c20"><a name="v.iv.v.xliv-p5"></A>1. The former contained nothing more than a mutilated, and sometimes interpolated, edition of <span class="sc"><a name="v.iv.v.xliv-p5.2"></A>St. Luke</span>; the name of that evangelist, however, he expunged from the beginning of his copy. <a href="../../../../bib/kjv/luk001.html#000">Luke 1:0</a>, <a href="../../../../bib/kjv/luk002.html#000">Luke 2:0</a><a name="v.iv.v.xliv-p5.3"></A>. he rejected entirely, and began at <a href="../../../../bib/kjv/luk003.html#001">Luke 3.1</a><a name="v.iv.v.xliv-p5.4"></A>, reading the opening verse thus: &#8220;In the xv. year of Tiberius C&aelig;sar, God descended into Capernaum, a city of Galilee.&#8221;</p> 
+<p style="font-size: 16pt" class="c20"><a name="v.iv.v.xliv-p6"></A>2. According to Iren&aelig;us, Epiphanius, and Theodoret, he rejected the genealogy and baptism of Christ; whilst from Tertullian&#146;s statement (chap. vii.) it seems likely that he connected what part of chap. iii.&#8212;<a href="../../../../bib/kjv/luk003.html#001">Luke 3:1</a>, <a href="../../../../bib/kjv/luk003.html#002">2</a><a name="v.iv.v.xliv-p6.1"></A>&#8212;he chose to retain, with <a href="../../../../bib/kjv/luk004.html#031">Luke 4.31</a><a name="v.iv.v.xliv-p6.2"></A>, at a leap.</p> 
+<p style="font-size: 16pt" class="c20"><a name="v.iv.v.xliv-p7"></A>3. He further eliminated the history of the temptation.&#160; That part of <a href="../../../../bib/kjv/luk004.html#000">Luke 4</a><a name="v.iv.v.xliv-p7.1"></A>. which narrates Christ&#146;s going into the synagogue at Nazareth and reading out of Isaiah he also rejected, and all afterwards to the end of <a href="../../../../bib/kjv/luk004.html#030">Luke 4.30</a><a name="v.iv.v.xliv-p7.2"></A>.</p> 
+<p style="font-size: 16pt" class="c20"><a name="v.iv.v.xliv-p8"></A>4. Epiphanius mentions sundry slight alterations in capp. v. 14, 24, vi. 5, 17. In <a href="../../../../bib/kjv/luk008.html#019">Luke 8.19</a><a name="v.iv.v.xliv-p8.1"></A> he expunged <span class="Greek"><a name="v.iv.v.xliv-p8.2"></A>&#7969; &#956;&#8053;&#964;&#951;&#961; &#945;&#8016;&#964;&#959;&#8166;, &#954;&#945;&#8054; &#7936;&#948;&#949;&#955;&#966;&#959;&#8054; &#945;&#8016;&#964;&#959;&#8166;</span>. From Tertullian&#146;s remarks (chap. xix.), it would seem at first as if Marcion had added to his Gospel that answer of our Saviour which we find related by <a href="../../../../bib/kjv/mat012.html#048">Matt. 12.48</a><a name="v.iv.v.xliv-p8.3"></A>: &#8220;Who is my mother, and who are my brethren?&#8221; For he represents Marcion (as in <i>De carne Christi</i>, vii., he represents other heretics, who deny the nativity) as making use of these words for his favourite argument. But, after all, Marcion might use these words against those who allowed the authenticity of Matthew&#146;s Gospel, without inserting them in his own Gospel; or else Tertullian might quote from memory, and think that to be in Luke which was only in Matthew&#8212;as he has done at least in three instances. (Lardner refers two of these instances to passages in chap. vii. of this Book iv., where Tertullian mentions, as erasures from Luke, what really are found in <a href="../../../../bib/kjv/mat005.html#017">Matt. 5:17</a>, <a href="../../../../bib/kjv/mat015.html#024">Matt. 15:24</a><a name="v.iv.v.xliv-p8.4"></A>. The third instance referred to by Lardner probably occurs at the end of chap. ix. of this same Book iv., where Tertullian <A NAME="page_424"><FONT SIZE=1 COLOR=GREEN>p. 424</FONT></A> <a name="v.iv.v.xliv-Page_424"></A>again mistakes <a href="../../../../bib/kjv/mat005.html#017">Matt. v. 17</a><a name="v.iv.v.xliv-p8.5"></A> for a passage of Luke, and charges Marcion with expunging it; curiously enough, the mistake recurs in chap. xii of the same Book.) In <a href="../../../../bib/kjv/luk010.html#021">Luke x. 21</a><a name="v.iv.v.xliv-p8.6"></A> Marcion omitted the first <span class="Greek"><a name="v.iv.v.xliv-p8.7"></A>&#960;&#8049;&#964;&#949;&#961;</span> and the words <span class="Greek"><a name="v.iv.v.xliv-p8.8"></A>&#954;&#945;&#8054; &#964;&#8134;&#962; &#947;&#8134;&#962;</span>, that he might not allow Christ to call His Father the Lord of earth, or of this world. The second <span class="Greek"><a name="v.iv.v.xliv-p8.9"></A>&#960;&#945;&#964;&#8053;&#961;</span> in this verse, not open to any inconvenience, he retained. In <a href="../../../../bib/kjv/luk011.html#029">chap. xi. 29</a><a name="v.iv.v.xliv-p8.10"></A> he omitted the last words concerning the sign of the prophet Jonah; he also omitted all the <a href="../../../../bib/kjv/luk011.html#030">Luke 11.30-32</a><a name="v.iv.v.xliv-p8.11"></A>; in <a href="../../../../bib/kjv/luk011.html#042">Luke 11.42</a><a name="v.iv.v.xliv-p8.12"></A> he read <span class="Greek"><a name="v.iv.v.xliv-p8.13"></A>&#954;&#955;&#8134;&#963;&#953;&#957;</span>, &#145;<i>calling</i>,&#146; instead of <span class="Greek"><a name="v.iv.v.xliv-p8.14"></A>&#954;&#961;&#8055;&#963;&#953;&#957;</span> &#145;<i>judgment</i>.&#146; He rejected verses <a href="../../../../bib/kjv/luk011.html#049">Luke 11.49-51</a><a name="v.iv.v.xliv-p8.15"></A>, because the passage related to the prophets. He entirely omitted <a href="../../../../bib/kjv/luk012.html#006">Luke 12.6</a><a name="v.iv.v.xliv-p8.16"></A>; whilst in <a href="../../../../bib/kjv/luk012.html#008">Luke 12.8</a><a name="v.iv.v.xliv-p8.17"></A> he read <span class="Greek"><a name="v.iv.v.xliv-p8.18"></A>&#7956;&#956;&#960;&#961;&#959;&#963;&#952;&#949;&#957; &#964;&#959;&#8166; &#920;&#949;&#959;&#8166;</span> instead of <span class="Greek"><a name="v.iv.v.xliv-p8.19"></A>&#7956;&#956;&#960;&#961;&#959;&#963;&#952;&#949;&#957; &#964;&#8182;&#957; &#7936;&#947;&#947;&#8051;&#955;&#969;&#957; &#964;&#959;&#8166; &#920;&#949;&#959;&#8166;</span>. He seems to have left out all the <a href="../../../../bib/kjv/luk012.html#028">Luke 12.28</a><a name="v.iv.v.xliv-p8.20"></A>, and expunged <span class="Greek"><a name="v.iv.v.xliv-p8.21"></A>&#8017;&#956;&#8182;&#957;</span> from <a href="../../../../bib/kjv/luk012.html#030">Luke 12:30</a>, <a href="../../../../bib/kjv/luk012.html#032">32</a><a name="v.iv.v.xliv-p8.22"></A>, reading only <span class="Greek"><a name="v.iv.v.xliv-p8.23"></A>&#8001; &#960;&#945;&#964;&#8053;&#961;</span>. In <a href="../../../../bib/kjv/luk012.html#038">Luke 12.38</a><a name="v.iv.v.xliv-p8.24"></A>, instead of the words <span class="Greek"><a name="v.iv.v.xliv-p8.25"></A>&#7952;&#957; &#964;&#8135; &#948;&#949;&#965;&#964;&#8051;&#961;&#8115; &#966;&#965;&#955;&#945;&#954;&#8135;, &#954;&#945;&#8054; &#7952;&#957; &#964;&#8135; &#964;&#961;&#8055;&#964;&#8131; &#966;&#965;&#955;&#945;&#954;&#8135;</span>, he read <span class="Greek"><a name="v.iv.v.xliv-p8.26"></A>&#7952;&#957; &#964;&#8135; &#7953;&#963;&#960;&#949;&#961;&#953;&#957;&#8135; &#966;&#965;&#955;&#945;&#954;&#8135;</span>. In <a href="../../../../bib/kjv/luk013.html#000">Luke 13</a><a name="v.iv.v.xliv-p8.27"></A>. he omitted the <a href="../../../../bib/kjv/luk013.html#001">Luke 13.1-5</a><a name="v.iv.v.xliv-p8.28"></A>, whilst in the <a href="../../../../bib/kjv/luk013.html#028">Luke 13.28</a><a name="v.iv.v.xliv-p8.29"></A> of the same chapter, where we read, &#8220;When ye shall see Abraham, and Isaac, and Jacob, and all the prophets in the kingdom of God, and ye yourselves thrust out,&#8221; he read (by altering, adding, and transposing), &#8220;When ye shall see all the just in the kingdom of God, and you yourselves cast out, and bound without, there shall be weeping and gnashing of teeth.&#8221; He likewise excluded all the <a href="../../../../bib/kjv/luk013.html#029">Luke 13.29-35</a><a name="v.iv.v.xliv-p8.30"></A>. All <a href="../../../../bib/kjv/luk015.html#011">Luke 15.11-31</a><a name="v.iv.v.xliv-p8.31"></A>, in which is contained the parable of the prodigal son, he eliminated from his Gospel. In <a href="../../../../bib/kjv/luk017.html#010">Luke 17.10</a><a name="v.iv.v.xliv-p8.32"></A> he left out all the words after <span class="Greek"><a name="v.iv.v.xliv-p8.33"></A>&#955;&#8051;&#947;&#949;&#964;&#949;</span>. He made many alterations in the story of the ten lepers; he left out part of <a href="../../../../bib/kjv/luk017.html#012">Luke 17.12-14</a><a name="v.iv.v.xliv-p8.34"></A>, reading thus: &#8220;There met Him ten lepers; and He sent them away, saying, Show yourselves to the priest;&#8221; after which he inserted a clause from <a href="../../../../bib/kjv/luk004.html#027">Luke 4.27</a><a name="v.iv.v.xliv-p8.35"></A>: &#8220;There were many lepers in the days of Eliseus the prophet, but none of them were cleansed, but Naaman the Syrian.&#8221; In <a href="../../../../bib/kjv/luk018.html#019">Luke 18.19</a><a name="v.iv.v.xliv-p8.36"></A> he added the words <span class="Greek"><a name="v.iv.v.xliv-p8.37"></A>&#8001; &#960;&#945;&#964;&#8053;&#961;</span>, and in <a href="../../../../bib/kjv/luk018.html#020">Luke 18.20</a><a name="v.iv.v.xliv-p8.38"></A> altered <span class="Greek"><a name="v.iv.v.xliv-p8.39"></A>&#959;&#7990;&#948;&#945;&#962;</span>, <i>thou knowest</i>, into the first person. He entirely omitted <a href="../../../../bib/kjv/luk018.html#031">Luke 18.31-33</a><a name="v.iv.v.xliv-p8.40"></A>, in which our blessed Saviour declares that the things foretold by the prophets concerning His sufferings, and death, and resurrection, should all be fulfilled. He expunged <i>nineteen</i> verses out of chap. xix., from the <a href="../../../../bib/kjv/luk019.html#027">Luke 19.27-47</a><a name="v.iv.v.xliv-p8.41"></A>. In chap. xx. he omitted <i>ten</i> verses, from the <a href="../../../../bib/kjv/luk020.html#008">Luke 20.8-18</a><a name="v.iv.v.xliv-p8.42"></A>. He rejected also <a href="../../../../bib/kjv/luk020.html#037">Luke 20.37-38</a><a name="v.iv.v.xliv-p8.43"></A>, in which there is a reference to Moses. Marcion also erased of <a href="../../../../bib/kjv/luk021.html#001">Luke 21.1-22</a><a name="v.iv.v.xliv-p8.44"></A>, on account of this clause, &#8220;that all things which are written may be fulfilled;&#8221; <a href="../../../../bib/kjv/luk020.html#016">Luke 20.16</a><a name="v.iv.v.xliv-p8.45"></A> was left out by him, so also <a href="../../../../bib/kjv/luk020.html#035">Luke 20:35</a>, <a href="../../../../bib/kjv/luk020.html#050">50</a><a name="v.iv.v.xliv-p8.46"></A> (and, adds Lardner, conjecturally, not herein following his authority Epiphanius, also <a href="../../../../bib/kjv/luk020.html#038">Luke 20:38</a>, <a href="../../../../bib/kjv/luk020.html#049">49</a><a name="v.iv.v.xliv-p8.47"></A>). In <a href="../../../../bib/kjv/luk023.html#002">Luke 23.2</a><a name="v.iv.v.xliv-p8.48"></A>, after the words &#8220;perverting the nation,&#8221; Marcion added, &#8220;and destroying the law and the prophets;&#8221; and again, after &#8220;forbidding to give tribute unto C&aelig;sar,&#8221; he added, &#8220;and perverting women and children.&#8221; He also erased <a href="../../../../bib/kjv/luk023.html#043">Luke 23.43</a><a name="v.iv.v.xliv-p8.49"></A>. In <a href="../../../../bib/kjv/luk024.html#000">Luke 24</a><a name="v.iv.v.xliv-p8.50"></A>. he omitted that part of the conference between our Saviour and the two disciples going to Emmaus, which related to the prediction of His sufferings, and which is contained in <a href="../../../../bib/kjv/luk024.html#026">Luke 24.26-27</a><a name="v.iv.v.xliv-p8.51"></A>. These two verses he omitted, and changed the words at the end of <a href="../../../../bib/kjv/luk024.html#025">Luke 24.25</a><a name="v.iv.v.xliv-p8.52"></A>, <span class="Greek"><a name="v.iv.v.xliv-p8.53"></A>&#7952;&#955;&#8049;&#955;&#951;&#963;&#945;&#957; &#959;&#7985; &#960;&#961;&#959;&#966;&#8134;&#964;&#945;&#953;</span>, into <span class="Greek"><a name="v.iv.v.xliv-p8.54"></A>&#7952;&#955;&#8049;&#955;&#951;&#963;&#945; &#8017;&#956;&#8150;&#957;</span>. Such are the alterations, according to Epiphanius, which Marcion made in his Gospel from St. Luke. Tertullian says (in the 4th chapter of the preceding Book) that Marcion erased the passage which gives an account of the parting of the raiment of our Saviour among the soldiers. But the reason he assigns for the erasure&#8212;&#145;<i>respiciens Psalmi prophetiam</i>&#146;&#8212;shows that in this, as well as in the few other instances which we have already named, where Tertullian has charged Marcion with so altering passages, his memory deceived him into mistaking Matthew for Luke, for the reference to the passage in the Psalm is only given by St. <a href="../../../../bib/kjv/mat027.html#035">Matthew xxvii. 35</a><a name="v.iv.v.xliv-p8.55"></A>.</p> 
+<p style="font-size: 16pt" class="c20"><a name="v.iv.v.xliv-p9"></A>5. On an impartial review of these alterations, some seem to be but slight; others might be nothing but various readings; but others, again, are undoubtedly designed perver<A NAME="page_425"><FONT SIZE=1 COLOR=GREEN>p. 425</FONT></A> <a name="v.iv.v.xliv-Page_425"></A>sions. There were, however, passages enough left unaltered and unexpunged by the Marcionites, to establish the reality of the flesh and blood of Christ, and to prove that the God of the Jews was the Father of Christ, and of perfect goodness as well as justice. Tertullian, indeed, observes (chap. xliii.) that &#8220;Marcion purposely avoided erasing all the passages which made against him, that he might with the greater confidence deny having erased any at all, or at least that what he had omitted was for very good reasons.&#8221;</p> 
+<p style="font-size: 16pt" class="c20"><a name="v.iv.v.xliv-p10"></A>6. To show the unauthorized and unwarrantable character of these alterations, omissions, additions, and corruptions, the Catholic Christians asserted that their copies of St. Luke&#146;s Gospel were more ancient than Marcion&#146;s (so Tertullian in chap. iii. and iv. of this Book iv.); and they maintained also the genuineness and integrity of the unadulterated Gospel, in opposition to that which had been curtailed and altered by him (chap. v.).</p>   
+<p><HR>
+<CENTER>
+<A HREF="0030444.html">Next: Elucidations.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/003/0030443.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/003/0030443.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/4wfm8w5'>tak.la/4wfm8w5</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/4wfm8w5';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+

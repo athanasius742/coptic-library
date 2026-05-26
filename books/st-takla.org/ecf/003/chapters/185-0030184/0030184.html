@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. III: Latin Christianity: Its Founder, Tertullian; I. Apologetic; II. Anti-Marcion; III. Ethical | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Tertullian">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol III: Tertullian: Part I: Of Circumcision and the Supercession of the Old Law. | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/003/0030184.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:35:09+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/003/'>003</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/003/'>003</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Ante-Nicene Fathers, Vol III:
+<br>
+Tertullian: Part I: Of Circumcision and the Supercession of the Old Law.</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="0030183.html" id="prev">Previous</A>&nbsp;
+<A HREF="0030185.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="iv.ix.iii"></A>
+<p style="font-size: 16pt" class="c30"><a name="iv.ix.iii-p1"></A> <span class="c1"><a name="iv.ix.iii-p1.1"></A>Chapter III.&#8212;Of Circumcision and the Supercession of the Old Law.</span></p> 
+<p style="font-size: 16pt" class="c19"><a name="iv.ix.iii-p2"></A>But Abraham, (you say,) was circumcised. Yes, but he pleased God before his circumcision;&nbsp;<A NAME="fr_1161"></A><A HREF="#fn_1161"><FONT SIZE="1">1162</FONT></A>
+ nor yet did he observe the Sabbath. For he had &#8220;accepted&#8221;&nbsp;<A NAME="fr_1162"></A><A HREF="#fn_1162"><FONT SIZE="1">1163</FONT></A>
+ circumcision; but such as was to be for &#8220;a sign&#8221; of that time, not for a prerogative title to salvation. In fact, subsequent patriarchs were uncircumcised, like Melchizedek, who, uncircumcised, offered to Abraham himself, already circumcised, on his return from battle, bread and wine.&nbsp;<A NAME="fr_1163"></A><A HREF="#fn_1163"><FONT SIZE="1">1164</FONT></A>
+ &#8220;But again,&#8221; (you say) &#8220;the son of Moses would upon one occasion have been choked by an angel, if Zipporah,&nbsp;<A NAME="fr_1164"></A><A HREF="#fn_1164"><FONT SIZE="1">1165</FONT></A>
+ had not circumcised the foreskin of the infant with a pebble; whence, &#8220;there is the greatest peril if any fail to circumcise the foreskin of his flesh.&#8221; Nay, but if circumcision altogether brought salvation, even Moses himself, in the case of his own son, would not have omitted to circumcise him on the eighth day; whereas it is agreed that Zipporah did it on the journey, at the compulsion of the angel. Consider we, accordingly, that one single infant&#146;s compulsory circumcision cannot have prescribed to every people, and founded, as it were, a law for keeping this precept. For God, foreseeing that He was about to give this circumcision to the people of Israel for &#8220;a sign,&#8221; not for salvation, urges the circumcision of the son of Moses, their future leader, for this reason; that, since He had begun, through him, to give the People the precept of cir<A NAME="page_154"><FONT SIZE=1 COLOR=GREEN>p. 154</FONT></A> <a name="iv.ix.iii-Page_154"></A>cumcision, the people should not despise it, from seeing this example (of neglect) already exhibited conspicuously in their leader&#146;s son. For circumcision had to be given; but as &#8220;a sign,&#8221; whence Israel in the last time would have to be distinguished, when, in accordance with their deserts, they should be prohibited from entering the holy city, as we see through the words of the prophets, saying, &#8220;Your land is desert; your cities utterly burnt with fire; your country, in your sight, strangers shall eat up; and, deserted and subverted by strange peoples, the daughter of Zion shall be derelict, like a shed in a vineyard, and like a watchhouse in a cucumber-field, and as it were a city which is being stormed.&#8221;&nbsp;<A NAME="fr_1165"></A><A HREF="#fn_1165"><FONT SIZE="1">1166</FONT></A>
+ Why so?&#160; Because the subsequent discourse of the prophet reproaches them, saying, &#8220;Sons have I begotten and upraised, but they have reprobated me;&#8221;&nbsp;<A NAME="fr_1166"></A><A HREF="#fn_1166"><FONT SIZE="1">1167</FONT></A>
+ and again, &#8220;And if ye shall have outstretched hands, I will avert my face from you; and if ye shall have multiplied prayers, I will not hear you: for your hands are full of blood;&#8221;&nbsp;<A NAME="fr_1167"></A><A HREF="#fn_1167"><FONT SIZE="1">1168</FONT></A>
+ and again, &#8220;Woe! sinful nation; a people full of sins; wicked sons; ye have quite forsaken God, and have provoked unto indignation the Holy One of Israel.&#8221;&nbsp;<A NAME="fr_1168"></A><A HREF="#fn_1168"><FONT SIZE="1">1169</FONT></A>
+ This, therefore, was God&#146;s foresight,&#8212;that of giving circumcision to Israel, for a sign whence they might be distinguished when the time should arrive wherein their above-mentioned deserts should prohibit their admission into Jerusalem:&#160; which circumstance, because it was to be, used to be announced; and, because we see it accomplished, is recognised by us. For, as the carnal circumcision, which was temporary, was in wrought for &#8220;a sign&#8221; in a contumacious people, so the spiritual has been given for salvation to an obedient people; while the prophet Jeremiah says, &#8220;Make a renewal for you, and sow not in thorns; be circumcised to God, and circumcise the foreskin of your heart:&#8221;&nbsp;<A NAME="fr_1169"></A><A HREF="#fn_1169"><FONT SIZE="1">1170</FONT></A>
+ and in another place he says, &#8220;Behold, days shall come, saith the Lord, and I will draw up, for the house of Judah and for the house of Jacob,&nbsp;<A NAME="fr_1170"></A><A HREF="#fn_1170"><FONT SIZE="1">1171</FONT></A>
+ a new testament; not such as I once gave their fathers in the day wherein I led them out from the land of Egypt.&#8221;&nbsp;<A NAME="fr_1171"></A><A HREF="#fn_1171"><FONT SIZE="1">1172</FONT></A>
+ Whence we understand that the coming cessation of the former circumcision then given, and the coming procession of a new law (not such as He had already given to the fathers), are announced: just as Isaiah foretold, saying that in the last days the mount of the Lord and the house of God were to be manifest above the tops of the mounts: &#8220;And it shall be exalted,&#8221; he says, &#8220;above the hills; and there shall come over it all nations; and many shall walk, and say, Come, ascend we unto the mount of the Lord, and unto the house of the God of <i>Jacob</i>,&#8221;&nbsp;<A NAME="fr_1172"></A><A HREF="#fn_1172"><FONT SIZE="1">1173</FONT></A>
+&#8212;not of <i>Esau</i>, the former son, but of <i>Jacob</i>, the second; that is, of <i>our</i> &#8220;people,&#8221; whose &#8220;mount&#8221; is Christ, &#8220;pr&aelig;cised without concisors&#146; hands,&nbsp;<A NAME="fr_1173"></A><A HREF="#fn_1173"><FONT SIZE="1">1174</FONT></A>
+ filling every land,&#8221; shown in the book of Daniel.&nbsp;<A NAME="fr_1174"></A><A HREF="#fn_1174"><FONT SIZE="1">1175</FONT></A>
+ In short, the coming procession of a new law out of this &#8220;house of the God of Jacob&#8221; Isaiah in the ensuing words announces, saying, &#8220;For from Zion shall go out a law, and the word of the Lord out of Jerusalem, and shall judge among the nations,&#8221;&#8212;that is, among <i>us</i>, who have been called out of the nations,&#8212;&#8220;and they shall join to beat their glaives into ploughs, and their lances into sickles; and nations shall not take up glaive against nation, and they shall no more learn to fight.&#8221;&nbsp;<A NAME="fr_1175"></A><A HREF="#fn_1175"><FONT SIZE="1">1176</FONT></A>
+ Who else, therefore, are understood but <i>we</i>, who, fully taught by the new law, observe these practices,&#8212;the old law being obliterated, the coming of whose abolition the action itself&nbsp;<A NAME="fr_1176"></A><A HREF="#fn_1176"><FONT SIZE="1">1177</FONT></A>
+ demonstrates? For the wont of the old law was to avenge itself by the vengeance of the glaive, and to pluck out &#8220;eye for eye,&#8221; and to inflict retaliatory revenge for injury.&nbsp;<A NAME="fr_1177"></A><A HREF="#fn_1177"><FONT SIZE="1">1178</FONT></A>
+ But the new law&#146;s wont was to point to clemency, and to convert to tranquillity the pristine ferocity of &#8220;glaives&#8221; and &#8220;lances,&#8221; and to remodel the pristine execution of &#8220;war&#8221; upon the rivals and foes of the law into the pacific actions of &#8220;ploughing&#8221; and &#8220;tilling&#8221; the land.&nbsp;<A NAME="fr_1178"></A><A HREF="#fn_1178"><FONT SIZE="1">1179</FONT></A>
+ Therefore as we have shown above that the coming cessation of the old law and of the carnal circumcision was declared, so, too, the observance of the new law and the spiritual circumcision has shone out into the voluntary obediences&nbsp;<A NAME="fr_1179"></A><A HREF="#fn_1179"><FONT SIZE="1">1180</FONT></A>
+ of peace. For &#8220;a people,&#8221; he says, &#8220;whom I knew not hath served me; in obedience of the ear it hath obeyed me.&#8221;&nbsp;<A NAME="fr_1180"></A><A HREF="#fn_1180"><FONT SIZE="1">1181</FONT></A>
+ Prophets made the announcement. But what is the &#8220;people&#8221; which was ignorant of God, but <i>ours</i>, who in days bygone knew not God? and who, in the <A NAME="page_155"><FONT SIZE=1 COLOR=GREEN>p. 155</FONT></A> <a name="iv.ix.iii-Page_155"></A>hearing of the ear, gave heed to Him, but <i>we</i>, who, forsaking idols, have been converted to God? For Israel&#8212;who <i>had</i> been known to God, and who had by Him been &#8220;upraised&#8221;&nbsp;<A NAME="fr_1181"></A><A HREF="#fn_1181"><FONT SIZE="1">1182</FONT></A>
+ in Egypt, and was transported through the Red Sea, and who in the desert, fed forty years with manna, was wrought to the semblance of eternity, and not contaminated with human passions,&nbsp;<A NAME="fr_1182"></A><A HREF="#fn_1182"><FONT SIZE="1">1183</FONT></A>
+ or fed on this world&#146;s&nbsp;<A NAME="fr_1183"></A><A HREF="#fn_1183"><FONT SIZE="1">1184</FONT></A>
+ meats, but fed on &#8220;angel&#146;s loaves&#8221;&nbsp;<A NAME="fr_1184"></A><A HREF="#fn_1184"><FONT SIZE="1">1185</FONT></A>
+&#8212;the manna&#8212;and sufficiently bound to God by His benefits&#8212;forgot his Lord and God, saying to Aaron: &#8220;Make us gods, to go before us: for that Moses, who ejected us from the land of Egypt, hath quite forsaken us; and what hath befallen him we know not.&#8221; And accordingly we, who &#8220;were not the people of God&#8221; in days bygone, have been made His people,&nbsp;<A NAME="fr_1185"></A><A HREF="#fn_1185"><FONT SIZE="1">1186</FONT></A>
+ by accepting the new law above mentioned, and the new circumcision before foretold.</p>   
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_1161"></A><A HREF="0030184.html#fr_1161">153:1162</A> <a name="iv.ix.iii-p2.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p3"></A> See <a href="../../../../bib/kjv/gen012.html#000">Gen. 12:0</a>, <a href="../../../../bib/kjv/gen017.html#000">Gen. 17:0</a>, <a href="../../../../bib/kjv/rom004.html#000">Rom. 4:0</a><a name="iv.ix.iii-p3.1"></A>.</p>
+<A NAME="fn_1162"></A><A HREF="0030184.html#fr_1162">153:1163</A> <a name="iv.ix.iii-p3.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p4"></A> Acceperat. So Tertullian renders, as it appears to me, the <span class="Greek"><a name="iv.ix.iii-p4.1"></A>&#7956;&#955;&#945;&#946;&#949;</span> of St. Paul in <a href="../../../../bib/kjv/rom004.html#011">Rom. iv. 11</a><a name="iv.ix.iii-p4.2"></A>. q. v.</p>
+<A NAME="fn_1163"></A><A HREF="0030184.html#fr_1163">153:1164</A> <a name="iv.ix.iii-p4.3"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p5"></A> There is, if the text be genuine, some confusion here.&#160; Melchizedek does not appear to have been, in any sense, &#8220;subsequent&#8221; to Abraham, for he probably was senior to him; and, moreover, Abraham does <i>not</i> appear to have been &#8220;already circumcised&#8221; <i>carnally</i> when Melchizedek met him. Comp. <a href="../../../../bib/kjv/gen014.html#000">Gen. 14:0</a>, <a href="../../../../bib/kjv/gen017.html#000">Gen. 17:0</a><a name="iv.ix.iii-p5.1"></A>.</p>
+<A NAME="fn_1164"></A><A HREF="0030184.html#fr_1164">153:1165</A> <a name="iv.ix.iii-p5.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p6"></A> Tertullian writes Seffora; the LXX. <i>in loco</i>, <span class="Greek"><a name="iv.ix.iii-p6.1"></A>&#931;&#949;&#960;&#966;&#8061;&#961;&#945;</span> <a href="../../../../bib/kjv/exo004.html#024">Ex. iv. 24-26</a><a name="iv.ix.iii-p6.2"></A>, where the Eng. ver. says, &#8220;the Lord met him,&#8221; etc.; the LXX <span class="Greek"><a name="iv.ix.iii-p6.3"></A>&#7940;&#947;&#947;&#949;&#955;&#959;&#962; &#922;&#965;&#961;&#8055;&#959;&#965;</span>.</p>
+<A NAME="fn_1165"></A><A HREF="0030184.html#fr_1165">154:1166</A> <a name="iv.ix.iii-p6.5"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p7"></A> <a href="../../../../bib/kjv/isa001.html#007">Isa. 1:7</a>, <a href="../../../../bib/kjv/isa001.html#008">8</a><a name="iv.ix.iii-p7.1"></A>. See c. xiii. <i>sub fin</i>.</p>
+<A NAME="fn_1166"></A><A HREF="0030184.html#fr_1166">154:1167</A> <a name="iv.ix.iii-p7.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p8"></A> Again an error; for these words <i>precede</i> the others. These are found in <a href="../../../../bib/kjv/isa001.html#002">Isa. i. 2</a><a name="iv.ix.iii-p8.1"></A>.</p>
+<A NAME="fn_1167"></A><A HREF="0030184.html#fr_1167">154:1168</A> <a name="iv.ix.iii-p8.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p9"></A> <a href="../../../../bib/kjv/isa001.html#015">Isa. i. 15</a><a name="iv.ix.iii-p9.1"></A>.</p>
+<A NAME="fn_1168"></A><A HREF="0030184.html#fr_1168">154:1169</A> <a name="iv.ix.iii-p9.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p10"></A> <a href="../../../../bib/kjv/isa001.html#004">Isa. i. 4</a><a name="iv.ix.iii-p10.1"></A>.</p>
+<A NAME="fn_1169"></A><A HREF="0030184.html#fr_1169">154:1170</A> <a name="iv.ix.iii-p10.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p11"></A> <a href="../../../../bib/kjv/jer004.html#003">Jer. 4:3</a>, <a href="../../../../bib/kjv/jer004.html#004">4</a><a name="iv.ix.iii-p11.1"></A>. In Eng. ver., &#8220;break up your fallow ground;&#8221; but comp. <i>de Pu.</i> c. vi. <i>ad init.</i></p>
+<A NAME="fn_1170"></A><A HREF="0030184.html#fr_1170">154:1171</A> <a name="iv.ix.iii-p11.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p12"></A> So Tertullian. In Jer. <i>ibid.</i> &#8220;Israel and&#8230;Judah.&#8221;</p>
+<A NAME="fn_1171"></A><A HREF="0030184.html#fr_1171">154:1172</A> <a name="iv.ix.iii-p12.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p13"></A> <a href="../../../../bib/kjv/jer031.html#031">Jer. 31:31</a>, <a href="../../../../bib/kjv/jer031.html#032">32</a><a name="iv.ix.iii-p13.1"></A> (in LXX. <i>ibid.</i> xxxviii. 31, 32); comp. <a href="../../../../bib/kjv/heb008.html#008">Heb. viii. 8-13</a><a name="iv.ix.iii-p13.2"></A>.</p>
+<A NAME="fn_1172"></A><A HREF="0030184.html#fr_1172">154:1173</A> <a name="iv.ix.iii-p13.3"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p14"></A> <a href="../../../../bib/kjv/isa002.html#002">Isa. 2:2</a>, <a href="../../../../bib/kjv/isa002.html#003">3</a><a name="iv.ix.iii-p14.1"></A>.</p>
+<A NAME="fn_1173"></A><A HREF="0030184.html#fr_1173">154:1174</A> <a name="iv.ix.iii-p14.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p15"></A> Perhaps an allusion to <a href="../../../../bib/kjv/phi003.html#001">Phil. 3:1</a>, <a href="../../../../bib/kjv/phi003.html#002">2</a><a name="iv.ix.iii-p15.1"></A>.</p>
+<A NAME="fn_1174"></A><A HREF="0030184.html#fr_1174">154:1175</A> <a name="iv.ix.iii-p15.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p16"></A> See <a href="../../../../bib/kjv/dan002.html#034">Dan. 2:34</a>, <a href="../../../../bib/kjv/dan002.html#035">35</a>, <a href="../../../../bib/kjv/dan002.html#044">44</a>, <a href="../../../../bib/kjv/dan002.html#045">45</a><a name="iv.ix.iii-p16.1"></A>. See c. xiv. below.</p>
+<A NAME="fn_1175"></A><A HREF="0030184.html#fr_1175">154:1176</A> <a name="iv.ix.iii-p16.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p17"></A> <a href="../../../../bib/kjv/isa002.html#003">Isa. 2:3</a>, <a href="../../../../bib/kjv/isa002.html#004">4</a><a name="iv.ix.iii-p17.1"></A>.</p>
+<A NAME="fn_1176"></A><A HREF="0030184.html#fr_1176">154:1177</A> <a name="iv.ix.iii-p17.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p18"></A> <i>i.e</i>., of beating swords into ploughs, etc.</p>
+<A NAME="fn_1177"></A><A HREF="0030184.html#fr_1177">154:1178</A> <a name="iv.ix.iii-p18.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p19"></A> Comp. <a href="../../../../bib/kjv/exo021.html#024">Exod. 21:24</a>, <a href="../../../../bib/kjv/exo021.html#025">25</a>, <a href="../../../../bib/kjv/lev024.html#017">Lev. 24:17</a>, <a href="../../../../bib/kjv/deu019.html#011">Deut. 19:11</a>, <a href="../../../../bib/kjv/mat005.html#038">Matt. 5:38</a><a name="iv.ix.iii-p19.1"></A>.</p>
+<A NAME="fn_1178"></A><A HREF="0030184.html#fr_1178">154:1179</A> <a name="iv.ix.iii-p19.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p20"></A> Especially spiritually. Comp. <a href="../../../../bib/kjv/co1003.html#006">1 Cor. 3:6</a>, <a href="../../../../bib/kjv/co1009.html#009">1 Cor. 9:9</a>, <a href="../../../../bib/kjv/co1009.html#010">10</a><a name="iv.ix.iii-p20.1"></A>, and similar passages.</p>
+<A NAME="fn_1179"></A><A HREF="0030184.html#fr_1179">154:1180</A> <a name="iv.ix.iii-p20.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p21"></A> Obsequia. See <i>de Pa</i>. c. iv. note 1.</p>
+<A NAME="fn_1180"></A><A HREF="0030184.html#fr_1180">154:1181</A> <a name="iv.ix.iii-p21.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p22"></A> See <a href="../../../../bib/kjv/psa018.html#043">Ps. 18:43</a>, <a href="../../../../bib/kjv/psa018.html#044">44</a><a name="iv.ix.iii-p22.1"></A> (xvii. 44, 45 in LXX.), where the Eng. ver. has the future; the LXX., like Tertullian, the past. Comp. <a href="../../../../bib/kjv/sa2022.html#044">2 Sam. 22:44</a>, <a href="../../../../bib/kjv/sa2022.html#045">45</a>, <a href="../../../../bib/kjv/rom010.html#014">Rom. 10:14</a><a name="iv.ix.iii-p22.2"></A>.</p>
+<A NAME="fn_1181"></A><A HREF="0030184.html#fr_1181">155:1182</A> <a name="iv.ix.iii-p22.4"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p23"></A> Comp. <a href="../../../../bib/kjv/isa001.html#002">Isa. i. 2</a><a name="iv.ix.iii-p23.1"></A> as above, and <a href="../../../../bib/kjv/act013.html#017">Acts xiii. 17</a><a name="iv.ix.iii-p23.2"></A>.</p>
+<A NAME="fn_1182"></A><A HREF="0030184.html#fr_1182">155:1183</A> <a name="iv.ix.iii-p23.3"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p24"></A> S&aelig;culi.</p>
+<A NAME="fn_1183"></A><A HREF="0030184.html#fr_1183">155:1184</A> <a name="iv.ix.iii-p24.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p25"></A> Or, perhaps, &#8220;not affected, as a body, with human sufferings;&#8221; in allusion to such passages as <a href="../../../../bib/kjv/deu008.html#004">Deut. 8:4</a>, <a href="../../../../bib/kjv/deu029.html#005">Deut. 29:5</a>, <a href="../../../../bib/kjv/neh009.html#021">Neh. 9:21</a><a name="iv.ix.iii-p25.1"></A>.</p>
+<A NAME="fn_1184"></A><A HREF="0030184.html#fr_1184">155:1185</A> <a name="iv.ix.iii-p25.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p26"></A> <a href="../../../../bib/kjv/psa078.html#025">Ps. 78:25</a>, <a href="../../../../bib/kjv/joh006.html#031">John 6:31</a><a name="iv.ix.iii-p26.1"></A>.</p>
+<A NAME="fn_1185"></A><A HREF="0030184.html#fr_1185">155:1186</A> <a name="iv.ix.iii-p26.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.ix.iii-p27"></A> See <a href="../../../../bib/kjv/hos001.html#010">Hos. 1:10</a>, <a href="../../../../bib/kjv/pe1002.html#010">1 Pet. 2:10</a><a name="iv.ix.iii-p27.1"></A>.</p>
+<p><HR>
+<CENTER>
+<A HREF="0030185.html">Next: Of the Observance of the Sabbath.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/003/0030184.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/003/0030184.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/xgchh3h'>tak.la/xgchh3h</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/xgchh3h';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+
