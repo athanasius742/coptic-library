@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Nicene and Post-Nicene Fathers, Vol. I: The Confessions and Letters of St. Augustin, with a Sketch of his Life and Work | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers St Augustine Confessions Letters">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Nicene and Post Nicene-Fathers, Vol. I: Prolegomena: St. Augustin&#146;s Life and Work: Chapter 2 | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/101/1010008.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:34:04+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/101/'>101</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/101/'>101</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Nicene and Post Nicene-Fathers, Vol. I:
+<br>
+Prolegomena: St. Augustin&#146;s Life and Work: Chapter 2</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="1010007.html" id="prev">Previous</A>&nbsp;
+<A HREF="1010009.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="iv.2"></A>  
+<p style="font-size: 16pt"><a name="iv.2-p1"></A> </p>  
+<p style="font-size: 16pt" class="c20"><a name="iv.2-p2"></A><span class="c2"><a name="iv.2-p2.1"></A>CHAPTER II.&#8212;<i>A Sketch of the Life of St. Augustin</i>.</span></p>  
+<p style="font-size: 16pt" class="c10"><a name="iv.2-p3"></A>It is a venturesome and delicate undertaking to write one&#146;s own life, even though that life be a masterpiece of nature and the grace of God, and therefore most worthy to be described. Of all autobiographies none has so happily avoided the reef of vanity and self-praise, and none has won so much esteem and love through its honesty and humility as that of St. Augustin.</p>  
+<p style="font-size: 16pt" class="c10"><a name="iv.2-p4"></A>The &#8220;Confessions,&#8221; which he wrote in the forty-fourth year of his life, still burning in the ardor of his first love, are full of the fire and unction of the Holy Spirit. They are a sublime composition, in which Augustin, like David in the fifty-first Psalm, confesses to God, in view of his own and of succeeding generations, without reserve the sins of his youth; and they are at the same time a hymn of praise to the grace of God, which led him out of darkness into light, and called him to service in the kingdom of Christ.&nbsp;<A NAME="fr_0"></A><A HREF="#fn_0"><FONT SIZE="1">1</FONT></A>
+ Here we see the great church teacher of all times &#8220;prostrate in the dust, conversing with God, basking in his love; his readers hovering before him only as a shadow.&#8221; He puts away from himself all honor, all greatness, all merit, and lays them gratefully at the feet of the All-merciful. The reader feels on every hand that Christianity is no dream nor illusion, but truth and life, and he is carried along in adoration of the wonderful grace of God.</p>  
+<p style="font-size: 16pt" class="c10"><a name="iv.2-p6"></A><span class="c9"><a name="iv.2-p6.1"></A>Aurelius Augustinus</span>, born on the 13th of November, 354,&nbsp;<A NAME="fr_1"></A><A HREF="#fn_1"><FONT SIZE="1">2</FONT></A>
+ at Tagaste, an unimportant village of the fertile province of Numidia in North Africa, not far from Hippo Regius, inherited from his heathen father, Patricius,&nbsp;<A NAME="fr_2"></A><A HREF="#fn_2"><FONT SIZE="1">3</FONT></A>
+ a passionate sensibility, from his Christian mother, Monnica (one of the noblest women in the history of Christianity, of a highly intellectual and spiritual cast, of fervent piety, most tender affection, and all-conquering love), the deep yearning towards God so grandly expressed in his sentence: &#8220;Thou hast made us for Thyself, and our heart is restless till it rests in Thee.&#8221;&nbsp;<A NAME="fr_3"></A><A HREF="#fn_3"><FONT SIZE="1">4</FONT></A>
+ This yearning, and his reverence for the sweet and holy name of Jesus, though crowded into the background, attended him in his studies at the schools of Madaura and Carthage, on his journeys to Rome and Milan, and on his tedious wanderings through the labyrinth of carnal pleasures, Manich&aelig;an mock-wisdom, Academic skepticism, and Platonic idealism; till at last the prayers of his mother, the sermons of Ambrose, the biography <A NAME="page_4"><FONT SIZE=1 COLOR=GREEN>p. 4</FONT></A> <a name="iv.2-Page_4"></A>of St. Anthony, and above all, the Epistles of Paul, as so many instruments in the hand of the Holy Spirit, wrought in the man of three and thirty years that wonderful change which made him an incalculable blessing to the whole Christian world, and brought even the sins and errors of his youth into the service of the truth.&nbsp;<A NAME="fr_4"></A><A HREF="#fn_4"><FONT SIZE="1">5</FONT></A>
+</p>  
+<p style="font-size: 16pt" class="c10"><a name="iv.2-p11"></A>A son of so many prayers and tears could not be lost, and the faithful mother who travailed with him in spirit with greater pain than her body had in bringing him into the world,&nbsp;<A NAME="fr_5"></A><A HREF="#fn_5"><FONT SIZE="1">6</FONT></A>
+ was permitted, for the encouragement of future mothers, to receive shortly before her death an answer to her prayers and expectations, and was able to leave this world with joy without revisiting her earthly home. For Monnica died on a homeward journey, in Ostia at the mouth of the Tiber, in her fifty-sixth year, in the arms of her son, after enjoying with him a glorious conversation that soared above the confines of space and time, and was a foretaste of the eternal Sabbath-rest of the saints. If those moments, he says, could be prolonged for ever, they would more than suffice for his happiness in heaven. She regretted not to die in a foreign land, because she was not far from God, who would raise her up at the last day. &#8220;Bury my body anywhere, &#8220;was her last request, &#8220;and trouble not yourselves for it; only this one thing I ask, that you remember me at the altar of my God, wherever you may be.&#8221;&nbsp;<A NAME="fr_6"></A><A HREF="#fn_6"><FONT SIZE="1">7</FONT></A>
+ Augustin, in his <i> Confessions</i>, has erected to Monnica a noble monument that can never perish.</p>  
+<p style="font-size: 16pt" class="c10"><a name="iv.2-p14"></A>If ever there was a thorough and fruitful conversion, next to that of Paul on the way to Damascus, it was that of Augustin, when, in a garden of the Villa Cassiciacum, not far from Milan, in September of the year 386, amidst the most violent struggles of mind and heart&#8212;the birth-throes of the new life&#8212;he heard that divine voice of a child: &#8220;Take, read!&#8221; and he &#8220;put on the Lord Jesus Christ&#8221; (<a href="../../../../bib/kjv/rom013.html#014">Rom. xiii. 14</a><a name="iv.2-p14.1"></A>). It is a touching lamentation of his: &#8220;I have loved Thee late, Thou Beauty, so old and so new; I have loved Thee late! And lo! Thou wast within, but I was without, and was seeking Thee there. And into Thy fair creation I plunged myself in my ugliness; for Thou was with me, and I was not with Thee! Those things kept me away from Thee, which had not been, except they had been in Thee! Thou didst call, and didst cry aloud, and break through my deafness. Thou didst glimmer, Thou didst shine, and didst drive away my blindness. Thou didst breathe, and I drew breath, and breathed in Thee. I tasted Thee, and I hunger and thirst. Thou didst touch me, and I burn for Thy peace. If I, with all that is within me, may once live in Thee, then shall pain and trouble forsake me; entirely filled with Thee, all shall be life to me.&#8221;</p>  
+<p style="font-size: 16pt" class="c10"><a name="iv.2-p15"></A>He received baptism from Ambrose in Milan on Easter Sunday, 387, in company with his friend and fellow-convert Alypius, and his natural son Adeodatus (<i>given by God</i>). It impressed the divine seal upon the inward transformation. He broke radically with the world; abandoned the brilliant and lucrative vocation of a teacher of rhetoric, which he had followed in Rome and Milan; sold his goods for the benefit of the poor; and thenceforth devoted his rare gifts exclusively to the service of Christ, and to that service he continued faithful to his latest breath. After the death of his mother, whom he revered and loved with the most tender affection, he went a second time to Rome for several months, and wrote books in defence of true Christianity against false philosophy and against the Manich&aelig;an heresy. Returning to Africa, he spent three years, with his friends Alypius and Evodius, on an estate in his native Tagaste, in contemplative and literary retirement.</p>  
+<p style="font-size: 16pt" class="c10"><a name="iv.2-p16"></A>Then, in 391, he was chosen presbyter against his will, by the voice of the people, which, as  <A NAME="page_5"><FONT SIZE=1 COLOR=GREEN>p. 5</FONT></A> <a name="iv.2-Page_5"></A>in the similar cases of Cyprian and Ambrose, proved to be the voice of God, in the Numidian maritime city of Hippo Regius (now Bona); and in 395 he was elected bishop in the same city. For eight and thirty years, until his death, he labored in this place, and made it the intellectual centre of Western Christendom.&nbsp;<A NAME="fr_7"></A><A HREF="#fn_7"><FONT SIZE="1">8</FONT></A>
+</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.2-p18"></A>His outward mode of life was extremely simple, and mildly ascetic. He lived with his clergy in one house in an apostolic community of goods, and made this house a seminary of theology, out of which ten bishops and many lower clergy went forth. Females, even his sister, were excluded from his house, and could see him only in the presence of others. But he founded religious societies of women; and over one of these his sister, a saintly widow, presided.&nbsp;<A NAME="fr_8"></A><A HREF="#fn_8"><FONT SIZE="1">9</FONT></A>
+ He once said in a sermon, that he had nowhere found better men, and he had nowhere found worse, than in monasteries. Combining, as he did, the clerical life with the monastic, he became unwittingly the founder of the Augustinian order, which gave the reformer Luther to the world. He wore the black dress of the Easter c&#339;nobites, with a cowl and a leathern girdle. He lived almost entirely on vegetables, and seasoned the common meal with reading or free conversation, in which it was a rule that the character of an absent person should never be touched. He had this couplet engraved on the table:</p>  
+<p style="font-size: 16pt" class="c22"><a name="iv.2-p20"></A>&#8220;Quisquis amat dictis absentum rodere vitam,</p>  
+<p style="font-size: 16pt" class="c23"><a name="iv.2-p21"></A>Hanc mensam vetitam noverit esse sibi.&#8221;</p>  
+<p style="font-size: 16pt" class="c10"><a name="iv.2-p22"></A>He often preached five days in succession, sometimes twice a day, and set it as the object of his preaching, that all might live with him, and he with all, in Christ. Wherever he went in Africa, he was begged to preach the world of salvation.&nbsp;<A NAME="fr_9"></A><A HREF="#fn_9"><FONT SIZE="1">10</FONT></A>
+ He faithfully administered the external affairs connected with his office, though he found his chief delight in contemplation. He was specially devoted to the poor, and, like Ambrose, upon exigency, caused the church vessels to be melted down to redeem prisoners. But he refused legacies by which injustice was done to natural heirs, and commended the bishop Aurelius of Carthage for giving back unasked some property which a man has bequeathed to the church, when his wife unexpectedly bore him children.</p>  
+<p style="font-size: 16pt" class="c10"><a name="iv.2-p24"></A>Augustin&#146;s labors extended far beyond his little diocese. He was the intellectual head of the North African and the entire Western church of his time. He took active interest in all theological and ecclesiastical questions. He was the champion of the orthodox doctrine against Manich&aelig;an, Donatist, and Pelagian. In him was concentrated the whole polemic power of the catholic church of the time against heresy and schism; and in him it won the victory over them.</p>  
+<p style="font-size: 16pt" class="c10"><a name="iv.2-p25"></A>In his last years he took a critical review of his literary productions, and gave them a thorough sifting in his Retractations. His latest controversial works, against the Semi-Pelagians, written in a gentle spirit, date from the same period. He bore the duties of his office alone till his seventy-second year, when his people unanimously elected his friend Heraclius to be his assistant.</p>  
+<p style="font-size: 16pt" class="c10"><a name="iv.2-p26"></A>The evening of his life was troubled by increasing infirmities of body and by the unspeakable wretchedness which the barbarian Vandals spread over his country in their victorious invasion, <A NAME="page_6"><FONT SIZE=1 COLOR=GREEN>p. 6</FONT></A> <a name="iv.2-Page_6"></A>destroying cities, villages, and churches, without mercy, and even besieging the fortified city of Hippo.&nbsp;<A NAME="fr_10"></A><A HREF="#fn_10"><FONT SIZE="1">11</FONT></A>
+ Yet he faithfully persevered in his work. The last ten days of his life he spent in close retirement, in prayers and tears and repeated reading of the penitential Psalms, which he can caused to be written on the wall over his bed, that he might have them always before his eyes. Thus with an act of penitence he closed his life. In the midst of the terrors of the siege and the despair of his people he could not suspect what abundant seed he had sown for the future.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.2-p28"></A>In the third month of the siege of Hippo, on the 28th of August, 430, in the seventy-sixth year of his age, in full possession of his faculties, and in the presence of many friends and pupils, he past gently and peacefully into that eternity to which he had so long aspired. &#8220;O how wonderful,&#8221; wrote he in his <i>Meditations</i>,&nbsp;<A NAME="fr_11"></A><A HREF="#fn_11"><FONT SIZE="1">12</FONT></A>
+ &#8220;how beautiful and lovely are the dwellings of Thy house, Almighty God! I burn with longing to behold Thy beauty in Thy bridal-chamber.&#8230;O Jerusalem, holy city of God, dear bride of Christ, my heart loves thee, my soul has already long sighed for thy beauty!&#8230;The King of kings Himself is in the midst of thee, and His children are within thy walls. There are the hymning choirs of angels, the fellowship of heavenly citizens. There is the wedding-feast of all who from this sad earthly pilgrimage have reached thy joys. There is the far-seeing choir of the prophets; there the company of the twelve apostles; there the triumphant army of innumerable martyrs and holy confessors. Full and perfect love there reigns, for God is all in all. They love and praise, they praise and love Him evermore.&#8230;Blessed, perfectly and forever blessed, shall I too be, if, when my poor body shall be dissolved,&#8230; I may stand before my King and God, and see Him in His glory, as He Himself hath deigned to promise: &#145;Father, I will that they also whom Thou hast given Me be with Me where I am; that they may behold My glory which I had with Thee before the world was.&#146;&#8221; This aspiration after the heavenly Jerusalem found grand expression in the hymn <i>De gloria et gaudiis Paradisi:</i></p>  
+<p style="font-size: 16pt" class="c24"><a name="iv.2-p30"></A>&#8220;Ad perennis vit&aelig; fontem mens sativit arida.&#8221;</p>  
+<p style="font-size: 16pt"><a name="iv.2-p31"></A>It is incorporated in the <i>Meditations</i> of Augustin, and the ideas originated in part with him, but were not brought into poetical form till long afterwards by Peter Damiani.&nbsp;<A NAME="fr_12"></A><A HREF="#fn_12"><FONT SIZE="1">13</FONT></A>
+</p>  
+<p style="font-size: 16pt" class="c10"><a name="iv.2-p33"></A>He left no will, for in his voluntary poverty he had no earthly property to dispose of, except his library; this he bequeathed to the church, and it was fortunately preserved from the depredations of the Arian barbarians.&nbsp;<A NAME="fr_13"></A><A HREF="#fn_13"><FONT SIZE="1">14</FONT></A>
+</p>  
+<p style="font-size: 16pt" class="c10"><a name="iv.2-p35"></A>Soon after his death Hippo was taken and destroyed by the Vandals.&nbsp;<A NAME="fr_14"></A><A HREF="#fn_14"><FONT SIZE="1">15</FONT></A>
+ Africa was lost to the Romans. A few decades later the whole West-Roman empire fell in ruins. The culmination of the African church was the beginning of its decline. But the work of Augustin could not perish. His ideas fell like living seed into the soil of Europe, and produced abundant fruits in nations and countries of which he had never heard.&nbsp;<A NAME="fr_15"></A><A HREF="#fn_15"><FONT SIZE="1">16</FONT></A>
+</p>      
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_0"></A><A HREF="1010008.html#fr_0">3:1</A> <a name="iv.2-p4.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p5"></A> Augustin himself says of his <i>Confessions</i>: &#8220;<i>Confessionum mearum libri tredecim et de malis et de bonis meis Deum laudant justum et bonum, atque in eum excitant humanum intellectum et affectum</i>.&#8221; <i>Retract</i>. 1. ii. c. 6. He refers to his <i> Confessions</i> also in his <i>Epistola ad Darium</i>, <i>Ep</i>. CCXXXI. cap. 5; and in his <i>De dono perseveranti&aelig;</i>, cap. 20 (53).</p>
+<A NAME="fn_1"></A><A HREF="1010008.html#fr_1">3:2</A> <a name="iv.2-p6.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p7"></A> He died, according to the Chronicle of his friend and pupil Prosper Aquitanus, the 28th of August, 430 (in the third month of the siege of Hippo by the Vandals); according to his biographer Possidius he lived seventy-six years. The day of his birth Augustin states himself, <i>De vita beata</i>, &sect; 6 (tom. i. 300): &#8220;<i>Idibus Novemoris mihi natalis dies erat.</i>&#8221;</p>
+<A NAME="fn_2"></A><A HREF="1010008.html#fr_2">3:3</A> <a name="iv.2-p7.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p8"></A> He received baptism shortly before his death.</p>
+<A NAME="fn_3"></A><A HREF="1010008.html#fr_3">3:4</A> <a name="iv.2-p8.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p9"></A> Conf. i. 1: &#8220;<i>Fecisti nos ad Te, et inquietum est cor nostrum, donec requiescat in Te.</i>&#8221; In all his aberrations, which we would hardly know, if it were not from his own free confession, he never sunk to anything mean, but remained, like Paul in his Jewish fanaticism, a noble intellect and an honorable character, with burning love for the true and the good.</p>
+<A NAME="fn_4"></A><A HREF="1010008.html#fr_4">4:5</A> <a name="iv.2-p9.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p10"></A> For particulars respecting the course of Augustin&#146;s life, see my work above cited, and other monographs. Comp. also the fine remarks of Dr. <span class="c9"><a name="iv.2-p10.1"></A>Baur</span> in his posthumous <i>Lectures on Doctrine-History</i> (1866), vol. i. Part ii. p. 26 sqq. He compares the development of Augustin with the course of Christianity from the beginning to his time, and draws a parallel between Augustin and Origen.</p>
+<A NAME="fn_5"></A><A HREF="1010008.html#fr_5">4:6</A> <a name="iv.2-p11.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p12"></A> Conf. ix. c. 8: &#8220;<i>Qu&aelig; me parturivit et carne, ut in hanc temporalem, et carde, ut in &aelig;ternam lucem nascerer</i>.&#8221; L. v. 9: &#8220;<i>Non enim satis eloquor, quid erga me habebat anima, et quanto majore sollicitudine nie partur iebat spiritu, quam carne pepererat</i>.&#8221; In <i>De dono persev</i>. c. 20, he ascribes his conversion under God &#8220;to the faithful and daily tears&#8221; of his mother.</p>
+<A NAME="fn_6"></A><A HREF="1010008.html#fr_6">4:7</A> <a name="iv.2-p12.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p13"></A> Conf. l. ix. c. 11: &#8220;<i>Tantum illud vos rogo, ut ad Domini altare memineritis mei, ubs fuertis.</i>&#8221; This must be explained from the already prevailing custom of offering prayers for the dead, which, however, had rather the form of thanksgiving for the mercy of God shown to them, than the later form of intercession for them.</p>
+<A NAME="fn_7"></A><A HREF="1010008.html#fr_7">5:8</A> <a name="iv.2-p16.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p17"></A> He is still known among the inhabitants of the place as &#8220;the great Christian&#8221; (Rumi Kebir). <span class="c9"><a name="iv.2-p17.1"></A> Gibbon</span> (ch. xxxiii. ad ann. 430) thus describes the place which became so famous through Augustin: &#8220;The maritime colony of <i>Hippo</i>, about two hundred miles westward of Carthage, had formerly acquired the distinguishing epithet of <i>Regius</i>, from the residence of the Numidian kings; and some remains of trade and populousness still adhere to the modern city, which is known in Europe by the corrupted name of Bona.&#8221; Sallust mentions Hippo once in his history of the Jugurthine War. A part of the wealth with which Sallust built and beautified his splendid mansion and gardens in Rome, was extorted from this and other towns of North Africa while governor of Numidia. Since the French conquest of Algiers Hippo Regius was rebuilt under the name of Bona and is now one of the finest towns in North Africa, numbering over 10,000 inhabitants, French, Moors, and Jews.</p>
+<A NAME="fn_8"></A><A HREF="1010008.html#fr_8">5:9</A> <a name="iv.2-p18.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p19"></A> He mentions a sister, &#8220;<i>soror mea, sancta proposita</i>&#8221; [<i>monasterii</i>], without naming her, <i> Epist</i>. 211, n. 4 (ed. Bened.), alias <i>Ep</i>. 109. He also had a brother by the name of Navigius.</p>
+<A NAME="fn_9"></A><A HREF="1010008.html#fr_9">5:10</A> <a name="iv.2-p22.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p23"></A> Possidius says, in his <i>Vita Aug</i>.: &#8220;<i>C&aelig;terum episcopatu suscepto multo instantius ac ferventius, majore auctoritate, non in una tantum regione, sed ubicunque rogatus venisset, verbum satutis alacriter, ac suaviter pullulante atque crescente Domini ecclesia, pr&aelig;dicavit</i>.&#8221;</p>
+<A NAME="fn_10"></A><A HREF="1010008.html#fr_10">6:11</A> <a name="iv.2-p26.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p27"></A> Possidius, c. 28, gives a vivid picture of the ravages of the Vandals, which have become proverbial. Comp. also Gibbon, ch. xxxiii.</p>
+<A NAME="fn_11"></A><A HREF="1010008.html#fr_11">6:12</A> <a name="iv.2-p28.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p29"></A> I freely combine several passages.</p>
+<A NAME="fn_12"></A><A HREF="1010008.html#fr_12">6:13</A> <a name="iv.2-p31.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p32"></A> Comp. <i>Opera</i>, tom. vi. p. 117 (Append.); Daniel: <i>Thesaurus hymnol</i>. i. 116 sqq., and iv. 203 sq., and Mone: <i>Lat. Hymner</i>, i. 422 sqq. Mone ascribes the poem to an unknown writer of the sixth century, but Trench (<i>Sacred Latin Poetry</i>, 2d ed., 315) and others attribute it to Cardinal Peter Damiani, the friend of Pope Hildebrand (d. 1072). Augustin wrote his poetry in prose.</p>
+<A NAME="fn_13"></A><A HREF="1010008.html#fr_13">6:14</A> <a name="iv.2-p33.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p34"></A> Possidius says, <i>Vita</i>, c. 31: &#8220;<i>Testamentum nullum fecit, guia unde faceret, pauper Dei non habuit. Ecclesi&aelig; bibliothecam omnesgue codices diligenter posteris custodiendos semper jubebat.</i>&#8221;</p>
+<A NAME="fn_14"></A><A HREF="1010008.html#fr_14">6:15</A> <a name="iv.2-p35.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p36"></A> The inhabitants escaped to the sea. There appears no bishop of Hippo after Augustin. In the seventh century the old city was utterly destroyed by the Arabians, but two miles from it Bona was built of its ruins. Comp. Tillemont, xiii. 945, and Gibbon, ch. xxxiii. Gibbon says, that Bona, &#8220;in the sixteenth century, contained about three hundred families of industrious, but turbulent manufacturers. The adjacent territory is renowned for a pure air, a fertile soil, and plenty of exquisite fruits.&#8221; Since the French conquest of Algiers, Bona was rebuilt in 1832, and is gradually assuming a French aspect. It is now one of the finest towns in Algeria, the key to the province of Constantine, has a public garden, several schools, considerable commerce, and a population of over ten thousand of French, Moors, and Jews, the great majority of whom are foreigners. The relics of St. Augustin have been recently transferred from Pavia to Bona. See the letters of <span><a name="iv.2-p36.1"></A>abb&eacute;</span> Sibour to Poujoulat <i><span><a name="iv.2-p36.2"></A>sur la translation de ia relique de saint Augustin de Pavie &agrave; Hippone</span></i>, in <span class="c9"><a name="iv.2-p36.3"></A> Poujoulat&#146;s</span> <i><span><a name="iv.2-p36.4"></A>Histoire de saint Augustin</span></i>, tom. i. p. 413 sqq.</p>
+<A NAME="fn_15"></A><A HREF="1010008.html#fr_15">6:16</A> <a name="iv.2-p36.5"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p37"></A> Even in Africa Augustin&#146;s spirit reappeared from time to time notwithstanding the barbarian confusion, as a light in darkness, first in <span class="c9"><a name="iv.2-p37.1"></A>Vigilius</span>, bishop of Thapsus, who, at the close of the fifth century, ably defended the orthodox doctrine of the Trinity and the person of Christ, and to whom the authorship of the so-called Athanasian Creed has sometimes been ascribed; in <span class="c9"><a name="iv.2-p37.2"></A>Fulgentius</span>, bishop of Ruspe, one of the chief opponents of Semi-Pelagianism, and the later Arianism, who with sixty catholic bishops of Africa was banished for several years by the Arian Vandals to the island of Sardinia, and who was called the Augustin of the sixth century (died 533); and in <span class="c9"><a name="iv.2-p37.3"></A>Facundus of Hermiane</span> (died 570), and <span class="c9"><a name="iv.2-p37.4"></A>Fulgentius Ferrandus</span>, and <span class="c9"><a name="iv.2-p37.5"></A> Liberatus</span>, two deacons of Carthage, who took a prominent part in the Three</p>  
+<p style="font-size: 16pt" class="endnote"><a name="iv.2-p38"></A>Chapter controversy.</p>
+<p><HR>
+<CENTER>
+<A HREF="1010009.html">Next: Chapter 3</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/101/1010008.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/101/1010008.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/7y9jc95'>tak.la/7y9jc95</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/7y9jc95';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+

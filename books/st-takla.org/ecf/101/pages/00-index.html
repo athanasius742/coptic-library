@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Nicene and Post-Nicene Fathers, Vol. I: The Confessions and Letters of St. Augustin, with a Sketch of his Life and Work | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers St Augustine Confessions Letters">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Nicene and Post Nicene-Fathers, Vol. I Index | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/101/index.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:33:58+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/101/'>101</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/101/'>101</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Nicene and Post Nicene-Fathers, Vol. I Index</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+</CENTER>
+<HR>
+<H1 ALIGN="CENTER">Nicene and Post-Nicene Fathers, Vol. I</H1>
+<H3 ALIGN="CENTER">The Confessions and Letters of St. Augustin, with a Sketch of his Life and Work</H3>
+<HR>
+
+<A NAME="section_000"></A>
+<H3 ALIGN="CENTER">Title Page</H3>
+<A HREF="1010000.html">Title Page</A><BR>
+
+<A NAME="section_001"></A>
+<H3 ALIGN="CENTER">Preface</H3>
+<A HREF="1010001.html">Preface</A><BR>
+
+<A NAME="section_002"></A>
+<H3 ALIGN="CENTER">Contents</H3>
+<A HREF="1010002.html">Contents</A><BR>
+
+<A NAME="section_003"></A>
+<H3 ALIGN="CENTER">Prolegomena: St. Augustin&#146;s Life and Work</H3>
+<A HREF="1010003.html">Prolegomena: St. Augustin&#146;s Life and Work</A><BR>
+<A HREF="1010004.html">Chapter 1</A><BR>
+<A HREF="1010005.html">Section I</A><BR>
+<A HREF="1010006.html">Section II</A><BR>
+<A HREF="1010007.html">Section III</A><BR>
+<A HREF="1010008.html">Chapter 2</A><BR>
+<A HREF="1010009.html">Chapter 3</A><BR>
+<A HREF="1010010.html">Chapter 4</A><BR>
+<A HREF="1010011.html">Chapter 5</A><BR>
+
+<A NAME="section_004"></A>
+<H3 ALIGN="CENTER">Chief Events in the Life of St. Augustin</H3>
+<A HREF="1010012.html">Chief Events in the Life of St. Augustin</A><BR>
+
+<A NAME="section_005"></A>
+<H3 ALIGN="CENTER">The Confessions</H3>
+<A HREF="1010013.html">The Confessions</A><BR>
+<A HREF="1010014.html">Translator&#146;s Preface</A><BR>
+<A HREF="1010015.html">The Opinion of St. Augustin Concerning His Confessions</A><BR>
+<b>
+<A HREF="1010016.html">Book I</A></b><BR>
+<A HREF="1010017.html">Chapter I</A><BR>
+<A HREF="1010018.html">Chapter II</A><BR>
+<A HREF="1010019.html">Chapter III</A><BR>
+<A HREF="1010020.html">Chapter IV</A><BR>
+<A HREF="1010021.html">Chapter V</A><BR>
+<A HREF="1010022.html">Chapter VI</A><BR>
+<A HREF="1010023.html">Chapter VII</A><BR>
+<A HREF="1010024.html">Chapter VIII</A><BR>
+<A HREF="1010025.html">Chapter IX</A><BR>
+<A HREF="1010026.html">Chapter X</A><BR>
+<A HREF="1010027.html">Chapter XI</A><BR>
+<A HREF="1010028.html">Chapter XII</A><BR>
+<A HREF="1010029.html">Chapter XIII</A><BR>
+<A HREF="1010030.html">Chapter XIV</A><BR>
+<A HREF="1010031.html">Chapter XV</A><BR>
+<A HREF="1010032.html">Chapter XVI</A><BR>
+<A HREF="1010033.html">Chapter XVII</A><BR>
+<A HREF="1010034.html">Chapter XVIII</A><BR>
+<b>
+<A HREF="1010035.html">Book II</A></b><BR>
+<A HREF="1010036.html">Chapter I</A><BR>
+<A HREF="1010037.html">Chapter II</A><BR>
+<A HREF="1010038.html">Chapter III</A><BR>
+<A HREF="1010039.html">Chapter IV</A><BR>
+<A HREF="1010040.html">Chapter V</A><BR>
+<A HREF="1010041.html">Chapter VI</A><BR>
+<A HREF="1010042.html">Chapter VII</A><BR>
+<A HREF="1010043.html">Chapter VIII</A><BR>
+<A HREF="1010044.html">Chapter IX</A><BR>
+<A HREF="1010045.html">Chapter X</A><BR>
+<b>
+<A HREF="1010046.html">Book III</A></b><BR>
+<A HREF="1010047.html">Chapter I</A><BR>
+<A HREF="1010048.html">Chapter II</A><BR>
+<A HREF="1010049.html">Chapter III</A><BR>
+<A HREF="1010050.html">Chapter IV</A><BR>
+<A HREF="1010051.html">Chapter V</A><BR>
+<A HREF="1010052.html">Chapter VI</A><BR>
+<A HREF="1010053.html">Chapter VII</A><BR>
+<A HREF="1010054.html">Chapter VIII</A><BR>
+<A HREF="1010055.html">Chapter IX</A><BR>
+<A HREF="1010056.html">Chapter X</A><BR>
+<A HREF="1010057.html">Chapter XI</A><BR>
+<A HREF="1010058.html">Chapter XII</A><BR>
+<b>
+<A HREF="1010059.html">Book IV</A></b><BR>
+<A HREF="1010060.html">Chapter I</A><BR>
+<A HREF="1010061.html">Chapter II</A><BR>
+<A HREF="1010062.html">Chapter III</A><BR>
+<A HREF="1010063.html">Chapter IV</A><BR>
+<A HREF="1010064.html">Chapter V</A><BR>
+<A HREF="1010065.html">Chapter VI</A><BR>
+<A HREF="1010066.html">Chapter VII</A><BR>
+<A HREF="1010067.html">Chapter VIII</A><BR>
+<A HREF="1010068.html">Chapter IX</A><BR>
+<A HREF="1010069.html">Chapter X</A><BR>
+<A HREF="1010070.html">Chapter XI</A><BR>
+<A HREF="1010071.html">Chapter XII</A><BR>
+<A HREF="1010072.html">Chapter XIII</A><BR>
+<A HREF="1010073.html">Chapter XIV</A><BR>
+<A HREF="1010074.html">Chapter XV</A><BR>
+<A HREF="1010075.html">Chapter XVI</A><BR>
+<b>
+<A HREF="1010076.html">Book V</A></b><BR>
+<A HREF="1010077.html">Chapter I</A><BR>
+<A HREF="1010078.html">Chapter II</A><BR>
+<A HREF="1010079.html">Chapter III</A><BR>
+<A HREF="1010080.html">Chapter IV</A><BR>
+<A HREF="1010081.html">Chapter V</A><BR>
+<A HREF="1010082.html">Chapter VI</A><BR>
+<A HREF="1010083.html">Chapter VII</A><BR>
+<A HREF="1010084.html">Chapter VIII</A><BR>
+<A HREF="1010085.html">Chapter IX</A><BR>
+<A HREF="1010086.html">Chapter X</A><BR>
+<A HREF="1010087.html">Chapter XI</A><BR>
+<A HREF="1010088.html">Chapter XII</A><BR>
+<A HREF="1010089.html">Chapter XIII</A><BR>
+<A HREF="1010090.html">Chapter XIV</A><BR>
+<b>
+<A HREF="1010091.html">Book VI</A></b><BR>
+<A HREF="1010092.html">Chapter I</A><BR>
+<A HREF="1010093.html">Chapter II</A><BR>
+<A HREF="1010094.html">Chapter III</A><BR>
+<A HREF="1010095.html">Chapter IV</A><BR>
+<A HREF="1010096.html">Chapter V</A><BR>
+<A HREF="1010097.html">Chapter VI</A><BR>
+<A HREF="1010098.html">Chapter VII</A><BR>
+<A HREF="1010099.html">Chapter VIII</A><BR>
+<A HREF="1010100.html">Chapter IX</A><BR>
+<A HREF="1010101.html">Chapter X</A><BR>
+<A HREF="1010102.html">Chapter XI</A><BR>
+<A HREF="1010103.html">Chapter XII</A><BR>
+<A HREF="1010104.html">Chapter XIII</A><BR>
+<A HREF="1010105.html">Chapter XIV</A><BR>
+<A HREF="1010106.html">Chapter XV</A><BR>
+<A HREF="1010107.html">Chapter XVI</A><BR>
+<b>
+<A HREF="1010108.html">Book VII</A></b><BR>
+<A HREF="1010109.html">Chapter I</A><BR>
+<A HREF="1010110.html">Chapter II</A><BR>
+<A HREF="1010111.html">Chapter III</A><BR>
+<A HREF="1010112.html">Chapter IV</A><BR>
+<A HREF="1010113.html">Chapter V</A><BR>
+<A HREF="1010114.html">Chapter VI</A><BR>
+<A HREF="1010115.html">Chapter VII</A><BR>
+<A HREF="1010116.html">Chapter VIII</A><BR>
+<A HREF="1010117.html">Chapter IX</A><BR>
+<A HREF="1010118.html">Chapter X</A><BR>
+<A HREF="1010119.html">Chapter XI</A><BR>
+<A HREF="1010120.html">Chapter XII</A><BR>
+<A HREF="1010121.html">Chapter XIII</A><BR>
+<A HREF="1010122.html">Chapter XIV</A><BR>
+<A HREF="1010123.html">Chapter XV</A><BR>
+<A HREF="1010124.html">Chapter XVI</A><BR>
+<A HREF="1010125.html">Chapter XVII</A><BR>
+<A HREF="1010126.html">Chapter XVIII</A><BR>
+<A HREF="1010127.html">Chapter XIX</A><BR>
+<A HREF="1010128.html">Chapter XX</A><BR>
+<A HREF="1010129.html">Chapter XXI</A><BR>
+<b>
+<A HREF="1010130.html">Book VIII</A></b><BR>
+<A HREF="1010131.html">Chapter I</A><BR>
+<A HREF="1010132.html">Chapter II</A><BR>
+<A HREF="1010133.html">Chapter III</A><BR>
+<A HREF="1010134.html">Chapter IV</A><BR>
+<A HREF="1010135.html">Chapter V</A><BR>
+<A HREF="1010136.html">Chapter VI</A><BR>
+<A HREF="1010137.html">Chapter VII</A><BR>
+<A HREF="1010138.html">Chapter VIII</A><BR>
+<A HREF="1010139.html">Chapter IX</A><BR>
+<A HREF="1010140.html">Chapter X</A><BR>
+<A HREF="1010141.html">Chapter XI</A><BR>
+<A HREF="1010142.html">Chapter XII</A><BR>
+<b>
+<A HREF="1010143.html">Book IX</A></b><BR>
+<A HREF="1010144.html">Chapter I</A><BR>
+<A HREF="1010145.html">Chapter II</A><BR>
+<A HREF="1010146.html">Chapter III</A><BR>
+<A HREF="1010147.html">Chapter IV</A><BR>
+<A HREF="1010148.html">Chapter V</A><BR>
+<A HREF="1010149.html">Chapter VI</A><BR>
+<A HREF="1010150.html">Chapter VII</A><BR>
+<A HREF="1010151.html">Chapter VIII</A><BR>
+<A HREF="1010152.html">Chapter IX</A><BR>
+<A HREF="1010153.html">Chapter X</A><BR>
+<A HREF="1010154.html">Chapter XI</A><BR>
+<A HREF="1010155.html">Chapter XII</A><BR>
+<A HREF="1010156.html">Chapter XIII</A><BR>
+<b>
+<A HREF="1010157.html">Book X</A></b><BR>
+<A HREF="1010158.html">Chapter I</A><BR>
+<A HREF="1010159.html">Chapter II</A><BR>
+<A HREF="1010160.html">Chapter III</A><BR>
+<A HREF="1010161.html">Chapter IV</A><BR>
+<A HREF="1010162.html">Chapter V</A><BR>
+<A HREF="1010163.html">Chapter VI</A><BR>
+<A HREF="1010164.html">Chapter VII</A><BR>
+<A HREF="1010165.html">Chapter VIII</A><BR>
+<A HREF="1010166.html">Chapter IX</A><BR>
+<A HREF="1010167.html">Chapter X</A><BR>
+<A HREF="1010168.html">Chapter XI</A><BR>
+<A HREF="1010169.html">Chapter XII</A><BR>
+<A HREF="1010170.html">Chapter XIII</A><BR>
+<A HREF="1010171.html">Chapter XIV</A><BR>
+<A HREF="1010172.html">Chapter XV</A><BR>
+<A HREF="1010173.html">Chapter XVI</A><BR>
+<A HREF="1010174.html">Chapter XVII</A><BR>
+<A HREF="1010175.html">Chapter XVIII</A><BR>
+<A HREF="1010176.html">Chapter XIX</A><BR>
+<A HREF="1010177.html">Chapter XX</A><BR>
+<A HREF="1010178.html">Chapter XXI</A><BR>
+<A HREF="1010179.html">Chapter XXII</A><BR>
+<A HREF="1010180.html">Chapter XXIII</A><BR>
+<A HREF="1010181.html">Chapter XXIV</A><BR>
+<A HREF="1010182.html">Chapter XXV</A><BR>
+<A HREF="1010183.html">Chapter XXVI</A><BR>
+<A HREF="1010184.html">Chapter XXVII</A><BR>
+<A HREF="1010185.html">Chapter XXVIII</A><BR>
+<A HREF="1010186.html">Chapter XXIX</A><BR>
+<A HREF="1010187.html">Chapter XXX</A><BR>
+<A HREF="1010188.html">Chapter XXXI</A><BR>
+<A HREF="1010189.html">Chapter XXXII</A><BR>
+<A HREF="1010190.html">Chapter XXXIII</A><BR>
+<A HREF="1010191.html">Chapter XXXIV</A><BR>
+<A HREF="1010192.html">Chapter XXXV</A><BR>
+<A HREF="1010193.html">Chapter XXXVI</A><BR>
+<A HREF="1010194.html">Chapter XXXVII</A><BR>
+<A HREF="1010195.html">Chapter XXXVIII</A><BR>
+<A HREF="1010196.html">Chapter XXXIX</A><BR>
+<A HREF="1010197.html">Chapter XL</A><BR>
+<A HREF="1010198.html">Chapter XLI</A><BR>
+<A HREF="1010199.html">Chapter XLII</A><BR>
+<A HREF="1010200.html">Chapter XLIII</A><BR>
+<b>
+<A HREF="1010201.html">Book XI</A></b><BR>
+<A HREF="1010202.html">Chapter I</A><BR>
+<A HREF="1010203.html">Chapter II</A><BR>
+<A HREF="1010204.html">Chapter III</A><BR>
+<A HREF="1010205.html">Chapter IV</A><BR>
+<A HREF="1010206.html">Chapter V</A><BR>
+<A HREF="1010207.html">Chapter VI</A><BR>
+<A HREF="1010208.html">Chapter VII</A><BR>
+<A HREF="1010209.html">Chapter VIII</A><BR>
+<A HREF="1010210.html">Chapter IX</A><BR>
+<A HREF="1010211.html">Chapter X</A><BR>
+<A HREF="1010212.html">Chapter XI</A><BR>
+<A HREF="1010213.html">Chapter XII</A><BR>
+<A HREF="1010214.html">Chapter XIII</A><BR>
+<A HREF="1010215.html">Chapter XIV</A><BR>
+<A HREF="1010216.html">Chapter XV</A><BR>
+<A HREF="1010217.html">Chapter XVI</A><BR>
+<A HREF="1010218.html">Chapter XVII</A><BR>
+<A HREF="1010219.html">Chapter XVIII</A><BR>
+<A HREF="1010220.html">Chapter XIX</A><BR>
+<A HREF="1010221.html">Chapter XX</A><BR>
+<A HREF="1010222.html">Chapter XXI</A><BR>
+<A HREF="1010223.html">Chapter XXII</A><BR>
+<A HREF="1010224.html">Chapter XXIII</A><BR>
+<A HREF="1010225.html">Chapter XXIV</A><BR>
+<A HREF="1010226.html">Chapter XXV</A><BR>
+<A HREF="1010227.html">Chapter XXVI</A><BR>
+<A HREF="1010228.html">Chapter XXVII</A><BR>
+<A HREF="1010229.html">Chapter XXVIII</A><BR>
+<A HREF="1010230.html">Chapter XXIX</A><BR>
+<A HREF="1010231.html">Chapter XXX</A><BR>
+<A HREF="1010232.html">Chapter XXXI</A><BR>
+<b>
+<A HREF="1010233.html">Book XII</A></b><BR>
+<A HREF="1010234.html">Chapter I</A><BR>
+<A HREF="1010235.html">Chapter II</A><BR>
+<A HREF="1010236.html">Chapter III</A><BR>
+<A HREF="1010237.html">Chapter IV</A><BR>
+<A HREF="1010238.html">Chapter V</A><BR>
+<A HREF="1010239.html">Chapter VI</A><BR>
+<A HREF="1010240.html">Chapter VII</A><BR>
+<A HREF="1010241.html">Chapter VIII</A><BR>
+<A HREF="1010242.html">Chapter IX</A><BR>
+<A HREF="1010243.html">Chapter X</A><BR>
+<A HREF="1010244.html">Chapter XI</A><BR>
+<A HREF="1010245.html">Chapter XII</A><BR>
+<A HREF="1010246.html">Chapter XIII</A><BR>
+<A HREF="1010247.html">Chapter XIV</A><BR>
+<A HREF="1010248.html">Chapter XV</A><BR>
+<A HREF="1010249.html">Chapter XVI</A><BR>
+<A HREF="1010250.html">Chapter XVII</A><BR>
+<A HREF="1010251.html">Chapter XVIII</A><BR>
+<A HREF="1010252.html">Chapter XIX</A><BR>
+<A HREF="1010253.html">Chapter XX</A><BR>
+<A HREF="1010254.html">Chapter XXI</A><BR>
+<A HREF="1010255.html">Chapter XXII</A><BR>
+<A HREF="1010256.html">Chapter XXIII</A><BR>
+<A HREF="1010257.html">Chapter XXIV</A><BR>
+<A HREF="1010258.html">Chapter XXV</A><BR>
+<A HREF="1010259.html">Chapter XXVI</A><BR>
+<A HREF="1010260.html">Chapter XXVII</A><BR>
+<A HREF="1010261.html">Chapter XXVIII</A><BR>
+<A HREF="1010262.html">Chapter XXIX</A><BR>
+<A HREF="1010263.html">Chapter XXX</A><BR>
+<A HREF="1010264.html">Chapter XXXI</A><BR>
+<A HREF="1010265.html">Chapter XXXII</A><BR>
+<b>
+<A HREF="1010266.html">Book XIII</A></b><BR>
+<A HREF="1010267.html">Chapter I</A><BR>
+<A HREF="1010268.html">Chapter II</A><BR>
+<A HREF="1010269.html">Chapter III</A><BR>
+<A HREF="1010270.html">Chapter IV</A><BR>
+<A HREF="1010271.html">Chapter V</A><BR>
+<A HREF="1010272.html">Chapter VI</A><BR>
+<A HREF="1010273.html">Chapter VII</A><BR>
+<A HREF="1010274.html">Chapter VIII</A><BR>
+<A HREF="1010275.html">Chapter IX</A><BR>
+<A HREF="1010276.html">Chapter X</A><BR>
+<A HREF="1010277.html">Chapter XI</A><BR>
+<A HREF="1010278.html">Chapter XII</A><BR>
+<A HREF="1010279.html">Chapter XIII</A><BR>
+<A HREF="1010280.html">Chapter XIV</A><BR>
+<A HREF="1010281.html">Chapter XV</A><BR>
+<A HREF="1010282.html">Chapter XVI</A><BR>
+<A HREF="1010283.html">Chapter XVII</A><BR>
+<A HREF="1010284.html">Chapter XVIII</A><BR>
+<A HREF="1010285.html">Chapter XIX</A><BR>
+<A HREF="1010286.html">Chapter XX</A><BR>
+<A HREF="1010287.html">Chapter XXI</A><BR>
+<A HREF="1010288.html">Chapter XXII</A><BR>
+<A HREF="1010289.html">Chapter XXIII</A><BR>
+<A HREF="1010290.html">Chapter XXIV</A><BR>
+<A HREF="1010291.html">Chapter XXV</A><BR>
+<A HREF="1010292.html">Chapter XXVI</A><BR>
+<A HREF="1010293.html">Chapter XXVII</A><BR>
+<A HREF="1010294.html">Chapter XXVIII</A><BR>
+<A HREF="1010295.html">Chapter XXIX</A><BR>
+<A HREF="1010296.html">Chapter XXX</A><BR>
+<A HREF="1010297.html">Chapter XXXI</A><BR>
+<A HREF="1010298.html">Chapter XXXII</A><BR>
+<A HREF="1010299.html">Chapter XXXIII</A><BR>
+<A HREF="1010300.html">Chapter XXXIV</A><BR>
+<A HREF="1010301.html">Chapter XXXV</A><BR>
+<A HREF="1010302.html">Chapter XXXVI</A><BR>
+<A HREF="1010303.html">Chapter XXXVII</A><BR>
+<A HREF="1010304.html">Chapter XXXVIII</A><BR>
+
+<A NAME="section_006"></A>
+<H3 ALIGN="CENTER">Letters of St. Augustin</H3>
+<A HREF="1010305.html">Letters of St. Augustin</A><BR>
+<A HREF="1010306.html">Preface</A><BR>
+<A HREF="1010307.html">Division 1</A><BR>
+<A HREF="1010308.html">Letter I</A><BR>
+<A HREF="1010309.html">Letter II</A><BR>
+<A HREF="1010310.html">Letter III</A><BR>
+<A HREF="1010311.html">Letter IV</A><BR>
+<A HREF="1010312.html">Letter V</A><BR>
+<A HREF="1010313.html">Letter VI</A><BR>
+<A HREF="1010314.html">Letter VII</A><BR>
+<A HREF="1010315.html">Letter VIII</A><BR>
+<A HREF="1010316.html">Letter IX</A><BR>
+<A HREF="1010317.html">Letter X</A><BR>
+<A HREF="1010318.html">Letter XI</A><BR>
+<A HREF="1010319.html">Letter XII</A><BR>
+<A HREF="1010320.html">Letter XIII</A><BR>
+<A HREF="1010321.html">Letter XIV</A><BR>
+<A HREF="1010322.html">Letter XV</A><BR>
+<A HREF="1010323.html">Letter XVI</A><BR>
+<A HREF="1010324.html">Letter XVII</A><BR>
+<A HREF="1010325.html">Letter XVIII</A><BR>
+<A HREF="1010326.html">Letter XIX</A><BR>
+<A HREF="1010327.html">Letter XX</A><BR>
+<A HREF="1010328.html">Letter XXI</A><BR>
+<A HREF="1010329.html">Letter XXII</A><BR>
+<A HREF="1010330.html">Letter XXIII</A><BR>
+<A HREF="1010331.html">Letter XXIV</A><BR>
+<A HREF="1010332.html">Letter XXV</A><BR>
+<A HREF="1010333.html">Letter XXVI</A><BR>
+<A HREF="1010334.html">Letter XXVII</A><BR>
+<A HREF="1010335.html">Letter XXVIII</A><BR>
+<A HREF="1010336.html">Letter XXIX</A><BR>
+<A HREF="1010337.html">Letter XXX</A><BR>
+<A HREF="1010338.html">Letter XXXI</A><BR>
+<A HREF="1010339.html">Letter XXXII</A><BR>
+<A HREF="1010340.html">Letter XXXIII</A><BR>
+<A HREF="1010341.html">Letter XXXIV</A><BR>
+<A HREF="1010342.html">Letter XXXV</A><BR>
+<A HREF="1010343.html">Letter XXXVI</A><BR>
+<A HREF="1010344.html">Letter XXXVII</A><BR>
+<A HREF="1010345.html">Letter XXXVIII</A><BR>
+<A HREF="1010346.html">Letter XXXIX</A><BR>
+<A HREF="1010347.html">Letter XL</A><BR>
+<A HREF="1010348.html">Letter XLI</A><BR>
+<A HREF="1010349.html">Letter XLII</A><BR>
+<A HREF="1010350.html">Letter XLIII</A><BR>
+<A HREF="1010351.html">Letter XLIV</A><BR>
+<A HREF="1010352.html">Letter XLV</A><BR>
+<A HREF="1010353.html">Letter XLVI</A><BR>
+<A HREF="1010354.html">Letter XLVII</A><BR>
+<A HREF="1010355.html">Letter XLVIII</A><BR>
+<A HREF="1010356.html">Letter XLIX</A><BR>
+<A HREF="1010357.html">Letter L</A><BR>
+<A HREF="1010358.html">Letter LI</A><BR>
+<A HREF="1010359.html">Letter LII</A><BR>
+<A HREF="1010360.html">Letter LIII</A><BR>
+<A HREF="1010361.html">Letter LIV</A><BR>
+<A HREF="1010362.html">Letter LV</A><BR>
+<A HREF="1010363.html">Letters LVI-LVII</A><BR>
+<A HREF="1010364.html">Letter LVIII</A><BR>
+<A HREF="1010365.html">Letter LIX</A><BR>
+<A HREF="1010366.html">Letter LX</A><BR>
+<A HREF="1010367.html">Letter LXI</A><BR>
+<A HREF="1010368.html">Letter LXII</A><BR>
+<A HREF="1010369.html">Letter LXIII</A><BR>
+<A HREF="1010370.html">Letter LXIV</A><BR>
+<A HREF="1010371.html">Letter LXV</A><BR>
+<A HREF="1010372.html">Letter LXVI</A><BR>
+<A HREF="1010373.html">Letter LXVII</A><BR>
+<A HREF="1010374.html">Letter LXVIII</A><BR>
+<A HREF="1010375.html">Letter LXIX</A><BR>
+<A HREF="1010376.html">Letter LXX</A><BR>
+<A HREF="1010377.html">Letter LXXI</A><BR>
+<A HREF="1010378.html">Letter LXXII</A><BR>
+<A HREF="1010379.html">Letter LXXIII</A><BR>
+<A HREF="1010380.html">Letter LXXIV</A><BR>
+<A HREF="1010381.html">Letter LXXV</A><BR>
+<A HREF="1010382.html">Letter LXXVI</A><BR>
+<A HREF="1010383.html">Letter LXXVII</A><BR>
+<A HREF="1010384.html">Letter LXXVIII</A><BR>
+<A HREF="1010385.html">Letter LXXIX</A><BR>
+<A HREF="1010386.html">Letter LXXX</A><BR>
+<A HREF="1010387.html">Letter LXXXI</A><BR>
+<A HREF="1010388.html">Letter LXXXII</A><BR>
+<A HREF="1010389.html">Letter LXXXIII</A><BR>
+<A HREF="1010390.html">Letter LXXXIV</A><BR>
+<A HREF="1010391.html">Letter LXXXV</A><BR>
+<A HREF="1010392.html">Letter LXXXVI</A><BR>
+<A HREF="1010393.html">Letter LXXXVII</A><BR>
+<A HREF="1010394.html">Letter LXXXVIII</A><BR>
+<A HREF="1010395.html">Letter LXXXIX</A><BR>
+<A HREF="1010396.html">Letter XC</A><BR>
+<A HREF="1010397.html">Letter XCI</A><BR>
+<A HREF="1010398.html">Letter XCII</A><BR>
+<A HREF="1010399.html">Letter XCIII</A><BR>
+<A HREF="1010400.html">Letter XCIV</A><BR>
+<A HREF="1010401.html">Letter XCV</A><BR>
+<A HREF="1010402.html">Letter XCVI</A><BR>
+<A HREF="1010403.html">Letter XCVII</A><BR>
+<A HREF="1010404.html">Letter XCVIII</A><BR>
+<A HREF="1010405.html">Letter XCIX</A><BR>
+<A HREF="1010406.html">Letter C</A><BR>
+<A HREF="1010407.html">Letter CI</A><BR>
+<A HREF="1010408.html">Letter CII</A><BR>
+<A HREF="1010409.html">Letter CIII</A><BR>
+<A HREF="1010410.html">Letter CIV</A><BR>
+<A HREF="1010411.html">Letter CXI</A><BR>
+<A HREF="1010412.html">Letter CXV</A><BR>
+<A HREF="1010413.html">Letter CXVI</A><BR>
+<A HREF="1010414.html">Letter CXVII</A><BR>
+<A HREF="1010415.html">Letter CXVIII</A><BR>
+<A HREF="1010416.html">Letter CXXII</A><BR>
+<A HREF="1010417.html">Letter CXXIII</A><BR>
+<A HREF="1010418.html">Letter CXXIV</A><BR>
+<A HREF="1010419.html">Letter CXXV</A><BR>
+<A HREF="1010420.html">Letter CXXVI</A><BR>
+<A HREF="1010421.html">Letter CXXX</A><BR>
+<A HREF="1010422.html">Letter CXXXI</A><BR>
+<A HREF="1010423.html">Letter CXXXII</A><BR>
+<A HREF="1010424.html">Letter CXXXIII</A><BR>
+<A HREF="1010425.html">Letter CXXXV</A><BR>
+<A HREF="1010426.html">Letter CXXXVI</A><BR>
+<A HREF="1010427.html">Letter CXXXVII</A><BR>
+<A HREF="1010428.html">Letter CXXXVIII</A><BR>
+<A HREF="1010429.html">Letter CXXXIX</A><BR>
+<A HREF="1010430.html">Letter CXLIII</A><BR>
+<A HREF="1010431.html">Letter CXLIV</A><BR>
+<A HREF="1010432.html">Letter CXLV</A><BR>
+<A HREF="1010433.html">Letter CXLVI</A><BR>
+<A HREF="1010434.html">Letter CXLVIII</A><BR>
+<A HREF="1010435.html">Letter CL</A><BR>
+<A HREF="1010436.html">Letter CLI</A><BR>
+<A HREF="1010437.html">Letter CLVIII</A><BR>
+<A HREF="1010438.html">Letter CLIX</A><BR>
+<A HREF="1010439.html">Letter CLXIII</A><BR>
+<A HREF="1010440.html">Letter CLXIV</A><BR>
+<A HREF="1010441.html">Letter CLXV</A><BR>
+<A HREF="1010442.html">Letter CLXVI</A><BR>
+<A HREF="1010443.html">Letter CLXVII</A><BR>
+<A HREF="1010444.html">Letter CLXIX</A><BR>
+<A HREF="1010445.html">Letter CLXXII</A><BR>
+<A HREF="1010446.html">Letter CLXXIII</A><BR>
+<A HREF="1010447.html">Letter CLXXX</A><BR>
+<A HREF="1010448.html">Letter CLXXXVIII</A><BR>
+<A HREF="1010449.html">Letter CLXXXIX</A><BR>
+<A HREF="1010450.html">Letter CXCI</A><BR>
+<A HREF="1010451.html">Letter CXCII</A><BR>
+<A HREF="1010452.html">Letter CXCV</A><BR>
+<A HREF="1010453.html">Letter CCI</A><BR>
+<A HREF="1010454.html">Letter CCII</A><BR>
+<A HREF="1010455.html">Letter CCIII</A><BR>
+<A HREF="1010456.html">Letter CCVIII</A><BR>
+<A HREF="1010457.html">Letter CCIX</A><BR>
+<A HREF="1010458.html">Letter CCX</A><BR>
+<A HREF="1010459.html">Letter CCXI</A><BR>
+<A HREF="1010460.html">Letter CCXII</A><BR>
+<A HREF="1010461.html">Letter CCXIII</A><BR>
+<A HREF="1010462.html">Letter CCXVIII</A><BR>
+<A HREF="1010463.html">Letter CCXIX</A><BR>
+<A HREF="1010464.html">Letter CCXX</A><BR>
+<A HREF="1010465.html">Letter CCXXVII</A><BR>
+<A HREF="1010466.html">Letter CCXXVIII</A><BR>
+<A HREF="1010467.html">Letter CCXXIX</A><BR>
+<A HREF="1010468.html">Letter CCXXXI</A><BR>
+<A HREF="1010469.html">Letter CCXXXII</A><BR>
+<A HREF="1010470.html">Letter CCXXXVII</A><BR>
+<A HREF="1010471.html">Letter CCXLV</A><BR>
+<A HREF="1010472.html">Letter CCXLVI</A><BR>
+<A HREF="1010473.html">Letter CCL</A><BR>
+<A HREF="1010474.html">Letter CCLIV</A><BR>
+<A HREF="1010475.html">Letter CCLXIII</A><BR>
+<A HREF="1010476.html">Letter CCLXIX</A><BR>
+
+<A NAME="section_007"></A>
+<H3 ALIGN="CENTER">The Confessions of St. Augustin: Index of Subjects</H3>
+<A HREF="1010477.html">The Confessions of St. Augustin: Index of Subjects</A><BR>
+
+<A NAME="section_008"></A>
+<H3 ALIGN="CENTER">Letters of St. Augustin: Index of Subjects</H3>
+<A HREF="1010478.html">Letters of St. Augustin: Index of Subjects</A><BR>
+
+<A NAME="section_009"></A>
+<H3 ALIGN="CENTER">Indexes</H3>
+<A HREF="1010479.html">Indexes</A><BR>
+<A HREF="1010480.html">Index of Scripture References</A><BR>
+<A HREF="1010481.html">Greek Words and Phrases</A><BR>
+<A HREF="1010482.html">Hebrew Words and Phrases</A><BR>
+<A HREF="1010483.html">German Words and Phrases</A><BR>
+<A HREF="1010484.html">French Words and Phrases</A><BR>
+<A HREF="1010485.html">Index of Pages of the Print Edition</A><BR>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/101/index.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/101/index.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/khhw6hx'>tak.la/khhw6hx</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/khhw6hx';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+
