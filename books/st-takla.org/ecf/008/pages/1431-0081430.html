@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. VIII: Fathers of the Third and Fourth Centuries: The Twelve Patriarchs, Excerpts and Epistles, The Clementina, Apocrypha, Decretals, Memoirs of Edessa and Syriac Documents, Remains of the First Ages | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Twelve Patriarchs Excerpts Epistles Clementina Apocrypha Decretals Memoirs Edessa Syriac Documents Remains First Ages">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol VIII: The Decretals.: Part II | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/008/0081430.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:34:15+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/008/'>008</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/008/'>008</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Ante-Nicene Fathers, Vol VIII:
+<br>
+The Decretals.: Part II</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="0081429.html" id="prev">Previous</A>&nbsp;
+<A HREF="0081431.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="viii.viii.ii.iii"></A>
+<p style="font-size: 16pt" class="c34"><a name="viii.viii.ii.iii-p1"></A> <span class="c1"><a name="viii.viii.ii.iii-p1.1"></A>II.</span></p> 
+<p style="font-size: 16pt" class="c52"><a name="viii.viii.ii.iii-p2"></A>Of the right of bishops not to be accused or hurt by detraction.</p> 
+<p style="font-size: 16pt" class="c21"><a name="viii.viii.ii.iii-p3"></A>You desired also to consult us, as we find in the above-mentioned letter of yours, on the subject of the accusing of priest,&#8212;a thing which, as we learn also from the same epistle, is exceedingly frequent among you.&#160; You have intimated, besides, that very many notice that not a few in places of ecclesiastical dignity do not live in a manner conformable to the discourses and sacraments with which the people are served by their means.&#160; O miserable men, who in looking at these forget Christ, who long since indeed told us how that the law of God should be obeyed, rather than that those should be looked to for imitation who do not the things which they say; and bearing with the traitor himself even to the end, He sent him also along with the rest to preach the Gospel.&#160; For the apostles had no such custom, neither did they teach that it was one fit to be had.&#160; And to like effect their successors also, foreseeing by the Spirit of God things to come, have determined largely on such subject.&#160; Besides, as you read in the Acts of the Apostles, &#8220;There was at that time among them that believed one heart and one soul; neither said any of them that ought of the things which he possessed was his own; but they had all things common.&#8221;&nbsp;<A NAME="fr_2841"></A><A HREF="#fn_2841"><FONT SIZE="1">2842</FONT></A>
+&#160; For there was no laying of accusations against each other among them, except what was friendly; neither ought there ever to be such among their followers or among believers: for the Lord says, &#8220;Do not that to another which thou wouldst not have done to thyself.&#8221;&nbsp;<A NAME="fr_2842"></A><A HREF="#fn_2842"><FONT SIZE="1">2843</FONT></A>
+&#160; And He says also, &#8220;Thou shalt love thy neighbour as thyself;&#8221;&nbsp;<A NAME="fr_2843"></A><A HREF="#fn_2843"><FONT SIZE="1">2844</FONT></A>
+ and,&#8221; Love worketh no ill to his neighbour.&#8221;&nbsp;<A NAME="fr_2844"></A><A HREF="#fn_2844"><FONT SIZE="1">2845</FONT></A>
+&#160; In accordance herewith, the apostles themselves and their successors de<A NAME="page_634"><FONT SIZE=1 COLOR=GREEN>p. 634</FONT></A> <a name="viii.viii.ii.iii-Page_634"></A>creed of old time that those persons should not be admitted to lay accusations who were under suspicion, or who but yesterday, or the day before, or a little time ago, were at enmity, as they come thus under suspicion, or who are not of good conversation, or whose life is reprehensible, or who are doubtful in the matter of the true faith.&#160; In like manner is it decided to be with those whose faith and life and liberty are unknown, or who are marked with the stains of infamy, or entangled in the snares of offences.&#160; Again, those have neither the right nor the power to accuse the priests or the clergy, who are incapable themselves of being made priests legitimately, and are not of their order; for just as the priests and the other members of the clerical order are debarred from laying accusations against the secular laity, so these latter, too, should be debarred and excluded from the right of bringing charges against the former.&#160; And as the former should not be admired by the latter, so the latter should not be admired by the former:&#160; for as the conversation of the priests of the Lord ought to be something separate from the conversation of these others, so should they be separate from them also in the matter of litigation; &#8220;for the servant of the Lord ought not to strive.&#8221;&nbsp;<A NAME="fr_2845"></A><A HREF="#fn_2845"><FONT SIZE="1">2846</FONT></A>
+&#160; To the utmost of your power, dearly beloved brethren, do ye prohibit such accusations, and all unrighteous and injurious emulations, because contention is to be avoided by all means.&#160; &#8220;For a just man will fall seven times in a day, and will rise again; but the wicked shall fall into mischief.&#160; Rejoice not when thine enemy falleth,&#8221; saith Solomon, &#8220;and let not thine heart be glad when he stumbleth; lest the Lord see it, and it displease Him, and He turn away His wrath from him.&#160; Fret not thyself because of evil-doers, neither be thou envious at the wicked:&#160; for the evil have not the hope of the future, and the candle of the wicked shall be put out.&#160; Envy not evil men, neither be thou desirous to be with them; for their mind meditates rapine, and their lips speak deceits.&#8221;&nbsp;<A NAME="fr_2846"></A><A HREF="#fn_2846"><FONT SIZE="1">2847</FONT></A>
+&#160; Dearly beloved, beware of these things.&#160; Ponder these things, and minister comfort to the brethren in all things; for, as the Truth says in His own person, &#8220;By this shall all men know that ye are my disciples, if ye have love one to another.&#8221;&nbsp;<A NAME="fr_2847"></A><A HREF="#fn_2847"><FONT SIZE="1">2848</FONT></A>
+&#160; For if in things secular each man&#146;s right and his proper position are kept for him, how much more ought there to be no confusion induced in matters of ecclesiastical order!&#160; And this is a right which will be duly observed if no deference is paid to mere power, but all to equity.&#160; Whence it is an established duty, that the bishops of each several district should exercise a watchful care over all those who live under their rule, and in the fear of God should dispose of all cases in which they are concerned, and of all matters in which they are interested.&#160; It is therefore extremely inequitable that any <i>bishops</i> should neglect their own cases, and mix themselves up with those of others.&#160; But those whose part it is to ordain such persons to the priesthood, and by whom they have been already ordained, ought to order the life and judgment of such by the exercise of a competent and regular administration; for, as the law says, &#8220;Cursed is every one that removeth his neighbour&#146;s landmarks.&#160; And all the people said Amen.&#8221;&nbsp;<A NAME="fr_2848"></A><A HREF="#fn_2848"><FONT SIZE="1">2849</FONT></A>
+&#160; To this therefore, brethren, has God foreordained you, and all who hold the highest office of the priesthood, that ye should put all injustice out of the way, and cut off presumption, and help those who labour in the priesthood, and give no occasion for their reproach and trouble, but bring assistance to him who endures calumny and reproach, and cut off him who works calumny and reproach, and act for the help of the Lord in His priests.&#160; The Lord, moreover, has chosen the priests for Himself, that they should sacrifice to Him, and offer oblations to their Lord.&#160; He commanded the Levites also to be under them in their ministries.&#160; Whence He speaks to Moses in these terms:&#160; &#8220;And Eleazar the son of Aaron the priest shall be chief over the chief of the Levites, and have the oversight of them that keep the charge of the sanctuary.&#8221;&nbsp;<A NAME="fr_2849"></A><A HREF="#fn_2849"><FONT SIZE="1">2850</FONT></A>
+&#160; For of these the Lord spake to Moses in this wise:&#160; &#8220;Take the Levites instead of the first-born among the children of Israel, and the cattle of the Levites instead of their cattle; and the Levites shall be mine:&#160; I am the Lord.&#8221;&nbsp;<A NAME="fr_2850"></A><A HREF="#fn_2850"><FONT SIZE="1">2851</FONT></A>
+&#160; If the Lord willed the Levites to be His own, how much more has He taken the priests for Himself!&#160; And of these He says:&#160; &#8220;If any stranger cometh nigh, he shall be put to death.&#8221;&nbsp;<A NAME="fr_2851"></A><A HREF="#fn_2851"><FONT SIZE="1">2852</FONT></A>
+&#160; All objects, moreover, that are the Lord&#146;s are to be handled carefully, and are not lightly to be injured; for even among men, those are reckoned faithful who attend to the interests of their masters rightly, and deal with them faithfully, and rightly observe the commands of their masters, and transgress them not.&#160; And those, on the other hand, are reputed unfaithful who deal with the interests of their masters carelessly and negligently, and despise their commands, and do not observe them as they ought.</p> 
+<p style="font-size: 16pt" class="c22"><a name="viii.viii.ii.iii-p15"></A>Accordingly we have set these matters before you, in order that those who now know it not may know this; viz., that the priests, too, whom the Lord has taken to Himself from among all men, and has willed to be His own, <A NAME="page_635"><FONT SIZE=1 COLOR=GREEN>p. 635</FONT></A> <a name="viii.viii.ii.iii-Page_635"></A>are not to be dealt with lightly, nor injured, nor rashly accused or reprehended, save by their masters, seeing that the Lord has chosen to reserve their causes to Himself, and ministers vengeance according to His own judgment.&#160; For in these and other precepts of the Lord the faithful are distinguished, and the unfaithful at the same time disapproved.&#160; For these are rather to be borne with by the faithful than made subjects of reproach (<i>exprobrandi</i>); just as there is chaff with the wheat even to the last winnowing, and as there are bad fish with good even on to their separation, which is yet to be on the shore,&#8212;that is to say, at the end of the world.&#160; By no means, then, can that man be condemned by a human examination, whom God has reserved for His own judgment, that the purpose of God, according to which He has decreed to save what had perished, may be unalterable.&#160; And consequently, as His will suffers no change, let no man presume on matters which are not conceded to him. &#160;And herein is the meaning of that word which the apostle speaks:&#160; &#8220;Now therefore there is utterly a fault among you, because ye go to law one with another.&#160; Why do ye not rather take wrong? why do ye not rather suffer yourselves to be defrauded?&#8221;&nbsp;<A NAME="fr_2852"></A><A HREF="#fn_2852"><FONT SIZE="1">2853</FONT></A>
+&#160; To this, too, our Lord&#146;s word may refer:&#160; &#8220;And if any man will take away thy coat, and sue thee at the law, let him have thy cloak also.&#8221;&nbsp;<A NAME="fr_2853"></A><A HREF="#fn_2853"><FONT SIZE="1">2854</FONT></A>
+&#160; And in another place:&#160; &#8220;Of him that taketh away thy goods, ask them not again.&#8221;&nbsp;<A NAME="fr_2854"></A><A HREF="#fn_2854"><FONT SIZE="1">2855</FONT></A>
+&#160; Moreover, there are certain things which might be thought most trivial were they not shown in the Scriptures to be of more serious import.&#160; Who would ever consider the man who says to his brother &#8220;Thou fool&#8221; worthy of hell-fire, were it not that the Truth Himself told us so?&nbsp;<A NAME="fr_2855"></A><A HREF="#fn_2855"><FONT SIZE="1">2856</FONT></A>
+&#160; Those, furthermore, who commit those sins whereof the apostle says, &#8220;They who do such things shall not inherit the kingdom of God,&#8221;&nbsp;<A NAME="fr_2856"></A><A HREF="#fn_2856"><FONT SIZE="1">2857</FONT></A>
+ are by all means to be guarded against, and are to be compelled to seek amendment if they do not choose it voluntarily, because they are marked with the stains of infamy, and go down into the pit, unless assistance is brought them by sacerdotal authority.&#160; Those also are to be dealt with in like manner of whom he says, &#8220;With such persons, no, not to eat;&#8221;&nbsp;<A NAME="fr_2857"></A><A HREF="#fn_2857"><FONT SIZE="1">2858</FONT></A>
+ because such persons are branded with infamy until they are restored by sacerdotal authority, and reinstated in the bosom of our holy mother the Church; since those who are outside us cannot communicate with us.&#160; And it is manifest that these are outside us, and ought to be separated from us, with whom it is not lawful for us to eat or to take food.&#160; In like manner also, all persons who underlie the charge of any manner of turpitude and dishonour, are rendered infamous; and all who arm themselves against fathers are rendered infamous.&#160; &#8220;Sand, and salt, and a mass of iron, is easier to bear than a man without understanding, and foolish and impious.&#8221;&nbsp;<A NAME="fr_2858"></A><A HREF="#fn_2858"><FONT SIZE="1">2859</FONT></A>
+&#160; &#8220;He that wanteth understanding thinks upon vain things; and a foolish and erring man imagineth follies.&#8221;&nbsp;<A NAME="fr_2859"></A><A HREF="#fn_2859"><FONT SIZE="1">2860</FONT></A>
+&#160; For their suspicion has overthrown many, and their opinion hath held them in vanity.&#160; &#8220;A stubborn heart shall fare evil at the last; and he that loveth danger shall perish therein.&#160; A heart that entereth two ways shall not have rest; and the evil heart in them shall be made to stumble.&#160; A wicked heart shall be laden with sorrows; and the sinner shall heap sin upon sin.&#8221;&nbsp;<A NAME="fr_2860"></A><A HREF="#fn_2860"><FONT SIZE="1">2861</FONT></A>
+&#160; The holy apostles and their successors, having such things in mind, and foreseeing, as being filled with the Holy Spirit, the course of wicked men, and having regard to the simple, determined that the accusing of priests should be a matter undertaken with difficulty, or never undertaken, that they might not be ruined or displaced by wicked men.&#160; For if this were made an easy matter to secular and wicked men, there would remain no one, or but the scantiest few; seeing that it ever has been and still is the case&#8212;and (which is yet worse) that too in growing measure&#8212;that the wicked persecute the good, and that the carnal are hostile to the spiritual.&#160; For this reason, then, as has been already said, they decreed that such should not be accused at all; or if that could not be avoided, that the accusing of such should be made a matter of great difficulty.&#160; And they determined also, as has been stated above, by what persons that function should not be assumed; and they resolved further, that bishops should not be cast out from their own proper seats and churches.&#160; But if in any way the matter <i>of accusation</i> should be taken in hand before their rightful seat and all their property are restored by those laws, they should by no means be accused or criminated by any one, and should not answer any one on such charges, unless they choose to do so of their own accord.&#160; But after they have been reinstated, as has been before noted, and have had all their effects restored to them by those laws, when their affairs are arranged and set in order, they should then have a long period allowed them for the disposing of their case; and thereafter, if need be, they should be regularly summoned, and so come to the suit; and if the matter seem just, they should answer the propositions of their accusers with the help of their brethren.&#160; For so long as their effects, or their churches <A NAME="page_636"><FONT SIZE=1 COLOR=GREEN>p. 636</FONT></A> <a name="viii.viii.ii.iii-Page_636"></A>and property, are held by their adversaries, or by any person, no manner of reason allows that any charge ought to be preferred against them.&#160; And no one is at liberty by any means to bring any charge against them, whether superior or inferior, so long as they are dispossessed of their churches, effects, or powers.&#160; In like manner also it was decreed, and we too confirm the same statutes and hereby decree, that if any one among the clergy proves an enemy or traducer of his bishops, and seeks to criminate them, or conspires against them, at once, before the consideration of judicial investigation, he should be removed from the clerical order, and given over to the court (<i>curi&aelig;</i>), to which he shall devote himself zealously all the days of his life, and shall remain infamous without any hope of restoration.&#160; And let no one ever presume to be at once accuser, and judge, or witness; for in every judicial investigation there must always be four persons present:&#160; that is, the judges elected, and the accusers, and the defenders, and the witnesses.&#160; In like manner we decree and ordain by apostolic authority, that the flock should not dare to bring a charge against their pastor, to whose care they had been consigned, unless he falls into error in the faith; for the deeds of superiors are not to be smitten with the sword of the mouth; neither can the disciple be above the master, as the voice of Truth saith, &#8220;The disciple is not above his master, nor the servant above his lord.&#8221;&nbsp;<A NAME="fr_2861"></A><A HREF="#fn_2861"><FONT SIZE="1">2862</FONT></A>
+</p> 
+<p style="font-size: 16pt" class="c22"><a name="viii.viii.ii.iii-p26"></A>And pride is hateful before God and men, and all iniquity is execrable.&#160; &#8220;The Lord hath destroyed the memory of the proud, and hath left the memory of the humble in mind.&#160; The seed of men shall be honoured, this <i>seed</i> that feareth God.&#160; But that seed shall be dishonoured that transgresseth the commandments of the Lord.&#160; Among brethren, he that is chief is honourable; and they that fear the Lord shall be in His eyes.&#160; My son, saith Solomon, preserve thy soul in meekness, and give honour to him whom honour beseemeth.&#8221;&nbsp;<A NAME="fr_2862"></A><A HREF="#fn_2862"><FONT SIZE="1">2863</FONT></A>
+&#160; &#8220;Blame not any one before thou examinest him; and when thou hast examined him, reprove him justly.&#160; Answer not a word before thou hearest the cause; neither interrupt with talk in the midst of thy seniors.&#8221;&nbsp;<A NAME="fr_2863"></A><A HREF="#fn_2863"><FONT SIZE="1">2864</FONT></A>
+&#160; After the example of Ham the son of Noah, they are condemned who bring the faults of their fathers into public view, or presume to accuse or calumniate them; even as was the case with Ham, who did not cover the shame of his father Noah, but exhibited it for mockery.&#160; And in like manner those are justified by the example of Shem and Japhet, who reverently cover and seek not to display those matters in which they find their fathers to have erred.&#160; For if a bishop should happen to err from the faith, he should in the first place be corrected privately by those placed under him (<i>a subditis</i> <i>suis</i>).&#160; And if he show himself incorrigible (which may God forbid), then an accusation should be laid against him before his primates, or before the seat of the apostles.&#160; For his other actings, however, he is rather to be borne with by his flock and those put under him, than accused or made the subject of public detraction; because when any offence is committed in these matters by those put under them, His ordinance is withstood who set them before him, as the apostle says, &#8220;Whosoever resisteth the power, resisteth the ordinance of God.&#8221;&nbsp;<A NAME="fr_2864"></A><A HREF="#fn_2864"><FONT SIZE="1">2865</FONT></A>
+&#160; But he who fears Almighty God, agrees in no way to do anything contrary to the Gospel, or contrary to the apostles, or contrary to the prophets or the institutions of the holy fathers.&#160; The priests therefore are to be honoured, and not to be injured or reproached.&#160; Thus read we in Ecclesiasticus:&#160; &#8220;Fear the Lord with all thy soul, and reverence His priests.&#160; Love Him that made thee with all thy strength, and forsake not His ministers.&#160; Honour God with thy whole soul, and honour the priest, and cleanse thyself beforehand with the shoulders (<i>propurga te cum brachiis</i>).&#160; Give him his portion, as it is commanded thee, of the first-fruits; and purge thyself concerning negligence with a few things.&#160; Thou shalt offer the gift of thy shoulders, and the sacrifice of sanctification, and the first-fruits of the holy things to the Lord.&#160; And stretch thine hand unto the poor, that thine atonement and blessing may be perfected.&#8221;&nbsp;<A NAME="fr_2865"></A><A HREF="#fn_2865"><FONT SIZE="1">2866</FONT></A>
+&#160; We desire these things to become known not to you only, but through you to all the brethren, that we may abide in Christ of one accord and one mind, making no claim for ourselves through strife or vainglory, and being pleasers not of men, but of God our Saviour.&#160; To Him belongeth honour and glory, for ever and ever.&#160; Amen.</p> 
+<p style="font-size: 16pt" class="c34"><a name="viii.viii.ii.iii-p31"></A> &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212; </p>     
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_2841"></A><A HREF="0081430.html#fr_2841">633:2842</A> <a name="viii.viii.ii.iii-p3.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p4"></A> <a href="../../../../bib/kjv/act004.html#032">Acts iv. 32</a><a name="viii.viii.ii.iii-p4.1"></A>.</p>
+<A NAME="fn_2842"></A><A HREF="0081430.html#fr_2842">633:2843</A> <a name="viii.viii.ii.iii-p4.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p5"></A> <a href="../../../../bib/kjv/mat007.html#012">Matt. 7:12</a>, <a href="../../../../bib/kjv/luk006.html#000">Luke 6:0</a><a name="viii.viii.ii.iii-p5.1"></A>.</p>
+<A NAME="fn_2843"></A><A HREF="0081430.html#fr_2843">633:2844</A> <a name="viii.viii.ii.iii-p5.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p6"></A> <a href="../../../../bib/kjv/mat022.html#039">Matt. 22:39</a>, <a href="../../../../bib/kjv/mar012.html#031">Mark 12:31</a><a name="viii.viii.ii.iii-p6.1"></A>.</p>
+<A NAME="fn_2844"></A><A HREF="0081430.html#fr_2844">633:2845</A> <a name="viii.viii.ii.iii-p6.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p7"></A> <a href="../../../../bib/kjv/rom013.html#010">Rom. xiii. 10</a><a name="viii.viii.ii.iii-p7.1"></A>.</p>
+<A NAME="fn_2845"></A><A HREF="0081430.html#fr_2845">634:2846</A> <a name="viii.viii.ii.iii-p7.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p8"></A> <a href="../../../../bib/kjv/ti1002.html#024">1 Tim. ii. 24</a><a name="viii.viii.ii.iii-p8.1"></A>.</p>
+<A NAME="fn_2846"></A><A HREF="0081430.html#fr_2846">634:2847</A> <a name="viii.viii.ii.iii-p8.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p9"></A> <a href="../../../../bib/kjv/pro024.html#017">Prov. xxiv. 17</a><a name="viii.viii.ii.iii-p9.1"></A>, etc.</p>
+<A NAME="fn_2847"></A><A HREF="0081430.html#fr_2847">634:2848</A> <a name="viii.viii.ii.iii-p9.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p10"></A> <a href="../../../../bib/kjv/joh013.html#035">John xiii. 35</a><a name="viii.viii.ii.iii-p10.1"></A>.</p>
+<A NAME="fn_2848"></A><A HREF="0081430.html#fr_2848">634:2849</A> <a name="viii.viii.ii.iii-p10.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p11"></A> <a href="../../../../bib/kjv/deu027.html#017">Deut. xxvii. 17</a><a name="viii.viii.ii.iii-p11.1"></A>.</p>
+<A NAME="fn_2849"></A><A HREF="0081430.html#fr_2849">634:2850</A> <a name="viii.viii.ii.iii-p11.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p12"></A> <a href="../../../../bib/kjv/num003.html#032">Num. iii. 32</a><a name="viii.viii.ii.iii-p12.1"></A>.</p>
+<A NAME="fn_2850"></A><A HREF="0081430.html#fr_2850">634:2851</A> <a name="viii.viii.ii.iii-p12.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p13"></A> <a href="../../../../bib/kjv/num003.html#045">Num. iii. 45</a><a name="viii.viii.ii.iii-p13.1"></A>.</p>
+<A NAME="fn_2851"></A><A HREF="0081430.html#fr_2851">634:2852</A> <a name="viii.viii.ii.iii-p13.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p14"></A> <a href="../../../../bib/kjv/num001.html#051">Num. i. 51</a><a name="viii.viii.ii.iii-p14.1"></A>.</p>
+<A NAME="fn_2852"></A><A HREF="0081430.html#fr_2852">635:2853</A> <a name="viii.viii.ii.iii-p15.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p16"></A> <a href="../../../../bib/kjv/co1006.html#007">1 Cor. vi. 7</a><a name="viii.viii.ii.iii-p16.1"></A>.</p>
+<A NAME="fn_2853"></A><A HREF="0081430.html#fr_2853">635:2854</A> <a name="viii.viii.ii.iii-p16.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p17"></A> <a href="../../../../bib/kjv/mat005.html#040">Matt. v. 40</a><a name="viii.viii.ii.iii-p17.1"></A>.</p>
+<A NAME="fn_2854"></A><A HREF="0081430.html#fr_2854">635:2855</A> <a name="viii.viii.ii.iii-p17.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p18"></A> <a href="../../../../bib/kjv/luk006.html#030">Luke vi. 30</a><a name="viii.viii.ii.iii-p18.1"></A>.</p>
+<A NAME="fn_2855"></A><A HREF="0081430.html#fr_2855">635:2856</A> <a name="viii.viii.ii.iii-p18.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p19"></A> <a href="../../../../bib/kjv/mat005.html#022">Matt. v. 22</a><a name="viii.viii.ii.iii-p19.1"></A>.</p>
+<A NAME="fn_2856"></A><A HREF="0081430.html#fr_2856">635:2857</A> <a name="viii.viii.ii.iii-p19.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p20"></A> <a href="../../../../bib/kjv/gal005.html#021">Gal. v. 21</a><a name="viii.viii.ii.iii-p20.1"></A>.</p>
+<A NAME="fn_2857"></A><A HREF="0081430.html#fr_2857">635:2858</A> <a name="viii.viii.ii.iii-p20.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p21"></A> <a href="../../../../bib/kjv/co1005.html#011">1 Cor. v. 11</a><a name="viii.viii.ii.iii-p21.1"></A>.</p>
+<A NAME="fn_2858"></A><A HREF="0081430.html#fr_2858">635:2859</A> <a name="viii.viii.ii.iii-p21.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p22"></A> <a href="../../../../bib/apo/sir022.html#015">Ecclesiasticus 22.15</a><a name="viii.viii.ii.iii-p22.1"></A>.</p>
+<A NAME="fn_2859"></A><A HREF="0081430.html#fr_2859">635:2860</A> <a name="viii.viii.ii.iii-p22.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p23"></A> <a href="../../../../bib/apo/sir016.html#023">Ecclesiasticus 16.23</a><a name="viii.viii.ii.iii-p23.1"></A>.</p>
+<A NAME="fn_2860"></A><A HREF="0081430.html#fr_2860">635:2861</A> <a name="viii.viii.ii.iii-p23.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p24"></A> <a href="../../../../bib/apo/sir003.html#024">Ecclesiasticus 3.24</a><a name="viii.viii.ii.iii-p24.1"></A>, etc.</p>
+<A NAME="fn_2861"></A><A HREF="0081430.html#fr_2861">636:2862</A> <a name="viii.viii.ii.iii-p24.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p25"></A> <a href="../../../../bib/kjv/mat010.html#024">Matt. x. 24</a><a name="viii.viii.ii.iii-p25.1"></A>.</p>
+<A NAME="fn_2862"></A><A HREF="0081430.html#fr_2862">636:2863</A> <a name="viii.viii.ii.iii-p26.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p27"></A> <a href="../../../../bib/apo/sir010.html#007">Ecclesiasticus 10.7</a><a name="viii.viii.ii.iii-p27.1"></A>, etc.</p>
+<A NAME="fn_2863"></A><A HREF="0081430.html#fr_2863">636:2864</A> <a name="viii.viii.ii.iii-p27.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p28"></A> <a href="../../../../bib/apo/sir011.html#007">Sir. 11:7</a>, <a href="../../../../bib/apo/sir011.html#008">8</a><a name="viii.viii.ii.iii-p28.1"></A>.</p>
+<A NAME="fn_2864"></A><A HREF="0081430.html#fr_2864">636:2865</A> <a name="viii.viii.ii.iii-p28.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p29"></A> <a href="../../../../bib/kjv/rom013.html#002">Rom. xiii. 2</a><a name="viii.viii.ii.iii-p29.1"></A>.</p>
+<A NAME="fn_2865"></A><A HREF="0081430.html#fr_2865">636:2866</A> <a name="viii.viii.ii.iii-p29.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="viii.viii.ii.iii-p30"></A> <a href="../../../../bib/apo/sir007.html#029">Ecclesiasticus 7.29-32</a><a name="viii.viii.ii.iii-p30.1"></A>.</p>
+<p><HR>
+<CENTER>
+<A HREF="0081431.html">Next: To Bishop Hilary.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/008/0081430.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/008/0081430.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/2cyvtzt'>tak.la/2cyvtzt</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/2cyvtzt';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+

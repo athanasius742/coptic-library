@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. VIII: Fathers of the Third and Fourth Centuries: The Twelve Patriarchs, Excerpts and Epistles, The Clementina, Apocrypha, Decretals, Memoirs of Edessa and Syriac Documents, Remains of the First Ages | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Twelve Patriarchs Excerpts Epistles Clementina Apocrypha Decretals Memoirs Edessa Syriac Documents Remains First Ages">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol VIII: Indexes: Greek Words and Phrases | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/008/0081536.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:34:13+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/008/'>008</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/008/'>008</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Ante-Nicene Fathers, Vol VIII:
+<br>
+Indexes: Greek Words and Phrases</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="0081535.html" id="prev">Previous</A>&nbsp;
+<A HREF="0081537.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="xi.ii"></A>   <h2 align="center"><a name="xi.ii-p0.1"></A>Index of Greek Words and Phrases</h2>        <a name="xi.ii-p0.3"></A>       <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p39.3"> .</A></span>  <li><span class="Greek"><a href="0081525.html#x.xi-p21.1">&#787;&#769;&#8158;</A></span>  <li><span class="Greek"><a href="0081351.html#vii.xxiii.ii-p3.1">&#7936;&#8051;</A></span>  <li><span class="Greek"><a href="0081047.html#vi.iv.xviii.vii-p6.1">&#7936;&#8147;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p100.1">&#7936;&#946;&#955;&#945;&#946;&#8051;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p100.2">&#7936;&#946;&#955;&#945;&#946;&#8134;</A></span>  <li><span class="Greek"><a href="0081122.html#vi.iv.xxii.iii-p6.6">&#7936;&#947;&#8051;&#957;&#951;&#964;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p19.1">&#7936;&#947;&#8051;&#957;&#957;&#951;&#964;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081122.html#vi.iv.xxii.iii-p6.7">&#7936;&#947;&#8051;&#957;&#957;&#951;&#964;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081154.html#vi.iv.xxiii.ix-p6.1">&#7936;&#947;&#945;&#952;&#8057;&#962;</A></span>  <li><span class="Greek"><a href="0081154.html#vi.iv.xxiii.ix-p6.2">&#7936;&#947;&#945;&#952;&#959;&#8150;&#962;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p161.1">&#7936;&#947;&#967;&#959;&#957;&#953;&#956;&#945;&#8055;&#8179; &#956;&#8057;&#961;&#8179;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p77.1">&#7936;&#948;&#953;&#8049;&#966;&#959;&#961;&#959;&#953;</A></span>  <li><span class="Greek"><a href="0080652.html#vi.iv.v.xix-p4.2">&#7936;&#948;&#953;&#945;&#966;&#8057;&#961;&#959;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081138.html#vi.iv.xxii.xix-p6.2">&#7936;&#948;&#953;&#954;&#949;&#8150;&#957;</A></span>  <li><span class="Greek"><a href="0080004.html#iii.ii-p30.2">&#7936;&#952;&#949;&#964;&#949;&#8150;&#957;, &#957;&#959;&#965;&#952;&#949;&#964;&#949;&#8150;&#957;</A></span>  <li><span class="Greek"><a href="0080421.html#vi.iii.x.xv-p2.3">&#7936;&#954;&#945;&#964;&#959;&#957;&#8057;&#956;&#945;&#963;&#964;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081488.html#ix.xviii-p38.2">&#7936;&#954;&#959;&#955;&#8049;&#963;&#964;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0081488.html#ix.xviii-p38.1">&#7936;&#954;&#959;&#955;&#8049;&#963;&#964;&#969;&#962; &#950;&#8182;&#963;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p79.3">&#7936;&#954;&#961;&#953;&#946;&#8182;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p79.1">&#7936;&#954;&#961;&#953;&#946;&#959;&#8166;&#962;</A></span>  <li><span class="Greek"><a href="0081056.html#vi.iv.xix.iv-p3.2">&#7936;&#955;&#951;&#952;&#949;&#8059;&#949;&#953;&#957;</A></span>  <li><span class="Greek"><a href="0080421.html#vi.iii.x.xv-p2.1">&#7936;&#956;&#949;&#961;&#8134;</A></span>  <li><span class="Greek"><a href="0081233.html#vii.viii-p38.1">&#7936;&#957;&#8049;&#960;&#951;&#961;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081058.html#vi.iv.xix.vi-p4.1">&#7936;&#957;&#945;&#946;&#955;&#8051;&#968;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0081365.html#vii.xxix-p23.2">&#7936;&#957;&#945;&#948;&#8051;&#958;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0081365.html#vii.xxix-p23.1">&#7936;&#957;&#945;&#948;&#949;&#8055;&#958;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0080016.html#iii.xiv-p6.1">&#7936;&#957;&#945;&#956;&#8049;&#961;&#964;&#951;&#964;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081488.html#ix.xviii-p42.2">&#7936;&#957;&#948;&#961;&#949;&#8150;&#959;&#953;</A></span>  <li><span class="Greek"><a href="0081448.html#ix.iii-p37.1">&#7936;&#957;&#964;&#953;&#947;&#961;&#945;&#966;&#8051;&#957;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0081528.html#x.xiv-p13.1">&#7936;&#958;&#953;&#8057;&#960;&#953;&#963;&#964;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081376.html#vii.xxxiv-p15.2">&#7936;&#960;&#8053;&#967;&#952;&#951;&#957;</A></span>  <li><span class="Greek"><a href="0080005.html#iii.iii-p9.1">&#7936;&#960;&#8057;</A></span>  <li><span class="Greek"><a href="0081465.html#ix.ix.i-p182.1">&#7936;&#960;&#8057;&#966;&#945;&#963;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081351.html#vii.xxiii.ii-p3.3">&#7936;&#960;&#949;&#954;&#8053;&#961;&#965;&#958;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0081088.html#vi.iv.xx.xiv-p3.1">&#7936;&#960;&#949;&#954;&#955;&#8055;&#957;&#969;</A></span>  <li><span class="Greek"><a href="0081088.html#vi.iv.xx.xiv-p3.2">&#7936;&#960;&#949;&#954;&#961;&#8055;&#957;&#969;</A></span>  <li><span class="Greek"><a href="0081394.html#viii.iii.ii.ii-p4.1">&#7936;&#960;&#959;&#954;&#961;&#8055;&#957;&#959;&#956;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0080007.html#iii.v-p50.1">&#7936;&#960;&#959;&#963;&#964;&#8053;&#963;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0081044.html#vi.iv.xviii.iv-p5.1">&#7936;&#960;&#961;&#945;&#963;&#8055;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p19.1">&#7936;&#961;&#967;&#8053;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p16.1">&#7936;&#961;&#967;&#8053;&#957;</A></span>  <li><span class="Greek"><a href="0081124.html#vi.iv.xxii.v-p4.2">&#7936;&#961;&#967;&#8135;</A></span>  <li><span class="Greek"><a href="0080007.html#iii.v-p23.1">&#7936;&#961;&#967;&#945;&#8055;</A></span>  <li><span class="Greek"><a href="0080007.html#iii.v-p17.2">&#7936;&#963;&#960;&#8055;&#962;</A></span>  <li><span class="Greek"><a href="0080888.html#vi.iv.xii.v-p2.2">&#7936;&#963;&#964;&#8051;&#961;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081510.html#x.v.xiii-p8.1">&#7936;&#966;&#949;&#963;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081499.html#x.v.ii-p14.1">&#7936;&#966;&#952;&#8057;&#957;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0080029.html#v.iii.iv-p3.2">&#7937;&#947;&#953;&#945;&#963;&#956;&#8057;&#962;</A></span>  <li><span class="Greek"><a href="0081138.html#vi.iv.xxii.xix-p6.1">&#7940;&#948;&#953;&#954;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081483.html#ix.xiv.i-p85.1">&#7940;&#950;&#965;&#956;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081072.html#vi.iv.xix.xx-p4.2">&#7940;&#957;</A></span>  <li><span class="Greek"><a href="0081488.html#ix.xviii-p42.1">&#7940;&#957;&#945;&#957;&#948;&#961;&#959;&#953;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p66.1">&#7940;&#957;&#952;&#961;&#969;&#960;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081233.html#vii.viii-p38.2">&#7940;&#960;&#949;&#953;&#961;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081038.html#vi.iv.xvii.xi-p6.2">&#7940;&#960;&#949;&#967;&#949;</A></span>  <li><span class="Greek"><a href="0081483.html#ix.xiv.i-p57.1">&#7940;&#961;&#953;&#963;&#964;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p138.1">&#7952;&#8118;</A></span>  <li><span class="Greek"><a href="0081483.html#ix.xiv.i-p73.2">&#7952;&#947;&#954;&#8057;&#960;&#964;&#969;</A></span>  <li><span class="Greek"><a href="0080005.html#iii.iii-p17.3">&#7952;&#947;&#961;&#8053;&#947;&#959;&#961;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p34.1">&#7952;&#954;</A></span>  <li><span class="Greek"><a href="0081315.html#vii.xv.xv-p6.1">&#7952;&#954;&#8057;&#960;&#964;&#959;&#957;&#964;&#959;</A></span>  <li><span class="Greek"><a href="0081517.html#x.vi.ii.i-p8.3">&#7952;&#954;&#945;&#955;&#949;&#8150;&#964;&#959; &#931;&#945;&#948;&#948;&#8054;&#954; &#954;&#945;&#8054; &#8125;&#937;&#950;&#955;&#953;&#8048;&#956;, &#8005; &#7952;&#963;&#964;&#953;&#957; &#948;&#8055;&#954;&#945;&#953;&#959;&#962; &#954;&#945;&#8054; &#960;&#949;&#961;&#953;&#959;&#967;&#8052; &#964;&#959;&#8166; &#955;&#945;&#959;&#8166;</A></span>  <li><span class="Greek"><a href="0081488.html#ix.xviii-p46.1">&#7952;&#954;&#946;&#945;&#954;&#967;&#949;&#965;&#8057;&#956;&#949;&#957;&#959;&#953;</A></span>  <li><span class="Greek"><a href="0080007.html#iii.v-p42.2">&#7952;&#954;&#949;&#8150;&#957;&#959;&#962; &#8001; &#960;&#955;&#8049;&#957;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081488.html#ix.xviii-p45.1">&#7952;&#954;&#954;&#945;&#955;&#959;&#8059;&#956;&#949;&#957;&#959;&#953; &#960;&#961;&#8056;&#962; &#959;&#8150;&#963;&#964;&#961;&#8061;&#948;&#949;&#953;&#962; &#954;&#953;&#957;&#8053;&#963;&#949;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0080618.html#vi.iv.iv.viii-p4.2">&#7952;&#954;&#954;&#955;&#8051;&#960;&#964;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081483.html#ix.xiv.i-p85.2">&#7952;&#954;&#955;&#949;&#8055;&#960;&#969;</A></span>  <li><span class="Greek"><a href="0080618.html#vi.iv.iv.viii-p4.1">&#7952;&#954;&#960;&#955;&#959;&#954;&#8182;&#957;</A></span>  <li><span class="Greek"><a href="0080011.html#iii.ix-p12.2">&#7952;&#954;&#960;&#959;&#961;&#957;&#949;&#8059;&#959;&#957;&#964;&#949;&#962;</A></span>  <li><span class="Greek"><a href="0081151.html#vi.iv.xxiii.vi-p3.1">&#7952;&#956;&#966;&#8059;&#964;&#959;&#965;</A></span>  <li><span class="Greek"><a href="0081134.html#vi.iv.xxii.xv-p3.1">&#7952;&#956;&#968;&#8059;&#967;&#959;&#965;&#962;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p34.2">&#7952;&#957;</A></span>  <li><span class="Greek"><a href="0080008.html#iii.vi-p21.1">&#7952;&#957; &#8125;&#913;&#957;&#959;&#957;&#953;&#961;&#8049;&#956;</A></span>  <li><span class="Greek"><a href="0080004.html#iii.ii-p33.1">&#7952;&#957; &#964;&#8049;&#958;&#949;&#953;, &#7940;&#964;&#945;&#954;&#964;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081233.html#vii.viii-p27.1">&#7952;&#957; &#964;&#8135; &#947;&#949;&#953;&#964;&#959;&#957;&#8055;&#8115;</A></span>  <li><span class="Greek"><a href="0081233.html#vii.viii-p27.2">&#7952;&#957; &#964;&#8135; &#947;&#969;&#957;&#8055;&#8115;</A></span>  <li><span class="Greek"><a href="0080014.html#iii.xii-p12.2">&#7952;&#957; &#964;&#8135; &#949;&#8016;&#966;&#961;&#959;&#963;&#8059;&#957;&#8131; &#7969; &#956;&#8051;&#952;&#951;, &#7952;&#957; &#964;&#8183; &#947;&#8051;&#955;&#969;&#964;&#953; &#964;&#8056; &#960;&#8051;&#957;&#952;&#959;&#962;, &#7952;&#957; &#964;&#8183; &#947;&#8049;&#956;&#8179; &#7969; &#7936;&#954;&#961;&#945;&#963;&#8055;&#945;</A></span>  <li><span class="Greek"><a href="0081079.html#vi.iv.xx.v-p7.3">&#7952;&#957;&#8049;&#961;&#947;&#949;&#953;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0081079.html#vi.iv.xx.v-p7.2">&#7952;&#957;&#8051;&#961;&#947;&#949;&#953;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0081087.html#vi.iv.xx.xiii-p4.10">&#7952;&#957;&#8059;&#960;&#957;&#953;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081088.html#vi.iv.xx.xiv-p5.1">&#7952;&#957;&#945;&#961;&#947;&#8182;&#962;</A></span>  <li><span class="Greek"><a href="0081087.html#vi.iv.xx.xiii-p4.3">&#7952;&#957;&#945;&#961;&#947;&#949;&#8055;&#8115;</A></span>  <li><span class="Greek"><a href="0081087.html#vi.iv.xx.xiii-p4.2">&#7952;&#957;&#949;&#961;&#947;&#949;&#8055;&#8115;</A></span>  <li><span class="Greek"><a href="0081468.html#ix.xi-p17.1">&#7952;&#957;&#964;&#959;&#955;&#953;&#954;&#8057;&#962;</A></span>  <li><span class="Greek"><a href="0080822.html#vi.iv.ix.iv-p3.1">&#7952;&#958; &#7936;&#954;&#959;&#965;&#963;&#964;&#959;&#8166;</A></span>  <li><span class="Greek"><a href="0080822.html#vi.iv.ix.iv-p3.2">&#7952;&#958;&#945;&#954;&#959;&#957;&#964;&#953;&#963;&#964;&#8057;&#957;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p79.2">&#7952;&#958;&#949;&#964;&#8049;&#963;&#949;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0080008.html#iii.vi-p21.2">&#7952;&#960;&#8049;&#957;&#969; &#8125;&#921;&#961;&#8049;&#956;</A></span>  <li><span class="Greek"><a href="0081247.html#vii.x.xii-p3.1">&#7952;&#960;&#8054; &#960;&#959;&#955;&#955;&#951;&#957; &#969;&#961;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0080007.html#iii.v-p12.1">&#7952;&#960;&#8054; &#964;&#8179; &#960;&#8049;&#952;&#949;&#953; &#964;&#959;&#8166; &#8190;&#933;&#968;&#953;&#963;&#959;&#8166;</A></span>  <li><span class="Greek"><a href="0081015.html#vi.iv.xvi.x-p4.1">&#7952;&#960;&#8054; &#964;&#8183; &#946;&#945;&#960;&#964;&#8055;&#963;&#956;&#945;&#964;&#953;</A></span>  <li><span class="Greek"><a href="0081462.html#ix.vii-p38.1">&#7952;&#960;&#8055;&#963;&#954;&#959;&#960;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081456.html#ix.v.vi-p8.1">&#7952;&#960;&#8055;&#964;&#961;&#959;&#960;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081083.html#vi.iv.xx.ix-p5.1">&#7952;&#960;&#8125; &#7936;&#960;&#949;&#8055;&#961;&#959;&#965;&#962; &#964;&#961;&#949;&#8150;&#962;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p82.1">&#7952;&#960;&#8125; &#949;&#8016;&#949;&#961;&#947;&#949;&#963;&#8055;&#8115;</A></span>  <li><span class="Greek"><a href="0081124.html#vi.iv.xxii.v-p4.1">&#7952;&#960;&#949;&#8055;</A></span>  <li><span class="Greek"><a href="0081510.html#x.v.xiii-p11.1">&#7952;&#960;&#951;&#961;&#956;&#8051;&#957;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p35.3">&#7952;&#960;&#953;&#946;&#959;&#955;&#8053;&#957;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p35.4">&#7952;&#960;&#953;&#946;&#959;&#965;&#955;&#8053;&#957;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p162.2">&#7952;&#960;&#953;&#952;&#965;&#956;&#951;&#964;&#8049;</A></span>  <li><span class="Greek"><a href="0081166.html#vi.iv.xxiii.xxi-p3.1">&#7952;&#960;&#953;&#964;&#951;&#948;&#949;&#953;&#8057;&#964;&#945;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0080808.html#vi.iv.viii.xxi-p3.2">&#7952;&#961;&#8061;&#957;&#964;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081286.html#vii.xiii.xvi-p7.2">&#7952;&#963;&#8053;&#954;&#969;&#963;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0081286.html#vii.xiii.xvi-p7.1">&#7952;&#963;&#8055;&#954;&#969;&#963;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p82.2">&#7952;&#963;&#964;&#8054;&#957; &#949;&#8016;&#949;&#961;&#947;&#949;&#963;&#8055;&#945;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p150.3">&#7952;&#966;&#8125;</A></span>  <li><span class="Greek"><a href="0080016.html#iii.xiv-p13.3">&#7953;&#960;&#964;&#8049;</A></span>  <li><span class="Greek"><a href="0080016.html#iii.xiv-p13.1">&#7953;&#960;&#964;&#945;&#954;&#959;&#963;&#8055;&#959;&#953;&#962; &#7956;&#964;&#949;&#963;&#953;&#957;</A></span>  <li><span class="Greek"><a href="0080008.html#iii.vi-p9.1">&#7953;&#964;&#8051;&#961;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p53.2">&#7953;&#964;&#945;&#8150;&#961;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0080035.html#v.iii.x-p5.1">&#7955;&#957; &#948;&#953;&#8048; &#948;&#965;&#959;&#8150;&#957;</A></span>  <li><span class="Greek"><a href="0080769.html#vi.iv.vii.viii-p3.3">&#7956;&#952;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0081488.html#ix.xviii-p13.2">&#7956;&#952;&#957;&#951;</A></span>  <li><span class="Greek"><a href="0081368.html#vii.xxxii-p38.1">&#7956;&#954;&#945;&#953;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081368.html#vii.xxxii-p38.2">&#7956;&#954;&#945;&#956;&#957;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081465.html#ix.ix.i-p200.1">&#7956;&#960;&#945;&#961;&#967;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p53.1">&#7957;&#964;&#949;&#961;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081269.html#vii.xii.xvii-p19.1">&#7957;&#969;&#962; &#964;&#959;&#8166; &#963;&#8061;&#956;&#956;&#959;&#965;</A></span>  <li><span class="Greek"><a href="0081376.html#vii.xxxiv-p15.1">&#7968;&#960;&#949;&#8055;&#967;&#952;&#951;&#957;</A></span>  <li><span class="Greek"><a href="0081525.html#x.xi-p21.3">&#7968;&#961;&#964;&#965;&#949;</A></span>  <li><span class="Greek"><a href="0080005.html#iii.iii-p7.2">&#7969;</A></span>  <li><span class="Greek"><a href="0081465.html#ix.ix.i-p53.1">&#7969;&#947;&#949;&#956;&#8061;&#957;</A></span>  <li><span class="Greek"><a href="0081149.html#vi.iv.xxiii.iv-p4.1">&#7969;&#956;</A></span>  <li><span class="Greek"><a href="0081149.html#vi.iv.xxiii.iv-p4.2">&#7970;</A></span>  <li><span class="Greek"><a href="0081143.html#vi.iv.xxii.xxiv-p5.6">&#7972;</A></span>  <li><span class="Greek"><a href="0081122.html#vi.iv.xxii.iii-p4.1">&#7972;, &#7970;,</A></span>  <li><span class="Greek"><a href="0081062.html#vi.iv.xix.x-p4.1">&#7984;&#948;&#8051;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0081077.html#vi.iv.xx.iii-p3.1">&#7984;&#948;&#949;&#8182;&#957;</A></span>  <li><span class="Greek"><a href="0081054.html#vi.iv.xix.ii-p3.1">&#7984;&#948;&#953;&#8061;&#964;&#951;&#962;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p18.1">&#7988;&#963;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0080013.html#iii.xi-p8.1">&#8000;&#955;&#953;&#947;&#959;&#968;&#965;&#967;&#8055;&#945;</A></span>  <li><span class="Greek"><a href="0081527.html#x.xiii-p13.1">&#8000;&#957;&#8057;&#956;&#945;&#964;&#953;</A></span>  <li><span class="Greek"><a href="0081528.html#x.xiv-p19.1">&#8000;&#960;&#953;&#963;&#952;&#8057;&#948;&#959;&#956;&#8057;&#962;</A></span>  <li><span class="Greek"><a href="0081087.html#vi.iv.xx.xiii-p4.8">&#8000;&#960;&#964;&#945;&#963;&#8055;&#945;</A></span>  <li><span class="Greek"><a href="0081505.html#x.v.viii-p5.1">&#8001;</A></span>  <li><span class="Greek"><a href="0081365.html#vii.xxix-p67.1">&#8001;&#956;&#8057;&#957;&#959;&#953;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0081117.html#vi.iv.xxi.xxii-p4.1">&#8001;&#956;&#959;&#8055;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0081527.html#x.xiii-p13.2">&#8001;&#957;&#8057;&#956;&#945;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0081062.html#vi.iv.xix.x-p6.2">&#8001;&#961;&#956;&#8053;&#956;&#945;&#964;&#953;</A></span>  <li><span class="Greek"><a href="0081448.html#ix.iii-p49.1">&#8001;&#962;</A></span>  <li><span class="Greek"><a href="0080421.html#vi.iii.x.xv-p2.2">&#8004;&#947;&#954;&#959;&#953;</A></span>  <li><span class="Greek"><a href="0081510.html#x.v.xiii-p9.1">&#8004;&#961;&#952;&#953;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081117.html#vi.iv.xxi.xxii-p4.2">&#8005;&#956;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0081087.html#vi.iv.xx.xiii-p4.9">&#8005;&#961;&#945;&#956;&#945;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p34.1">&#8005;&#964;&#945;&#957; &#959;&#8022;&#957; &#960;&#953;&#963;&#964;&#959;&#8166; &#963;&#8061;&#956;&#945;&#964;&#959;&#962; &#8080;</A></span>  <li><span class="Greek"><a href="0081530.html#x.xvi-p28.1">&#8005;&#964;&#953;</A></span>  <li><span class="Greek"><a href="0081152.html#vi.iv.xxiii.vii-p9.2">&#8005;, &#964;&#953;</A></span>  <li><span class="Greek"><a href="0081528.html#x.xiv-p25.1">&#8016;&#960;&#8057;&#963;&#964;&#945;&#963;&#953;&#957;</A></span>  <li><span class="Greek"><a href="0081528.html#x.xiv-p18.2">&#8016;&#964;&#8182;&#957;</A></span>  <li><span class="Greek"><a href="0081528.html#x.xiv-p25.2">&#8016;&#966;&#8055;&#963;&#964;&#951;&#956;&#953;</A></span>  <li><span class="Greek"><a href="0080674.html#vi.iv.v.xli-p3.2">&#8017;&#960;&#8051;&#961;</A></span>  <li><span class="Greek"><a href="0081044.html#vi.iv.xviii.iv-p6.1">&#8017;&#960;&#8056; &#952;&#949;&#961;&#945;&#960;&#949;&#8055;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0080674.html#vi.iv.v.xli-p3.1">&#8017;&#960;&#8057;</A></span>  <li><span class="Greek"><a href="0081488.html#ix.xviii-p23.1">&#8017;&#960;&#949;&#961;&#946;&#8049;&#955;&#955;&#969;</A></span>  <li><span class="Greek"><a href="0081530.html#x.xvi-p30.1">&#8017;&#960;&#949;&#961;&#946;&#949;&#946;&#955;&#951;&#956;&#8051;&#957;&#969;&#962; &#954;&#945;&#8054; &#8017;&#960;&#8050;&#961; &#960;&#8049;&#957;&#964;&#945; &#7940;&#957;&#952;&#961;&#969;&#960;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081499.html#x.v.ii-p69.1">&#8017;&#960;&#949;&#961;&#951;&#966;&#8049;&#957;&#969;&#957; &#947;&#953;&#947;&#8049;&#957;&#964;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081462.html#ix.vii-p37.1">&#8017;&#960;&#959;&#948;&#953;&#8049;&#954;&#959;&#957;&#959;&#953;</A></span>  <li><span class="Greek"><a href="0081530.html#x.xvi-p30.2">&#8017;&#960;&#959;&#956;&#8051;&#957;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081488.html#ix.xviii-p6.1">&#8017;&#960;&#959;&#956;&#957;&#8053;&#956;&#945;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0081465.html#ix.ix.i-p4.3">&#8017;&#960;&#959;&#956;&#957;&#951;&#956;&#945;&#964;&#959;&#947;&#961;&#8049;&#966;&#959;&#953;</A></span>  <li><span class="Greek"><a href="0081023.html#vi.iv.xvi.xviii-p5.1">&#8017;&#960;&#959;&#960;&#964;&#949;&#8059;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0081382.html#vii.xl-p13.1">&#8021;&#955;&#951;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p32.2">&#8033;&#962;</A></span>  <li><span class="Greek"><a href="0081381.html#vii.xxxix-p7.1">&#8051;</A></span>  <li><span class="Greek"><a href="0081525.html#x.xi-p12.1">&#8125;&#913;&#8164;&#8165;&#945;&#948;&#953;&#959;&#8059;&#961;&#947;&#951;&#964;&#959;&#957; &#7940;&#947;&#959;&#956;&#949;&#957; &#964;&#8052;&#957; &#7969;&#956;&#8051;&#961;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0080006.html#iii.iv-p16.2">&#8125;&#913;&#948;&#8049;&#956;</A></span>  <li><span class="Greek"><a href="0080541.html#vi.iii.xii.xxxiii-p3.1">&#8125;&#913;&#952;&#8053;&#957;&#951;</A></span>  <li><span class="Greek"><a href="0081520.html#x.vi.ii.iv-p9.1">&#8125;&#913;&#954;&#959;&#945;&#8150;&#962; &#956;&#945;&#964;&#945;&#8055;&#945;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p59.1">&#8125;&#913;&#957;&#8049;&#961;&#967;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0080061.html#vi.iii.ii-p6.1">&#8125;&#913;&#957;&#945;&#947;&#957;&#8061;&#963;&#949;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081448.html#ix.iii-p28.1">&#8125;&#913;&#957;&#945;&#957;&#8055;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p122.1">&#8125;&#913;&#957;&#945;&#963;&#964;&#961;&#8051;&#966;&#949;&#953; &#7952;&#960;&#8054; &#956;&#8057;&#957;&#959;&#965;&#962; &#964;&#959;&#8058;&#962; &#7952;&#957; &#963;&#945;&#961;&#954;&#8055;</A></span>  <li><span class="Greek"><a href="0081522.html#x.viii-p13.1">&#8125;&#913;&#961;&#967;&#8053;&#957;</A></span>  <li><span class="Greek"><a href="0081506.html#x.v.ix-p15.1">&#8125;&#917;&#947;&#947;&#961;&#8049;&#966;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p21.1">&#8125;&#917;&#954; &#964;&#8182;&#957; &#8017;&#960;&#959;&#963;&#964;&#8049;&#957;&#964;&#969;&#957; &#947;&#949;&#957;&#951;&#964;&#8182;&#957;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p22.1">&#8125;&#917;&#954; &#964;&#959;&#8166; &#8021;&#955;&#951;&#957; &#945;&#8016;&#964;&#8056;&#957; &#8017;&#960;&#959;&#964;&#953;&#952;&#8051;&#957;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0080011.html#iii.ix-p12.1">&#8125;&#917;&#954;&#960;&#959;&#961;&#949;&#8059;&#959;&#957;&#964;&#949;&#962;</A></span>  <li><span class="Greek"><a href="0081520.html#x.vi.ii.iv-p10.1">&#8125;&#917;&#956;&#8051;&#961;&#953;&#963;&#945;&#957; &#964;&#8052;&#957; &#949;&#957;&#969;&#963;&#953;&#957; &#964;&#8134;&#962; &#7952;&#954;&#954;&#955;&#951;&#963;&#8055;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p153.1">&#8125;&#917;&#957; &#964;&#8135; &#7936;&#954;&#961;&#8135; &#7936;&#960;&#959;&#954;&#945;&#964;&#945;&#963;&#964;&#8049;&#963;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0081520.html#x.vi.ii.iv-p4.1">&#8125;&#917;&#957; &#964;&#8183; &#8000;&#961;&#952;&#8183; &#955;&#8057;&#947;&#8179;</A></span>  <li><span class="Greek"><a href="0081087.html#vi.iv.xx.xiii-p4.4">&#8125;&#917;&#957;&#8049;&#961;&#947;&#949;&#953;&#945;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p28.1">&#8125;&#917;&#958; &#959;&#8016;&#954; &#8004;&#957;&#964;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081522.html#x.viii-p8.1">&#8125;&#917;&#960;&#8055;&#955;&#965;&#963;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081525.html#x.xi-p19.1">&#8125;&#917;&#960;&#953;&#963;&#954;&#959;&#960;&#951;&#957;</A></span>  <li><span class="Greek"><a href="0080009.html#iii.vii-p4.2">&#8125;&#921;&#945;&#954;&#8061;&#946;</A></span>  <li><span class="Greek"><a href="0081508.html#x.v.xi-p8.1">&#8125;&#921;&#951;&#963;&#959;&#8166;&#962; &#925;&#945;&#965;&#8134;</A></span>  <li><span class="Greek"><a href="0080004.html#iii.ii-p50.4">&#8125;&#929;&#959;&#965;&#946;&#8053;&#956;</A></span>  <li><span class="Greek"><a href="0081517.html#x.vi.ii.i-p8.5">&#8125;&#937;&#946;&#955;&#8055;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0081506.html#x.v.ix-p8.1">&#8142;&#917;&#963;&#964;&#969; &#954;&#945;&#955;&#8182;&#962; &#947;&#949;&#957;&#8057;&#956;&#949;&#957;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081507.html#x.v.x-p5.1">&#8142;&#927;&#957;&#964;&#969;&#962; &#920;&#949;&#959;&#8166; &#923;&#8057;&#947;&#959;&#965;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p154.1">&#8158;&#919;</A></span>  <li><span class="Greek"><a href="0081316.html#vii.xv.xvi-p9.1">&#8165;&#8134;</A></span>  <li><span class="Greek"><a href="0081041.html#vi.iv.xviii.i-p7.1">&#8165;&#951;&#964;&#959;&#8166; &#948;&#8057;&#947;&#956;&#945;&#964;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081518.html#x.vi.ii.ii-p9.1">&#8190;&#919;</A></span>  <li><span class="Greek"><a href="0081512.html#x.v.xv-p5.2">&#8190;&#927;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p6.1">&#8190;&#927; &#960;&#949;&#961;&#8054; &#949;&#7985;&#956;&#945;&#961;&#956;&#8051;&#957;&#951;&#962; &#948;&#953;&#8049;&#955;&#959;&#947;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081519.html#x.vi.ii.iii-p4.1">&#8190;&#933;&#960;&#945;&#964;&#953;&#954;&#959;&#8166;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p29.1">&#8190;&#933;&#960;&#959;&#954;&#949;&#953;&#956;&#8051;&#957;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081496.html#x.iv-p15.1">&#8190;&#933;&#960;&#959;&#964;&#965;&#960;&#8061;&#963;&#8182;&#962;</A></span>  <li><span class="Greek"><a href="0081529.html#x.xv-p18.1">&#8190;&#937;&#962; &#7988;&#948;&#953;&#945; &#952;&#949;&#955;&#8053;&#956;&#945;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0081506.html#x.v.ix-p14.1">&#146;&#913;&#966;&#8125; &#8039;&#957; &#954;&#945;&#8054; &#964;&#8056; &#964;&#8134;&#962; &#963;&#965;&#954;&#959;&#966;&#945;&#957;&#964;&#8055;&#945;&#962; &#7936;&#955;&#8057;&#947;&#8179; &#963;&#965;&#957;&#951;&#952;&#949;&#8055;&#8115; &#960;&#949;&#961;&#8054; &#964;&#959;&#8166;&#962; &#964;&#959;&#953;&#959;&#8059;&#964;&#959;&#965;&#962; &#8165;&#965;&#8134;&#957;&#945;&#953; &#963;&#965;&#956;&#946;&#8051;&#946;&#951;&#954;&#949; &#968;&#949;&#8166;&#948;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081527.html#x.xiii-p16.1">&#913;&#7985;&#961;&#8051;&#963;&#949;&#953; &#964;&#953;&#957;&#8054; &#8001; &#957;&#959;&#8166;&#962; &#945;&#8016;&#964;&#8182;&#957; &#7952;&#957;&#949;&#966;&#8061;&#955;&#949;&#965;&#949;&#957;</A></span>  <li><span class="Greek"><a href="0081465.html#ix.ix.i-p8.1">&#913;&#8016;&#964;&#959;&#954;&#961;&#8049;&#964;&#969;&#961;</A></span>  <li><span class="Greek"><a href="0080008.html#iii.vi-p15.1">&#915;&#945;&#8118;&#962; &#960;&#8057;&#955;&#953;&#962; &#946;&#945;&#963;&#953;&#955;&#8051;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081127.html#vi.iv.xxii.viii-p3.4">&#916;&#8050;</A></span>  <li><span class="Greek"><a href="0081517.html#x.vi.ii.i-p8.4">&#916;&#8055;&#954;&#945;&#953;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081525.html#x.xi-p15.1">&#916;&#8059;&#959; &#952;&#965;&#947;&#945;&#964;&#8051;&#961;&#949;&#962; &#945;&#8016;&#964;&#959;&#8166; &#947;&#949;&#947;&#951;&#961;&#945;&#954;&#965;&#8150;&#945;&#953; &#960;&#945;&#961;&#952;&#8051;&#957;&#959;&#953;</A></span>  <li><span class="Greek"><a href="0081522.html#x.viii-p14.1">&#916;&#945;&#953;&#956;&#959;&#957;&#8061;&#963;&#951;&#962;</A></span>  <li><span class="Greek"><a href="0081527.html#x.xiii-p15.1">&#916;&#959;&#954;&#959;&#8166;&#957;</A></span>  <li><span class="Greek"><a href="0081381.html#vii.xxxix-p40.1">&#916;&#961;&#945;&#954;&#8053;&#957;</A></span>  <li><span class="Greek"><a href="0081506.html#x.v.ix-p11.1">&#917;&#8016;&#954;&#964;&#945;&#8150;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081506.html#x.v.ix-p13.1">&#917;&#8016;&#967;&#8049;&#962;</A></span>  <li><span class="Greek"><a href="0081465.html#ix.ix.i-p19.1">&#918;&#949;&#8059;&#962;</A></span>  <li><span class="Greek"><a href="0081525.html#x.xi-p21.2">&#919;&#961;&#957;&#965;&#949;</A></span>  <li><span class="Greek"><a href="0081529.html#x.xv-p14.1">&#920;&#949;&#955;&#8053;&#956;&#945;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0081512.html#x.v.xv-p5.3">&#920;&#949;&#959;&#962; &#960;&#949;&#960;&#959;&#957;&#952;&#949;&#957; &#8017;&#960;&#8056; &#948;&#949;&#958;&#8055;&#945;&#962; &#8125;&#921;&#963;&#961;&#945;&#951;&#955;&#8055;&#964;&#953;&#948;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081281.html#vii.xiii.xi-p5.2">&#920;&#949;&#959;&#964;&#8057;&#954;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0080060.html#vi.iii.i-p20.1">&#922;&#8053;&#961;&#965;&#947;&#956;&#945; &#928;&#8051;&#964;&#961;&#959;&#965;</A></span>  <li><span class="Greek"><a href="0081127.html#vi.iv.xxii.viii-p3.6">&#922;&#945;&#952;&#945;&#961;&#952;&#949;&#953;&#963;&#8182;&#957;</A></span>  <li><span class="Greek"><a href="0080006.html#iii.iv-p13.2">&#922;&#945;&#960;&#960;&#945;&#948;&#959;&#954;&#8055;&#945;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p188.1">&#922;&#961;&#8057;&#957;&#959;&#962;, &#954;.&#964;.&#955;</A></span>  <li><span class="Greek"><a href="0081107.html#vi.iv.xxi.xii-p3.1">&#922;&#965;&#961;&#8055;&#945;</A></span>  <li><span class="Greek"><a href="0081488.html#ix.xviii-p4.1">&#923;&#8057;&#947;&#959;&#962; &#960;&#961;&#8056;&#962; &#8158;&#917;&#955;&#955;&#951;&#957;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0081509.html#x.v.xii-p10.1">&#924;&#949;&#964;&#8048; &#963;&#960;&#959;&#965;&#948;&#8134;&#962;</A></span>  <li><span class="Greek"><a href="0081529.html#x.xv-p15.1">&#927;&#7985; &#960;&#949;&#961;&#8054; &#928;&#8049;&#957;&#964;&#945;&#953;&#957;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081496.html#x.iv-p19.1">&#927;&#8016;&#954; &#7936;&#947;&#949;&#957;&#957;&#8182;&#962;</A></span>  <li><span class="Greek"><a href="0081511.html#x.v.xiv-p6.1">&#927;&#8016;&#963;&#8055;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p42.1">&#927;&#8016;&#963;&#8055;&#945;&#962; &#964;&#953;&#957;&#8049;&#962;</A></span>  <li><span class="Greek"><a href="0081524.html#x.x-p22.1">&#928;&#8049;&#955;&#953;&#957; &#954;&#945;&#952;&#8049;&#961;&#963;&#953;&#945;</A></span>  <li><span class="Greek"><a href="0081525.html#x.xi-p17.1">&#928;&#8051;&#964;&#945;&#955;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p153.1">&#928;&#945;&#961;&#8125; &#8158;&#917;&#955;&#955;&#951;&#963;&#953; &#948;&#8050; &#954;&#945;&#8054; &#959;&#7985; &#963;&#959;&#966;&#959;&#8054; &#7952;&#961;&#969;&#956;&#8051;&#957;&#959;&#965;&#962; &#7956;&#967;&#959;&#957;&#964;&#949;&#962; &#959;&#8016; &#968;&#8051;&#947;&#959;&#957;&#964;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0080015.html#iii.xiii-p4.3">&#928;&#949;&#957;&#964;&#949;&#966;&#961;&#8134;&#962;</A></span>  <li><span class="Greek"><a href="0081506.html#x.v.ix-p17.1">&#928;&#949;&#961;&#8054; &#964;&#959;&#8059;&#964;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0080015.html#iii.xiii-p4.2">&#928;&#949;&#964;&#949;&#966;&#961;&#8055;&#962;</A></span>  <li><span class="Greek"><a href="0080015.html#iii.xiii-p4.4">&#928;&#949;&#964;&#949;&#966;&#961;&#8134;&#962;</A></span>  <li><span class="Greek"><a href="0081522.html#x.viii-p12.1">&#928;&#959;&#955;&#953;&#964;&#949;&#8055;&#8115;</A></span>  <li><span class="Greek"><a href="0081525.html#x.xi-p16.1">&#928;&#959;&#955;&#953;&#964;&#949;&#965;&#963;&#945;&#956;&#8051;&#957;&#951;</A></span>  <li><span class="Greek"><a href="0081517.html#x.vi.ii.i-p11.1">&#928;&#964;&#949;&#961;&#8059;&#947;&#953;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081517.html#x.vi.ii.i-p6.1">&#931;&#8055;&#954;&#949;&#961;&#945;</A></span>  <li><span class="Greek"><a href="0081460.html#ix.vi.i-p15.1">&#931;&#945;&#955;&#945;&#956;&#968;&#953;&#8061;</A></span>  <li><span class="Greek"><a href="0081525.html#x.xi-p13.1">&#931;&#964;&#959;&#953;&#967;&#949;&#8150;&#945;</A></span>  <li><span class="Greek"><a href="0081468.html#ix.xi-p9.2">&#931;&#964;&#961;&#945;&#964;&#951;&#947;&#959;&#8055;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p16.1">&#931;&#965;&#963;&#964;&#959;&#955;&#8053;&#957; &#964;&#953;&#957;&#945;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p43.1">&#931;&#969;&#956;&#945;&#964;&#953;&#954;&#8053;&#957; &#964;&#953;&#957;&#945; &#963;&#8059;&#963;&#964;&#945;&#963;&#953;&#957;</A></span>  <li><span class="Greek"><a href="0081517.html#x.vi.ii.i-p7.1">&#932;&#8048; &#7941;&#947;&#953;&#945;</A></span>  <li><span class="Greek"><a href="0081518.html#x.vi.ii.ii-p6.1">&#932;&#8048; &#7952;&#960;&#953;&#964;&#951;&#948;&#949;&#8059;&#956;&#945;&#964;&#945; &#945;&#8016;&#964;&#959;&#8166;</A></span>  <li><span class="Greek"><a href="0081529.html#x.xv-p17.1">&#932;&#8048; &#8004;&#957;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0081527.html#x.xiii-p14.1">&#932;&#8048; &#964;&#959;&#953;&#945;&#8166;&#964;&#945; &#959;&#8016; &#960;&#945;&#961;&#949;&#955;&#8049;&#946;&#959;&#956;&#949;&#957;</A></span>  <li><span class="Greek"><a href="0081529.html#x.xv-p16.1">&#932;&#8052;&#957; &#7956;&#958;&#969; &#960;&#945;&#8055;&#948;&#949;&#965;&#963;&#953;&#957;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p55.1">&#932;&#8052;&#957; &#963;&#8059;&#963;&#964;&#945;&#963;&#953;&#957; &#7956;&#967;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0081511.html#x.v.xiv-p7.1">&#932;&#8056; &#7936;&#964;&#8051;&#955;&#949;&#962;</A></span>  <li><span class="Greek"><a href="0081509.html#x.v.xii-p8.1">&#932;&#8056; &#958;&#8059;&#955;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081522.html#x.viii-p17.1">&#932;&#8056;&#957; &#955;&#8057;&#947;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p18.1">&#932;&#8182;&#957; &#947;&#953;&#957;&#959;&#956;&#8051;&#957;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081519.html#x.vi.ii.iii-p8.1">&#932;&#959;&#8166; &#963;&#969;&#964;&#951;&#961;&#8055;&#959;&#965; &#954;&#951;&#961;&#965;&#947;&#956;&#945;&#964;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081525.html#x.xi-p24.1">&#932;&#959;&#957; &#956;&#953;&#954;&#961;&#8057;&#957;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p68.1">&#934;&#8059;&#963;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081529.html#x.xv-p10.1">&#934;&#945;&#963;&#8054; &#964;&#8056; &#963;&#8182;&#956;&#945; &#964;&#959;&#8166; &#922;&#965;&#961;&#8055;&#959;&#965; &#7952;&#957; &#964;&#8183; &#7969;&#955;&#8055;&#8179; &#945;&#8016;&#964;&#8056;&#957; &#7936;&#960;&#959;&#964;&#8055;&#952;&#949;&#963;&#952;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0081460.html#ix.vi.i-p114.1">&#934;&#953;&#955;&#8061;&#964;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0080015.html#iii.xiii-p4.1">&#934;&#969;&#964;&#953;&#956;&#8049;&#961;</A></span>  <li><span class="Greek"><a href="0081483.html#ix.xiv.i-p78.1">&#935;&#961;&#953;&#963;&#964;&#953;&#945;&#957;&#959;&#8055;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p13.1">&#935;&#969;&#961;&#951;&#964;&#8056;&#957;</A></span>  <li><span class="Greek"><a href="0081527.html#x.xiii-p8.1">&#936;&#949;&#965;&#948;&#959;&#8166;&#962; &#964;&#8049;&#958;&#949;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0081143.html#vi.iv.xxii.xxiv-p5.8">&#945;&#7984;&#948;&#949;&#8150;&#963;&#952;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p58.2">&#945;&#7984;&#964;&#8055;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p162.1">&#945;&#7985; &#964;&#959;&#953;&#945;&#8166;&#964;&#945;&#953; &#7952;&#960;&#953;&#952;&#965;&#956;&#8055;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p91.1">&#945;&#7985;&#961;&#8051;&#963;&#949;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081147.html#vi.iv.xxiii.ii-p5.1">&#945;&#8016;&#964;&#8057;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p151.2">&#945;&#8016;&#964;&#8182;&#957;</A></span>  <li><span class="Greek"><a href="0081528.html#x.xiv-p18.3">&#945;&#8016;&#964;&#8183;</A></span>  <li><span class="Greek"><a href="0081020.html#vi.iv.xvi.xv-p3.1">&#945;&#8016;&#964;&#959;&#8150;&#962; &#963;&#969;&#966;&#961;&#959;&#957;&#959;&#8166;&#963;&#953;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p151.1">&#945;&#8016;&#964;&#959;&#8166;</A></span>  <li><span class="Greek"><a href="0081347.html#vii.xxi-p7.1">&#945;&#8016;&#964;&#959;&#954;&#961;&#8049;&#964;&#969;&#961;</A></span>  <li><span class="Greek"><a href="0081506.html#x.v.ix-p10.1">&#946;&#8049;&#961;&#946;&#945;&#961;&#959;&#957; &#964;&#8057;&#955;&#956;&#951;&#956;&#945;</A></span>  <li><span class="Greek"><a href="0080621.html#vi.iv.iv.xi-p5.1">&#946;&#8055;&#959;&#965;</A></span>  <li><span class="Greek"><a href="0080008.html#iii.vi-p33.1">&#946;&#945;&#963;&#8055;&#955;&#949;&#953;&#945;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p79.4">&#946;&#945;&#963;&#945;&#957;&#953;&#950;&#8057;&#956;&#949;&#957;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081330.html#vii.xvi.xii-p5.2">&#946;&#963;&#953;&#946;</A></span>  <li><span class="Greek"><a href="0081330.html#vii.xvi.xii-p5.1">&#946;&#963;&#959;&#946;</A></span>  <li><span class="Greek"><a href="0080005.html#iii.iii-p12.1">&#947;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p103.1">&#947;&#8051;&#957;&#949;&#963;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081068.html#vi.iv.xix.xvi-p3.2">&#947;&#8051;&#957;&#957;&#951;&#963;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081518.html#x.vi.ii.ii-p9.2">&#947;&#8053;&#963;&#945;&#963;&#952;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0080091.html#vi.iii.iii.xxix-p4.2">&#947;&#8134;</A></span>  <li><span class="Greek"><a href="0080923.html#vi.iv.xiii.xvi-p3.1">&#947;&#945;&#963;&#964;&#961;&#8182;&#957; &#960;&#957;&#949;&#8059;&#956;&#945;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0081122.html#vi.iv.xxii.iii-p6.4">&#947;&#949;&#957;&#951;&#964;&#8057;&#962;</A></span>  <li><span class="Greek"><a href="0081122.html#vi.iv.xxii.iii-p6.5">&#947;&#949;&#957;&#957;&#951;&#964;&#8057;&#962;</A></span>  <li><span class="Greek"><a href="0081503.html#x.v.vi-p5.1">&#947;&#955;&#969;&#963;&#963;&#8057;&#954;&#959;&#956;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p85.1">&#947;&#957;&#8061;&#963;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081041.html#vi.iv.xviii.i-p6.2">&#948;&#8051;</A></span>  <li><span class="Greek"><a href="0081341.html#vii.xvii.ix-p4.2">&#948;&#8051;&#948;&#949;&#953;&#967;&#949; &#8069;&#948;&#951;&#957;</A></span>  <li><span class="Greek"><a href="0081341.html#vii.xvii.ix-p4.1">&#948;&#8051;&#948;&#951;&#967;&#949; &#8069;&#948;&#951;&#957;</A></span>  <li><span class="Greek"><a href="0081055.html#vi.iv.xix.iii-p3.1">&#948;&#8057;&#947;&#956;&#945;</A></span>  <li><span class="Greek"><a href="0081247.html#vii.x.xii-p4.1">&#948;&#8059;&#957;&#945;&#956;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081280.html#vii.xiii.x-p8.3">&#948;&#8182;&#961;&#945;</A></span>  <li><span class="Greek"><a href="0080893.html#vi.iv.xii.x-p3.1">&#948;&#945;&#8055;&#956;&#959;&#957;&#949;&#962;</A></span>  <li><span class="Greek"><a href="0080893.html#vi.iv.xii.x-p3.2">&#948;&#945;&#953;&#956;&#8057;&#957;&#953;&#945;</A></span>  <li><span class="Greek"><a href="0081012.html#vi.iv.xvi.vii-p3.1">&#948;&#945;&#954;&#961;&#8059;&#959;&#957;&#964;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0081041.html#vi.iv.xviii.i-p6.1">&#948;&#949;&#8150;</A></span>  <li><span class="Greek"><a href="0080043.html#v.iv.iv-p4.2">&#948;&#949;&#958;&#953;&#8057;&#957;</A></span>  <li><span class="Greek"><a href="0081530.html#x.xvi-p46.1">&#948;&#953;&#8048; &#960;&#955;&#949;&#953;&#8057;&#957;&#969;&#957; &#954;&#955;&#8053;&#961;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081109.html#vi.iv.xxi.xiv-p3.1">&#948;&#953;&#8048; &#964;&#8056;</A></span>  <li><span class="Greek"><a href="0080010.html#iii.viii-p10.2">&#948;&#953;&#8048; &#964;&#961;&#945;&#947;&#955;&#959;&#954;&#959;&#955;&#960;&#951;&#964;&#8182;&#957;</A></span>  <li><span class="Greek"><a href="0080010.html#iii.viii-p10.4">&#948;&#953;&#8048; &#964;&#961;&#969;&#947;&#955;&#959;&#948;&#965;&#964;&#8182;&#957;</A></span>  <li><span class="Greek"><a href="0080004.html#iii.ii-p35.2">&#948;&#953;&#8049;&#952;&#949;&#963;&#953;&#962;, &#945;&#7988;&#963;&#952;&#951;&#963;&#953;&#962;, &#966;&#8059;&#963;&#953;&#962;, &#964;&#8051;&#955;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081530.html#x.xvi-p23.1">&#948;&#953;&#8049;&#954;&#961;&#953;&#963;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0080008.html#iii.vi-p24.1">&#948;&#953;&#8051;&#966;&#952;&#949;&#953;&#961;&#949; &#948;&#8050; &#964;&#8056; &#963;&#960;&#8051;&#961;&#956;&#945; &#7952;&#960;&#8054; &#964;&#8052;&#957; &#947;&#8052;&#957;</A></span>  <li><span class="Greek"><a href="0081448.html#ix.iii-p13.1">&#948;&#953;&#8125; &#7952;&#960;&#953;&#963;&#964;&#959;&#955;&#951;&#966;&#8057;&#961;&#959;&#965;</A></span>  <li><span class="Greek"><a href="0081379.html#vii.xxxvii-p36.2">&#948;&#953;&#945;&#950;&#8061;&#963;&#964;&#961;&#8115;</A></span>  <li><span class="Greek"><a href="0080004.html#iii.ii-p30.1">&#948;&#953;&#945;&#952;&#8053;&#954;&#951;</A></span>  <li><span class="Greek"><a href="0080033.html#v.iii.viii-p9.2">&#948;&#953;&#945;&#960;&#945;&#961;&#945;&#964;&#961;&#953;&#946;&#945;&#8055;</A></span>  <li><span class="Greek"><a href="0080652.html#vi.iv.v.xix-p4.1">&#948;&#953;&#945;&#966;&#8057;&#961;&#959;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p5.2">&#948;&#953;&#945;&#966;&#8059;&#964;&#969;&#961;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p5.3">&#948;&#953;&#945;&#966;&#965;&#964;&#949;&#965;&#964;&#8053;&#962;</A></span>  <li><span class="Greek"><a href="0081379.html#vii.xxxvii-p36.1">&#948;&#953;&#947;&#961;&#969;&#963;&#8055;&#969;</A></span>  <li><span class="Greek"><a href="0081138.html#vi.iv.xxii.xix-p5.1">&#948;&#953;&#954;&#945;&#8055;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0081138.html#vi.iv.xxii.xix-p5.2">&#948;&#953;&#954;&#945;&#953;&#959;&#8150;&#962;</A></span>  <li><span class="Greek"><a href="0081047.html#vi.iv.xviii.vii-p6.2">&#948;&#953;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p31.1">&#948;&#953;&#960;&#955;&#8057;&#951;&#962;</A></span>  <li><span class="Greek"><a href="0080013.html#iii.xi-p14.3">&#948;&#959;&#955;&#959;&#966;&#959;&#957;&#8053;&#963;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0080013.html#iii.xi-p14.4">&#948;&#959;&#955;&#959;&#966;&#969;&#957;&#8053;&#963;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0080013.html#iii.xi-p14.1">&#948;&#959;&#955;&#969;&#966;&#969;&#957;&#8134;&#963;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0081381.html#vii.xxxix-p40.2">&#948;&#961;&#945;&#954;&#8049;</A></span>  <li><span class="Greek"><a href="0081364.html#vii.xxviii.iii-p19.1">&#948;&#965;&#957;&#945;&#963;&#964;&#949;&#8055;&#8115;</A></span>  <li><span class="Greek"><a href="0081143.html#vi.iv.xxii.xxiv-p5.7">&#949;&#7984;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p61.1">&#949;&#7984; &#8005; &#964;&#953;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p15.1">&#949;&#7984; &#948;&#8050; &#956;&#8051;&#961;&#959;&#962; &#945;&#8016;&#964;&#8134;&#962;, &#8005;&#955;&#959;&#957; &#7952;&#967;&#8061;&#961;&#951;&#963;&#949;&#957; &#945;&#8016;&#964;&#8057;&#957;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p53.3">&#949;&#7984; &#948;&#8050; &#956;&#8052;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p15.3">&#949;&#7984; &#948;&#8052;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p53.2">&#949;&#7984; &#956;&#8052;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p53.1">&#949;&#7984; &#956;&#8052; &#960;&#945;&#961;&#8053;&#963;&#949;&#953; &#960;&#961;&#8056;&#962; &#964;&#8056; &#959;&#7984;&#954;&#949;&#8150;&#959;&#957; &#964;&#8051;&#955;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081109.html#vi.iv.xxi.xiv-p3.2">&#949;&#7984;&#948;&#8051;&#957;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0081076.html#vi.iv.xx.ii-p4.1">&#949;&#7984;&#948;&#8061;&#955;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081483.html#ix.xiv.i-p122.1">&#949;&#7984;&#962;</A></span>  <li><span class="Greek"><a href="0080011.html#iii.ix-p8.4">&#949;&#7984;&#962; &#7936;&#951;&#948;&#8055;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0080043.html#v.iv.iv-p4.1">&#949;&#7984;&#962; &#7957;&#957;&#945; &#964;&#8057;&#960;&#959;&#957; &#948;&#949;&#958;&#953;&#8057;&#957;</A></span>  <li><span class="Greek"><a href="0080015.html#iii.xiii-p14.2">&#949;&#7984;&#962; &#964;&#8052;&#957; &#949;&#7985;&#961;&#954;&#964;&#8052;&#957; &#964;&#959;&#8166; &#934;&#945;&#961;&#945;&#8061;</A></span>  <li><span class="Greek"><a href="0081530.html#x.xvi-p45.1">&#949;&#7984;&#962; &#964;&#8056; &#948;&#951;&#956;&#8057;&#963;&#953;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p15.2">&#949;&#7988; &#947;&#949;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p61.2">&#949;&#7988; &#964;&#953;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p138.3">&#949;&#7988;&#945;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p138.4">&#949;&#7988;&#945;&#963;&#949;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p18.2">&#949;&#7988;&#963;&#969;</A></span>  <li><span class="Greek"><a href="0081165.html#vi.iv.xxiii.xx-p3.1">&#949;&#7990;&#948;&#949;</A></span>  <li><span class="Greek"><a href="0081165.html#vi.iv.xxiii.xx-p3.2">&#949;&#7990;&#954;&#949;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p17.1">&#949;&#8016;&#963;&#967;&#951;&#956;&#8057;&#957;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0081466.html#ix.ix.ii-p74.1">&#949;&#953;&#955;&#951;&#964;&#8049;&#961;&#953;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0080011.html#iii.ix-p8.2">&#949;&#953;&#962; &#949;&#7984;&#948;&#8051;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0080888.html#vi.iv.xii.v-p2.1">&#950;&#8182;&#963;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0080008.html#iii.vi-p32.1">&#950;&#951;&#956;&#953;&#959;&#8059;&#956;&#949;&#957;&#959;&#962; &#959;&#8016;&#954; &#945;&#7984;&#963;&#952;&#8049;&#957;&#949;&#964;&#945;&#953; &#954;&#945;&#8054; &#7940;&#948;&#959;&#958;&#959;&#957; &#959;&#8016;&#954; &#945;&#7984;&#963;&#967;&#8059;&#957;&#949;&#964;&#945;&#953;. &#160;&#922;&#7938;&#957; &#947;&#8049;&#961; &#964;&#953;&#962; &#946;&#945;&#963;&#953;&#955;&#949;&#8059;&#963;&#8131;, &#960;&#959;&#961;&#957;&#949;&#8059;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p52.1">&#950;&#953;&#950;&#8049;&#957;&#953;&#945;</A></span>  <li><span class="Greek"><a href="0080777.html#vi.iv.vii.xvi-p3.1">&#952;&#949;&#8055;&#959;&#965;&#962;</A></span>  <li><span class="Greek"><a href="0081060.html#vi.iv.xix.viii-p5.3">&#952;&#949;&#959;&#8059;&#962;</A></span>  <li><span class="Greek"><a href="0081382.html#vii.xl-p36.1">&#952;&#949;&#959;&#964;&#8057;&#954;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081009.html#vi.iv.xvi.iv-p3.1">&#952;&#961;&#8053;&#963;&#954;&#949;&#953;&#945;</A></span>  <li><span class="Greek"><a href="0080012.html#iii.x-p8.1">&#954;&#8049;&#955;&#945;&#956;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081021.html#vi.iv.xvi.xvi-p4.1">&#954;&#8057;&#963;&#956;&#8179;</A></span>  <li><span class="Greek"><a href="0081448.html#ix.iii-p49.2">&#954;&#945;&#8054; &#945;&#8016;&#964;&#8056;&#962; &#960;&#961;&#959;&#963;&#949;&#955;&#952;&#8060;&#957; &#8017;&#960;&#8056; &#964;&#959;&#8058;&#962; &#960;&#8057;&#948;&#945;&#962; &#945;&#8016;&#964;&#959;&#8166; &#7956;&#960;&#949;&#963;&#949;&#957;</A></span>  <li><span class="Greek"><a href="0081165.html#vi.iv.xxiii.xx-p3.3">&#954;&#945;&#8054; &#949;&#7990;&#960;&#949;</A></span>  <li><span class="Greek"><a href="0080004.html#iii.ii-p50.1">&#954;&#945;&#8054; &#963;&#964;&#951;&#963;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0081138.html#vi.iv.xxii.xix-p10.4">&#954;&#945;&#8054; &#964;&#8057;&#964;&#949; &#964;&#8053;&#957;</A></span>  <li><span class="Greek"><a href="0081138.html#vi.iv.xxii.xix-p10.3">&#954;&#945;&#8054; &#964;&#961;&#8055;&#964;&#951;&#957;</A></span>  <li><span class="Greek"><a href="0081049.html#vi.iv.xviii.ix-p4.2">&#954;&#945;&#8055;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p150.2">&#954;&#945;&#952;&#8125;</A></span>  <li><span class="Greek"><a href="0081127.html#vi.iv.xxii.viii-p3.7">&#954;&#945;&#952;&#945;&#953;&#961;&#949;&#952;&#949;&#953;&#963;&#8182;&#957;</A></span>  <li><span class="Greek"><a href="0081521.html#x.vii-p4.1">&#954;&#945;&#953; &#928;&#959;&#955;&#8059;&#954;&#945;&#961;&#960;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0080011.html#iii.ix-p9.1">&#954;&#945;&#954;&#8057;&#957;</A></span>  <li><span class="Greek"><a href="0081506.html#x.v.ix-p8.2">&#954;&#945;&#955;&#8182;&#962;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p27.2">&#954;&#945;&#956;&#8049;&#964;&#959;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081357.html#vii.xxv.i-p44.2">&#954;&#945;&#964;&#8048; &#964;&#8056; &#947;&#8051;&#957;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081357.html#vii.xxv.i-p44.1">&#954;&#945;&#964;&#8048; &#964;&#959;&#8166; &#947;&#8051;&#957;&#959;&#965;&#962;</A></span>  <li><span class="Greek"><a href="0081528.html#x.xiv-p14.1">&#954;&#945;&#964;&#951;&#967;&#949;&#8150;&#957;</A></span>  <li><span class="Greek"><a href="0081357.html#vii.xxv.i-p93.1">&#954;&#953;&#957;&#8049;&#961;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p134.1">&#954;&#955;&#8055;&#956;&#945;</A></span>  <li><span class="Greek"><a href="0080008.html#iii.vi-p48.1">&#954;&#955;&#8132;&#948;&#959;&#963;&#953; &#954;&#945;&#953; &#948;&#945;&#8055;&#956;&#959;&#963;&#953; &#960;&#955;&#8049;&#957;&#951;&#962;</A></span>  <li><span class="Greek"><a href="0081468.html#ix.xi-p107.1">&#954;&#959;&#953;&#956;&#951;&#964;&#8053;&#961;&#953;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081357.html#vii.xxv.i-p93.2">&#954;&#959;&#961;&#965;&#957;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p144.1">&#954;&#959;&#963;&#956;&#959;&#8166;&#963;&#945;&#953; &#960;&#959;&#955;&#955;&#8183; &#967;&#961;&#965;&#963;&#8183; &#954;&#945;&#8054; &#955;&#8055;&#952;&#959;&#953;&#962; &#946;&#945;&#961;&#965;&#964;&#8055;&#956;&#959;&#953;&#962; &#964;&#959;&#8058;&#962; &#7989;&#960;&#960;&#959;&#965;&#962;</A></span>  <li><span class="Greek"><a href="0081483.html#ix.xiv.i-p57.2">&#954;&#961;&#8049;&#964;&#953;&#963;&#964;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081036.html#vi.iv.xvii.ix-p3.1">&#954;&#961;&#8055;&#963;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0081510.html#x.v.xiii-p5.1">&#954;&#961;&#949;&#956;&#8049;&#956;&#949;&#957;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081351.html#vii.xxiii.ii-p3.2">&#954;&#961;&#965;&#968;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p121.1">&#954;&#964;&#8053;&#963;&#949;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p121.2">&#954;&#964;&#8055;&#963;&#949;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p121.4">&#954;&#964;&#8055;&#963;&#953;&#957;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p121.3">&#954;&#964;&#8134;&#963;&#953;&#957;</A></span>  <li><span class="Greek"><a href="0081127.html#vi.iv.xxii.viii-p3.3">&#955;&#945;&#956;&#946;&#8049;&#957;&#949;&#964;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0081488.html#ix.xviii-p16.2">&#955;&#949;&#960;&#961;&#959;&#8166;</A></span>  <li><span class="Greek"><a href="0080004.html#iii.ii-p32.1">&#955;&#953;&#956;&#8057;&#962;, &#955;&#959;&#953;&#956;&#8057;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p154.2">&#955;&#953;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081488.html#ix.xviii-p16.1">&#955;&#953;&#960;&#945;&#961;&#959;&#8166;</A></span>  <li><span class="Greek"><a href="0080007.html#iii.v-p21.4">&#955;&#959;&#947;&#8055;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0080007.html#iii.v-p21.5">&#955;&#959;&#947;&#949;&#8150;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081149.html#vi.iv.xxiii.iv-p4.3">&#956;</A></span>  <li><span class="Greek"><a href="0081030.html#vi.iv.xvii.iii-p5.1">&#956;&#8049;&#952;&#951;&#956;&#945;</A></span>  <li><span class="Greek"><a href="0081530.html#x.xvi-p12.1">&#956;&#8049;&#961;&#964;&#965;&#961;&#949;&#962;</A></span>  <li><span class="Greek"><a href="0080005.html#iii.iii-p7.3">&#956;&#8050;&#957; &#8005;&#961;&#945;&#963;&#953;&#962; &#7952;&#963;&#964;&#8054; &#960;&#957;&#949;&#8166;&#956;&#945; &#948;&#953;&#945;&#964;&#949;&#953;&#957;&#959;&#957; &#7936;&#960;&#8056; &#964;&#959;&#8166; &#7969;&#947;&#949;&#956;&#959;&#957;&#953;&#954;&#959;&#8166; &#956;&#8051;&#967;&#961;&#953;&#962; &#8000;&#966;&#952;&#945;&#955;&#956;&#8182;&#957;</A></span>  <li><span class="Greek"><a href="0080004.html#iii.ii-p35.1">&#956;&#8051;&#955;&#955;&#949;&#953;&#957;</A></span>  <li><span class="Greek"><a href="0081152.html#vi.iv.xxiii.vii-p8.2">&#956;&#8051;&#957;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p15.4">&#956;&#8051;&#961;&#959;&#962; &#945;&#8016;&#964;&#8134;&#962; &#8005;&#955;&#959;&#957;, &#954;.&#964;.&#955;</A></span>  <li><span class="Greek"><a href="0081143.html#vi.iv.xxii.xxiv-p5.2">&#956;&#8052;</A></span>  <li><span class="Greek"><a href="0081377.html#vii.xxxv-p36.2">&#956;&#8052; &#7985;&#949;&#961;&#949;&#8150;&#962;</A></span>  <li><span class="Greek"><a href="0081152.html#vi.iv.xxiii.vii-p8.1">&#956;&#8053;</A></span>  <li><span class="Greek"><a href="0081241.html#vii.x.vi-p10.2">&#956;&#8053;&#964;&#951;&#961;</A></span>  <li><span class="Greek"><a href="0081241.html#vii.x.vi-p10.1">&#956;&#8053;&#964;&#961;&#945;</A></span>  <li><span class="Greek"><a href="0081131.html#vi.iv.xxii.xii-p6.3">&#956;&#8057;&#957;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p27.3">&#956;&#8057;&#967;&#952;&#959;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0080011.html#iii.ix-p7.2">&#956;&#8130; &#954;&#953;&#957;&#949;&#8150;&#963;&#952;&#949;</A></span>  <li><span class="Greek"><a href="0081042.html#vi.iv.xviii.ii-p3.1">&#956;&#8166;&#952;&#8057;&#957; &#964;&#953;&#957;&#945; &#968;&#949;&#965;&#948;&#8134;</A></span>  <li><span class="Greek"><a href="0081316.html#vii.xv.xvi-p9.2">&#956;&#945;</A></span>  <li><span class="Greek"><a href="0080015.html#iii.xiii-p5.2">&#956;&#945;&#947;&#949;&#8055;&#961;&#969;&#957; &#8001; &#946;&#945;&#963;&#953;&#955;&#949;&#8059;&#962;</A></span>  <li><span class="Greek"><a href="0080013.html#iii.xi-p8.3">&#956;&#945;&#954;&#961;&#959;&#952;&#965;&#956;&#8055;&#945;</A></span>  <li><span class="Greek"><a href="0081530.html#x.xvi-p12.2">&#956;&#945;&#961;&#964;&#965;&#961;&#8055;&#945;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p27.1">&#956;&#945;&#964;&#945;&#8055;&#959;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081045.html#vi.iv.xviii.v-p6.4">&#956;&#945;&#966;&#8057;&#961;&#953;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081448.html#ix.iii-p45.1">&#956;&#949;&#947;&#8049;&#955;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p150.1">&#956;&#949;&#952;&#8125;</A></span>  <li><span class="Greek"><a href="0081488.html#ix.xviii-p33.1">&#956;&#949;&#956;&#8055;&#963;&#951;&#964;&#959;</A></span>  <li><span class="Greek"><a href="0080005.html#iii.iii-p21.1">&#956;&#949;&#964;&#8125; &#945;&#8016;&#964;&#8057;&#957;</A></span>  <li><span class="Greek"><a href="0081148.html#vi.iv.xxiii.iii-p8.1">&#956;&#949;&#964;&#945;&#963;&#965;&#947;&#954;&#961;&#953;&#952;&#949;&#8055;&#962;</A></span>  <li><span class="Greek"><a href="0080008.html#iii.vi-p35.2">&#956;&#951;&#948;&#8125; &#8005;&#955;&#969;&#962; &#960;&#8055;&#957;&#949;&#964;&#949;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p5.4">&#956;&#951;&#955;&#945;&#964;&#8049;&#962;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p5.5">&#956;&#951;&#955;&#959;&#946;&#8057;&#964;&#951;&#962;</A></span>  <li><span class="Greek"><a href="0081149.html#vi.iv.xxiii.iv-p4.4">&#956;&#951;&#964;&#8051;&#961;&#969;&#957; &#7972;</A></span>  <li><span class="Greek"><a href="0081377.html#vii.xxxv-p36.1">&#956;&#953;&#949;&#961;&#949;&#8150;&#962;</A></span>  <li><span class="Greek"><a href="0080013.html#iii.xi-p5.2">&#956;&#957;&#8182;&#957; &#949;&#7988;&#954;&#959;&#963;&#953;&#957;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p125.1">&#956;&#959;&#8055;&#961;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0081062.html#vi.iv.xix.x-p5.1">&#956;&#959;&#961;&#966;&#8134;&#962;</A></span>  <li><span class="Greek"><a href="0080776.html#vi.iv.vii.xv-p3.1">&#956;&#965;&#952;&#959;&#955;&#959;&#947;&#959;&#8166;&#963;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p138.2">&#957;</A></span>  <li><span class="Greek"><a href="0081131.html#vi.iv.xxii.xii-p6.2">&#957;&#8057;&#956;&#8179;</A></span>  <li><span class="Greek"><a href="0081350.html#vii.xxiii.i-p10.2">&#957;&#8057;&#956;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081350.html#vii.xxiii.i-p10.1">&#957;&#945;&#8057;&#957;</A></span>  <li><span class="Greek"><a href="0081104.html#vi.iv.xxi.ix-p5.2">&#957;&#949;&#957;&#953;&#954;&#951;&#956;&#8051;&#957;&#951;&#957;</A></span>  <li><span class="Greek"><a href="0081104.html#vi.iv.xxi.ix-p5.3">&#957;&#949;&#957;&#953;&#954;&#951;&#956;&#8051;&#957;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p106.1">&#957;&#959;&#8166;&#962;</A></span>  <li><span class="Greek"><a href="0081381.html#vii.xxxix-p7.2">&#958;</A></span>  <li><span class="Greek"><a href="0081468.html#ix.xi-p74.1">&#958;&#8059;&#955;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0080091.html#vi.iii.iii.xxix-p4.1">&#959;&#7985; &#947;&#8055;&#947;&#945;&#957;&#964;&#949;&#962; &#959;&#7985; &#7936;&#960;&#8125; &#945;&#7984;&#8182;&#957;&#959;&#962; &#959;&#7985; &#7940;&#957;&#952;&#961;&#969;&#960;&#959;&#953; &#959;&#7985; &#8000;&#957;&#959;&#956;&#945;&#963;&#964;&#959;&#8055;</A></span>  <li><span class="Greek"><a href="0081148.html#vi.iv.xxiii.iii-p7.2">&#959;&#8016; &#964;&#8134;&#962;</A></span>  <li><span class="Greek"><a href="0081138.html#vi.iv.xxii.xix-p10.2">&#959;&#8016;&#948;&#949;&#957;&#8057;&#962;</A></span>  <li><span class="Greek"><a href="0080012.html#iii.x-p7.2">&#959;&#8016;&#954; &#7956;&#963;&#964;&#953;&#957; &#949;&#7984;&#960;&#949;&#8150;&#957; &#8005;&#964;&#953; &#7952;&#957; &#964;&#8183; &#7953;&#957;&#8054; &#964;&#959;&#8150;&#962; &#960;&#961;&#959;&#963;&#8061;&#960;&#959;&#953;&#962; &#7970; &#964;&#8182;&#957; &#8001;&#956;&#959;&#8055;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p58.1">&#959;&#8016;&#963;&#8055;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0081153.html#vi.iv.xxiii.viii-p7.1">&#959;&#8016;&#967; &#8033;&#962; &#7956;&#967;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081148.html#vi.iv.xxiii.iii-p7.1">&#959;&#8020;&#963;&#951;&#962;</A></span>  <li><span class="Greek"><a href="0080896.html#vi.iv.xii.xiii-p3.1">&#959;&#8021;&#964;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0081153.html#vi.iv.xxiii.viii-p7.2">&#959;&#8021;&#964;&#969;&#962; &#7956;&#967;&#949;&#953;&#957;</A></span>  <li><span class="Greek"><a href="0081138.html#vi.iv.xxii.xix-p10.1">&#959;&#8022;&#957; &#7953;&#957;&#8057;&#962;</A></span>  <li><span class="Greek"><a href="0081079.html#vi.iv.xx.v-p7.4">&#959;&#960;&#964;&#945;&#963;&#8055;&#945;</A></span>  <li><span class="Greek"><a href="0081047.html#vi.iv.xviii.vii-p8.1">&#960;&#8049;&#957;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0081038.html#vi.iv.xvii.xi-p5.1">&#960;&#8049;&#957;&#964;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0080007.html#iii.v-p21.2">&#960;&#8051;&#964;&#945;&#955;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081499.html#x.v.ii-p23.2">&#960;&#8053;&#961;&#945;</A></span>  <li><span class="Greek"><a href="0080618.html#vi.iv.iv.viii-p5.2">&#960;&#8057;&#957;&#964;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081530.html#x.xvi-p73.1">&#960;&#8118;&#963;&#953; &#956;&#8050;&#957; &#7936;&#960;&#949;&#955;&#959;&#947;&#959;&#8166;&#957;&#964;&#959;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p85.2">&#960;&#8182;&#962; &#948;&#8052; &#963;&#8059;&#957;&#952;&#949;&#964;&#8057;&#962; &#7952;&#963;&#964;&#953;&#957; &#8001; &#954;&#8057;&#963;&#956;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081143.html#vi.iv.xxii.xxiv-p5.3">&#960;&#945;&#8059;&#963;&#8131;</A></span>  <li><span class="Greek"><a href="0081143.html#vi.iv.xxii.xxiv-p5.4">&#960;&#945;&#8059;&#963;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0081530.html#x.xvi-p64.1">&#960;&#945;&#955;&#953;&#947;&#947;&#949;&#957;&#949;&#963;&#8055;&#945;</A></span>  <li><span class="Greek"><a href="0081524.html#x.x-p22.2">&#960;&#945;&#955;&#953;&#957;&#954;&#945;&#952;&#8049;&#961;&#963;&#953;&#945;</A></span>  <li><span class="Greek"><a href="0080771.html#vi.iv.vii.x-p3.1">&#960;&#945;&#956;&#956;&#953;&#959;&#8059;&#963;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0080771.html#vi.iv.vii.x-p3.2">&#960;&#945;&#956;&#960;&#955;&#959;&#965;&#963;&#953;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081364.html#vii.xxviii.iii-p20.1">&#960;&#945;&#957;&#949;&#960;&#8055;&#963;&#954;&#959;&#960;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081047.html#vi.iv.xviii.vii-p8.2">&#960;&#945;&#957;&#964;&#8057;&#962;</A></span>  <li><span class="Greek"><a href="0081367.html#vii.xxxi-p14.1">&#960;&#945;&#957;&#964;&#945;&#960;&#969;&#955;&#951;&#962;</A></span>  <li><span class="Greek"><a href="0080040.html#v.iv.i-p7.1">&#960;&#945;&#961;&#8049;&#954;&#955;&#951;&#963;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081448.html#ix.iii-p43.1">&#960;&#945;&#961;&#8057;&#957;&#964;&#969;&#957; &#954;&#945;&#8054; &#7953;&#963;&#964;&#8061;&#964;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081528.html#x.xiv-p22.1">&#960;&#945;&#961;&#945;&#946;&#8049;&#964;&#951;&#962;</A></span>  <li><span class="Greek"><a href="0081058.html#vi.iv.xix.vi-p3.1">&#960;&#945;&#961;&#945;&#948;&#949;&#8055;&#963;&#8179;</A></span>  <li><span class="Greek"><a href="0081462.html#ix.vii-p34.2">&#960;&#945;&#961;&#945;&#963;&#954;&#949;&#965;&#8053;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p41.1">&#960;&#945;&#961;&#945;&#963;&#964;&#8134;&#957;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p41.2">&#960;&#945;&#961;&#945;&#963;&#964;&#8134;&#963;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0080026.html#v.iii.i-p6.1">&#960;&#945;&#961;&#952;&#8051;&#957;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p147.2">&#960;&#945;&#961;&#959;&#8166;&#963;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0081528.html#x.xiv-p24.1">&#960;&#945;&#961;&#959;&#953;&#954;&#953;&#945;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p147.1">&#960;&#945;&#961;&#959;&#965;&#963;&#8055;&#945;&#957;, &#954;&#945;&#964;&#8049;&#963;&#964;&#945;&#963;&#953;&#957;</A></span>  <li><span class="Greek"><a href="0081499.html#x.v.ii-p31.1">&#960;&#945;&#964;&#8052;&#961; &#964;&#8134;&#962; &#960;&#8057;&#955;&#949;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0080004.html#iii.ii-p39.1">&#960;&#945;&#964;&#961;&#953;&#8049;&#961;&#967;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p26.2">&#960;&#945;&#967;&#965;&#957;&#952;&#8053;&#963;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p125.2">&#960;&#949;&#8055;&#961;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0081054.html#vi.iv.xix.ii-p4.3">&#960;&#949;&#960;&#953;&#963;&#964;&#969;&#956;&#949;&#957;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081448.html#ix.iii-p56.1">&#960;&#949;&#961;&#8054;</A></span>  <li><span class="Greek"><a href="0081505.html#x.v.viii-p5.2">&#960;&#949;&#961;&#8054; &#954;&#965;&#961;&#953;&#945;&#954;&#8134;&#962; &#955;&#8057;&#947;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0080060.html#vi.iii.i-p14.2">&#960;&#949;&#961;&#8055;&#959;&#948;&#959;&#953;</A></span>  <li><span class="Greek"><a href="0081313.html#vii.xv.xiii-p3.1">&#960;&#949;&#961;&#953;&#964;&#949;&#964;&#956;&#951;&#956;&#8051;&#957;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0080007.html#iii.v-p23.2">&#960;&#953;&#963;&#964;&#949;&#8059;&#963;&#945;&#962;</A></span>  <li><span class="Greek"><a href="0080007.html#iii.v-p39.1">&#960;&#955;&#949;&#959;&#957;&#958;&#8055;&#945;</A></span>  <li><span class="Greek"><a href="0080005.html#iii.iii-p7.1">&#960;&#957;&#949;&#8059;&#956;&#945;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p73.1">&#960;&#957;&#949;&#8059;&#956;&#945;&#964;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0080007.html#iii.v-p21.6">&#960;&#959;&#948;&#8053;&#961;&#951;&#962;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p39.2">&#960;&#959;&#953;&#8053;&#963;&#945;&#957;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p39.1">&#960;&#959;&#957;&#8053;&#963;&#945;&#957;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p35.2">&#960;&#961;&#8056;&#962; &#946;&#959;&#955;&#8053;&#957;</A></span>  <li><span class="Greek"><a href="0081302.html#vii.xv.ii-p9.1">&#960;&#961;&#8057;&#963;&#969;&#960;&#945;</A></span>  <li><span class="Greek"><a href="0081044.html#vi.iv.xviii.iv-p5.2">&#960;&#961;&#8118;&#963;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0080016.html#iii.xiv-p16.1">&#960;&#961;&#8182;&#964;&#959;&#962; &#957;&#945;&#8057;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p78.1">&#960;&#961;&#949;&#963;&#946;&#8059;&#964;&#949;&#961;&#959;&#953;</A></span>  <li><span class="Greek"><a href="0081372.html#vii.xxxiii.ii.i-p30.2">&#960;&#961;&#959;&#946;&#959;&#955;&#8135;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p35.1">&#960;&#961;&#959;&#963;&#946;&#959;&#955;&#8053;&#957;</A></span>  <li><span class="Greek"><a href="0081372.html#vii.xxxiii.ii.i-p30.1">&#960;&#961;&#959;&#963;&#946;&#959;&#955;&#8135;</A></span>  <li><span class="Greek"><a href="0081448.html#ix.iii-p44.1">&#960;&#961;&#959;&#963;&#949;&#954;&#8059;&#957;&#951;&#963;&#949;</A></span>  <li><span class="Greek"><a href="0081499.html#x.v.ii-p27.2">&#960;&#961;&#959;&#963;&#966;&#8049;&#964;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0081302.html#vii.xv.ii-p9.2">&#960;&#961;&#959;&#964;&#959;&#956;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0080603.html#vi.iv.iii.xiv-p3.1">&#960;&#961;&#969;&#961;&#949;&#8059;&#962;</A></span>  <li><span class="Greek"><a href="0081147.html#vi.iv.xxiii.ii-p3.2">&#960;&#961;&#969;&#964;&#959;&#947;&#949;&#957;&#8051;&#962;</A></span>  <li><span class="Greek"><a href="0080010.html#iii.viii-p3.4">&#961;&#953;&#948;', &#946;'</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p85.1">&#963;&#8059;&#957;&#952;&#949;&#964;&#959;&#962; &#948;&#8050; &#8001; &#954;&#8057;&#963;&#956;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p186.1">&#963;&#8059;&#957;&#959;&#948;&#959;&#953;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p106.3">&#963;&#8182;&#956;&#945;</A></span>  <li><span class="Greek"><a href="0081483.html#ix.xiv.i-p82.1">&#963;&#945;&#956;&#968;&#951;&#961;&#8049;</A></span>  <li><span class="Greek"><a href="0080769.html#vi.iv.vii.viii-p3.2">&#963;&#949;&#946;&#8049;&#963;&#956;&#945;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0080769.html#vi.iv.vii.viii-p3.4">&#963;&#949;&#946;&#8049;&#963;&#956;&#945;&#964;&#953;</A></span>  <li><span class="Greek"><a href="0081286.html#vii.xiii.xvi-p7.3">&#963;&#951;&#954;&#8057;&#957;&#969;</A></span>  <li><span class="Greek"><a href="0081462.html#ix.vii-p38.2">&#963;&#954;&#959;&#960;&#8057;&#962;</A></span>  <li><span class="Greek"><a href="0081506.html#x.v.ix-p16.1">&#963;&#959;&#8166; &#964;&#8048; &#960;&#8049;&#957;&#964;&#945; &#963;&#965;&#957;&#948;&#953;&#959;&#953;&#954;&#959;&#8166;&#957;&#964;&#959;&#962; &#945;&#8016;&#964;&#8183;</A></span>  <li><span class="Greek"><a href="0080674.html#vi.iv.v.xli-p3.3">&#963;&#959;&#965;</A></span>  <li><span class="Greek"><a href="0081064.html#vi.iv.xix.xii-p3.1">&#963;&#959;&#966;&#8055;&#945;</A></span>  <li><span class="Greek"><a href="0081483.html#ix.xiv.i-p82.2">&#963;&#960;&#8049;&#952;&#951;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p142.3">&#963;&#960;&#945;&#964;&#8049;&#955;&#959;&#965;&#962;</A></span>  <li><span class="Greek"><a href="0080007.html#iii.v-p50.2">&#963;&#964;&#8053;&#963;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p135.1">&#963;&#964;&#949;&#961;&#8051;&#969;&#956;&#945;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p35.1">&#963;&#964;&#959;&#953;&#967;&#949;&#8150;&#945;</A></span>  <li><span class="Greek"><a href="0080012.html#iii.x-p8.3">&#963;&#964;&#959;&#956;&#8049;&#967;&#959;&#965; &#954;&#8049;&#955;</A></span>  <li><span class="Greek"><a href="0081468.html#ix.xi-p9.1">&#963;&#964;&#961;&#945;&#964;&#951;&#947;&#8055;&#945;</A></span>  <li><span class="Greek"><a href="0081124.html#vi.iv.xxii.v-p4.4">&#963;&#965;&#947;&#947;&#957;&#8182;&#957;&#945;&#953;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p32.3">&#963;&#965;&#955;&#955;&#949;&#955;&#8057;&#947;&#953;&#963;&#964;&#945;&#953; &#7936;&#948;&#8059;&#957;&#945;&#964;&#959;&#957; &#949;&#7990;&#957;&#945;&#953; &#948;&#959;&#958;&#8049;&#950;&#949;&#953;&#957;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p32.1">&#963;&#965;&#955;&#955;&#949;&#955;&#8057;&#947;&#953;&#963;&#964;&#945;&#953; &#8033;&#962; &#959;&#8016;&#954; &#7936;&#948;&#8059;&#957;&#945;&#964;&#959;&#957; &#949;&#7990;&#957;&#945;&#953; &#948;&#959;&#958;&#8049;&#950;&#949;&#953;&#957;</A></span>  <li><span class="Greek"><a href="0081374.html#vii.xxxiii.ii.iii-p19.1">&#963;&#965;&#956;&#968;&#8051;&#955;&#955;&#953;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081528.html#x.xiv-p15.1">&#963;&#965;&#957;&#945;&#947;&#969;&#957;&#8055;&#950;&#949;&#963;&#952;&#945;&#953; &#964;&#959;&#8150;&#962; &#964;&#8134;&#962; &#954;&#945;&#953;&#957;&#959;&#966;&#969;&#957;&#8055;&#945;&#962; &#955;&#8057;&#947;&#959;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081006.html#vi.iv.xvi.i-p5.1">&#963;&#966;&#945;&#947;&#8051;&#957;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0081006.html#vi.iv.xvi.i-p5.2">&#963;&#966;&#945;&#955;&#8051;&#957;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0081465.html#ix.ix.i-p30.1">&#963;&#966;&#961;&#945;&#947;&#8055;&#962;</A></span>  <li><span class="Greek"><a href="0081484.html#ix.xiv.ii-p345.1">&#963;&#967;&#8053;&#956;&#945;&#964;&#945;</A></span>  <li><span class="Greek"><a href="0080027.html#v.iii.ii-p5.1">&#963;&#967;&#8134;&#956;&#945;</A></span>  <li><span class="Greek"><a href="0081448.html#ix.iii-p17.1">&#963;&#969;&#964;&#951;&#961;&#8055;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0081049.html#vi.iv.xviii.ix-p4.1">&#964;&#8048;</A></span>  <li><span class="Greek"><a href="0081528.html#x.xiv-p28.1">&#964;&#8049;&#946;&#955;&#945;&#953;&#962; &#954;&#945;&#8054; &#954;&#8059;&#946;&#959;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0081465.html#ix.ix.i-p59.2">&#964;&#8049;&#958;&#8055;&#962;</A></span>  <li><span class="Greek"><a href="0081468.html#ix.xi-p26.1">&#964;&#8049;&#958;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0080004.html#iii.ii-p34.1">&#964;&#8049;&#958;&#953;&#962;, &#7936;&#964;&#945;&#958;&#8055;&#945;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p36.1">&#964;&#8049;&#966;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081246.html#vii.x.xi-p3.1">&#964;&#8051;&#954;&#964;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081530.html#x.xvi-p69.1">&#964;&#8052;&#957; &#960;&#961;&#8056;&#962; &#964;&#959;&#8058;&#962; &#7936;&#948;&#949;&#955;&#966;&#959;&#8058;&#962; &#964;&#8182;&#957; &#956;&#945;&#961;&#964;&#8059;&#961;&#969;&#957; &#960;&#961;&#959;&#963;&#951;&#947;&#959;&#961;&#8055;&#945;&#957;</A></span>  <li><span class="Greek"><a href="0081465.html#ix.ix.i-p131.2">&#964;&#8053;&#947;&#945;&#957;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0080008.html#iii.vi-p35.1">&#964;&#8055; &#948;&#8050; &#955;&#8051;&#947;&#969;</A></span>  <li><span class="Greek"><a href="0081466.html#ix.ix.ii-p59.2">&#964;&#8055;&#962;</A></span>  <li><span class="Greek"><a href="0081511.html#x.v.xiv-p5.1">&#964;&#8056; &#7936;&#955;&#951;&#952;&#8050;&#962; &#954;&#945;&#8054; &#7936;&#966;&#8049;&#957;&#964;&#945;&#963;&#964;&#959;&#957; &#964;&#8134;&#962; &#968;&#965;&#967;&#8134;&#962; &#945;&#8016;&#964;&#959;&#8166; &#954;&#945;&#8054; &#964;&#959;&#8166; &#963;&#8061;&#956;&#945;&#964;&#959;&#962; &#964;&#8134;&#962; &#954;&#945;&#952;&#8125; &#7969;&#956;&#8118;&#962; &#7936;&#957;&#952;&#961;&#969;&#960;&#953;&#957;&#8134;&#962; &#966;&#8059;&#963;&#949;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p101.1">&#964;&#8056; &#954;&#945;&#955;&#8056;&#957;</A></span>  <li><span class="Greek"><a href="0081138.html#vi.iv.xxii.xix-p5.3">&#964;&#8056;&#957; &#960;&#961;&#959;&#948;&#953;&#969;&#961;&#953;&#963;&#956;&#8051;&#957;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081448.html#ix.iii-p27.1">&#964;&#8057;&#960;&#945;&#961;&#967;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p36.2">&#964;&#8057;&#960;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081165.html#vi.iv.xxiii.xx-p4.1">&#964;&#8059;&#967;&#951;&#962;</A></span>  <li><span class="Greek"><a href="0081153.html#vi.iv.xxiii.viii-p5.1">&#964;&#8134;&#962;</A></span>  <li><span class="Greek"><a href="0081448.html#ix.iii-p56.2">&#964;&#8134;&#962; &#954;&#945;&#953;&#957;&#8134;&#962; &#945;&#8016;&#964;&#959;&#8166; &#954;&#951;&#961;&#8059;&#958;&#949;&#969;&#962;</A></span>  <li><span class="Greek"><a href="0081054.html#vi.iv.xix.ii-p4.1">&#964;&#8182;&#957; &#960;&#945;&#961;&#8048; &#8125;&#921;&#959;&#965;&#948;&#945;&#8055;&#959;&#953;&#962; &#948;&#951;&#956;&#959;&#963;&#8055;&#8115; &#960;&#949;&#960;&#953;&#963;&#964;&#949;&#965;&#956;&#8051;&#957;&#969;&#957; &#946;&#8055;&#946;&#955;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0081448.html#ix.iii-p18.1">&#964;&#8182;&#957; &#960;&#961;&#959;&#963;&#951;&#954;&#8057;&#957;&#964;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0080004.html#iii.ii-p39.4">&#964;&#8182;&#957; &#964;&#961;&#953;&#8182;&#957; &#928;&#945;&#964;&#961;&#953;&#945;&#961;&#967;&#8182;&#957;</A></span>  <li><span class="Greek"><a href="0081127.html#vi.iv.xxii.viii-p3.5">&#964;&#945;&#8059;&#964;&#8131;</A></span>  <li><span class="Greek"><a href="0081363.html#vii.xxviii.ii-p25.1">&#964;&#945;&#967; &#7938;&#957; &#952;&#949;&#8049;&#963;&#949;&#963;&#952;&#949;</A></span>  <li><span class="Greek"><a href="0081465.html#ix.ix.i-p4.2">&#964;&#945;&#967;&#965;&#947;&#961;&#8049;&#966;&#959;&#953;</A></span>  <li><span class="Greek"><a href="0081448.html#ix.iii-p29.1">&#964;&#945;&#967;&#965;&#948;&#961;&#8057;&#956;&#959;&#965;</A></span>  <li><span class="Greek"><a href="0081380.html#vii.xxxviii-p26.1">&#964;&#945;&#967;&#965;&#957;&#952;&#8053;&#963;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p122.3">&#964;&#953; &#956;&#8051;&#957;&#959;&#957;&#964;&#945;&#962; &#7952;&#957; &#963;&#945;&#961;&#954;&#8055;</A></span>  <li><span class="Greek"><a href="0081153.html#vi.iv.xxiii.viii-p5.2">&#964;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0080011.html#iii.ix-p11.2">&#964;&#959;&#8150;&#962; &#7956;&#952;&#957;&#949;&#963;&#953; &#931;&#969;&#964;&#8053;&#961;</A></span>  <li><span class="Greek"><a href="0080878.html#vi.iv.xi.xx-p3.1">&#964;&#959;&#8150;&#962; &#945;&#8016;&#964;&#8182;&#957; &#946;&#969;&#956;&#959;&#8150;&#962; &#960;&#961;&#959;&#963;&#966;&#952;&#945;&#961;&#8051;&#957;&#964;&#949;&#962; &#954;&#945;&#8054; &#945;&#8016;&#964;&#8182;&#957; &#7952;&#954;&#960;&#955;&#951;&#961;&#969;&#952;&#8051;&#957;&#964;&#949;&#962;</A></span>  <li><span class="Greek"><a href="0081020.html#vi.iv.xvi.xv-p3.2">&#964;&#959;&#8150;&#962; &#963;&#969;&#966;&#961;&#959;&#957;&#959;&#8166;&#963;&#953;</A></span>  <li><span class="Greek"><a href="0081138.html#vi.iv.xxii.xix-p5.4">&#964;&#959;&#8166; &#960;&#961;&#959;&#948;&#953;&#969;&#961;&#953;&#963;&#956;&#8051;&#957;&#959;&#965;</A></span>  <li><span class="Greek"><a href="0081151.html#vi.iv.xxiii.vi-p4.2">&#964;&#959;&#953;&#945;&#8059;&#964;&#951;&#957;</A></span>  <li><span class="Greek"><a href="0081151.html#vi.iv.xxiii.vi-p4.1">&#964;&#959;&#953;&#959;&#8166;&#964;&#959;&#957;</A></span>  <li><span class="Greek"><a href="0081062.html#vi.iv.xix.x-p6.1">&#964;&#959;&#955;&#956;&#8053;&#956;&#945;&#964;&#953;</A></span>  <li><span class="Greek"><a href="0081152.html#vi.iv.xxiii.vii-p9.3">&#964;&#961;&#8051;&#960;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0081357.html#vii.xxv.i-p6.2">&#964;&#961;&#945;&#954;&#964;&#945;&#8147;&#950;&#949;&#953;&#957;</A></span>  <li><span class="Greek"><a href="0081357.html#vii.xxv.i-p6.1">&#964;&#961;&#945;&#954;&#964;&#945;&#8147;&#963;&#945;&#957;&#964;&#949;&#962;</A></span>  <li><span class="Greek"><a href="0081147.html#vi.iv.xxiii.ii-p3.1">&#964;&#961;&#953;&#964;&#959;&#947;&#949;&#957;&#8051;&#962;</A></span>  <li><span class="Greek"><a href="0080621.html#vi.iv.iv.xi-p6.3">&#966;&#8057;&#957;&#959;&#965;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p93.1">&#966;&#8182;&#964;&#949;&#962;</A></span>  <li><span class="Greek"><a href="0080004.html#iii.ii-p31.2">&#966;&#945;&#8055;&#961;&#949;&#963;&#953;&#962;, &#7936;&#957;&#945;&#8055;&#961;&#949;&#963;&#953;&#962;</A></span>  <li><span class="Greek"><a href="0080808.html#vi.iv.viii.xxi-p3.1">&#966;&#949;&#961;&#8057;&#957;&#964;&#969;&#957;</A></span>  <li><span class="Greek"><a href="0080621.html#vi.iv.iv.xi-p6.2">&#966;&#952;&#8057;&#957;&#959;&#965;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p67.1">&#966;&#953;&#955;&#8049;&#957;&#952;&#961;&#969;&#960;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0080641.html#vi.iv.v.viii-p3.1">&#966;&#953;&#955;&#8057;&#955;&#959;&#947;&#959;&#953;, &#959;&#8016; &#966;&#953;&#955;&#8057;&#963;&#959;&#966;&#959;&#953;</A></span>  <li><span class="Greek"><a href="0080033.html#v.iii.viii-p3.2">&#966;&#961;&#8057;&#957;&#951;&#956;&#945;</A></span>  <li><span class="Greek"><a href="0081488.html#ix.xviii-p18.1">&#966;&#961;&#959;&#957;&#8053;&#963;&#949;&#953;</A></span>  <li><span class="Greek"><a href="0080021.html#iv.iii-p94.1">&#966;&#969;&#964;&#8056;&#962;</A></span>  <li><span class="Greek"><a href="0081280.html#vii.xiii.x-p8.1">&#967;&#8049;&#961;&#953;&#963;&#956;&#945;</A></span>  <li><span class="Greek"><a href="0081465.html#ix.ix.i-p184.1">&#967;&#945;&#955;&#953;&#957;&#8056;&#957; &#7952;&#956;&#946;&#945;&#955;&#949;&#8150;&#957;</A></span>  <li><span class="Greek"><a href="0080007.html#iii.v-p17.3">&#967;&#945;&#955;&#954;&#8134;&#957;</A></span>  <li><span class="Greek"><a href="0081045.html#vi.iv.xviii.v-p6.5">&#967;&#953;&#964;&#8182;&#957;&#945;</A></span>  <li><span class="Greek"><a href="0080038.html#v.iii.xiii-p12.1">&#967;&#961;&#953;&#963;&#964;&#8051;&#956;&#960;&#959;&#961;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081523.html#x.ix-p13.3">&#967;&#969;&#961;&#951;&#964;&#953;&#954;&#8057;&#957;</A></span>  <li><span class="Greek"><a href="0080678.html#vi.iv.v.xlv-p3.1">&#967;&#969;&#961;&#959;&#8059;&#956;&#949;&#957;&#959;&#962;</A></span>  <li><span class="Greek"><a href="0081056.html#vi.iv.xix.iv-p3.1">&#968;&#949;&#8166;&#963;&#956;&#945;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p106.2">&#968;&#965;&#967;&#8053;</A></span>  <li><span class="Greek"><a href="0080036.html#v.iii.xi-p21.2">&#968;&#965;&#967;&#953;&#954;&#8057;&#962;</A></span>  <li><span class="Greek"><a href="0081486.html#ix.xvi-p142.2">&#968;&#965;&#967;&#953;&#954;&#959;&#8055;</A></span>  <li><span class="Greek"><a href="0081512.html#x.v.xv-p5.1">[</A></span>           
+<p><HR>
+<CENTER>
+<A HREF="0081537.html">Next: Hebrew Words and Phrases</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/008/0081536.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/008/0081536.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/h4j2ddy'>tak.la/h4j2ddy</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/h4j2ddy';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+

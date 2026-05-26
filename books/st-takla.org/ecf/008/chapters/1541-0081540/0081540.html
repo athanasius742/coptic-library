@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. VIII: Fathers of the Third and Fourth Centuries: The Twelve Patriarchs, Excerpts and Epistles, The Clementina, Apocrypha, Decretals, Memoirs of Edessa and Syriac Documents, Remains of the First Ages | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Twelve Patriarchs Excerpts Epistles Clementina Apocrypha Decretals Memoirs Edessa Syriac Documents Remains First Ages">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol VIII: Indexes: Index of Pages of the Print Edition | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/008/0081540.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:34:13+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/008/'>008</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/008/'>008</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Ante-Nicene Fathers, Vol VIII:
+<br>
+Indexes: Index of Pages of the Print Edition</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html" id="next">Index</A>&nbsp;
+<A HREF="0081539.html" id="prev">Previous</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="xi.vi"></A>   <h2 align="center"><a name="xi.vi-p0.1"></A>Index of Pages of the Print Edition</h2>   <a name="xi.vi-p0.2"></A>     
+<p style="font-size: 16pt" class="pages"><a href="0080000.html#i-Page_i">i</A>&#160; <a href="0080000.html#i-Page_iii">iii</A>&#160; <a href="0080001.html#ii-Page_v">v</A>&#160; <a href="0080001.html#ii-Page_vi">vi</A>&#160; <a href="0080003.html#iii.i-Page_1">1</A>&#160; <a href="0080004.html#iii.ii-Page_3">3</A>&#160; <a href="0080004.html#iii.ii-Page_4">4</A>&#160; <a href="0080004.html#iii.ii-Page_5">5</A>&#160; <a href="0080004.html#iii.ii-Page_6">6</A>&#160; <a href="0080004.html#iii.ii-Page_7">7</A>&#160; <a href="0080004.html#iii.ii-Page_8">8</A>&#160; <a href="0080005.html#iii.iii-Page_9">9</A>&#160; <a href="0080005.html#iii.iii-Page_10">10</A>&#160; <a href="0080005.html#iii.iii-Page_11">11</A>&#160; <a href="0080006.html#iii.iv-Page_12">12</A>&#160; <a href="0080007.html#iii.v-Page_13">13</A>&#160; <a href="0080007.html#iii.v-Page_14">14</A>&#160; <a href="0080007.html#iii.v-Page_15">15</A>&#160; <a href="0080007.html#iii.v-Page_16">16</A>&#160; <a href="0080007.html#iii.v-Page_17">17</A>&#160; <a href="0080008.html#iii.vi-Page_18">18</A>&#160; <a href="0080008.html#iii.vi-Page_19">19</A>&#160; <a href="0080008.html#iii.vi-Page_20">20</A>&#160; <a href="0080008.html#iii.vi-Page_21">21</A>&#160; <a href="0080009.html#iii.vii-Page_22">22</A>&#160; <a href="0080009.html#iii.vii-Page_23">23</A>&#160; <a href="0080010.html#iii.viii-Page_24">24</A>&#160; <a href="0080010.html#iii.viii-Page_25">25</A>&#160; <a href="0080011.html#iii.ix-Page_26">26</A>&#160; <a href="0080012.html#iii.x-Page_27">27</A>&#160; <a href="0080012.html#iii.x-Page_28">28</A>&#160; <a href="0080013.html#iii.xi-Page_29">29</A>&#160; <a href="0080013.html#iii.xi-Page_30">30</A>&#160; <a href="0080014.html#iii.xii-Page_31">31</A>&#160; <a href="0080014.html#iii.xii-Page_32">32</A>&#160; <a href="0080015.html#iii.xiii-Page_33">33</A>&#160; <a href="0080015.html#iii.xiii-Page_34">34</A>&#160; <a href="0080015.html#iii.xiii-Page_35">35</A>&#160; <a href="0080016.html#iii.xiv-Page_36">36</A>&#160; <a href="0080016.html#iii.xiv-Page_37">37</A>&#160; <a href="0080016.html#iii.xiv-Page_38">38</A>&#160; <a href="0080019.html#iv.i-Page_39">39</A>&#160; <a href="0080020.html#iv.ii-Page_41">41</A>&#160; <a href="0080021.html#iv.iii-Page_43">43</A>&#160; <a href="0080021.html#iv.iii-Page_44">44</A>&#160; <a href="0080021.html#iv.iii-Page_45">45</A>&#160; <a href="0080021.html#iv.iii-Page_46">46</A>&#160; <a href="0080021.html#iv.iii-Page_47">47</A>&#160; <a href="0080021.html#iv.iii-Page_48">48</A>&#160; <a href="0080021.html#iv.iii-Page_49">49</A>&#160; <a href="0080021.html#iv.iii-Page_50">50</A>&#160; <a href="0080023.html#v.i-Page_51">51</A>&#160; <a href="0080024.html#v.ii-Page_53">53</A>&#160; <a href="0080024.html#v.ii-Page_54">54</A>&#160; <a href="0080026.html#v.iii.i-Page_55">55</A>&#160; <a href="0080028.html#v.iii.iii-Page_56">56</A>&#160; <a href="0080031.html#v.iii.vi-Page_57">57</A>&#160; <a href="0080033.html#v.iii.viii-Page_58">58</A>&#160; <a href="0080036.html#v.iii.xi-Page_59">59</A>&#160; <a href="0080037.html#v.iii.xii-Page_60">60</A>&#160; <a href="0080040.html#v.iv.i-Page_61">61</A>&#160; <a href="0080042.html#v.iv.iii-Page_62">62</A>&#160; <a href="0080045.html#v.iv.vi-Page_63">63</A>&#160; <a href="0080048.html#v.iv.ix-Page_64">64</A>&#160; <a href="0080053.html#v.iv.xiv-Page_65">65</A>&#160; <a href="0080055.html#v.iv.xvi-Page_66">66</A>&#160; <a href="0080057.html#vi.i-Page_67">67</A>&#160; <a href="0080058.html#vi.ii-Page_69">69</A>&#160; <a href="0080058.html#vi.ii-Page_70">70</A>&#160; <a href="0080058.html#vi.ii-Page_71">71</A>&#160; <a href="0080060.html#vi.iii.i-Page_73">73</A>&#160; <a href="0080060.html#vi.iii.i-Page_74">74</A>&#160; <a href="0080061.html#vi.iii.ii-Page_75">75</A>&#160; <a href="0080061.html#vi.iii.ii-Page_76">76</A>&#160; <a href="0080063.html#vi.iii.iii.i-Page_77">77</A>&#160; <a href="0080066.html#vi.iii.iii.iv-Page_78">78</A>&#160; <a href="0080069.html#vi.iii.iii.vii-Page_79">79</A>&#160; <a href="0080072.html#vi.iii.iii.x-Page_80">80</A>&#160; <a href="0080076.html#vi.iii.iii.xiv-Page_81">81</A>&#160; <a href="0080080.html#vi.iii.iii.xviii-Page_82">82</A>&#160; <a href="0080083.html#vi.iii.iii.xxi-Page_83">83</A>&#160; <a href="0080086.html#vi.iii.iii.xxiv-Page_84">84</A>&#160; <a href="0080089.html#vi.iii.iii.xxvii-Page_85">85</A>&#160; <a href="0080092.html#vi.iii.iii.xxx-Page_86">86</A>&#160; <a href="0080096.html#vi.iii.iii.xxxiv-Page_87">87</A>&#160; <a href="0080100.html#vi.iii.iii.xxxviii-Page_88">88</A>&#160; <a href="0080105.html#vi.iii.iii.xliii-Page_89">89</A>&#160; <a href="0080108.html#vi.iii.iii.xlvi-Page_90">90</A>&#160; <a href="0080113.html#vi.iii.iii.li-Page_91">91</A>&#160; <a href="0080116.html#vi.iii.iii.liv-Page_92">92</A>&#160; <a href="0080121.html#vi.iii.iii.lix-Page_93">93</A>&#160; <a href="0080125.html#vi.iii.iii.lxiii-Page_94">94</A>&#160; <a href="0080129.html#vi.iii.iii.lxvii-Page_95">95</A>&#160; <a href="0080133.html#vi.iii.iii.lxxi-Page_96">96</A>&#160; <a href="0080136.html#vi.iii.iii.lxxiv-Page_97">97</A>&#160; <a href="0080140.html#vi.iii.iv.iii-Page_98">98</A>&#160; <a href="0080144.html#vi.iii.iv.vii-Page_99">99</A>&#160; <a href="0080148.html#vi.iii.iv.xi-Page_100">100</A>&#160; <a href="0080151.html#vi.iii.iv.xiv-Page_101">101</A>&#160; <a href="0080155.html#vi.iii.iv.xviii-Page_102">102</A>&#160; <a href="0080157.html#vi.iii.iv.xx-Page_103">103</A>&#160; <a href="0080160.html#vi.iii.iv.xxiii-Page_104">104</A>&#160; <a href="0080163.html#vi.iii.iv.xxvi-Page_105">105</A>&#160; <a href="0080167.html#vi.iii.iv.xxx-Page_106">106</A>&#160; <a href="0080171.html#vi.iii.iv.xxxiv-Page_107">107</A>&#160; <a href="0080175.html#vi.iii.iv.xxxviii-Page_108">108</A>&#160; <a href="0080179.html#vi.iii.iv.xlii-Page_109">109</A>&#160; <a href="0080182.html#vi.iii.iv.xlv-Page_110">110</A>&#160; <a href="0080187.html#vi.iii.iv.l-Page_111">111</A>&#160; <a href="0080190.html#vi.iii.iv.liii-Page_112">112</A>&#160; <a href="0080193.html#vi.iii.iv.lvi-Page_113">113</A>&#160; <a href="0080196.html#vi.iii.iv.lix-Page_114">114</A>&#160; <a href="0080200.html#vi.iii.iv.lxiii-Page_115">115</A>&#160; <a href="0080205.html#vi.iii.iv.lxviii-Page_116">116</A>&#160; <a href="0080209.html#vi.iii.iv.lxxii-Page_117">117</A>&#160; <a href="0080213.html#vi.iii.v.iii-Page_118">118</A>&#160; <a href="0080217.html#vi.iii.v.vii-Page_119">119</A>&#160; <a href="0080221.html#vi.iii.v.xi-Page_120">120</A>&#160; <a href="0080225.html#vi.iii.v.xv-Page_121">121</A>&#160; <a href="0080229.html#vi.iii.v.xix-Page_122">122</A>&#160; <a href="0080232.html#vi.iii.v.xxii-Page_123">123</A>&#160; <a href="0080236.html#vi.iii.v.xxvi-Page_124">124</A>&#160; <a href="0080240.html#vi.iii.v.xxx-Page_125">125</A>&#160; <a href="0080243.html#vi.iii.v.xxxiii-Page_126">126</A>&#160; <a href="0080247.html#vi.iii.v.xxxvii-Page_127">127</A>&#160; <a href="0080252.html#vi.iii.v.xlii-Page_128">128</A>&#160; <a href="0080255.html#vi.iii.v.xlv-Page_129">129</A>&#160; <a href="0080259.html#vi.iii.v.xlix-Page_130">130</A>&#160; <a href="0080263.html#vi.iii.v.liii-Page_131">131</A>&#160; <a href="0080266.html#vi.iii.v.lvi-Page_132">132</A>&#160; <a href="0080270.html#vi.iii.v.lx-Page_133">133</A>&#160; <a href="0080275.html#vi.iii.v.lxv-Page_134">134</A>&#160; <a href="0080277.html#vi.iii.vi.i-Page_135">135</A>&#160; <a href="0080281.html#vi.iii.vi.v-Page_136">136</A>&#160; <a href="0080285.html#vi.iii.vi.ix-Page_137">137</A>&#160; <a href="0080290.html#vi.iii.vi.xiv-Page_138">138</A>&#160; <a href="0080295.html#vi.iii.vi.xix-Page_139">139</A>&#160; <a href="0080299.html#vi.iii.vi.xxiii-Page_140">140</A>&#160; <a href="0080304.html#vi.iii.vi.xxviii-Page_141">141</A>&#160; <a href="0080308.html#vi.iii.vi.xxxii-Page_142">142</A>&#160; <a href="0080312.html#vi.iii.vi.xxxvi-Page_143">143</A>&#160; <a href="0080318.html#vi.iii.vii.iv-Page_144">144</A>&#160; <a href="0080322.html#vi.iii.vii.viii-Page_145">145</A>&#160; <a href="0080326.html#vi.iii.vii.xii-Page_146">146</A>&#160; <a href="0080330.html#vi.iii.vii.xvi-Page_147">147</A>&#160; <a href="0080334.html#vi.iii.vii.xx-Page_148">148</A>&#160; <a href="0080337.html#vi.iii.vii.xxiii-Page_149">149</A>&#160; <a href="0080341.html#vi.iii.vii.xxvii-Page_150">150</A>&#160; <a href="0080344.html#vi.iii.vii.xxx-Page_151">151</A>&#160; <a href="0080348.html#vi.iii.vii.xxxiv-Page_152">152</A>&#160; <a href="0080352.html#vi.iii.viii.i-Page_153">153</A>&#160; <a href="0080356.html#vi.iii.viii.v-Page_154">154</A>&#160; <a href="0080359.html#vi.iii.viii.viii-Page_155">155</A>&#160; <a href="0080363.html#vi.iii.viii.xii-Page_156">156</A>&#160; <a href="0080368.html#vi.iii.ix.i-Page_157">157</A>&#160; <a href="0080372.html#vi.iii.ix.v-Page_158">158</A>&#160; <a href="0080376.html#vi.iii.ix.ix-Page_159">159</A>&#160; <a href="0080382.html#vi.iii.ix.xv-Page_160">160</A>&#160; <a href="0080386.html#vi.iii.ix.xix-Page_161">161</A>&#160; <a href="0080391.html#vi.iii.ix.xxiv-Page_162">162</A>&#160; <a href="0080395.html#vi.iii.ix.xxviii-Page_163">163</A>&#160; <a href="0080400.html#vi.iii.ix.xxxiii-Page_164">164</A>&#160; <a href="0080404.html#vi.iii.ix.xxxvii-Page_165">165</A>&#160; <a href="0080408.html#vi.iii.x.ii-Page_166">166</A>&#160; <a href="0080411.html#vi.iii.x.v-Page_167">167</A>&#160; <a href="0080414.html#vi.iii.x.viii-Page_168">168</A>&#160; <a href="0080418.html#vi.iii.x.xii-Page_169">169</A>&#160; <a href="0080422.html#vi.iii.x.xvi-Page_170">170</A>&#160; <a href="0080426.html#vi.iii.x.xx-Page_171">171</A>&#160; <a href="0080430.html#vi.iii.x.xxiv-Page_172">172</A>&#160; <a href="0080433.html#vi.iii.x.xxvii-Page_173">173</A>&#160; <a href="0080438.html#vi.iii.x.xxxii-Page_174">174</A>&#160; <a href="0080441.html#vi.iii.x.xxxv-Page_175">175</A>&#160; <a href="0080445.html#vi.iii.x.xxxix-Page_176">176</A>&#160; <a href="0080449.html#vi.iii.x.xliii-Page_177">177</A>&#160; <a href="0080452.html#vi.iii.x.xlvi-Page_178">178</A>&#160; <a href="0080456.html#vi.iii.x.l-Page_179">179</A>&#160; <a href="0080460.html#vi.iii.x.liv-Page_180">180</A>&#160; <a href="0080463.html#vi.iii.x.lvii-Page_181">181</A>&#160; <a href="0080466.html#vi.iii.x.lx-Page_182">182</A>&#160; <a href="0080470.html#vi.iii.xi.i-Page_183">183</A>&#160; <a href="0080475.html#vi.iii.xi.vi-Page_184">184</A>&#160; <a href="0080478.html#vi.iii.xi.ix-Page_185">185</A>&#160; <a href="0080481.html#vi.iii.xi.xii-Page_186">186</A>&#160; <a href="0080486.html#vi.iii.xi.xvii-Page_187">187</A>&#160; <a href="0080490.html#vi.iii.xi.xxi-Page_188">188</A>&#160; <a href="0080495.html#vi.iii.xi.xxvi-Page_189">189</A>&#160; <a href="0080499.html#vi.iii.xi.xxx-Page_190">190</A>&#160; <a href="0080503.html#vi.iii.xi.xxxiv-Page_191">191</A>&#160; <a href="0080507.html#vi.iii.xi.xxxviii-Page_192">192</A>&#160; <a href="0080510.html#vi.iii.xii.ii-Page_193">193</A>&#160; <a href="0080513.html#vi.iii.xii.v-Page_194">194</A>&#160; <a href="0080517.html#vi.iii.xii.ix-Page_195">195</A>&#160; <a href="0080520.html#vi.iii.xii.xii-Page_196">196</A>&#160; <a href="0080524.html#vi.iii.xii.xvi-Page_197">197</A>&#160; <a href="0080528.html#vi.iii.xii.xx-Page_198">198</A>&#160; <a href="0080531.html#vi.iii.xii.xxiii-Page_199">199</A>&#160; <a href="0080535.html#vi.iii.xii.xxvii-Page_200">200</A>&#160; <a href="0080540.html#vi.iii.xii.xxxii-Page_201">201</A>&#160; <a href="0080543.html#vi.iii.xii.xxxv-Page_202">202</A>&#160; <a href="0080548.html#vi.iii.xii.xl-Page_203">203</A>&#160; <a href="0080551.html#vi.iii.xii.xliii-Page_204">204</A>&#160; <a href="0080556.html#vi.iii.xii.xlviii-Page_205">205</A>&#160; <a href="0080560.html#vi.iii.xii.lii-Page_206">206</A>&#160; <a href="0080564.html#vi.iii.xii.lvi-Page_207">207</A>&#160; <a href="0080568.html#vi.iii.xii.lx-Page_208">208</A>&#160; <a href="0080572.html#vi.iii.xii.lxiv-Page_209">209</A>&#160; <a href="0080576.html#vi.iii.xii.lxviii-Page_210">210</A>&#160; <a href="0080580.html#vi.iii.xii.lxxii-Page_211">211</A>&#160; <a href="0080582.html#vi.iv.i-Page_213">213</A>&#160; <a href="0080584.html#vi.iv.ii.i-Page_215">215</A>&#160; <a href="0080587.html#vi.iv.ii.iv-Page_216">216</A>&#160; <a href="0080588.html#vi.iv.ii.v-Page_217">217</A>&#160; <a href="0080590.html#vi.iv.iii.i-Page_218">218</A>&#160; <a href="0080592.html#vi.iv.iii.iii-Page_219">219</A>&#160; <a href="0080597.html#vi.iv.iii.viii-Page_220">220</A>&#160; <a href="0080603.html#vi.iv.iii.xiv-Page_221">221</A>&#160; <a href="0080608.html#vi.iv.iii.xix-Page_222">222</A>&#160; <a href="0080611.html#vi.iv.iv.i-Page_223">223</A>&#160; <a href="0080614.html#vi.iv.iv.iv-Page_224">224</A>&#160; <a href="0080617.html#vi.iv.iv.vii-Page_225">225</A>&#160; <a href="0080621.html#vi.iv.iv.xi-Page_226">226</A>&#160; <a href="0080625.html#vi.iv.iv.xv-Page_227">227</A>&#160; <a href="0080629.html#vi.iv.iv.xix-Page_228">228</A>&#160; <a href="0080634.html#vi.iv.v.i-Page_229">229</A>&#160; <a href="0080639.html#vi.iv.v.vi-Page_230">230</A>&#160; <a href="0080645.html#vi.iv.v.xii-Page_231">231</A>&#160; <a href="0080650.html#vi.iv.v.xvii-Page_232">232</A>&#160; <a href="0080655.html#vi.iv.v.xxii-Page_233">233</A>&#160; <a href="0080659.html#vi.iv.v.xxvi-Page_234">234</A>&#160; <a href="0080663.html#vi.iv.v.xxx-Page_235">235</A>&#160; <a href="0080669.html#vi.iv.v.xxxvi-Page_236">236</A>&#160; <a href="0080674.html#vi.iv.v.xli-Page_237">237</A>&#160; <a href="0080680.html#vi.iv.v.xlvii-Page_238">238</A>&#160; <a href="0080688.html#vi.iv.vi.i-Page_239">239</A>&#160; <a href="0080693.html#vi.iv.vi.vi-Page_240">240</A>&#160; <a href="0080699.html#vi.iv.vi.xii-Page_241">241</A>&#160; <a href="0080705.html#vi.iv.vi.xviii-Page_242">242</A>&#160; <a href="0080711.html#vi.iv.vi.xxiv-Page_243">243</A>&#160; <a href="0080716.html#vi.iv.vi.xxix-Page_244">244</A>&#160; <a href="0080722.html#vi.iv.vi.xxxv-Page_245">245</A>&#160; <a href="0080727.html#vi.iv.vi.xl-Page_246">246</A>&#160; <a href="0080731.html#vi.iv.vi.xliv-Page_247">247</A>&#160; <a href="0080737.html#vi.iv.vi.l-Page_248">248</A>&#160; <a href="0080744.html#vi.iv.vi.lvii-Page_249">249</A>&#160; <a href="0080750.html#vi.iv.vi.lxiii-Page_250">250</A>&#160; <a href="0080756.html#vi.iv.vi.lxix-Page_251">251</A>&#160; <a href="0080762.html#vi.iv.vii.i-Page_252">252</A>&#160; <a href="0080767.html#vi.iv.vii.vi-Page_253">253</A>&#160; <a href="0080773.html#vi.iv.vii.xii-Page_254">254</A>&#160; <a href="0080779.html#vi.iv.vii.xviii-Page_255">255</A>&#160; <a href="0080784.html#vi.iv.vii.xxiii-Page_256">256</A>&#160; <a href="0080790.html#vi.iv.viii.iii-Page_257">257</A>&#160; <a href="0080795.html#vi.iv.viii.viii-Page_258">258</A>&#160; <a href="0080800.html#vi.iv.viii.xiii-Page_259">259</A>&#160; <a href="0080804.html#vi.iv.viii.xvii-Page_260">260</A>&#160; <a href="0080810.html#vi.iv.viii.xxiii-Page_261">261</A>&#160; <a href="0080816.html#vi.iv.viii.xxix-Page_262">262</A>&#160; <a href="0080820.html#vi.iv.ix.ii-Page_263">263</A>&#160; <a href="0080824.html#vi.iv.ix.vi-Page_264">264</A>&#160; <a href="0080830.html#vi.iv.ix.xii-Page_265">265</A>&#160; <a href="0080835.html#vi.iv.ix.xvii-Page_266">266</A>&#160; <a href="0080840.html#vi.iv.ix.xxii-Page_267">267</A>&#160; <a href="0080846.html#vi.iv.x.i-Page_268">268</A>&#160; <a href="0080850.html#vi.iv.x.v-Page_269">269</A>&#160; <a href="0080855.html#vi.iv.x.x-Page_270">270</A>&#160; <a href="0080861.html#vi.iv.xi.iii-Page_271">271</A>&#160; <a href="0080866.html#vi.iv.xi.viii-Page_272">272</A>&#160; <a href="0080871.html#vi.iv.xi.xiii-Page_273">273</A>&#160; <a href="0080877.html#vi.iv.xi.xix-Page_274">274</A>&#160; <a href="0080881.html#vi.iv.xi.xxiii-Page_275">275</A>&#160; <a href="0080887.html#vi.iv.xii.iv-Page_276">276</A>&#160; <a href="0080893.html#vi.iv.xii.x-Page_277">277</A>&#160; <a href="0080897.html#vi.iv.xii.xiv-Page_278">278</A>&#160; <a href="0080902.html#vi.iv.xii.xix-Page_279">279</A>&#160; <a href="0080908.html#vi.iv.xiii.i-Page_280">280</A>&#160; <a href="0080913.html#vi.iv.xiii.vi-Page_281">281</A>&#160; <a href="0080918.html#vi.iv.xiii.xi-Page_282">282</A>&#160; <a href="0080924.html#vi.iv.xiii.xvii-Page_283">283</A>&#160; <a href="0080929.html#vi.iv.xiii.xxii-Page_284">284</A>&#160; <a href="0080936.html#vi.iv.xiv.ii-Page_285">285</A>&#160; <a href="0080941.html#vi.iv.xiv.vii-Page_286">286</A>&#160; <a href="0080945.html#vi.iv.xiv.xi-Page_287">287</A>&#160; <a href="0080949.html#vi.iv.xiv.xv-Page_288">288</A>&#160; <a href="0080954.html#vi.iv.xiv.xx-Page_289">289</A>&#160; <a href="0080959.html#vi.iv.xiv.xxv-Page_290">290</A>&#160; <a href="0080965.html#vi.iv.xiv.xxxi-Page_291">291</A>&#160; <a href="0080969.html#vi.iv.xiv.xxxv-Page_292">292</A>&#160; <a href="0080975.html#vi.iv.xv.iv-Page_293">293</A>&#160; <a href="0080979.html#vi.iv.xv.viii-Page_294">294</A>&#160; <a href="0080984.html#vi.iv.xv.xiii-Page_295">295</A>&#160; <a href="0080989.html#vi.iv.xv.xviii-Page_296">296</A>&#160; <a href="0080994.html#vi.iv.xv.xxiii-Page_297">297</A>&#160; <a href="0080997.html#vi.iv.xv.xxvi-Page_298">298</A>&#160; <a href="0081001.html#vi.iv.xv.xxx-Page_299">299</A>&#160; <a href="0081006.html#vi.iv.xvi.i-Page_300">300</A>&#160; <a href="0081009.html#vi.iv.xvi.iv-Page_301">301</A>&#160; <a href="0081013.html#vi.iv.xvi.viii-Page_302">302</A>&#160; <a href="0081018.html#vi.iv.xvi.xiii-Page_303">303</A>&#160; <a href="0081022.html#vi.iv.xvi.xvii-Page_304">304</A>&#160; <a href="0081026.html#vi.iv.xvi.xxi-Page_305">305</A>&#160; <a href="0081030.html#vi.iv.xvii.iii-Page_306">306</A>&#160; <a href="0081034.html#vi.iv.xvii.vii-Page_307">307</A>&#160; <a href="0081037.html#vi.iv.xvii.x-Page_308">308</A>&#160; <a href="0081041.html#vi.iv.xviii.i-Page_309">309</A>&#160; <a href="0081045.html#vi.iv.xviii.v-Page_310">310</A>&#160; <a href="0081048.html#vi.iv.xviii.viii-Page_311">311</A>&#160; <a href="0081053.html#vi.iv.xix.i-Page_312">312</A>&#160; <a href="0081056.html#vi.iv.xix.iv-Page_313">313</A>&#160; <a href="0081059.html#vi.iv.xix.vii-Page_314">314</A>&#160; <a href="0081062.html#vi.iv.xix.x-Page_315">315</A>&#160; <a href="0081066.html#vi.iv.xix.xiv-Page_316">316</A>&#160; <a href="0081071.html#vi.iv.xix.xix-Page_317">317</A>&#160; <a href="0081075.html#vi.iv.xx.i-Page_318">318</A>&#160; <a href="0081078.html#vi.iv.xx.iv-Page_319">319</A>&#160; <a href="0081081.html#vi.iv.xx.vii-Page_320">320</A>&#160; <a href="0081084.html#vi.iv.xx.x-Page_321">321</A>&#160; <a href="0081087.html#vi.iv.xx.xiii-Page_322">322</A>&#160; <a href="0081090.html#vi.iv.xx.xvi-Page_323">323</A>&#160; <a href="0081093.html#vi.iv.xx.xix-Page_324">324</A>&#160; <a href="0081097.html#vi.iv.xxi.ii-Page_325">325</A>&#160; <a href="0081100.html#vi.iv.xxi.v-Page_326">326</A>&#160; <a href="0081104.html#vi.iv.xxi.ix-Page_327">327</A>&#160; <a href="0081108.html#vi.iv.xxi.xiii-Page_328">328</A>&#160; <a href="0081112.html#vi.iv.xxi.xvii-Page_329">329</A>&#160; <a href="0081117.html#vi.iv.xxi.xxii-Page_330">330</A>&#160; <a href="0081121.html#vi.iv.xxii.ii-Page_331">331</A>&#160; <a href="0081124.html#vi.iv.xxii.v-Page_332">332</A>&#160; <a href="0081127.html#vi.iv.xxii.viii-Page_333">333</A>&#160; <a href="0081130.html#vi.iv.xxii.xi-Page_334">334</A>&#160; <a href="0081134.html#vi.iv.xxii.xv-Page_335">335</A>&#160; <a href="0081137.html#vi.iv.xxii.xviii-Page_336">336</A>&#160; <a href="0081139.html#vi.iv.xxii.xx-Page_337">337</A>&#160; <a href="0081141.html#vi.iv.xxii.xxii-Page_338">338</A>&#160; <a href="0081144.html#vi.iv.xxii.xxv-Page_339">339</A>&#160; <a href="0081148.html#vi.iv.xxiii.iii-Page_340">340</A>&#160; <a href="0081151.html#vi.iv.xxiii.vi-Page_341">341</A>&#160; <a href="0081153.html#vi.iv.xxiii.viii-Page_342">342</A>&#160; <a href="0081156.html#vi.iv.xxiii.xi-Page_343">343</A>&#160; <a href="0081159.html#vi.iv.xxiii.xiv-Page_344">344</A>&#160; <a href="0081163.html#vi.iv.xxiii.xviii-Page_345">345</A>&#160; <a href="0081167.html#vi.iv.xxiii.xxii-Page_346">346</A>&#160; <a href="0081170.html#vii.i-Page_347">347</A>&#160; <a href="0081171.html#vii.ii-Page_349">349</A>&#160; <a href="0081171.html#vii.ii-Page_350">350</A>&#160; <a href="0081173.html#vii.iii.i-Page_351">351</A>&#160; <a href="0081173.html#vii.iii.i-Page_352">352</A>&#160; <a href="0081173.html#vii.iii.i-Page_353">353</A>&#160; <a href="0081173.html#vii.iii.i-Page_354">354</A>&#160; <a href="0081174.html#vii.iii.ii-Page_355">355</A>&#160; <a href="0081174.html#vii.iii.ii-Page_356">356</A>&#160; <a href="0081174.html#vii.iii.ii-Page_357">357</A>&#160; <a href="0081174.html#vii.iii.ii-Page_358">358</A>&#160; <a href="0081175.html#vii.iii.iii-Page_359">359</A>&#160; <a href="0081175.html#vii.iii.iii-Page_360">360</A>&#160; <a href="0081176.html#vii.iv-Page_361">361</A>&#160; <a href="0081176.html#vii.iv-Page_362">362</A>&#160; <a href="0081176.html#vii.iv-Page_363">363</A>&#160; <a href="0081176.html#vii.iv-Page_364">364</A>&#160; <a href="0081176.html#vii.iv-Page_365">365</A>&#160; <a href="0081176.html#vii.iv-Page_366">366</A>&#160; <a href="0081176.html#vii.iv-Page_367">367</A>&#160; <a href="0081178.html#vii.v.i-Page_368">368</A>&#160; <a href="0081178.html#vii.v.i-Page_369">369</A>&#160; <a href="0081181.html#vii.v.iv-Page_370">370</A>&#160; <a href="0081182.html#vii.v.v-Page_371">371</A>&#160; <a href="0081186.html#vii.v.ix-Page_372">372</A>&#160; <a href="0081186.html#vii.v.ix-Page_373">373</A>&#160; <a href="0081190.html#vii.v.xiii-Page_374">374</A>&#160; <a href="0081191.html#vii.v.xiv-Page_375">375</A>&#160; <a href="0081194.html#vii.v.xvii-Page_376">376</A>&#160; <a href="0081198.html#vii.v.xxi-Page_377">377</A>&#160; <a href="0081203.html#vii.v.xxvi-Page_378">378</A>&#160; <a href="0081207.html#vii.v.xxx-Page_379">379</A>&#160; <a href="0081209.html#vii.v.xxxii-Page_380">380</A>&#160; <a href="0081213.html#vii.v.xxxvi-Page_381">381</A>&#160; <a href="0081217.html#vii.v.xl-Page_382">382</A>&#160; <a href="0081220.html#vii.v.xliii-Page_383">383</A>&#160; <a href="0081222.html#vii.vi.i-Page_384">384</A>&#160; <a href="0081224.html#vii.vi.iii-Page_385">385</A>&#160; <a href="0081228.html#vii.vi.vii-Page_386">386</A>&#160; <a href="0081230.html#vii.vi.ix-Page_387">387</A>&#160; <a href="0081232.html#vii.vii-Page_388">388</A>&#160; <a href="0081232.html#vii.vii-Page_389">389</A>&#160; <a href="0081232.html#vii.vii-Page_390">390</A>&#160; <a href="0081232.html#vii.vii-Page_391">391</A>&#160; <a href="0081232.html#vii.vii-Page_392">392</A>&#160; <a href="0081232.html#vii.vii-Page_393">393</A>&#160; <a href="0081232.html#vii.vii-Page_394">394</A>&#160; <a href="0081233.html#vii.viii-Page_395">395</A>&#160; <a href="0081233.html#vii.viii-Page_396">396</A>&#160; <a href="0081233.html#vii.viii-Page_397">397</A>&#160; <a href="0081233.html#vii.viii-Page_398">398</A>&#160; <a href="0081234.html#vii.ix-Page_399">399</A>&#160; <a href="0081236.html#vii.x.i-Page_400">400</A>&#160; <a href="0081239.html#vii.x.iv-Page_401">401</A>&#160; <a href="0081241.html#vii.x.vi-Page_402">402</A>&#160; <a href="0081246.html#vii.x.xi-Page_403">403</A>&#160; <a href="0081250.html#vii.x.xv-Page_404">404</A>&#160; <a href="0081251.html#vii.xi-Page_405">405</A>&#160; <a href="0081251.html#vii.xi-Page_406">406</A>&#160; <a href="0081251.html#vii.xi-Page_407">407</A>&#160; <a href="0081251.html#vii.xi-Page_408">408</A>&#160; <a href="0081251.html#vii.xi-Page_409">409</A>&#160; <a href="0081251.html#vii.xi-Page_410">410</A>&#160; <a href="0081251.html#vii.xi-Page_411">411</A>&#160; <a href="0081251.html#vii.xi-Page_412">412</A>&#160; <a href="0081251.html#vii.xi-Page_413">413</A>&#160; <a href="0081251.html#vii.xi-Page_414">414</A>&#160; <a href="0081251.html#vii.xi-Page_415">415</A>&#160; <a href="0081253.html#vii.xii.i-Page_416">416</A>&#160; <a href="0081254.html#vii.xii.ii-Page_417">417</A>&#160; <a href="0081255.html#vii.xii.iii-Page_418">418</A>&#160; <a href="0081257.html#vii.xii.v-Page_419">419</A>&#160; <a href="0081261.html#vii.xii.ix-Page_420">420</A>&#160; <a href="0081264.html#vii.xii.xii-Page_421">421</A>&#160; <a href="0081266.html#vii.xii.xiv-Page_422">422</A>&#160; <a href="0081268.html#vii.xii.xvi-Page_423">423</A>&#160; <a href="0081268.html#vii.xii.xvi-Page_424">424</A>&#160; <a href="0081269.html#vii.xii.xvii-Page_425">425</A>&#160; <a href="0081271.html#vii.xiii.i-Page_426">426</A>&#160; <a href="0081272.html#vii.xiii.ii-Page_427">427</A>&#160; <a href="0081275.html#vii.xiii.v-Page_428">428</A>&#160; <a href="0081280.html#vii.xiii.x-Page_429">429</A>&#160; <a href="0081281.html#vii.xiii.xi-Page_430">430</A>&#160; <a href="0081282.html#vii.xiii.xii-Page_431">431</A>&#160; <a href="0081282.html#vii.xiii.xii-Page_432">432</A>&#160; <a href="0081285.html#vii.xiii.xv-Page_433">433</A>&#160; <a href="0081287.html#vii.xiii.xvii-Page_434">434</A>&#160; <a href="0081289.html#vii.xiv.i-Page_435">435</A>&#160; <a href="0081290.html#vii.xiv.ii-Page_436">436</A>&#160; <a href="0081293.html#vii.xiv.v-Page_437">437</A>&#160; <a href="0081298.html#vii.xiv.x-Page_438">438</A>&#160; <a href="0081301.html#vii.xv.i-Page_439">439</A>&#160; <a href="0081302.html#vii.xv.ii-Page_440">440</A>&#160; <a href="0081303.html#vii.xv.iii-Page_441">441</A>&#160; <a href="0081305.html#vii.xv.v-Page_442">442</A>&#160; <a href="0081310.html#vii.xv.x-Page_443">443</A>&#160; <a href="0081313.html#vii.xv.xiii-Page_444">444</A>&#160; <a href="0081315.html#vii.xv.xv-Page_445">445</A>&#160; <a href="0081316.html#vii.xv.xvi-Page_446">446</A>&#160; <a href="0081317.html#vii.xv.xvii-Page_447">447</A>&#160; <a href="0081319.html#vii.xvi.i-Page_448">448</A>&#160; <a href="0081320.html#vii.xvi.ii-Page_449">449</A>&#160; <a href="0081322.html#vii.xvi.iv-Page_450">450</A>&#160; <a href="0081324.html#vii.xvi.vi-Page_451">451</A>&#160; <a href="0081326.html#vii.xvi.viii-Page_452">452</A>&#160; <a href="0081329.html#vii.xvi.xi-Page_453">453</A>&#160; <a href="0081330.html#vii.xvi.xii-Page_454">454</A>&#160; <a href="0081333.html#vii.xvii.i-Page_455">455</A>&#160; <a href="0081334.html#vii.xvii.ii-Page_456">456</A>&#160; <a href="0081337.html#vii.xvii.v-Page_457">457</A>&#160; <a href="0081341.html#vii.xvii.ix-Page_458">458</A>&#160; <a href="0081344.html#vii.xviii-Page_459">459</A>&#160; <a href="0081345.html#vii.xix-Page_460">460</A>&#160; <a href="0081345.html#vii.xix-Page_461">461</A>&#160; <a href="0081346.html#vii.xx-Page_462">462</A>&#160; <a href="0081346.html#vii.xx-Page_463">463</A>&#160; <a href="0081347.html#vii.xxi-Page_464">464</A>&#160; <a href="0081347.html#vii.xxi-Page_465">465</A>&#160; <a href="0081348.html#vii.xxii-Page_466">466</A>&#160; <a href="0081348.html#vii.xxii-Page_467">467</A>&#160; <a href="0081350.html#vii.xxiii.i-Page_468">468</A>&#160; <a href="0081351.html#vii.xxiii.ii-Page_469">469</A>&#160; <a href="0081352.html#vii.xxiii.iii-Page_470">470</A>&#160; <a href="0081354.html#vii.xxiii.v-Page_471">471</A>&#160; <a href="0081355.html#vii.xxiv-Page_472">472</A>&#160; <a href="0081355.html#vii.xxiv-Page_473">473</A>&#160; <a href="0081355.html#vii.xxiv-Page_474">474</A>&#160; <a href="0081355.html#vii.xxiv-Page_475">475</A>&#160; <a href="0081355.html#vii.xxiv-Page_476">476</A>&#160; <a href="0081357.html#vii.xxv.i-Page_477">477</A>&#160; <a href="0081357.html#vii.xxv.i-Page_478">478</A>&#160; <a href="0081357.html#vii.xxv.i-Page_479">479</A>&#160; <a href="0081357.html#vii.xxv.i-Page_480">480</A>&#160; <a href="0081357.html#vii.xxv.i-Page_481">481</A>&#160; <a href="0081357.html#vii.xxv.i-Page_482">482</A>&#160; <a href="0081357.html#vii.xxv.i-Page_483">483</A>&#160; <a href="0081357.html#vii.xxv.i-Page_484">484</A>&#160; <a href="0081357.html#vii.xxv.i-Page_485">485</A>&#160; <a href="0081358.html#vii.xxv.ii-Page_486">486</A>&#160; <a href="0081359.html#vii.xxvi-Page_487">487</A>&#160; <a href="0081359.html#vii.xxvi-Page_488">488</A>&#160; <a href="0081359.html#vii.xxvi-Page_489">489</A>&#160; <a href="0081359.html#vii.xxvi-Page_490">490</A>&#160; <a href="0081359.html#vii.xxvi-Page_491">491</A>&#160; <a href="0081359.html#vii.xxvi-Page_492">492</A>&#160; <a href="0081360.html#vii.xxvii-Page_493">493</A>&#160; <a href="0081360.html#vii.xxvii-Page_494">494</A>&#160; <a href="0081360.html#vii.xxvii-Page_495">495</A>&#160; <a href="0081360.html#vii.xxvii-Page_496">496</A>&#160; <a href="0081362.html#vii.xxviii.i-Page_497">497</A>&#160; <a href="0081362.html#vii.xxviii.i-Page_498">498</A>&#160; <a href="0081362.html#vii.xxviii.i-Page_499">499</A>&#160; <a href="0081362.html#vii.xxviii.i-Page_500">500</A>&#160; <a href="0081362.html#vii.xxviii.i-Page_501">501</A>&#160; <a href="0081362.html#vii.xxviii.i-Page_502">502</A>&#160; <a href="0081362.html#vii.xxviii.i-Page_503">503</A>&#160; <a href="0081363.html#vii.xxviii.ii-Page_504">504</A>&#160; <a href="0081363.html#vii.xxviii.ii-Page_505">505</A>&#160; <a href="0081363.html#vii.xxviii.ii-Page_506">506</A>&#160; <a href="0081363.html#vii.xxviii.ii-Page_507">507</A>&#160; <a href="0081364.html#vii.xxviii.iii-Page_508">508</A>&#160; <a href="0081364.html#vii.xxviii.iii-Page_509">509</A>&#160; <a href="0081364.html#vii.xxviii.iii-Page_510">510</A>&#160; <a href="0081365.html#vii.xxix-Page_511">511</A>&#160; <a href="0081365.html#vii.xxix-Page_512">512</A>&#160; <a href="0081365.html#vii.xxix-Page_513">513</A>&#160; <a href="0081365.html#vii.xxix-Page_514">514</A>&#160; <a href="0081365.html#vii.xxix-Page_515">515</A>&#160; <a href="0081365.html#vii.xxix-Page_516">516</A>&#160; <a href="0081366.html#vii.xxx-Page_517">517</A>&#160; <a href="0081366.html#vii.xxx-Page_518">518</A>&#160; <a href="0081366.html#vii.xxx-Page_519">519</A>&#160; <a href="0081366.html#vii.xxx-Page_520">520</A>&#160; <a href="0081366.html#vii.xxx-Page_521">521</A>&#160; <a href="0081366.html#vii.xxx-Page_522">522</A>&#160; <a href="0081366.html#vii.xxx-Page_523">523</A>&#160; <a href="0081366.html#vii.xxx-Page_524">524</A>&#160; <a href="0081366.html#vii.xxx-Page_525">525</A>&#160; <a href="0081367.html#vii.xxxi-Page_526">526</A>&#160; <a href="0081367.html#vii.xxxi-Page_527">527</A>&#160; <a href="0081368.html#vii.xxxii-Page_528">528</A>&#160; <a href="0081368.html#vii.xxxii-Page_529">529</A>&#160; <a href="0081368.html#vii.xxxii-Page_530">530</A>&#160; <a href="0081368.html#vii.xxxii-Page_531">531</A>&#160; <a href="0081368.html#vii.xxxii-Page_532">532</A>&#160; <a href="0081368.html#vii.xxxii-Page_533">533</A>&#160; <a href="0081368.html#vii.xxxii-Page_534">534</A>&#160; <a href="0081370.html#vii.xxxiii.i-Page_535">535</A>&#160; <a href="0081370.html#vii.xxxiii.i-Page_536">536</A>&#160; <a href="0081370.html#vii.xxxiii.i-Page_537">537</A>&#160; <a href="0081370.html#vii.xxxiii.i-Page_538">538</A>&#160; <a href="0081372.html#vii.xxxiii.ii.i-Page_539">539</A>&#160; <a href="0081372.html#vii.xxxiii.ii.i-Page_540">540</A>&#160; <a href="0081372.html#vii.xxxiii.ii.i-Page_541">541</A>&#160; <a href="0081372.html#vii.xxxiii.ii.i-Page_542">542</A>&#160; <a href="0081373.html#vii.xxxiii.ii.ii-Page_543">543</A>&#160; <a href="0081373.html#vii.xxxiii.ii.ii-Page_544">544</A>&#160; <a href="0081374.html#vii.xxxiii.ii.iii-Page_545">545</A>&#160; <a href="0081374.html#vii.xxxiii.ii.iii-Page_546">546</A>&#160; <a href="0081375.html#vii.xxxiii.ii.iv-Page_547">547</A>&#160; <a href="0081375.html#vii.xxxiii.ii.iv-Page_548">548</A>&#160; <a href="0081375.html#vii.xxxiii.ii.iv-Page_549">549</A>&#160; <a href="0081376.html#vii.xxxiv-Page_550">550</A>&#160; <a href="0081376.html#vii.xxxiv-Page_551">551</A>&#160; <a href="0081376.html#vii.xxxiv-Page_552">552</A>&#160; <a href="0081377.html#vii.xxxv-Page_553">553</A>&#160; <a href="0081377.html#vii.xxxv-Page_554">554</A>&#160; <a href="0081377.html#vii.xxxv-Page_555">555</A>&#160; <a href="0081377.html#vii.xxxv-Page_556">556</A>&#160; <a href="0081377.html#vii.xxxv-Page_557">557</A>&#160; <a href="0081378.html#vii.xxxvi-Page_558">558</A>&#160; <a href="0081378.html#vii.xxxvi-Page_559">559</A>&#160; <a href="0081379.html#vii.xxxvii-Page_560">560</A>&#160; <a href="0081379.html#vii.xxxvii-Page_561">561</A>&#160; <a href="0081379.html#vii.xxxvii-Page_562">562</A>&#160; <a href="0081379.html#vii.xxxvii-Page_563">563</A>&#160; <a href="0081379.html#vii.xxxvii-Page_564">564</A>&#160; <a href="0081380.html#vii.xxxviii-Page_565">565</A>&#160; <a href="0081380.html#vii.xxxviii-Page_566">566</A>&#160; <a href="0081380.html#vii.xxxviii-Page_567">567</A>&#160; <a href="0081380.html#vii.xxxviii-Page_568">568</A>&#160; <a href="0081380.html#vii.xxxviii-Page_569">569</A>&#160; <a href="0081380.html#vii.xxxviii-Page_570">570</A>&#160; <a href="0081381.html#vii.xxxix-Page_571">571</A>&#160; <a href="0081381.html#vii.xxxix-Page_572">572</A>&#160; <a href="0081381.html#vii.xxxix-Page_573">573</A>&#160; <a href="0081381.html#vii.xxxix-Page_574">574</A>&#160; <a href="0081382.html#vii.xl-Page_575">575</A>&#160; <a href="0081382.html#vii.xl-Page_576">576</A>&#160; <a href="0081382.html#vii.xl-Page_577">577</A>&#160; <a href="0081382.html#vii.xl-Page_578">578</A>&#160; <a href="0081382.html#vii.xl-Page_579">579</A>&#160; <a href="0081382.html#vii.xl-Page_580">580</A>&#160; <a href="0081382.html#vii.xl-Page_581">581</A>&#160; <a href="0081383.html#vii.xli-Page_582">582</A>&#160; <a href="0081383.html#vii.xli-Page_583">583</A>&#160; <a href="0081383.html#vii.xli-Page_584">584</A>&#160; <a href="0081383.html#vii.xli-Page_585">585</A>&#160; <a href="0081383.html#vii.xli-Page_586">586</A>&#160; <a href="0081384.html#vii.xlii-Page_587">587</A>&#160; <a href="0081384.html#vii.xlii-Page_588">588</A>&#160; <a href="0081384.html#vii.xlii-Page_589">589</A>&#160; <a href="0081384.html#vii.xlii-Page_590">590</A>&#160; <a href="0081384.html#vii.xlii-Page_591">591</A>&#160; <a href="0081385.html#vii.xliii-Page_592">592</A>&#160; <a href="0081385.html#vii.xliii-Page_593">593</A>&#160; <a href="0081385.html#vii.xliii-Page_594">594</A>&#160; <a href="0081386.html#vii.xliv-Page_595">595</A>&#160; <a href="0081386.html#vii.xliv-Page_596">596</A>&#160; <a href="0081386.html#vii.xliv-Page_597">597</A>&#160; <a href="0081386.html#vii.xliv-Page_598">598</A>&#160; <a href="0081388.html#viii.i-Page_599">599</A>&#160; <a href="0081389.html#viii.ii-Page_601">601</A>&#160; <a href="0081389.html#viii.ii-Page_602">602</A>&#160; <a href="0081389.html#viii.ii-Page_603">603</A>&#160; <a href="0081389.html#viii.ii-Page_604">604</A>&#160; <a href="0081389.html#viii.ii-Page_605">605</A>&#160; <a href="0081389.html#viii.ii-Page_606">606</A>&#160; <a href="0081389.html#viii.ii-Page_607">607</A>&#160; <a href="0081391.html#viii.iii.i-Page_609">609</A>&#160; <a href="0081391.html#viii.iii.i-Page_610">610</A>&#160; <a href="0081394.html#viii.iii.ii.ii-Page_611">611</A>&#160; <a href="0081395.html#viii.iii.ii.iii-Page_612">612</A>&#160; <a href="0081399.html#viii.iv.i.i-Page_613">613</A>&#160; <a href="0081401.html#viii.iv.i.iii-Page_614">614</A>&#160; <a href="0081404.html#viii.iv.ii.ii-Page_615">615</A>&#160; <a href="0081406.html#viii.iv.ii.iv-Page_616">616</A>&#160; <a href="0081408.html#viii.iv.ii.vi-Page_617">617</A>&#160; <a href="0081409.html#viii.iv.ii.vii-Page_618">618</A>&#160; <a href="0081412.html#viii.v.i-Page_619">619</A>&#160; <a href="0081414.html#viii.v.iii-Page_620">620</A>&#160; <a href="0081417.html#viii.v.vi-Page_621">621</A>&#160; <a href="0081421.html#viii.vi.i-Page_622">622</A>&#160; <a href="0081421.html#viii.vi.i-Page_623">623</A>&#160; <a href="0081422.html#viii.vi.ii-Page_624">624</A>&#160; <a href="0081422.html#viii.vi.ii-Page_625">625</A>&#160; <a href="0081424.html#viii.vii-Page_626">626</A>&#160; <a href="0081424.html#viii.vii-Page_627">627</A>&#160; <a href="0081424.html#viii.vii-Page_628">628</A>&#160; <a href="0081424.html#viii.vii-Page_629">629</A>&#160; <a href="0081426.html#viii.viii.i-Page_630">630</A>&#160; <a href="0081426.html#viii.viii.i-Page_631">631</A>&#160; <a href="0081426.html#viii.viii.i-Page_632">632</A>&#160; <a href="0081429.html#viii.viii.ii.ii-Page_633">633</A>&#160; <a href="0081430.html#viii.viii.ii.iii-Page_634">634</A>&#160; <a href="0081430.html#viii.viii.ii.iii-Page_635">635</A>&#160; <a href="0081430.html#viii.viii.ii.iii-Page_636">636</A>&#160; <a href="0081432.html#viii.viii.iii.i-Page_637">637</A>&#160; <a href="0081437.html#viii.viii.iii.vi-Page_638">638</A>&#160; <a href="0081437.html#viii.viii.iii.vi-Page_639">639</A>&#160; <a href="0081440.html#viii.ix.i-Page_640">640</A>&#160; <a href="0081441.html#viii.ix.ii-Page_641">641</A>&#160; <a href="0081443.html#viii.x.i-Page_642">642</A>&#160; <a href="0081443.html#viii.x.i-Page_643">643</A>&#160; <a href="0081443.html#viii.x.i-Page_644">644</A>&#160; <a href="0081446.html#ix.i-Page_645">645</A>&#160; <a href="0081447.html#ix.ii-Page_647">647</A>&#160; <a href="0081447.html#ix.ii-Page_648">648</A>&#160; <a href="0081447.html#ix.ii-Page_649">649</A>&#160; <a href="0081448.html#ix.iii-Page_651">651</A>&#160; <a href="0081448.html#ix.iii-Page_652">652</A>&#160; <a href="0081448.html#ix.iii-Page_653">653</A>&#160; <a href="0081449.html#ix.iv-Page_654">654</A>&#160; <a href="0081451.html#ix.v.i-Page_655">655</A>&#160; <a href="0081456.html#ix.v.vi-Page_656">656</A>&#160; <a href="0081460.html#ix.vi.i-Page_657">657</A>&#160; <a href="0081460.html#ix.vi.i-Page_658">658</A>&#160; <a href="0081460.html#ix.vi.i-Page_659">659</A>&#160; <a href="0081460.html#ix.vi.i-Page_660">660</A>&#160; <a href="0081460.html#ix.vi.i-Page_661">661</A>&#160; <a href="0081460.html#ix.vi.i-Page_662">662</A>&#160; <a href="0081460.html#ix.vi.i-Page_663">663</A>&#160; <a href="0081460.html#ix.vi.i-Page_664">664</A>&#160; <a href="0081460.html#ix.vi.i-Page_665">665</A>&#160; <a href="0081461.html#ix.vi.ii-Page_666">666</A>&#160; <a href="0081462.html#ix.vii-Page_667">667</A>&#160; <a href="0081462.html#ix.vii-Page_668">668</A>&#160; <a href="0081462.html#ix.vii-Page_669">669</A>&#160; <a href="0081462.html#ix.vii-Page_670">670</A>&#160; <a href="0081462.html#ix.vii-Page_671">671</A>&#160; <a href="0081462.html#ix.vii-Page_672">672</A>&#160; <a href="0081463.html#ix.viii-Page_673">673</A>&#160; <a href="0081463.html#ix.viii-Page_674">674</A>&#160; <a href="0081463.html#ix.viii-Page_675">675</A>&#160; <a href="0081465.html#ix.ix.i-Page_676">676</A>&#160; <a href="0081465.html#ix.ix.i-Page_677">677</A>&#160; <a href="0081465.html#ix.ix.i-Page_678">678</A>&#160; <a href="0081465.html#ix.ix.i-Page_679">679</A>&#160; <a href="0081465.html#ix.ix.i-Page_680">680</A>&#160; <a href="0081465.html#ix.ix.i-Page_681">681</A>&#160; <a href="0081465.html#ix.ix.i-Page_682">682</A>&#160; <a href="0081465.html#ix.ix.i-Page_683">683</A>&#160; <a href="0081465.html#ix.ix.i-Page_684">684</A>&#160; <a href="0081465.html#ix.ix.i-Page_685">685</A>&#160; <a href="0081466.html#ix.ix.ii-Page_686">686</A>&#160; <a href="0081466.html#ix.ix.ii-Page_687">687</A>&#160; <a href="0081466.html#ix.ix.ii-Page_688">688</A>&#160; <a href="0081466.html#ix.ix.ii-Page_689">689</A>&#160; <a href="0081468.html#ix.xi-Page_690">690</A>&#160; <a href="0081468.html#ix.xi-Page_691">691</A>&#160; <a href="0081468.html#ix.xi-Page_692">692</A>&#160; <a href="0081468.html#ix.xi-Page_693">693</A>&#160; <a href="0081468.html#ix.xi-Page_694">694</A>&#160; <a href="0081468.html#ix.xi-Page_695">695</A>&#160; <a href="0081469.html#ix.xii-Page_696">696</A>&#160; <a href="0081469.html#ix.xii-Page_697">697</A>&#160; <a href="0081469.html#ix.xii-Page_698">698</A>&#160; <a href="0081469.html#ix.xii-Page_699">699</A>&#160; <a href="0081469.html#ix.xii-Page_700">700</A>&#160; <a href="0081469.html#ix.xii-Page_701">701</A>&#160; <a href="0081471.html#ix.xiii.i-Page_702">702</A>&#160; <a href="0081472.html#ix.xiii.ii-Page_703">703</A>&#160; <a href="0081475.html#ix.xiii.v-Page_704">704</A>&#160; <a href="0081478.html#ix.xiii.viii-Page_705">705</A>&#160; <a href="0081478.html#ix.xiii.viii-Page_706">706</A>&#160; <a href="0081480.html#ix.xiii.x-Page_707">707</A>&#160; <a href="0081483.html#ix.xiv.i-Page_708">708</A>&#160; <a href="0081483.html#ix.xiv.i-Page_709">709</A>&#160; <a href="0081483.html#ix.xiv.i-Page_710">710</A>&#160; <a href="0081483.html#ix.xiv.i-Page_711">711</A>&#160; <a href="0081483.html#ix.xiv.i-Page_712">712</A>&#160; <a href="0081483.html#ix.xiv.i-Page_713">713</A>&#160; <a href="0081483.html#ix.xiv.i-Page_714">714</A>&#160; <a href="0081484.html#ix.xiv.ii-Page_715">715</A>&#160; <a href="0081484.html#ix.xiv.ii-Page_716">716</A>&#160; <a href="0081484.html#ix.xiv.ii-Page_717">717</A>&#160; <a href="0081484.html#ix.xiv.ii-Page_718">718</A>&#160; <a href="0081484.html#ix.xiv.ii-Page_719">719</A>&#160; <a href="0081484.html#ix.xiv.ii-Page_720">720</A>&#160; <a href="0081485.html#ix.xv-Page_721">721</A>&#160; <a href="0081485.html#ix.xv-Page_722">722</A>&#160; <a href="0081486.html#ix.xvi-Page_723">723</A>&#160; <a href="0081486.html#ix.xvi-Page_724">724</A>&#160; <a href="0081486.html#ix.xvi-Page_725">725</A>&#160; <a href="0081486.html#ix.xvi-Page_726">726</A>&#160; <a href="0081486.html#ix.xvi-Page_727">727</A>&#160; <a href="0081486.html#ix.xvi-Page_728">728</A>&#160; <a href="0081486.html#ix.xvi-Page_729">729</A>&#160; <a href="0081486.html#ix.xvi-Page_730">730</A>&#160; <a href="0081486.html#ix.xvi-Page_731">731</A>&#160; <a href="0081486.html#ix.xvi-Page_732">732</A>&#160; <a href="0081486.html#ix.xvi-Page_733">733</A>&#160; <a href="0081486.html#ix.xvi-Page_734">734</A>&#160; <a href="0081487.html#ix.xvii-Page_735">735</A>&#160; <a href="0081487.html#ix.xvii-Page_736">736</A>&#160; <a href="0081487.html#ix.xvii-Page_737">737</A>&#160; <a href="0081487.html#ix.xvii-Page_738">738</A>&#160; <a href="0081488.html#ix.xviii-Page_739">739</A>&#160; <a href="0081488.html#ix.xviii-Page_740">740</A>&#160; <a href="0081488.html#ix.xviii-Page_741">741</A>&#160; <a href="0081490.html#ix.xix.i-Page_742">742</A>&#160; <a href="0081491.html#ix.xix.ii-Page_743">743</A>&#160; <a href="0081493.html#x.i-Page_745">745</A>&#160; <a href="0081494.html#x.ii-Page_747">747</A>&#160; <a href="0081494.html#x.ii-Page_748">748</A>&#160; <a href="0081495.html#x.iii-Page_749">749</A>&#160; <a href="0081496.html#x.iv-Page_750">750</A>&#160; <a href="0081498.html#x.v.i-Page_751">751</A>&#160; <a href="0081499.html#x.v.ii-Page_752">752</A>&#160; <a href="0081499.html#x.v.ii-Page_753">753</A>&#160; <a href="0081499.html#x.v.ii-Page_754">754</A>&#160; <a href="0081499.html#x.v.ii-Page_755">755</A>&#160; <a href="0081499.html#x.v.ii-Page_756">756</A>&#160; <a href="0081502.html#x.v.v-Page_757">757</A>&#160; <a href="0081503.html#x.v.vi-Page_758">758</A>&#160; <a href="0081506.html#x.v.ix-Page_759">759</A>&#160; <a href="0081509.html#x.v.xii-Page_760">760</A>&#160; <a href="0081513.html#x.v.xvi-Page_761">761</A>&#160; <a href="0081513.html#x.v.xvi-Page_762">762</A>&#160; <a href="0081517.html#x.vi.ii.i-Page_763">763</A>&#160; <a href="0081518.html#x.vi.ii.ii-Page_764">764</A>&#160; <a href="0081520.html#x.vi.ii.iv-Page_765">765</A>&#160; <a href="0081522.html#x.viii-Page_766">766</A>&#160; <a href="0081523.html#x.ix-Page_767">767</A>&#160; <a href="0081523.html#x.ix-Page_768">768</A>&#160; <a href="0081523.html#x.ix-Page_769">769</A>&#160; <a href="0081523.html#x.ix-Page_770">770</A>&#160; <a href="0081523.html#x.ix-Page_771">771</A>&#160; <a href="0081523.html#x.ix-Page_772">772</A>&#160; <a href="0081524.html#x.x-Page_773">773</A>&#160; <a href="0081525.html#x.xi-Page_774">774</A>&#160; <a href="0081527.html#x.xiii-Page_775">775</A>&#160; <a href="0081528.html#x.xiv-Page_776">776</A>&#160; <a href="0081529.html#x.xv-Page_777">777</A>&#160; <a href="0081530.html#x.xvi-Page_778">778</A>&#160; <a href="0081530.html#x.xvi-Page_779">779</A>&#160; <a href="0081530.html#x.xvi-Page_780">780</A>&#160; <a href="0081530.html#x.xvi-Page_781">781</A>&#160; <a href="0081530.html#x.xvi-Page_782">782</A>&#160; <a href="0081530.html#x.xvi-Page_783">783</A>&#160; <a href="0081530.html#x.xvi-Page_784">784</A>&#160; <a href="0081532.html#x.xviii-Page_785">785</A>&#160; </p>             </font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/008/0081540.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/008/0081540.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/krjyy3m'>tak.la/krjyy3m</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/krjyy3m';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+
