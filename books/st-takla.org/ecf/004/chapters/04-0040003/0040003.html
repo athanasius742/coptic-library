@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. IV: Fathers of the Third Century: Tertullian, Part Fourth; Minucius Felix; Commodian; Origen, Parts First and Second | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Tertullian Minucius Felix Commidian Origen">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol IV: I. ON THE PALLIUM.  | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/004/0040003.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:34:57+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/004/'>004</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/004/'>004</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Ante-Nicene Fathers, Vol IV:
+<br>
+I. ON THE PALLIUM. </h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="0040002.html" id="prev">Previous</A>&nbsp;
+<A HREF="0040004.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+</p> 
+<p>  <h2 align="CENTER"><a></a> I. ON THE PALLIUM.<sup><a href="footnote/fn1.html">1</a></sup> </h2>  
+<p>[Translated by the Rev. S. Thelwall.]</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter I.-Time Changes Nations' Dresses-And Fortunes, </p>  </ul>
+<p style="font-size: 16pt">Men of Carthage, ever princes of Africa, ennobled by ancient memories, blest with modern felicities, I rejoice that times are so prosperous with you that you have leisure to spend and pleasure to find in criticising dress. These are the "piping times of peace" and plenty. Blessings rain from the empire and from the sky. Still, you too of old time wore your garments-your tunics-of another shape; and indeed they were in repute for the skill of the weft, and the harmony of the hue, and the due proportion of the size, in that they were neither prodigally long across the shins, nor immodestly scanty between the knees, nor niggardly to the arms, nor tight to the hands, but, without being shadowed by even a girdle arranged to divide the folds, they stood on men's backs with quadrate symmetry. The garment of the mantle extrinsically-itself too quadrangular-thrown back on either shoulder, and meeting closely round the neck in the gripe of the buckle, used to repose on the shoulders.<sup><a href="footnote/fn1.html#P134_7124">2</a></sup> Its counterpart is now the priestly dress, sacred to Aesculapius, whom you now call your own. So, too, in your immediate vicinity, the sister State<sup><a href="footnote/fn1.html#P135_7296">3</a></sup> used to clothe (her citizens); and wherever else in Africa Tyre (has settled).<sup><a href="footnote/fn1.html#P136_7394">4</a></sup> But when the urn of worldly<sup><a href="footnote/fn1.html#P137_7454">5</a></sup> lots varied, and God favoured the Romans, the sister State, indeed, of her own choice hastened to effect a change; in order that when Scipio put in at her ports she might already beforehand have greeted him in the way of dress, precocious in her Romanizing. To you, however, after the benefit in which your injury resulted, as exempting you from the infinity of age, not (deposing you) from your height of eminence,-after Gracchus and his foul omens, after Lepidus and his rough jests, after Pompeius and his triple altars, and Caesar and his long delays, when Statilius Taurus reared your ramparts, and Sentius Saturninus pronounced the solemn form of your inauguration,-while concord lends her aid, the <i>gown</i> is offered. Well! what a circuit has it taken! from Pelasgians to Lydians;<sup><a href="footnote/fn1.html#P138_8255">6</a></sup> from Lydians to Romans: in order that from the shoulders of the sublimer people it should descend to embrace Carthaginians! Henceforth, finding your tunic too long, you suspend it on a dividing cincture; and the redundancy of your now smooth <i>toga</i><sup><a href="footnote/fn1.html#P139_8564">7</a></sup> you support by gathering it together fold upon fold; and, with whatever other garment social condition or dignity or season clothes you, <i>the mantle</i>, at any rate, which used to be worn by all ranks and conditions among you, you not only are unmindful of, but even deride. For my own part, I wonder not (thereat), in the face of a more ancient evidence (of your forgetfulness). For the ram withal-not that which Laberius<sup><a href="footnote/fn1.html#P140_9003">8</a></sup> (calls)</p>  
+<p>"Back-twisted-horned, wool-skinned, stones-dragging,"but a beam-like engine it is, which does military service in battering walls-never before poised by any, the redoubted Carthage,</p>  
+<p>"Keenest in pursuits of war,"<sup><a href="footnote/fn1.html#P143_9256">9</a></sup> is said to have been the first of all to have equipped for the oscillatory work of pendulous impetus;<sup><a href="footnote/fn1.html#P144_9382">10</a></sup> modelling the power of her engine after the choleric fury of the head-avenging beast.<sup><a href="footnote/fn1.html#P145_9487">11</a></sup> When, however, their country's fortunes are at the last gasp, and the ram, now turned Roman, is doing his deeds of daring against the ramparts which erst were his own, forthwith the Carthaginians stood dumbfounded as at a "novel" and "strange" ingenuity: "so much doth Time's long age avail to change!"<sup><a href="footnote/fn1.html#P146_9875">12</a></sup> Thus, in short, it is that the mantle, too, is not recognised.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter II.-The Law of Change, or Mutation, Universal.</p>  </ul>
+<p style="font-size: 16pt">Draw we now our material from some other source, lest Punichood either blush or else grieve in the midst of Romans. To change her habit is, at all events, the stated function of entire nature. The very world<sup><a href="footnote/fn1.html#P150_10240">13</a></sup> itself (this which we inhabit) meantime discharges it. See to it Anaximander, if he thinks there are more (worlds): see to it, whoever else (thinks there exists another) anywhere at the region of the Meropes, as Silenus prates in the ears of Midas,<sup><a href="footnote/fn1.html#P151_10502">14</a></sup> apt (as those cars are<sup><a href="footnote/fn1.html#P152_10572">15</a></sup> ), it must be admitted, for even huger fables. Nay, even if Plato thinks there exists one of which this of ours is the image, that likewise must necessarily have similarly to undergo mutation; inasmuch as, if it is a "world,"<sup><a href="footnote/fn1.html#P153_10834">16</a></sup> it will consist of diverse substances and offices, answerable to the form of that which is here the "world: "<sup><a href="footnote/fn1.html#P154_10991">17</a></sup> for "world" it will not be if it be not just as the "world" is. Things which, in diversity, tend to unity, are diverse by <i>demutation</i>. In short, it is their vicissitudes which federate the discord of their diversity. Thus it will be by <i>mutation</i> that every "world"<sup><a href="footnote/fn1.html#P155_11301">18</a></sup> will exist whose corporate structure is the result of diversities, and whose attemperation is the result of vicissitudes. At all events, this hostelry of ours<sup><a href="footnote/fn1.html#P156_11507">19</a></sup> is versiform,-a fact which is patent to eyes that are closed, or utterly Homeric.<sup><a href="footnote/fn1.html#P157_11627">20</a></sup> Day and night revolve in turn. The sun varies by annual stations, the moon by monthly phases. The stars-distinct in their confusion-sometimes drop, sometimes resuscitate, somewhat. The circuit of the heaven is now resplendent with serenity, now dismal with cloud; or else rain-showers come rushing down, and whatever missiles (mingle) with them: thereafter (follows) a slight sprinkling, and then again brilliance. So, too, the sea has an ill repute for honesty; while at one time, the breezes equably swaying it, tranquillity gives it the semblance of probity, calm gives it the semblance of even temper; and then all of a sudden it heaves restlessly with mountain-waves. Thus, too, if you survey the earth, loving to clothe herself seasonably, you would nearly be ready to deny her identity, when, remembering her green, you behold her yellow, and will ere long see her hoary too. Of the rest of her adornment also, what is there which is not subject to interchanging mutation-the higher ridges of her mountains by decursion, the veins of her fountains by disappearance, and the pathways of her streams by alluvial formation? There was a time when her whole orb, withal, underwent mutation, overrun by all waters. To this day marine conchs and tritons' horns sojourn as foreigners on the mountains, eager to prove to Plato that even the heights have undulated. But withal, by ebbing out, her orb again underwent a formal mutation; another, but the same. Even now her shape undergoes local mutations, when (some particular) spot is damaged; when among her islands Delos is now no more, Samos a heap of sand, and the Sibyl (is thus proved) no liar;<sup><a href="footnote/fn1.html#P158_13364">21</a></sup> when in the Atlantic (the isle) that was equal in size to Libya or Asia is sought in vain;<sup><a href="footnote/fn1.html#P159_13637">22</a></sup> when formerly a side of Italy, severed to the centre by the shivering shock of the Adriatic and the Tyrrhenian seas, leaves Sicily as its relics; when that total swoop of discission, whirling backwards the contentious encounters of the mains, invested the sea with a novel vice, the vice not of spuing out wrecks, but of devouring them! The continent as well suffers from heavenly or else from inherent forces. Glance at Palestine. Where Jordan's river is the arbiter of boundaries, (behold) a vast waste, and a bereaved region, and bootless land! And once (there were there) cities, and flourishing peoples, and the soil yielded its fruits.<sup><a href="footnote/fn1.html#P160_14375">23</a></sup> Afterwards, since God is a Judge, impiety earned showers of fire: Sodom's day is over, and Gomorrah is no more; and all is ashes; and the neighbour sea no less than the soil experiences a living death! Such a cloud overcast Etruria, burning down her ancient Volsinii, to teach Campania (all the more by the ereption of her Pompeii) to look expectantly upon her own mountains. But far be (the repetition of such catastrophes)! Would that Asia, withal, were by this time without cause for anxiety about the soil's voracity! Would, too, that Africa had once for all quailed before the devouring chasm, expiated by the treacherous absorption of one single camp!<sup><a href="footnote/fn1.html#P161_15213">24</a></sup> Many other such detriments besides have made innovations upon the fashion of our orb, and moved (particular) spots (in it). Very great also has been the licence of wars. But it is no less irksome to recount sad details than (to recount) the vicissitudes of kingdoms, (and to show) how frequent have been <i>their</i> mutations, from Ninus the progeny of Belus, onwards; if indeed Ninus was the first to have a kingdom, as the ancient profane authorities assert. Beyond his time the pen is not wont (to travel), in general, among you (heathens). From the Assyrians, it may be, the histories of "recorded time"<sup><a href="footnote/fn1.html#P162_16040">25</a></sup> begin to open. We, however, who are habitual readers of <i>divine</i> histories, are masters of the subject from the nativity of the universe<sup><a href="footnote/fn1.html#P163_16186">26</a></sup> itself. But I prefer, at the present time, <i>joyous</i> details, inasmuch as things joyous withal are subject to mutation. In short, whatever the sea has washed away, the heaven burned down, the earth undermined, the sword shorn down, reappears at some other time by the turn of compensation.<sup><a href="footnote/fn1.html#P164_16485">27</a></sup> For in primitive days not only was the earth, for the greater part of her circuit, empty and uninhabited; but if any particular race had seized upon any part, it existed for itself alone. And so, understanding at last that all things worshipped themselves, (the earth) consulted to weed and scrape her copiousness (of inhabitants), in one place densely packed, in another abandoning their posts; in order that thence (as it were from grafts and settings) peoples from peoples, cities from cities, might be planted throughout every region of her orb.<sup><a href="footnote/fn1.html#P165_17195">28</a></sup> Transmigrations were made by the swarms of redundant races. The exuberance of the Scythians fertilizes the Persians; the Phoenicians gush out into Africa; the Phrygians give birth to the Romans; the seed of the Chaldeans is led out into Egypt; subsequently, when transferred thence, it becomes the Jewish race.<sup><a href="footnote/fn1.html#P166_18026">29</a></sup> So, too, the posterity of Hercules, in like wise, proceed to occupy the Peloponnesus for the behoof of Temenus. So, again, the Ionian comrades of Neleus furnish Asia with new cities: so, again, the Corinthians with Archias, fortify Syracuse. But antiquity is by this time a vain thing (to refer to), when our own careers are before our eyes. How large a portion of our orb has the present age<sup><a href="footnote/fn1.html#P167_18494">30</a></sup> reformed! how many cities has the triple power of our existing empire either produced, or else augmented, or else restored! While God favours so many Augusti unitedly, how many populations have been transferred to other localities! how many peoples reduced! how many orders restored to their ancient splendour! how many barbarians baffled! In truth, our orb is the admirably cultivated estate of this empire; every aconite of hostility eradicated; and the cactus and bramble of clandestinely crafty familiarity<sup><a href="footnote/fn1.html#P168_19020">31</a></sup> wholly uptorn; and (the orb itself) delightsome beyond the orchard of Alcinous and the rosary of Midas. Praising, therefore, our <i>orb</i> in its mutations, why do you point the finger of scorn at a <i>man</i>?</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter III.-Beasts Similarly Subject to the Law of Mutation.</p>  </ul>
+<p style="font-size: 16pt">Beasts, too, instead of a <i>garment</i>, change their <i>form</i>. And yet the peacock withal has plumage for a garment, and a garment indeed of the choicest; nay, in the bloom of his neck richer than any purple, and in the effulgence of his back more gilded than any edging, and in the sweep of his tail more flowing than any train; many-coloured, diverse-coloured, and versi-coloured; never itself, ever another, albeit ever itself when other; in a word, mutable as oft as moveable. The serpent, too, deserves to be mentioned, albeit not in the same breath as the peacock; for he too wholly changes what has been allotted him-his hide and his age: if it is true, (as it is,) that when he has felt the creeping of old age throughout him, he squeezes himself into confinement; crawls into a cave and out of his skin simultaneously; and, clean shorn on the spot, immediately on crossing the threshold leaves his slough behind him then and there, and uncoils himself in a new youth: with his scales his years, too, are repudiated. The hyena, if you observe, is of an annual sex, alternately masculine and feminine. I say nothing of the stag, because himself withal, the witness of his own age, feeding on the serpent, languishes-from the effect of the poison-into youth. There is, withal,</p>      <ul><ul>
+<p>"A tardigrade field-haunting quadruped,</p>  </ul></ul>
+<p style="font-size: 16pt">Humble and rough."</p>  
+<p style="font-size: 16pt">The tortoise of Pacuvius, you think? No. There is another beastling which the versicle fits; in size, one of the moderate exceedingly, but a grand name. If, without previously knowing him, you hear tell of a chameleon, you will at once apprehend something yet more huge united with a lion. But when you stumble upon him, generally in a vineyard, his whole bulk sheltered beneath a vine leaf, you will forthwith laugh at the egregious audacity of the name, inasmuch as there is no moisture even in his body, though in far more minute creatures the body <i>is</i> liquefied, The chameleon is a living pellicle. His headkin begins straight from his spine, for neck he has none: and thus reflection<sup><a href="footnote/fn1.html#P175_21467">32</a></sup> is hard for him; but, in circumspection, his eyes are outdarting, nay, they are revolving points of light. Dull and weary, he scarce raises from the ground, but drags, his footstep amazedly, and moves forward,-he rather demonstrates, than takes, a step: ever fasting, to boot, yet never fainting; agape he feeds; heaving, bellowslike, he ruminates; his food wind. Yet withal the chameleon is able to effect a total self-mutation, and that is all. For, whereas his colour is properly one, yet, whenever anything has approached him, then he blushes. To the chameleon alone has been granted-as our common saying has it-to sport with his own hide.</p>  
+<p style="font-size: 16pt">Much had to be said in order that, after due preparation, we might arrive at <i>man</i>. From whatever beginning you admit him as springing, naked at all events and ungarmented he came from his fashioner's hand: afterwards, at length, without waiting for permission, he possesses himself, by a premature grasp, of wisdom. Then and there hastening to forecover what, in his newly made body, it was not yet due to modesty (to forecover), he surrounds himself meantime with fig-leaves: subsequently, on being driven from the confines of his birthplace because he had sinned, he went, skinclad, to the world<sup><a href="footnote/fn1.html#P177_22793">33</a></sup> as to a mine.<sup><a href="footnote/fn1.html#P178_22818">34</a></sup> </p>  
+<p style="font-size: 16pt">But these are secrets, nor does their knowledge appertain to all. Come, let us hear from your own store-(a store) which the Egyptians narrate, and Alexander<sup><a href="footnote/fn1.html#P180_23141">35</a></sup> digests, and his mother reads-touching the time of Osiris,<sup><a href="footnote/fn1.html#P181_23329">36</a></sup> when Ammon, rich in sheep, comes to him out of Libya. In short, they tell us that Mercury, when among them, delighted with the softness of a ram which he had chanced to stroke, flayed a little ewe; and, while he persistently tries and (as the pliancy of the material invited him) thins out the thread by assiduous traction, wove it into the shape of the pristine net which he had joined with strips of linen. But <i>you</i> have preferred to assign all the management of wool-work and structure of the loom to Minerva; whereas a more diligent workshop was presided over by Arachne. Thenceforth material (was abundant). Nor do I speak of the sheep of Miletus, and Selge, and Altinum, or of those for which Tarentum or Baetica is famous, with nature for their dyer: but (I speak of the fact) that shrubs afford you clothing, and the grassy parts of flax, losing their greenness, turn white by washing. Nor was it enough to <i>plant</i> and <i>sow</i> your tunic, unless it had likewise fallen to your lot to <i>fish</i> for raiment. For the sea withal yields fleeces, inasmuch as the more brilliant shells of a mossy wooliness furnish a hairy stuff. Further: it is no secret that the silkworm-a species of wormling it is-presently reproduces safe and sound (the fleecy threads) which, by drawing them through the <i>air</i>, she distends more skilfully than the dial-like webs of spiders, and then devours. In like manner, if you kill it, the threads which you coil are forthwith instinct with vivid colour.</p>  
+<p style="font-size: 16pt">The ingenuities, therefore, of the tailoring art, superadded to, and following up, so abundant a store of materials-first with a view to coveting humanity, where Necessity led the way; and subsequently with a view to adorning withal, ay, and inflating it, where Ambition followed in the wake-have promulgated the various forms of garments. Of which forms, part are worn by particular nations, without being common to the rest; part, on the other hand, universally, as being useful to all: as, for instance, this Mantle, albeit it is more Greek (than Latin), has yet by this time found, in speech, a home in Latium. With the word the garment entered. And accordingly the very man who used to sentence Greeks to extrusion from the city, but learned (when he was now advanced in years) their <i>alphabet</i> and <i>speech</i>-the self-same Cato, by baring his shoulder at the time of his praetorship, showed no less favour to the Greeks by his mantle-like <i>garb</i>.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter IV.-Change Not Always Improvement.</p>  </ul>
+<p style="font-size: 16pt">Why, now, if the Roman fashion is (social) salvation to every one, are you nevertheless Greek to a degree, even in points not honourable? Or else, if it is not so, whence in the world is it that provinces which have had a better training, provinces which nature adapted rather for surmounting by hard struggling the difficulties of the soil, derive the pursuits of the wrestling-ground-pursuits which fall into a sad old age<sup><a href="footnote/fn1.html#P186_26286">37</a></sup> and labour in vain-and the unction with mud,<sup><a href="footnote/fn1.html#P187_26540">38</a></sup> and the rolling in sand, and the dry dietary? Whence comes it that some of our Numidians, with their long locks made longer by horsetail plumes, learn to bid the barber shave their skin close, and to exempt their crown alone from the knife? Whence comes it that men shaggy and hirsute learn to teach the resin<sup><a href="footnote/fn1.html#P188_26896">39</a></sup> to feed on their arms with such rapacity, the tweezers to weed their chin so thievishly? A prodigy it is, that all this should be done without the Mantle! To the Mantle appertains this whole Asiatic practice! What hast thou, Libya, and thou, Europe, to do with athletic refinements, which thou knowest not how to dress? For, in sooth, what kind of thing is it to practise Greekish depilation more than Greekish attire?</p>  
+<p style="font-size: 16pt">The transfer of dress approximates to culpability just in so far as it is not custom, but nature, which suffers the change. There is a wide enough difference between the honour due to time, and religion. Let Custom show fidelity to Time, Nature to God. To Nature, accordingly, the Larissaean hero<sup><a href="footnote/fn1.html#P190_27638">40</a></sup> gave a shock by turning into a virgin; he who had been reared on the marrows of wild beasts (whence, too, was derived the composition of his name, because he had been a stranger with his lips to the maternal breast<sup><a href="footnote/fn1.html#P191_27868">41</a></sup> ); he who had been reared by a rocky and wood-haunting and monstrous trainer<sup><a href="footnote/fn1.html#P192_28015">42</a></sup> in a stony school. You would bear patiently, if it were in a <i>boy's</i> case, his mother's solicitude; but he at all events was already be-haired, he at all events had already secretly given proof of his manhood to some one,<sup><a href="footnote/fn1.html#P193_28268">43</a></sup> when he consents to wear the flowing stole,<sup><a href="footnote/fn1.html#P194_28369">44</a></sup> to dress his hair, to cultivate his skin, to consult the mirror, to bedizen his neck; effeminated even as to his ear by boring, whereof his bust at Sigeum still retains the trace. Plainly afterwards he turned soldier: for necessity restored him his sex. The clarion had sounded of battle: nor were arms far to seek. "The steel's self," says (Homer), "attracteth the hero."<sup><a href="footnote/fn1.html#P195_28796">45</a></sup> Else if, after that incentive as well as before, he had persevered in his maidenhood, he might withal have been married! Behold, accordingly, mutation! A monster, I call him,-a double monster: from man to woman; by and by from woman to man: whereas neither ought the truth to have been belied, nor the deception confessed. Each fashion of changing was evil: the one opposed to nature, the other contrary to safety.</p>  
+<p style="font-size: 16pt">Still more disgraceful was the case when lust transfigured a man in his dress, than when some maternal dread did so: and yet adoration is offered by you to me, whom you ought to blush at,-that Clubshaftandhidebearer, who exchanged for womanly attire the whole proud heritage of his name! Such licence was granted to the secret haunts of Lydia,<sup><a href="footnote/fn1.html#P197_29589">46</a></sup> that Hercules was prostituted in the person of Omphale, and Omphale in that of Hercules. Where were Diomed and his gory mangers? where Busiris and his funereal altars? where Geryon, triply one? The club preferred still to reek with their brains when it was being pestered with unguents! The now veteran (stain of the) Hydra's and of the Centaurs' blood upon the shafts was gradually eradicated by the pumice-stone, familiar to the hair-pin! while voluptuousness insulted over the fact that, after transfixing monsters, they should perchance sew a coronet! No sober woman even, or heroine<sup><a href="footnote/fn1.html#P198_30330">47</a></sup> of any note, would have adventured her shoulders beneath the hide of such a beast, unless after long softening and smoothening down and deodorization (which in Omphale's house, I hope, was effected by balsam and fenugreek-salve: I suppose the mane, too, submitted to the comb) for fear of getting her tender neck imbued with lionly toughness. The yawning mouth stuffed with hair, the jaw-teeth overshadowed amid the forelocks, the whole outraged visage, would have roared had it been able. Nemea, at all events (if the spot has any presiding genius), groaned: for then she looked around, and saw that she had lost her lion. What sort of being the said Hercules was in Omphale's silk, the description of Omphale in Hercules' hide has inferentially depicted.</p>  
+<p style="font-size: 16pt">But, again, he who had formerly rivalled the Tirynthian<sup><a href="footnote/fn2.html#P200_31212">48</a></sup> -the pugilist Cleomachus-subsequently, at Olympia, after losing by efflux his masculine sex by an incredible mutation-bruised within his skin and without, worthy to be wreathed among the "Fullers" even of Novius,<sup><a href="footnote/fn2.html#P201_31446">49</a></sup> and deservedly commemorated by the mimographer Lentulus in his <i>Catinensians</i>-did, of course, not only cover with bracelets the traces left by (the bands of) the cestus, but likewise supplanted the coarse ruggedness of his athlete's cloak with some superfinely wrought tissue.</p>  
+<p style="font-size: 16pt">Of Physco and Sardanapalus I must be silent, whom, but for their eminence in lusts, no one would recognise as kings. But I must be silent, for fear lest even <i>they</i> set up a muttering concerning some of your Caesars, equally lost to shame; for fear lest a mandate have been given to canine<sup><a href="footnote/fn2.html#P203_32222">50</a></sup> constancy to point to a Caesar impurer than Physco, softer than Sardanapalus, and indeed a second Nero.<sup><a href="footnote/fn2.html#P204_32376">51</a></sup> </p>  
+<p style="font-size: 16pt">Nor less warmly does the force of <i>vainglory</i> also work for the mutation of <i>clothing</i>, even while <i>manhood</i> is preserved. Every affection is a heat: when, however, it is blown to (the flame of) <i>affectation</i>, forthwith, by the blaze of glory, it is an <i>ardour</i>. From this fuel, therefore, you see a great king<sup><a href="footnote/fn2.html#P206_32743">52</a></sup> -inferior only to his glory-seething. He had conquered the Median race, and was conquered by Median garb. Doffing the triumphal mail, he degraded himself into the captive trousers! The breast dissculptured with scaly bosses, by covering it with a transparent texture he bared; punting still after the work of war, and (as it were) softening, he extinguished it with the ventilating silk! Not sufficiently swelling of spirit was the Macedonian, unless he had likewise found delight in a highly inflated garb: only that philosophers withal (I believe) themselves affect somewhat of that kind; for I hear that there <i>has</i> been (such a thing as) philosophizing in purple. If a philosopher (appears) in purple, why not in glided slippers<sup><a href="footnote/fn2.html#P207_33490">53</a></sup> too? For a Tyrian<sup><a href="footnote/fn2.html#P208_33543">54</a></sup> to be shod in anything but gold, is by no means consonant with Greek habits. Some one will say, "Well, but there was another<sup><a href="footnote/fn2.html#P209_33730">55</a></sup> who wore silk indeed, and shod himself in <i>brazen</i> sandals." Worthily, indeed, in order that at the bottom of his Bacchantian raiment he might make some tinkling sound, did he walk in cymbals! But if, at that moment, Diogenes had been barking from his tub, he would not (have trodden on him<sup><a href="footnote/fn2.html#P210_34054">56</a></sup> ) with muddy feet-as the Platonic couches testify-but would have carried Empedocles down bodily to the secret recesses of the Cloacinae;<sup><a href="footnote/fn2.html#P211_34258">57</a></sup> in order that he who had madly thought himself a celestial being might, as a god, salute first his sisters,<sup><a href="footnote/fn2.html#P212_34678">58</a></sup> and afterwards men. Such garments, therefore, as alienate from nature and modesty, let it be allowed to be just to eye fixedly and point at with the finger and expose to ridicule by a nod. Just so, if a man were to wear a dainty robe trailing on the ground with Menander-like effeminacy, he would hear applied to himself that which the comedian says "What sort of a cloak is that maniac wasting? "For, now that the contracted brow of censorial vigilance is long since smoothed down, so far as reprehension is concerned, promiscuous usage offers to our gaze freedmen in equestrian garb, branded slaves in that of gentlemen, the notoriously infamous in that of the freeborn, clowns in that of city-folk, buffoons in that of lawyers, rustics in regimentals; the corpse-bearer, the pimp, the gladiator trainer, clothe themselves as you do. Turn, again, to women. You have to behold what Caecina Severus pressed upon the grove attention of the senate-matrons stoleless in public. In fact, the penalty inflicted by the decrees of the augur Lentulus upon any matron who had thus cashiered herself was the same as for fornication; inasmuch as certain matrons had sedulously promoted the disuse of garments which were the evidences and guardians of dignity, as being impediments to the practising of prostitution. But now, in their self-prostitution, in order that they may the more readily be approached, they have abjured stole, and chemise, and bonnet, and cap; yes, and even the very litters and sedans in which they used to be kept in privacy and secrecy even in public. But while one extinguishes her proper adornments, another blazes forth such as are not hers. Look at the street-walkers, the shambles of popular lusts; also at the female self-abusers with their sex; and, if it is better to withdraw your eyes from such shameful spectacles of publicly slaughtered chastity, yet do but look with eyes askance, (and) you will at once see (them to be) matrons! And, while the overseer of brothels airs her swelling silk, and consoles her neck-more impure than her haunt-with necklaces, and inserts in the armlets (which even matrons themselves would, of the guerdons bestowed upon brave men, without hesitation have appropriated) hands privy to all that is shameful, (while) she fits on her impure leg the pure white or pink shoe; why do you not stare at such garbs? or, again, at those which falsely plead religion as the supporter of their novelty? while for the sake of an all-white dress, and the distinction of a fillet, and the privilege of a helmet, some are initiated into (the mysteries of) Ceres; while, on account of an opposite hankering after sombre raiment, and a gloomy woollen covering upon the head, others run mad in Bellona's temple; while the attraction of surrounding themselves with a tunic more broadly striped with purple, and casting over their shoulders a cloak of Galatian scarlet, commends Saturn (to the affections of others). When this Mantle itself, arranged with more rigorous care, and sandals after the Greek model, serve to flatter Aesculapius,<sup><a href="footnote/fn2.html#P213_37793">59</a></sup> how much more should you then accuse and assail it with your eyes, as being guilty of superstition-albeit superstition simple and unaffected? Certainly, when first it clothes this wisdom<sup><a href="footnote/fn2.html#P214_38017">60</a></sup> which renounces superstitions with all their vanities, then most assuredly is the Mantle, above all the garments in which you array your gods and goddesses, an august robe; and, above all the caps and tufts of your Salii and Flamines, a sacerdotal attire. Lower your eyes, I advise you, (and) reverence the garb, on the one ground, meantime, (without waiting for others,) of being a renouncer of your error.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter V.-Virtues of the Mantle. It Pleads in Its Own Defence.</p>  </ul>
+<p>"Still," say you, "must we thus change from gown<sup><a href="footnote/fn2.html#P218_38583">61</a></sup> to Mantle? "Why, what if from diadem and sceptre? Did Anacharsis change otherwise, when to the royalty of Scythia he preferred philosophy? Grant that there be no (miraculous) signs in proof of your transformation for the better: there is somewhat which this your garb can do. For, to begin with the simplicity of its uptaking: it needs no tedious arrangement. Accordingly, there is no necesSity for any artist formally to dispose its wrinkled folds from the beginning a day beforehand, and then to reduce them to a more finished elegance, and to assign to the guardianship of the stretchers<sup><a href="footnote/fn2.html#P219_39185">62</a></sup> the whole figment of the massed boss; subsequently, at daybreak, first gathering up by the aid of a girdle the tunic which it were better to have woven of more moderate length (in the first instance), and, again scrutinizing the boss, and rearranging any disarrangement, to make one part prominent on the left, but (making now an end of the folds) to draw backwards from the shoulders the circuit of it whence the hollow is formed, and, leaving the right shoulder free, heap it still upon the left, with another similar set of folds reserved for the back, and thus clothe the man with a burden! In short, I will persistently ask your own conscience, What is your first sensation in wearing your gown? Do you feel yourself clad, or laded? wearing a garment, or carrying it? If you shall answer negatively, I will follow you home; I win see what you hasten to do immediately after crossing your threshold. There is really no garment the dolling whereof congratulates a man more than the gown's does.<sup><a href="footnote/fn2.html#P220_40204">63</a></sup> Of shoes we say nothing-implements as they are of torture proper to the gown, most uncleanly protection to the feet, yes, and false too. For who would not find it expedient, in cold and heat, to stiffen with feet bare rather than in a shoe with feet bound? A mighty munition for the tread have the Venetian shoe-factories provided in the shape of effeminate boots! Well, but, than the Mantle nothing is more expedite, even if it be double, like that of Crates.<sup><a href="footnote/fn2.html#P221_40993">64</a></sup> Nowhere is there a compulsory waste of time in dressing yourself (in it), seeing that its whole art consists in loosely covering. That can be effected by a single circumjection, and one in no case inelegant:<sup><a href="footnote/fn2.html#P222_41227">65</a></sup> thus it wholly covers every part of the man at once. The shoulder it either exposes or encloses:<sup><a href="footnote/fn2.html#P223_41385">66</a></sup> in other respects it adheres to the shoulder; it has no surrounding support; it has no surrounding tie; it has no anxiety as to the fidelity with which its folds keep their place; easily it manages, easily readjusts itself: even in the dolling it is consigned to no cross until the morrow. If any shirt is worn beneath it, the torment of a girdle is superfluous: if anything in the way of shoeing is worn, it is a most cleanly work;<sup><a href="footnote/fn2.html#P224_42134">67</a></sup> or else the feet are rather bare,-more manly, at all events, (if bare,) than in shoes. These (pleas I advance) for the Mantle in the meantime, in so far as you have defamed it by name. Now, however, it challenges you on the score of its function withal. "I," it says, "owe no duty to the forum, the election-ground, or the senate-house; I keep no obsequious vigil, preoccupy no platforms, hover about no praetorian residences; I am not odorant of the canals, am not odorant of the lattices, am no constant wearer out of benches, no wholesale router of laws, no barking pleader, no judge, no soldier, no king: I have withdrawn from the populace. My only business is with myself: except that other care I have none, save not to care. The better life you would more enjoy in seclusion than in publicity. But you will decry me as indolent. Forsooth, `we are to live for our country, and empire, and estate.' Such used,<sup><a href="footnote/fn2.html#P225_43186">68</a></sup> of old, to be the sentiment. None is born for another, being destined to die for himself. At all events, when we come to the Epicuri and Zenones, you give the epithet of 'sages' to the whole teacherhood of <i>Quietude</i>, who have consecrated that <i>Quietude</i> with the name of 'supreme' and 'unique' pleasure. Still, to some extent it will be allowed, even to <i>me</i>, to confer benefit on the public. From any and every boundary-stone or altar it is my wont to prescribe medicines to morals-medicines which will be more felicitous in conferring good health upon public affairs, and states, and empires, than <i>your</i> works are. Indeed, if I proceed to encounter you with naked foils, gowns have done the commonwealth more hurt than cuirasses. Moreover, I flatter no vices; I give quarter to no lethargy, no slothful encrustation. I apply the cauterizing iron to the ambition which led M. Tullius to buy a circular table of citron-wood for more than &#163;4000,<sup><a href="footnote/fn2.html#P226_44297">69</a></sup> and Asinius Gallus to pay twice as much for an ordinary table of the same Moorish wood (Hem! at what fortunes did they value woody dapplings!), or, again, Sulla to frame dishes of an hundred pounds' weight. I fear lest that balance be small, when a Drusillanus (and he withal a slave of Claudius!) constructs a tray<sup><a href="footnote/fn2.html#P227_44689">70</a></sup> of the weight of 500 lbs.!-a tray indispensable, perchance, to the aforesaid tables, for which, if a workshop was erected,<sup><a href="footnote/fn2.html#P228_44938">71</a></sup> there ought to have been erected a dining-room too. Equally do I plunge the scalpel into the inhumanity which led Vedius Pollio to expose slaves to fill the bellies of sea-eels. Delighted, forsooth, with his novel savagery, he kept land-monsters, toothless, clawless, hornless: it was his pleasure to turn perforce into wild beasts his fish, which (of course) were to be forthwith cooked, that in their entrails he himself withal might taste some savour of the bodies of his own slaves. I will forelop the gluttony which led Hortensius the orator to be the first to have the heart to slay a peacock for the sake of food; which led Aufidius Lurco to be the first to vitiate meat with stuffing, and by the aid of forcemeats to raise them to an adulterous<sup><a href="footnote/fn2.html#P229_45747">72</a></sup> flavour; which led Asinius Celer to purchase the viand of a single mullet at nearly &#163;50;<sup><a href="footnote/fn2.html#P230_45860">73</a></sup> which led Aesopus the actor to preserve in his pantry a dish of the value of nearly &#163;800, made up of birds of the selfsame costliness (as the mullet aforesaid), consisting of all the songsters and talkers; which led his son, after such a titbit, to have the hardihood to hunger after somewhat yet more sumptuous: for he swallowed down pearls-costly even on the ground of their name-I suppose for fear he should have supped more beggarly than his father. I am silent as to the Neros and Apicii and Rufi. I will give a cathartic to the impurity of a Scaurus, and the gambling of a Curius, and the intemperance of an Antony. And remember that these, out of the many (whom I have named), were men of the toga-such as among the men of the <i>pallium</i> you would not easily find. These purulencies of a state who will eliminate and exsuppurate, save a bemantled speech?</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter VI.-Further Distinctions, and Crowning Glory, of the Pallium.</p>    </ul>
+<p>"`With speech, 'says (my antagonist), `you have tried to persuade me,-a most sage medicament.' But, albeit utterance be mute-impeded by infancy or else checked by bashfulness, for life is content with an even tongueless philosophy-my very <i>cut</i> is eloquent. A philosopher, in fact, is <i>heard</i> so long as he is <i>seen</i>. My. very sight puts vices to the blush. Who suffers not, when he sees his own rival? Who can bear to gaze ocularly at him at whom mentally he cannot? Grand is the benefit conferred by the Mantle, at the thought whereof moral improbity absolutely blushes. Let philosophy now see to the question of her own profitableness; for she is not the only associate whom I boast. Other scientific arts of public utility I boast. From my store are clothed the first teacher of the forms of letters, the first explainer of their sounds, the first trainer in the rudiments of arithmetic, the grammarian, the rhetorician, the sophist, the medical man, the poet, the musical timebeater, the astrologer, and the birdgazer. All that is liberal in studies is covered by my four angles. `True; but all these rank lower than Roman knights.' Well; but your gladiatorial trainers, and all their ignominious following, are conducted into the arena in togas. This, no doubt, will be the indignity implied in 'From gown to Mantle!'" Well, so speaks the Mantle. But I confer on it likewise a fellowship with a divine sect and discipline. Joy, Mantle, and exult! A better philosophy has now deigned to honour thee, ever since thou hast begun to be a Christian's vesture! </p> 
+<p>
+<p>  
+<p><HR>
+<CENTER>
+<A HREF="0040004.html">Next: Elucidations.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/004/0040003.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/004/0040003.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/tbx7h6x'>tak.la/tbx7h6x</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/tbx7h6x';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+

@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. IV: Fathers of the Third Century: Tertullian, Part Fourth; Minucius Felix; Commodian; Origen, Parts First and Second | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Tertullian Minucius Felix Commidian Origen">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol IV: Book I. | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/004/0040012.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:34:57+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/004/'>004</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/004/'>004</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Ante-Nicene Fathers, Vol IV:
+<br>
+Book I.</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="0040011.html" id="prev">Previous</A>&nbsp;
+<A HREF="0040013.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+</p> 
+<p>  <h2 align="CENTER"><a></a> Book I.</h2>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter I.-Design of the Treatise. Disavowal of Personal Motives in Writing It.</p>  </ul>
+<p style="font-size: 16pt">I Have thought it meet, my best beloved fellow-servant in the Lord, even from this early period,<sup><a href="footnote/fn7.html">1</a></sup> to provide for the course which you must pursue after my departure from the world,<sup><a href="footnote/fn7.html#P711_174193">2</a></sup> if I shall be called before you; (and) to entrust to your honour<sup><a href="footnote/fn7.html#P712_174270">3</a></sup> the observance of the provision. For in things worldly<sup><a href="footnote/fn7.html#P713_174335">4</a></sup> we are active enough, and we wish the good of each of us to be consulted. If we draw up wills for <i>such</i> matters, why ought we not much more to take forethought for our posterity<sup><a href="footnote/fn7.html#P714_174529">5</a></sup> in things divine and heavenly, and in a sense to bequeath a legacy to be received before the inheritance be divided,-(the legacy, I mean, of) admonition and demonstration touching those (bequests) which are allotted out of (our) immortal goods, and from the heritage of the heavens? Only, that you may be able to receive in its entirety<sup><a href="footnote/fn7.html#P715_174947">6</a></sup> this feoffment in trust<sup><a href="footnote/fn7.html#P716_175099">7</a></sup> of my admonition, may God grant; whom be honour, glory, renown, dignity, and power, now and to the ages of the ages!</p>  
+<p style="font-size: 16pt">The precept, therefore, which I give you is, that, with all the constancy you may, you do, after our departure, renounce nuptials; not that you will on that score confer any benefit on me, except in that you will profit yourself. But to Christians, after their departure from the world,<sup><a href="footnote/fn7.html#P718_175522">8</a></sup> no restoration of marriage is promised in the day of the resurrection, translated as they will be into the condition and sanctity of angels.<sup><a href="footnote/fn7.html#P719_175675">9</a></sup> Therefore no solicitude arising from carnal jealousy will, in the day of the resurrection, even in the case of her whom they chose to represent as having been married to seven brothers successively, wound any one<sup><a href="footnote/fn7.html#P720_175905">10</a></sup> of her so many husbands; nor is any (husband) awaiting her to put her to confusion.<sup><a href="footnote/fn7.html#P721_176027">11</a></sup> The question raised by the Sadducees has yielded to the Lord's sentence. Think not that it is for the sake of preserving to the end for myself the entire devotion of your flesh, that I, suspicious of the pain of (anticipated) slight, am even at this early period<sup><a href="footnote/fn7.html#P722_176351">12</a></sup> instilling into you the counsel of (perpetual) widowhood. There will at that day be no resumption of voluptuous disgrace between us. No such frivolities, no such impurities, does God promise to His (servants). But whether to you, or to any other woman whatever who pertains to God, the advice which we are giving shall be profitable, we take leave to treat of at large.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter II.-Marriage Lawful, But Not Polygamy.</p>  </ul>
+<p style="font-size: 16pt">We do not indeed forbid the union of man and woman, blest by God as the seminary of the human race, and devised for the replenishment of the earth<sup><a href="footnote/fn7.html#P726_176954">13</a></sup> and the furnishing of the world,<sup><a href="footnote/fn7.html#P727_177010">14</a></sup> and therefore permitted, yet Singly. For Adam was the one husband of Eve, and Eve his one wife, one woman, one rib.<sup><a href="footnote/fn7.html#P728_177140">15</a></sup> We grant,<sup><a href="footnote/fn7.html#P729_177172">16</a></sup> that among our ancestors, and the patriarchs themselves, it was lawful<sup><a href="footnote/fn7.html#P730_177255">17</a></sup> not only to marry, but even to multiply wives.<sup><a href="footnote/fn7.html#P731_177396">18</a></sup> There were concubines, too, (in those days.) But although the Church did come in figuratively in the synagogue, yet (to interpret simply) it was necessary to institute (certain things) which should afterward deserve to be either lopped off or modified. For the Law was (in due time) to supervene. (Nor was that enough:) for it was meet that causes for making up the deficiencies of the Law should have forerun (Him who was to supply those deficiencies). And so to the Law presently had to succeed the Word<sup><a href="footnote/fn7.html#P732_178044">19</a></sup> of God introducing the spiritual circumcision.<sup><a href="footnote/fn7.html#P733_178166">20</a></sup> Therefore, by means of the wide licence of those days, materials for subsequent emendations were furnished beforehand, of which materials the Lord by His Gospel, and then the apostle in the last days of the (Jewish) age,<sup><a href="footnote/fn7.html#P734_178436">21</a></sup> either cut off the redundancies or regulated the disorders.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter III.-Marriage Good: Celibacy Preferable.</p>  </ul>
+<p style="font-size: 16pt">But let it not be thought that my reason for premising thus much concerning the liberty granted to the old, and the restraint imposed on the later time, is that I may lay a foundation for teaching that Christ's advent was intended to dissolve wedlock, (and) to abolish marriage talons; as if from this period onward<sup><a href="footnote/fn7.html#P738_179137">22</a></sup> I were prescribing an end to marrying. Let them see to that, who, among the rest of their perversities, teach the disjoining of the "one flesh in twain; "<sup><a href="footnote/fn7.html#P739_179360">23</a></sup> denying Him who, after borrowing the female from the male, recombined between themselves, in the matrimonial computation, the two bodies taken out of the consortship of the self-same material substance. In short, there is no place at all where we read that nuptials are prohibited; of course on the ground that they are "a good thing." What, however, is <i>better</i> than this "good," we learn from the apostle, who <i>permits</i> marrying indeed, but <i>prefers</i> abstinence; the former on account of the insidiousnesses of temptations, the latter on account of he straits of the times.<sup><a href="footnote/fn7.html#P740_179952">24</a></sup> Now, by looking into the reason thus given for each proposition, it is easily discerned that the ground on which the power of marrying is conceded is <i>necessity</i>; but whatever <i>necessity</i> grants, she by her very nature depreciates. In fact, in that it is written, "To marry is better than to burn," what, pray, is the nature of this "good" which is (only) commended by comparison with "evil," so that the reason why" marrying" is <i>more</i> good is (merely) that "burning" is <i>less</i>? Nay, but how far better is it neither to marry nor to burn? Why, even in persecutions it is <i>better</i> to take advantage of the permission granted, and "flee from town to town,"<sup><a href="footnote/fn7.html#P741_180615">25</a></sup> than, when apprehended and racked, to deny (the faith).<sup><a href="footnote/fn7.html#P742_180722">26</a></sup> And therefore more blessed are they who have strength to depart (this life) in blessed confession of their testimony.<sup><a href="footnote/fn7.html#P743_180907">27</a></sup> I may say, What is <i>permitted</i> is not <i>good</i>. For how stands the case? I must of necessity die (if I be apprehended and confess my faith.) If I think (that fate) deplorable, (then flight) is good; but if I have a fear of the thing which is permitted, (the permitted thing) has some suspicion attaching to the cause of its permission. But that which is "better" no one (ever) "permitted," as being undoubted, and manifest by its own inherent purity. There are some things which are not to be <i>desired</i> merely because they are not <i>forbidden</i>, albeit they are in a certain sense <i>forbidden</i> when other things are preferred to them; for the preference given to the higher things is a dissuasion from the lowest. A thing is not "good" merely because it is not "evil," nor is it "evil" merely because it is not "harmful."<sup><a href="footnote/fn7.html#P744_181778">28</a></sup> Further: that which is fully "good" excels on this ground, that it is not only not harmful, but profitable into the bargain. For you are bound to prefer what is profitable to what is (merely) not harmful. For the <i>first</i> place is what every struggle aims at; the <i>second</i> has consolation attaching to it, but not victory. But if we listen to the apostle, forgetting what is behind, let us both strain after what is before,<sup><a href="footnote/fn7.html#P745_182213">29</a></sup> and be followers after the better rewards. Thus, albeit he does not "east a snare<sup><a href="footnote/fn7.html#P746_182319">30</a></sup> upon us," he points out what tends to utility when he says, "The unmarried woman thinks on the things of the Lord, that both in body and spirit she may be holy; but the married is solicitous how to please her husband."<sup><a href="footnote/fn7.html#P747_182655">31</a></sup> But he nowhere permits marriage in such a way as not rather to wish us to do our utmost in imitation of his own example. Happy the man who shall prove like Paul! </p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter IV.-Of the Infirmity of the Flesh, and Similar Pleas.</p>  </ul>
+<p style="font-size: 16pt">But we read "that the flesh is weak; "<sup><a href="footnote/fn7.html#P751_182936">32</a></sup> and hence we soothe<sup><a href="footnote/fn7.html#P752_182977">33</a></sup> ourselves in some cases. Yet we read, too, that "the spirit is strong; "<sup><a href="footnote/fn7.html#P753_183173">34</a></sup> for each clause occurs in one and the same sentence. Flesh is an earthly, spirit a heavenly, material. Why, then, do we, too prone to self-excuse, put forward (in our defence) the weak part of us, but not look at<sup><a href="footnote/fn7.html#P754_183499">35</a></sup> the strong? Why should not the earthly yield to the heavenly? If the spirit is stronger than the flesh, because it is withal of nobler origin, it is our own fault if we follow the weaker. Now there are two phases<sup><a href="footnote/fn7.html#P755_183759">36</a></sup> of human weakness which make marriages<sup><a href="footnote/fn7.html#P756_183812">37</a></sup> necessary to such as are disjoined from matrimony. The first and most powerful is that which arises from <i>fleshly</i> concupiscence; the second, from <i>worldly</i> concupiscence. But by us, who are servants of God, who renounce both voluptuousness and ambition, each is to be repudiated. Fleshly concupiscence claims the functions of adult age, craves after beauty's harvest, rejoices in its own shame, pleads the necessity of a husband to the female sex, as a source of authority and of comfort, or to render it safe from evil rumours. To meet these its counsels, do you apply the examples of sisters of ours whose names are with the Lord,<sup><a href="footnote/fn7.html#P757_184600">38</a></sup> -who, when their husbands have preceded them (to glory), give to no opportunity of beauty or of age the precedence over holiness. They prefer to be wedded to God.To God their beauty, to God their youth (is dedicated). With Him they live; with Him they converse; Him they "handle"<sup><a href="footnote/fn7.html#P758_184955">39</a></sup> by day and by night; <i>to</i> the Lord they assign their prayers as dowries; <i>from</i> Him, as oft as they desire it, they receive His approbation<sup><a href="footnote/fn7.html#P759_185137">40</a></sup> as dotal gifts. Thus they have laid hold for themselves of an eternal gift of the Lord; and while on earth, by abstaining from marriage, are already counted as belonging to the angelic family. Training yourself to an emulation of (their) constancy by the examples of such women, you will by spiritual affection bury that fleshly concupiscence, in abolishing the temporal<sup><a href="footnote/fn7.html#P760_185526">41</a></sup> and fleeting desires of beauty and youth by the compensating gain of immortal blessings.</p>  
+<p style="font-size: 16pt">On the other hand, this <i>worldly</i> concupiscence (to which I referred) has, as its causes, glory, cupidity, ambition, want of sufficiency; through which causes it trumps up the "necessity" for marrying,-promising itself, forsooth, heavenly things in return-to lord it, (namely,) in another's family; to roost<sup><a href="footnote/fn7.html#P762_185942">42</a></sup> on another's wealth; to extort splendour from another's store to lavish expenditure<sup><a href="footnote/fn7.html#P763_186041">43</a></sup> which you do not feel! Far be all this from believers, who have no care about maintenance, unless it be that we distrust the promises of God, and (His) care and providence, who clothes with such grace the lilies of the field;<sup><a href="footnote/fn7.html#P764_186289">44</a></sup> who, without any labour on their part, feeds the fowls of the heaven;<sup><a href="footnote/fn7.html#P765_186381">45</a></sup> who prohibits care to be taken about to-morrow's food and clothing,<sup><a href="footnote/fn7.html#P766_186468">46</a></sup> promising that He knows what is needful for each of His servants-not indeed ponderous necklaces, not burdensome garments, not Gallic mules nor German bearers, which all add lustre to the glory of nuptials; but "sufficiency,"<sup><a href="footnote/fn7.html#P767_186716">47</a></sup> which is suitable to moderation and modesty, Presume, I pray you, that you have need of nothing if you "attend upon the Lord; "<sup><a href="footnote/fn7.html#P768_186883">48</a></sup> nay, that you have all things, if you have the Lord, whose are all things. Think often<sup><a href="footnote/fn7.html#P769_187015">49</a></sup> on things heavenly, and you will despise things earthly. To widowhood signed and sealed before the Lord nought is necessary but perseverance.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter V.-Of the Love of Offspring as a Plea for Marriage.</p>  </ul>
+<p style="font-size: 16pt">Further reasons for marriage which men allege for themselves arise from anxiety for posterity, and the bitter, bitter pleasure of children. To us this is idle. For why should we be eager to bear children, whom, when we have them, we desire to send before us (to glory)<sup><a href="footnote/fn7.html#P773_187499">50</a></sup> (in respect, I mean, of the distresses that are now imminent); desirous as we are ourselves, too, to be taken out of this most wicked world,<sup><a href="footnote/fn7.html#P774_187739">51</a></sup> and received into the Lord's presence, which was the desire even of an apostle?<sup><a href="footnote/fn7.html#P775_187833">52</a></sup> To the servant of God, forsooth, offspring is necessary! For of our own salvation we are secure enough, so that we have leisure for children! Burdens must be sought by us for ourselves which are avoided even by the majority of the Gentiles, who are compelled by laws,<sup><a href="footnote/fn7.html#P776_188148">53</a></sup> who are decimated<sup><a href="footnote/fn7.html#P777_188194">54</a></sup> by abortions;<sup><a href="footnote/fn7.html#P778_188227">55</a></sup> burdens which, finally, are to <i>us</i> most of all unsuitable, as being perilous to faith! For why did the Lord foretell a "woe to them that are with child, and them that give suck,"<sup><a href="footnote/fn7.html#P779_188459">56</a></sup> except because He testifies that in that day of disencumbrance the encumbrances of children will be an inconvenience? It is to marriage, of course, that those encumbrances appertain; but that ("woe") will not pertain to widows. (<i>They</i>) at the first trump of the angel will spring forth disencumbered-will freely bear to the end whatsoever pressure and persecution, with no burdensome fruit of marriage heaving in the womb, none in the bosom.</p>  
+<p style="font-size: 16pt">Therefore, whether it be for the sake of the flesh, or of the world,<sup><a href="footnote/fn7.html#P781_189003">57</a></sup> or of posterity, that marriage is undertaken, nothing of all these "necessities" affects the servants of God, so as to prevent my deeming it enough to have once for all yielded to some one of them, and by one marriage appeased<sup><a href="footnote/fn7.html#P782_189244">58</a></sup> all concupiscence of this kind. Let us marry daily, and in the midst of our marrying let us be overtaken, like Sodom and Gomorrah, by that day of fear!<sup><a href="footnote/fn7.html#P783_189453">59</a></sup> For <i>there</i> it was not only, of course, that they were dealing in marriage and merchandise; but when He says, "They were marrying and buying," He sets a brand<sup><a href="footnote/fn7.html#P784_189634">60</a></sup> upon the very leading vices of the flesh and of the world,<sup><a href="footnote/fn7.html#P785_189707">61</a></sup> which call men off the most from divine disciplines-the one through the pleasure of rioting, the other though the greed of acquiring. And yet that "blindness" <i>then</i> was felt long before "the ends of the world."<sup><a href="footnote/fn7.html#P786_189931">62</a></sup> What, then, will the case be if God <i>now</i> keep us from the vices which <i>of old</i> were detestable before Him? "The time," says (the apostle), "is compressed.<sup><a href="footnote/fn7.html#P787_190219">63</a></sup> It remaineth that they who have wives<sup><a href="footnote/fn7.html#P788_190349">64</a></sup> act as if they had them not."</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter VI.-Examples of Heathens Urged as Commendatory of Widowhood and Celibacy.</p>  </ul>
+<p style="font-size: 16pt">But if they who <i>have</i> (wives) are (thus) bound to consign to oblivion what they have, how much more are they who have <i>not</i>, prohibited from seeking a second time what they no longer have; so that she whose husband has departed from the world should thenceforward impose rest on her sex by abstinence from marriage-abstinence which numbers of Gentile women devote to the memory of beloved husbands! When anything seems difficult, let us survey others who cope with still greater difficulties. How many are there who from the moment of their baptism set the seal (of virginity) upon their flesh? How many, again, who by equal mutual consent cancel the debt of matrimony-voluntary eunuchs<sup><a href="footnote/fn7.html#P792_191416">65</a></sup> for the sake of their desire! after the celestial kingdom! But if, while the marriage-tie is still intact, abstinence is endured, how much more when it has been undone! For I believe it to be harder for what is intact to be quite forsaken, than for what has been lost not to be yearned after. A hard and arduous thing enough, surely, is the continence for God's sake of a holy woman after her husband's decease, when Gentiles,<sup><a href="footnote/fn7.html#P793_191919">66</a></sup> in honour of their own Satan, endure sacerdotal offices which involve both virginity and widowhood!<sup><a href="footnote/fn7.html#P794_192045">67</a></sup> At Rome, for instance, they who have to do with the type of that "inextinguishable fire,"<sup><a href="footnote/fn7.html#P795_192173">68</a></sup> keeping watch over the omens of their own (future) penalty, in company with the (old) dragon<sup><a href="footnote/fn7.html#P796_192286">69</a></sup> himself, are appointed on the ground of <i>virginity</i>. To the Achaean Juno, at the town Aegium, a <i>virgin</i> is allotted; and the (priestesses) who rave at Delphi know not marriage. Moreover, we know that widows minister to the African Ceres; enticed away, indeed, from matrimony by a most stem oblivion: for not only do they withdraw from their still living husbands, but they even introduce other wives to them in their own room-the husbands, of course, smiling on it-all contact (with males), even as far as the kiss of their sons, being forbidden them; and yet, with enduring practice, they persevere in such a discipline of widowhood, which excludes the solace even of holy affection.<sup><a href="footnote/fn7.html#P797_193009">70</a></sup> These precepts has the devil given to his servants, and he is heard! He challenges, forsooth, God's servants, by the continence of his own, as if on equal terms! Continent are even the priests of hell!<sup><a href="footnote/fn7.html#P798_193226">71</a></sup> For he has found a way to ruin men _ even in good pursuits; and with him it makes no difference to slay some by voluptuousness, some by continence.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter VII.-The Death of a Husband is God's Call to the Widow to Continence. Further Evidences from Scripture and from Heathenism.</p>  </ul>
+<p style="font-size: 16pt">To us continence has been pointed out by the Lord of salvation as an instrument for attaining eternity,<sup><a href="footnote/fn8.html#P802_193657">72</a></sup> and as a testimony of (our) faith; as a commendation of this flesh of ours, which is to be sustained for the "garment of immortality,"<sup><a href="footnote/fn8.html#P803_193868">73</a></sup> which is one day to supervene; for enduring, in fine, the will of God. Besides, reflect, I advise you, that there is no one who is taken out of the world<sup><a href="footnote/fn8.html#P804_194055">74</a></sup> but by the will of God, if, (as is the case,) not even a leaf falls from off a tree without it. The same who brings us into the world<sup><a href="footnote/fn8.html#P805_194203">75</a></sup> must of necessity take us out of it too. Therefore when, through the will of God, the husband is deceased, the marriage likewise, by the will of God, deceases. Why should <i>you</i> restore what God has put an end to? Why do you, by repeating the servitude of matrimony, spurn the liberty which is offered you? "You have been bound to a wife,"<sup><a href="footnote/fn8.html#P806_194552">76</a></sup> sap the apostle; "seek not loosing. You have been loosed from a wife;<sup><a href="footnote/fn8.html#P807_194811">77</a></sup> seek not binding." For even if you do not "<i>sin</i>" in re-marrying, still he says "pressure of the flesh ensues."<sup><a href="footnote/fn8.html#P808_195110">78</a></sup> Wherefore, so far as we can, let us love the opportunity of continence; as soon as it offers itself, let us resolve to accept it, that what we have not had strength<sup><a href="footnote/fn8.html#P809_195296">79</a></sup> (to follow) in matrimony we may follow in widowhood. The occasion must be embraced which puts an end to that which <i>necessity</i><sup><a href="footnote/fn8.html#P810_195472">80</a></sup> commanded. How detrimental to faith, how obstructive to holiness, second marriages are, the discipline of the Church and the prescription of the apostle declare, when he suffers not men twice married to preside (over a Church<sup><a href="footnote/fn8.html#P811_195771">81</a></sup> ), when he would not grant a widow admittance into the order unless she had been "the wife of one man; "<sup><a href="footnote/fn8.html#P812_195906">82</a></sup> for it behoves God's altar<sup><a href="footnote/fn8.html#P813_195955">83</a></sup> to be set forth pure. That whole halo<sup><a href="footnote/fn8.html#P814_196004">84</a></sup> which encircles the Church is represented (as consisting) of holiness. Priesthood is (a function) of widowhood and of celibacies among the nations. Of course (this is) in conformity with the devil's principle of rivalry. For the king of heathendom,<sup><a href="footnote/fn8.html#P815_196343">85</a></sup> the chief pontiff,<sup><a href="footnote/fn8.html#P816_196376">86</a></sup> to marry a second time is unlawful. How pleasing must holiness be to God, when even His enemy affects it!-not, of course, as having any affinity with anything good, but as contumeliously affecting what is pleasing to<sup><a href="footnote/fn8.html#P817_196622">87</a></sup> God the Lord.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter VIII.-Conclusion.</p>  </ul>
+<p style="font-size: 16pt">For, concerning the honours which widowhood enjoys in the sight of God, there is a brief summary in one saying of His through the prophet: "Do thou<sup><a href="footnote/fn8.html#P821_196840">88</a></sup> justly to the widow and to the orphan; and come ye,<sup><a href="footnote/fn8.html#P822_197043">89</a></sup> let us reason, saith the Lord." These two names, left to the care of the divine mercy, in proportion as they are destitute of human aid, the Father of all undertakes to defend. Look how the widow's benefactor is put on a level with the widow herself, whose champion shall "reason with the Lord!" Not to virgins, I take it, is so great a gift given. Although in <i>their</i> case perfect integrity and entire sanctity shall have the nearest vision of the face of God, yet the widow has a task more toilsome, because it is easy not to crave after that which you know not, and to turn away from what you have never had to regret.<sup><a href="footnote/fn8.html#P823_197814">90</a></sup> More glorious is the continence which is aware of its own right, which knows what it has seen. The virgin may possibly be held the happier, but the <i>widow</i> the more hardly tasked; the former in that she has always kept "the good,"<sup><a href="footnote/fn8.html#P824_198089">91</a></sup> the latter in that she has found "the good for herself." In the former it is grace, in the latter virtue, that is crowned. For some things there are which are of the divine liberality, some of our own working. The indulgences granted by the Lord are regulated by their own grace; the things which are objects of man's striving are attained by earnest pursuit. Pursue earnestly, therefore, the virtue of continence, which is modesty's agent; industry, which allows not women to be "wanderers; "<sup><a href="footnote/fn8.html#P825_198602">92</a></sup> frugality, which scorns the world.<sup><a href="footnote/fn8.html#P826_198656">93</a></sup> Follow companies and conversations worthy of God, mindful of that short verse, sanctified by the apostle's quotation of it, "Ill interviews good morals do corrupt."<sup><a href="footnote/fn8.html#P827_198836">94</a></sup> Talkative, idle, winebibbing, curious tent-fellows,<sup><a href="footnote/fn8.html#P828_199039">95</a></sup> do the very greatest hurt to the purpose of widow-hood. Through talkativeness there creep in words unfriendly to modesty; through idleness they seduce one from strictness; through winebibbing they insinuate any and every evil; through curiosity they convey a spirit of rivalry in lust. Not one of such women knows how to speak of the good of single-husbandhood; for their "god," as the apostle says, "is their belly; "<sup><a href="footnote/fn8.html#P829_199495">96</a></sup> and so, too, what is neighbour to the belly. </p>  
+<p style="font-size: 16pt">These considerations, dearest fellow-servant, I commend to you thus early,<sup><a href="footnote/fn8.html#P831_199636">97</a></sup> handled throughout superfluously indeed, after the apostle, but likely to prove a solace to you, In that (if so it shall turn out<sup><a href="footnote/fn8.html#P832_199783">98</a></sup> ) you will cherish my memory in them.</p>  
+<p>
+<p>  
+<p><HR>
+<CENTER>
+<A HREF="0040013.html">Next: Book II.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/004/0040012.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/004/0040012.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/p4hc3g4'>tak.la/p4hc3g4</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/p4hc3g4';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+
