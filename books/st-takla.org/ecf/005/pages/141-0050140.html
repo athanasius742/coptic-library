@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. V: Fathers of the Third Century: Hippolytus, Cyprian, Caius, Novatian, Appendix. full text etext at St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Hippolytus Cyprian Caius Novatian">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol V: On the Jewish Meats. | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/005/0050140.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:34:51+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/005/'>005</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/005/'>005</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Ante-Nicene Fathers, Vol V:
+<br>
+On the Jewish Meats.</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="0050139.html" id="prev">Previous</A>&nbsp;
+<A HREF="0050141.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+</p>   <h2 align="CENTER"><a></a> On the Jewish Meats.</h2>  
+<p>--------</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter I.<sup><a href="footnote/fn104.html">1</a></sup> Argument.-Novatian, a Roman Presbyter, During His Retirement at the Time of the Decian Persecution, Being Urged by Various Letters from His Brethren, Had Written Two Earlier Epistles Against the Jews on the Subjects of Circumcision and the Sabbath, and Now Writes the Present One on the Jewish Meats.</p>  </ul>
+<p style="font-size: 16pt">Although, most holy brethren, the day in which I receive your letters and writings is most ardently longed for by me, and to be reckoned among the chief and happiest-for what else is there now to make me more joyous?<sup><a href="footnote/fn104.html#P10488_3305910">2</a></sup> -still I think that the day is to be deemed not less notable, and among special days, wherein I return to you similar communications, with the affection of love that I owe you, and write you letters with a corresponding interest. For nothing, most holy brethren, holds me bound with such bonds nothing stirs and arouses me with such a stimulus of care and anxiety, as the fear lest you should think that any disadvantage is suffered by you by reason of my absence; and this I strive to remedy, in labouring to show myself present with you by frequent letters. Although, therefore, the duty which I owe, and the charge I have undertaken, and the very ministerial office imposed upon me, require of me this necessity of writing letters, yet you still further enhance it, by stirring me up to write through means of your continual communications. And inclined although I am to those periodical expressions of love, you urge me the more by showing that you stand fast continually in the Gospel: whence it results, that by my letters I am not so much instructing you who are already informed, as inciting you who are already prepared. For you, who not only hold the Gospel pure and purged from all stain of perverse doctrine, but also energetically teach the same, seek not man for a master, since you show yourselves by these very things to be teachers. Therefore as you run, I exhort you; and as you watch, I stir you up; and as you contend against "the spiritual things of wickedness,"<sup><a href="footnote/fn104.html#P10489_3307478">3</a></sup> I address you; and as you press "in your course to the prize of your calling in Christ,"<sup><a href="footnote/fn104.html#P10490_3307584">4</a></sup> I urge you on,-that, treading under foot and rejecting as welt the sacrilegious calumnies of heretics as also the idle fables of Jews, you may hold the sole word<sup><a href="footnote/fn104.html#P10491_3307765">5</a></sup> and teaching of Christ, so as worthily to claim for yourselves the authority of His name. But how perverse are the Jews, and remote from the understanding of their law, I have fully shown, as I believe, in two former letters,<sup><a href="footnote/fn104.html#P10492_3308008">6</a></sup> wherein it was absolutely proved that they are ignorant of what is the true circumcision, and what the true Sabbath; and their ever increasing blindness is confuted in this present epistle, wherein I have briefly discoursed concerning their meats, because that in them they consider that they only are holy, and that all others are defiled.<sup><a href="footnote/fn104.html#P10493_3308443">7</a></sup> </p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter II. Argument.-He First of All Asserts that the Law is Spiritual; And Thence, Man's First Food Was Only the Fruit Trees, and the Use of Flesh Was Added, that the Law that Followed Subsequently<sup><a href="footnote/fn104.html#P10496_3308820">8</a></sup> Was to Be Understood Spiritually.<sup><a href="footnote/fn104.html#P10497_3309216">9</a></sup> </p>  </ul>
+<p style="font-size: 16pt">Therefore, first of all, we must avail ourselves of that passage, "that the law is spiritual; "<sup><a href="footnote/fn104.html#P10499_3309435">10</a></sup> and if they deny it to be spiritual, they assuredly blaspheme; if, avoiding blasphemy, they confess it to be spiritual, let them read it spiritually. For divine things must be divinely received, and must assuredly be maintained as holy. But a grave fault is branded on those who attach earthly and human doctrine to sacred and spiritual words; and this we must beware of doing. Moreover, we may beware, if any things enjoined by God be so treated as if they were assumed to diminish His authority, test, in calling some things impure and unclean, their institution should dishonour their ordainer. For in reprobating what He has made, He will appear to have condemned His own works, which He had approved as good; and He will be designated as seeming capricious in both cases, as the heretics indeed would have it; either in having blessed things which were not clean, or in subsequently reprobating as not good, creatures which He had blessed as both clean and good. And of this the enormity and contradiction will remain for ever if that Jewish doctrine is persisted in, which must be got rid of with all our ability; so that whatever is irregularly delivered by them, may be taken away by us, and a suitable arrangement of His works, and an appropriate and spiritual application of the divine law, may be restored. But to begin from the beginning of things, whence it behoves me to begin; the only food for the first men was fruit and the produce of the trees. For afterwards, man's sin transferred his need from the fruit-trees to the produce of the earth, when the very attitude of his body attested the condition of his conscience. For although innocency raised men up towards the heavens to pluck their food from the trees so long as they had a good conscience, yet sin, when committed, bent men down to the earth and to the ground to gather its grain. Moreover, afterwards the use of flesh was added, the divine favour supplying for human necessities the kinds of meats generally fitting for suitable occasions. For while a more tender meat was needed to nourish men who were both tender and unskilled, it was still a food not prepared without toil, doubtless for their advantage, lest they should again find a pleasure in sinning, if the labour imposed upon sin did not exhort innocence. And since now it was no more a paradise to be tended, but a whole world to be cultivated, the more robust food of flesh is offered to men, that for the advantage of culture something more might be added to the vigour of the human body. All these things, as I have said, were by grace and by divine arrangement: so that either the most vigorous food should not be given in too small quantity for men's support, and they should be enfeebled for labour; or that the more tender meat should not be too abundant, so that, oppressed beyond the measure of their strength, they should not be able to bear it.<sup><a href="footnote/fn105.html#P10500_3312354">11</a></sup> But the law which followed subsequently ordained<sup><a href="footnote/fn105.html#P10501_3312530">12</a></sup> the flesh foods with distinction: for some animals it gave and granted for use,<sup><a href="footnote/fn105.html#P10502_3312816">13</a></sup> as being clean; some it interdicted as not clean, and conveying pollution to those that eat them. Moreover, it gave this character to those that were clean, that those which chew the cud and divide the hoofs are clean; those are unclean which do neither one nor other of these things. So, in fishes also, the law said that those indeed were clean which were covered with scales and supplied with fins, but that those which were otherwise were not clean. Moreover, it established a distinction among the fowls, and laid down what was to be judged either an abomination, or clean. Thus the law ordained <i>the exercise of</i> very great subtlety in making a separation among those animals which the ancient appointment had gathered together into one form of blessing. What, then, are we to say? Are the animals therefore unclean? But what else is it <i>to say</i> that they are not clean, than that the law has separated them from the uses of food? And what, moreover, is that that we have just now said? Then God is the ordainer of things which are not clean; and the blame attached to things which are made will recoil upon their Maker, who did not produce them clean; to say which is certainly characteristic of extreme and excessive folly: it is to accuse God as having created unclean things, and to charge upon the divine majesty the guilt of having made things which are abomination, especially when they were both pronounced "very good,"<sup><a href="footnote/fn105.html#P10503_3314317">14</a></sup> and as being good have obtained the blessing from God Himself "that they should increase and multiply." Moreover also they were reserved by the command of the Creator in Noah's ark for the sake of their offspring, that so being kept they might be proved to be needful; and being needful, they might be proved to be good, although even in that case also there is a distinction appended. But still, even then, the creation of those very creatures that were not clean might have been utterly abolished, if it had needed to be abolished on account of its own pollution.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter III. Argument.-And Thus Unclean Animals are Not to Be Reproached, Lest the Reproach Be Thrown Upon Their Author; But When an Irrational Animal is Rejected on Any Account, It is Rather that that Very Thing Should Be Condemned in Man Who is Rational; And Therefore that in Animals the Character, the Doings, and the Wills of Men are Depicted.</p>  </ul>
+<p style="font-size: 16pt">How far, then, must that law, which-as I have shown by the authority of the apostle-is spiritual, be spiritually received in order that the divine and sure idea of the law may be carried out? Firstly, we must believe that whatever was ordained by God is clean and purified by the very authority of His creation; neither must it be reproached, lest the reproach should be thrown back upon its Author. Then <i>too</i> that the law was given to the children of Israel for this purpose, that they might profit by it, and return to those virtuous manners which, although they had received them from their fathers, they had corrupted in Egypt by reason of their intercourse with a barbarous people. Finally, also, those ten commandments on the tables teach nothing new, but remind them of what had been obliterated-that righteousness in them, which had been put to sleep, might revive again as it were by the afflatus of the law, after the manner of a <i>smothered</i> fire. But they could profit by the perception that those vices were especially to be avoided in men which the law had, condemned even in beasts.<sup><a href="footnote/fn105.html#P10507_3316343">15</a></sup> For when an irrational animal is rejected on any account, it is rather that very thing which is condemned in the man, who is rational. And if in it anything which it has by nature is characterized as a defilement, that same thing is most to be blamed when it is found in man opposed to his nature. Therefore, in order that men might be purified, the cattle were censured-to wit, that men also who had the same vices might be esteemed on a level with the brutes. Whence it results, that not only were the animals not condemned by their Creator because of His agency;<sup><a href="footnote/fn105.html#P10508_3316953">16</a></sup> but that men might be instructed in the brutes to return to the unspotted nature of their own creation. For we must consider how the Lord distinguishes clean and not clean. The creatures that are clean, it says, both chew the cud and divide the hoof; the unclean do neither, or only one of the two. All these things were made by one Workman, and He who made them Himself blessed them. Therefore I regard the creation of both as clean, because both He who created them is holy, and those things which were created are not in fault in being that which they were made. For it has never been customary for nature, but for a perverted will, to bear the blame of guilt. What, then, is the case? In the animals it is the characters, and doings, and wills of men that are depicted.<sup><a href="footnote/fn105.html#P10509_3317744">17</a></sup> They are clean if they chew the cud; that is, if they ever have in their mouth as food the divine precepts. They divide the hoof, if with the firm step of innocency they tread the ways of righteousness, and of every virtue of life. For of those creatures which divide the foot into two hoofs the walk is always vigorous; the tendency to slip of one part of the hoof being sustained by the firmness of the other, and so retained in the substantial footstep. Thus they who do neither are unclean, whose walk is neither firm in virtues; nor do they digest the food of the divine precepts after the manner of that chewing of the cud. And they, too, who do one of these things are not themselves clean either, inasmuch as they are maimed of the other, and not perfect in both. And these are they who do both, as believers, and are clean; or one of the two, as Jews and heretics, and are blemished; or neither, as the Gentiles, and are consequently unclean. Thus in the animals, by the law, as it were, a certain mirror of human life is established, wherein men may consider the images of penalties; so that everything which is vicious in men, as committed against nature, may be the more condemned, when even those things, although naturally ordained in brutes, are in them blamed.<sup><a href="footnote/fn105.html#P10510_3319214">18</a></sup> For that in fishes the roughness of scales is regarded as constituting their cleanness; rough, and rugged, and unpolished, and substantial, and grave manners are approved in men; while those that are without scales are unclean; because trifling, and fickle, and faithless, and effeminate manners are disapproved. Moreover, what does the law mean when it says, "Thou shalt not eat the camel? "<sup><a href="footnote/fn105.html#P10511_3319723">19</a></sup> -except that by the example of that animal it condemns a life nerveless<sup><a href="footnote/fn105.html#P10512_3319868">20</a></sup> and crooked with crimes. Or when it forbids the swine to be taken for food? It assuredly reproves a life filthy and dirty, and delighting in the garbage of vice, placing its supreme good not in generosity of mind, but in the flesh alone. Or when it forbids the hare? It rebukes men deformed into women. And who would use the body of the weasel for food? But in this case it reproves theft. Who would eat the lizard? But it hates an aimless waywardness of life. Who the eft? But it execrates mental stains. Who would eat the hawk, who the kite, who the eagle? But it hates plunderers and violent people who live by crime. Who the vulture? But it holds accursed those who seek for booty by the death of others. Or who the raven? But it holds accused crafty wills. Moreover, when it forbids the sparrow, it condemns intemperance; when the owl, it hates those who fly from the light of truth; when the swan, the proud with high neck; when the sea-mew, too talkative an intemperance of tongue; when the bat, those who seek the darkness of night as well as of error. These things, then, and the like to these, the law holds accursed in animals, which in them indeed are not blame-worthy, because they are born in this condition; in man they are blamed, because they are sought for contrary to his nature, not by his creation, but by his error.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter IV. Argument.-To These Things Also Was Added Another Reason for Prohibiting Many Kinds of Meats to the Jews; To Wit, for the Restraint of the Intemperance of the People, and that They Might Serve the One God.</p>  </ul>
+<p style="font-size: 16pt">To these considerations, then, thus enumerated, were added also other reasons for which many kinds of meats were withheld from the Jews; and that this might be so, many things were called unclean, not as being condemned in themselves, but that the Jews might be restrained to the service of one God; because frugality and moderation in appetite were becoming to those who were chosen for this purpose. And such moderation is always found to be approximate to religion, nay, so to speak, rather related and akin to it; for luxury is inimical to holiness. For how shall religion be spared by it, when modesty is not spared? Luxury does not entertain the fear of God; since while pleasures hurry it on, it is carried forward to the sole daring of its desires: for the reins being loosened, it increases in the application of expense without measure, as if it were its food, exceeding its patrimony with its modesty; or as a torrent rushing from the mountain-peaks not only overleaps what is opposed to it, but carries with it those very hindrances for the destruction of other things. Therefore these remedies were sought for to restrain the intemperance of the people, that in proportion as luxury was diminished, virtuous manners might be increased. For what else did they deserve, than that they should be restrained from using all the pictures of divers meats, who dared to prefer the vilest meats of the Egyptians to the divine banquets of manna, preferring the juicy meats of their enemies and masters to their liberty? They were truly worthy that the slavery which they had coveted should pamper them, if the food that was more desirable and free was so ill pleasing to them.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter V. Argument.-But There Was a Limit to the Use of These Shadows or Figures; For Afterwards, When the End of the Law, Christ, Came, All Things Were Said by the Apostle to Be Pure to the Pure, and the True and Holy Meat Was a Right Faith and an Unspotted Conscience.</p>  </ul>
+<p style="font-size: 16pt">And thus there was a certain ancient time, wherein those shadows or figures were to be used, that meats should be abstained from which had indeed been commended by their creation, but had been prohibited by the law. But now Christ, the end of the law, has come, disclosing all the obscurities of the law-all those things which antiquity had covered with the clouds of sacraments. For the illustrious Master, and the heavenly Teacher, and the ordainer of the perfected truth, has come, under whom at length it is rightly said: "To the pure all things are pure but unto them that are defiled and unbelieving is nothing pure, but even their mind and conscience is defiled."<sup><a href="footnote/fn105.html#P10519_3324091">21</a></sup> Moreover, in another place: "For every creature of God is good, and nothing to be refused which is received with thanksgiving; for it is sanctified by the Word of God and prayer."<sup><a href="footnote/fn105.html#P10520_3324289">22</a></sup> Again, in another place: "The Spirit expressly says that in the last days some shall depart from the faith, giving heed to seducing spirits, doctrines of demons, speaking lies in hypocrisy, having their conscience seared with a hot iron, forbidding to marry, and <i>commanding to</i> abstain from meats which God hath created to be received with thanksgiving by them which believe and those who know God."<sup><a href="footnote/fn105.html#P10521_3324710">23</a></sup> Moreover, in another passage: "Everything that is sold in the market-place eat, asking nothing."<sup><a href="footnote/fn105.html#P10522_3324832">24</a></sup> From these things it is plain that all those things are returned to their <i>original</i> blessedness now that the law is finished, and that we must not revert to the special observances of meats, which observances were ordained for a certain reason, but which evangelical liberty has now taken away, their discharge being given. The apostle cries out: "The kingdom of God is not meat and drink, but righteousness, and peace. and joy."<sup><a href="footnote/fn105.html#P10523_3325281">25</a></sup> Also elsewhere: "Meats for the belly, and the belly for meats: but God shall destroy both it and them. Now the body is not for fornication, but for the Lord; and the Lord for the body."<sup><a href="footnote/fn105.html#P10524_3325487">26</a></sup> God is not worshipped by the belly nor by meats, which the Lord says will perish, and are "purged" by natural law in the draught.<sup><a href="footnote/fn105.html#P10525_3325638">27</a></sup> For he who worships the Lord by meats, is merely as one who has his belly for his Lord. The meat, I say, true, and holy, and pure, is a true faith, an unspotted conscience, and an innocent soul. Whosoever is thus fed, feeds also with Christ. Such a banqueter is God's guest: these are the feasts that feed the angels, these are the tables which the martyrs make. Hence is that word of the law: "Man cloth not live by bread alone, but by every word which proceedeth out of the mouth of God."<sup><a href="footnote/fn105.html#P10526_3326272">28</a></sup> Hence, too, that saying of Christ: "My meat is to do the will of Him that sent me, and to finish His work."<sup><a href="footnote/fn105.html#P10527_3326401">29</a></sup> Hence, "Ye seek me not because ye saw the miracles, but because ye did eat of my loaves and were filled. But labour not for the meat which perisheth, but for the meat which endureth to life eternal, which the Son of man will give you; for Him hath the Father sealed."<sup><a href="footnote/fn105.html#P10528_3326689">30</a></sup> By righteousness, I say, and by continency, and by the rest of the virtues, God is worshipped. For Zecharias also tells us, saying: "If ye eat or drink, is it not ye that eat or drink? "<sup><a href="footnote/fn105.html#P10529_3326898">31</a></sup> -declaring thereby that meat or drink attain not unto God, but unto man: for neither is God fleshly, so as to be pleased with flesh; nor is He careful<sup><a href="footnote/fn105.html#P10530_3327074">32</a></sup> for these pleasures, so as to rejoice in our food.<sup><a href="footnote/fn105.html#P10531_3327186">33</a></sup> God rejoices in our faith alone, in our innocency alone, in our truth alone, in our virtues alone. And these dwell not in our belly, but in our soul; and these are acquired for us by divine awe and heavenly fear, and not by earthly food. And such the apostle fitly rebuked, as "obeying the superstitions of angels, puffed up by their fleshly mind; not holding Christ the head, from whom all the body, joined together by links, and inwoven and grown together by mutual members in the bond of charity, increaseth to God; "<sup><a href="footnote/fn105.html#P10532_3327843">34</a></sup> but observing those things: "Touch not, taste not, handle not; which indeed seem to have a form of religion, in that the body is not spared."<sup><a href="footnote/fn105.html#P10533_3328007">35</a></sup> Yet there is no advantage at all of righteousness, while we are recalled by a voluntary slavery to those elements to which by baptism we have died.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter VI. Argument.-But, on the Ground that Liberty in Meats is Granted to Us, There is No Permission of Luxury, There is No Taking Away of Continence and Fasting: for These Things Greatly Become the Faithful,-To Wit, that They Should Pray to God, and Give Him Thanks, Not Only by Day, But by Night.</p>  </ul>
+<p style="font-size: 16pt">But from the fact that liberty of meats is granted to us, it does not of necessity follow that luxury is allowed us; nor because the Gospel has dealt with us very liberally, has it taken away continency. By this, I say, the belly is not provided for, but the form of meats was shown: it was made manifest what was right, not that we might go into the gulf of desire, but to give a reason for the law. But nothing has so restrained intemperance as the Gospel; nor has any one given such strict laws against gluttony as Christ, who is said to have pronounced even the poor blessed, and the hungering and thirsting happy, the rich miserable; to whom, obeying the government of their belly and their palate, the material of their lusts could never be wanting, so that their servitude could not cease; who think it an argument of their happiness to desire as much as they can, except that they are thus able to attain less than they desire. For, moreover, preferring Lazarus in his very hunger and in his sores themselves, and with the rich man's dogs, He restrained the destroyers of salvation, the belly and the palate, by examples. The apostle also, when he said, "Having food and raiment, we are therewith content,"<sup><a href="footnote/fn105.html#P10537_3329692">36</a></sup> laid down the law of frugality and continency; and thinking that it would be of little advantage that he had written, he also gave himself as an example of what he had written, adding not without reason, that "avarice is the root of all evils; "<sup><a href="footnote/fn105.html#P10538_3329958">37</a></sup> for it follows in the footsteps of luxury. Whatever the latter has wasted by vice, the former restores by crime; the circle of crimes being re-trodden, that luxury may again take away whatever avarice had heaped together. Nor yet are there wanting, among such things, those who, although they have claimed to themselves the sound of the Christian name, afford instances and teachings of intemperance; whose vices have come even to that pitch, that while fasting they drink in the early morning, not thinking it Christian to drink after meat, unless the wine poured into their empty and unoccupied veins should have gone down directly after sleep: for they seem to have less relish of what they drink if food be mingled with the wine. Thus you may see such in a new kind, still fasting and already drunk, not running to the tavern, but carrying the tavern about with them; and if any one of them offers a salute, he gives not a kiss, but drinks a health. What can they do after meat, whom meat finds intoxicated? Or in what kind of state does the sun at his setting leave them, whom at his rising he looks upon as already stupid with wine? But things which are detestable are not to be taken as our examples. For those things only are to be taken by which our soul may be made better; and although in the Gospel the use of meats is universally given to us, yet it is understood to be given to us only with the law of frugality and continence. For these things are even greatly becoming to the faithful,-to wit, those who are about to pray to God and to give Him thanks, not only by day, but by night also; which cannot be if the mind, stupefied by meat and wine, should not prevail to shake off heavy sleep and the load heaped upon the breast. </p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter VII. Argument.-Moreover, We Must Be Careful that No One Should Think that This Licence May Be Carried to Such an Extent as that He May Approach to Things Offered to Idols.</p>    </ul>
+<p style="font-size: 16pt">But it must be very greatly guarded against in the use of food, and we must be warned lest any should think that liberty is permitted to that degree that even he may approach to what has been offered to idols. For, as far as pertains to God's creation, every creature is clean. But when it has been offered to demons, it is polluted so long as it is offered to the idols; and as soon as this is done, it belongs no longer to God, but to the idol. And when this creature is taken for food, it nourishes the person who so takes it for the demon, not for God, by making him a fellow-guest with the idol, not with Christ, as rightly do the Jews also.<sup><a href="footnote/fn105.html#P10542_3332549">38</a></sup> And the meaning of these meats being perceived, and the counsel of the law being considered, and the kindness of the Gospel grace being known, and the rigour of temperance being observed, and the pollution of things offered to idols being rejected, we who keep the rule of truth throughout all things, ought to give thanks to God through Jesus Christ, His Son, our Lord, to whom be praise, and honour, and glory, for ever and ever. Amen.A letter written to Cyprian by Novatian the Roman presbyter, in the name of the Roman clergy, will be found translated (Ep. xxx.) at p. 308, this volume.</p>   
+<p><HR>
+<CENTER>
+<A HREF="0050141.html">Next: Appendix</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/005/0050140.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/005/0050140.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/bb6b3a4'>tak.la/bb6b3a4</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/bb6b3a4';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+

@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. V: Fathers of the Third Century: Hippolytus, Cyprian, Caius, Novatian, Appendix. full text etext at St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Hippolytus Cyprian Caius Novatian">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol V: Book VIII. | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/005/0050012.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:34:53+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/005/'>005</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/005/'>005</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Ante-Nicene Fathers, Vol V:
+<br>
+Book VIII.</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="0050011.html" id="prev">Previous</A>&nbsp;
+<A HREF="0050013.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+</p>   <h2 align="CENTER"><a></a> Book VIII.<sup><a href="footnote/fn20.html">1</a></sup> </h2>    <ul>
+<p style="font-size: 16pt"><a></a> Contents.</p>  </ul>
+<p style="font-size: 16pt">The following are the contents of the eighth book of the <i>Refutation of all Heresies</i>:-</p>  
+<p style="font-size: 16pt">What are the opinions of the Docetae, and that they have formed the doctrines which they assert from natural philosophy.</p>  
+<p style="font-size: 16pt">How Mono&iuml;mus<sup><a href="footnote/fn20.html#P2030_626048">2</a></sup> trifles, devoting his attention to poets, and geometricians, and arithmeticians.</p>  
+<p style="font-size: 16pt">How (the system of) Tatian has arisen from the opinions of Valentinus and Marcion, and how this heretic (from this source) has formed his own doctrines. Hermogenes, however, availed himself of the tenets of Socrates, not those of Christ.</p>  
+<p style="font-size: 16pt">How those err who contend for keeping Easter on the fourteenth day.</p>  
+<p style="font-size: 16pt">What the error is of the Phrygians, who suppose that Montanus, and Priscilla, and Maximilla, are prophets.</p>  
+<p style="font-size: 16pt">What the conceit is of the Encratites, and that their opinions have been formed not from the Holy Scriptures,<sup><a href="footnote/fn20.html#P2035_626665">3</a></sup> but from themselves, and the Gymnosophists among the Indians.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter I.-Heresies Hitherto Refuted; Opinions of the Docetae.</p>  </ul>
+<p style="font-size: 16pt">Since the great body of (the heretics) do not employ the counsel of the Lord, by having the beam in the eye,<sup><a href="footnote/fn20.html#P2039_626976">4</a></sup> and announce that they see when in reality labouring under blindness, it seems to us expedient in no wise to be silent concerning the tenets of these. Our object is, that by the refutation accomplished by us, the (heretics), being of themselves ashamed, may be brought to know how the Saviour has advised (men) first to take away the beam, then to behold clearly the mote that is in thy brother's eye. Having therefore adequately and sufficiently explained the doctrines of the majority (of the heretics) in the seven books before this, we shall not now be silent as regards the (heterodox) opinions that follow (from these). We shall by this means exhibit the abundance of the grace of the Holy Spirit; and we shall refute those (who suppose) that they have acquired stedfastness of doctrine, when it is only in appearance. Now these have styled themselves Docetae,<sup><a href="footnote/fn20.html#P2040_627880">5</a></sup> and propound the following opinions:-</p>  
+<p> (The Docetae maintain) that God is the primal (Being), as it were a seed of a fig-tree, which is altogether very diminutive in size, but infinite in power. (This seed constitutes, according to the Docetae,) a lowly magnitude, incalculable in multitude,<sup><a href="footnote/fn20.html#P2042_628418">6</a></sup> (and) labouring under no deficiency as regards generation. (This seed is) a refuge for the terror-stricken, a shelter of the naked, a veil for modesty, (and) the sought-for produce, to which He came in search (for fruit), he says, three times,<sup><a href="footnote/fn20.html#P2043_629063">7</a></sup> and did not discover (any). Wherefore, he says, He cursed the fig-tree,<sup><a href="footnote/fn20.html#P2044_629279">8</a></sup> because He did not find upon it that sweet fruit-the sought-for produce. And inasmuch as the Deity is, according to them to express myself briefly-of this description and so great, that is, small and minute, the world, as it seems to them, was made in some such manner as the following: When the branches of the fig-tree became tender, leaves budded (first), as one may (generally) see, and next in succession the fruit. Now, in this (fruit) is preserved treasured the infinite and incalculable seed of the fig-tree. We think, therefore, (say the Docetae,) that there are three (parts) which are primarily produced by the seed of the fig-tree, (viz.,) stem, which constitutes the fig-tree, leaves, and fruit-the fig itself, as we have previously declared. In this manner, the (Docetic) affirms, have been produced three Aeons, which are principles from the primal originating cause of the universe. And Moses has not been silent on this point, when he says, that there are three words of God, "darkness, gloom, tempest, and added no more."<sup><a href="footnote/fn20.html#P2045_630365">9</a></sup> For the (Docetic) says, God has made no addition to the three Aeons; but these, in every respect. have been sufficient for (the exigencies of) those who have been begotten and are sufficient. God Himself, however, remains with Himself, far separated froth the three Aeons. When each of these Aeons had obtained an originating cause of generation, he grew, as has been declared, by little and little, and (by degrees) was magnified, and (ultimately) became perfect. But they think that that is perfect which is reckoned at ten. When, therefore, the Aeons had become equal in number and in perfection, they were, as (the Docetae) are of opinion, constituted thirty Aeons in all, while each of them attains full perfection in a decade. And the three are mutually distinct, and hold one (degree of) honour relatively to one another, differing in position merely, because one of them is first, and the other second, and the other of these third. Position, however, afforded them diversity of power. For he who has obtained a position nearest to the primal Deity-who is, as it were, a seed-possessed a more productive power than the rest, inasmuch as he himself who is the immeasurable one, measured himself tenfold in bulk. He, however, who in position is second to the primal Deity, has, inasmuch as he is the incomprehensible one, comprehended himself sixfold. But he who is now third in position is conveyed to an infinite distance, in consequence of the dilatation of his brethren. (And when this third Aeon) had thrice realized himself in thought, he encircled himself with, as it were, some eternal chain of union.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter II.-Docetic Notion of the Incarnation; Their Doctrines of Aeons; Their Account of Creation; Their Notion of a Fiery God.</p>  </ul>
+<p style="font-size: 16pt">And these (heretics) suppose that this is what is spoken by the Saviour: "A sower went forth to sow; and that which fell on the fair and good ground produced, some a hundred-fold, and some sixty-fold, and some thirty-fold."<sup><a href="footnote/fn20.html#P2049_632349">10</a></sup> And for this reason, the (Docetic) says, (that the Saviour) has spoken the words, "He that hath ears to hear, let him hear," because these (truths)are not altogether rumours. All these Aeons, both the three and all those infinite (Aeons which proceed) from these indefinitely, are hermaphrodite Aeons. All these, then, after they had been increased and magnified, and had sprung from that one primary seed, (were actuated by a spirit) of concord and union, and they all coalesced into one Aeon. And in this manner they begot of a single virgin, Mary,<sup><a href="footnote/fn20.html#P2050_632952">11</a></sup> a joint offspring, who is a Mediator, (that is,) the Saviour of all who are in the (covenant of) mediation. (And this Saviour is,) in every respect, coequal in power with the seed of the fig-tree, with the exception that he was generated. Whereas that primary seed, from whence the fig-tree sprung, is unbegotten. When, therefore, those three Aeons were adorned with all virtue and with all sanctity, so these teachers suppose, as well as that only begotten child-for he alone was begotten by those infinite Aeons from three immediately concerned in his birth, for three immeasurable Aeons being unanimous procreated him;-(after, I say, the Aeons and only Son were thus adorned,) the entire nature, which is cognised by intellect, was fashioned free from deficiency. Now, all those intelligible and eternal (entities) constituted light. Light, however, was not devoid of form, nor inoperative, nor in want, as it were, of the assistance of any (other power). But (light) proportionately with the multitude of those infinite (Aeons) indefinitely (generated) in conformity with the exemplar of the fig-tree, possesses in itself infinite species of various animals indigenous to that quarter of creation, and it shone down upon the underlying chaos. And when this (chaos) was simultaneously illuminated, and had form imparted to it by those diversified species from above, it derived (thereby) solidity, and acquired all those supernal species from the third Aeon, who had made himself threefold.</p>  
+<p style="font-size: 16pt">This third Aeon, however, beholding all his own distinctive attributes laid hold on collectively by the underlying darkness (which was) beneath, and not being ignorant of the power of darkness, and at the same time of the security<sup><a href="footnote/fn20.html#P2052_634901">12</a></sup> and profusion of light, did not allow his brilliant attributes (which he derived) from above for any length of time to be snatched away by the darkness beneath. But (he acted in quite a contrary manner), for he subjected (darkness) to the Aeons. After, then, he had formed the firmament over the nether world, "he both divided the darkness from the light, and called the light which was above the firmament day, and the darkness he called night."<sup><a href="footnote/fn20.html#P2053_635439">13</a></sup> When all the infinite species, then, as I have said, of the third Aeon were intercepted in this the lowest darkness, the figure also of the Aeon himself, such as he has been described, was impressed (upon them) along with the rest (of his attributes). (Now this figure is) a life-giving fire, which is generated from light, from whence the Great Archon originated. And respecting this (Archon) Moses observes: "In the beginning God created the heavens and the earth."<sup><a href="footnote/fn20.html#P2054_635928">14</a></sup> Moses mentions<sup><a href="footnote/fn20.html#P2055_635959">15</a></sup> this fiery God as having spoken from the bush,<sup><a href="footnote/fn20.html#P2056_636023">16</a></sup> (batos,) that is, from the darkish air. For the whole of the atmosphere that underlies the darkness is (batos, i.e.,) a medium for the transmission of light. Now Moses has employed, says (the Docetic), the expression batos, because all the species of light pass down from above by means of their having the atmosphere as a medium (batos) of transmission. And in no less degree is capable of being recognised the Word of Jehovah addressed to us from the bush (batos, i.e., an atmospheric medium); for voice, as significant (in language) of a meaning, is a reverberation of air, and without this (atmosphere) human speech is incapable of being recognised. And not only the Word (of Jehovah addressed) to us from the bush (batos), that is, the air, legislates and is a fellow-citizen with (us); but (it does more than this), for both odours and colours manifest to us, through the medium of air, their own (peculiar) qualities.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter III.-Christ Undoes the Work of the Demiurge; Docetic Account of the Baptism and Death of Jesus; Why He Lived for Thirty Years on Earth.</p>  </ul>
+<p style="font-size: 16pt">This fiery deity, then, after he became fire from light, proceeded to create the world in the manner which Moses describes. He himself, however, as devoid of subsistence, employs the darkness as (his) substance, and perpetually insults those eternal attributes of light which, (being) from above, had been laid hold on by (the darkness) beneath. Up to the time, therefore, of the appearance of the Saviour, there prevailed, by reason of the Deity of fiery light, (that is,) the Demiurge, a certain extensive delusion of souls. For the species are styled souls, because they are refrigerations<sup><a href="footnote/fn20.html#P2060_637781">17</a></sup> from the (Aeons) above, and continue in darkness. But when (the souls) are altered from bodies to bodies, they remain under the guardianship of the Demiurge. And that these things are so, says (the Docetic), it is possible also to perceive from Job, when he uses the following words: "And I am a wanderer, changing both place after place, and house after house."<sup><a href="footnote/fn20.html#P2061_638230">18</a></sup> And (we may learn, according to the Docetae, the same) from the expressions of the Saviour, "And if ye will receive it, this is Elias that was for to come. He that hath ears to hear, let him hear."<sup><a href="footnote/fn20.html#P2062_638862">19</a></sup> But by the instrumentality of the Saviour this transference of souls from body to body was made to cease, and faith is preached for remission of sins. After some such manner, that only begotten Son, when He gazes upon the forms of the supernal Aeons, which were transferred from above into darkish bodies, coming down, wished to descend and deliver them. When (the Son), however, became aware that the Aeons, those (that subsist) collectively, are unable to behold the Pleroma of all the Aeons, but that in a state of consternation they fear lest they may undergo corruption as being themselves perishable, and that they are overwhelmed by the magnitude and splendour of power;-(when the Son, I say, perceived this,) He contracted Himself-as it were a very great flash in a very small body, nay, rather as a ray of vision condensed beneath the eyelids, and (in this condition) He advances forth as far as heaven and the effulgent stars. And in this quarter of creation He again collects himself beneath the lids of vision according as He wishes it. Now the light of vision accomplishes the same effect; for though it is everywhere, and (renders visible) all things, it is yet imperceptible to us. We, however, merely see lids of vision, while corners (of the eye), a tissue which is broad, tortuous,<sup><a href="footnote/fn20.html#P2063_640184">20</a></sup> (and) exceedingly fibrous, a membrane of the cornea; and underneath this, the pupil, which is shaped as a berry, is net-like and round. (And we observe) whatever other membranes there are that belong to the light of the eye, and enveloped in which it lies concealed.</p>  
+<p style="font-size: 16pt">Thus, says (the Docetic), the only-begotten (and) eternal Child from above arrayed Himself in a form to correspond with each individual Aeon of the three Aeons;<sup><a href="footnote/fn20.html#P2065_640642">21</a></sup> and while he was within the triacontad of Aeons, He entered into this world<sup><a href="footnote/fn20.html#P2066_640758">22</a></sup> just as we have described Him, unnoticed, unknown, obscure, and disbelieved. In order, therefore, say the Docetae, that He may be clad in the darkness that is prevalent in more distant quarters of creation-(now by darkness he means) flesh-an angel journeyed with Him from above, and announced the glad tidings to Mary, says (the Docetic), as it has been written. And the (child) from her was born, as it has been written. And He who came from above put on that which was born; and so did He all things, as it has been written (of Him) in the Gospels. He washed in Jordan, and when He was baptized He received a figure and a seal in the water of (another spiritual booty beside) the body born of the Virgin. (And the object of this was,) when the Archon condemned his own peculiar figment (of flesh) to death, (that is,) to the cross, that that soul which had been nourished in the body (born of the Virgin) might strip off that body and nail it to the (accursed) tree. (In this way the soul) would triumph by means of this (body) over principalities and powers,<sup><a href="footnote/fn20.html#P2067_641973">23</a></sup> and would not be found naked, but would, instead of that flesh, assume the (other) body, which had been represented in the water when he was being baptized. This is, says (the Docetic), what the Saviour affirms: "Except a man be born of water and spirit, be will not enter into the kingdom of heaven, because that which is born of the flesh is flesh."<sup><a href="footnote/fn20.html#P2068_642350">24</a></sup> From the thirty Aeons, therefore, (the Son) assumed thirty forms. And for this reason that eternal One existed for thirty years on the earth, because each Aeon was in a peculiar manner manifested during (his own) year. And the souls are all those forms that have been laid hold on by each of the thirty Aeons; and each of these is so constituted as to discern Jesus, who is of a nature (similar to their own). (And it was the nature of this Jesus) which that only-begotten and eternal One assumed from everlasting places. These (places), however, are diverse. Consequently, a proportionate number of heresies, with the utmost emulation, seek Jesus. Now all these heresies have their own peculiar Jesus; but he is seen differently according as the place<sup><a href="footnote/fn20.html#P2069_643123">25</a></sup> is different towards which, he says, each soul is borne and hastens. (Now each soul) supposes that (the Jesus seen from its particular place) is alone that (Jesus) who is its own peculiar kinsman and fellow-citizen. And on first beholding (this Jesus, that soul) recognises Him as its own peculiar brother, but the rest as bastards. Those, then, that derive their nature from the places below, are not able to see the forms of the Saviour which are above them. Those, however, he says, who are from above, from the intermediate decade and the most excellent ogdoad-whence, say (the Docetae), we are-have themselves known not in part, but entirely, Jesus the Saviour. And those, who are from above, are alone perfect, but all the rest are only partially so.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter IV.-Docetic Doctrine Derived from the Greek Sophists.</p>  </ul>
+<p style="font-size: 16pt">These (statements), therefore, I consider sufficient to properly-constituted minds for the purpose of attaining unto a knowledge of the complicated and unstable heresy of the Docetae. (But) those who have propounded attempted arguments about inaccessible and incomprehensible Matter, have styled themselves Docetae. Now, we consider that some of these are acting foolishly, we will not say in appearance, but in reality. At all events, we have proved that a beam from such matter is carried in the eye, if by any means they may be enabled to perceive it. If, however, they do not (discern it, our object is) that they should not make others blind. But the fact is, that the sophists of the Greeks in ancient times have previously devised, in many particulars, the doctrines of these (Docetae), as it is possible for my readers (who take the trouble) to ascertain. These, then, are the opinions propounded by the Docetae. As to what likewise, however, are the tenets of Mono&iuml;mus, we shall not be silent.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter V.-Mono&Iuml;mus; Man the Universe, According to Mono&Iuml;mus; His System of the Monad.</p>  </ul>
+<p style="font-size: 16pt">Mono&iuml;mus<sup><a href="footnote/fn20.html#P2076_645068">26</a></sup> the Arabian was far removed from the glory of the high-sounding poet. (For Mono&iuml;mus) supposes that there is some such man as the poet (calls) Oceanus, expressing himself somehow thus:-</p>    <ul>
+<p>"Oceans, source of gods and source of men."<sup><a href="footnote/fn20.html#P2078_645465">27</a></sup> </p>  </ul>
+<p style="font-size: 16pt">Changing these (sentiments) into other words, Mono&iuml;mus says that man is the universe. Now the universe is the originating cause of all things, unbegotten, incorruptible, (and) eternal. And (he says) that the son of (the) man previously spoken of is begotten, and subject to passion, (and) that he is generated independently of time. (as well as) undesignedly,<sup><a href="footnote/fn20.html#P2080_645852">28</a></sup> (and) without being predestinated. For such, he says, is the power of that man. And he being thus constituted in power, (Mono&iuml;mus alleges) that the son was born quicker than thought and volition. And this, he says, is what has been spoken in the Scriptures, "He was, and was generated."<sup><a href="footnote/fn20.html#P2081_646241">29</a></sup> And the meaning of this is: Man was, and his son was generated; just as one may say, Fire was, and, independently of time, and undesignedly, and without being predestinated, light was generated simultaneously with the existence of the fire. And this man constitutes a single monad, which is uncompounded and indivisible, (and yet at the same time) compounded (and) divisible. (And this monad is) in all respects friendly (and) in all respects peaceful, in all respects quarrelsome (and) in all respects contentious with itself, dissimilar (and) similar. (This monad is likewise,) as it were, a certain musical harmony, which comprises all things in itself, as many as one may express and may omit when not considering; and it manifests all things, and generates all things. This (is) Mother, this (is) Father-two immortal names. As an illustration, however, consider, he says, as a greatest image of the perfect man, the one jot-that one tittle. And this one tittle is an uncompounded, simple, and pure monad, which derives its composition from nothing at all. (And yet this tittle is likewise) compounded, multiform, branching into many sections, and consisting of many parts. That one indivisible tittle is, he says, one tittle of the (letter) iota, with many faces, and innumerable eyes, and countless names, and this (tittle) is an image of that perfect invisible man.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter VI.-Mono&Iuml;mus' "Iota; "His Notion of the "Son of Man."</p>  </ul>
+<p style="font-size: 16pt">The monad, (that is,) the one tittle, is<sup><a href="footnote/fn20.html#P2085_647736">30</a></sup> therefore, he says, also a decade. For by the actual power of this one tittle, are produced duad, and triad, and tetrad, and pentad, and hexad, and heptad, and ogdoad, and ennead, up to ten. For these numbers, he says, are capable of many divisions, and they reside in that simple and uncompounded single tittle of the iota. And this is what has been declared: "It pleased (God) that all fulness should dwell in the Son of man bodily."<sup><a href="footnote/fn20.html#P2086_648490">31</a></sup> For such compositions of numbers out of the simple and uncompounded one tittle of the iota become, he says, corporeal realities. The Son of man, therefore, he says, has been generated from the perfect man, whom no one knew; every creature who is ignorant of the Son, however, forms an idea of Him as the offspring of a woman. And certain very obscure rays of this Son which approach this world, check and control alteration (and) generation. And the beauty of that Son of man is up to the present incomprehensible to all men, as many as are deceived in reference to the offspring of the woman. Therefore nothing, he says, of the things that are in our quarter of creation has been produced by that man, nor will aught (of these) ever be (generated from him). All things, however, have been produced, not from the entirety, but from some part of that Son of man. For he says the Son of man is a jot in one tittle, which proceeds from above, is full, and completely replenishes all (rays flowing down from above). And it comprises in itself whatever things the man also possesses (who is) the Father of the Son of man.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter VII.-Mono&Iuml;mus on the Sabbath; Allegorizes the Rod of Moses; Notion Concerning the Decalogue.</p>  </ul>
+<p style="font-size: 16pt">The world, then, as Moses says, was made in six days, that is, by six powers, which (are inherent) in the one tittle of the iota. (But) the seventh (day, which is) a rest and Sabbath, has been produced from the Hebdomad, which is over earth, and water, and fire, and air. And from these (elements) the world has been formed by the one tittle. For cubes, and octahedrons, and pyramids, and all figures similar to these, out of which consist fire, air, water, (and) earth, have arisen from numbers which are comprehended in that simple tittle of the iota. And this (tittle) constitutes a perfect son of a perfect man. When, therefore, he says, Moses mentions that the rod was changeably brandished for the (introduction of the) plagues throughout Egypt -now these plagues, he says, are allegorically expressed symbols of the creation -he did not (as a symbol) for more plagues than ten shape the rod. Now this (rod) constitutes one tittle of the iota, and is (both) twofold (and) various. This succession of ten plagues is, he says, the mundane creation. For all things, by being stricken, bring forth and bear fruit, just like vines. Man, he says, bursts forth, and is forcibly separated from man by being severed by a certain stroke. (And this takes place) in order that (man) may be generated, and may declare the law which Moses ordained, who received (it) from God. Conformably with that one tittle, the law constitutes the series of the ten commandments which expresses allegorically the divine mysteries of (those) precepts. For, he says, all knowledge of the universe is contained in what relates to the succession of the ten plagues and the series of the ten commandments. And no one is acquainted with this (knowledge) who is (of the number) of those that are deceived concerning the offspring of the woman. If, however, you say that the Pentateuch constitutes the entire law, it is from the Pentad which is comprehended in the one tittle. But the entire is for those who have not been altogether perfected in understanding a mystery, a new and not antiquated feast, legal, (and) everlasting, a passover of the Lord God kept unto our generations, by those who are able to discern (this mystery), at the commencement of the fourteenth day, which is the beginning of a decade from which, he says, they reckon. For the monad, as far as fourteen, is the summary of that one (tittle) of the perfect number. For one, two, three, four, become ten; and this is the one tittle. But from fourteen until one-and-twenty, he asserts that there is an Hebdomad which inheres in the one tittle of the world, and constitutes an unleavened creature in all these. For in what respect, he says, would the one tittle require any substance such as leaven (derived) from without for the Lord's Passover, the eternal feast, which is given for generation upon generation?<sup><a href="footnote/fn20.html#P2090_652668">32</a></sup> For the entire world and all causes of creation constitute a passover, (i.e.,) a feast of the Lord. For God rejoices in the conversion of the creation, and this is accomplished by ten strokes of the one tittle. And this (tittle) is Moses' rod, which was given by God into the hand of Moses. And with this (rod Moses) smites the Egyptians, for the purpose of altering bodies,-as, for instance, water into blood; and the rest of (material) things similarly with these,-(as, for example,) the locusts, which is a symbol of grass. And by this he means the alteration of the elements into flesh; "for all flesh," he says, "is grass."<sup><a href="footnote/fn20.html#P2091_653341">33</a></sup> These men, nevertheless receive even the entire law after some such manner; adopting very probably, as I think, the opinions of those of the Greeks who affirm that there are Substance, and Quality, and Quantity, and Relation, and Place, and Time, and Position, and Action, and Possession, and Passion.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter VIII.-Mono&Iuml;mus Explains His Opinions in a Letter to Theophrastus; Where to Find God; His System Derived from Pythagoras.</p>  </ul>
+<p style="font-size: 16pt">Mono&iuml;mus himself, accordingly, in his letter to Theophrastus, expressly makes the following statement: "Omitting to seek after God, and creation, and things similar to these, seek for Him from (out of) thyself, and learn who it is that absolutely appropriates (unto Himself) all things in thee, and says, `My God (is) my mind, my understanding, my soul, my body.' And learn from whence are sorrow, and joy, and love, and hatred, and involuntary wakefulness, and involuntary drowsiness, and involuntary anger, and involuntary affection; and if," he says, "you accurately investigate these (points), you will discover (God) Himself, unity and plurality, in thyself, according to that tittle, and that He finds the outlet (for Deity) to be from thyself." Those (heretics), then, (have made) these (statements). But we are under no necessity of comparing such (doctrines) with what have previously been subjects of meditation on the part of the Greeks, inasmuch as the assertions advanced by these (heretics) evidently derive their origin from geometrical and arithmetical art. The disciples, however, of Pythagoras, expounded this (art) after a more excellent method,<sup><a href="footnote/fn20.html#P2095_654952">34</a></sup> as our readers may ascertain by consulting those passages (of our work) in which we have previously furnished expositions of the entire wisdom of the Greeks. But since the heresy of Mono&iuml;mus has been sufficiently refuted, let us see what are the fictitious doctrines which the rest also (of these heretics) devise, in their desire to set up for themselves an empty name.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter IX.-Tatian.</p>  </ul>
+<p style="font-size: 16pt">Tatian,<sup><a href="footnote/fn20.html#P2099_655379">35</a></sup> however, although being himself a disciple of Justinus the Martyr, did not entertain similar opinions with his master. But he attempted (to establish) certain novel (tenets), and affirmed that there existed certain invisible Aeons. And he framed a legendary account (of them), similarly to those (spoken of) by Valentinus. And similarly with Marcion, he asserts that marriage is destruction. But he alleges that Adam is not saved on account of his having been the author of disobedience. And so far for the doctrines of Tatian.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter X.-Hermogenes; Adopts the Socratic Philosophy; His Notion Concerning the Birth and Body of Our Lord.</p>  </ul>
+<p style="font-size: 16pt">But a certain Hermogenes,<sup><a href="footnote/fn21.html#P2103_656275">36</a></sup> himself also imagining that he propounded some novel opinion, said that God made all things out of coeval and ungenerated matter. For that it was impossible that God could make generated things out of things that are not. And that God is always Lord, and always Creator, and matter always a subservient (substance), and that which is assuming phases of being-not, however, the whole of it. For when it was being continually moved in a rude and disorderly manner, He reduced (matter) into order by the following expedient. As He gazed (upon matter) in a seething condition, like (the contents of) a pot when a fire is burning underneath, He effected a partial separation. And taking one portion from the whole, He subdued it, but another He allowed to be whirled in a disorderly manner. And he asserts that what was (thus) subdued is the world, but that another portion remains wild, and is denominated chaotic<sup><a href="footnote/fn21.html#P2104_657434">37</a></sup> matter. He asserts that this constitutes the substance of all things, as if introducing a novel tenet for his disciples. He does not, however, reflect that this happens to be the Socratic discourse, which (indeed) is worked out more elaborately by Plato than by Hermogenes. He acknowledges, however, that Christ is the Son of the God who created all things; and along with (this admission), he confesses that he was born of a virgin and of (the) Spirit, according to the voice of the Gospels. And (Hermogenes maintains that Christ), after His passion, was raised up in a body, and that He appeared to His disciples, and that as He went up into heaven He left His body in the sun, but that He Himself proceeded on to the Father. Now (Hermogenes) resorts to testimony, thinking to support himself by what is spoken, (viz.) what the Psalmist David says: "In the sun he hath placed his tabernacle, and himself (is) as a bridegroom coming forth from his nuptial chamber, (and) he will rejoice as a giant to run his course."<sup><a href="footnote/fn21.html#P2105_658482">38</a></sup> These, then, are the opinions which also Hermogenes attempted to establish.</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter XI.-The Quartodecimans.</p>  </ul>
+<p style="font-size: 16pt">And certain other (heretics), contentious by nature, (and) wholly uniformed as regards knowledge, as well as in their manner more (than usually) quarrelsome, combine (in maintaining) that Easter should be kept on the fourteenth day<sup><a href="footnote/fn21.html#P2109_658839">39</a></sup> of the first month, according to the commandment of the law, on whatever day (of the week) it should occur. (But in this) they only regard what has been written in the law, that he will be accursed who does not so keep (the commandment) as it is enjoined. They do not, however, attend to this (fact), that the legal enactment was made for Jews, who in times to come should kill the real Passover.<sup><a href="footnote/fn21.html#P2110_659404">40</a></sup> And this (paschal sacrifice, in its efficacy,) has spread unto the Gentiles, and is discerned by faith, and not now observed in letter (merely). They attend to this one commandment, and do not look unto what has been spoken by the apostle: "For I testify to every man that is circumcised, that he is a debtor to keep the whole law."<sup><a href="footnote/fn21.html#P2111_660096">41</a></sup> In other respects, however, these consent to all the traditions delivered to the Church by the Apostles.<sup><a href="footnote/fn21.html#P2112_660217">42</a></sup> </p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter XII.-The Montanists; Priscilla and Maximilla Their Prophetesses; Some of Them Noetians.</p>  </ul>
+<p style="font-size: 16pt">But there are others who themselves are even more heretical in nature (than the foregoing). and are Phrygians<sup><a href="footnote/fn21.html#P2116_660492">43</a></sup> by birth. These have been rendered victims of error from being previously captivated by (two) wretched women, called a certain Priscilla and Maximilla, whom they supposed (to be) prophetesses. And they assert that into these the Paraclete Spirit had departed; and antecedently to them, they in like manner consider Montanus as a prophet. And being in possession of an infinite number of their books, (the Phrygians) are overrun with delusion; and they do not judge whatever statements are made by them, according to (the criterion of) reason; nor do they give heed unto those who are competent to decide; but they are heedlessly swept onwards, by the reliance which they place on these (impostors). And they allege that they have learned something more through these, than from law, and prophets, and the Gospels. But they magnify these wretched women above the Apostles and every gift of Grace, so that some of them presume to assert that there is in them a something superior to Christ. These acknowledge God to be the Father of the universe, and Creator of all things, similarly with the Church, and (receive) as many things as the Gospel testifies concerning Christ. They introduce, however, the novelties of fasts,<sup><a href="footnote/fn21.html#P2117_662213">44</a></sup> and feasts, and meals of parched food, and repasts of radishes, alleging that they have been instructed by women. And some of these assent to the heresy of the Noetians, and affirm that the Father himself is the Son, and that this (one) came under generation, and suffering, and death. Concerning these I shall again offer an explanation, after a more minute manner; for the heresy of these has been an occasion of evils to many. We therefore are of opinion, that the statements made concerning these (heretics) are sufficient when we shall have briefly proved to all that the majority of their books are silly, and their attempts (at reasoning) weak, and worthy of no consideration. But it is not necessary for those who possess a sound mind to pay attention (either to their volumes or their arguments).</p>    <ul>
+<p style="font-size: 16pt"><a></a> Chapter XIII.-The Doctrines of the Encratites.<sup><a href="footnote/fn21.html#P2120_663303">45</a></sup> </p>    </ul>
+<p style="font-size: 16pt">Others, however, styling themselves Encratites, acknowledge some things concerning God and Christ in like manner with the Church. In respect, however, of their mode of life, they pass their days inflated with pride. They suppose, that by meats they magnify themselves, while abstaining from animal food, (and) being water-drinkers, and forbidding to marry, and devoting themselves during the remainder of life to habits of asceticism. But persons of this description are estimated Cynics rather than Christians, inasmuch as they do not attend unto the words spoken against them through the Apostle Paul. Now he, predicting the novelties that were to be hereafter introduced ineffectually by certain (heretics), made a statement thus: "The Spirit speaketh expressly, In the latter times certain will depart from sound doctrine, giving heed to seducing spirits and doctrines of devils, uttering falsehoods in hypocrisy, having their own conscience seared with a hot iron, forbidding to marry, to abstain from meats, which God has created to be partaken of with thanksgiving by the faithful, and those who know the truth; because every creature of God is good, and nothing to be rejected which is received with thanksgiving; for it is sanctified by the word of God and prayer."<sup><a href="footnote/fn21.html#P2122_664649">46</a></sup> This voice, then, of the blessed Paul, is sufficient for the refutation of those who live in this manner, and plume themselves on being just;<sup><a href="footnote/fn21.html#P2123_664812">47</a></sup> (and) for the purpose of proving that also, this (tenet of the Encratites) constitutes a heresy. But even though there have been denominated certain other heresies-I mean those of the Cainites,<sup><a href="footnote/fn21.html#P2124_665400">48</a></sup> Ophites,<sup><a href="footnote/fn21.html#P2125_665440">49</a></sup> or Noachites,<sup><a href="footnote/fn21.html#P2126_665690">50</a></sup> and of others of this description-I have not deemed it requisite to explain the things said or done by these, test on this account they may consider themselves somebody, or deserving of consideration. Since, however, the statements concerning these appear to be sufficient, let us pass on to the cause of evils to all, (viz.,) the heresy of the Noetians. Now, after we have laid bare the root of this (heresy), and stigmatized openly the venom, as it were, lurking within it, let us seek to deter from an error of this description those who have been impelled into it by a violent spirit, as it were by a swollen torrent. </p>   
+<p><HR>
+<CENTER>
+<A HREF="0050013.html">Next: Book IX.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/005/0050012.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/005/0050012.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/z8whpg8'>tak.la/z8whpg8</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/z8whpg8';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+

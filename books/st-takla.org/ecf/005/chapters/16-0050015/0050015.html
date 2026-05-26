@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Ante-Nicene Fathers, Vol. V: Fathers of the Third Century: Hippolytus, Cyprian, Caius, Novatian, Appendix. full text etext at St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Hippolytus Cyprian Caius Novatian">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Ante-Nicene Fathers, Vol V: Elucidations. | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/005/0050015.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:34:53+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/005/'>005</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/005/'>005</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Ante-Nicene Fathers, Vol V:
+<br>
+Elucidations.</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="0050014.html" id="prev">Previous</A>&nbsp;
+<A HREF="0050016.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+</p>   <h2 align="CENTER"><a></a> Elucidations.</h2>  
+<p style="font-size: 16pt"><a></a> I</p>  
+<p style="font-size: 16pt">Who first propounded these heresies, p. 11.</p>  
+<p style="font-size: 16pt">Hippolytus seems to me to have felt the perils to the pure Gospel of many admissions made by Clement and other Alexandrian doctors as to the merits of some of the philosophers of the Gentiles. Very gently, but with prescient genius, he adopts this plan of tracing the origin and all the force of heresies to "philosophy falsely so called." The existence of this "cloud of locusts" is (1) evidence of the antagonism of Satan; (2) of the prophetic spirit of the apostles; (3) of the tremendous ferment produced by the Gospel leaven as soon as it was hid in the "three measures of meal" by "the Elect Lady," the <i>Ecclesia Dei</i>; (4) of the fidelity of the witnesses,-that grand, heroic glory of the Ante-Nicene Fathers,-who never suffered these heresies to be mistaken for the faith, or to corrupt the Scriptures; and (5) finally of the power of the Holy Spirit, who gave them victory over errors, and enabled them to define truth in all the crystalline beauty of that "Mountain of Light," that true Koh-i-noor, the Nicene Symbol. Thus, also, Christ's promises were fulfilled.</p>  
+<p style="font-size: 16pt"><a></a> II</p>  
+<p style="font-size: 16pt">Caulacau, p. 52.</p>  
+<p style="font-size: 16pt">See Irenaeus, p. 350, vol. i., this series, where I have explained this jargon of heresy. But I think it worth while to make use here of two notes on the subject, which I made in 1845,<sup><a href="footnote/fn25.html">76</a></sup> with little foresight of these tasks in 1885.</p>  
+<p style="font-size: 16pt">Fleury (tom. ii.) makes this statement: "Les Nicolaites donnaient une infinite de noms barbares aux princes et aux puissances qu'ils mettaient en chaque ciel. Ils en nommaient un <i>caulaucauch</i>, abusant d'un passage d'Isaie, ou se lisent ces mots hebreux: <i>cau-la-cau, cau-la-cau</i>, pour representer l'insolence avec laquelle les impies se moquaient du prophete, en repetant plusieurs fois quelques-unes de ses paroles." Compare Guerricus, thus: "Vox illa taedii et des-perationis, quaeapud Isaiam (Isaiah 28:13) legitur, quia, viz., moram faciente Domino, frequentibus nuntiis ejus increduli et illusores insultare videntur: <i>manda remanda</i>, " etc. See the spurious <i>Bernardina</i>, "de Adventu Dom., serm. i.," S. Bernard., opp. Paris (ed. Mabillon), vol. ii. P. 1799.</p>  
+<p style="font-size: 16pt"><a></a> III</p>  
+<p style="font-size: 16pt">The Phrygians call Papa, p. 54.</p>  
+<p style="font-size: 16pt">Hippolytus had little idea, when he wrote this, what the word <i>Papa</i> was destined to signify in mediaeval Rome. The <i>Abba</i> of Holy Writ has its equivalent in many Oriental languages, as well as in the Greek and Latin, through which it has passed into all the dialects of Europe. It was originally given to all <i>presbyters</i>, as implied in their name of <i>elders</i>, and was a title of humility when it became peculiar to the bishops, as (1 Peter 5:3) <i>non Domini sed patres</i>. St. Paul (1 Corinthians 4:15) shows that "in Christ"-that is, under Him-we may have such "fathers; "and thus, while he indicates the true sense of the precept, he leads us to recognise a <i>prophetic force</i> and admonition in our Saviour's words (Matthew 23:1), "Call no man your father upon the earth." Thus interpreted, these words seem to be a warning against the sense to which this name, <i>Papa</i>, became, long afterwards, restricted, in Western Europe: <i>Notre St. Pere, le Pape</i>, as they say in France. This was done by the decree of the ambitious Hildebrand, Gregory VII. (who died a.d. 1085), when, in a synod held at Rome, he defined that "the title <i>Pope</i> should be peculiar to one only in the Christian world." The Easterns, of course, never paid any respect to this novelty and dictation, and to this day their patriarchs are popes; and not only so, for the parish priests of the Greek churches are called by the same name. I was once cordially invited to take a repast "with the <i>pope</i>," on visiting a Greek church on the shores of the Adriatic. It is said, however, that a distinction is made between the words pa/paj and papa=j; the latter being peculiar to inferiors, according to the refinements of Goar, a Western critic. <i>Valeat quantum</i>. But I must here note, that as "words are things," and as infinite damage has been done to history and to Christian truth by tolerating this empiricism of Rome, I have restored scientific accuracy, in this series, whenever reference is made to the primitive bishops of Rome, who were no more "Popes" than Cincinnatus was an emperor. It is time that theological science should accept, like other sciences, the language of truth and the terminology of demonstrated fact. The early bishops of Rome were geographically important, and were honoured as sitting in the only apostolic see of the West; but they were almost inconsiderable in the structural work of the ante-Nicene ages, and have left no appreciable impress on its theology. After the Council of Nice they were recognised as patriarchs, though equals among brethren, and nothing more. The ambition of Boniface III. led him to name himself "universal bishop." This was at first a mere name "of intolerable pride," as his predecessor Gregory had called it, but Nicholas I. (a.d. 858) tried to make it real, and, by means of the false decretals, created himself the first "Pope" in the modern sense, imposing his despotism on the West, and identifying it with the polity of Western churches, which alone submitted to it. Thus, it was never Catholic, and came into existence only by nullifying the Nicene Constitutions, and breaking away from Catholic communion with the parent churches of the East. Compare Casaubon (<i>Exercit</i>., xiv. p. 280, etc.) in his comments on Baronius. I have thus stated with scientific precision what all candid critics and historians, even the Gallicans included, enable us to prove. Why, then, keep up the language of fiction and imposture,<sup><a href="footnote/fn25.html#P2523_827532">77</a></sup> so confusing to young students? I believe the youthful Oxonians whom our modern Tertullian carried with him into the papal schism, could never have been made dupes but for the persistent empiricism of orthodox writers who practically adopt in words what they refute in argument, calling all bishops of Rome "Popes," and even including St. Peter's blessed name in this fallacious designation.<sup><a href="footnote/fn25.html#P2524_828037">78</a></sup> In this series I adhere to the logic of facts, calling (1) all the bishops of Rome from Linus to Sylvester simply bishops; and (2) all their successors to Nicholas I. "patriarchs" under the Nicene Constitutions, which they <i>professed</i> to honour, though, after Gregory the Great, they were ever vying with Constantinople to make themselves greater. (3) Nicholas, who trampled on the Nicene Constitutions, and made the false decretals the canon law of the Western churches, was therefore the first "Pope" who answers to the Tridentine definitions. Even these, however, were never able to make dogmatic<sup><a href="footnote/fn25.html#P2525_829106">79</a></sup> the claim of "supremacy," which was first done by Pins IX. in our days. A canonical <i>Primacy</i> is one thing: a self-asserted <i>Supremacy</i> is quite another, as the French doctors have abundantly demonstrated.</p>  
+<p style="font-size: 16pt"><a></a> IV</p>  
+<p style="font-size: 16pt">Contemporaneous heresy, p. 125.</p>  
+<p style="font-size: 16pt">Here begins that "duplicating of our knowledge" of primitive Rome of which Bunsen speaks so justly. A thorough mastery of this book will prepare us to understand the great Cyprian in all his relations with the Roman Province, and not less to comprehend the affairs of Novatian.</p>  
+<p style="font-size: 16pt">Bunsen, with all respect, does not comprehend the primitive system, and <i>reads it backward</i>, from the modern system, which travesties antiquity even in its <i>apparent</i> conformities. These conformities are only the borrowing of old names for new contrivances. Thus, he reads the cardinals of the eleventh century into the simple presbytery of comprovincial bishops of the third century,<sup><a href="footnote/fn25.html#P2531_830152">80</a></sup> just as he elsewhere lugs in the <i>Ave Maria</i> of modern Italy to expound the <i>Evening Hymn to the Trinity</i>.<sup><a href="footnote/fn25.html#P2532_830299">81</a></sup> In a professed Romanist, like De Maistre, this would be resented as jugglery. But let us come to facts. Bunsen's preliminary remarks<sup><a href="footnote/fn25.html#P2533_830471">82</a></sup> are excellent. But when he comes to note an "exceptional system" in the Roman "presbytery," he certainly confuses all things. Let us recur to Tertullian.<sup><a href="footnote/fn25.html#P2534_830638">83</a></sup> See how much was already established in his day, which the Council of Nicaea recognised a century later as (ta  a0rxai=a e !qh) old primitive institutions. In all things the Greek churches were the exemplar and the model for other churches to follow. "Throughout <i>the provinces of Greece</i>," he says, "there are held, in definite localities, those councils," etc. "If we also, in <i>our</i> diverse <i>provinces</i>, observe," etc. Now, these councils, or "meetings," in spite of the emperors or the senate who issued mandates against them, as appears from the same passage, were, in the Roman Province, made up of the comprovincial bishops: and their gatherings seem to have been called "the Roman presbytery; "for, as is evident, the bishops and elders were alike called "presbyters," the word being as common to both orders as the word <i>pastors</i> or <i>clergymen</i> in our days. According to the thirty-fourth of the "Canons Apostolical," as Bunsen remarks, "the bishops of the suburban towns, including Portus, also formed at that time an integral part of the Roman presbytery." This word also refers to all the presbyters of the diocese of Rome itself; and I doubt not originally the laity had their place, as they did in Carthage: "the apostles, elders, and brethren" being the formula of Scripture; or, "with the whole Church," which includes them,-<i>omni plebe adstante</i>.<sup><a href="footnote/fn25.html#P2535_832040">84</a></sup> Now, all this accounts, as Bunsen justly observes, for the fact that one of the "presbytery" should be thus repeatedly called presbyter and "at the same time have the charge of the church at Portus, for which (office) there was no other title than the old one of <i>bishop</i>; for such was the title of every man who presided <i>over the congregation</i> in any city,-at Ostia, at Tusculum, or in the other suburban cities.</p>  
+<p style="font-size: 16pt">Now let us turn to the thirty-fourth<sup><a href="footnote/fn25.html#P2537_832556">85</a></sup> "Apostolical Canon" (so called), and note as follows: "It is necessary that the bishops of every nation should know who is chief among them, and should recognise him as their head by doing nothing of great moment without his consent; and that each of them should do such things only as pertain to his own parish and <i>the districts under him. And neither let him do any thing</i> without the consent of all, for thus shall there be unity of heart, and thus shall God be glorified through our Lord Jesus Christ." I do not pause to expound this word <i>parish</i>, for I am elucidating Hippolytus by Bunsen's aid, and do not intend to interpolate my own theory of the primitive episcopate.</p>  
+<p style="font-size: 16pt">Let the "Apostolical Constitutions" go for what they are worth:<sup><a href="footnote/fn25.html#P2539_833352">86</a></sup> I refer to them only under lead of Dr. Bunsen. But now turn to the Nicene Council (Canon VI.) as follows: "<i>Let the ancient customs prevail</i> in Egypt, Libya, and Pentapolis, so that the Bishop of Alexandria have jurisdiction in all these provinces, <i>since the like is customary in Rome also</i>. Likewise in Antioch and <i>the other provinces</i>, let the churches retain their privileges." Here the Province of Rome is recognised as an <i>ancient</i> institution, while its jurisdiction and privileges are equalized with those of other churches. Now, Rufinus, interpreting this canon, says it means, "the ancient custom of Alexandria and Rome shall still be observed; that the one shall have the care or government of the Egyptian, and the other that of the <i>suburbicary churches</i>." Bunsen refers us to Bingham, and from him we learn that <i>the suburbicary region</i>, as known to the Roman magistrates, included only "a hundred miles about Rome."<sup><a href="footnote/fn25.html#P2540_834329">87</a></sup> This seems to have been canonically extended even to Sicily on the south, but certainly not to Milan on the north. Suffice it, Hippolytus was one of those <i>suburbicarian bishops</i> who sat in the Provincial Council of Rome; without consent of which the Bishop of Rome could not, canonically, do anything of importance, as the canon above cited ordains. Such are the facts necessary to a comprehension of conflicts excited by "the contemporaneous heresy," here noted.</p>  
+<p style="font-size: 16pt"><a></a> V</p>  
+<p style="font-size: 16pt">Affairs of the Church, p. 125.</p>  
+<p>"Zephyrinus <i>imagines</i> that he administers the affairs of the Church-an uninformed and shamefully corrupt man." This word <i>imagines</i> is common with Hippolytus in like cases, and Dr. Wordsworth gives an ingenious explanation of this usage. But it seems to me to be based upon the relations of Hippolytus as one of the synod or "presbytery," without consent of which the bishop could do nothing important. Zephyrinus, on the contrary, <i>imagined</i> himself competent to decide as to the orthodoxy of a tenet or of a teacher, without his comprovincials. This, too, relieves our author from the charge of <i>egotism</i> when he exults in the defeat of such a bishop.<sup><a href="footnote/fn25.html#P2545_835513">88</a></sup> He says, it is true, "Callistus threw off Sabellius through fear of <i>me</i>," and we may readily believe that; but he certainly means to give honour to others in the Province when he says,"<i>We</i> resisted Zephyrinus and Callistus; ""<i>We</i> nearly converted Sabellius; ""All were carried away by the hypocrisy of CalIistus, except <i>ourselves</i>." This man cried out to his episcopal brethren, "<i>Ye</i> are Ditheists," apparently in open council. His council prevailed over him by the wise leadership of Hippolytus, however; and he says of the two guilty bishops, "Never, at any time, <i>have we been guilty of collusion with them</i>." They only <i>imagined</i>, therefore, that they were managing the "affairs of the Church." The fidelity of their comprovincials preserved the faith of the Apostles in apostolic Rome.</p>  
+<p style="font-size: 16pt"><a></a> VI</p>  
+<p style="font-size: 16pt">We offered them opposition, p. 125.</p>  
+<p style="font-size: 16pt">Here we see that Hippolytus had no idea of the sense some put upon the <i>convenire</i> of his master Irenaeus.<sup><a href="footnote/fn25.html#P2550_836472">89</a></sup> It was not "necessary" for them to <i>conform</i> their doctrines to that of the <i>Bishop</i> of Rome, evidently; nor to "the Church of Rome" as represented by him. To the church which presided over a province, indeed, recourse was to be had by all belonging to that province; but it is our author's grateful testimony, that to the <i>council of comprovincials</i>, and not to any one bishop therein, Rome owed its own adhesion to orthodoxy at this crisis.</p>  
+<p style="font-size: 16pt">All this illustrates the position of Tertullian, who never thinks of ascribing to Rome any other jurisdiction than that belonging to other provinces. As seats of testimony, the apostolic sees, indeed, are <i>all to be honoured</i>. "In Greece, go to Corinth; in Asia Minor, to Ephesus; if you are adjacent to Italy, you have Rome; whence also (an apostolic) authority is at hand for us in Africa." Such is his view of "contemporaneous affairs."</p>  
+<p style="font-size: 16pt"><a></a> VII</p>  
+<p style="font-size: 16pt">Heraclitus the Obscure, p. 126.</p>  
+<p>"Well might he weep," says Tayler Lewis, "as Lucian represents him, over his overflowing universe of perishing phenomena, where <i>nothing stood</i>; ... nothing was fixed, but, as in a mixture, all things were confounded." He was "the weeping philosopher."</p>  
+<p style="font-size: 16pt">Here let me add Henry Nelson Coleridge's remarks on the Greek seed-plot of those philosophies which were begotten of the Egyptian mysteries, and which our author regards as, in turn, engendering "all heresies," when once their leaders felt, like Simon Magus, a power in the Gospel of which they were jealous, and of which they wished to make use without submitting to its yoke. "Bishop Warburton," says Henry Nelson Coleridge, "discovered, perhaps, more ingenuity than sound judgment in his views of the nature of the Greek mysteries; entertaining a general opinion that their ultimate object was to teach the initiated a pure theism, and to inculcate the certainty and the importance of a future state of rewards and punishments. I am led by the arguments of Villoison and Ste. Croix to doubt the accuracy of this." In short, he supposes a "pure pantheism," or <i>Spinosism</i>, the substance of their teaching.<sup><a href="footnote/fn25.html#P2557_838577">90</a></sup> </p>  
+<p style="font-size: 16pt"><a></a> VIII</p>  
+<p style="font-size: 16pt">Imagine themselves to be disciples of Christ, p. 126.</p>  
+<p style="font-size: 16pt">This and the foregoing chapter offer us a most overwhelming testimony to the independence of councils. In the late "Council of Sacristans" at the Vatican, where truth perished, Pius IX. refused to all the bishops of what he accounted "the Catholic universe" what the seven suburbicarian bishops were able to enforce as a right, in the primitive age, against two successive Bishops of Rome, who were patrons of heresy. These heretical prelates persisted; but the Province remained in communion with the other apostolic provinces, while rejecting all communion with them. All this will help us in studying Cyprian's treatise <i>On Unity</i>, and it justifies his own conduct.</p>  
+<p style="font-size: 16pt"><a></a> IX</p>  
+<p style="font-size: 16pt">The episcopal throne, p. 128.</p>  
+<p style="font-size: 16pt">The simple primitive <i>cathedra</i>,<sup><a href="footnote/fn25.html#P2566_839407">91</a></sup> of which we may learn something from the statue of Hippolytus, was, no doubt, "a throne" in the eyes of an ambitious man. Callistus is here charged, by one who knew him and his history, with obtaining this position by knavish words and practices. The question may well arise, in our Christian love for antiquity, How could such things be, even in the age of martyrdoms? Let us recollect, that under the good Bishop Pius, when his brother wrote the <i>Hermas</i>, the peril of wealth and love of money began to be imminent at Rome. Tertullian testifies to the lax discipline of that see when he was there. Minucius Felix lets us into the impressions made by the Roman Christians upon surrounding heathen: they were a set of conies burrowing in the earth; a "light-shunning people," lurking in the catacombs. And yet, while this fact shows plainly that good men were not ambitious to come forth from these places of exile and suffering, and expose themselves needlessly to death, it leads us to comprehend how ambitious men, <i>studiosi novarum rerum</i>, could remain above ground, conforming very little to the discipline of Christ, making friends with the world, and yet using their nominal religion on the principle that "gain is godliness." There were some wealthy Christians; there were others, like Marcia in the palace, sufficiently awakened to perceive their own wickedness, and anxious to do favours to the persecuted flock, by way, perhaps, of compounding for sins not renounced. And when we come to the Epistles of Cyprian,<sup><a href="footnote/fn25.html#P2567_840966">92</a></sup> we shall see what opportunities were given to desperate men to make themselves a sort of brokers to the Christian community; for selfish ends helping them in times of peril, and rendering themselves, to the less conscientious, a medium for keeping on good terms with the magistrates. Such a character was Callistus, one of "the grievous wolves" foreseen by St. Paul when he exhorted his brethren night and day, with tears, to beware of them.How he made himself Bishop of Rome, the holy Hippolytus sufficiently explains.</p>  
+<p style="font-size: 16pt"><a></a> X</p>  
+<p style="font-size: 16pt">Unskilled in ecclesiastical definitions, p. 128.</p>  
+<p style="font-size: 16pt">It has been sufficiently demonstrated by the learned Dollinger, than whom a more competent and qualified witness could not be named, that the late pontiff, Pius IX., was in this respect, as a bishop, very much like Callistus. Moreover, his chief adviser and prime minister, Antonelli, was notoriously Callistus over again; standing towards him in the same relations which Callistus bore to Zephyrinus. Yet, by the bull <i>Ineffabilis</i>, that pontiff has retrospectively clothed the definitions of Zephyrinus and Callistus with <i>infallibility</i>; thus making himself also a partaker in their heresies, and exposing himself to the <i>anathemas</i> with which the Catholic councils overwhelmed his predecessor Honorius and others. That at such a crisis the testimony of Hippolytus should come to light, and supply a <i>reductio ad absurdum</i> to the late papal definitions, may well excite such a recognition of divine providence as Dr. Bunsen repeatedly suggests.</p>  
+<p style="font-size: 16pt"><a></a> XI</p>  
+<p style="font-size: 16pt">All consented-we did not, p. 128.</p>  
+<p style="font-size: 16pt">The Edinburgh editor supposes that the use of the plural <i>we</i>, in this place, is the official plural of a bishop. It has been already explained, however, that he is speaking of the provincial bishops with whom he withstood Callistus when the <i>plebs</i> were carried away by his hypocrisy. In England, bishops in certain cases, are a "corporation sole; "and, as such, the plural is legal phraseology. All bishops, however, use the plural in certain documents, as identifying themselves with the universal episcopate, on the Cyprianic principle-<i>Episcopatus unus est</i>, etc.</p>  
+<p style="font-size: 16pt">In Acts 5:13 is a passage which may be somewhat explained, perhaps, by this: "<i>All</i> consented ... <i>we</i> did not." The <i>plebs</i> joined themselves to the apostles; "but of <i>the rest</i> durst no man join himself to them: howbeit, the <i>plebs</i> magnified them, and believers were added," etc. "The rest" (tw=n de  koipw=n) here means the priests, the Pharisees, and Sadducees, the classes who were not the <i>plebs</i>, as appears by what immediately follows.<sup><a href="footnote/fn25.html#P2577_843542">93</a></sup> </p>  
+<p style="font-size: 16pt"><a></a> XII</p>  
+<p style="font-size: 16pt">Our condemnatory sentence, p. 131.</p>  
+<p style="font-size: 16pt">Again: Hippolytus refers to the action of the <i>suburbicarian</i> bishops in provincial council. And here is the place to express dissatisfaction with the apologetic tone of some writers, who seem to think Hippolytus too severe, etc. As if, in dealing with such "wolves in sheep's clothing," this faithful leader could show himself a true shepherd without emphasis and words of abhorrence. Hippolytus has left to the Church the impress of his character<sup><a href="footnote/fn25.html#P2582_844040">94</a></sup> as "superlatively sweet and amiable." Such was St. John, the beloved disciple; but he was not less a "son of thunder." Our Divine Master was "the Lamb," and "the Lion; "the author of the <i>Beatitudes</i>, and the author of those terrific <i>woes</i>; the "meek and gentle friend of publicans and sinners," and the "lash of small cords" upon the backs of those who made His Father's house a "den of thieves." Such was Chrysostom, such was Athanasius, such was St. Paul, and such have ever been the noblest of mankind; tender and considerate, gentle and full of compassion; but not less resolute, in the <i>crises</i> of history, in withstanding iniquity in the persons of arch-enemies of truth, and setting the brand upon their foreheads. Good men, who hate strife, and love study and quiet, and to be friendly with others; men who never permit themselves to indulge a personal enmity, or to resent a personal affront; men who forgive injuries to the last farthing when they only are concerned,-may yet crucify their natures in withstanding evil when they are protecting Christ's flock, or fulfilling the command to "contend earnestly for the faith once delivered to the saints." What the Christian Church owes to the loving spirit of Hippolytus in the awful emergencies of his times, protecting the poor sheep, and grappling with wolves for their sake, the Last Day will fully declare. But let us who know nothing of such warfare concede nothing, in judging of his spirit, to the spirit of our unbelieving age, which has no censures except for the defenders of truth :-</p>    <ul>
+<p>"Eternal smiles its emptiness betray,</p>  </ul>
+<p style="font-size: 16pt">As shallow streams run dimpling all the way."</p>  
+<p><i>Bon Dieu, bon diable</i>, as the French say, is the creed of the times. Every one who insults the faith of Christians, who betrays truths he was sworn to defend, who washes his hands but then gives Christ over to be crucified, must be treated with especial favour. Christ is good: so is Pilate; and Judas must not be censured. My soul be with Hippolytus when the great Judge holds his assize. His eulogy is in the psalm :<sup><a href="footnote/fn25.html#P2586_846113">95</a></sup> "Then stood up Phinehas, and executed judgment: and <i>so</i> the plague was stayed.And that was counted unto him for righteousness unto all generations, for evermore."</p>  
+<p style="font-size: 16pt"><a></a> XIII</p>  
+<p style="font-size: 16pt">As if he had not sinned, p. 131.</p>  
+<p style="font-size: 16pt">There is an ambiguity in the facts as given in the Edinburgh edition, of which it is hard to relieve the text. The word kaqi/stasqai is rendered <i>to retain</i> (their places) in the first instance, as if the case were all one with the second instance, where me/nein is justly rendered <i>to continue</i>. The second case seems, then, to cover all the ground. What need to speak of men "twice or thrice married," if a man <i>once</i> married, after ordination is not to be retained? The word <i>retained</i> is questionable in the first instance; and I have adopted Wordsworth's reading, <i>to be enrolled</i>, which is doubtless the sense.</p>  
+<p style="font-size: 16pt">This statement of our author lends apparent countenance to the antiquity of the "Apostolic Constitutions," so called. Perhaps Hippolytus really supposed them to be apostolic. By Canon XVII. of that collection, a man twice married, after baptism cannot be "on the sacerdotal list at all." By Canon XXVI., an unmarried person once admitted to the clergy cannot be permitted to marry. These are the two cases referred to by our author. In the Greek churches this rule holds to this day; and the Council of Nice refused to prohibit the married clergy to live in that holy estate, while allowing the <i>traditional discipline</i> which Hippolytus had in view in speaking of a violation of the twenty-sixth <i>traditional</i> canon as a sin. As Bingham has remarked, however, canons of discipline may be relaxed when not resting on fundamental and scriptural laws.</p>  
+<p style="font-size: 16pt"><a></a> XIV</p>  
+<p style="font-size: 16pt">Attempt to call themselves a Catholic Church, p. 131</p>  
+<p style="font-size: 16pt">The <i>Callistians</i>, it seems, became a heretical sect, and yet presumed to call themselves a "Catholic Church." Yet this sect, while Callistus lived, was in full communion with the Bishop of Rome. Such communion, then, was no test of Catholicity. Observe the enormous crimes of which this <i>lawless one</i> was guilty; he seems to antedate the age of Theodora's popes and Marozia's, and what Hippolytus would have said of them is not doubtful. It is remarkable that he employed St. Paul's expression, however, o9 a !nomoj,<sup><a href="footnote/fn25.html#P2596_848350">96</a></sup> "that wicked" or that "lawless one," seeing, in such a bishop, what St. Gregory did in another,-"a forerunner of the Antichrist."</p>  
+<p style="font-size: 16pt"><a></a> XV</p>  
+<p><i>Callistians</i>, p. 131.</p>  
+<p style="font-size: 16pt">Bunsen remarks that Theodoret speaks of this sect<sup><a href="footnote/fn26.html#P2601_848572">97</a></sup> under the head of the "Noetians." Wordsworth quotes as follows: "Callistus <i>took the lead</i> in propagating this heresy after Noetus, and <i>devised certain additions</i> to the impiety of the doctrine." In other words, he was not merely a heretic, but himself a <i>heresiarch</i>. He gives the whole passage textually,<sup><a href="footnote/fn26.html#P2602_848945">98</a></sup> and institutes interesting parallelisms between the <i>Philosophumena</i> and Theodoret, who used our author, and boldly borrowed from him. </p>  
+<p style="font-size: 16pt"><a></a> XVI</p>  
+<p style="font-size: 16pt">The cause of all things, p. 150.</p>  
+<p style="font-size: 16pt">When one looks at the infinite variety of opinions, phrases, ideas, and the like, with which the heresies of three centuries threatened to obscure, defile, and destroy the revelations of Holy Scripture, who can but wonder at the miracle of orthodoxy? Note with what fidelity the good fight of faith was maintained, the <i>depositum</i> preserved, and the Gospel epitomized at last in the Nicaeno-Constantinopolitan definitions, which Professor Shedd, as I have previously noted, declares to be the accepted confession of all the reformed, reputed orthodox, as well as of Greeks and Latins. Let us not be surprised, that, during these conflicts, truth on such mysterious subjects was reflected from good men's minds with slight variations of expression. Rather behold the <i>miracle</i> of their essential agreement, and of their entire harmony in the <i>Great Symbol</i>, universally accepted as the testimony of the ante-Nicene witnesses. The Word was Himself the cause of all created things; Himself increate; His eternal generation implied in the eternity of His existence and His distinct personality.</p>  
+<p style="font-size: 16pt"><a></a> XVII</p>  
+<p style="font-size: 16pt">Tartarus, p. 153.</p>  
+<p style="font-size: 16pt">I am a little surprised at the innocent statement of the learned translator, that "Dr. Wordsworth justifies Hippolytus' use of this word." It must have occurred to every student of the Greek Testament that <i>St. Peter</i> justifies this use in the passage quoted by Wordsworth, which one would think must be self-suggested to any theologian reading our author's text. In short, Hippolytus <i>quotes</i> the second Epistle of St. Peter<sup><a href="footnote/fn26.html#P2611_850670">99</a></sup> (2 Peter 2:4) when he uses this otherwise startling word. Josephus also employs it;<sup><a href="footnote/fn26.html#P2612_850898">100</a></sup> it was familiar to the Jews, and the apostle had no scruple in adopting a word which proves the Gentile world acquainted with a Gehenna as well as a Sheol.</p>  
+<p style="font-size: 16pt"><a></a> XVIII</p>  
+<p style="font-size: 16pt">For Christ is the God, p. 153.</p>  
+<p style="font-size: 16pt">Dr. Wordsworth justly censures Bunsen for his rendering of this passage,<sup><a href="footnote/fn26.html#P2617_851197">101</a></sup> also for manufacturing for Hippolytus a "Confession of Faith" out of his tenth book.<sup><a href="footnote/fn26.html#P2618_851330">102</a></sup> I must refer the student to that all-important chapter in Dr. Wordsworth's work (cap. xi.) on the "Development of Christian Doctrine." It is masterly, as against Dr. Newman, as well; and the respectful justice which he renders at the same time to Dr. Bunsen is worthy of all admiration. Let it be noted, that, while one must be surprised by the ready command of literary and theological materials which the learned doctor and chevalier brings into instantaneous use for his work, it is hardly less surprising, in spite of all that, that he was willing to throw off his theories and strictures, without any delay, during the confusions of that memorable year 1851, when I had the honour of meeting him among London notabilities. He says to his "dearest friend, Archdeacon Hare, ... Dr. Tregelles informed me <i>last week</i> of the appearance of the work (of Hippolytus) ... I procured a copy in consequence, and perused it <i>as soon as I could</i>; and I have already arrived at conclusions which seem to me so evident that I feel no hesitation in expressing them to you at once." These conclusions were creditable to his <i>acumen</i> and learning in general; eminently so. But the theories he had so hastily conceived, in other particulars, crop out in so many crudities of theological caprice, that nobody should try to study his theoretical opinions without the aid of that calm reviewal they have received from Dr. Wordsworth's ripe and sober scholarship and well-balanced intellect.</p>  
+<p style="font-size: 16pt">General Note.</p>  
+<p style="font-size: 16pt">I avail myself of a little spare space to add, from Michelet's friend, E. Quinet,<sup><a href="footnote/fn26.html#P2622_852918">103</a></sup> the passage to which I have made a reference on p. 156. Let me say, however, that Quinet and Michelet are specimens of that intellectual revolt against Roman dogma which is all but universal in Europe in our day, and of which the history of M. Renan is a melancholy exposition. To Quinet, with all his faults, belongs the credit of having more thoroughly understood than any theological writer the absolute revolution created by the Council of Trent; and he justly remarks that the Jesuits showed their address "in making this revolution, <i>without anywhere speaking of it</i>." Hence a dull world has not observed it. Contrasting this pseudo-council with the free councils of antiquity, M. Quinet says: "The Council of Trent has not its roots in all nations; it does not assemble about it the representatives of all nations ... <i>omni plebe adstante</i>, according to the ancient formula ... The East and the North are, almost equally, wanting; and <i>this is why the king of France refused it the title of a council</i>." He quotes noble passages from Bossuet.<sup><a href="footnote/fn26.html#P2623_854060">104</a></sup>  </p>   
+<p><HR>
+<CENTER>
+<A HREF="0050016.html">Next: The Extant Works and Fragments of Hippolytus.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/005/0050015.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/005/0050015.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/6xwsfkr'>tak.la/6xwsfkr</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/6xwsfkr';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+
