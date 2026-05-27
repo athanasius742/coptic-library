@@ -1,0 +1,92 @@
+# حتمية التجسد الإلهي
+
+**المؤلف / Author:** أ. حلمي القمص يعقوب
+**المصدر / Source:** [st-takla.org](https://st-takla.org/Full-Free-Coptic-Books/FreeCopticBooks-021-Sts-Church-Sidi-Beshr/002-Hatmeyat-Al-Tagasod-Al-Ilahy/Inevitability-of-the-Incarnation__00-index.html)
+**الموضوعات / Topics:** —
+
+📘 **[Download EPUB / تحميل الكتاب](hatmeyat-al-tagasod-al-ilahy.epub)**
+
+<img src="cover.jpg" alt="حتمية التجسد الإلهي — " width="320"/>
+
+## نبذة
+
+نشكر الأستاذ حلمي القمص يعقوب على السماح لنا في موقع الأنبا تكلا هيمانوت بوضع هذا الكتاب هنا. وهو أحد كتب سلسلة اقرأ وأفهم: دراسات إيمانية . وقد تم إعادة نشر هذا الكتاب مدمجًا مع كتاب أسئلة حول التثليث والتوحيد في كتاب واحد في أكتوبر 2016 م.
+
+## الفصول / Chapters (73)
+
+1. [حتمية التجسد الإلهي](chapters/01-Inevitability-of-the-Incarnation__01-Intro/)
+2. [التجسد الإلهي، هل له بديل؟!](chapters/02-Inevitability-of-the-Incarnation__02-Question/)
+3. [لماذا خلق الله الإنسان الذي سيسقط؟](chapters/03-Inevitability-of-the-Incarnation__03-Creation/)
+4. [لماذا خلق الله هذه الشجرة ومنع آدم من الأكل منها؟ ولماذا هذا الامتحان الصعب؟](chapters/04-Inevitability-of-the-Incarnation__04-Tree/)
+5. [هل سقوط آدم يعتبر سقوط للبشرية جمعاء؟](chapters/05-Inevitability-of-the-Incarnation__05-Adam/)
+6. [ما ذنبنا نحن في خطية آدم؟ وأين هو العدل الإلهي؟](chapters/06-Inevitability-of-the-Incarnation__06-Us/)
+7. [ما هي نتائج السقوط المروع للبشرية؟](chapters/07-Inevitability-of-the-Incarnation__07-Consequences/)
+8. [لماذا لم يفني الله آدم وحواء ويخلق إنسانًا جديدًا يطيعه؟](chapters/08-Inevitability-of-the-Incarnation__08-New/)
+9. [لماذا لم يخلص الله آدم وحواء بالقوة، فمجرد كلمة منه قادرة على رد آدم وحواء اللذان سباهما الشيطان؟](chapters/09-Inevitability-of-the-Incarnation__09-By-Force/)
+10. [لماذا لم يترك الله آدم لمصيره المشئوم؟](chapters/10-Inevitability-of-the-Incarnation__10-Warning/)
+11. [الله غفور رحيم.. فلماذا لم يسامح آدم وتنتهي المشكلة؟](chapters/11-Inevitability-of-the-Incarnation__11-Forgiving/)
+12. [إذا قدم آدم توبة نصوحة ألا يقبله الله ويرضى عنه؟ وإلاَّ فما لزوم التوبة للإنسان؟!](chapters/12-Inevitability-of-the-Incarnation__12-Repentance/)
+13. [لماذا لم تمسح الأعمال الصالحة خطية آدم الوحيدة؟](chapters/13-Inevitability-of-the-Incarnation__13-Good/)
+14. [ألا تكفر الذبائح عن الخطايا؟ وإن كانت لا تكفر فلماذا أوصى الله بها في العهد القديم؟](chapters/14-Inevitability-of-the-Incarnation__14-Sacrifice/)
+15. [لماذا لم يكلف الله نبي أو ملاك لحل مشكلة البشرية الساقطة؟](chapters/15-Inevitability-of-the-Incarnation__15-Moses/)
+16. [كيف يموت البريء نيابة عن المذنب؟](chapters/16-Inevitability-of-the-Incarnation__16-Death/)
+17. [ما هو الدافع القوي الذي دعى الله للتجسد](chapters/17-Inevitability-of-the-Incarnation__17-Why/)
+18. [من هو السيد المسيح؟](chapters/18-Inevitability-of-the-Incarnation__18-Who-1/)
+19. [ما معنى أن الله تجسد وتأنس؟ ولماذا يجب أن نؤمن بعقيدة التجسد؟](chapters/19-Inevitability-of-the-Incarnation__19-Meaning/)
+20. [من هو السيد المسيح؟ وما هي أهم البدع والهرطقات التي ثارت بشأنه؟](chapters/20-Inevitability-of-the-Incarnation__20-Hewresies/)
+21. [الطبيعة اللاهوتية للمسيح](chapters/21-Inevitability-of-the-Incarnation__21-Divinity/)
+22. [الطبيعة الناسوتية للمسيح](chapters/22-Inevitability-of-the-Incarnation__22-Humanity/)
+23. [البدع التي ثارت بشأن الروح أو النفس البشرية الخاصة بالسيد المسيح](chapters/23-Inevitability-of-the-Incarnation__23-Human/)
+24. [بدعة أبوليناريوس](chapters/24-Inevitability-of-the-Incarnation__24-Abolinarios/)
+25. [رد الآباء على أبوليناريوس](chapters/25-Inevitability-of-the-Incarnation__25-Reply/)
+26. [الغنوسية](chapters/26-Inevitability-of-the-Incarnation__26-Gnostic/)
+27. [ماركيون](chapters/27-Inevitability-of-the-Incarnation__27-Marcion/)
+28. [فالنتينوس](chapters/28-Inevitability-of-the-Incarnation__28-Valentinos/)
+29. [ماني](chapters/29-Inevitability-of-the-Incarnation__29-Mani/)
+30. [بولس الساموساطي](chapters/30-Inevitability-of-the-Incarnation__30-Paul-Samosaty/)
+31. [الأوطاخية](chapters/31-Inevitability-of-the-Incarnation__31-Otachy/)
+32. [هل جسد السيد المسيح مخلوق؟](chapters/32-Inevitability-of-the-Incarnation__32-Jesus-Body-Created/)
+33. [جسد المسيح في أقوال الآباء](chapters/33-Inevitability-of-the-Incarnation__33-Jesus-Body-Patrology/)
+34. [السيد المسيح](chapters/34-Inevitability-of-the-Incarnation__34-Jesus/)
+35. [متى تم الإتحاد بين الطبيعة اللاهوتية والطبيعة الناسوتية؟](chapters/35-Inevitability-of-the-Incarnation__35-Natures-When/)
+36. [كيف تم الإتحاد بين الطبيعة اللاهوتية وبين الطبيعة الناسوتية؟](chapters/36-Inevitability-of-the-Incarnation__36-Natures-How/)
+37. [الإتحاد بين الطبيعتين بدون اختلاط ولا امتزاج ولا تغيِيّر](chapters/37-Inevitability-of-the-Incarnation__37-Natures-No-Mixing/)
+38. [الإتحاد بين الطبيعتين بدون افتراق ولا انفصال](chapters/38-Inevitability-of-the-Incarnation__38-Natures-Unity/)
+39. [الإتحاد بين الطبيعتين إتحاد طبيعي أقنومي](chapters/39-Inevitability-of-the-Incarnation__39-Natures-Hypostasis/)
+40. [الاتحاد الأقنومي](chapters/40-Inevitability-of-the-Incarnation__40-Oknoom/)
+41. [ما معنى أن للسيد المسيح طبيعة واحدة من طبيعتين؟](chapters/41-Inevitability-of-the-Incarnation__41-One-Nature/)
+42. [ما هي نتائج الإتحاد بين الطبيعتين؟](chapters/42-Inevitability-of-the-Incarnation__42-Result/)
+43. [هل إتحاد الطبيعتين ألغى خواص إحدى الطبيعتين؟](chapters/43-Inevitability-of-the-Incarnation__43-Canceling/)
+44. [تساؤلات أخرى..](chapters/44-Inevitability-of-the-Incarnation__44-Questions/)
+45. [ما هي أهم النبؤات التي أنبأتنا عن التجسد الإلهي؟](chapters/45-Inevitability-of-the-Incarnation__45-Prophecies-1/)
+46. [من النبوءات عن ميلاد المسيح](chapters/46-Inevitability-of-the-Incarnation__46-Prophecies-2/)
+47. [نبوات العهد القديم عن الميلاد](chapters/47-Inevitability-of-the-Incarnation__47-Prophecies-3/)
+48. [ما هي أهم رموز التجسد في العهد القديم؟ وما هي دلالتها؟](chapters/48-Inevitability-of-the-Incarnation__48-Prophecies-4/)
+49. [ما هو الفرق بين ظهورات الله في العهد القديم والتجسد الإلهي في العهد الجديد؟](chapters/49-Inevitability-of-the-Incarnation__49-God-s-Apparitions/)
+50. [ما هي التشبيهات التي تقرب لنا معنى التجسد؟](chapters/50-Inevitability-of-the-Incarnation__50-Examples/)
+51. [هل كان للسيد المسيح مشيئتين احدهما إلهية والأخرى بشرية؟](chapters/51-Inevitability-of-the-Incarnation__51-Needs/)
+52. [هل قولنا بطبيعة واحدة متجسدة يوحي بأننا أوطاخيين؟](chapters/52-Inevitability-of-the-Incarnation__52-Does/)
+53. [هل يجوز أن نقول انه مادام الابن تجسد فالآب أيضًا تجسد؟](chapters/53-Inevitability-of-the-Incarnation__53-Father/)
+54. [لماذا تجسد الأقنوم الثاني دون الأول أو الثالث؟](chapters/54-Inevitability-of-the-Incarnation__54-Second-Divine/)
+55. [عندما تجسد أقنوم الإبن ألاَ يعتبر هذا انفصال عن أقنومي الآب والروح القدس؟](chapters/55-Inevitability-of-the-Incarnation__55-Separation/)
+56. [هل أحدث التجسد أي تغيّير في الجوهر الإلهي غير المتغير؟](chapters/56-Inevitability-of-the-Incarnation__56-Change/)
+57. [لماذا لم يظهر الله في أشياء أعظم من الإنسان؟](chapters/57-Inevitability-of-the-Incarnation__57-Sun/)
+58. [كيف ندعو العذراء مريم والدة الإله وهي لم تعطه الألوهية؟](chapters/58-Inevitability-of-the-Incarnation__58-Saint-Mary/)
+59. [هل السيد المسيح دُعي ابن الله لأنه وُلِد من العذراء مريم؟](chapters/59-Inevitability-of-the-Incarnation__59-Son-of-God/)
+60. [كيف رأى الناس الله في التجسد وعاشوا؟](chapters/60-Inevitability-of-the-Incarnation__60-See-Me-and-Live/)
+61. [هل السيد المسيح هو الله أو إبن الله أو إبن الإنسان؟](chapters/61-Inevitability-of-the-Incarnation__61-Son-of-Man/)
+62. [هل التجسد عقيدة وثنية؟](chapters/62-Inevitability-of-the-Incarnation__62-Pagan/)
+63. [كيف كان يسوع ينمو في الحكمة والقامة والنعمة؟](chapters/63-Inevitability-of-the-Incarnation__63-Growing/)
+64. [لماذا خلق الله الشيطان وهو يعلم أنه سيسقط؟ ولماذا لم يخلصه مثل الإنسان؟](chapters/64-Inevitability-of-the-Incarnation__64-Fall/)
+65. [لماذا لم يتجسد الله عقب سقوط آدم مباشرة؟](chapters/65-Inevitability-of-the-Incarnation__65-After/)
+66. [هل التجسد سر غير مفهوم؟!](chapters/66-Inevitability-of-the-Incarnation__66-Explaining/)
+67. [كيف يدعو الإنجيل السيد المسيح وسيطًا بين الله والإنسان، وهو الله ذاته؟](chapters/67-Inevitability-of-the-Incarnation__67-Mediator/)
+68. [كيف يقدر الناسوت المحدود أن يرفع خطايا غير محدودة](chapters/68-Inevitability-of-the-Incarnation__68-Savior/)
+69. [هل الناسوت حدَّ وحيز اللاهوت؟ وكيف حدَّ بطن العذراء الله الغير محدود؟](chapters/69-Inevitability-of-the-Incarnation__69-Borderline/)
+70. [كيف يحل الله القدوس في بطن امرأة وسط الدم والنجاسة؟‍‍](chapters/70-Inevitability-of-the-Incarnation__70-Woman/)
+71. [كيف يتجسد الله ويحل في جسد إنسان ترابي دنئ يأكل ويشرب](chapters/71-Inevitability-of-the-Incarnation__71-Filth/)
+72. [هل لا يقدر الله أن يتجسد؟](chapters/72-Inevitability-of-the-Incarnation__72-Cant/)
+73. [هل نجد أثر للتجسد في الفكر الإسلامي؟](chapters/73-Inevitability-of-the-Incarnation__73-Islam/)
+
+---
+*هذا الكتاب مجاني للنشر والتوزيع لخلاص كل نفس. This book is free to share and distribute for the salvation of every soul.*
