@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<meta name="keywords" content="books, articles, coptic, christian">
+<meta property="og:title" name="description" content="Prayer: What is it? And how should it be? - The Spiritual Means, book by H. H. Pope Shenouda III - Saint Takla Haymanot Coptic Orthodox Website - Egypt">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+
+<meta property="og:image" itemprop="image" name="twitter:image" id="metaOpenGraphImage" content="https://st-takla.org/Gallery/var/albums/People/Christian/Prayer/www-St-Takla-org--Confession-Prayer.gif" />
+
+
+<title>Prayer: What is it? And how should it be? - The Spiritual Means | 
+St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/pope-shenouda-iii/spiritual-means/prayer.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2026-04-05T10:36:57+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="ãÚÑÖ ÇáÕæÑ Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="ÇáäÓÎÉ ÇáÚÑÈíÉ ãä ÇáãæÞÚ Arabic version of the website">&nbsp;ÚÑÈí</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/pope-shenouda-iii/'>pope-shenouda-iii</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/pope-shenouda-iii/spiritual-means/'>spiritual-means</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="ãÚÑÖ ÇáÕæÑ Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="ÇáäÓÎÉ ÇáÚÑÈíÉ ãä ÇáãæÞÚ Arabic version of the website">&nbsp;ÚÑÈí</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/pope-shenouda-iii/'>pope-shenouda-iii</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/pope-shenouda-iii/spiritual-means/'>spiritual-means</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+
+<h3 align="center"><font face="Arial" style="font-size: 14pt">
+<a style="text-decoration: none; font-weight:400" title="&#1605;&#1603;&#1578;&#1576;&#1577; &#1575;&#1604;&#1603;&#1578;&#1576; &#1575;&#1604;&#1605;&#1587;&#1610;&#1581;&#1610;&#1577; | &#1603;&#1578;&#1576; &#1602;&#1576;&#1591;&#1610;&#1577; | &#1575;&#1604;&#1605;&#1603;&#1578;&#1576;&#1577; &#1575;&#1604;&#1602;&#1576;&#1591;&#1610;&#1577; &#1575;&#1604;&#1571;&#1585;&#1579;&#1608;&#1584;&#1603;&#1587;&#1610;&#1577;" href="../../../../Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+<font color="#000000">Christian Library | Full Free Coptic Books | Orthodox 
+Library</font></a></font></h3>
+
+<h2 align="center"><font color="#808080" face="Arial" style="font-size: 16pt">
+<a href="index.html" style="text-decoration: none"><font color="#808080">
+The Spiritual Means, book by H. H. Pope Shenouda III</font></a></font></h2>
+<h1 align="center"><font face="Arial" style="font-size: 22pt" color="#008000">1-
+<a style="text-decoration: none" href="https://st-takla.org/">
+<font color="#008000">Prayer: What is it? 
+And how should it be?</font></a></font></h1>
+<span class="p-small">
+
+<P>
+&nbsp;</span>
+<p><b><span style="font-size:14.0pt;font-family:Arial">Prayer</span></b></p>
+<p><b><span style="font-size:14.0pt;font-family:Arial">What is it? How does it 
+lead to God?</span></b></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">Not each prayer is considered a spiritual 
+means that would lead you to God... I remember here what was said about 
+<a href="../../../../bible/dictionary/en/e/elijah.html">Elijah</a> that, <i>“he prayed earnestly” (Jas 5:17)</i>. His was a genuine 
+prayer that was able to close heaven then again to open it. </span> <i>
+<span style="font-size: 14pt">“The 
+effective, fervent prayer of a righteous man avails much” (Jas 5:16).</span></i></font></p>
+
+<font FACE="Times New Roman (Arabic)" style="font-size: 18pt">
+    <table border="0" align="right" cellspacing="4" cellpadding="4" class="table table-responsive" width="10%">
+<tr>
+<td><font style="font-size: 14pt"><a href="https://st-takla.org/Gallery/Art-Portraits-Paintings/Christian/Artists/D/Durer-Albrecht/The-Praying-Hands-by-Albrecht-Durer.html"><img class="img-responsive" border="0" src="../../../../Gallery/var/resizes/Art-Portraits-Paintings/Christian/Artists/D/Durer-Albrecht/www-St-Takla-org--The-Praying-Hands-by-Albrecht-Durer.jpg" alt="St-Takla.org Image: The Praying Hands, painting by Albret Durar, 1508, (brush, gray and white ink, gray wash, on blue prepared paper), Albertina Museum, Vienna, Austria. &#1589;&#1608;&#1585;&#1577; &#1601;&#1610; &#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1571;&#1606;&#1576;&#1575; &#1578;&#1603;&#1604;&#1575;: &#1571;&#1610;&#1583;&#1610; &#1575;&#1604;&#1589;&#1604;&#1575;&#1577;: &#1575;&#1604;&#1610;&#1583;&#1575;&#1606; &#1575;&#1604;&#1605;&#1589;&#1604;&#1610;&#1578;&#1575;&#1606; (&#1575;&#1604;&#1610;&#1583;&#1610;&#1606; &#1575;&#1604;&#1605;&#1589;&#1604;&#1610;&#1578;&#1610;&#1606;)&#1548; &#1585;&#1587;&#1605; &#1575;&#1604;&#1601;&#1606;&#1575;&#1606; &#1571;&#1604;&#1576;&#1585;&#1578; &#1583;&#1608;&#1585;&#1575;&#1585;&#1548; 1508 &#1605;. (&#1601;&#1585;&#1588;&#1575;&#1577;&#1548; &#1581;&#1576;&#1585; &#1585;&#1605;&#1575;&#1583;&#1610; &#1608;&#1571;&#1576;&#1610;&#1590;&#1548; &#1591;&#1604;&#1575;&#1569; &#1585;&#1605;&#1575;&#1583;&#1610;&#1548; &#1593;&#1604;&#1609; &#1608;&#1585;&#1602; &#1605;&#1580;&#1607;&#1586; &#1576;&#1575;&#1604;&#1604;&#1608;&#1606; &#1575;&#1604;&#1571;&#1586;&#1585;&#1602;)&#1548; &#1605;&#1578;&#1581;&#1601; &#1571;&#1604;&#1576;&#1585;&#1578;&#1610;&#1606;&#1575;&#1548; &#1601;&#1610;&#1610;&#1606;&#1575;&#1548; &#1575;&#1604;&#1606;&#1605;&#1587;&#1575;." width="427" height="640"></a></font></td>
+</tr>
+<tr>
+<td class="captionwidth">
+<div class="no-expand1">
+<p class="caption" align="center"><font size="2"><span lang="en-us"><a style="text-decoration: none" href="https://st-takla.org/"><font color="#000000">St-Takla.org</font></a> Image: The Praying Hands, painting by Albret Durar, 1508, (brush, gray and white ink, gray wash, on blue prepared paper), Albertina Museum, Vienna, Austria.</span></font></p>
+<p class="caption" align="center" dir="rtl"><font size="2">&#1589;&#1608;&#1585;&#1577; &#1601;&#1610; <a style="text-decoration: none" href="https://st-takla.org/"><font color="#000000">&#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1571;&#1606;&#1576;&#1575; &#1578;&#1603;&#1604;&#1575;</font></a>: &#1571;&#1610;&#1583;&#1610; &#1575;&#1604;&#1589;&#1604;&#1575;&#1577;: &#1575;&#1604;&#1610;&#1583;&#1575;&#1606; &#1575;&#1604;&#1605;&#1589;&#1604;&#1610;&#1578;&#1575;&#1606; (&#1575;&#1604;&#1610;&#1583;&#1610;&#1606; &#1575;&#1604;&#1605;&#1589;&#1604;&#1610;&#1578;&#1610;&#1606;)&#1548; &#1585;&#1587;&#1605; &#1575;&#1604;&#1601;&#1606;&#1575;&#1606; &#1571;&#1604;&#1576;&#1585;&#1578; &#1583;&#1608;&#1585;&#1575;&#1585;&#1548; 1508 &#1605;. (&#1601;&#1585;&#1588;&#1575;&#1577;&#1548; &#1581;&#1576;&#1585; &#1585;&#1605;&#1575;&#1583;&#1610; &#1608;&#1571;&#1576;&#1610;&#1590;&#1548; &#1591;&#1604;&#1575;&#1569; &#1585;&#1605;&#1575;&#1583;&#1610;&#1548; &#1593;&#1604;&#1609; &#1608;&#1585;&#1602; &#1605;&#1580;&#1607;&#1586; &#1576;&#1575;&#1604;&#1604;&#1608;&#1606; &#1575;&#1604;&#1571;&#1586;&#1585;&#1602;)&#1548; &#1605;&#1578;&#1581;&#1601; &#1571;&#1604;&#1576;&#1585;&#1578;&#1610;&#1606;&#1575;&#1548; &#1601;&#1610;&#1610;&#1606;&#1575;&#1548; &#1575;&#1604;&#1606;&#1605;&#1587;&#1575;.</font></div>
+</td>
+</tr>
+</table>
+</font>
+
+<p align="justify"><font face="Arial"><b><span style="font-size: 14pt">What is prayer then? How could it be defined?</span></b></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">Prayer is a bridge that links man to God. 
+It has been compared to </span></font>
+<font face="Arial" style="font-size: 14pt">
+<a href="../../../../bible/dictionary/en/j/jacob.html">Jacob</a></font><font face="Arial"><span style="font-size: 14pt">’s ladder which was set up on the earth, 
+and its top reached heaven (Gen 28:12). Prayer is not just words, but a 
+relationship... It is your relationship with God, with your heart and 
+with your thoughts...</span></font></p>
+
+<p align="center" dir="ltr">
+<b>
+    <img border="0" src="../../../../Pix/2019/St-Takla-org--divider.png" class="img-responsive" alt="St-Takla.org                     Divider of Saint TaklaHaymanot's website &#1601;&#1575;&#1589;&#1604; - &#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1571;&#1606;&#1576;&#1575; &#1578;&#1603;&#1604;&#1575;&#1607;&#1610;&#1605;&#1575;&#1606;&#1608;&#1578"></b></p>
+
+<p align="justify"><font face="Arial"><span style="font-size: 14pt">Prayer is a feeling that you are in the Divine presence.</span></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">Without this feeling, prayer would not be 
+a prayer... It is the feeling of a heart that is directed to God, 
+feeling that God is with him or that he is standing before God. As said 
+by <a href="../../../../bible/dictionary/en/e/elijah.html">Elijah the Prophet</a>, <i>“As the Lord of hosts lives, before whom I 
+stan<span>d</span></i>” <i>(1 Kings  18:15).</i>. Before God, one forgets everything and nothing remains in 
+his mind except God alone. Everything diminishes and God becomes 
+everything, nothing else matters beside Him...</span></font></p>
+
+<p align="center" dir="ltr">
+<b>
+    <img border="0" src="../../../../Pix/2019/St-Takla-org--divider.png" class="img-responsive" alt="St-Takla.org                     Divider of Saint TaklaHaymanot's website &#1601;&#1575;&#1589;&#1604; - &#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1571;&#1606;&#1576;&#1575; &#1578;&#1603;&#1604;&#1575;&#1607;&#1610;&#1605;&#1575;&#1606;&#1608;&#1578"></b></p>
+
+<p align="justify"><font face="Arial"><b><span style="font-size: 14pt">Prayer is the work of the heart, whether expressed in words or not.</span></b></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">It is lifting up the heart to God because 
+the heart talks to God through feelings and emotions more than the mouth 
+does with words. The heart may be lifted up to God without words.</span></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">Therefore, the sigh of the heart is a 
+prayer before God</span></font><font face="Arial" style="font-size: 14pt">, as we have 
+discussed this issue before here on
+<a href="https://st-takla.org/" style="text-decoration: none">
+<font color="#000000">st-takla.org</font></a> in other sections. </font>
+<font face="Arial"><span style="font-size: 14pt">The heart’s longing to God is a prayer. Feelings of 
+love towards God are a prayer. So prayer is a relationship between God 
+and man. And if this hearty relationship does not exist, words would be 
+of no use.</span></font></div>
+<p style="text-align: justify"><font face="Arial"><b>
+<span style="font-size: 14pt">If you love God, you will pray. And 
+if you pray, your love for God will increase. So prayer is a statement 
+of love that we express in words.</span></b></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">We see this love and this sentiment 
+clearly in the Psalms of <a href="../../../../bible/dictionary/en/d/david.html">
+David</a> when he says: <i>“O God, You are my God; 
+Early will I seek You; my soul thirsts for You” (Ps 63:1)</i>, and <i>
+“As the deer pants for the water brooks, so pants my soul for You, O 
+God. My soul thirsts for God, for the living God. When shall I come and 
+appear before God?” (Ps 42:1-2)</i>. It is longing for God, thirsting 
+for Him as a dry land thirsts for water...</span></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">Many pray and do not feel comfort because 
+their prayer is void of love... It is just words!</span></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">God has rejected the prayers of those 
+people and said about them, </span> <i><span style="font-size: 14pt">“...these people honour Me with their 
+lips, but have removed their hearts far from Me” (Is</span></i><span style="font-size: 14pt"> </span>
+<i><span style="font-size: 14pt">29:13)</span></i><span style="font-size: 14pt">. And the  
+<a href="../../../../JESUS-index.html">Lord Jesus Christ</a> repeated the same rebuke, concerning the</span></font></p>
+<p align="justify"><font face="Arial"><span style="font-size: 14pt">Jews, in the Gospels of St Matthew (15:8) and 
+<a href="../../../../bible/dictionary/en/m/mark.html">St Mark</a> (7:6).</span></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">So then mix your prayer with love. Talk 
+in your prayer to God with sentiment. Prayer is the longing of the soul 
+and being in the presence of God. It is the longing of the limited to 
+the Unlimited, the longing of the created to his Creator and the longing 
+of the soul to its source and to its satisfaction...</span></font></p>
+<p align="center" dir="ltr">
+<b>
+    <img border="0" src="../../../../Pix/2019/St-Takla-org--divider.png" class="img-responsive" alt="St-Takla.org                     Divider of Saint TaklaHaymanot's website &#1601;&#1575;&#1589;&#1604; - &#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1571;&#1606;&#1576;&#1575; &#1578;&#1603;&#1604;&#1575;&#1607;&#1610;&#1605;&#1575;&#1606;&#1608;&#1578"></b></p>
+
+<p align="justify"><font face="Arial"><b><span style="font-size: 14pt">The acceptable prayer is the one that comes from a pure heart.</span></b></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">The Bible says, <i>“The sacrifice of the 
+wicked is an abomination to the Lord, But the prayer of the upright is 
+His delight” (Prov 15:8) </i>and <i>(Prov 21:27)</i>. God has rejected 
+the prayer of the evil men and said to them, <i>“When you spread out 
+your hands, I will hide My eyes from You; Even though you make many 
+prayers, I will not hear. Your hands are full of blood</i>” <i>(Is  1:15)</i>. On the other hand, the Bible says, “<i>The effective, 
+fervent prayer of a righteous man avails much</i>” <i>(Jas 5:16)</i>.</span></font></p>
+<p align="justify"><font face="Arial"><span style="font-size: 14pt">So what would the sinner, who is burdened by his sins, do?</span></font></p>
+
+  <table border="0" align="right" cellspacing="4" cellpadding="4" class="table table-responsive" width="10%">
+<tr>
+<td>
+<p align="center">
+  <font style="font-size: 14pt">
+  <a href="https://st-takla.org/Gallery/People/Christian/Prayer/Confession-Prayer.html">
+  <img class="img-responsive" border="0" src="../../../../Gallery/var/albums/People/Christian/Prayer/www-St-Takla-org--Confession-Prayer.gif" alt="St-Takla.org         Image: A man kneeling and praying, black and white clipart &#1589;&#1608;&#1585;&#1577;: &#1603;&#1604;&#1610;&#1576;&#1575;&#1585;&#1578; &#1571;&#1576;&#1610;&#1590; &#1608;&#1571;&#1587;&#1608;&#1583;&#1548; &#1585;&#1580;&#1604; &#1610;&#1585;&#1603;&#1593; &#1608; &#1610;&#1589;&#1604;&#1610;" width="539" height="481"></a></font></td>
+</tr>
+<tr>
+<td class="captionwidth"><div class="no-expand1">
+<p class="caption" align="center"><font size="2"><span lang="en-us"><a href="https://st-takla.org/" style="text-decoration: none"><font color="#000000">St-Takla.org</font></a> Image:
+A man kneeling and praying, black and white clipart</span></font><p class="caption" align="center" dir="rtl"><font size="2">&#1589;&#1608;&#1585;&#1577; &#1601;&#1610; <a href="https://st-takla.org/" style="text-decoration: none"><font color="#000000">&#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1571;&#1606;&#1576;&#1575; &#1578;&#1603;&#1604;&#1575;</font></a>: 
+&#1603;&#1604;&#1610;&#1576;&#1575;&#1585;&#1578; &#1571;&#1576;&#1610;&#1590; &#1608;&#1571;&#1587;&#1608;&#1583;&#1548; &#1585;&#1580;&#1604; &#1610;&#1585;&#1603;&#1593; &#1608; &#1610;&#1589;&#1604;&#1610;</font></div></td>
+</tr>
+</table>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">Pray and say, “</span><span><span style="font-size: 14pt">
+<i>Restore me, and I will return” (Jer 31:18)</i>. So prayer is the 
+gate of help through which the sinner enters to repentance. Mar Isaac 
+said, “Whoever said that there is another gate for repentance except 
+prayer is being deceived by the 
+<a href="../../../../bible/dictionary/en/d/devil.html">devils</a>”... So then do not wait until 
+you repent then pray!! Ask for repentance in your prayer, as the Lord 
+said, <i>“Without Me You can do nothing</i>” </span> <i>
+<span style="font-size: 14pt">(Jn 15:5).</span></i></span></font></div>
+
+<p align="justify"><font face="Arial"><span style="font-size: 14pt">Prayer is opening the heart to God, so He would enter 
+and purify it.</span></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">It reminds us of the prayer of the tax 
+collector who lifted up a contrite heart before God, asking for His 
+mercy (Lk 18:13). And so he went back to his house justified. Therefore, you 
+should pray to acquire purity of the heart, while you say to God in your prayer: <i>“Purge me with hyssop, and I shall be clean, 
+wash me, and I shall be whiter than snow” (Ps 50)</i>... Is not He the 
+one who said, <i>“I will give you a new heart and put a new spirit 
+within you... I will put My Spirit within you and cause you to walk in 
+My statutes</i>” <i>(Ezek 36:26-27)<span>.</span></i>. Ask Him in your prayers to fulfil this promise.</span></font></p>
+
+<p align="center" dir="ltr">
+<b>
+    <img border="0" src="../../../../Pix/2019/St-Takla-org--divider.png" class="img-responsive" alt="St-Takla.org                     Divider of Saint TaklaHaymanot's website &#1601;&#1575;&#1589;&#1604; - &#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1571;&#1606;&#1576;&#1575; &#1578;&#1603;&#1604;&#1575;&#1607;&#1610;&#1605;&#1575;&#1606;&#1608;&#1578"></b></p>
+
+<p style="text-align: justify"><font face="Arial"><b>
+<span style="font-size: 14pt">Prayer is consecrating the lips and 
+the thoughts and it is the sanctifying of the soul. Furthermore, it 
+is reconciliation with God...</span></b></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">It is natural for the one who has a 
+dispute between him and God, not to talk to Him. He does not pray. He 
+does not have the intimacy to talk with God. If he starts to pray, it 
+means that he wants to reconciliate with God... And if he prayed, he 
+will be humbled by his talk with God and ashamed to defile his thoughts 
+which were with God not so long ago. He will then reach modesty of the 
+thoughts, which is a healthy, spiritual sign.</span></font></p>
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">And so by praying, bad thoughts are 
+abolished, as one continues to pray and uses prayer to enter into a 
+spiritual atmosphere, far from the forces of darkness.</span></font></p>
+
+<p align="center" dir="ltr">
+<b>
+    <img border="0" src="../../../../Pix/2019/St-Takla-org--divider.png" class="img-responsive" alt="St-Takla.org                     Divider of Saint TaklaHaymanot's website &#1601;&#1575;&#1589;&#1604; - &#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1571;&#1606;&#1576;&#1575; &#1578;&#1603;&#1604;&#1575;&#1607;&#1610;&#1605;&#1575;&#1606;&#1608;&#1578"></b></p>
+
+<p style="text-align: justify"><font face="Arial"><b>
+<span style="font-size: 14pt">Prayer is the horror of the 
+<a href="../../../../bible/dictionary/en/d/devil.html">devils</a> and 
+the strongest weapon against them.</span></b></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">The devil fears the person who prays, for 
+he will escape his grasp. He fears that through his prayer, this person 
+may gain strength by which he could fight and defeat him. The 
+<a href="../../../../bible/dictionary/en/d/devil.html">devil</a> 
+would also envy him for having such a relationship with God, which he 
+has been deprived of... Therefore, the 
+<a href="../../../../bible/dictionary/en/d/devil.html">devil</a> fights prayer by all 
+means. He tries to stop it by insinuating to the person that he is too 
+busy and has no time, or he would make him feel tired and his body 
+becomes heavy. If the person insisted on praying, the 
+<a href="../../../../bible/dictionary/en/d/devil.html">devil</a> would try 
+to distract his thoughts so that his mind would stray...</span></font></p>
+
+<p align="center" dir="ltr">
+<b>
+    <img border="0" src="../../../../Pix/2019/St-Takla-org--divider.png" class="img-responsive" alt="St-Takla.org                     Divider of Saint TaklaHaymanot's website &#1601;&#1575;&#1589;&#1604; - &#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1571;&#1606;&#1576;&#1575; &#1578;&#1603;&#1604;&#1575;&#1607;&#1610;&#1605;&#1575;&#1606;&#1608;&#1578"></b></p>
+<p style="text-align: justify"><font face="Arial">
+<span style="font-size: 14pt">As for you, man of God, be firm in your 
+prayer, no matter what the combats. Concentrate on it with all your 
+thoughts and all your feelings...</span></font></p>
+
+<p style="text-align: justify" align="right"><font face="Arial">
+<span style="font-size: 14pt">And as the Apostle said, “</span><i><span style="font-size: 14pt">Resist 
+the <a href="../../../../bible/dictionary/en/d/devil.html">devil</a> and he will flee from you” (Jas</span></i><span style="font-size: 14pt"> </span>
+<i><span style="font-size: 14pt">4:7)</span></i><span style="font-size: 14pt">. Do not give 
+way to his thoughts. Be aware that his effort to stop your prayer is an implied 
+confession from him about the power of this prayer as a weapon against him. So 
+do not throw away your weapon but fight with it. Continue praying no 
+matter how much your thoughts may stray. The enemy is bound to give up 
+when he sees your spiritual struggle and leave you. Besides, God’s grace will never leave you but will be with you.</span></font></p>
+
+<p align="center" dir="ltr">
+<b>
+    <img border="0" src="../../../../Pix/2019/St-Takla-org--divider.png" class="img-responsive" alt="St-Takla.org                     Divider of Saint TaklaHaymanot's website &#1601;&#1575;&#1589;&#1604; - &#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1571;&#1606;&#1576;&#1575; &#1578;&#1603;&#1604;&#1575;&#1607;&#1610;&#1605;&#1575;&#1606;&#1608;&#1578"></b></p>
+
+<p align="justify"><font face="Arial"><b><span style="font-size: 14pt">In your prayer, open your inmost soul to be filled by God.</span></b></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">Ask for God Himself, and not only for His 
+blessings. Say to Him, as 
+<a href="../../../../bible/dictionary/en/d/david.html">
+David</a> said before, “<i>Your face, Lord, I 
+will seek. Do not hide Your face from me” (Ps 27:8,9)<span>
+</span></i>. Be sure that your soul which feels what it lacks, will 
+continue being empty until God Himself perfects it. It needs love 
+stronger than all the world desires. It is thirsty and the water of the 
+world will never quench its thirst (Jn 4:13).</span></font></p>
+<p style="text-align: justify">&nbsp;</p>
+<p align="justify"><font face="Arial"><b><span style="font-size: 14pt">Tell Him: ‘O Lord, I cannot find anybody except You who 
+understands </span> <span style="position"><span style="font-size: 14pt">me.’</span></span></b></font></p>
+<p style="text-align: justify"><font face="Arial">
+<span style="font-size: 14pt">For with whom I feel safe, I open my 
+heart to Him, tell Him all my secrets and explain my weakness, which 
+He will hear and not despise. I pour my tears before Him and reveal my 
+longing. With Him I don’t feel alone but with a heart that holds me and 
+power that supports me... Without You, O Lord, I feel empty and void of 
+any real existence. You are Emmanuel, God with us... My soul longs for 
+Your omnipotent soul, and longs for what is above the material; the 
+world and all that is in it... Yes, inside me there is longing for the 
+unlimited and nobody will satisfy it except You...</span></font></p>
+
+<p style="text-align: justify"><font face="Arial"><b>
+<span style="font-size: 14pt">This is the prayer of love whose level 
+is higher than that of request. In it you pray and might not ask for 
+anything...</span></b></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">Your prayer could be thanksgiving for 
+what God has given you. You thank Him for taking care of you, looking 
+after you, for His protection, assistance and all His benevolence for 
+you, your friends and all your dear ones... And your prayer could be 
+praising God, like the prayer of the </span></font>
+<font style="font-size: 14pt" face="Arial">
+<a href="../../../../bible/dictionary/en/s/seraphim.html">Seraphim</a></font></div>
+
+<p align="justify"><font face="Arial"><span style="font-size: 14pt">“<i>Holy, Holy, Holy is the Lord of hosts; heaven and 
+earth are full of Your glory</i>” </span> <i>
+<span style="font-size: 14pt">(Is</span></i><span style="font-size: 14pt"> </span>
+<i>
+<span style="font-size: 14pt">6:3)</span></i><span style="font-size: 14pt">.</span></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">Your prayer could be just contemplation 
+on God’s beautiful attributes as in the prayers of the Liturgy according 
+to St Gregory and as in many Psalms and <a href="../../../../Agpeya.html">Agpia prayers</a>. And it was said 
+by St Basil the Great: “Do not start your prayer by a request, lest it 
+is thought that if it was not for the request, you would not have 
+prayed.”</span></font></p>
+
+<p align="center" dir="ltr">
+<b>
+    <img border="0" src="../../../../Pix/2019/St-Takla-org--divider.png" class="img-responsive" alt="St-Takla.org                     Divider of Saint TaklaHaymanot's website &#1601;&#1575;&#1589;&#1604; - &#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1571;&#1606;&#1576;&#1575; &#1578;&#1603;&#1604;&#1575;&#1607;&#1610;&#1605;&#1575;&#1606;&#1608;&#1578"></b></p>
+
+<p style="text-align: justify"><font face="Arial"><b>
+<span style="font-size: 14pt">Consider your prayer as just a delight 
+in God’s fellowship or as some fathers call it, “A taste of the 
+Kingdom.”</span></b></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">Just being in the presence of God is an 
+enjoyment, even if you do not open your mouth and utter one word, even 
+if your mind does not hold any thought, like a child in the bosom of his 
+father. He does not ask for anything except to remain as such...</span></font></p>
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">I wonder what could we ask for in the 
+Kingdom of Heaven?! Nothing, of course, because there we will lack 
+nothing. We just enjoy what the Psalmist expressed when he said, “<i>Oh, 
+taste and see that the Lord is good” (Ps 34:8<span>
+</span></i>). Prayer is a taste of this kingdom. We taste here on earth 
+what we will enjoy in Heaven...</span></font></p>
+
+<p align="center" dir="ltr">
+<b>
+    <img border="0" src="../../../../Pix/2019/St-Takla-org--divider.png" class="img-responsive" alt="St-Takla.org                     Divider of Saint TaklaHaymanot's website &#1601;&#1575;&#1589;&#1604; - &#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1571;&#1606;&#1576;&#1575; &#1578;&#1603;&#1604;&#1575;&#1607;&#1610;&#1605;&#1575;&#1606;&#1608;&#1578"></b></p>
+
+<p align="justify"><font face="Arial"><b><span style="font-size: 14pt">Therefore it was said about prayer that it is the food of angels.</span></b></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">It is food for their souls and 
+nourishment that satisfies them. It is also the same for the souls of 
+the saints, and on earth it was food for the monastic fathers and the 
+anchorites... They fed on it, with the love of God and His fellowship 
+and the enjoyment of their spirits with it. As 
+<a href="../../../../bible/dictionary/en/d/david.html">David the Prophet</a> said 
+to the Lord, “<i>But it is good for me to draw near to God </i>“ <i>(Ps  73:28)</i>.</span></font></p>
+
+<p align="center" dir="ltr">
+<b>
+    <img border="0" src="../../../../Pix/2019/St-Takla-org--divider.png" class="img-responsive" alt="St-Takla.org                     Divider of Saint TaklaHaymanot's website &#1601;&#1575;&#1589;&#1604; - &#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1571;&#1606;&#1576;&#1575; &#1578;&#1603;&#1604;&#1575;&#1607;&#1610;&#1605;&#1575;&#1606;&#1608;&#1578"></b></p>
+
+<p style="text-align: justify"><font face="Arial"><b>
+<span style="font-size: 14pt">Blessed is He, our good Lord, who 
+granted us to pray. It is humility from Him to allow us to talk to Him.</span></b></font></div>
+<p style="text-align: justify"><font face="Arial">
+<span style="font-size: 14pt">And it is humility from Him to listen to 
+us... Who are we, but dust and ashes, to get close to God and stand 
+before Him and talk to Him...? We add ourselves to the ranks of angels, 
+standing before His throne, praising and blessing His name, and become 
+blessed for being in His presence. Truly, it is humility of the Creator 
+to allow us, His <a href="../../../../bible/dictionary/en/c/creation.html">creation</a>, with such intimacy, to talk to Him and for 
+Him to hear us.</span></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">Therefore, it is a great shame and a most 
+serious sin to say: I have no time for prayer...!!</span></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">How dare the slave say he has no time to 
+talk to his master?! It is so amazing that the created has no time to 
+talk to his Creator!! You find time for many trivial matters... and you 
+find time for conversation of no value. Why then do you consider lack of 
+time as an excuse not to talk with God?!</span></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">
+<a href="../../../../bible/dictionary/en/d/david.html">David the Prophet</a> was a king, a leader, 
+and a judge for the people, with a big family, and in spite of all this 
+he says to the Lord, “<i>Seven times a day I praise You, because of Your 
+righteous judgment” (Ps 119:164)</i>, “<i>Evening and morning and at 
+noon” (Ps 55:17) </i>and “<i>At midnight I will rise to give thanks</i>”
+<i>(Ps 119:62)</i>.</span></font></p>
+<p style="text-align: justify"><font face="Arial"><b>
+<span style="font-size: 14pt">The problem then is not in time but in 
+the interest. If you have the interest to pray, you will no doubt find 
+the time.</span></b></font></p>
+
+<p align="center" dir="ltr">
+<b>
+    <img border="0" src="../../../../Pix/2019/St-Takla-org--divider.png" class="img-responsive" alt="St-Takla.org                     Divider of Saint TaklaHaymanot's website &#1601;&#1575;&#1589;&#1604; - &#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1571;&#1606;&#1576;&#1575; &#1578;&#1603;&#1604;&#1575;&#1607;&#1610;&#1605;&#1575;&#1606;&#1608;&#1578"></b></p>
+
+<p style="text-align: justify"><font face="Arial"><b>
+<span style="font-size: 14pt">You must also know that prayer is a 
+blessing for you. In it, you take and you do not give.</span></b></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">Do you think you are giving God time when 
+you pray?! Does God need you or your prayers?! But by praying you 
+gain strength, support and blessing. You also take spiritual enjoyment, 
+delight in your fellowship with God and solution for your problems...!</span></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">You must change your thoughts about 
+prayer so that you realize you cannot survive without it, for it is the 
+strength of prayer that you will depend on.</span></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">If you realize this, you will rely on 
+prayer as an essential spiritual means in your life.</span></font></p>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">And so, would I be able, in this article, 
+to talk to you about everything that relates to prayer?!</span></font></div>
+
+<p style="text-align: justify"><font face="Arial"><span style="font-size: 14pt">No, but after all that, I leave you to 
+pray and also to remember me in your prayers...</span></font></p>
+<p style="text-align: justify">&nbsp;</p>
+<div align="center">
+<table border="1">
+<tr>
+<td align="center">
+<font face="Arial">
+<span style="font-size: 14pt; font-weight:700">2</span></font></td>
+<td>
+<p align="justify"><font style="font-size: 14pt"><a href="prayer-acceptable.html">Conditions of the 
+acceptable prayer</a></font></p></td>
+</tr>
+<tr>
+<td align="center">
+<font face="Arial">
+<span style="font-size: 14pt; font-weight:700">3</span></font></td>
+<td>
+<p align="justify"><font style="font-size: 14pt"><a href="prayer-exercises.html">Exercises in prayer</a></font></p></td>
+</tr>
+</table>
+</div>
+
+<b><font SIZE="5"><span LANG="en-us"><div align="center">
+  <table class="toccolours table table-responsive table-footer" style="MARGIN: 0px auto; BORDER-COLLAPSE: collapse" cellSpacing="0" cellPadding="4" border="3" width="50%">
+    <tr style="TEXT-ALIGN: center">
+      <td width="33%" style="vertical-align:bottom">
+<font face="Arial">
+<a id="prev" href="index.html"><font size="3">
+<span style="font-weight: 700">Index</span></font><span style="font-size: 14pt"><br>
+      </span> 
+<font SIZE="5">
+<span LANG="en-us">
+      <img border="0" src="../../../../Pix/2019/St-Takla-org_Previous-Arrow.png" class="img-responsive" alt="Previous page" width="87" height="84"></span></font></a></a></font></td>
+      </span>
+      <td style="TEXT-ALIGN: center" width="34%">
+      <p dir="ltr"><font face="Arial">
+<span style="font-size: 12pt; font-weight:700">
+<a href="index.html">The Spiritual Means</a></span></font></p>
+<p dir="ltr">
+<b><font face="Arial"><a href="../index.html">Books by H. H. Pope Shenouda III</a></font></b></td>
+      <span LANG="en-us">
+      <td width="33%" style="vertical-align:bottom">
+      <p dir="ltr"><a id="next" href="prayer-acceptable.html"><b><font size="3">Conditions of the 
+acceptable prayer</font></b><font face="Arial"><span style="font-size: 14pt"><br>
+      </span> 
+<font SIZE="5"> 
+<span LANG="en-us"> 
+      <img border="0" src="../../../../Pix/2019/St-Takla-org_Next-Arrow.png" class="img-responsive" width="87" height="84" alt="Next page"></span></font></font></a></td>
+    </tr>
+  </table>
+                </div>
+</span>
+</font></b>
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/pope-shenouda-iii/spiritual-means/prayer.html" style="text-decoration: none">https://st-takla.org/books/en/pope-shenouda-iii/spiritual-means/prayer.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/3299skh'>tak.la/3299skh</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/3299skh';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    
+</body>
+</html>
+</HTML>
+
+
