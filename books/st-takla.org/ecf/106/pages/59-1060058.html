@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Nicene and Post-Nicene Fathers, Vol. VI: St. Augustine: Sermon on the Mount; Harmony of the Gospels; Homilies on the Gospels | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers St Augustine Sermon on the Mount; Harmony of the Gospels; Homilies on the Gospels">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Nicene and Post-Nicene Fathers, Vol. VI: The Harmony of the Gospels.: Introductory Essay. | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/106/1060058.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:32:48+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/106/'>106</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/106/'>106</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Nicene and Post-Nicene Fathers, Vol. VI:<br>The Harmony of the Gospels.: Introductory Essay.</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="1060057.html" id="prev">Previous</A>&nbsp;
+<A HREF="1060059.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="vi.ii"></A>   <A NAME="page_67"><FONT SIZE=1 COLOR=GREEN>p. 67</FONT></A> <a name="vi.ii-Page_67"></A>     
+<p style="font-size: 16pt" class="c24"><a name="vi.ii-p1"></A><span class="c19"><a name="vi.ii-p1.1"></A>Introductory Essay.</span></p>    
+<p style="font-size: 16pt" class="c40"><a name="vi.ii-p2"></A><span class="c10"><a name="vi.ii-p2.1"></A>By Professor M. B. Riddle, D.D.</span></p>    
+<p style="font-size: 16pt" class="c20"><a name="vi.ii-p3"></A>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</p>    
+<p style="font-size: 16pt" class="c21"><a name="vi.ii-p4"></A><span class="c13"><a name="vi.ii-p4.1"></A>The</span> treatise of Augustin <span class="c13"><a name="vi.ii-p4.2"></A>On the Harmony of the Evangelists</span> (<i>De Consensu Evangelistarum</i>) is regarded as the most laborious task undertaken by the great African Father. But its influence has been much less obvious than that of his strictly exegetical and doctrinal works. Dr. Salmond, in his Introductory Notice, gives a discriminating and just estimate of it. Jerome was, in some respects, far better equipped for  such a task than Augustin; yet one cannot study this work, bearing in mind the hermeneutical tendencies of the fourth century, without having an increased respect for the ability, candour, and insight of the great theologian when engaged in labours requiring linguistic knowledge, which he did not possess. Despite his ignorance of the correct text in many difficult passages, his lack of familiarity with the Greek original, many of his explanations have stood the test of time, finding acceptance  even among the exegetes of this age.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p5"></A>Most modern Harmonies give indications of the abiding influence of the work. Yet the treatise itself has not called forth extended comments. From its character it directs attention to the problems it discusses rather than to its own solutions of them. Hence the difficulty of presenting an adequate Bibliographical List in connection with this work. All Gospel Harmonies, all Lives of Christ, all discussions of the apparent discrepancies of the Gospels, stand related to it.  As a complete list was out of the question, it seemed fitting to preface this edition of the work with a few general statements in regard to Harmonies of the Gospels.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p6"></A>The early date of the oldest work of this character, before <span class="c13"><a name="vi.ii-p6.1"></A>A.D.</span> 170 (see below), attests the genuineness of our four canonical Gospels, by proving that they, and they only, were generally accepted at that time. But it also shows that the existence of four Gospels, recognised as genuine and authoritative, naturally calls forth harmonistic efforts. Two questions confront every intelligent reader of these four Gospels: (1) In view of the  variation in the <i>order</i> of events as narrated by the different evangelists, what is the more probable chronological order? (2) In view of the variation in <i> details</i>, what is, in each case, the correct explanation of such variations? These problems are largely exegetical; but those of the former class soon lead to the historical method of treatment, while those of the latter class lead to apologetic discussions, when apparent discrepancies are discovered. The work of Augustin deals  more largely with the latter; more recent Harmonies lay greater stress upon the historical and chronological questions. The methods represent the tendencies of the age to which they respectively belong. The historical method is doubtless the more correct one; but, when it assumes the extreme form of destructive criticism, it denies the possibility of harmony. On the other hand, the apologetic method, when linked with a mechanical view of inspiration, too often adopts interpretations that are  ungrammatical, in order to ignore the necessity of harmonizing differences. The true position lies between these extremes: the grammatico-historical sense must be accepted; the correct text of each Gospel must be determined, independently of verbal variations; the truthfulness of each evangelist must be assumed, until positive error is proven; the more definite statements are to be used in explaining the less definite; the characteristics of each evangelist must be given their proper weight in  determining the probabilities of greater or less accuracy of detail.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p7"></A><A NAME="page_68"><FONT SIZE=1 COLOR=GREEN>p. 68</FONT></A> <a name="vi.ii-Page_68"></A>But the necessary limitations of harmonistic methods should be fully recognised. Absolute certainty is often impossible: there will always be room for difference of judgment. For example, there is to-day as little agreement as ever in regard to the length of our Lord&#146;s ministry; <i>i.e.</i>, whether the Evangelist John refers to three or four passovers. The Tripaschal and Quadripaschal theories still divide scholars, as in past ages of the Church.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p8"></A>Still, the progress made in textual criticism has, by indicating more positively the exact words of all four accounts, laid the foundation for better results in harmonistic labours.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p9"></A>One great advantage of a Harmony, as now constructed, with the text of the evangelists in parallel columns, or in independent sections when the matter is peculiar to one of them, is the emphasis it gives to the historical sequence. The movement of the evangelical narrative is made more apparent; the relations of the events shed light upon the entire story; the purpose of discourses and journeys appears; the training of the Twelve can be better studied; the emphasis  placed upon the closing events of our Lord&#146;s life on earth is made more obvious. A comparison of the several accounts gives to the events new significance, often reveals minute and undesigned coincidences which attest the truthfulness of all the narrators. Now that the attempt to secure mechanical uniformity in the narratives has been universally rejected by scholars, another advantage of a Harmony is seen to be this: that it sets forth most strikingly the verbal differences and  correspondences of the parallel passages. Only by a minute comparison of these can we discover the data for a settlement of the problem respecting the origin and relation of the Synoptic Gospels.&nbsp;<A NAME="fr_492"></A><A HREF="#fn_492"><FONT SIZE="1">493</FONT></A>
+</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p11"></A>The dangers attending harmonistic methods are obvious enough, and appeared very early. The tendency has been to create a rigid verbal uniformity. Hence the peculiarities of the several evangelists are obscured; the text of one is, consciously or unconsciously, conformed to that of another. The Gospel of Mark, the most individual and striking of the Synoptics, probably the oldest, has been repeatedly altered to correspond with that of Matthew. When uniformity could not be  secured by this process, false exegesis was often resorted to, and hermeneutical principles avowed which injured the cause of truth. Evangelical truth cannot be defended with the weapons of error. This vicious method was usually the result of mechanical views of inspiration. That view of inspiration which rightly recognises language as vital, and which therefore seeks to know the meaning of every word, has no worse foe than the hermeneutical principle which ignores the historical sense of any  word of Scripture.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p12"></A>The tendency just referred to brought harmonistic labours into disrepute. The immense activity of the present century in exegetical theology has not taken this direction. Moreover, the historical method received its greatest impulse from the tendency-theory of the T&uuml;bingen school, which presupposes the impossibility of constructing a Harmony of the four Gospels. Hence the reaction, in Germany especially, has been excessive.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p13"></A>Yet Harmonies are still prepared, and are still useful. Harmonistic labours have their rightful, though limited, place in the field of Exegetical Theology.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p14"></A>A very brief sketch of the leading works of this character will serve to illustrate the above statements.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p15"></A>The earliest attempt at constructing a Harmony was that of <span class="c13"><a name="vi.ii-p15.1"></A>Tatian&nbsp;<A NAME="fr_493"></A><A HREF="#fn_493"><FONT SIZE="1">494</FONT></A>
+</span> (died <span class="c13"><a name="vi.ii-p16.3"></A> A.D.</span> 172). The date of its appearance was between <span class="c13"><a name="vi.ii-p16.4"></A>A.D.</span> 153 and 170; and its title, <i> Diatessaron</i>, furnishes abundant evidence of the early acceptance of our four canonical Gospels. Our knowledge of this work was, until recently, very slight. But the discovery of an Armenian translation of a commentary upon it, <A NAME="page_69"><FONT SIZE=1 COLOR=GREEN>p. 69</FONT></A> <a name="vi.ii-Page_69"></A>by Ephraem the Syrian, has enabled <span class="c13"><a name="vi.ii-p16.5"></A>Zahn</span> to  reconstruct a large part of the text. The commentary was translated into Latin in 1841, but little attention was paid to it until an edition by <span class="c13"><a name="vi.ii-p16.6"></A>Moesinger</span> appeared in 1876.&nbsp;<A NAME="fr_494"></A><A HREF="#fn_494"><FONT SIZE="1">495</FONT></A>
+ The influence of Tatian&#146;s <i> Diatessaron</i> upon the Greek text seems to have been unfortunate. Many of the corruptions in the received text of the Gospel of Mark are probably due to the confusion of the separate narratives occasioned by this work. Tregelles (in the new edition of <span class="c13"><a name="vi.ii-p17.2"></A>Horne&#146;s</span> <i>Introduction</i>, vol. iv. p. 40) says that it &#8220;had more effect apparently in the text of the Gospels in use throughout the Church than all the designed  falsifications of Marcion and every scion of the Gnostic blood.&#8221; It seems to have contained nothing indicating heretical bias or intentional alteration.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p18"></A>The next Harmony was that of <span class="c13"><a name="vi.ii-p18.1"></A>Ammonius</span> of Alexandria, the teacher of Origen, the first work bearing this title (<span class="Greek"><a name="vi.ii-p18.2"></A>&#7945;&#913;&#961;&#956;&#959;&#957;&#8055;&#945;</span>). It appeared about <span class="c13"><a name="vi.ii-p18.3"></A>A.D.</span> 220, but has been lost. Until recently it was supposed that the sections into which some early <span class="c13"><a name="vi.ii-p18.4"></A>mss</span>. divide the Gospels were those of Ammonius himself; but, while he did  make such divisions, those bearing his name are to be attributed to Eusebius (see below). Ammonius made Matthew the basis of his work, and by his arrangement destroyed the continuity of the separate narratives. Every Harmony based upon the order of Matthew must be a failure.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p19"></A><span class="c13"><a name="vi.ii-p19.1"></A>Eusebius</span> of C&aelig;sarea (died <span class="c13"><a name="vi.ii-p19.2"></A>A.D.</span> 340) adopted a similar set of divisions, adding to them numbers from 1 to 10, called &#8220;Canons,&#8221; which indicate the parallelisms of the sections. These sections and canons are printed in Tischendorf&#146;s critical editions of the Greek Testament, and in some other editions.&nbsp;<A NAME="fr_495"></A><A HREF="#fn_495"><FONT SIZE="1">496</FONT></A>
+ The influence of this system seems to have been great, but Eusebius often accepts a parallelism where there is really none whatever. Some of the sections are very brief, containing only part of a verse. Hence the tables of sections furnish no basis for estimating the matter common to two or more evangelists.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p31"></A>The work of Augustin comes next in order; it deals little with chronological questions, and shows no trace of such complete textual labour as that of Eusebius.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p32"></A>The Reformation gave a new impulse to this department of Biblical study. In the sixteenth century many Harmonies appeared. Among the authors are the well-known names of Osiander, Jansen, Robert Stephens, John Calvin, Du Moulin, Chemnitz. These works were written in Latin, as a rule; and they are worthy of the age which produced them. Lack of sufficient critical material prevented complete accuracy, but the exegetical methods of the sixteenth century obtain in the  Harmonies also.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p33"></A>The seventeenth and eighteenth centuries present little in this field of labour that deserves favourable notice. The undisputed reign of the <i>Textus Receptus</i> impeded investigation; the supernaturalism of the dominant theology was not favourable to historical investigation; the mechanical theory of inspiration led to arbitrary and forced interpretations. Even the older rationalism, which explained away the supernatural, was scarcely more faulty in its exegesis  than many an orthodox commentator. The labours of J. <span class="c13"><a name="vi.ii-p33.1"></A>Lightfoot</span> deserve grateful recognition. This great Hebrew scholar did not finish his Harmony of the Gospels, but shed great light upon many of the problems involved, by his knowledge of Jewish customs. J. A. <span class="c13"><a name="vi.ii-p33.2"></A>Bengel</span>, the pioneer of modern textual criticism of the New Testament, published a valuable Harmony in German. W. <span class="c13"><a name="vi.ii-p33.3"></A>Newcome</span> published a Harmony of the Gospels in  Greek (Dublin, 1778). He follows <span class="c13"><a name="vi.ii-p33.4"></A> Le Clerc</span> (Amsterdam, 1779), and his Harmony is the basis of the more modern work by <span class="c13"><a name="vi.ii-p33.5"></A>Edward Robinson</span> (see below).</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p34"></A><A NAME="page_70"><FONT SIZE=1 COLOR=GREEN>p. 70</FONT></A> <a name="vi.ii-Page_70"></A>While the T&uuml;bingen school, by its tendency-theory, virtually denied the possibility of constructing a Harmony, it compelled the conservative theologians to adopt the historical method. Thus there has been gathered much material for harmonistic labours. But in Germany, as in England and America, Lives of Christ have been more numerous than Harmonies.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p35"></A>K. <span class="c13"><a name="vi.ii-p35.1"></A>Wieseler</span> and C. <span class="c13"><a name="vi.ii-p35.2"></A>Tischendorf</span>, among recent German scholars, have published valuable Harmonies. In England the work most in use is that of E. <span class="c13"><a name="vi.ii-p35.3"></A>Greswell</span>. The Archbishop of York, <span class="c13"><a name="vi.ii-p35.4"></A>William Thomson</span>, presents in Smith&#146;s Bible Dictionary a valuable table of the Harmony of the Four Gospels (article &#8220;Gospels,&#8221; Am. ed. vol. ii. p. 751).</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p36"></A>An interesting edition of the Synoptic Gospels is that of W. G. <span class="c13"><a name="vi.ii-p36.1"></A>Rushbrooke</span> <i> (Synopticon</i>, Cambridge, 1880&#8211;81). It is designed to show, by different type and colour, the divergences and correspondences of the three Gospels. The Greek text is that of Tischendorf, corrected from that of Westcott and Hort. It presents in the readiest form the material for harmonistic comparisons; but the editor has prepared it with a purpose  diametrically opposed to that of the Harmonist, namely, to construct from the matter common to the Synoptists a &#8220;triple tradition,&#8221; which will, in the author&#146;s judgment, approximately present the &#8220;source&#8221; from which all have drawn. The work has great value apart from its theory of the origin of the Synoptic Gospels.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p37"></A>In America <span class="c13"><a name="vi.ii-p37.1"></A>Edward Robinson</span> published, in repeated editions, a Harmony of the Gospels in Greek and also in English. He had previously reprinted that of Newcome.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p38"></A>S. J. <span class="c13"><a name="vi.ii-p38.1"></A>Andrews</span> (<i>Life of our Lord</i>; New York, 1863), has sought &#8220;to arrange the events of the Lord&#146;s life, as given us by the evangelists, so far as possible, in a chronological order, and to state the grounds of this order.&#8221; It is virtually a Harmony, with the full text of the Gospels omitted. Few works of the kind equal it in value, though it needs revision in the light of the more recent results of textual criticism.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p39"></A><span class="c13"><a name="vi.ii-p39.1"></A>Frederic Gardiner</span>has published a <i>Harmony of the Four Gospels in Greek</i> (Andover, 1871, 1876). It gives the text of Tischendorf (eighth edition), with a collation of the <i>Textus Receptus</i>, and of the texts of Griesbach, Lachmann, and Tregelles. The authorities are cited in the case of important variations. Another valuable feature is a comparative table, presenting in parallel columns the arrangement adopted by Greswell, Stroud,  Robinson, Thomson, Tischendorf, and Gardiner.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p40"></A>A number of works, aiming to consolidate into one narrative the four accounts, have been passed over.</p>    
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p41"></A>The Harmony of Dr. Robinson, which has held its ground for more than forty years, has been recently revised by the present writer. The text of Tischendorf has been substituted for that of Hahn; all the various readings materially affecting the sense which are found in Tregelles, Westcott and Hort, and in the Revised English version of 1881, have been given in footnotes, with a selection of the leading authorities (<span class="c13"><a name="vi.ii-p41.1"></A>mss.</span> and versions) for or  against each reading cited. The Appendix has been enlarged to meet the new phases of discussion; but the whole volume is what it purports to be,&#8212;a revision of the standard work of Dr. Robinson. In the matter of the Greek text, the author would probably have done what has now been done by the editor. A similar but less extensive revision of the English Harmony of Dr. Robinson has been published.&nbsp;<A NAME="fr_496"></A><A HREF="#fn_496"><FONT SIZE="1">497</FONT></A>
+</p>    
+<p style="font-size: 16pt" class="c21"><a name="vi.ii-p43"></A><span class="c13"><a name="vi.ii-p43.1"></A>Allegheny, Pa</span>., Nov. 14, 1887.</p>  
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_492"></A><A HREF="1060058.html#fr_492">68:493</A> <a name="vi.ii-p9.1"></A>    
+<p style="font-size: 16pt" class="endnote"><a name="vi.ii-p10"></A> The writer may be pardoned for alluding to his own experience in connection with this point. In the exegetical labours of some years, he found himself accepting the theory that the three Synoptists wrote independently of each other. Afterwards, when the task of editing Dr. Robinson&#146;s Greek Harmony compelled him to compare again and again every word of each account, the evidences of independence seemed to him to be overwhelming.</p>  
+<A NAME="fn_493"></A><A HREF="1060058.html#fr_493">68:494</A> <a name="vi.ii-p15.2"></A>    
+<p style="font-size: 16pt" class="endnote"><a name="vi.ii-p16"></A> See <span class="c13"><a name="vi.ii-p16.1"></A>Schaff</span>, <i> History of the Christian Church</i>, vol. ii. rev. ed., pp. 493 sqq., 726 sqq.; also <span class="c13"><a name="vi.ii-p16.2"></A>Schaff-Herzog</span>, <i> Encyclopedia</i>, article &#8220;Diatessaron.&#8221; For the literature, see as above, and the supplementary volume of the <i>Ante-Nicene Fathers</i>, pp. 33&#8211;35. Tatian&#146;s <i>Address to the Greeks</i> may be found in vol. ii. <i>Ante-Nicene Fathers</i>, pp. 65&#8211;83.</p>  
+<A NAME="fn_494"></A><A HREF="1060058.html#fr_494">69:495</A> <a name="vi.ii-p16.7"></A>    
+<p style="font-size: 16pt" class="endnote"><a name="vi.ii-p17"></A> For full titles of these volumes, see <span class="c13"><a name="vi.ii-p17.1"></A>Schaff</span>, as above.</p>  
+<A NAME="fn_495"></A><A HREF="1060058.html#fr_495">69:496</A> <a name="vi.ii-p19.3"></A>    
+<p style="font-size: 16pt"><a name="vi.ii-p20"></A> The letter of Eusebius to Caprianus is given by C. R. <span class="c13"><a name="vi.ii-p20.1"></A>Gregory</span> <i>(Prolegomena</i> to Tischendorf&#146;s eighth edition, part i. pp. 143&#8211;153), together with a full list of the sections arranged under the separate canons. The numbers signify as follows:&#8212;</p>   
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p21"></A>1. In all four Gospels, 71.</p>   
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p22"></A>2. In Matthew, Mark, Luke, 111.</p>   
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p23"></A>3. In Matthew, Luke, John, 22.</p>   
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p24"></A>4. In Matthew, Mark, John, 26.</p>   
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p25"></A>5. In Matthew, Luke, 82.</p>   
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p26"></A>6. In Matthew, Mark, 47.</p>   
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p27"></A>7. In Matthew, John, 7.</p>   
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p28"></A>8. In Luke, Mark, 14.</p>   
+<p style="font-size: 16pt" class="c22"><a name="vi.ii-p29"></A>9. In Luke, John, 21.</p>   
+<p style="font-size: 16pt" class="endnote"><a name="vi.ii-p30"></A>10. In one Gospel: Matthew, 62; Mark, 21; Luke, 71; John, 97.</p>  
+<A NAME="fn_496"></A><A HREF="1060058.html#fr_496">70:497</A> <a name="vi.ii-p41.2"></A>    
+<p style="font-size: 16pt" class="endnote"><a name="vi.ii-p42"></A> For lists of Harmonies, see <span class="c13"><a name="vi.ii-p42.1"></A>Schaff</span>, <i>History of the Christian Church</i>, rev. ed. vol. i. pp. 575, 576; <span class="c13"><a name="vi.ii-p42.2"></A>Gardiner</span>, <i>Harmony</i>, pp. xxxiv.-xxxvii.; <span class="c13"><a name="vi.ii-p42.3"></A> Robinson</span>, <i>Harmony</i>, revised by <span class="c13"><a name="vi.ii-p42.4"></A> Riddle</span>, pp. ix, x. Each of these lists contains references to older authors and their lists. See also <span class="c13"><a name="vi.ii-p42.5"></A> Smith</span>, <i>Bible Dictionary</i>, Am. ed. (<span class="c13"><a name="vi.ii-p42.6"></A>Hackett</span> and <span class="c13"><a name="vi.ii-p42.7"></A>Abbot</span>) ii. pp. 950, 960.</p>  
+<p><HR>
+<CENTER>
+<A HREF="1060059.html">Next: Translator&#146;s Introductory Notice.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/106/1060058.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/106/1060058.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/wp453nj'>tak.la/wp453nj</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/wp453nj';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+
