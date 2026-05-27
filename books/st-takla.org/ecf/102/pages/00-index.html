@@ -1,0 +1,1783 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Nicene and Post-Nicene Fathers, Vol. II: The City of God of St. Augustin | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers St Augustine City of God">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Nicene and Post-Nicene Fathers, Vol. II Index | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/102/index.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:33:41+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/102/'>102</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/102/'>102</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Nicene and Post-Nicene Fathers, Vol. II Index</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+</CENTER>
+<HR>
+<H1 ALIGN="CENTER">Nicene and Post-Nicene Fathers, Vol. II</H1>
+<H3 ALIGN="CENTER">St. Augustin's City of God and Christian Doctrine</H3>
+<HR>
+
+<A NAME="section_000"></A>
+<H3 ALIGN="CENTER">Title Page</H3>
+<A HREF="1020000.html">Title Page</A><BR>
+
+<A NAME="section_001"></A>
+<H3 ALIGN="CENTER">Table of Contents</H3>
+<A HREF="1020001.html">Table of Contents</A><BR>
+
+<A NAME="section_002"></A>
+<H3 ALIGN="CENTER">Editor&#146;s Preface</H3>
+<A HREF="1020002.html">Editor&#146;s Preface</A><BR>
+
+<A NAME="section_003"></A>
+<H3 ALIGN="CENTER">City of God</H3>
+<A HREF="1020003.html">City of God</A><BR>
+<A HREF="1020004.html">Translator&#146;s Preface</A><BR>
+<A HREF="1020005.html">Book I</A><BR>
+<A HREF="1020006.html">Preface, Explaining His Design in...</A><BR>
+<A HREF="1020007.html">Chapter 1</A><BR>
+<A HREF="1020008.html">Chapter 2</A><BR>
+<A HREF="1020009.html">Chapter 3</A><BR>
+<A HREF="1020010.html">Chapter 4</A><BR>
+<A HREF="1020011.html">Chapter 5</A><BR>
+<A HREF="1020012.html">Chapter 6</A><BR>
+<A HREF="1020013.html">Chapter 7</A><BR>
+<A HREF="1020014.html">Chapter 8</A><BR>
+<A HREF="1020015.html">Chapter 9</A><BR>
+<A HREF="1020016.html">Chapter 10</A><BR>
+<A HREF="1020017.html">Chapter 11</A><BR>
+<A HREF="1020018.html">Chapter 12</A><BR>
+<A HREF="1020019.html">Chapter 13</A><BR>
+<A HREF="1020020.html">Chapter 14</A><BR>
+<A HREF="1020021.html">Chapter 15</A><BR>
+<A HREF="1020022.html">Chapter 16</A><BR>
+<A HREF="1020023.html">Chapter 17</A><BR>
+<A HREF="1020024.html">Chapter 18</A><BR>
+<A HREF="1020025.html">Chapter 19</A><BR>
+<A HREF="1020026.html">Chapter 20</A><BR>
+<A HREF="1020027.html">Chapter 21</A><BR>
+<A HREF="1020028.html">Chapter 22</A><BR>
+<A HREF="1020029.html">Chapter 23</A><BR>
+<A HREF="1020030.html">Chapter 24</A><BR>
+<A HREF="1020031.html">Chapter 25</A><BR>
+<A HREF="1020032.html">Chapter 26</A><BR>
+<A HREF="1020033.html">Chapter 27</A><BR>
+<A HREF="1020034.html">Chapter 28</A><BR>
+<A HREF="1020035.html">Chapter 29</A><BR>
+<A HREF="1020036.html">Chapter 30</A><BR>
+<A HREF="1020037.html">Chapter 31</A><BR>
+<A HREF="1020038.html">Chapter 32</A><BR>
+<A HREF="1020039.html">Chapter 33</A><BR>
+<A HREF="1020040.html">Chapter 34</A><BR>
+<A HREF="1020041.html">Chapter 35</A><BR>
+<A HREF="1020042.html">Chapter 36</A><BR>
+<A HREF="1020043.html">Book II</A><BR>
+<A HREF="1020044.html">Chapter 1</A><BR>
+<A HREF="1020045.html">Chapter 2</A><BR>
+<A HREF="1020046.html">Chapter 3</A><BR>
+<A HREF="1020047.html">Chapter 4</A><BR>
+<A HREF="1020048.html">Chapter 5</A><BR>
+<A HREF="1020049.html">Chapter 6</A><BR>
+<A HREF="1020050.html">Chapter 7</A><BR>
+<A HREF="1020051.html">Chapter 8</A><BR>
+<A HREF="1020052.html">Chapter 9</A><BR>
+<A HREF="1020053.html">Chapter 10</A><BR>
+<A HREF="1020054.html">Chapter 11</A><BR>
+<A HREF="1020055.html">Chapter 12</A><BR>
+<A HREF="1020056.html">Chapter 13</A><BR>
+<A HREF="1020057.html">Chapter 14</A><BR>
+<A HREF="1020058.html">Chapter 15</A><BR>
+<A HREF="1020059.html">Chapter 16</A><BR>
+<A HREF="1020060.html">Chapter 17</A><BR>
+<A HREF="1020061.html">Chapter 18</A><BR>
+<A HREF="1020062.html">Chapter 19</A><BR>
+<A HREF="1020063.html">Chapter 20</A><BR>
+<A HREF="1020064.html">Chapter 21</A><BR>
+<A HREF="1020065.html">Chapter 22</A><BR>
+<A HREF="1020066.html">Chapter 23</A><BR>
+<A HREF="1020067.html">Chapter 24</A><BR>
+<A HREF="1020068.html">Chapter 25</A><BR>
+<A HREF="1020069.html">Chapter 26</A><BR>
+<A HREF="1020070.html">Chapter 27</A><BR>
+<A HREF="1020071.html">Chapter 28</A><BR>
+<A HREF="1020072.html">Chapter 29</A><BR>
+<A HREF="1020073.html">Book III</A><BR>
+<A HREF="1020074.html">Chapter 1</A><BR>
+<A HREF="1020075.html">Chapter 2</A><BR>
+<A HREF="1020076.html">Chapter 3</A><BR>
+<A HREF="1020077.html">Chapter 4</A><BR>
+<A HREF="1020078.html">Chapter 5</A><BR>
+<A HREF="1020079.html">Chapter 6</A><BR>
+<A HREF="1020080.html">Chapter 7</A><BR>
+<A HREF="1020081.html">Chapter 8</A><BR>
+<A HREF="1020082.html">Chapter 9</A><BR>
+<A HREF="1020083.html">Chapter 10</A><BR>
+<A HREF="1020084.html">Chapter 11</A><BR>
+<A HREF="1020085.html">Chapter 12</A><BR>
+<A HREF="1020086.html">Chapter 13</A><BR>
+<A HREF="1020087.html">Chapter 14</A><BR>
+<A HREF="1020088.html">Chapter 15</A><BR>
+<A HREF="1020089.html">Chapter 16</A><BR>
+<A HREF="1020090.html">Chapter 17</A><BR>
+<A HREF="1020091.html">Chapter 18</A><BR>
+<A HREF="1020092.html">Chapter 19</A><BR>
+<A HREF="1020093.html">Chapter 20</A><BR>
+<A HREF="1020094.html">Chapter 21</A><BR>
+<A HREF="1020095.html">Chapter 22</A><BR>
+<A HREF="1020096.html">Chapter 23</A><BR>
+<A HREF="1020097.html">Chapter 24</A><BR>
+<A HREF="1020098.html">Chapter 25</A><BR>
+<A HREF="1020099.html">Chapter 26</A><BR>
+<A HREF="1020100.html">Chapter 27</A><BR>
+<A HREF="1020101.html">Chapter 28</A><BR>
+<A HREF="1020102.html">Chapter 29</A><BR>
+<A HREF="1020103.html">Chapter 30</A><BR>
+<A HREF="1020104.html">Chapter 31</A><BR>
+<A HREF="1020105.html">Book IV</A><BR>
+<A HREF="1020106.html">Chapter 1</A><BR>
+<A HREF="1020107.html">Chapter 2</A><BR>
+<A HREF="1020108.html">Chapter 3</A><BR>
+<A HREF="1020109.html">Chapter 4</A><BR>
+<A HREF="1020110.html">Chapter 5</A><BR>
+<A HREF="1020111.html">Chapter 6</A><BR>
+<A HREF="1020112.html">Chapter 7</A><BR>
+<A HREF="1020113.html">Chapter 8</A><BR>
+<A HREF="1020114.html">Chapter 9</A><BR>
+<A HREF="1020115.html">Chapter 10</A><BR>
+<A HREF="1020116.html">Chapter 11</A><BR>
+<A HREF="1020117.html">Chapter 12</A><BR>
+<A HREF="1020118.html">Chapter 13</A><BR>
+<A HREF="1020119.html">Chapter 14</A><BR>
+<A HREF="1020120.html">Chapter 15</A><BR>
+<A HREF="1020121.html">Chapter 16</A><BR>
+<A HREF="1020122.html">Chapter 17</A><BR>
+<A HREF="1020123.html">Chapter 18</A><BR>
+<A HREF="1020124.html">Chapter 19</A><BR>
+<A HREF="1020125.html">Chapter 20</A><BR>
+<A HREF="1020126.html">Chapter 21</A><BR>
+<A HREF="1020127.html">Chapter 22</A><BR>
+<A HREF="1020128.html">Chapter 23</A><BR>
+<A HREF="1020129.html">Chapter 24</A><BR>
+<A HREF="1020130.html">Chapter 25</A><BR>
+<A HREF="1020131.html">Chapter 26</A><BR>
+<A HREF="1020132.html">Chapter 27</A><BR>
+<A HREF="1020133.html">Chapter 28</A><BR>
+<A HREF="1020134.html">Chapter 29</A><BR>
+<A HREF="1020135.html">Chapter 30</A><BR>
+<A HREF="1020136.html">Chapter 31</A><BR>
+<A HREF="1020137.html">Chapter 32</A><BR>
+<A HREF="1020138.html">Chapter 33</A><BR>
+<A HREF="1020139.html">Chapter 34</A><BR>
+<A HREF="1020140.html">Book V</A><BR>
+<A HREF="1020141.html">Preface</A><BR>
+<A HREF="1020142.html">Chapter 1</A><BR>
+<A HREF="1020143.html">Chapter 2</A><BR>
+<A HREF="1020144.html">Chapter 3</A><BR>
+<A HREF="1020145.html">Chapter 4</A><BR>
+<A HREF="1020146.html">Chapter 5</A><BR>
+<A HREF="1020147.html">Chapter 6</A><BR>
+<A HREF="1020148.html">Chapter 7</A><BR>
+<A HREF="1020149.html">Chapter 8</A><BR>
+<A HREF="1020150.html">Chapter 9</A><BR>
+<A HREF="1020151.html">Chapter 10</A><BR>
+<A HREF="1020152.html">Chapter 11</A><BR>
+<A HREF="1020153.html">Chapter 12</A><BR>
+<A HREF="1020154.html">Chapter 13</A><BR>
+<A HREF="1020155.html">Chapter 14</A><BR>
+<A HREF="1020156.html">Chapter 15</A><BR>
+<A HREF="1020157.html">Chapter 16</A><BR>
+<A HREF="1020158.html">Chapter 17</A><BR>
+<A HREF="1020159.html">Chapter 18</A><BR>
+<A HREF="1020160.html">Chapter 19</A><BR>
+<A HREF="1020161.html">Chapter 20</A><BR>
+<A HREF="1020162.html">Chapter 21</A><BR>
+<A HREF="1020163.html">Chapter 22</A><BR>
+<A HREF="1020164.html">Chapter 23</A><BR>
+<A HREF="1020165.html">Chapter 24</A><BR>
+<A HREF="1020166.html">Chapter 25</A><BR>
+<A HREF="1020167.html">Chapter 26</A><BR>
+<A HREF="1020168.html">Book VI</A><BR>
+<A HREF="1020169.html">Preface</A><BR>
+<A HREF="1020170.html">Chapter 1</A><BR>
+<A HREF="1020171.html">Chapter 2</A><BR>
+<A HREF="1020172.html">Chapter 3</A><BR>
+<A HREF="1020173.html">Chapter 4</A><BR>
+<A HREF="1020174.html">Chapter 5</A><BR>
+<A HREF="1020175.html">Chapter 6</A><BR>
+<A HREF="1020176.html">Chapter 7</A><BR>
+<A HREF="1020177.html">Chapter 8</A><BR>
+<A HREF="1020178.html">Chapter 9</A><BR>
+<A HREF="1020179.html">Chapter 10</A><BR>
+<A HREF="1020180.html">Chapter 11</A><BR>
+<A HREF="1020181.html">Chapter 12</A><BR>
+<A HREF="1020182.html">Book VII</A><BR>
+<A HREF="1020183.html">Preface</A><BR>
+<A HREF="1020184.html">Chapter 1</A><BR>
+<A HREF="1020185.html">Chapter 2</A><BR>
+<A HREF="1020186.html">Chapter 3</A><BR>
+<A HREF="1020187.html">Chapter 4</A><BR>
+<A HREF="1020188.html">Chapter 5</A><BR>
+<A HREF="1020189.html">Chapter 6</A><BR>
+<A HREF="1020190.html">Chapter 7</A><BR>
+<A HREF="1020191.html">Chapter 8</A><BR>
+<A HREF="1020192.html">Chapter 9</A><BR>
+<A HREF="1020193.html">Chapter 10</A><BR>
+<A HREF="1020194.html">Chapter 11</A><BR>
+<A HREF="1020195.html">Chapter 12</A><BR>
+<A HREF="1020196.html">Chapter 13</A><BR>
+<A HREF="1020197.html">Chapter 14</A><BR>
+<A HREF="1020198.html">Chapter 15</A><BR>
+<A HREF="1020199.html">Chapter 16</A><BR>
+<A HREF="1020200.html">Chapter 17</A><BR>
+<A HREF="1020201.html">Chapter 18</A><BR>
+<A HREF="1020202.html">Chapter 19</A><BR>
+<A HREF="1020203.html">Chapter 20</A><BR>
+<A HREF="1020204.html">Chapter 21</A><BR>
+<A HREF="1020205.html">Chapter 22</A><BR>
+<A HREF="1020206.html">Chapter 23</A><BR>
+<A HREF="1020207.html">Chapter 24</A><BR>
+<A HREF="1020208.html">Chapter 25</A><BR>
+<A HREF="1020209.html">Chapter 26</A><BR>
+<A HREF="1020210.html">Chapter 27</A><BR>
+<A HREF="1020211.html">Chapter 28</A><BR>
+<A HREF="1020212.html">Chapter 29</A><BR>
+<A HREF="1020213.html">Chapter 30</A><BR>
+<A HREF="1020214.html">Chapter 31</A><BR>
+<A HREF="1020215.html">Chapter 32</A><BR>
+<A HREF="1020216.html">Chapter 33</A><BR>
+<A HREF="1020217.html">Chapter 34</A><BR>
+<A HREF="1020218.html">Chapter 35</A><BR>
+<A HREF="1020219.html">Book VIII</A><BR>
+<A HREF="1020220.html">Chapter 1</A><BR>
+<A HREF="1020221.html">Chapter 2</A><BR>
+<A HREF="1020222.html">Chapter 3</A><BR>
+<A HREF="1020223.html">Chapter 4</A><BR>
+<A HREF="1020224.html">Chapter 5</A><BR>
+<A HREF="1020225.html">Chapter 6</A><BR>
+<A HREF="1020226.html">Chapter 7</A><BR>
+<A HREF="1020227.html">Chapter 8</A><BR>
+<A HREF="1020228.html">Chapter 9</A><BR>
+<A HREF="1020229.html">Chapter 10</A><BR>
+<A HREF="1020230.html">Chapter 11</A><BR>
+<A HREF="1020231.html">Chapter 12</A><BR>
+<A HREF="1020232.html">Chapter 13</A><BR>
+<A HREF="1020233.html">Chapter 14</A><BR>
+<A HREF="1020234.html">Chapter 15</A><BR>
+<A HREF="1020235.html">Chapter 16</A><BR>
+<A HREF="1020236.html">Chapter 17</A><BR>
+<A HREF="1020237.html">Chapter 18</A><BR>
+<A HREF="1020238.html">Chapter 19</A><BR>
+<A HREF="1020239.html">Chapter 20</A><BR>
+<A HREF="1020240.html">Chapter 21</A><BR>
+<A HREF="1020241.html">Chapter 22</A><BR>
+<A HREF="1020242.html">Chapter 23</A><BR>
+<A HREF="1020243.html">Chapter 24</A><BR>
+<A HREF="1020244.html">Chapter 25</A><BR>
+<A HREF="1020245.html">Chapter 26</A><BR>
+<A HREF="1020246.html">Chapter 27</A><BR>
+<A HREF="1020247.html">Book IX</A><BR>
+<A HREF="1020248.html">Chapter 1</A><BR>
+<A HREF="1020249.html">Chapter 2</A><BR>
+<A HREF="1020250.html">Chapter 3</A><BR>
+<A HREF="1020251.html">Chapter 4</A><BR>
+<A HREF="1020252.html">Chapter 5</A><BR>
+<A HREF="1020253.html">Chapter 6</A><BR>
+<A HREF="1020254.html">Chapter 7</A><BR>
+<A HREF="1020255.html">Chapter 8</A><BR>
+<A HREF="1020256.html">Chapter 9</A><BR>
+<A HREF="1020257.html">Chapter 10</A><BR>
+<A HREF="1020258.html">Chapter 11</A><BR>
+<A HREF="1020259.html">Chapter 12</A><BR>
+<A HREF="1020260.html">Chapter 13</A><BR>
+<A HREF="1020261.html">Chapter 14</A><BR>
+<A HREF="1020262.html">Chapter 15</A><BR>
+<A HREF="1020263.html">Chapter 16</A><BR>
+<A HREF="1020264.html">Chapter 17</A><BR>
+<A HREF="1020265.html">Chapter 18</A><BR>
+<A HREF="1020266.html">Chapter 19</A><BR>
+<A HREF="1020267.html">Chapter 20</A><BR>
+<A HREF="1020268.html">Chapter 21</A><BR>
+<A HREF="1020269.html">Chapter 22</A><BR>
+<A HREF="1020270.html">Chapter 23</A><BR>
+<A HREF="1020271.html">Book X</A><BR>
+<A HREF="1020272.html">Chapter 1</A><BR>
+<A HREF="1020273.html">Chapter 2</A><BR>
+<A HREF="1020274.html">Chapter 3</A><BR>
+<A HREF="1020275.html">Chapter 4</A><BR>
+<A HREF="1020276.html">Chapter 5</A><BR>
+<A HREF="1020277.html">Chapter 6</A><BR>
+<A HREF="1020278.html">Chapter 7</A><BR>
+<A HREF="1020279.html">Chapter 8</A><BR>
+<A HREF="1020280.html">Chapter 9</A><BR>
+<A HREF="1020281.html">Chapter 10</A><BR>
+<A HREF="1020282.html">Chapter 11</A><BR>
+<A HREF="1020283.html">Chapter 12</A><BR>
+<A HREF="1020284.html">Chapter 13</A><BR>
+<A HREF="1020285.html">Chapter 14</A><BR>
+<A HREF="1020286.html">Chapter 15</A><BR>
+<A HREF="1020287.html">Chapter 16</A><BR>
+<A HREF="1020288.html">Chapter 17</A><BR>
+<A HREF="1020289.html">Chapter 18</A><BR>
+<A HREF="1020290.html">Chapter 19</A><BR>
+<A HREF="1020291.html">Chapter 20</A><BR>
+<A HREF="1020292.html">Chapter 21</A><BR>
+<A HREF="1020293.html">Chapter 22</A><BR>
+<A HREF="1020294.html">Chapter 23</A><BR>
+<A HREF="1020295.html">Chapter 24</A><BR>
+<A HREF="1020296.html">Chapter 25</A><BR>
+<A HREF="1020297.html">Chapter 26</A><BR>
+<A HREF="1020298.html">Chapter 27</A><BR>
+<A HREF="1020299.html">Chapter 28</A><BR>
+<A HREF="1020300.html">Chapter 29</A><BR>
+<A HREF="1020301.html">Chapter 30</A><BR>
+<A HREF="1020302.html">Chapter 31</A><BR>
+<A HREF="1020303.html">Chapter 32</A><BR>
+<A HREF="1020304.html">Book XI</A><BR>
+<A HREF="1020305.html">Chapter 1</A><BR>
+<A HREF="1020306.html">Chapter 2</A><BR>
+<A HREF="1020307.html">Chapter 3</A><BR>
+<A HREF="1020308.html">Chapter 4</A><BR>
+<A HREF="1020309.html">Chapter 5</A><BR>
+<A HREF="1020310.html">Chapter 6</A><BR>
+<A HREF="1020311.html">Chapter 7</A><BR>
+<A HREF="1020312.html">Chapter 8</A><BR>
+<A HREF="1020313.html">Chapter 9</A><BR>
+<A HREF="1020314.html">Chapter 10</A><BR>
+<A HREF="1020315.html">Chapter 11</A><BR>
+<A HREF="1020316.html">Chapter 12</A><BR>
+<A HREF="1020317.html">Chapter 13</A><BR>
+<A HREF="1020318.html">Chapter 14</A><BR>
+<A HREF="1020319.html">Chapter 15</A><BR>
+<A HREF="1020320.html">Chapter 16</A><BR>
+<A HREF="1020321.html">Chapter 17</A><BR>
+<A HREF="1020322.html">Chapter 18</A><BR>
+<A HREF="1020323.html">Chapter 19</A><BR>
+<A HREF="1020324.html">Chapter 20</A><BR>
+<A HREF="1020325.html">Chapter 21</A><BR>
+<A HREF="1020326.html">Chapter 22</A><BR>
+<A HREF="1020327.html">Chapter 23</A><BR>
+<A HREF="1020328.html">Chapter 24</A><BR>
+<A HREF="1020329.html">Chapter 25</A><BR>
+<A HREF="1020330.html">Chapter 26</A><BR>
+<A HREF="1020331.html">Chapter 27</A><BR>
+<A HREF="1020332.html">Chapter 28</A><BR>
+<A HREF="1020333.html">Chapter 29</A><BR>
+<A HREF="1020334.html">Chapter 30</A><BR>
+<A HREF="1020335.html">Chapter 31</A><BR>
+<A HREF="1020336.html">Chapter 32</A><BR>
+<A HREF="1020337.html">Chapter 33</A><BR>
+<A HREF="1020338.html">Chapter 34</A><BR>
+<A HREF="1020339.html">Book XII</A><BR>
+<A HREF="1020340.html">Chapter 1</A><BR>
+<A HREF="1020341.html">Chapter 2</A><BR>
+<A HREF="1020342.html">Chapter 3</A><BR>
+<A HREF="1020343.html">Chapter 4</A><BR>
+<A HREF="1020344.html">Chapter 5</A><BR>
+<A HREF="1020345.html">Chapter 6</A><BR>
+<A HREF="1020346.html">Chapter 7</A><BR>
+<A HREF="1020347.html">Chapter 8</A><BR>
+<A HREF="1020348.html">Chapter 9</A><BR>
+<A HREF="1020349.html">Chapter 10</A><BR>
+<A HREF="1020350.html">Chapter 11</A><BR>
+<A HREF="1020351.html">Chapter 12</A><BR>
+<A HREF="1020352.html">Chapter 13</A><BR>
+<A HREF="1020353.html">Chapter 14</A><BR>
+<A HREF="1020354.html">Chapter 15</A><BR>
+<A HREF="1020355.html">Chapter 16</A><BR>
+<A HREF="1020356.html">Chapter 17</A><BR>
+<A HREF="1020357.html">Chapter 18</A><BR>
+<A HREF="1020358.html">Chapter 19</A><BR>
+<A HREF="1020359.html">Chapter 20</A><BR>
+<A HREF="1020360.html">Chapter 21</A><BR>
+<A HREF="1020361.html">Chapter 22</A><BR>
+<A HREF="1020362.html">Chapter 23</A><BR>
+<A HREF="1020363.html">Chapter 24</A><BR>
+<A HREF="1020364.html">Chapter 25</A><BR>
+<A HREF="1020365.html">Chapter 26</A><BR>
+<A HREF="1020366.html">Chapter 27</A><BR>
+<A HREF="1020367.html">Book XIII</A><BR>
+<A HREF="1020368.html">Chapter 1</A><BR>
+<A HREF="1020369.html">Chapter 2</A><BR>
+<A HREF="1020370.html">Chapter 3</A><BR>
+<A HREF="1020371.html">Chapter 4</A><BR>
+<A HREF="1020372.html">Chapter 5</A><BR>
+<A HREF="1020373.html">Chapter 6</A><BR>
+<A HREF="1020374.html">Chapter 7</A><BR>
+<A HREF="1020375.html">Chapter 8</A><BR>
+<A HREF="1020376.html">Chapter 9</A><BR>
+<A HREF="1020377.html">Chapter 10</A><BR>
+<A HREF="1020378.html">Chapter 11</A><BR>
+<A HREF="1020379.html">Chapter 12</A><BR>
+<A HREF="1020380.html">Chapter 13</A><BR>
+<A HREF="1020381.html">Chapter 14</A><BR>
+<A HREF="1020382.html">Chapter 15</A><BR>
+<A HREF="1020383.html">Chapter 16</A><BR>
+<A HREF="1020384.html">Chapter 17</A><BR>
+<A HREF="1020385.html">Chapter 18</A><BR>
+<A HREF="1020386.html">Chapter 19</A><BR>
+<A HREF="1020387.html">Chapter 20</A><BR>
+<A HREF="1020388.html">Chapter 21</A><BR>
+<A HREF="1020389.html">Chapter 22</A><BR>
+<A HREF="1020390.html">Chapter 23</A><BR>
+<A HREF="1020391.html">Chapter 24</A><BR>
+<A HREF="1020392.html">Book XIV</A><BR>
+<A HREF="1020393.html">Chapter 1</A><BR>
+<A HREF="1020394.html">Chapter 2</A><BR>
+<A HREF="1020395.html">Chapter 3</A><BR>
+<A HREF="1020396.html">Chapter 4</A><BR>
+<A HREF="1020397.html">Chapter 5</A><BR>
+<A HREF="1020398.html">Chapter 6</A><BR>
+<A HREF="1020399.html">Chapter 7</A><BR>
+<A HREF="1020400.html">Chapter 8</A><BR>
+<A HREF="1020401.html">Chapter 9</A><BR>
+<A HREF="1020402.html">Chapter 10</A><BR>
+<A HREF="1020403.html">Chapter 11</A><BR>
+<A HREF="1020404.html">Chapter 12</A><BR>
+<A HREF="1020405.html">Chapter 13</A><BR>
+<A HREF="1020406.html">Chapter 14</A><BR>
+<A HREF="1020407.html">Chapter 15</A><BR>
+<A HREF="1020408.html">Chapter 16</A><BR>
+<A HREF="1020409.html">Chapter 17</A><BR>
+<A HREF="1020410.html">Chapter 18</A><BR>
+<A HREF="1020411.html">Chapter 19</A><BR>
+<A HREF="1020412.html">Chapter 20</A><BR>
+<A HREF="1020413.html">Chapter 21</A><BR>
+<A HREF="1020414.html">Chapter 22</A><BR>
+<A HREF="1020415.html">Chapter 23</A><BR>
+<A HREF="1020416.html">Chapter 24</A><BR>
+<A HREF="1020417.html">Chapter 25</A><BR>
+<A HREF="1020418.html">Chapter 26</A><BR>
+<A HREF="1020419.html">Chapter 27</A><BR>
+<A HREF="1020420.html">Chapter 28</A><BR>
+<A HREF="1020421.html">Book XV</A><BR>
+<A HREF="1020422.html">Chapter 1</A><BR>
+<A HREF="1020423.html">Chapter 2</A><BR>
+<A HREF="1020424.html">Chapter 3</A><BR>
+<A HREF="1020425.html">Chapter 4</A><BR>
+<A HREF="1020426.html">Chapter 5</A><BR>
+<A HREF="1020427.html">Chapter 6</A><BR>
+<A HREF="1020428.html">Chapter 7</A><BR>
+<A HREF="1020429.html">Chapter 8</A><BR>
+<A HREF="1020430.html">Chapter 9</A><BR>
+<A HREF="1020431.html">Chapter 10</A><BR>
+<A HREF="1020432.html">Chapter 11</A><BR>
+<A HREF="1020433.html">Chapter 12</A><BR>
+<A HREF="1020434.html">Chapter 13</A><BR>
+<A HREF="1020435.html">Chapter 14</A><BR>
+<A HREF="1020436.html">Chapter 15</A><BR>
+<A HREF="1020437.html">Chapter 16</A><BR>
+<A HREF="1020438.html">Chapter 17</A><BR>
+<A HREF="1020439.html">Chapter 18</A><BR>
+<A HREF="1020440.html">Chapter 19</A><BR>
+<A HREF="1020441.html">Chapter 20</A><BR>
+<A HREF="1020442.html">Chapter 21</A><BR>
+<A HREF="1020443.html">Chapter 22</A><BR>
+<A HREF="1020444.html">Chapter 23</A><BR>
+<A HREF="1020445.html">Chapter 24</A><BR>
+<A HREF="1020446.html">Chapter 25</A><BR>
+<A HREF="1020447.html">Chapter 26</A><BR>
+<A HREF="1020448.html">Chapter 27</A><BR>
+<A HREF="1020449.html">Book XVI</A><BR>
+<A HREF="1020450.html">Chapter 1</A><BR>
+<A HREF="1020451.html">Chapter 2</A><BR>
+<A HREF="1020452.html">Chapter 3</A><BR>
+<A HREF="1020453.html">Chapter 4</A><BR>
+<A HREF="1020454.html">Chapter 5</A><BR>
+<A HREF="1020455.html">Chapter 6</A><BR>
+<A HREF="1020456.html">Chapter 7</A><BR>
+<A HREF="1020457.html">Chapter 8</A><BR>
+<A HREF="1020458.html">Chapter 9</A><BR>
+<A HREF="1020459.html">Chapter 10</A><BR>
+<A HREF="1020460.html">Chapter 11</A><BR>
+<A HREF="1020461.html">Chapter 12</A><BR>
+<A HREF="1020462.html">Chapter 13</A><BR>
+<A HREF="1020463.html">Chapter 14</A><BR>
+<A HREF="1020464.html">Chapter 15</A><BR>
+<A HREF="1020465.html">Chapter 16</A><BR>
+<A HREF="1020466.html">Chapter 17</A><BR>
+<A HREF="1020467.html">Chapter 18</A><BR>
+<A HREF="1020468.html">Chapter 19</A><BR>
+<A HREF="1020469.html">Chapter 20</A><BR>
+<A HREF="1020470.html">Chapter 21</A><BR>
+<A HREF="1020471.html">Chapter 22</A><BR>
+<A HREF="1020472.html">Chapter 23</A><BR>
+<A HREF="1020473.html">Chapter 24</A><BR>
+<A HREF="1020474.html">Chapter 25</A><BR>
+<A HREF="1020475.html">Chapter 26</A><BR>
+<A HREF="1020476.html">Chapter 27</A><BR>
+<A HREF="1020477.html">Chapter 28</A><BR>
+<A HREF="1020478.html">Chapter 29</A><BR>
+<A HREF="1020479.html">Chapter 30</A><BR>
+<A HREF="1020480.html">Chapter 31</A><BR>
+<A HREF="1020481.html">Chapter 32</A><BR>
+<A HREF="1020482.html">Chapter 33</A><BR>
+<A HREF="1020483.html">Chapter 34</A><BR>
+<A HREF="1020484.html">Chapter 35</A><BR>
+<A HREF="1020485.html">Chapter 36</A><BR>
+<A HREF="1020486.html">Chapter 37</A><BR>
+<A HREF="1020487.html">Chapter 38</A><BR>
+<A HREF="1020488.html">Chapter 39</A><BR>
+<A HREF="1020489.html">Chapter 40</A><BR>
+<A HREF="1020490.html">Chapter 41</A><BR>
+<A HREF="1020491.html">Chapter 42</A><BR>
+<A HREF="1020492.html">Chapter 43</A><BR>
+<A HREF="1020493.html">Book XVII</A><BR>
+<A HREF="1020494.html">Chapter 1</A><BR>
+<A HREF="1020495.html">Chapter 2</A><BR>
+<A HREF="1020496.html">Chapter 3</A><BR>
+<A HREF="1020497.html">Chapter 4</A><BR>
+<A HREF="1020498.html">Chapter 5</A><BR>
+<A HREF="1020499.html">Chapter 6</A><BR>
+<A HREF="1020500.html">Chapter 7</A><BR>
+<A HREF="1020501.html">Chapter 8</A><BR>
+<A HREF="1020502.html">Chapter 9</A><BR>
+<A HREF="1020503.html">Chapter 10</A><BR>
+<A HREF="1020504.html">Chapter 11</A><BR>
+<A HREF="1020505.html">Chapter 12</A><BR>
+<A HREF="1020506.html">Chapter 13</A><BR>
+<A HREF="1020507.html">Chapter 14</A><BR>
+<A HREF="1020508.html">Chapter 15</A><BR>
+<A HREF="1020509.html">Chapter 16</A><BR>
+<A HREF="1020510.html">Chapter 17</A><BR>
+<A HREF="1020511.html">Chapter 18</A><BR>
+<A HREF="1020512.html">Chapter 19</A><BR>
+<A HREF="1020513.html">Chapter 20</A><BR>
+<A HREF="1020514.html">Chapter 21</A><BR>
+<A HREF="1020515.html">Chapter 22</A><BR>
+<A HREF="1020516.html">Chapter 23</A><BR>
+<A HREF="1020517.html">Chapter 24</A><BR>
+<A HREF="1020518.html">Book XVIII</A><BR>
+<A HREF="1020519.html">Chapter 1</A><BR>
+<A HREF="1020520.html">Chapter 2</A><BR>
+<A HREF="1020521.html">Chapter 3</A><BR>
+<A HREF="1020522.html">Chapter 4</A><BR>
+<A HREF="1020523.html">Chapter 5</A><BR>
+<A HREF="1020524.html">Chapter 6</A><BR>
+<A HREF="1020525.html">Chapter 7</A><BR>
+<A HREF="1020526.html">Chapter 8</A><BR>
+<A HREF="1020527.html">Chapter 9</A><BR>
+<A HREF="1020528.html">Chapter 10</A><BR>
+<A HREF="1020529.html">Chapter 11</A><BR>
+<A HREF="1020530.html">Chapter 12</A><BR>
+<A HREF="1020531.html">Chapter 13</A><BR>
+<A HREF="1020532.html">Chapter 14</A><BR>
+<A HREF="1020533.html">Chapter 15</A><BR>
+<A HREF="1020534.html">Chapter 16</A><BR>
+<A HREF="1020535.html">Chapter 17</A><BR>
+<A HREF="1020536.html">Chapter 18</A><BR>
+<A HREF="1020537.html">Chapter 19</A><BR>
+<A HREF="1020538.html">Chapter 20</A><BR>
+<A HREF="1020539.html">Chapter 21</A><BR>
+<A HREF="1020540.html">Chapter 22</A><BR>
+<A HREF="1020541.html">Chapter 23</A><BR>
+<A HREF="1020542.html">Chapter 24</A><BR>
+<A HREF="1020543.html">Chapter 25</A><BR>
+<A HREF="1020544.html">Chapter 26</A><BR>
+<A HREF="1020545.html">Chapter 27</A><BR>
+<A HREF="1020546.html">Chapter 28</A><BR>
+<A HREF="1020547.html">Chapter 29</A><BR>
+<A HREF="1020548.html">Chapter 30</A><BR>
+<A HREF="1020549.html">Chapter 31</A><BR>
+<A HREF="1020550.html">Chapter 32</A><BR>
+<A HREF="1020551.html">Chapter 33</A><BR>
+<A HREF="1020552.html">Chapter 34</A><BR>
+<A HREF="1020553.html">Chapter 35</A><BR>
+<A HREF="1020554.html">Chapter 36</A><BR>
+<A HREF="1020555.html">Chapter 37</A><BR>
+<A HREF="1020556.html">Chapter 38</A><BR>
+<A HREF="1020557.html">Chapter 39</A><BR>
+<A HREF="1020558.html">Chapter 40</A><BR>
+<A HREF="1020559.html">Chapter 41</A><BR>
+<A HREF="1020560.html">Chapter 42</A><BR>
+<A HREF="1020561.html">Chapter 43</A><BR>
+<A HREF="1020562.html">Chapter 44</A><BR>
+<A HREF="1020563.html">Chapter 45</A><BR>
+<A HREF="1020564.html">Chapter 46</A><BR>
+<A HREF="1020565.html">Chapter 47</A><BR>
+<A HREF="1020566.html">Chapter 48</A><BR>
+<A HREF="1020567.html">Chapter 49</A><BR>
+<A HREF="1020568.html">Chapter 50</A><BR>
+<A HREF="1020569.html">Chapter 51</A><BR>
+<A HREF="1020570.html">Chapter 52</A><BR>
+<A HREF="1020571.html">Chapter 53</A><BR>
+<A HREF="1020572.html">Chapter 54</A><BR>
+<A HREF="1020573.html">Book XIX</A><BR>
+<A HREF="1020574.html">Chapter 1</A><BR>
+<A HREF="1020575.html">Chapter 2</A><BR>
+<A HREF="1020576.html">Chapter 3</A><BR>
+<A HREF="1020577.html">Chapter 4</A><BR>
+<A HREF="1020578.html">Chapter 5</A><BR>
+<A HREF="1020579.html">Chapter 6</A><BR>
+<A HREF="1020580.html">Chapter 7</A><BR>
+<A HREF="1020581.html">Chapter 8</A><BR>
+<A HREF="1020582.html">Chapter 9</A><BR>
+<A HREF="1020583.html">Chapter 10</A><BR>
+<A HREF="1020584.html">Chapter 11</A><BR>
+<A HREF="1020585.html">Chapter 12</A><BR>
+<A HREF="1020586.html">Chapter 13</A><BR>
+<A HREF="1020587.html">Chapter 14</A><BR>
+<A HREF="1020588.html">Chapter 15</A><BR>
+<A HREF="1020589.html">Chapter 16</A><BR>
+<A HREF="1020590.html">Chapter 17</A><BR>
+<A HREF="1020591.html">Chapter 18</A><BR>
+<A HREF="1020592.html">Chapter 19</A><BR>
+<A HREF="1020593.html">Chapter 20</A><BR>
+<A HREF="1020594.html">Chapter 21</A><BR>
+<A HREF="1020595.html">Chapter 22</A><BR>
+<A HREF="1020596.html">Chapter 23</A><BR>
+<A HREF="1020597.html">Chapter 24</A><BR>
+<A HREF="1020598.html">Chapter 25</A><BR>
+<A HREF="1020599.html">Chapter 26</A><BR>
+<A HREF="1020600.html">Chapter 27</A><BR>
+<A HREF="1020601.html">Chapter 28</A><BR>
+<A HREF="1020602.html">Book XX</A><BR>
+<A HREF="1020603.html">Chapter 1</A><BR>
+<A HREF="1020604.html">Chapter 2</A><BR>
+<A HREF="1020605.html">Chapter 3</A><BR>
+<A HREF="1020606.html">Chapter 4</A><BR>
+<A HREF="1020607.html">Chapter 5</A><BR>
+<A HREF="1020608.html">Chapter 6</A><BR>
+<A HREF="1020609.html">Chapter 7</A><BR>
+<A HREF="1020610.html">Chapter 8</A><BR>
+<A HREF="1020611.html">Chapter 9</A><BR>
+<A HREF="1020612.html">Chapter 10</A><BR>
+<A HREF="1020613.html">Chapter 11</A><BR>
+<A HREF="1020614.html">Chapter 12</A><BR>
+<A HREF="1020615.html">Chapter 13</A><BR>
+<A HREF="1020616.html">Chapter 14</A><BR>
+<A HREF="1020617.html">Chapter 15</A><BR>
+<A HREF="1020618.html">Chapter 16</A><BR>
+<A HREF="1020619.html">Chapter 17</A><BR>
+<A HREF="1020620.html">Chapter 18</A><BR>
+<A HREF="1020621.html">Chapter 19</A><BR>
+<A HREF="1020622.html">Chapter 20</A><BR>
+<A HREF="1020623.html">Chapter 21</A><BR>
+<A HREF="1020624.html">Chapter 22</A><BR>
+<A HREF="1020625.html">Chapter 23</A><BR>
+<A HREF="1020626.html">Chapter 24</A><BR>
+<A HREF="1020627.html">Chapter 25</A><BR>
+<A HREF="1020628.html">Chapter 26</A><BR>
+<A HREF="1020629.html">Chapter 27</A><BR>
+<A HREF="1020630.html">Chapter 28</A><BR>
+<A HREF="1020631.html">Chapter 29</A><BR>
+<A HREF="1020632.html">Chapter 30</A><BR>
+<A HREF="1020633.html">Book XXI</A><BR>
+<A HREF="1020634.html">Chapter 1</A><BR>
+<A HREF="1020635.html">Chapter 2</A><BR>
+<A HREF="1020636.html">Chapter 3</A><BR>
+<A HREF="1020637.html">Chapter 4</A><BR>
+<A HREF="1020638.html">Chapter 5</A><BR>
+<A HREF="1020639.html">Chapter 6</A><BR>
+<A HREF="1020640.html">Chapter 7</A><BR>
+<A HREF="1020641.html">Chapter 8</A><BR>
+<A HREF="1020642.html">Chapter 9</A><BR>
+<A HREF="1020643.html">Chapter 10</A><BR>
+<A HREF="1020644.html">Chapter 11</A><BR>
+<A HREF="1020645.html">Chapter 12</A><BR>
+<A HREF="1020646.html">Chapter 13</A><BR>
+<A HREF="1020647.html">Chapter 14</A><BR>
+<A HREF="1020648.html">Chapter 15</A><BR>
+<A HREF="1020649.html">Chapter 16</A><BR>
+<A HREF="1020650.html">Chapter 17</A><BR>
+<A HREF="1020651.html">Chapter 18</A><BR>
+<A HREF="1020652.html">Chapter 19</A><BR>
+<A HREF="1020653.html">Chapter 20</A><BR>
+<A HREF="1020654.html">Chapter 21</A><BR>
+<A HREF="1020655.html">Chapter 22</A><BR>
+<A HREF="1020656.html">Chapter 23</A><BR>
+<A HREF="1020657.html">Chapter 24</A><BR>
+<A HREF="1020658.html">Chapter 25</A><BR>
+<A HREF="1020659.html">Chapter 26</A><BR>
+<A HREF="1020660.html">Chapter 27</A><BR>
+<A HREF="1020661.html">Book XXII</A><BR>
+<A HREF="1020662.html">Chapter 1</A><BR>
+<A HREF="1020663.html">Chapter 2</A><BR>
+<A HREF="1020664.html">Chapter 3</A><BR>
+<A HREF="1020665.html">Chapter 4</A><BR>
+<A HREF="1020666.html">Chapter 5</A><BR>
+<A HREF="1020667.html">Chapter 6</A><BR>
+<A HREF="1020668.html">Chapter 7</A><BR>
+<A HREF="1020669.html">Chapter 8</A><BR>
+<A HREF="1020670.html">Chapter 9</A><BR>
+<A HREF="1020671.html">Chapter 10</A><BR>
+<A HREF="1020672.html">Chapter 11</A><BR>
+<A HREF="1020673.html">Chapter 12</A><BR>
+<A HREF="1020674.html">Chapter 13</A><BR>
+<A HREF="1020675.html">Chapter 14</A><BR>
+<A HREF="1020676.html">Chapter 15</A><BR>
+<A HREF="1020677.html">Chapter 16</A><BR>
+<A HREF="1020678.html">Chapter 17</A><BR>
+<A HREF="1020679.html">Chapter 18</A><BR>
+<A HREF="1020680.html">Chapter 19</A><BR>
+<A HREF="1020681.html">Chapter 20</A><BR>
+<A HREF="1020682.html">Chapter 21</A><BR>
+<A HREF="1020683.html">Chapter 22</A><BR>
+<A HREF="1020684.html">Chapter 23</A><BR>
+<A HREF="1020685.html">Chapter 24</A><BR>
+<A HREF="1020686.html">Chapter 25</A><BR>
+<A HREF="1020687.html">Chapter 26</A><BR>
+<A HREF="1020688.html">Chapter 27</A><BR>
+<A HREF="1020689.html">Chapter 28</A><BR>
+<A HREF="1020690.html">Chapter 29</A><BR>
+<A HREF="1020691.html">Chapter 30</A><BR>
+
+<A NAME="section_004"></A>
+<H3 ALIGN="CENTER">On Christian Doctrine</H3>
+<A HREF="1020692.html">On Christian Doctrine</A><BR>
+<A HREF="1020693.html">Introductory Note by the Editor</A><BR>
+<A HREF="1020694.html">Contents of Christian Doctrine</A><BR>
+<A HREF="1020695.html">Preface</A><BR>
+<A HREF="1020696.html">Book I</A><BR>
+<A HREF="1020697.html">Chapter 1</A><BR>
+<A HREF="1020698.html">Chapter 2</A><BR>
+<A HREF="1020699.html">Chapter 3</A><BR>
+<A HREF="1020700.html">Chapter 4</A><BR>
+<A HREF="1020701.html">Chapter 5</A><BR>
+<A HREF="1020702.html">Chapter 6</A><BR>
+<A HREF="1020703.html">Chapter 7</A><BR>
+<A HREF="1020704.html">Chapter 8</A><BR>
+<A HREF="1020705.html">Chapter 9</A><BR>
+<A HREF="1020706.html">Chapter 10</A><BR>
+<A HREF="1020707.html">Chapter 11</A><BR>
+<A HREF="1020708.html">Chapter 12</A><BR>
+<A HREF="1020709.html">Chapter 13</A><BR>
+<A HREF="1020710.html">Chapter 14</A><BR>
+<A HREF="1020711.html">Chapter 15</A><BR>
+<A HREF="1020712.html">Chapter 16</A><BR>
+<A HREF="1020713.html">Chapter 17</A><BR>
+<A HREF="1020714.html">Chapter 18</A><BR>
+<A HREF="1020715.html">Chapter 19</A><BR>
+<A HREF="1020716.html">Chapter 20</A><BR>
+<A HREF="1020717.html">Chapter 21</A><BR>
+<A HREF="1020718.html">Chapter 22</A><BR>
+<A HREF="1020719.html">Chapter 23</A><BR>
+<A HREF="1020720.html">Chapter 24</A><BR>
+<A HREF="1020721.html">Chapter 25</A><BR>
+<A HREF="1020722.html">Chapter 26</A><BR>
+<A HREF="1020723.html">Chapter 27</A><BR>
+<A HREF="1020724.html">Chapter 28</A><BR>
+<A HREF="1020725.html">Chapter 29</A><BR>
+<A HREF="1020726.html">Chapter 30</A><BR>
+<A HREF="1020727.html">Chapter 31</A><BR>
+<A HREF="1020728.html">Chapter 32</A><BR>
+<A HREF="1020729.html">Chapter 33</A><BR>
+<A HREF="1020730.html">Chapter 34</A><BR>
+<A HREF="1020731.html">Chapter 35</A><BR>
+<A HREF="1020732.html">Chapter 36</A><BR>
+<A HREF="1020733.html">Chapter 37</A><BR>
+<A HREF="1020734.html">Chapter 38</A><BR>
+<A HREF="1020735.html">Chapter 39</A><BR>
+<A HREF="1020736.html">Chapter 40</A><BR>
+<A HREF="1020737.html">Book II</A><BR>
+<A HREF="1020738.html">Chapter 1</A><BR>
+<A HREF="1020739.html">Chapter 2</A><BR>
+<A HREF="1020740.html">Chapter 3</A><BR>
+<A HREF="1020741.html">Chapter 4</A><BR>
+<A HREF="1020742.html">Chapter 5</A><BR>
+<A HREF="1020743.html">Chapter 6</A><BR>
+<A HREF="1020744.html">Chapter 7</A><BR>
+<A HREF="1020745.html">Chapter 8</A><BR>
+<A HREF="1020746.html">Chapter 9</A><BR>
+<A HREF="1020747.html">Chapter 10</A><BR>
+<A HREF="1020748.html">Chapter 11</A><BR>
+<A HREF="1020749.html">Chapter 12</A><BR>
+<A HREF="1020750.html">Chapter 13</A><BR>
+<A HREF="1020751.html">Chapter 14</A><BR>
+<A HREF="1020752.html">Chapter 15</A><BR>
+<A HREF="1020753.html">Chapter 16</A><BR>
+<A HREF="1020754.html">Chapter 17</A><BR>
+<A HREF="1020755.html">Chapter 18</A><BR>
+<A HREF="1020756.html">Chapter 19</A><BR>
+<A HREF="1020757.html">Chapter 20</A><BR>
+<A HREF="1020758.html">Chapter 21</A><BR>
+<A HREF="1020759.html">Chapter 22</A><BR>
+<A HREF="1020760.html">Chapter 23</A><BR>
+<A HREF="1020761.html">Chapter 24</A><BR>
+<A HREF="1020762.html">Chapter 25</A><BR>
+<A HREF="1020763.html">Chapter 26</A><BR>
+<A HREF="1020764.html">Chapter 27</A><BR>
+<A HREF="1020765.html">Chapter 28</A><BR>
+<A HREF="1020766.html">Chapter 29</A><BR>
+<A HREF="1020767.html">Chapter 30</A><BR>
+<A HREF="1020768.html">Chapter 31</A><BR>
+<A HREF="1020769.html">Chapter 32</A><BR>
+<A HREF="1020770.html">Chapter 33</A><BR>
+<A HREF="1020771.html">Chapter 34</A><BR>
+<A HREF="1020772.html">Chapter 35</A><BR>
+<A HREF="1020773.html">Chapter 36</A><BR>
+<A HREF="1020774.html">Chapter 37</A><BR>
+<A HREF="1020775.html">Chapter 38</A><BR>
+<A HREF="1020776.html">Chapter 39</A><BR>
+<A HREF="1020777.html">Chapter 40</A><BR>
+<A HREF="1020778.html">Chapter 41</A><BR>
+<A HREF="1020779.html">Chapter 42</A><BR>
+<A HREF="1020780.html">Book III</A><BR>
+<A HREF="1020781.html">Chapter 1</A><BR>
+<A HREF="1020782.html">Chapter 2</A><BR>
+<A HREF="1020783.html">Chapter 3</A><BR>
+<A HREF="1020784.html">Chapter 4</A><BR>
+<A HREF="1020785.html">Chapter 5</A><BR>
+<A HREF="1020786.html">Chapter 6</A><BR>
+<A HREF="1020787.html">Chapter 7</A><BR>
+<A HREF="1020788.html">Chapter 8</A><BR>
+<A HREF="1020789.html">Chapter 9</A><BR>
+<A HREF="1020790.html">Chapter 10</A><BR>
+<A HREF="1020791.html">Chapter 11</A><BR>
+<A HREF="1020792.html">Chapter 12</A><BR>
+<A HREF="1020793.html">Chapter 13</A><BR>
+<A HREF="1020794.html">Chapter 14</A><BR>
+<A HREF="1020795.html">Chapter 15</A><BR>
+<A HREF="1020796.html">Chapter 16</A><BR>
+<A HREF="1020797.html">Chapter 17</A><BR>
+<A HREF="1020798.html">Chapter 18</A><BR>
+<A HREF="1020799.html">Chapter 19</A><BR>
+<A HREF="1020800.html">Chapter 20</A><BR>
+<A HREF="1020801.html">Chapter 21</A><BR>
+<A HREF="1020802.html">Chapter 22</A><BR>
+<A HREF="1020803.html">Chapter 23</A><BR>
+<A HREF="1020804.html">Chapter 24</A><BR>
+<A HREF="1020805.html">Chapter 25</A><BR>
+<A HREF="1020806.html">Chapter 26</A><BR>
+<A HREF="1020807.html">Chapter 27</A><BR>
+<A HREF="1020808.html">Chapter 28</A><BR>
+<A HREF="1020809.html">Chapter 29</A><BR>
+<A HREF="1020810.html">Chapter 30</A><BR>
+<A HREF="1020811.html">Chapter 31</A><BR>
+<A HREF="1020812.html">Chapter 32</A><BR>
+<A HREF="1020813.html">Chapter 33</A><BR>
+<A HREF="1020814.html">Chapter 34</A><BR>
+<A HREF="1020815.html">Chapter 35</A><BR>
+<A HREF="1020816.html">Chapter 36</A><BR>
+<A HREF="1020817.html">Chapter 37</A><BR>
+<A HREF="1020818.html">Book IV</A><BR>
+<A HREF="1020819.html">Chapter 1</A><BR>
+<A HREF="1020820.html">Chapter 2</A><BR>
+<A HREF="1020821.html">Chapter 3</A><BR>
+<A HREF="1020822.html">Chapter 4</A><BR>
+<A HREF="1020823.html">Chapter 5</A><BR>
+<A HREF="1020824.html">Chapter 6</A><BR>
+<A HREF="1020825.html">Chapter 7</A><BR>
+<A HREF="1020826.html">Chapter 8</A><BR>
+<A HREF="1020827.html">Chapter 9</A><BR>
+<A HREF="1020828.html">Chapter 10</A><BR>
+<A HREF="1020829.html">Chapter 11</A><BR>
+<A HREF="1020830.html">Chapter 12</A><BR>
+<A HREF="1020831.html">Chapter 13</A><BR>
+<A HREF="1020832.html">Chapter 14</A><BR>
+<A HREF="1020833.html">Chapter 15</A><BR>
+<A HREF="1020834.html">Chapter 16</A><BR>
+<A HREF="1020835.html">Chapter 17</A><BR>
+<A HREF="1020836.html">Chapter 18</A><BR>
+<A HREF="1020837.html">Chapter 19</A><BR>
+<A HREF="1020838.html">Chapter 20</A><BR>
+<A HREF="1020839.html">Chapter 21</A><BR>
+<A HREF="1020840.html">Chapter 22</A><BR>
+<A HREF="1020841.html">Chapter 23</A><BR>
+<A HREF="1020842.html">Chapter 24</A><BR>
+<A HREF="1020843.html">Chapter 25</A><BR>
+<A HREF="1020844.html">Chapter 26</A><BR>
+<A HREF="1020845.html">Chapter 27</A><BR>
+<A HREF="1020846.html">Chapter 28</A><BR>
+<A HREF="1020847.html">Chapter 29</A><BR>
+<A HREF="1020848.html">Chapter 30</A><BR>
+<A HREF="1020849.html">Chapter 31</A><BR>
+
+<A NAME="section_005"></A>
+<H3 ALIGN="CENTER">Subject Index</H3>
+<A HREF="1020850.html">Subject Index</A><BR>
+<A HREF="1020851.html">The City of God</A><BR>
+<A HREF="1020852.html">On Christian Doctrine</A><BR>
+
+<A NAME="section_006"></A>
+<H3 ALIGN="CENTER">Indexes</H3>
+<A HREF="1020853.html">Indexes</A><BR>
+<A HREF="1020854.html">Index of Scripture References</A><BR>
+<A HREF="1020855.html">Greek Words and Phrases</A><BR>
+<A HREF="1020856.html">German Words and Phrases</A><BR>
+<A HREF="1020857.html">French Words and Phrases</A><BR>
+<A HREF="1020858.html">Index of Pages of the Print Edition</A><BR>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/102/index.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/102/index.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/k4na9pv'>tak.la/k4na9pv</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/k4na9pv';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+

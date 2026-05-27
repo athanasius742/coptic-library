@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Nicene and Post-Nicene Fathers, Vol. II: The City of God of St. Augustin | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers St Augustine City of God">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Nicene and Post-Nicene Fathers, Vol. II: City of God: Chapter 24 | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/102/1020391.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:33:51+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/102/'>102</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/102/'>102</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Nicene and Post-Nicene Fathers, Vol. II:<br>City of God: Chapter 24</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="1020390.html" id="prev">Previous</A>&nbsp;
+<A HREF="1020392.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="iv.XIII.24"></A>  <A NAME="page_259"><FONT SIZE=1 COLOR=GREEN>p. 259</FONT></A> <a name="iv.XIII.24-Page_259"></A>  
+<p style="font-size: 16pt" class="c34"><a name="iv.XIII.24-p1"></A><span class="c2"><a name="iv.XIII.24-p1.1"></A>Chapter 24.&#8212;How We Must Understand that Breathing of God by Which &#8220;The First Man Was Made a Living Soul,&#8221; And that Also by Which the Lord Conveyed His Spirit to His Disciples When He Said, &#8220;Receive Ye the Holy Ghost.&#8221;</span></p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XIII.24-p2"></A>Some have hastily supposed from the words, &#8220;God breathed into Adam&#146;s nostrils the breath of life, and man became a living soul,&nbsp;<A NAME="fr_623"></A><A HREF="#fn_623"><FONT SIZE="1">624</FONT></A>
+&#8221; that a soul was not then first given to man, but that the soul already given was quickened by the Holy Ghost. &#160;They are encouraged in this supposition by the fact that the Lord Jesus after His resurrection breathed on His disciples, and said, &#8220;Receive ye the Holy Spirit.&#8221;&nbsp;<A NAME="fr_624"></A><A HREF="#fn_624"><FONT SIZE="1">625</FONT></A>
+&#160; From this they suppose that the same thing was effected in either case, as if the evangelist had gone on to say, And they became living souls.&#160; But if he had made this addition, we should only understand that the Spirit is in some way the life of souls, and that without Him reasonable souls must be accounted dead, though their bodies seem to live before our eyes.&#160; But that this was not what happened when man was created, the very words of the narrative sufficiently show:&#160; &#8220;And God made man dust of the earth;&#8221; which some have thought to render more clearly by the words, &#8220;And God formed man of the clay of the earth.&#8221;&#160; For it had before been said that &#8220;there went up a mist from the earth, and watered the whole face of the ground,&#8221;&nbsp;<A NAME="fr_625"></A><A HREF="#fn_625"><FONT SIZE="1">626</FONT></A>
+ in order that the reference to clay, formed of this moisture and dust, might be understood.&#160; For on this verse there immediately follows the announcement, &#8220;And God created man dust of the earth;&#8221; so those Greek manuscripts have it from which this passage has been translated into Latin.&#160; But whether one prefers to read &#8220;<i>created</i>&#8221; or &#8220;<i>formed</i>,&#8221; where the Greek reads <span class="Greek"><a name="iv.XIII.24-p5.2"></A>&#7956;&#960;&#955;&#945;&#963;&#949;&#957;</span>, is of little importance; yet &#8220;<i>formed</i>&#8221; is the better rendering.&#160; But those who preferred &#8220;created&#8221; thought they thus avoided the ambiguity arising from the fact, that in the Latin language the usage obtains that those are said to form a thing who frame some feigned and fictitious thing.&#160; This man, then, who was created of the dust of the earth, or of the moistened dust or clay,&#8212;this &#8220;dust of the earth&#8221; (that I may use the express words of Scripture) was made, as the apostle teaches, an animated body when he received a soul.&#160; This man, he says, &#8220;was made a living soul;&#8221; that is, this fashioned dust was made a living soul.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XIII.24-p6"></A>They say, Already he had a soul, else he would not be called a man; for man is not a body alone, nor a soul alone, but a being composed of both.&#160; This, indeed, is true, that the soul is not the whole man, but the better part of man; the body not the whole, but the inferior part of man; and that then, when both are joined, they receive the name of man, which, however, they do not severally lose even when we speak of them singly.&#160; For who is prohibited from saying, in colloquial usage, &#8220;That man is dead, and is now at rest or in torment,&#8221; though this can be spoken only of the soul; or &#8220;He is buried in such and such a place,&#8221; though this refers only to the body?&#160; Will they say that Scripture follows no such usage?&#160; On the contrary, it so thoroughly adopts it, that even while a man is alive, and body and soul are united, it calls each of them singly by the name &#8220;<i>man</i>,&#8221; speaking of the soul as the &#8220;inward man,&#8221; and of the body as the &#8220;outward man,&#8221;&nbsp;<A NAME="fr_626"></A><A HREF="#fn_626"><FONT SIZE="1">627</FONT></A>
+ as if there were two men, though both together are indeed but one.&#160; But we must understand in what sense man is said to be in the image of God, and is yet dust, and to return to the dust.&#160; The former is spoken of the rational soul, which God by His breathing, or, to speak more appropriately, by His inspiration, conveyed to man, that is, to his body; but the latter refers to his body, which God formed of the dust, and to which a soul was given, that it might become a living body, that is, that man might become a living soul.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XIII.24-p8"></A>Wherefore, when our Lord breathed on His disciples, and said, &#8220;Receive ye the Holy Ghost,&#8221; He certainly wished it to be understood that the Holy Ghost was not only the Spirit of the Father, but of the only begotten Son Himself.&#160; For the same Spirit is, indeed, the Spirit of the Father and of the Son, making with them the trinity of Father, Son, and Spirit, not a creature, but the Creator.&#160; For neither was that material breath which proceeded from the mouth of His flesh the very substance and nature of the Holy Spirit, but rather the intimation, as I said, that the Holy Spirit was common to the Father and to the Son; for they have not each a separate Spirit, but both one and the same.&#160; Now this Spirit is always spoken of in sacred Scripture by the Greek word  <span class="Greek"><a name="iv.XIII.24-p8.1"></A>&#960;&#957;&#949;&#8166;&#956;&#945;</span>, as the Lord, too, named Him in the place cited when He gave Him to His disciples, and intimated the gift by the breathing of His lips; and there does not occur to me any place in the whole Scriptures where He is otherwise named.&#160; But in this passage where it is said, &#8220;And the Lord formed man dust of the earth, and breathed, or inspired, into his face the breath of life;&#8221; the Greek has not <span class="Greek"><a name="iv.XIII.24-p8.2"></A>&#960;&#957;&#949;&#8166;&#956;&#945;</span>, the usual word for the Holy Spirit, but  <span class="Greek"><a name="iv.XIII.24-p8.3"></A>&#960;&#957;&#959;&#8053;</span>, a word more  <A NAME="page_260"><FONT SIZE=1 COLOR=GREEN>p. 260</FONT></A> <a name="iv.XIII.24-Page_260"></A>  frequently used of the creature than of the Creator; and for this reason some Latin interpreters have preferred to render it by &#8220;breath&#8221; rather than &#8220;spirit.&#8221;&#160; For this word occurs also in the Greek in <a href="../../../../bib/kjv/isa007.html#016">Isa. 7.16</a><a name="iv.XIII.24-p8.4"></A> where God says, &#8220;I have made all breath,&#8221; meaning, doubtless, all souls. Accordingly, this word <span class="Greek"><a name="iv.XIII.24-p8.5"></A>&#960;&#957;&#959;&#8053;</span> is sometimes rendered &#8220;breath,&#8221; sometimes &#8220;spirit,&#8221; sometimes &#8220;inspiration,&#8221; sometimes &#8220;aspiration,&#8221; sometimes &#8220;soul,&#8221; even when it is used of God.&#160; <span class="Greek"><a name="iv.XIII.24-p8.6"></A>&#928;&#957;&#949;&#8166;&#956;&#945;</span>, on the other hand, is uniformly rendered &#8220;spirit,&#8221; whether of man, of whom the apostle says, &#8220;For what man knoweth the things of a man, save the spirit of man which is in him?&#8221;&nbsp;<A NAME="fr_627"></A><A HREF="#fn_627"><FONT SIZE="1">628</FONT></A>
+ or of beast, as in the book of Solomon, &#8220;Who knoweth the spirit of man that goeth upward, and the spirit of the beast that goeth downward to the earth?&#8221;&nbsp;<A NAME="fr_628"></A><A HREF="#fn_628"><FONT SIZE="1">629</FONT></A>
+ or of that physical spirit which is called wind, for so the Psalmist calls it:&#160; &#8220;Fire and hail; snow and vapors; stormy wind;&#8221;&nbsp;<A NAME="fr_629"></A><A HREF="#fn_629"><FONT SIZE="1">630</FONT></A>
+ or of the uncreated Creator Spirit, of whom the Lord said in the gospel, &#8220;Receive ye the Holy Ghost,&#8221; indicating the gift by the breathing of His mouth; and when He says, &#8220;Go ye and baptize all nations in the name of the Father, of the Son, and of the Holy Ghost,&#8221;&nbsp;<A NAME="fr_630"></A><A HREF="#fn_630"><FONT SIZE="1">631</FONT></A>
+ words which very expressly and excellently commend the Trinity; and where it is said, &#8220;God is a Spirit;&#8221;&nbsp;<A NAME="fr_631"></A><A HREF="#fn_631"><FONT SIZE="1">632</FONT></A>
+ and in very many other places of the sacred writings.&#160; In all these quotations from Scripture we do not find in the Greek the word  <span class="Greek"><a name="iv.XIII.24-p13.2"></A>&#960;&#957;&#959;&#8053;</span> used, but <span class="Greek"><a name="iv.XIII.24-p13.3"></A>&#960;&#957;&#949;&#8166;&#956;&#945;</span>, and in the Latin, not <i>flatus</i>, but <i>spiritus</i>.&#160; Wherefore, referring again to that place where it is written, &#8220;He inspired,&#8221; or to speak more properly, &#8220;breathed into his face the breath of life,&#8221; even though the Greek had not used <span class="Greek"><a name="iv.XIII.24-p13.4"></A>&#960;&#957;&#959;&#8053;</span> (as it has) but <span class="Greek"><a name="iv.XIII.24-p13.5"></A>&#960;&#957;&#949;&#8166;&#956;&#945;</span>, it would not on that account necessarily follow that the Creator Spirit, who in the Trinity is distinctively called the Holy Ghost, was meant, since, as has been said, it is plain that <span class="Greek"><a name="iv.XIII.24-p13.6"></A>&#960;&#957;&#949;&#8166;&#956;&#945;</span> is used not only of the Creator, but also of the creature.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XIII.24-p14"></A>But, say they, when the Scripture used the word &#8220;spirit,&#8221;&nbsp;<A NAME="fr_632"></A><A HREF="#fn_632"><FONT SIZE="1">633</FONT></A>
+ it would not have added &#8220;of life&#8221; unless it meant us to understand the Holy Spirit; nor, when it said, &#8220;Man became a soul,&#8221; would it also have inserted the word &#8220;living&#8221; unless that life of the soul were signified which is imparted to it from above by the gift of God.&#160; For, seeing that the soul by itself has a proper life of its own, what need, they ask, was there of adding living, save only to show that the life which is given it by the Holy Spirit was meant?&#160; What is this but to fight strenuously for their own conjectures, while they carelessly neglect the teaching of Scripture?&#160; Without troubling themselves much, they might have found in a preceding page of this very book of Genesis the words, &#8220;Let the earth bring forth the living soul,&#8221;&nbsp;<A NAME="fr_633"></A><A HREF="#fn_633"><FONT SIZE="1">634</FONT></A>
+ when all the terrestrial animals were created.&#160; Then at a slight interval, but still in the same book, was it impossible for them to notice this verse, &#8220;All in whose nostrils was the breath of life, of all that was in the dry land, died,&#8221; by which it was signified that all the animals which lived on the earth had perished in the deluge?&#160; If, then, we find that Scripture is accustomed to speak both of the &#8220;living soul&#8221; and the &#8220;spirit of life&#8221; even in reference to beasts; and if in this place, where it is said, &#8220;All things which have the spirit of life,&#8221; the word  <span class="Greek"><a name="iv.XIII.24-p16.2"></A>&#960;&#957;&#959;&#8053;</span>, not <span class="Greek"><a name="iv.XIII.24-p16.3"></A>&#960;&#957;&#949;&#8166;&#956;&#945;</span>, is used; why may we not say, What need was there to add &#8220;living,&#8221; since the soul cannot exist without being alive? or, What need to add &#8220;of life&#8221; after the word spirit?&#160; But we understand that Scripture used these expressions in its ordinary style so long as it speaks of animals, that is, animated bodies, in which the soul serves as the residence of sensation; but when man is spoken of, we forget the ordinary and established usage of Scripture, whereby it signifies that man received a rational soul, which was not produced out of the waters and the earth like the other living creatures, but was created by the breath of God.&#160; Yet this creation was ordered that the human soul should live in an animal body, like those other animals of which the Scripture said, &#8220;Let the earth produce every living soul,&#8221; and regarding which it again says that in them is the breath of life, where the word <span class="Greek"><a name="iv.XIII.24-p16.4"></A>&#960;&#957;&#959;&#8053;</span> and not <span class="Greek"><a name="iv.XIII.24-p16.5"></A>&#960;&#957;&#949;&#8166;&#956;&#945;</span> is used in the Greek, and where certainly not the Holy Spirit, but their spirit, is signified under that name.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XIII.24-p17"></A>But, again, they object that breath is understood to have been emitted from the mouth of God; and if we believe that is the soul, we must consequently acknowledge it to be of the same substance, and equal to that wisdom, which says, &#8220;I come out of the mouth of the Most High.&#8221;&nbsp;<A NAME="fr_634"></A><A HREF="#fn_634"><FONT SIZE="1">635</FONT></A>
+&#160; Wisdom, indeed, does not say it was breathed out of the mouth of God, but proceeded out of it.&#160; But as we are able, when we breathe, to make a breath, not of our own human nature, but of the surrounding air, which we inhale and exhale as we draw our breath and breathe again, so almighty God was able to make breath, not of His own nature, nor of the creature beneath Him, but even of nothing; and this breath, when He communicated it to man&#146;s body, He is most  <A NAME="page_261"><FONT SIZE=1 COLOR=GREEN>p. 261</FONT></A> <a name="iv.XIII.24-Page_261"></A>  appropriately said to have breathed or inspired,&#8212;the Immaterial breathing it also immaterial, but the Immutable not also the immutable; for it was created, He uncreated.&#160; Yet that these persons who are forward to quote Scripture, and yet know not the usages of its language, may know that not only what is equal and consubstantial with God is said to proceed out of His mouth, let them hear or read what God says:&#160; &#8220;So then because thou art lukewarm, and neither cold nor hot, I will spue thee out of my mouth.&#8221;&nbsp;<A NAME="fr_635"></A><A HREF="#fn_635"><FONT SIZE="1">636</FONT></A>
+</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XIII.24-p20"></A>There is no ground, then, for our objecting, when the apostle so expressly distinguishes the animal body from the spiritual&#8212;that is to say, the body in which we now are from that in which we are to be.&#160; He says, &#8220;It is sown a natural body, it is raised a spiritual body.&#160; There is a natural body, and there is a spiritual body.&#160; And so it is written, The first man Adam was made a living soul; the last Adam was made a quickening spirit.&#160; Howbeit that was not first which is spiritual, but that which is natural; and afterward that which is spiritual.&#160; The first man is of the earth, earthy; the second man is the Lord from heaven.&#160; As is the earthy, such are they also that are earthy; and as is the heavenly, such are they also that are heavenly.&#160; And as we have borne the image of the earthy, we shall also bear the image of the heavenly.&#8221;&nbsp;<A NAME="fr_636"></A><A HREF="#fn_636"><FONT SIZE="1">637</FONT></A>
+&#160; Of all which words of his we have previously spoken.&#160; The animal body, accordingly, in which the apostle says that the first man Adam was made, was not so made that it could not die at all, but so that it should not die unless he should have sinned.&#160; That body, indeed, which shall be made spiritual and immortal by the quickening Spirit shall not be able to die at all; as the soul has been created immortal, and therefore, although by sin it may be said to die, and does lose a certain life of its own, namely, the Spirit of God, by whom it was enabled to live wisely and blessedly, yet it does not cease living a kind of life, though a miserable, because it is immortal by creation.&#160; So, too, the rebellious angels, though by sinning they did in a sense die, because they forsook God, the Fountain of life, which while they drank they were able to live wisely and well, yet they could not so die as to utterly cease living and feeling, for they are immortals by creation.&#160; And so, after the final judgment, they shall be hurled into the second death, and not even there be deprived of life or of sensation, but shall suffer torment.&#160; But those men who have been embraced by God&#146;s grace, and are become the fellow-citizens of the holy angels who have continued in bliss, shall never more either sin or die, being endued with spiritual bodies; yet, being clothed with immortality, such as the angels enjoy, of which they cannot be divested even by sinning, the nature of their flesh shall continue the same, but all carnal corruption and unwieldiness shall be removed.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XIII.24-p22"></A>There remains a question which must be discussed, and, by the help of the Lord God of truth, solved:&#160; If the motion of concupiscence in the unruly members of our first parents arose out of their sin, and only when the divine grace deserted them; and if it was on that occasion that their eyes were opened to see, or, more exactly, notice their nakedness, and that they covered their shame because the shameless motion of their members was not subject to their will,&#8212;how, then, would they have begotten children had they remained sinless as they were created?&#160; But as this book must be concluded, and so large a question cannot be summarily disposed of, we may relegate it to the following book, in which it will be more conveniently treated.</p>  
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_623"></A><A HREF="1020391.html#fr_623">259:624</A> <a name="iv.XIII.24-p2.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XIII.24-p3"></A> <a href="../../../../bib/kjv/gen002.html#007">Gen. 2.7</a><a name="iv.XIII.24-p3.1"></A>.</p>
+<A NAME="fn_624"></A><A HREF="1020391.html#fr_624">259:625</A> <a name="iv.XIII.24-p3.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XIII.24-p4"></A> <a href="../../../../bib/kjv/joh020.html#022">John 20.22</a><a name="iv.XIII.24-p4.1"></A>.</p>
+<A NAME="fn_625"></A><A HREF="1020391.html#fr_625">259:626</A> <a name="iv.XIII.24-p4.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XIII.24-p5"></A> <a href="../../../../bib/kjv/gen002.html#006">Gen. 2.6</a><a name="iv.XIII.24-p5.1"></A>.</p>
+<A NAME="fn_626"></A><A HREF="1020391.html#fr_626">259:627</A> <a name="iv.XIII.24-p6.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XIII.24-p7"></A> &#160; <a href="../../../../bib/kjv/co2004.html#016">2 Cor. 4.16</a><a name="iv.XIII.24-p7.1"></A>.</p>
+<A NAME="fn_627"></A><A HREF="1020391.html#fr_627">260:628</A> <a name="iv.XIII.24-p8.7"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XIII.24-p9"></A> <a href="../../../../bib/kjv/co1002.html#011">1 Cor. 2.11</a><a name="iv.XIII.24-p9.1"></A>.</p>
+<A NAME="fn_628"></A><A HREF="1020391.html#fr_628">260:629</A> <a name="iv.XIII.24-p9.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XIII.24-p10"></A> <a href="../../../../bib/kjv/ecc003.html#021">Eccles. 3.21</a><a name="iv.XIII.24-p10.1"></A>.</p>
+<A NAME="fn_629"></A><A HREF="1020391.html#fr_629">260:630</A> <a name="iv.XIII.24-p10.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XIII.24-p11"></A> <a href="../../../../bib/kjv/psa148.html#008">Ps. 148.8</a><a name="iv.XIII.24-p11.1"></A>.</p>
+<A NAME="fn_630"></A><A HREF="1020391.html#fr_630">260:631</A> <a name="iv.XIII.24-p11.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XIII.24-p12"></A> <a href="../../../../bib/kjv/mat028.html#019">Matt. 28.19</a><a name="iv.XIII.24-p12.1"></A>.</p>
+<A NAME="fn_631"></A><A HREF="1020391.html#fr_631">260:632</A> <a name="iv.XIII.24-p12.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XIII.24-p13"></A> <a href="../../../../bib/kjv/joh004.html#024">John 4.24</a><a name="iv.XIII.24-p13.1"></A>.</p>
+<A NAME="fn_632"></A><A HREF="1020391.html#fr_632">260:633</A> <a name="iv.XIII.24-p14.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XIII.24-p15"></A> &#8220;Breath,&#8221; Eng. ver.</p>
+<A NAME="fn_633"></A><A HREF="1020391.html#fr_633">260:634</A> <a name="iv.XIII.24-p15.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XIII.24-p16"></A> <a href="../../../../bib/kjv/gen001.html#024">Gen. 1.24</a><a name="iv.XIII.24-p16.1"></A>.</p>
+<A NAME="fn_634"></A><A HREF="1020391.html#fr_634">260:635</A> <a name="iv.XIII.24-p17.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XIII.24-p18"></A> <a href="../../../../bib/apo/sir024.html#003">Ecclus. 24.3</a><a name="iv.XIII.24-p18.1"></A>.</p>
+<A NAME="fn_635"></A><A HREF="1020391.html#fr_635">261:636</A> <a name="iv.XIII.24-p18.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XIII.24-p19"></A> <a href="../../../../bib/kjv/rev003.html#016">Rev. 3.16</a><a name="iv.XIII.24-p19.1"></A>.</p>
+<A NAME="fn_636"></A><A HREF="1020391.html#fr_636">261:637</A> <a name="iv.XIII.24-p20.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XIII.24-p21"></A> <a href="../../../../bib/kjv/co1015.html#044">1 Cor. 15.44-49</a><a name="iv.XIII.24-p21.1"></A>.</p>
+<p><HR>
+<CENTER>
+<A HREF="1020392.html">Next: Book XIV</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/102/1020391.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/102/1020391.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/9qy9mdt'>tak.la/9qy9mdt</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/9qy9mdt';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+

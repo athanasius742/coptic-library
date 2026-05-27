@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Nicene and Post-Nicene Fathers, Vol. II: The City of God of St. Augustin | St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers St Augustine City of God">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Nicene and Post-Nicene Fathers, Vol. II: City of God: Chapter 8 | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/102/1020669.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:33:45+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/102/'>102</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/102/'>102</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Nicene and Post-Nicene Fathers, Vol. II:<br>City of God: Chapter 8</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="1020668.html" id="prev">Previous</A>&nbsp;
+<A HREF="1020670.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="iv.XXII.8"></A>  
+<p style="font-size: 16pt" class="c34"><a name="iv.XXII.8-p1"></A><span class="c2"><a name="iv.XXII.8-p1.1"></A>Chapter 8.&#8212;Of Miracles Which Were Wrought that the World Might Believe in Christ, and Which Have Not Ceased Since the World Believed.</span></p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p2"></A>Why, they say, are those miracles, which you affirm were wrought formerly, wrought no longer?&#160; I might, indeed, reply that miracles were necessary before the world believed, in order that it might believe.&#160; And whoever now-a-days demands to see prodigies that he may believe, is himself a great prodigy, because he does not believe, though the whole world does.&#160; But they make these objections for the sole purpose of insinuating that even those former miracles were never wrought.&#160; How, then, is it that everywhere Christ is celebrated with such firm belief in His resurrection and ascension?&#160; How is it that in enlightened times, in which every impossibility is rejected, the world has, without any miracles, believed things marvellously incredible?&#160; Or will they say that these things were credible, and therefore were credited?&#160; Why then do they themselves not believe?&#160; Our argument, therefore, is a summary one&#8212;either incredible things which were not witnessed have caused the world to believe other incredible things which both occurred and were witnessed, or this matter was so credible that it needed no miracles in proof of it, and therefore convicts these unbelievers of unpardonable scepticism.&#160; This I might say for the sake of refuting these most frivolous objectors.&#160; But we cannot deny that many miracles were wrought to confirm that one grand and health-giving miracle of Christ&#146;s ascension to heaven with the flesh in which He rose.&#160; For these most trustworthy books of ours contain in one narrative both the miracles that were wrought and the creed which they were wrought to confirm.&#160; The miracles were published that they might produce faith, and the faith which they produced brought them into  <A NAME="page_485"><FONT SIZE=1 COLOR=GREEN>p. 485</FONT></A> <a name="iv.XXII.8-Page_485"></A>  greater prominence.&#160; For they are read in congregations that they may be believed, and yet they would not be so read unless they were believed.&#160; For even now miracles are wrought in the name of Christ, whether by His sacraments or by the prayers or relics of His saints; but they are not so brilliant and conspicuous as to cause them to be published with such glory as accompanied the former miracles.&#160; For the canon of the sacred writings, which behoved to be closed,&nbsp;<A NAME="fr_1613"></A><A HREF="#fn_1613"><FONT SIZE="1">1614</FONT></A>
+ causes those to be everywhere recited, and to sink into the memory of all the congregations; but these modern miracles are scarcely known even to the whole population in the midst of which they are wrought, and at the best are confined to one spot.&#160; For frequently they are known only to a very few persons, while all the rest are ignorant of them, especially if the state is a large one; and when they are reported to other persons in other localities, there is no sufficient authority to give them prompt and unwavering credence, although they are reported to the faithful by the faithful.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p4"></A>The miracle which was wrought at Milan when I was there, and by which a blind man was restored to sight, could come to the knowledge of many; for not only is the city a large one, but also the emperor was there at the time, and the occurrence was witnessed by an immense concourse of people that had gathered to the bodies of the martyrs Protasius and Gervasius, which had long lain concealed and unknown, but were now made known to the bishop Ambrose in a dream, and discovered by him.&#160; By virtue of these remains the darkness of that blind man was scattered, and he saw the light of day.&nbsp;<A NAME="fr_1614"></A><A HREF="#fn_1614"><FONT SIZE="1">1615</FONT></A>
+</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p6"></A>But who but a very small number are aware of the cure which was wrought upon Innocentius, ex-advocate of the deputy prefecture, a cure wrought at Carthage, in my presence, and under my own eyes?&#160; For when I and my brother Alypius,&nbsp;<A NAME="fr_1615"></A><A HREF="#fn_1615"><FONT SIZE="1">1616</FONT></A>
+ who were not yet clergymen,&nbsp;<A NAME="fr_1616"></A><A HREF="#fn_1616"><FONT SIZE="1">1617</FONT></A>
+ though already servants of God, came from abroad, this man received us, and made us live with him, for he and all his household were devotedly pious.&#160; He was being treated by medical men for fistul&aelig;, of which he had a large number intricately seated in the rectum.&#160; He had already undergone an operation, and the surgeons were using every means at their command for his relief.&#160; In that operation he had suffered long-continued and acute pain; yet, among the many folds of the gut, one had escaped the operators so entirely, that, though they ought to have laid it open with the knife, they never touched it.&#160; And thus, though all those that had been opened were cured, this one remained as it was, and frustrated all their labor.&#160; The patient, having his suspicions awakened by the delay thus occasioned, and fearing greatly a second operation, which another medical man&#8212;one of his own domestics&#8212;had told him he must undergo, though this man had not even been allowed to witness the first operation, and had been banished from the house, and with difficulty allowed to come back to his enraged master&#146;s presence,&#8212;the patient, I say, broke out to the surgeons, saying, &#8220;Are you going to cut me again?&#160; Are you, after all, to fulfill the prediction of that man whom you would not allow even to be present?&#8221;&#160; The surgeons laughed at the unskillful doctor, and soothed their patient&#146;s fears with fair words and promises.&#160; So several days passed, and yet nothing they tried did him good.&#160; Still they persisted in promising that they would cure that fistula by drugs, without the knife.&#160; They called in also another old practitioner of great repute in that department, Ammonius (for he was still alive at that time); and he, after examining the part, promised the same result as themselves from their care and skill.&#160; On this great authority, the patient became confident, and, as if already well, vented his good spirits in facetious remarks at the expense of his domestic physician, who had predicted a second operation.&#160; To make a long story short, after a number of days had thus uselessly elapsed, the surgeons, wearied and confused, had at last to confess that he could only be cured by the knife.&#160; Agitated with excessive fear, he was terrified, and grew pale with dread; and when he collected himself and was able to speak, he ordered them to go away and never to return.&#160; Worn out with weeping, and driven by necessity, it occurred to him to call in an Alexandrian, who was at that time esteemed a wonderfully skillful operator, that he might perform the operation his rage would not suffer them to do.&#160; But when he had come, and examined with a professional eye the traces  <A NAME="page_486"><FONT SIZE=1 COLOR=GREEN>p. 486</FONT></A> <a name="iv.XXII.8-Page_486"></A>  of their careful work, he acted the part of a good man, and persuaded his patient to allow those same hands the satisfaction of finishing his cure which had begun it with a skill that excited his admiration, adding that there was no doubt his only hope of a cure was by an operation, but that it was thoroughly inconsistent with his nature to win the credit of the cure by doing the little that remained to be done, and rob of their reward men whose consummate skill, care, and diligence he could not but admire when be saw the traces of their work.&#160; They were therefore again received to favor; and it was agreed that, in the presence of the Alexandrian, they should operate on the fistula, which, by the consent of all, could now only be cured by the knife.&#160; The operation was deferred till the following day.&#160; But when they had left, there arose in the house such a wailing, in sympathy with the excessive despondency of the master, that it seemed to us like the mourning at a funeral, and we could scarcely repress it.&#160; Holy men were in the habit of visiting him daily; Saturninus of blessed memory, at that time bishop of Uzali, and the presbyter Gelosus, and the deacons of the church of Carthage; and among these was the bishop Aurelius, who alone of them all survives,&#8212;a man to be named by us with due reverence,&#8212;and with him I have often spoken of this affair, as we conversed together about the wonderful works of God, and I have found that he distinctly remembers what I am now relating.&#160; When these persons visited him that evening according to their custom, he besought them, with pitiable tears, that they would do him the honor of being present next day at what he judged his funeral rather than his suffering.&#160; For such was the terror his former pains had produced, that he made no doubt he would die in the hands of the surgeons.&#160; They comforted him, and exhorted him to put his trust in God, and nerve his will like a man.&#160; Then we went to prayer; but while we, in the usual way, were kneeling and bending to the ground, he cast himself down, as if some one were hurling him violently to the earth, and began to pray; but in what a manner, with what earnestness and emotion, with what a flood of tears, with what groans and sobs, that shook his whole body, and almost prevented him speaking, who can describe!&#160; Whether the others prayed, and had not their attention wholly diverted by this conduct, I do not know.&#160; For myself, I could not pray at all.&#160; This only I briefly said in my heart:&#160; &#8220;O Lord, what prayers of Thy people dost Thou hear if Thou hearest not these?&#8221;&#160; For it seemed to me that nothing could be added to this prayer, unless he expired in praying.&#160; We rose from our knees, and, receiving the blessing of the bishop, departed, the patient beseeching his visitors to be present next morning, they exhorting him to keep up his heart.&#160; The dreaded day dawned.&#160; The servants of God were present, as they had promised to be; the surgeons arrived; all that the circumstances required was ready; the frightful instruments are produced; all look on in wonder and suspense.&#160; While those who have most influence with the patient are cheering his fainting spirit, his limbs are arranged on the couch so as to suit the hand of the operator; the knots of the bandages are untied; the part is bared; the surgeon examines it, and, with knife in hand, eagerly looks for the sinus that is to be cut.&#160; He searches for it with his eyes; he feels for it with his finger; he applies every kind of scrutiny:&#160; he finds a perfectly firm cicatrix!&#160; No words of mine can describe the joy, and praise, and thanksgiving to the merciful and almighty God which was poured from the lips of all, with tears of gladness.&#160; Let the scene be imagined rather than described!</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p9"></A>In the same city of Carthage lived Innocentia, a very devout woman of the highest rank in the state.&#160; She had cancer in one of her breasts, a disease which, as physicians say, is incurable.&#160; Ordinarily, therefore, they either amputate, and so separate from the body the member on which the disease has seized, or, that the patient&#146;s life may be prolonged a little, though death is inevitable even if somewhat delayed, they abandon all remedies, following, as they say, the advice of Hippocrates.&#160; This the lady we speak of had been advised to by a skillful physician, who was intimate with her family; and she betook herself to God alone by prayer.&#160; On the approach of Easter, she was instructed in a dream to wait for the first woman that came out from the baptistery&nbsp;<A NAME="fr_1617"></A><A HREF="#fn_1617"><FONT SIZE="1">1618</FONT></A>
+ after being baptized, and to ask her to make the sign of Christ upon her sore.&#160; She did so, and was immediately cured.&#160; The physician who had advised her to apply no remedy if she wished to live a little longer, when he had examined her after this, and found that she who, on his former examination, was afflicted with that disease was now perfectly cured, eagerly asked her what remedy she had used, anxious, as we may well believe, to discover the drug which should defeat the decision of Hippocrates.&#160; But when she told him what had happened, he is said to have replied, with reli  <A NAME="page_487"><FONT SIZE=1 COLOR=GREEN>p. 487</FONT></A> <a name="iv.XXII.8-Page_487"></A>  gious politeness, though with a contemptuous tone, and an expression which made her fear he would utter some blasphemy against Christ, &#8220;I thought you would make some great discovery to me.&#8221;&#160; She, shuddering at his indifference, quickly replied, &#8220;What great thing was it for Christ to heal a cancer, who raised one who had been four days dead?&#8221;&#160; When, therefore, I had heard this, I was extremely indignant that so great a miracle wrought in that well-known city, and on a person who was certainly not obscure, should not be divulged, and I considered that she should be spoken to, if not reprimanded on this score.&#160; And when she replied to me that she had not kept silence on the subject, I asked the women with whom she was best acquainted whether they had ever heard of this before.&#160; They told me they knew nothing of it.&#160; &#8220;See,&#8221; I said, &#8220;what your not keeping silence amounts to, since not even those who are so familiar with you know of it.&#8221;&#160; And as I had only briefly heard the story, I made her tell how the whole thing happened, from beginning to end, while the other women listened in great astonishment, and glorified God.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p11"></A>A gouty doctor of the same city, when he had given in his name for baptism, and had been prohibited the day before his baptism from being baptized that year, by black woolly-haired boys who appeared to him in his dreams, and whom he understood to be devils, and when, though they trod on his feet, and inflicted the acutest pain he had ever yet experienced, he refused to obey them, but overcame them, and would not defer being washed in the laver of regeneration, was relieved in the very act of baptism, not only of the extraordinary pain he was tortured with, but also of the disease itself, so that, though he lived a long time afterwards, he never suffered from gout; and yet who knows of this miracle?&#160; We, however, do know it, and so, too, do the small number of brethren who were in the neighborhood, and to whose ears it might come.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p12"></A>An old comedian of Curubis&nbsp;<A NAME="fr_1618"></A><A HREF="#fn_1618"><FONT SIZE="1">1619</FONT></A>
+ was cured at baptism not only of paralysis, but also of hernia, and, being delivered from both afflictions, came up out of the font of regeneration as if he had had nothing wrong with his body.&#160; Who outside of Curubis knows of this, or who but a very few who might hear it elsewhere?&#160; But we, when we heard of it, made the man come to Carthage, by order of the holy bishop Aurelius, although we had already ascertained the fact on the information of persons whose word we could not doubt.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p14"></A>Hesperius, of a tribunitian family, and a neighbor of our own,&nbsp;<A NAME="fr_1619"></A><A HREF="#fn_1619"><FONT SIZE="1">1620</FONT></A>
+ has a farm called Zubedi in the Fussalian district;&nbsp;<A NAME="fr_1620"></A><A HREF="#fn_1620"><FONT SIZE="1">1621</FONT></A>
+ and, finding that his family, his cattle, and his servants were suffering from the malice of evil spirits, he asked our presbyters, during my absence, that one of them would go with him and banish the spirits by his prayers.&#160; One went, offered there the sacrifice of the body of Christ, praying with all his might that that vexation might cease.&#160; It did cease forthwith, through God&#146;s mercy.&#160; Now he had received from a friend of his own some holy earth brought from Jerusalem, where Christ, having been buried, rose again the third day.&#160; This earth he had hung up in his bedroom to preserve himself from harm.&#160; But when his house was purged of that demoniacal invasion, he began to consider what should be done with the earth; for his reverence for it made him unwilling to have it any longer in his bedroom.&#160; It so happened that I and Maximinus bishop of Synita, and then my colleague, were in the neighborhood.&#160; Hesperius asked us to visit him, and we did so.&#160; When he had related all the circumstances, he begged that the earth might be buried somewhere, and that the spot should be made a place of prayer where Christians might assemble for the worship of God.&#160; We made no objection:&#160; it was done as he desired.&#160; There was in that neighborhood a young countryman who was paralytic, who, when he heard of this, begged his parents to take him without delay to that holy place.&#160; When he had been brought there, he prayed, and forthwith went away on his own feet perfectly cured.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p17"></A>There is a country-seat called Victoriana, less than thirty miles from Hippo-regius.&#160; At it there is a monument to the Milanese martyrs, Protasius and Gervasius.&#160; Thither a young man was carried, who, when he was watering his horse one summer day at noon in a pool of a river, had been taken possession of by a devil.&#160; As he lay at the monument, near death, or even quite like a dead person, the lady of the manor, with her maids and religious attendants, entered the place for evening prayer and praise, as her custom was, and they began to sing hymns.&#160; At this sound the young man, as if electrified, was thoroughly aroused, and with frightful screaming seized the altar, and held it as if he did not dare or were not able to let it go, and as if he were fixed or tied to it; and the devil in him, with loud lamentation, besought that he might be spared, and confessed where and when and how he took possession of the youth.  <A NAME="page_488"><FONT SIZE=1 COLOR=GREEN>p. 488</FONT></A> <a name="iv.XXII.8-Page_488"></A>  At last, declaring that he would go out of him, he named one by one the parts of his body which he threatened to mutilate as he went out and with these words he departed from the man.&#160; But his eye, falling out on his cheek, hung by a slender vein as by a root, and the whole of the pupil which had been black became white.&#160; When this was witnessed by those present (others too had now gathered to his cries, and had all joined in prayer for him), although they were delighted that he had recovered his sanity of mind, yet, on the other hand, they were grieved about his eye, and said he should seek medical advice.&#160; But his sister&#146;s husband, who had brought him there, said, &#8220;God, who has banished the devil, is able to restore his eye at the prayers of His saints.&#8221;&#160; Therewith he replaced the eye that was fallen out and hanging, and bound it in its place with his handkerchief as well as he could, and advised him not to loose the bandage for seven days.&#160; When he did so, he found it quite healthy.&#160; Others also were cured there, but of them it were tedious to speak.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p18"></A>I know that a young woman of Hippo was immediately dispossessed of a devil, on anointing herself with oil, mixed with the tears of the prebsyter who had been praying for her.&#160; I know also that a bishop once prayed for a demoniac young man whom he never saw, and that he was cured on the spot.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p19"></A>There was a fellow-townsman of ours at Hippo, Florentius, an old man, religious and poor, who supported himself as a tailor.&#160; Having lost his coat, and not having means to buy another, he prayed to the Twenty Martyrs,&nbsp;<A NAME="fr_1621"></A><A HREF="#fn_1621"><FONT SIZE="1">1622</FONT></A>
+ who have a very celebrated memorial shrine in our town, begging in a distinct voice that he might be clothed.&#160; Some scoffing young men, who happened to be present, heard him, and followed him with their sarcasm as he went away, as if he had asked the martyrs for fifty pence to buy a coat.&#160; But he, walking on in silence, saw on the shore a great fish, gasping as if just cast up, and having secured it with the good-natured assistance of the youths, he sold it for curing to a cook of the name of Catosus, a good Christian man, telling him how he had come by it, and receiving for it three hundred pence, which he laid out in wool, that his wife might exercise her skill upon, and make into a coat for him.&#160; But, on cutting up the fish, the cook found a gold ring in its belly; and forthwith, moved with compassion, and influenced, too, by religious fear, gave it up to the man, saying, &#8220;See how the Twenty Martyrs have clothed you.&#8221;</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p21"></A>When the bishop Projectus was bringing the relics of the most glorious martyr Stephen to the waters of Tibilis, a great concourse of people came to meet him at the shrine.&#160; There a blind woman entreated that she might be led to the bishop who was carrying the relics.&#160; He gave her the flowers he was carrying.&#160; She took them, applied them to her eyes, and forthwith saw.&#160; Those who were present were astounded, while she, with every expression of joy, preceded them, pursuing her way without further need of a guide.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p22"></A>Lucillus bishop of Sinita, in the neighborhood of the colonial town of Hippo, was carrying in procession some relics of the same martyr, which had been deposited in the castle of Sinita.&#160; A fistula under which he had long labored, and which his private physician was watching an opportunity to cut, was suddenly cured by the mere carrying of that sacred fardel,&nbsp;<A NAME="fr_1622"></A><A HREF="#fn_1622"><FONT SIZE="1">1623</FONT></A>
+&#8212;at least, afterwards there was no trace of it in his body.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p24"></A>Eucharius, a Spanish priest, residing at Calama, was for a long time a sufferer from stone.&#160; By the relics of the same martyr, which the bishop Possidius brought him, he was cured.&#160; Afterwards the same priest, sinking under another disease, was lying dead, and already they were binding his hands.&#160; By the succor of the same martyr he was raised to life, the priest&#146;s cloak having been brought from the oratory and laid upon the corpse.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p25"></A>There was there an old nobleman named Martial, who had a great aversion to the Christian religion, but whose daughter was a Christian, while her husband had been baptized that same year.&#160; When he was ill, they besought him with tears and prayers to become a Christian, but he positively refused, and dismissed them from his presence in a storm of indignation.&#160; It occurred to the son-in-law to go to the oratory of St. Stephen, and there pray for him with all earnestness that God might give him a right mind, so that he should not delay believing in Christ.&#160; This he did with great groaning and tears, and the burning fervor of sincere piety; then, as he left the place, he took some of the flowers that were lying there, and, as it was already night, laid them by his father&#146;s head, who so slept.&#160; And lo! before dawn, he cries out for some one to run for the bishop; but he happened at that time to be with me at Hippo.&#160; So when he had heard that he was from home, he asked the presbyters to come.&#160; They came.&#160; To the joy and amazement of all, he declared that he believed, and he was baptized.&#160; As long as he remained in life, these  <A NAME="page_489"><FONT SIZE=1 COLOR=GREEN>p. 489</FONT></A> <a name="iv.XXII.8-Page_489"></A>  words were ever on his lips:&#160; &#8220;Christ, receive my spirit,&#8221; though he was not aware that these were the last words of the most blessed Stephen when he was stoned by the Jews.&#160; They were his last words also, for not long after he himself also gave up the ghost.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p26"></A>There, too, by the same martyr, two men, one a citizen, the other a stranger, were cured of gout; but while the citizen was absolutely cured, the stranger was only informed what he should apply when the pain returned; and when he followed this advice, the pain was at once relieved.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p27"></A>Audurus is the name of an estate, where there is a church that contains a memorial shrine of the martyr Stephen.&#160; It happened that, as a little boy was playing in the court, the oxen drawing a wagon went out of the track and crushed him with the wheel, so that immediately he seemed at his last gasp.&#160; His mother snatched him up, and laid him at the shrine, and not only did he revive, but also appeared uninjured.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p28"></A>A religious female, who lived at Caspalium, a neighboring estate, when she was so ill as to be despaired of, had her dress brought to this shrine, but before it was brought back she was gone.&#160; However, her parents wrapped her corpse in the dress, and, her breath returning, she became quite well.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p29"></A>At Hippo a Syrian called Bassus was praying at the relics of the same martyr for his daughter, who was dangerously ill.&#160; He too had brought her dress with him to the shrine.&#160; But as he prayed, behold, his servants ran from the house to tell him she was dead.&#160; His friends, however, intercepted them, and forbade them to tell him, lest he should bewail her in public.&#160; And when he had returned to his house, which was already ringing with the lamentations of his family, and had thrown on his daughter&#146;s body the dress he was carrying, she was restored to life.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p30"></A>There, too, the son of a man, Iren&aelig;us, one of our tax-gatherers, took ill and died.&#160; And while his body was lying lifeless, and the last rites were being prepared, amidst the weeping and mourning of all, one of the friends who were consoling the father suggested that the body should be anointed with the oil of the same martyr.&#160; It was done, and he revived.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p31"></A>Likewise Eleusinus, a man of tribunitian rank among us, laid his infant son, who had died, on the shrine of the martyr, which is in the suburb where he lived, and, after prayer, which he poured out there with many tears, he took up his child alive.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p32"></A>What am I to do?&#160; I am so pressed by the promise of finishing this work, that I cannot record all the miracles I know; and doubtless several of our adherents, when they read what I have narrated, will regret that I have omitted so many which they, as well as I, certainly know.&#160; Even now I beg these persons to excuse me, and to consider how long it would take me to relate all those miracles, which the necessity of finishing the work I have undertaken forces me to omit.&#160; For were I to be silent of all others, and to record exclusively the miracles of healing which were wrought in the district of Calama and of Hippo by means of this martyr&#8212;I mean the most glorious Stephen&#8212;they would fill many volumes; and yet all even of these could not be collected, but only those of which narratives have been written for public recital.&#160; For when I saw, in our own times, frequent signs of the presence of divine powers similar to those which had been given of old, I desired that narratives might be written, judging that the multitude should not remain ignorant of these things.&#160; It is not yet two years since these relics were first brought to Hippo-regius, and though many of the miracles which have been wrought by it have not, as I have the most certain means of knowing, been recorded, those which have been published amount to almost seventy at the hour at which I write.&#160; But at Calama, where these relics have been for a longer time, and where more of the miracles were narrated for public information, there are incomparably more.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p33"></A>At Uzali, too, a colony near Utica, many signal miracles were, to my knowledge, wrought by the same martyr, whose relics had found a place there by direction of the bishop Evodius, long before we had them at Hippo.&#160; But there the custom of publishing narratives does not obtain, or, I should say, did not obtain, for possibly it may now have been begun.&#160; For, when I was there recently, a woman of rank, Petronia, had been miraculously cured of a serious illness of long standing, in which all medical appliances had failed, and, with the consent of the above-named bishop of the place, I exhorted her to publish an account of it that might be read to the people.&#160; She most promptly obeyed, and inserted in her narrative a circumstance which I cannot omit to mention, though I am compelled to hasten on to the subjects which this work requires me to treat.&#160; She said that she had been persuaded by a Jew to wear next her skin, under all her clothes, a hair girdle, and on this girdle a ring, which, instead of a gem, had a stone which had been found in the kidneys of an ox.&#160; Girt with this charm, she was making her way to the threshold of the holy martyr.&#160; But, after leaving Carthage, and when she had been lodging in her own  <A NAME="page_490"><FONT SIZE=1 COLOR=GREEN>p. 490</FONT></A> <a name="iv.XXII.8-Page_490"></A>  demesne on the river Bagrada, and was now rising to continue her journey, she saw her ring lying before her feet. In great surprise she examined the hair girdle, and when she found it bound, as it had been, quite firmly with knots, she conjectured that the ring had been worn through and dropped off; but when she found that the ring was itself also perfectly whole, she presumed that by this great miracle she had received somehow a pledge of her cure, whereupon she untied the girdle, and cast it into the river, and the ring along with it.&#160; This is not credited by those who do not believe either that the Lord Jesus Christ came forth from His mother&#146;s womb without destroying her virginity, and entered among His disciples when the doors were shut; but let them make strict inquiry into this miracle, and if they find it true, let them believe those others.&#160; The lady is of distinction, nobly born, married to a nobleman.&#160; She resides at Carthage.&#160; The city is distinguished, the person is distinguished, so that they who make inquiries cannot fail to find satisfaction.&#160; Certainly the martyr himself, by whose prayers she was healed, believed on the Son of her who remained a virgin; on Him who came in among the disciples when the doors were shut; in fine,&#8212;and to this tends all that we have been retailing,&#8212;on Him who ascended into heaven with the flesh in which He had risen; and it is because he laid down his life for this faith that such miracles were done by his means.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p34"></A>Even now, therefore, many miracles are wrought, the same God who wrought those we read of still performing them, by whom He will and as He will; but they are not as well known, nor are they beaten into the memory, like gravel, by frequent reading, so that they cannot fall out of mind.&#160; For even where, as is now done among ourselves, care is taken that the pamphlets of those who receive benefit be read publicly, yet those who are present hear the narrative but once, and many are absent; and so it comes to pass that even those who are present forget in a few days what they heard, and scarcely one of them can be found who will tell what he heard to one who he knows was not present.</p>  
+<p style="font-size: 16pt" class="c21"><a name="iv.XXII.8-p35"></A>One miracle was wrought among ourselves, which, though no greater than those I have mentioned, was yet so signal and conspicuous, that I suppose there is no inhabitant of Hippo who did not either see or hear of it, none who could possibly forget it.&#160; There were seven brothers and three sisters of a noble family of the Cappadocian C&aelig;sarea, who were cursed by their mother, a new-made widow, on account of some wrong they had done her, and which she bitterly resented, and who were visited with so severe a punishment from Heaven, that all of them were seized with a hideous shaking in all their limbs.&#160; Unable, while presenting this loathsome appearance, to endure the eyes of their fellow-citizens, they wandered over almost the whole Roman world, each following his own direction.&#160; Two of them came to Hippo, a brother and a sister, Paulus and Palladia, already known in many other places by the fame of their wretched lot.&#160; Now it was about fifteen days before Easter when they came, and they came daily to church, and specially to the relics of the most glorious Stephen, praying that God might now be appeased, and restore their former health.&#160; There, and wherever they went, they attracted the attention of every one.&#160; Some who had seen them elsewhere, and knew the cause of their trembling, told others as occasion offered.&#160; Easter arrived, and on the Lord&#146;s day, in the morning, when there was now a large crowd present, and the young man was holding the bars of the holy place where the relics were, and praying, suddenly he fell down, and lay precisely as if asleep, but not trembling as he was wont to do even in sleep.&#160; All present were astonished.&#160; Some were alarmed, some were moved with pity; and while some were for lifting him up, others prevented them, and said they should rather wait and see what would result.&#160; And behold! he rose up, and trembled no more, for he was healed, and stood quite well, scanning those who were scanning him.&#160; Who then refrained himself from praising God?&#160; The whole church was filled with the voices of those who were shouting and congratulating him.&#160; Then they came running to me, where I was sitting ready to come into the church.&#160; One after another they throng in, the last comer telling me as news what the first had told me already; and while I rejoiced and inwardly gave God thanks, the young man himself also enters, with a number of others, falls at my knees, is raised up to receive my kiss.&#160; We go in to the congregation:&#160; the church was full, and ringing with the shouts of joy, &#8220;Thanks to God!&#160; Praised be God!&#8221; every one joining and shouting on all sides, &#8220;I have healed the people,&#8221; and then with still louder voice shouting again. &#160;Silence being at last obtained, the customary lessons of the divine Scriptures were read.&#160; And when I came to my sermon, I made a few remarks suitable to the occasion and the happy and joyful feeling, not desiring them to listen to me, but rather to consider the eloquence of God in this divine work.&#160; The man dined with us, and gave us a careful ac  <A NAME="page_491"><FONT SIZE=1 COLOR=GREEN>p. 491</FONT></A> <a name="iv.XXII.8-Page_491"></A>  count of his own, his mother&#146;s, and his family&#146;s calamity.&#160; Accordingly, on the following day, after delivering my sermon, I promised that next day I would read his narrative to the people.&nbsp;<A NAME="fr_1623"></A><A HREF="#fn_1623"><FONT SIZE="1">1624</FONT></A>
+&#160; And when I did so, the third day after Easter Sunday, I made the brother and sister both stand on the steps of the raised place from which I used to speak; and while they stood there their pamphlet was read.&nbsp;<A NAME="fr_1624"></A><A HREF="#fn_1624"><FONT SIZE="1">1625</FONT></A>
+&#160; The whole congregation, men and women alike, saw the one standing without any unnatural movement, the other trembling in all her limbs; so that those who had not before seen the man himself saw in his sister what the divine compassion had removed from him.&#160; In him they saw matter of congratulation, in her subject for prayer.&#160; Meanwhile, their pamphlet being finished, I instructed them to withdraw from the gaze of the people; and I had begun to discuss the whole matter somewhat more carefully, when lo! as I was proceeding, other voices are heard from the tomb of the martyr, shouting new congratulations.&#160; My audience turned round, and began to run to the tomb.&#160; The young woman, when she had come down from the steps where she had been standing, went to pray at the holy relics, and no sooner had she touched the bars than she, in the same way as her brother, collapsed, as if falling asleep, and rose up cured.&#160; While, then, we were asking what had happened, and what occasioned this noise of joy, they came into the basilica where we were, leading her from the martyr&#146;s tomb in perfect health.&#160; Then, indeed, such a shout of wonder rose from men and women together, that the exclamations and the tears seemed like never to come to an end.&#160; She was led to the place where she had a little before stood trembling.&#160; They now rejoiced that she was like her brother, as before they had mourned that she remained unlike him; and as they had not yet uttered their prayers in her behalf, they perceived that their intention of doing so had been speedily heard.&#160; They shouted God&#146;s praises without words, but with such a noise that our ears could scarcely bear it.&#160; What was there in the hearts of these exultant people but the faith of Christ, for which Stephen had shed his blood?</p>  
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_1613"></A><A HREF="1020669.html#fr_1613">485:1614</A> <a name="iv.XXII.8-p2.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XXII.8-p3"></A> Another reading has <i> diffamatum</i>, &#8220;published.&#8221;</p>
+<A NAME="fn_1614"></A><A HREF="1020669.html#fr_1614">485:1615</A> <a name="iv.XXII.8-p4.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XXII.8-p5"></A> A somewhat fuller account of this miracle is given by Augustin in the <i>Confessions</i>, ix. 16.&#160; See also <i>Serm.</i> 286, and Ambrose, <i>Ep.</i> 22.&#160; A translation of this epistle in full is given in Isaac Taylor&#146;s <i>Ancient Christianity</i>, ii. 242, where this miracle is taken as a specimen of the so-called miracles of that age, and submitted to a detailed examination.&#160; The result arrived at will be gathered from the following sentence:&#160; &#8220;In the Nicene Church, so lax were the notions of common morality, and in so feeble a manner did the fear of God influence the conduct of leading men, that, on occasions when the Church was to be served, and her assailants to be confounded, they did not scruple to take upon themselves the contrivance and execution of the most degrading impostures.&#8221;&#8212;P. 270.&#160; It is to be observed, however, that Augustin was, at least in this instance, one of the deceived.&#160; [On Augustin&#146;s views on post-apostolic miracles see Card. Newman, Essay on <i>Miracles</i>, Nitzsch, <i>Augustinus Lehre vom Wunder</i> (Berlin, 1865) and Schaff, <i>Church History</i>, vol. iii. 460, sqq.&#8212;P.S.]</p>
+<A NAME="fn_1615"></A><A HREF="1020669.html#fr_1615">485:1616</A> <a name="iv.XXII.8-p6.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XXII.8-p7"></A> Alypius was a countryman of Augustin, and one of his most attached friends.&#160; See the <i> Confessions</i>, passim.</p>
+<A NAME="fn_1616"></A><A HREF="1020669.html#fr_1616">485:1617</A> <a name="iv.XXII.8-p7.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XXII.8-p8"></A> Cleros.</p>
+<A NAME="fn_1617"></A><A HREF="1020669.html#fr_1617">486:1618</A> <a name="iv.XXII.8-p9.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XXII.8-p10"></A> Easter and Whitsuntide were the common seasons for administering baptism, though no rule was laid down till towards the end of the sixth century.&#160; Tertullian thinks these the most appropriate times, but says that every time is suitable.&#160; See Turtull, <i>de Baptismo</i>, c. 19.</p>
+<A NAME="fn_1618"></A><A HREF="1020669.html#fr_1618">487:1619</A> <a name="iv.XXII.8-p12.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XXII.8-p13"></A> A town near Carthage.</p>
+<A NAME="fn_1619"></A><A HREF="1020669.html#fr_1619">487:1620</A> <a name="iv.XXII.8-p14.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XXII.8-p15"></A> This may possibly mean a Christian.</p>
+<A NAME="fn_1620"></A><A HREF="1020669.html#fr_1620">487:1621</A> <a name="iv.XXII.8-p15.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XXII.8-p16"></A> Near Hippo.</p>
+<A NAME="fn_1621"></A><A HREF="1020669.html#fr_1621">488:1622</A> <a name="iv.XXII.8-p19.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XXII.8-p20"></A> Augustin&#146;s 325th sermon is in honor of these martyrs.</p>
+<A NAME="fn_1622"></A><A HREF="1020669.html#fr_1622">488:1623</A> <a name="iv.XXII.8-p22.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XXII.8-p23"></A> See Isaac Taylor&#146;s <i>Ancient Christianity</i>, ii. 354.</p>
+<A NAME="fn_1623"></A><A HREF="1020669.html#fr_1623">491:1624</A> <a name="iv.XXII.8-p35.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XXII.8-p36"></A> See Augustin&#146;s <i>Sermons</i>, 321.</p>
+<A NAME="fn_1624"></A><A HREF="1020669.html#fr_1624">491:1625</A> <a name="iv.XXII.8-p36.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="iv.XXII.8-p37"></A> <i>Sermon,</i> 322.</p>
+<p><HR>
+<CENTER>
+<A HREF="1020670.html">Next: Chapter 9</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/102/1020669.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/102/1020669.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/9xptg72'>tak.la/9xptg72</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/9xptg72';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+
