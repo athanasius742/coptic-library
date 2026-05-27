@@ -139,6 +139,9 @@ def main():
 
     # ---------------------------- root README --------------------------
     R = [
+        "This project is still in extremely early development, the shape of the repo, "
+        "along with the documentation files may change rapidly and unpredictably.",
+        "",
         "# 📚 Coptic Library · المكتبة القبطية الأرثوذكسية",
         "",
         "> **Free Coptic Orthodox Christian books** — Arabic theology, dogma and "
