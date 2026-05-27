@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Nicene and Post-Nicene Fathers, Ser. II, Vol. IV: Athanasius: Select Works and Letters, full text at St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Athanasius Works Letters">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Nicene and Post-Nicene Fathers, Ser. II, Vol. IV: Prolegomena.: The Third Exile, 356-362. | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/204/2040021.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:28:23+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/204/'>204</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/204/'>204</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Nicene and Post-Nicene Fathers, Ser. II, Vol. IV:<br>Prolegomena.: The Third Exile, 356-362.</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="2040020.html" id="prev">Previous</A>&nbsp;
+<A HREF="2040022.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="v.ii.ix"></A>
+<p style="font-size: 16pt" class="c6"><a name="v.ii.ix-p1"></A>  &sect;8. <i>The Third Exile,</i> 356&#8211;362.</p>  
+<p style="font-size: 16pt" class="c11"><a name="v.ii.ix-p2"></A>The third exile of Athanasius marks the summit of his achievement. Its commencement is the triumph, its conclusion the collapse of Arianism. It is true that after the death of Constantius the battle went on with variations of fortune for twenty years, mostly under the reign of an ardently Arian Emperor (364&#8211;378). But by 362 the utter lack of inner coherence in the Arian ranks was manifest to all; the issue of the fight might be postponed by circumstances but could not be in doubt. The break-up of the Arian power was due to its own lack of reality: as soon as it had a free hand, it began to go to pieces. But the watchful eye of Athanasius followed each step in the process from his hiding-place, and the event was greatly due to his powerful personality and ready pen, knowing whom to overwhelm and whom to conciliate, where to strike and where to spare. This period then of forced abstention from affairs was the most stirring in spiritual and literary activity in the whole life of Athanasius. It produced more than half of the treatises which fill this volume, and more than half of his entire extant works. With this we shall have to deal presently; but let it be noted once for all how completely the amazing power wielded by the wandering fugitive was based upon the devoted fidelity of Egypt to its pastor. Towns and villages, deserts and monasteries, the very tombs were scoured by the Imperial inquisitors in the search for Athanasius; but all in vain; not once do we hear of any suspicion of betrayal. The work of the golden decade was bearing its fruit.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p3"></A>(1.) On leaving the church of Theonas, Athanasius appears to have made his escape from the city. If for once we may hazard a conjecture, the numerous cells of the Nitrian desert offered a not too distant but fairly inpenetrable refuge. He must at any rate have selected a place where he could gain time to reflect on the situation, and above all ensure that he should be kept well informed of events from time to time. For in Athanasius we never see the panic-stricken outlaw; he is always the general meditating his next movement and full of the prospects of his cause. He made up his mind to appeal to Constantius in person. He could not believe that an Emperor would go back upon his solemn pledges, especially such a voluntary assurance as he had received after the death of Constans. Accordingly he drew up a carefully elaborated defence (<i>Ap. Const.</i> 1&#8211;26) dealing with the four principal charges against him, and set off through the Libyan&nbsp;<A NAME="fr_70"></A><A HREF="#fn_70"><FONT SIZE="1">71</FONT></A>
+ desert with the intention of crossing to Italy and finding Constantius at Milan. But while he was on his way, he encountered rumours confirming the reports of the wholesale banishment not only of the recalcitrants of Milan, but of Liberius of Rome and the great Hosius of Spain. Next came the news of the severe measures against Egyptian bishops, and of the banishment of sixteen of their number, coupled with the violence practised by the troops at Alexandria on Easter Day (p. 248 <i>sq</i>.); however, his journey was continued, until he received copies of letters from the Emperor, one denouncing him to the Alexandrians and recommending a new bishop, one George, as their future guide, the other summoning the princes of Auxumis to send Frumentius (<i>supr.</i> p. xlviii.) to Egypt in order that he might unlearn what he had been taught by &#145;the most wicked Athanasius&#146; and receive instruction from the &#145;venerable George.&#146; These letters, which shew how completely the pursuers were off the scent (p. 249), convinced Athanasius that a personal interview was out of the question. He returned &#145;into the desert,&#146; and at leisure completed his apology (pp. 249&#8211;253), with the view partly of possible future delivery, partly no doubt of literary circulation. Before turning back, however, he appears to have drawn up his letter to the bishops of Egypt and Libya, warning them against the formula (see p. 222) which was being tendered for their subscription, and encouraging them to endure persecution, which had already begun at least in Libya (<i>Ep. &AElig;g.</i>); the designation of George (&sect;7) was already known, but he had not arrived, nor had Secundus (19) reappeared in Egypt, at any rate not in Libya (he was there in Lent, 357, p. 294). The letter to the bishops, then, must have been written about Easter, 356; not long after, <A NAME="page_lii"><FONT SIZE=1 COLOR=GREEN>p. lii</FONT></A> <a name="v.ii.ix-Page_lii"></A>because it contains no details of the persecution in Egypt; not before, for the persecution had already begun, and Athanasius was already in Cyrenaica, whence he turned back not earlier than April (to allow time for Constantius (1) to hear that Athanasius was thought to have fled to Ethiopia, (2) to write to Egypt, (3) for copies of the letter to overtake Athanasius on his way to Italy. Constantius was at Milan Jan.&#8211;April).</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p5"></A>Meanwhile in Alexandria disorders had continued. The &#145;duke&#146; appears to have been either unable for a time, or to have thought it needless, to take possession of the churches; but we hear of a violent dispersion of worshippers from the neighbourhood of the cemetery on Easter Day (p. 249, cf. the Virgins <i>after Syrianus but before Heraclius,</i> p. 288); while throughout Egypt subscription to an Arianising formula was being enforced on the bishops under pain of expulsion. After Easter, a change of governor took place, Maximus of Nic&aelig;a (pp. 301 <i>sqq.,</i> 247) being succeeded by Cataphronius, who reached Alexandria on the 10th of June (<i>Hist. Aceph.</i> iv.). He was accompanied by a Count Heraclius, who brought a letter from Constantius threatening the heathen with severe measures (pp. 288, 290), unless active hostilities against the Athanasian party were begun (this letter was not the one given p. 249; Ath. rightly remarks &#145;it reflected great discredit upon the writer&#146;). Heraclius announced that by Imperial order the Churches were to be given up to the Arians, and compelled all the magistrates, including the functionaries of heathen temples, to sign an undertaking to execute the Imperial incitements to persecution, and to agree to receive as Bishop the Emperor&#146;s nominee. These incredible precautions shew the general esteem for Athanasius even outside the Church, and the misgivings felt at Court as to the reception of the new bishop. The Gentiles reluctantly agreed, and the next acts of violence were carried out with their aid, &#145;or rather with that of the more abandoned among them&#146; (p. 291). On the fourth day from the arrival of Cataphronius, that is in the early hours of Thursday, June 13, after a service (which had began overnight, pp. 290, 256 <i>fin., Hist. Aceph.</i> v.), just as all the congregation except a few women had left, the church of Theonas was stormed and violences perpetrated which left far behind anything that Syrianus had done. Women were murdered, the church wrecked and polluted with the very worst orgies of heathenism, houses and even tombs were ransacked throughout the city and suburbs on pretence of &#145;seeking for Athanasius.&#146; Sebastian the Manichee, who about this time succeeded to the military command of Syrianus, appears to have carried on these outrages with the utmost zest (yet see <i>Hist. Ar</i>. 60). Many more bishops were driven into exile (compare the twenty-six of p. 297 with the &#145;sixteen&#146; p. 248, but some may belong to a still later period, see p. 257), and the Arian bishops and clergy installed, including the bitterly vindictive Secundus in Libya (p. 257). The formal transfer of churches at Alexandria took place on Saturday, June 15 (<i>infr.,</i> p. 290, note 9): the anniversary of Eutychius (p. 292) was kept at Alexandria on July 11, (<i>Martyrol. Vetust.</i> Ed. 1668). After a further delay of &#145;eight months and eleven days&#146; George, the new bishop, made his appearance (Feb. 24, 357&nbsp;<A NAME="fr_71"></A><A HREF="#fn_71"><FONT SIZE="1">72</FONT></A>
+, third Friday in Lent). His previous career&nbsp;<A NAME="fr_72"></A><A HREF="#fn_72"><FONT SIZE="1">73</FONT></A>
+ and character&nbsp;<A NAME="fr_73"></A><A HREF="#fn_73"><FONT SIZE="1">74</FONT></A>
+ were strange qualifications for the second bishopric in Christendom. He had been a pork-contractor at Constantinople, and according to his many enemies a fraudulent one; he had amassed considerable wealth, and was a zealous Arian. His violent temper perhaps recommended him as a man likely to crush the opposition that was expected. The history of his episcopate may be briefly disposed of here. He entered upon his See in Lent, 357, with an armed force. At Easter he renewed the violent persecution of bishops, clergy, virgins, and lay people. In the week <A NAME="page_liii"><FONT SIZE=1 COLOR=GREEN>p. liii</FONT></A> <a name="v.ii.ix-Page_liii"></A>after Pentecost he let loose the cruel commandant Sebastian against a number of persons who were worshipping at the cemetery instead of communicating with himself; many were killed, and many more banished. The expulsion of bishops (&#145;over thirty,&#146; p. 257, cf. other reff. above) was continued (the various data of Ath. are not easy to reconcile, the first 16 of p. 257 may be the &#145;sixteen&#146; of p. 248, before Easter, 356: we miss the name of Serapion in all the lists!) Theodore, Bishop of Oxyrynchus, the largest town of middle Egypt, upon submitting to George, was compelled by him to submit to reordination. The people refused to have anything more to do with him, and did without a bishop for a long time, until they obtained a pastor in one Heraclides, who is said to have become a &#145;Luciferian.&#146; (Cf. <i>Lib. Prec.,</i> and Le Quien ii. p. 578.) George carried on his tyranny eighteen months, till Aug. 29, 358. His fierce insults against Pagan worship were accompanied by the meanest and most oppressive rapacity. At last the populace, exasperated by his &#145;adder&#146;s bites&#146; (Ammian.), attacked him, and he was rescued with difficulty. On Oct. 2 he left the town, and the party of Athanasius expelled his followers from the churches on Oct. 11, but on Dec. 24, Sebastian came in from the country and restored the churches to the people of George. On June 23, 359, &#145;the notary Paul&#146; (&#145;in complicandis calumniarum nexibus artifex dirus, unde ei <i>Caten&aelig;</i> inditum est cognomentum,&#146; Ammian. Marc. XIV. v., XV. iii.), the Jeffreys of the day, held a commission of blood, and &#145;vindictively punished many&nbsp;<A NAME="fr_74"></A><A HREF="#fn_74"><FONT SIZE="1">75</FONT></A>
+.&#146; George was at this time busy with the councils of Seleucia and Constantinople (he was not actually present at the latter, Thdt. <i>H. E.</i> ii. 28), and was in no hurry to return. At last, just after the death of Constantius, he ventured back, Nov. 26, 361, but on the proclamation of Julian on Nov. 30 was seized by the populace and thrown into chains; on Dec. 24, &#145;impatient of the tedious forms of judicial proceedings,&#146; the people dragged him from prison and lynched him with the utmost ignominy.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p10"></A>Athanasius meanwhile eluded all search. During part of the year 357&#8211;358 he was in concealment in Alexandria itself, and he was supposed to be there two years later (<i>Fest. Ind.</i> xxx., xxxii.; the latter gives some colour to the tale of Palladius&#8212;cf. Soz. v. 6&#8212;of his having during part of this period remained concealed in the house of a Virgin of the church), but the greater part of his time was undoubtedly spent in the numberless cells of Upper and Lower Egypt, where he was secure of close concealment, and of loyal and efficient messengers to warn him of danger, keep him informed of events, and carry his letters and writings far and wide. The tale of Rufinus (i. 18) that he lay hid all the six years in a dry cistern is probably a confused version of this general fact. The tombs of kings and private persons were at this time the common abode of monks (cf. p. 564, note 1; also Socr. iv. 13, a similar mistake). Probably we must place the composition of the <i>Life of Antony,</i> the great classic of Monasticism, at some date during this exile, although the question is surrounded with difficulties (see pp. 188 <i>sqq.</i>). The importance of the period, however, lies in the march of events outside Egypt. (For a brilliant sketch of the desert life of Athanasius see D.C.B. i. 194 <i>sq.</i>; also Bright, <i>Hist. Treatises,</i> p. lxxiv. <i>sq.</i>)</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p11"></A>(2.) With the accession of Constantius to sole power, the anti-Nicene reaction at last had a free hand throughout the Empire. Of what elements did it now consist? The original reaction was conservative in its numerical strength, Arian in its motive power. The stream was derived from the two fountain heads of Paul of Samosata, the ancestor of Arius, and of Origen the founder of the theology of the Eastern Church generally and especially of that of Eusebius of C&aelig;sarea. Flowing from such heterogeneous sources, the two currents never thoroughly mingled. Common action, dictated on the one hand by dread of Sabellianism, manipulated on the other hand by wire-pullers in the interest of Arianism, united the East till after the death of Constantine in the campaign against the leaders of Nic&aelig;a. Then for the last ten years of the life of Constans, Arianism, or rather the Reaction, had its &#145;stationary period&#146; (Newman). The chaos of creeds at the Council of Antioch (<i>supr.</i> p. xliv.) shewed the presence of discordant aims; but opposition to Western interference, and the urgent panic of Photinus and his master, kept them together: the lead was still taken by the Arianisers, as is shewn by the continued prominence of the fourth Antiochene Creed at Philippopolis (343), Antioch (344), and Sirmium (351). But the second or Lucianic Creed was on record as the protest of the conservative majority, and was not forgotten. Yet until after 351, when Photinus was finally got rid of and Constantius master of the world, the reaction was still embodied in a fairly compact and united party. But now the latent heterogeneity of the reaction began to make itself felt. Differing in source and motive, the two main currents made in different directions. The influence of Aristotle and Paul and Lucian set steadily toward a harder and more consistent Arianism, that of Plato and the Origenists toward an understanding with the Nicenes.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p12"></A>(<i>a.</i>) The original Arians, now gradually dying out, were all tainted with compromise and political subserviency. Arius, Asterius, Eusebius of Nicomedia, and the rest (Secundus and Theonas are the solitary exception), were all at one time or another, and in different degrees, willing to make concessions and veil their more objectionable tenets under some evasive confession. But in many cases temporary humiliation produced its natural result in subsequent uncompromising defiance. This is exemplified in the history of <span class="c10"><a name="v.ii.ix-p12.1"></A>Valens</span> and <A NAME="page_liv"><FONT SIZE=1 COLOR=GREEN>p. liv</FONT></A> <a name="v.ii.ix-Page_liv"></A>Ursacius after 351. Valens, especially, figures as the head of a new party of &#145;<span class="c10"><a name="v.ii.ix-p12.2"></A>Anom&#339;ans</span>&#146; or ultra-Arians. The rise of this party is associated with the name of <span class="c10"><a name="v.ii.ix-p12.3"></A>Aetius</span>, its after-history with that of his pupil Eunomius, bishop of Cyzicus from 361. It was marked by a genuine scorn for the compromises of earlier Arianism, from which it differed in nothing except its more resolute sincerity. The career of Aetius (D.C.B. i. 50, <i>sqq.</i>) was that of a struggling, self-made, self-confident man. A pupil of the Lucianists (<i>supr.,</i> p. xxviii.), he shrunk from none of the irreverent conclusions of Arianism. His loud voice and clear-cut logic lost none of their effect by fear of offending the religious sensibilities of others. In 350 Leontius ordained him deacon, with a licence to preach, at Antioch; but Flavian and Diodorus (see above, &sect;7) raised such a storm that the cautious bishop felt obliged to suspend him. On the appointment of George he was invited to Alexandria, whither Eunomius was attracted by his fame as a teacher. His influence gradually spread, and he found many kindred spirits among the bishops. The survivors of the original Arians were with him at heart, as also were men like Eudoxius, bishop of Germanicia (of Antioch, 358, of CP. 360), who fell as far behind Aetius in sincerity as he surpassed him in profanity; the Anom&#339;ans (<span class="Greek"><a name="v.ii.ix-p12.4"></A>&#7936;</span><span class="Greek"><a name="v.ii.ix-p12.5"></A>&#957;&#8057;&#956;&#959;&#953;&#959;&#962;</span>) were numerically strong, and morally even more so; they were the wedge which eventually broke up the reactionary mass, rousing the sincere horror of the Conservatives, commanding the sometimes dissembled but always real sympathy of the true Arians, and seriously embarrassing the political Arians, whose one aim was to keep their party together by disguising differences of principle under some convenient phrase.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p13"></A>(<i>b.</i>) This latter party were headed by Acacius in the East and in the West by <span class="c10"><a name="v.ii.ix-p13.1"></A>Valens</span>, who while in reality, as stated above, making play for the Anom&#339;an cause, was diplomatist enough to use the influential &#145;party of no principle&#146; as his instrument for the purpose. Valens during the whole period of the sole reign of Constantius (and in fact until his own death about 375) was the heart and soul of the new and last phase of Arianism, namely of <i>the formal attempt to impose an Arian creed upon the Church</i> in lieu of that of Nic&aelig;a. But this could only be done by skilful use of less extreme men, and in the trickery and statecraft necessary for such a purpose Valens was <i>facile princeps.</i> His main supporter in the East was <span class="c10"><a name="v.ii.ix-p13.2"></A>Acacius</span>, who had succeeded to the bishoprick, the library, and the doctrinal position of his preceptor Eusebius of C&aelig;sarea. The latter, as we saw (p. xxvii. note 5), represented &#145;the extreme left&#146; of the conservative reaction, meeting the right wing, or rather the extreme concessions, of pure Arianism as represented by its official advocate Asterius, whom in fact Eusebius had defended against the onslaught of Marcellus. In so far then as the stream of pure Arianism could be mingled with the waters of Conservatism, Acacius was the channel in which they joined. Eusebius had not been an Arian, neither was Acacius; Eusebius had theological convictions, but lacked clearness of perception, Acacius was a clear-headed man but without convictions; Eusebius was substantially conservative in his theology, but tainted with political Arianism; Acacius was a political Arian first, and anything you please afterwards. On the whole, his sympathies seem to have been conservative, but he manifests a rooted dislike of principle of any kind. He appoints orthodox bishops (Philost. v. 1), but quarrels with them as soon as he encounters their true mettle, Cyril in 358, Meletius in 361; he befriends Arians, but betrays the too honest Aetius in 360. His ecclesiastical career begins with the council of four creeds in 341; in controversy with Marcellus he developed the concessions of Asterius till he almost reached the Nicene standard; he hailed effusively the Anom&#339;an Creed of Valens in 358 (Soz. iv. 12), and in 359&#8211;60 forced that of Nike in its amended form upon the Eastern Church far and wide. He is next heard of, signing the <span class="Greek"><a name="v.ii.ix-p13.3"></A>&#8190;</span><span class="Greek"><a name="v.ii.ix-p13.4"></A>&#927;</span><span class="Greek"><a name="v.ii.ix-p13.5"></A>&#956;&#959;&#959;&#8059;&#963;&#953;&#959;&#957;</span>, in 363, and lastly (Socr. iv. 2) under Valens is named again along with Eudoxius. The real opinions of a man with such a record are naturally not easy to determine, but we may be sure that he was in thorough sympathy with the policy of Constantius, namely the union of all parties in the Church on the basis of subserviency to the State.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p14"></A>The difficulty was to find a formula. The test of Nic&aelig;a could not be superseded without putting something in its place, which should <i>in</i>clude Arianism as effectually as the other had excluded it. Such a test was eventually (after 357) found in the word <span class="Greek"><a name="v.ii.ix-p14.1"></A>&#8005;</span><span class="Greek"><a name="v.ii.ix-p14.2"></A>&#956;&#959;&#953;&#959;&#962;</span>&nbsp;<A NAME="fr_75"></A><A HREF="#fn_75"><FONT SIZE="1">76</FONT></A>
+. It was a word with a good Catholic history. We find it used freely by Athanasius in his earlier anti-Arian writings, and it was thoroughly current in conservative theology, as for example in Cyril&#146;s Catecheses (he has <span class="Greek"><a name="v.ii.ix-p15.12"></A>&#8005;</span><span class="Greek"><a name="v.ii.ix-p15.13"></A>&#956;&#959;&#953;&#959;&#957; &#954;&#945;&#964;&#8048; &#964;&#945;&#962; &#947;&#961;&#945;&#966;&#8049;&#962;</span> and <span class="Greek"><a name="v.ii.ix-p15.14"></A>&#8005;</span><span class="Greek"><a name="v.ii.ix-p15.15"></A>&#956;&#959;&#953;&#959;&#957; &#954;&#945;&#964;&#8048; &#960;&#8049;&#957;&#964;&#945;</span>). It would therefore permit even the full Nicene belief. On the other hand many of the more earnest conservative theologians had begun to reflect on what was involved in the &#145;likeness&#146; of the Son to the Father, and had formulated the conviction that this likeness was <i>essential,</i> not, as the Arians held, acquired. This was in fact a fair inference from the <span class="Greek"><a name="v.ii.ix-p15.16"></A>&#959;&#8016;&#963;&#8055;&#945;&#962; &#7936;&#960;&#945;&#961;&#8049;&#955;&#955;&#945;&#954;&#964;&#959;&#957; &#949;&#7984;&#954;&#8057;&#957;&#945;</span> of the Dedication Creed. This question made an agreement between men like Valens and Basil difficult, but it could be evaded by keeping to the simple <span class="Greek"><a name="v.ii.ix-p15.17"></A>&#8005;</span><span class="Greek"><a name="v.ii.ix-p15.18"></A>&#956;&#959;&#953;&#959;&#957;</span>, and deprecating non-scriptural precision. Lastly, there were the Anom&#339;ans to be considered. Now the <span class="Greek"><a name="v.ii.ix-p15.19"></A>&#8005;</span><span class="Greek"><a name="v.ii.ix-p15.20"></A>&#956;&#959;&#953;&#959;&#957;</span> had the specious appearance of flatly contradicting this repellent avowal of the extremists; but to Valens and his friends it had the substantial recommendation of admitting it in reality. &#145;Likeness&#146; is a relative term. If two things are only &#145;like&#146; they are <i>ipso facto</i> to some extent unlike; the two words are not contradictories but correlatives, and if the likeness is not essential, the unlikeness is. So far then as the &#145;Hom&#339;an&#146; party rested on any doctrinal principle at all, that principle was the principle of Arius; and that is how Valens forwarded the Anom&#339;an cause by putting himself at the head of the Hom&#339;ans. His plan of campaign had steadily matured. The deposition of Photinus in 351 had sounded the note of war, Arles and Milan (353&#8211;5) and the expulsion of Athanasius (356) had cleared the field of opponents, George was now in possession at Alexandria, and in the summer of 357 the triumph of Arianism was proclaimed. A small council of bishops met at Sirmium and published a Latin Creed, insisting strongly (1) on the unique Godhead of the Father, (2) on the subjection of the Son &#145;along with all things subjected to Him by the Father,&#146; and (3) strictly proscribing the terms <span class="Greek"><a name="v.ii.ix-p15.21"></A>&#8001;&#956;&#959;&#959;&#8059;&#963;&#953;&#959;&#957;</span><span class="Greek"><a name="v.ii.ix-p15.22"></A>,</span> <span class="Greek"><a name="v.ii.ix-p15.23"></A>&#8001;</span><span class="Greek"><a name="v.ii.ix-p15.24"></A>&#956;&#959;&#953;&#959;&#8059;&#963;&#953;&#959;&#957;</span>, and all discussion of <span class="Greek"><a name="v.ii.ix-p15.25"></A>&#959;&#8016;&#963;&#8055;&#945;</span>, as unscriptural and inscrutable.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p16"></A>This manifesto was none the less Anom&#339;an for not explicitly avowing the obnoxious phrase. It <i>forbids</i> the definition of the &#145;likeness&#146; as essential, and does not even condescend to use the <span class="Greek"><a name="v.ii.ix-p16.1"></A>&#8005;</span><span class="Greek"><a name="v.ii.ix-p16.2"></A>&#956;&#959;&#953;&#959;&#957;</span> at all. The Nicene definition is for the first time overtly and bluntly denounced, and the &#145;conservatives&#146; are commanded to hold their peace. The &#145;Sirmium blasphemy&#146; was indeed a trumpet-blast of defiance. The echo came back from the Hom&#339;ans assembled at Antioch, whence Eudoxius the new bishop, Acacius, and their friends addressed the <A NAME="page_lv"><FONT SIZE=1 COLOR=GREEN>p. lv</FONT></A> <a name="v.ii.ix-Page_lv"></A>Pannonians with a letter of thanks. But the blast heralded the collapse of the Arian cause; the Reaction &#145;fell to pieces the moment Arianism ventured to have a policy of its own&#146; (Gwatkin, p. 158, the whole account should be consulted). Not only did orthodox Gaul, under Ph&#339;badius of Agen, the most stalwart of the lesser men whom Milan had spared, meet in synod and condemn the blasphemy, but the conservative East was up in arms against Arianism, for the first time with thorough spontaneity. Times were changed indeed; the East was at war with the West, but on the side of orthodoxy against Arianism.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p17"></A>(c) We must now take account of the party headed by <span class="c10"><a name="v.ii.ix-p17.1"></A>Basil</span> of <span class="c10"><a name="v.ii.ix-p17.2"></A>Ancyra</span> and usually (since Epiphanius), but with some injustice, designated as <span class="c10"><a name="v.ii.ix-p17.3"></A>Semi-Arians</span>. Their theological ancestry and antecedents have been already sketched (pp. xxvii., xxxv.); they are the representatives of that conservatism, moulded by the neo-Asiatic, or modified Origenist tradition, which warmly condemned Arianism at Nic&aelig;a, but acquiesced with only half a heart in the test by which the Council resolved to exclude it. They furnished the numerical strength, the material basis so to call it, of the anti-Nicene reaction; but the reaction on their part had not been Arian in principle, but in part anti-Sabellian, in part the empirical conservatism of men whose own principles are vague and ill-assorted, and who fail to follow the keener sight which distinguishes the higher conservatism from the lower. They lent themselves to the purposes of the Eusebians (a name which ought to be dropped after 342) on purely negative grounds and in view of questions of personal rights and accusations. A positive doctrinal formula they did not possess. But in the course of years reflexion did its work. A younger generation grew up who had not been taught to respect Nic&aelig;a, nor yet had imbibed Arian principles. Cyril at Jerusalem, Meletius at Antioch, are specimens of a large class. The Dedication Creed at Antioch represents an early stage in the growth of this body of conviction, conviction not absolutely uniform everywhere, as the result shews, but still with a distinct tendency to settle down to a formal position with regard to the great question of the age. There was nothing in the Nicene <i>doctrine</i> that men like this did not hold: but the <i>word</i> <span class="Greek"><a name="v.ii.ix-p17.4"></A>&#8001;&#956;&#959;&#959;&#8059;&#963;&#953;&#959;&#957;</span> opened the door to the dreaded Sabellian error: was not the history of Marcellus and Photinus a significant comment upon it? But if <span class="Greek"><a name="v.ii.ix-p17.5"></A>&#959;&#8016;&#963;&#8055;&#945;</span> meant not individuality, but <i>specific</i> identity (<i>supr.,</i> p. xxxi. <i>sq.</i>) even this term might be innocently admitted. But to make that meaning plain, what was more effective than the insertion of an <i>iota?</i> <span class="Greek"><a name="v.ii.ix-p17.6"></A>&#8190;</span><span class="Greek"><a name="v.ii.ix-p17.7"></A>&#927;&#956;&#959;&#953;&#959;&#8059;&#963;&#953;&#959;&#962;</span>, then, was the satisfactory test which would banish Arius and Marcellus alike. Who first used the word for the purpose, we do not know, but its first occurrence is its prohibition in the &#145;blasphemy&#146; of Valens in 357. The leader of the &#145;semi-Arians&#146; in 357 was Basil of Ancyra, a man of deep learning and high character. George of Laodicea, an original Arian, was in active but short-lived&nbsp;<A NAME="fr_76"></A><A HREF="#fn_76"><FONT SIZE="1">77</FONT></A>
+ alliance with the party, other prominent members of it were Eustathius, Bishop of Sebaste (Sivas), Eleusius of Cyzicus, Macedonius of Constantinople, Eusebius of Emesa, Cyril of Jerusalem, and Mark of Arethusa, a high-minded but violent man, who represents the &#145;left&#146; wing of the party as Cyril and Basil represent the &#145;right.&#146;</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p19"></A>Now the &#145;trumpet-blast&#146; of Valens gave birth to the &#145;Semi-Arians&#146; as a formal party. An attempt was made to reunite the reaction on a Hom&#339;an basis in 359, but the events of that year made the breach more open than ever. The tendency towards the Nicene position which received its impulse in 357 continued unchecked until the Nicene cause triumphed in Asia in the hands of the &#145;conservatives&#146; of the next generation.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p20"></A>Immediately after the Acacian Synod at Antioch early in 358, George of Laodicea, who had reasons of his own for indignation against Eudoxius, wrote off in hot haste to warn Basil of the fearful encouragement that was being given to the doctrines of Aetius in that city. Basil, who was in communication (through Hilary) with Ph&#339;badius and his colleagues, had invited twelve neighbouring bishops to the dedication of a church in Ancyra at this time, and took the opportunity of drawing up a synodical letter insisting on the Essential Likeness of the Son to the Father (<span class="Greek"><a name="v.ii.ix-p20.1"></A>&#8005;</span><span class="Greek"><a name="v.ii.ix-p20.2"></A>&#956;&#959;&#953;&#959;&#957; &#954;&#945;&#964;&#8125; &#959;&#8016;&#963;&#8055;&#945;&#957;</span>), and eighteen anathemas directed against Marcellus and the Anom&#339;ans. (The censure of <span class="Greek"><a name="v.ii.ix-p20.3"></A>&#8001;&#956;&#959;&#959;&#8059;&#963;&#953;&#959;&#957; &#7970; &#964;&#945;&#8016;&#964;&#959;&#959;&#8059;&#963;&#953;&#959;&#957;</span> is against the Marcellian sense of the <span class="Greek"><a name="v.ii.ix-p20.4"></A>&#8001;&#956;&#959;&#959;&#8059;&#963;&#953;&#959;&#957;</span>). Basil, Eustathius, and Eleusius then proceeded to the Court at Sirmium and were successful in gaining the ear of the Emperor, who at this time had a high regard for Basil, and apparently obtained the ratification by a council, at which Valens, &amp;c., were present, of a composite formula of their own (Newman&#146;s &#145;semi-Arian digest of three Confessions&#146;) which was also signed by Liberius, who was thereupon sent back to Rome. (Soz. iv. 15 is our only authority here, and his account of the formula is not very clear: he seems to mean that two, not three, confessions were combined. (Cf. p. 449, note 4.) On the whole, it is most probable that the &#145;fourth&#146; Antiochene formula in its Sirmian recension of 351 is intended, perhaps with the addition of twelve of the Ancyrene anathemas. (The question of the signatures of Liberius need not detain us.) The party of Valens were involved in sudden and unlooked-for discomfiture. Basil even succeeded in obtaining a decree of banishment against Eudoxius, Aetius, and &#145;seventy&#146; others (Philost. iv. 8). But an Arian deputation from Syria procured their recall, and all parties stood at bay in mutual bitterness.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p21"></A>Now was the opportunity of Valens. He saw the capabilities of the Hom&#339;an compromise, as yet embodied in no creed, and resolved to try it: and his experiment was not unsuccessful. All parties alike seem to have agreed <A NAME="page_lvi"><FONT SIZE=1 COLOR=GREEN>p. lvi</FONT></A> <a name="v.ii.ix-Page_lvi"></A>upon the necessity for a council of the whole Church (on the origin of the proposal, and for other details, see p. 448). But Valens was determined what the result of the council must be. Accordingly he prevailed on the Emperor to divide it, the Western Synod to meet at Ariminum, the Eastern at &#145;Rocky Seleucia,&#146; a mountain fortress in Cilicia where there happened to be plenty of troops. The management of the latter was entrusted to Acacius; at Rimini Valens would be present in person. In event of the two synods differing, a delegation of ten bishops from each was to meet at Court and settle the matter. The Creed to be adopted had also to be arranged beforehand, and for this purpose, to his great discredit, Basil of Ancyra entered into a conference (along with Mark of Arethusa and certain colleagues) with Valens, George of Alexandria, and others of like mind. The result was the &#145;Dated Creed&#146; (May 22, 359) drawn by Mark, prohibiting the word <span class="Greek"><a name="v.ii.ix-p21.1"></A>&#959;&#8016;&#963;&#8055;&#945;</span> (in a gentler tone than that of the creed of Valens in 357), but containing the definition <span class="Greek"><a name="v.ii.ix-p21.2"></A>&#8005;</span><span class="Greek"><a name="v.ii.ix-p21.3"></A>&#956;&#959;&#953;&#959;&#957; &#954;&#945;&#964;&#8048; &#960;&#8049;&#957;&#964;&#945;</span> (&#145;as also the Scriptures teach,&#146; see above, on Cyril, p. xlix.), words which Valens and Ursacius sought to suppress. But Constantius insisted on their retention, and Basil emphasised his subscription by a strongly-worded addition. Moreover in conjunction with George of Laodicea he drew up a memorandum (Epiph. 72, 12&#8211;22) vindicating the term <span class="Greek"><a name="v.ii.ix-p21.4"></A>&#959;&#8016;&#963;&#8055;&#945;</span> as implied in Scripture, insisting on the absolute essential likeness of the Son to the Father, except in respect of the Incarnation, and repudiating the idea that <span class="Greek"><a name="v.ii.ix-p21.5"></A>&#7936;</span><span class="Greek"><a name="v.ii.ix-p21.6"></A>&#947;&#949;&#957;&#957;&#951;&#963;&#8055;&#945;</span> is the essential notion of Godhead. Such a protest was highly significant as an approach to the Nicene position, but Basil must have felt its inefficiency for the purpose in hand. Had the creed been anything but a surrender of principle on his part, no explanatory memoranda would have been needed.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p22"></A>After the <i>fiasco</i> of the Dated Creed, the issue of the Councils was not doubtful. The details may be reserved for another place (pp. 448, 453 <i>sqq.</i>), but the general result is noteworthy. At both Councils the court party were in a minority, and in both alike they eventually had their way. (See Bright, <i>Hist. Tr.</i> lxxxiv.&#8211;xc., and Gwatkin, 170&#8211;180.) On the whole the Seleucian synod came out of the affair more honourably than the other, as their eventual surrender was confined to their delegates. Both Councils began bravely. The majorities deposed their opponents and affirmed their own faith, the Westerns that of Nic&aelig;a, the Easterns that of the Dedication. From both Councils deputations from each rival section went to the Emperor, who was now at Constantinople. The deputies from the majority at Ariminum, where the meeting had begun fully two months before the other, were not received, but detained first at Hadrianople, then at Nik&eacute; in Thrace (chosen, says Socr. ii. 37, to impose on the world by the name), where they were induced to sign a recension of the Dated Creed (the Creed itself had been revoked and recast without the date and perhaps without the <span class="Greek"><a name="v.ii.ix-p22.1"></A>&#954;&#945;&#964;&#8048; &#960;&#8049;&#957;&#964;&#945;</span> before the preliminary meeting at Sirmium broke up, p. 466) of a more distinctly Hom&#339;an character. Armed with this document Valens brought them back to the Council, and &#145;by threats and cajolery&#146; obtained the signatures of nearly all the bishops. Yet the stalwart Ph&#339;badius, Claudius of Picenum, the venerable African Muzonius, father of the Council, and a few others, were undaunted. But Valens, by adroit dissimulation and by guiding into a manageable shape the successive anathematisms by which his orthodoxy was tested, managed to deceive these simple-minded Westerns, and with applause and exultation, &#145;plausu quodam et tripudio&#146; (Jer.), amidst which &#145;Valens was lauded to the skies&#146; (!), the bishops were released from their wearisome detention and suspense. But Valens &#145;cum recessisset tunc gloriabatur&#146; (<a href="../../../../bib/kjv/pro020.html#014">Prov. xx. 14</a><a name="v.ii.ix-p22.2"></A>). The Western bishops realised too late what they had done, &#145;Ingemuit totus orbis, et se Arianum esse miratus est.&#146; Valens hurried with the creed and the anathemas of Ph&#339;badius to Constantinople, where he found the Seleucian deputies in hot discussion at court. The Eastern bishops at Seleucia had held to the &#145;Lucianic&#146; creed, and contemptuously set aside not only the Acacian alternative (p. 466), but the whole compromise of Basil and Mark at the Sirmian conference of the preceding May. The &#145;Conservatives&#146; and Acacians were at open war. But the change of the seat of war to the court gave the latter the advantage, and Valens and Acacius were determined to secure their position at any cost. The first step was to compel the signature of the &#145;semi-Arian&#146; deputies to the creed of Ariminum. This was facilitated by the renewal on the part of Acacius and Valens of their repudiation, already announced at Seleucia (p. 466), of the <span class="Greek"><a name="v.ii.ix-p22.3"></A>&#8125;</span><span class="Greek"><a name="v.ii.ix-p22.4"></A>&#913;&#957;&#8057;&#956;&#959;&#953;&#959;&#957;</span>, (of course with the mental reservation that the repudiation referred only to will). Even so, tedious discussions&nbsp;<A NAME="fr_77"></A><A HREF="#fn_77"><FONT SIZE="1">78</FONT></A>
+, and the threats of Constantius, with whom Basil had now lost all his influence (Thdt. ii. 27), were needed to bring about the required compliance late at night on New Year&#146;s Eve, 359&#8211;360 (Soz. iv. 23). In January, at the dedication of the Great Church of Constantine, the second step was taken. The revised creed of Nik&eacute; was reissued without the anathemas of Ariminum. Aetius was offered by his friend Eudoxius as a sacrifice to the Emperor&#146;s scruples (see the account of the previous debates in Thdt. <i>ubi supra</i>), much as Arius had been sacrificed by his fellow-Lucianists at Nic&aelig;a (&sect;2 <i>supra:</i> nine bishops protested, but were allowed six months to reconsider their objection; the six months lasted two years, and then a reconciliation with Aetius took place for a time, Philost. vii. 6). Next a clean sweep was made of the leading semi-Arians on miscellaneous charges (Soz. iv. 24, <i>sq.</i>), and Eudoxius was installed as bishop of the New Rome in the place of Macedonius. The sacrifice of Aetius gave the Hom&#339;ans a free hand against their opponents, and was compensated by the appointment of numerous Anom&#339;ans to vacant sees. In particular Eunomius replaced Eleusius at Cyzicus. In the eastern half of the Empire Hom&#339;anism was supreme, and remained so politically for nearly twenty years. But not in the West. Before the Council of Constantinople met, the power of the West had passed away from Constantius. Gaul had acknowledged Julian as Augustus, and from Gaul came the voice of defiance for the Hom&#339;an leaders and sympathy for their deposed opponents (Hil. <i>Frag.</i> xi.). And even in the East, throughout their twenty years the Hom&#339;ans retained their hold upon the Church by a dead hand. &#145;The moral strength of Christendom lay elsewhere;&#146; on the one hand the followers of Eunomius were breaking loose from Eudoxius and forming a definitely Arian sect, those of Macedonius crystallising their cruder conservatism into the illogical creed of the &#145;Pneumatomachi;&#146; on the other hand the second generation of the &#145;semi-Arians&#146; were, under the influence of Athanasius, working their way to the Greek Catholicism of the future, the Catholicism of the neo-Nicene school, of Basil and the two Gregories.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p24"></A>The lack of inner cohesion in the Hom&#339;an ranks was exemplified at the start in the election of a new bishop for Antioch. Eudoxius had vacated the see for that of New Rome; Anianus, the nominee of the Hom&#339;usian <A NAME="page_lvii"><FONT SIZE=1 COLOR=GREEN>p. lvii</FONT></A> <a name="v.ii.ix-Page_lvii"></A>majority of Seleucia, was out of the question; accordingly at a Council in 361 the Acacians fixed upon Meletius, who had in the previous year accepted from the Hom&#339;ans of CP. the See of Sebaste in the room of the exiled Eustathius. The new Bishop was requested by the Emperor to preach on the test passage <a href="../../../../bib/kjv/pro008.html#022">Prov. viii. 22</a><a name="v.ii.ix-p24.1"></A>. This he did to a vast and eagerly expectant congregation. To the delight of the majority (headed by Diodorus and Flavian), although he avoided the <span class="Greek"><a name="v.ii.ix-p24.2"></A>&#8001;</span><span class="Greek"><a name="v.ii.ix-p24.3"></A>&#956;&#959;&#959;&#8059;&#963;&#953;&#959;&#957;</span>, he spoke with no uncertain sound on the essential likeness of the Son to the Father. Formally &#145;Nicene,&#146; indeed, the sermon was not (text in Epiph. <i>H&aelig;r.</i> lxxiii. 29&#8211;33, see Hort, p. 96, note 1), but the dismay of the Hom&#339;an bishops equalled the joy of the Catholic laity. Meletius was &#145;deposed&#146; in favour of the old Arian Euzoius (<i>infr.,</i> p. 70), and after his return under Jovian gave in his formal adhesion to the Nicene test.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p25"></A>(3.) The history of Athanasius during this period is the history of his writings. Hidden from all but devotedly loyal eyes, whether in the cells of Nitria and the Thebaid, or lost in the populous solitude of his own city, he followed with a keen and comprehensive glance the march of events outside. Two men in this age had skill to lay the physician&#146;s finger upon the pulse of religious conviction; Hilary, the Western who had learned to understand and sympathise with the East, Athanasius, the Oriental representative of the theological instincts of the West. First of all came the writings of which we have spoken, the circular to the bishops and the Apology to Constantius; then the dignified Apology for his flight, written not long before the expulsion of George late in 358, when he had begun to realise the merciless enmity and profound duplicity of the Emperor. We find him not long after this in correspondence with the exiled confessor, Lucifer of Calaris (pp. 561 <i>sq.,</i> 481 <i>sqq.</i>), and warning the Egyptian monks against compromising relations with Arian visitors (<i>Letter</i> 53, a document of high interest), narrating to the trusted Serapion the facts as to the death of Arius, and sending to the monks a concise refutation of Arian doctrine (<i>Letters</i> 52, 54). With the latter is associated a reissue of the Apology of 351, and, as a continuation of it, the solitary monument of a less noble spirit which Athanasius has left us, the one work which we would gladly believe to have come from any other pen&nbsp;<A NAME="fr_78"></A><A HREF="#fn_78"><FONT SIZE="1">79</FONT></A>
+. But this supposition is untenable, and in the ferocious pamphlet against Constantius known as the <i>Arian History</i> we are reminded that noble as he was, our saint yet lived in an age of fierce passions and reckless personal violence. The <i>Arian History</i> has its noble features&#8212;no work of Athanasius could lack them&#8212;but it reveals not the man himself but his generation; his exasperation, and the meanness of his persecutors. (For details on all these tracts see the Introductions and notes to them.) None of the above books directly relate to the doctrinal developments sketched above. But these developments called forth the three greatest works of his exile, and indeed of his whole career. <i>Firstly,</i> the four <span class="Greek"><a name="v.ii.ix-p26.2"></A>&#923;&#8057;&#947;&#959;&#953;</span> or <i>Tracts against Arianism,</i> his most famous dogmatic work. Of these an account will be given in the proper place, but it may be noticed here that they are evidently written with a conciliatory as well as a controversial purpose, and in view of the position between 357 and 359. <i>Next,</i> the four dogmatic letters <i>to Serapion,</i> the second of which reproduces the substance of his position against the Arians, while the other three are devoted to a question overlooked in the earlier stages of the controversy, the Coessentiality of the Holy Spirit. This work may possibly have come after the <i>third,</i> and in some ways the most striking, of the series, the <i>de Synodis</i> written about the end of 359, and intended as a formal offer of peace to the Hom&#339;usian party. Following as it did closely upon the conciliatory work of Hilary, who was present at Seleucia on the side of the majority, this magnanimous Eirenicon produced an immediate effect, which we trace in the letters of the younger Basil written in the same or following year; but the full effect and justification of the book is found in the influence exerted by Athanasius upon the new orthodoxy which eventually restored the &#145;ten provinces&#146; to &#145;the knowledge of God&#146; (Hil. <i>de Syn.</i> 63. Further details in Introd. to <i>de Syn., infra,</i> p. 448. It may be remarked that the romantic idea of his secret presence at Seleucia, and even at Ariminum, must be dismissed as a too rigid inference from an expression used by him in that work: see note 1 there).</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.ix-p27"></A>This brings us to the close of the eventful period of the Third Exile, and of the long series of creeds which registers the variations of Arianism during thirty years. We may congratulate ourselves on &#145;having come at last to the end of the labyrinth of expositions&#146; (Socr. ii. 41), and within sight of the emergence of conviction out of confusion, of order out of chaos. The work of setting in order opens our next period. Of the exile there is nothing more to tell except its close. Hurrying from Antioch on his way from the Persian frontier to oppose the eastward march of Julian, Constantius caught a fever, was baptised by Euzoius, and died at Mopsucren&aelig; under Mount Taurus, on Nov. 3, 361. Julian at once avowed the heathenism he had long cherished in secret, and by an edict, published in Alexandria on Feb. 9, recalled from exile all <A NAME="page_lviii"><FONT SIZE=1 COLOR=GREEN>p. lviii</FONT></A> <a name="v.ii.ix-Page_lviii"></A>bishops banished by Constantius. &#145;And twelve days after the posting of this edict Athanasius appeared at Alexandria and entered the Church on the twenty-seventh day of the same month, Mechir (Feb. 21). He remained in the Church until the twenty-sixth of Paophi (i.e., Oct. 23)&#8230;eight whole months&#146; (<i>Hist. Aceph.</i> vii. The murder of George has been referred to above, p. liii.).</p>   
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_70"></A><A HREF="2040021.html#fr_70">li:71</A> <a name="v.ii.ix-p3.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="v.ii.ix-p4"></A> The envoys of Magnentius had come from Italy <i>through Libya</i> in 350&#8211;351. The &#145;desert&#146; (<i>Apol. Const.</i> 27, 32) must be the region between Alxa. and <i>Cyrenaica,</i> not <i>Palestine</i> as Tillem. viii. 186, infers from <i>Ep. &AElig;g.</i> 5. There is no evidence that Ath. left his province during this exile, and Palestine was a most dangerous territory to venture into. The cautious vagueness of his language, <i>Ep. &AElig;g.</i> 5, while it baffles even our curiosity, yet favours the hypothesis that the events referred to belong to the <i>Egyptian</i> persecution.</p>
+<A NAME="fn_71"></A><A HREF="2040021.html#fr_71">lii:72</A> <a name="v.ii.ix-p5.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="v.ii.ix-p6"></A> This date, coming from the common source of the <i>Historia Acephala</i> and <i>Festal Index</i> (i.e. from the accredited Alexandrian chronology of the period), must be accepted unless there is cogent proof of its incorrectness. No such proof is offered: we have <i>no positive statement to the contrary,</i> but only (1) the fact that the intrusion of George is related, <i>Apol. Fug.</i> 6, immediately after an attack on the great church, possibly the <i>coup de main</i> of Syrianus, but more probably that of p. 290, note 9, without any hint of a long interval. This is true, and <i>if there were no evidence the other way</i> might justify a <i>guess</i> that George came in Lent, 356; but no one would claim that the passage is conclusive by itself; (2) the &#145;improbability&#146; of George delaying his arrival so long. Improbability is a relative term; we know too little of George&#146;s consecration or movements to justify its use in the present connection. All the evidence goes to shew that the court party were far from sanguine as to the nature of his reception, and that their misgivings were well-founded. The above considerations look very small when we compare them with the mass of positive evidence the other way. (1.) The civil Governor had changed: Maximus held the post on Feb. 8, 356 (<i>Hist. Ar.</i> 81, &amp;c.), Cataphronius when the churches were transferred to the party of George, see below, 6. (2.) The military Commander had changed: Syrianus was replaced by Sebastian, who appears just after the transfer of churches, <i>Hist. Ar.</i> 55&#8211;60 (Dr. Bright in D.C.B. i. 194, <i>note,</i> seems to admit that Sebastian belongs to a later date than the Lent of 356). (3.) The Wednesday (and Thursday) of <i>Hist. Ar.</i> 55 were <i>not</i> &#145;in Lent.&#146; They suit the data of <i>Hist. Aceph.</i> perfectly well. (4.) Had George arrived before Easter 356, Athan. would have heard of it &#145;in the Desert,&#146; <i>Apol. Const.</i> 27; but he has only heard of his <i>nomination</i> <span class="Greek"><a name="v.ii.ix-p6.2"></A>&#8032;</span><span class="Greek"><a name="v.ii.ix-p6.3"></A>&#957;&#959;&#956;&#8049;&#963;&#952;&#951;</span> 28, probably from the letters given in &sect;&sect;30, 31). (5.) The Letter to the Egyptian bishops was written from Libya or Cyrenaica, when the coercion of the episcopate had begun: it postulates some time since his expulsion, but George was then (&sect;7) only in contemplation. (6.) There is no evidence that the <i>coup de main</i> of Syrianus was other than unpopular in the city. This was reported to Const., who <i>after</i> the (Easter) outrages on the Virgins (<i>Ap. Const.</i> 27; <i>Hist. Ar.</i> 48), and <i>after</i> the expulsion of the sixteen bishops (<i>Hist. Ar.</i> 54, this was probably about Easter, <i>Ap. Const.</i> 27) sent Heraclius (with the &#145;discreditable&#146; letter), <i>in whose company</i> (<i>Hist. Ar.</i> 55) <i>the new Prefect Cataphronius first appears. This</i> let loose the refuse of the heathen population as described, ib. 55&#8211;60. (7.) Here the precise statement of the <i>Hist. Aceph.</i> fits in exactly. The Presbyters and people of Ath. remained in possession of the Churches until the arrival of the new Prefect, <i>with Count Heraclius,</i> on June 10. (8.) Heraclius is expressly called the <i>precursor</i> of George (p. 288) and is evidently sent to disarm the reported hostility of the (even heathen) public to the appointment. It may be added that if we are to take &#145;probabilities&#146; into account, it is easier to imagine a reason for a court nominee like George having been slow to take up a dangerous post, than for the Alexandrian chronologists of the day having invented a year&#146;s interval when none had existed. Montfaucon had already noticed that &#145;a good deal must have happened&#146; between the irruption of Syrianus and the entry of George. The data of Athanasius are for the first time clearly explained by the light thrown on them by the chroniclers. I should also have urged the fact that the commemoration of George&#146;s Pentecost Martyrs on May 21 in the Roman Martyrology <i>suits</i> 357 <i>and not</i> 356, had I succeeded in tracing the history of the entry, which has, however, so far eluded my efforts.</p>
+<A NAME="fn_72"></A><A HREF="2040021.html#fr_72">lii:73</A> <a name="v.ii.ix-p6.5"></A>
+<p style="font-size: 16pt" class="endnote"><a name="v.ii.ix-p7"></A> We are quite in the dark as to when, and by whom, George was consecrated bishop. The statement of Sozomen iv. 8, that he was ordained by a council of thirty bishops at Antioch, including Theodore of Heraclea, who had died before the exile of Liberius in 355 (Thdt. <i>H. E.</i> ii. 16, p. 93. 13), is involved in too hopeless a tangle of anachronisms to be of any value for our enquiry. But that George was ordained in Antioch is in itself likely enough, and if so, his ordination would probably follow close upon the expulsion of Athanasius. But the repeated assurances of Ath. that George came <i>from court</i> would imply that after his ordination George went to Italy. That at once puts his arrival in Alxa. in Lent 356 out of the question.</p>
+<A NAME="fn_73"></A><A HREF="2040021.html#fr_73">lii:74</A> <a name="v.ii.ix-p7.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="v.ii.ix-p8"></A> The statements of Ath. as to George are made at secondhand, and must be taken <i>cum grano.</i> He is &#145;notoriously wealthy,&#146; yet &#145;hired&#146; by the Arians. (Cf. p. 249; but apparently he combined wealth and avarice.) That he was &#145;a heathen&#146; is certainly untrue. His &#145;ignorance&#146; is equally so: we know that he was a well-read man and possessed a remarkably good library (D.C.B. ii. 638). That he had &#145;the temper of a hangman&#146; (p. 227) is in keeping with all that we know of him, and as to his general character, the statements of Athanasius and other churchmen are not stronger than Amm. Marcell. XXII. xi. 4 (cf. Gibbon, iii. 171 <i>sqq.,</i> ed. Smith, but correct his <i>jeu d&#146;esprit</i> on &#145;S. George and the Dragon&#146; by Bright, in D.C.B. <i>ubi supra;</i> yet see Stanley, <i>Eastern Church,</i> Lect. vii. III..).</p>
+<A NAME="fn_74"></A><A HREF="2040021.html#fr_74">liii:75</A> <a name="v.ii.ix-p8.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="v.ii.ix-p9"></A> p. 497. George was at Sirmium in the Spring of 359 (Soz. (v. 16). Paul <i>Catena</i> came to Alxa. from a similar commission at Scythopolis. He was apparently aided in both places by Modestus the Comes Orientis. From Liban. <i>Ep.</i> 205, we gather, to the credit of George, that he was the intermediary of requests for mitigation on some of the sentences. He was at this time at Antioch, from whence also &#145;Ex Comitatu Principis,&#146; Amm. XXII. xi., he returned to Alxa. in 361, evidently before he had heard of the Emperor&#146;s death. (Sievers, pp. 138 <i>sq.</i>)</p>
+<A NAME="fn_75"></A><A HREF="2040021.html#fr_75">liv:76</A> <a name="v.ii.ix-p14.3"></A>
+<p style="font-size: 16pt" class="endnote"><a name="v.ii.ix-p15"></A> We cannot fix the date when this word was first adopted as a shibboleth. It occurs, but not conspicuously, in the &#145;Macrostich&#146; of 344, but not in any other creed till the &#145;dated&#146; symbol of 359. But if (as Kr&uuml;ger, <i>Lucif,</i> p. 42, <i>note,</i> assumes) the <span class="Greek"><a name="v.ii.ix-p15.2"></A>&#8001;</span><span class="Greek"><a name="v.ii.ix-p15.3"></A>&#956;&#959;&#953;&#959;&#8059;&#963;&#953;&#959;&#957;</span> was adopted as a protest against the bald <span class="Greek"><a name="v.ii.ix-p15.4"></A>&#8005;</span><span class="Greek"><a name="v.ii.ix-p15.5"></A>&#956;&#959;&#953;&#959;&#957;</span>, the latter must have been current <i>long before</i> 357, when the former was proscribed. I incline to regard the <span class="Greek"><a name="v.ii.ix-p15.7"></A>&#8005;</span><span class="Greek"><a name="v.ii.ix-p15.8"></A>&#956;&#959;&#953;&#959;&#957;</span> (<i>as a test word</i>) as a <i>later</i> rival to the <span class="Greek"><a name="v.ii.ix-p15.10"></A>&#8001;</span><span class="Greek"><a name="v.ii.ix-p15.11"></A>&#956;&#959;&#953;&#959;&#8059;&#963;&#953;&#959;&#957;</span> </p>
+<A NAME="fn_76"></A><A HREF="2040021.html#fr_76">lv:77</A> <a name="v.ii.ix-p17.8"></A>
+<p style="font-size: 16pt" class="endnote"><a name="v.ii.ix-p18"></A> Apparently it began with the quarrel over the election to the bishopric of Antioch, which Eudoxius managed to seize after the death of Leontius. George was aggrieved at his rights as an elector being ignored, and may have had hopes of the see for himself. See Soz. iv. 13; but Philost. iv. 5 with much less likelihood puts this down to Basil.</p>
+<A NAME="fn_77"></A><A HREF="2040021.html#fr_77">lvi:78</A> <a name="v.ii.ix-p22.5"></A>
+<p style="font-size: 16pt" class="endnote"><a name="v.ii.ix-p23"></A> The discussions, reported with every appearance of substantial accuracy by Thdt. ii. 27, may have taken place at this time, or at the council of the succeeding month (Thdt. fails to distinguish the two meetings). Gwatkin, p. 180, appears to be right in adopting the former alternative, viz. that the party of Basil prudently abstained from attending a council in which they would be overpowered: cf. Soz. iv. 24, who however contradicts himself in the next chapter, <i>sub fin.</i> But the case is not quite clear.</p>
+<A NAME="fn_78"></A><A HREF="2040021.html#fr_78">lvii:79</A> <a name="v.ii.ix-p25.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="v.ii.ix-p26"></A> He always used amanuenses, but we have no evidence that he entrusted them with actual composition, p. 242.</p>
+<p><HR>
+<CENTER>
+<A HREF="2040022.html">Next: Athanasius under Julian and his successors; Fourth and Fifth Exiles. Feb. 21, 362, to Feb. 1, 366.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/204/2040021.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/204/2040021.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/m2f8w4j'>tak.la/m2f8w4j</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/m2f8w4j';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+

@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Nicene and Post-Nicene Fathers, Ser. II, Vol. IV: Athanasius: Select Works and Letters, full text at St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Athanasius Works Letters">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Nicene and Post-Nicene Fathers, Ser. II, Vol. IV: Prolegomena.: The Golden Decade, 346-356. | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/204/2040020.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:28:23+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/204/'>204</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/204/'>204</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Nicene and Post-Nicene Fathers, Ser. II, Vol. IV:<br>Prolegomena.: The Golden Decade, 346-356.</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="2040019.html" id="prev">Previous</A>&nbsp;
+<A HREF="2040021.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="v.ii.viii"></A>
+<p style="font-size: 16pt" class="c6"><a name="v.ii.viii-p1"></A>  &sect;7. <i>The Golden Decade,</i> 346&#8211;356.</p>  
+<p style="font-size: 16pt" class="c11"><a name="v.ii.viii-p2"></A>(1). This period is divided into two by the death of Constans in 350, or perhaps more exactly by the final settlement of sole power in the hands of Constantius on the day of Mursa, Sept. 28, 351&nbsp;<A NAME="fr_66"></A><A HREF="#fn_66"><FONT SIZE="1">67</FONT></A>
+. The <i>internal</i> condition of the Church at Alexandria, however, was not seriously disturbed even in the second period. From this point of view the entire period may be treated as one. Its opening was auspicious. Egypt fully participated in the &#145;profound and wonderful peace&#146; (p. 278) of the Churches. The Bishops of province after province were sending in their letters of adhesion to the Synod of Sardica (<i>ib.</i> and p. 127), and those of Egypt signed to a man.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.viii-p4"></A>The public rejoicing of the Alexandrian Church had something of the character of a &#145;mission&#146; in modern Church life. A wave of religious enthusiasm passed over the whole community. &#145;How many widows and how many orphans, who were before hungry and naked, now through the great zeal of the people were no longer hungry, and went forth clothed;&#146; &#145;in a word, so great was their emulation in virtue, that you would have thought every family and every house a Church, by reason of the goodness of its inmates and the prayers which were offered to God&#146; (p. 278). Increased strictness of life, the sanctification of home, renewed application to prayer, and practical charity, these were a worthy welcome to their long-lost pastor. But most conspicuous was the impulse to asceticism. Marriages were renounced and even dissolved in favour of the monastic life; the same instincts were at work (but in greater intensity) as had asserted themselves at the close of the era of the pagan persecutions (p. 200, &sect;4, <i>fin</i>.). Our knowledge of the history of the Egyptian Church under the ten years&#146; peaceful rule of Athanasius is confined to a few details and to what we can infer from results.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.viii-p5"></A>Strong as was the position of Athanasius in Egypt upon his return from exile, his hold upon the country grew with each year of the decade. When circumstances set Constantius free to resume the Arian campaign, it was against Athanasius that he worked; at first from the remote West, then by attempts to remove or coax him from Alexandria. But Athanasius was in an impregnable position, and when at last the city was seized by the <i>coup de main</i> of 356, from his hidings places in Egypt he was more inaccessible still, more secure in his defence, more free to attack. Now the extraordinary development of Egyptian <span class="c10"><a name="v.ii.viii-p5.1"></A>Monachism</span> must be placed in the first rank of the causes which strengthened Athanasius in Egypt. The institution was already firmly rooted there (cf. p. 190), and Pachomius, a slightly older contemporary of Athanasius himself, had converted a sporadic manifestation of the ascetic impulse into an organised form of Community Life. Pachomius himself had died on May 9, 346 (<i>infr</i>. p. lx., note 3, and p. 569, note 3: cf. <i>Theolog. Literaturztg.</i> 1890, p. 622), but Athanasius was welcomed soon after his arrival by a deputation from the Society of Tabenne, who also conveyed a special message from the aged Antony. Athanasius placed himself at the head of the monastic movement, and we cannot doubt that while he won the enthusiastic devotion of these dogged and ardent Copts, his influence on the movement tended to restrain extravagances and to correct the morbid exaltation of the monastic ideal. It is remarkable that the only letters which survive from this decade (pp. 556&#8211;560) are to monks, and that they both support what has just been said. The army of Egyptian monks was destined to become a too powerful weapon, a scandal and a danger to the Church: but the monks were the main secret of the power and ubiquitous activity of Athanasius in his third exile, and that power was above all built up during the golden decade.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.viii-p6"></A>Coupled with the growth of monachism is the transformation of the episcopate. The great power enjoyed by the Archbishop of Alexandria made it a matter of course that in a prolonged episcopate discordant elements would gradually vanish and unanimity increase. This was the case under Athanasius: but the unanimity reflected in the letter <i>ad Afros</i> had practically already come about in the year of the return of Ath. from Aquileia, when nearly every bishop in Egypt signed the Sardican letter (p. 127; the names include the new bishops of 346&#8211;7 in <i>Letter</i> 19, with one or two exceptions). Athanasius not infrequently (pp. 559 <i>sq</i>. and <i>Vit. Pach.</i> 72) filled up vacancies in the episcopate from among the monks, and Serapion of Thmuis, his most trusted suffragan, remained after his elevation in very close relation with the monasteries.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.viii-p7"></A>Athanasius consecrated bishops not only for Egypt, but for the remote Abyssinian kingdom of Auxume as well. The visit of Frumentius to Alexandria, and his consecration as bishop for Auxume, are referred by Rufinus i. 9 (Socr. i. 19, &amp;c.) to the beginning of the episcopate of Athanasius. But the chronology of the story (Gwatkin, pp. 93 <i>sqq.</i>, D.C.B. ii. 236 where the argument is faulty) forbids this altogether, while the letter of Constantius (p. 250) is most natural if the consecration of Frumentius were then a comparatively recent matter, scarcely intelligible if it had taken place before the &#145;deposition&#146; of Athan. by the council of Tyre. Athanasius had found Egypt distracted by religious dissensions; but by the time of the third exile we hear very little of Arians excepting in Alexandria itself (see p. 564); the &#145;Arians&#146; of the rest of Egypt were the remnant of the Meletians, whose monks are still mentioned by Theodoret (cf. p. 299 <i>sq</i>.). An incident which shews the growing numbers of the Alexandrian Church during this period is the necessity which arose at Easter in one year of using the unfinished Church of the C&aelig;sareum (for its history cf. p. 243, note 6, and <i>Hist. Aceph.</i> vi., <i>Fest. Ind.</i> xxxvii., xxxviii., xl.) owing to the vast crowds of worshippers. The Church was a gift of Constantius, and had been begun by Gregory, and its use before completion and dedication was treated by the Arians as an act of presumption and disrespect on the part of Athanasius.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.viii-p8"></A><A NAME="page_xlix"><FONT SIZE=1 COLOR=GREEN>p. xlix</FONT></A> <a name="v.ii.viii-Page_xlix"></A>(2.) But while all was so happy in Egypt, the &#145;profound peace&#146; of the rest of the Church was more apparent than real. The temporary revulsion of feeling on the part of Constantius, the engrossing urgency of the Persian war, the readiness of Constans to use his formidable power to secure justice to the Nicene bishops in the East, all these were causes which compelled peace, while leaving the deeper elements of strife to smoulder untouched. The rival depositions and anathemas of the hostile Councils remained without effect. Valens was in possession at Mursa, Photinus at Sirmium. Marcellus was, probably, not at Ancyra (Zahn 82); but the Arians deposed at Sardica were all undisturbed, while Athanasius was more firmly established than ever at Alexandria. On the whole, the Episcopate of the East was entirely in the hands of the reaction&#8212;the Nicene element, often large, among the laity was in many cases conciliated with difficulty. This is conspicuously the case at Antioch, where the temporising policy of Leontius managed to retain in communion a powerful body of orthodox Christians, headed by Diodorus and Flavian, whose energy neutralised the effect of his own steadily Arian policy (particulars, Gwatkin, pp. 133, <i>sqq.,</i> Newman, <i>Arians</i>4, p. 455&#8212;from Thdt. <i>H. E</i>. ii. 24). The Eustathian schism at Antioch was, apparently, paralleled by a Marcellian schism at Ancyra, but such cases were decidedly the exception.</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.viii-p9"></A>Of the mass of instances where the bishops were not Arian but simply conservative, the Church of Jerusalem is the type. We have the instructions given to the Catechumens of this city between 348 and 350 by <span class="c10"><a name="v.ii.viii-p9.1"></A>Cyril</span>, who in the latter year (<i>Hort</i>, p. 92) became bishop, and whose career is typical of the rise and development of so-called semi-Arianism. Cyril, like the conservatives generally, is strongly under the influence of Origen (see Caspari iv. 146&#8211;162, and of. the <i>Catechesis</i> in Heurtley <i>de Fid. et Symb.</i> 62 with the Regula Fidei in Orig. <i>de Princ.</i> i.). The instructions insist strongly on the necessity of <i>scriptural</i> language, and while contradicting the doctrines of Arius (without mentioning his name; cf. Athanasius on Marcellus and Photinus in pp. 433&#8211;447) Cyril tacitly protests against the <span class="Greek"><a name="v.ii.viii-p9.2"></A>&#8001;</span><span class="Greek"><a name="v.ii.viii-p9.3"></A>&#956;&#959;&#959;&#8059;&#963;&#953;&#959;&#957;</span> as of human contrivance (<i>Cat.</i> v. 12), and uses in preference the words &#145;like to the Father according to the Scriptures&#146; or &#145;in all things.&#146; This language is that of Athanasius also, especially in his earlier works (pp. 84 <i>sqq</i>.), but in the latter phase of the controversy, especially in the Dated Creed of 359, which presents striking resemblances to Cyril&#146;s Catecheses, it became the watchword of the party of reaction. The Church of Jerusalem then was orthodox substantially, but rejected the Nicene formula, and this was the case in the East generally, except where the bishops were positively Arian. All were aggrieved at the way in which the Eastern councils had been treated by the West, and smarted under a sense of defeat (cf. Bright, Introd. to <i>Hist. Tr.</i>, p. xviii.).</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.viii-p10"></A>Accordingly the murder of Constans in 350 was the harbinger of renewed religious discord. For a time the political future was doubtful. Magnentius, knowing what Athanasius had to fear from Constantius, made a bid for the support of Egypt. Clementius and Valens, two members of a deputation to Constantius, came round by way of Egypt to ascertain the disposition of the country, and especially of its Bishop. Athanasius received them with bitter lamentations for Constans, and, fearing the possibility of an invasion by Magnentius, he called upon his congregation to pray for the Eastern Emperor. The response was immediate and unanimous: &#145;O Christ, send help to Constantius&#146; (p. 242). The Emperor had, in fact, sought to secure the fidelity of Athanasius by a letter (pp. 247, 278), assuring him of his continued support. And until the defeat of Magnentius at Mursa, he kept his word. That victory, which was as decisive for Valens as it was for Constantius (Gibbon, ii. 381, iii. 66, ed. Smith), was followed up by a Council at Sirmium, which successfully ousted the too popular Photinus (cf. pp. 280, 298; on the appeal of Photinus, and the debate between him and Basil of Ancyra, apparently in 355, see Gwatkin, pp. 145 <i>sq</i>., note 6). This was made the occasion for a new onslaught upon Marcellus in the anathemas appended to a reissue of the &#145;fourth Antiochene&#146; or Philippopolitan Creed (p. 465; on the tentative character of these anathemas as a polemical move, cf. Gwatkin, p. 147, note 1). The Emperor was occupied for more than a year with the final suppression of Magnentius (Aug. 10, 353), but &#145;the first Winter after his victory, which he spent at Arles, was employed against an enemy more odious to him than the vanquished tyrant of Gaul&#146; (Gibbon).</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.viii-p11"></A>It is unnecessary to detail the tedious and unedifying story of the councils of Arles and Milan. The former was a provincial council of Gaul, attended by legates of the Roman see. All present submissively registered the imperial condemnation of Athanasius. The latter, delayed till 355 by the Rhenish campaign of Constantius, was due to the request of Liberius, who desired to undo the evil work of his legates, and to the desire of the Emperor to follow up the verdict of a provincial with that of a more representative Synod. The number of bishops present was probably very small (the numbers in Socrates ii. 36, Soz. iv. 9, may refer to those who afterwards signed under compulsion, p. 280, cf. the case of Sardica, p. 127, note 10). The proceedings were a drama in three acts, first, submission, the legates protesting; secondly, stormy protest, after the arrival of Eusebius of Vercell&aelig; thirdly, open coercion. The deposition of Athanasius was proffered to each bishop for signature, and, if he refused, a sentence of banishment was at once pronounced, the emperor sitting with the &#145;velum&#146; drawn, much as though an English judge were to assume the black cap at the <i>beginning</i> of a capital trial. He cut short argument by announcing that &#145;he was for the prosecution,&#146; and remonstrance by the sentence of exile (p. 299); the <span class="Greek"><a name="v.ii.viii-p11.1"></A>&#8005;</span><span class="Greek"><a name="v.ii.viii-p11.2"></A>&#960;&#949;&#961; &#7952;&#947;&#8060; &#946;&#959;&#8059;&#955;&#959;&#956;&#945;&#953; &#964;&#959;&#8059;&#964;&#959; &#954;&#945;&#957;&#8061;&#957;</span> put into his mouth by Athanasius (p. 281) represents at any rate the spirit of his <A NAME="page_l"><FONT SIZE=1 COLOR=GREEN>p. l</FONT></A> <a name="v.ii.viii-Page_l"></A>proceedings as justly as does &#145;<i>la tradizione son&#146; io</i>&#146; that of the autocrat of a more recent council. At this council no creed was put forth: until the enemy was dislodged from Alexandria the next step would be premature. But a band of exiles were sent in strict custody to the East, of some of whom we shall hear later on (pp. 561, 481, 281, cf. p. 256, and the excellent monograph of Kr&uuml;ger, <i>Lucifer von Calaris,</i> pp. 9&#8211;23).</p>  
+<p style="font-size: 16pt" class="c12"><a name="v.ii.viii-p12"></A>Meanwhile, Athanasius had been peacefully pursuing his diocesan duties, but not without a careful outlook as the clouds gathered on the horizon. The prospect of a revival of the charges against him moved him to set in order an unanswerable array of documents, in proof, firstly of the unanimity, secondly of the good reason, with which he had been acquitted of them (see p. 97). He had also, in view of revived assertions of Arianism, drawn up the two letters or memoranda on the rationale of the Nicene formula and on the opinion ascribed to his famous predecessor, Dionysius (the <i>Apology</i> was probably written about 351, the date of the <i>de Decr.</i>, and <i>de Sent. Dion.</i>&nbsp;<A NAME="fr_67"></A><A HREF="#fn_67"><FONT SIZE="1">68</FONT></A>
+ falls a little later). In 353 he began to apprehend danger, from the hopes with which the establishment of Constantius in the sole possession of the Empire was inspiring his enemies, headed by Valens in the West, and Acacius of C&aelig;sarea in the East. Accordingly, he despatched a powerful deputation to Constantius, who was then at Milan, headed by Serapion, his most trusted suffragan (cf. p. 560, note 3a; p. 497, &sect;3, copied by Soz. iv. 9; <i>Fest. Ind.</i> xxv.). The legates sailed May 19, but on the 23rd Montanus, an officer of the Palace, arrived with an Imperial letter, declining to receive any legates, but granting an alleged request of Athanasius to be allowed to come to Italy (p. 245 <i>sq</i>.). As he had made no request of the kind, Athanasius naturally suspected a plot to entice him away from his stronghold. The letter of Constantius did not convey an absolute command, so Athanasius, protesting his willingness to come when ordered to do so, resolved to remain where he was for the present. &#145;All the people were exceedingly troubled,&#146; according to our chroniclers. &#145;In this year Montanus was sent against the bishop, but a tumult having been excited, he retired without effect.&#146; Two years and two months later, i.e., in July&#8211;Aug. 355 (p. 497), force was attempted instead of stratagem, which the proceedings of Arles had, of course, made useless. &#145;In this year Diogenes, the Secretary of the Emperor, came with the intention of seizing the bishop,&#146; and &#145;Diogenes pressed hard upon all, trying to dislodge the bishop from the city, and he afflicted all pretty severely; but on Sept. 4&nbsp;<A NAME="fr_68"></A><A HREF="#fn_68"><FONT SIZE="1">69</FONT></A>
+ he pressed sharply, and stormed a Church, and this he did continually for four months&#8230;until Dec. 23. But as the people and magistrates vehemently withstood Diogenes, he returned back without effect on the 23rd of December aforesaid&#146; (<i>Fest. Ind</i>. xxvii., <i>Hist. Aceph</i>. iii.). The fatal blow was clearly imminent. By this time the exiles had begun to arrive in the East, and rumours came&nbsp;<A NAME="fr_69"></A><A HREF="#fn_69"><FONT SIZE="1">70</FONT></A>
+ that not even the powerful and popular Liberius, not even &#145;Father&#146; Hosius himself, had been spared. Athanasius might well point out to Dracontius (p. 558) that in declining the bishopric of the &#145;country district of Alexandria&#146; he was avoiding the post of danger. On the sixth of January the &#145;Duke&#146; Syrianus arrived in Alexandria, concentrating in the city drafts from all the legions stationed in Egypt and Libya. Rumour was active as to the intentions of the commandant, and Athanasius felt justified in asking him whether he came with any orders from the Court. Syrianus replied that he did not, and Athanasius then produced the letter of Constantius referred to above (written 350&#8211;351). The magistrates and people joined in the remonstrance, and at last Syrianus protested &#145;by the life of C&aelig;sar&#146; that he would remain quiet until the matter had been referred to the Emperor. This restored confidence, and on Thursday night, Feb. 8, Athanasius was presiding at a crowded service of preparation for a Communion on the following morning (Friday after Septuagesima) in the Church of Theonas, which with the exception of the unfinished C&aelig;sareum was the largest in the city (p. 243). Suddenly the church was surrounded and the doors broken in, and just after midnight Syrianus and the &#145;notary&#146; Hilary &#145;entered with an infinite force of soldiers.&#146; Athanasius (his fullest account is p. 263) calmly took his seat upon the throne (in the recess of the apse), and ordered the deacon to begin the 136th psalm, the people responding at each verse &#145;for His mercy endureth for ever.&#146; Meanwhile the soldiers crowded up to the chancel, and in spite of entreaties the bishop refused to escape until the congregation were in safety. He ordered the prayers to proceed, and only at the last moment a crowd of monks and clergy seized the Archbishop and managed to convey him in the confusion out of the church in a half-fainting state (protest of Alexandrians, p. 301), <A NAME="page_li"><FONT SIZE=1 COLOR=GREEN>p. li</FONT></A> <a name="v.ii.viii-Page_li"></A>but thankful that he had been able to secure the escape of his people before his own (p. 264). From that moment Athanasius was lost to public view for &#145;six years and fourteen days&#146; (<i>Hist. Aceph.,</i> i.e., Mechir 13, 356&#8211;Mechir 27, 362), &#145;for he remembered that which was written, Hide thyself as it were for a little moment, until the indignation be overpast (pp. 288, 252, 262). Constantius and the Arians had planned their blow with skill and delivered it with decisive effect. But they had won a &#145;Cadmean Victory.&#146;</p>   
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_66"></A><A HREF="2040020.html#fr_66">xlviii:67</A> <a name="v.ii.viii-p2.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="v.ii.viii-p3"></A> See below.</p>
+<A NAME="fn_67"></A><A HREF="2040020.html#fr_67">l:68</A> <a name="v.ii.viii-p12.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="v.ii.viii-p13"></A> In <i>de Sent. Dion.</i> 23, 24, Arius is spoken of in a way consistent with his being still alive. But the phase of the Arian controversy to which the tract relates begins a decade after Arius&#146; death, and we therefore follow the indications which class the <i>de Sent.</i> with the <i>de Decr.</i></p>
+<A NAME="fn_68"></A><A HREF="2040020.html#fr_68">l:69</A> <a name="v.ii.viii-p13.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="v.ii.viii-p14"></A> All the following dates are affected by Leap-Year, 355&#8211;6, see Table C, p. 501, and correct p. 246, note 3, to Jan. 6.</p>
+<A NAME="fn_69"></A><A HREF="2040020.html#fr_69">l:70</A> <a name="v.ii.viii-p14.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="v.ii.viii-p15"></A> Definite information came only after Feb. 8, see p. 248.</p>
+<p><HR>
+<CENTER>
+<A HREF="2040021.html">Next: The Third Exile, 356-362.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/204/2040020.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/204/2040020.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/myxsc64'>tak.la/myxsc64</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/myxsc64';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+
