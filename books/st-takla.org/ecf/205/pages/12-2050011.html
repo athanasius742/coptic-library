@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Nicene and Post-Nicene Fathers, Ser. II: Gregory of Nyssa: Dogmatic Treatises, etc., Vol. V, full text at St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Gregory Nyssa Dogmatic Treatises">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Nicene and Post-Nicene Fathers, Ser. II, Vol. V: Prolegomena.: MSS. And Editions. | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/205/2050011.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:28:14+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/205/'>205</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/205/'>205</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Nicene and Post-Nicene Fathers, Ser. II, Vol. V:<br>Prolegomena.: MSS. And Editions.</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="2050010.html" id="prev">Previous</A>&nbsp;
+<A HREF="2050012.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="vii.v"></A>
+<p style="font-size: 16pt" class="c38"><a name="vii.v-p1"></A>  <A NAME="page_XXX"><FONT SIZE=1 COLOR=GREEN>p. XXX</FONT></A> <a name="vii.v-Page_XXX"></A><span class="c4"><a name="vii.v-p1.1"></A>Chapter V.&#8212;<span class="c22"><a name="vii.v-p1.2"></A>Mss.</span> <span class="c22"><a name="vii.v-p1.3"></A>And Editions</span>.</span></p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p2"></A><span class="c11"><a name="vii.v-p2.1"></A>For</span> the 13 Books <i>Against Eunomius,</i> the text of F. Oehler (S. Greg. Nyss. Opera. Tom. I. Halis, 1865) has in the following translations been almost entirely followed.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p3"></A>The 1st Book was not in the 1st Paris Edition in two volumes (1615); but it was published three years afterwards from the &#145;Bavarian Codex,&#146; i.e. that of Munich, by J. Gretser in an Appendix, along with the <i>Summaries</i> (these headings of the sections of the entire work are by some admirer of Gregory&#146;s) and the two introductory Letters. Both the Summaries and the letters, and also nearly three-quarters of the 1st Book were obtained from J. Livineius&#146; transcript of the Vatican <span class="c22"><a name="vii.v-p3.1"></A>ms.</span> made at Rome, 1579. This Appendix was added to the 2nd Paris Edition, in three volumes (1638).</p>  
+<p style="font-size: 16pt" class="c39"><a name="vii.v-p4"></A>In correcting these Paris Editions (for <span class="c22"><a name="vii.v-p4.1"></A>mss.</span> of which see below), Oehler had access, in addition to the identical Munich <span class="c22"><a name="vii.v-p4.2"></A>ms.</span> (paper, 16th century) which Gretser had used, to the following <span class="c22"><a name="vii.v-p4.3"></A>mss.</span>:&#8212;</p>  
+<p style="font-size: 16pt" class="c34"><a name="vii.v-p5"></A>1. Venice (Library of S. Mark; cotton, 13 Cent., No. 69). This he says &#145;wonderfully agrees&#146; with the Munich (both, for instance, supply the lacun&aelig; of the Paris Edition of Book I: he concludes, therefore, that these are not due to Gretser&#146;s negligence, who gives the Latin for these passages, but to that of the printers).</p>  
+<p style="font-size: 16pt" class="c34"><a name="vii.v-p6"></A>2. Turin (Royal Library; cotton, 14 Cent., No. 71).</p>  
+<p style="font-size: 16pt" class="c34"><a name="vii.v-p7"></A>3. Milan (Library of S. Ambrose; cotton, 13 Cent., No. 225, Plut. 1; its inscription says that it was brought from Thessaly).</p>  
+<p style="font-size: 16pt" class="c34"><a name="vii.v-p8"></A>4. Florence (Library Medic. Laurent.; the oldest of all; parchment, 11 Cent., No. 17, Plut. vi. It contains the <i>Summaries</i>).</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p9"></A>These, and the Munich <span class="c22"><a name="vii.v-p9.1"></A>ms.</span>, which he chiefly used, are &#8220;all of the same family:&#8221; and from them he has been able to supply more than 50 lacun&aelig; in the Books against Eunomius. This family is the first of the two separated by G. H. Forbes (see below). The Munich <span class="c22"><a name="vii.v-p9.2"></A>ms.</span> (No. 47, on paper, 16 Cent.), already used by Sifanus for his Latin version (1562), and by Gretser for his Appendix, has the corrections of the former in its margin. These passed into the two Paris Editions; which, however, took no notice of his critical notes. When lent to Sifanus this <span class="c22"><a name="vii.v-p9.3"></A>ms.</span> was in the Library of J. J. Fugger. Albert V. Duke of Bavaria purchased the treasures of Greek literature in this library, to found that in Munich.</p>  
+<p style="font-size: 16pt" class="c12"><a name="vii.v-p10"></A>For the treatise <i>On the Soul and the Resurrection,</i> the <i>Great Catechetical Oration,</i> and the <i>Funeral Oration on Meletius,</i> John George Krabinger&#146;s text has been adopted. He had <span class="c22"><a name="vii.v-p10.1"></A>mss.</span> &#145;old and of a better stamp&#146; (Oehler) than were accessible to the Paris editors. Krabinger&#146;s own account of them is this:&#8212;</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p11"></A><i>On the Soul.</i> 5 <span class="c22"><a name="vii.v-p11.1"></A>mss.</span> of 16th, 14th, and 11th Cent. All at Munich. In one of them there are scholia, some imported into the text by J. Naupliensis Murmureus the copyist; and Sifanus&#146; corrections.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p12"></A>The &#145;Hasselman,&#146; 14th Cent. J. Christopher Wolf, who annotated this treatise (<i>Aneedota Gr&aelig;ca,</i> Hamburgh, 1722), says of this <span class="c22"><a name="vii.v-p12.1"></A>ms.</span> &#8220;very carefully written.&#8221; It was lent by Zach. Hasselman, Minister of Oldenburgh.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p13"></A>The &#145;Uffenbach,&#146; 14th Cent., with var. lect. in margin. Lent to Wolf by the Polish ambassador at Frankfort on Main, at the request of Zach. Uffenbach.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p14"></A><i>Catechetical Oration.</i> 4 <span class="c22"><a name="vii.v-p14.1"></A>mss.</span> of 16th Cent., 1 <i>of 13th Cent., &#145;much mutilated.&#146;</i> All at Munich.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p15"></A><i>On Meletius.</i> 2 <span class="c22"><a name="vii.v-p15.1"></A>mss.</span> of 16th Cent., 1 of 10th Cent. All at Munich.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p16"></A>His edition of the former appeared, at Leipzic, 1837; of the two latter, at Munich, 1838; all with valuable notes.</p>  
+<p style="font-size: 16pt" class="c12"><a name="vii.v-p17"></A><A NAME="page_XXXI"><FONT SIZE=1 COLOR=GREEN>p. XXXI</FONT></A> <a name="vii.v-Page_XXXI"></A>For the treatise <i>Against Macedonius,</i> the only text available is that of Cardinal Angelo Mai (Script. Vet. Nova Collectio, Rome, 1833). It is taken from the Vatican <span class="c22"><a name="vii.v-p17.1"></A>ms.</span> &#145;on silk.&#146; The end of this treatise is not found in Mai. Perhaps it is in the <span class="c22"><a name="vii.v-p17.2"></A>ms.</span> of Florence.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p18"></A>For fourteen of the <i>Letters,</i> Zacagni (Pr&aelig;fect of the Vatican Library, 1698&#8211;1713) is the only editor. His text from the Vatican <span class="c22"><a name="vii.v-p18.1"></A>ms.</span>, No. 424, is printed in his Collectan. Monument. ret. (pp. 354&#8211;400), Rome, 1698.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p19"></A>He had not the use of the Medicean <span class="c22"><a name="vii.v-p19.1"></A>ms.</span> which Caraccioli (see below) testifies to be much superior to the Vatican; there are lacun&aelig; in the latter, however, which Zacagni occasionally fills by a happy guess with the very words supplied by the Medicean.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p20"></A>For the <i>Letter to Adelphius,</i> and that (on Church Architecture) <i>to Amphilochius,</i> J. B. Caraccioli (Professor of Philosophy at Pisa) furnishes a text (Florence, 1731) from the Medicean <span class="c22"><a name="vii.v-p20.1"></A>ms.</span> The Letters in this collection are seven in all. Of the last of these (including that to Amphilochius) Bandinus says <i>non sincer&acirc; fide ex Codice descriptas,</i> and that a fresh collation is necessary.</p>  
+<p style="font-size: 16pt" class="c12"><a name="vii.v-p21"></A>For the treatise <i>On the Making of Man,</i> the text employed has been that of G. H. Forbes, (his first Fasciculus was published in 1855; his second in 1861; both at Burntisland, at his private press), with an occasional preference for the readings of one or other of the <span class="c22"><a name="vii.v-p21.1"></A>mss.</span> examined by him or by others on his behalf. Of these he specifies twenty: but he had examined a much larger number. The <span class="c22"><a name="vii.v-p21.2"></A>mss.</span> which contain this work, he considers, are of two families.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p22"></A>Of the first family the most important are three <span class="c22"><a name="vii.v-p22.1"></A>mss.</span> at Vienna, a tenth-century <span class="c22"><a name="vii.v-p22.2"></A>ms.</span> on vellum at S. Mark&#146;s, Venice, which he himself collated, and a Vatican <span class="c22"><a name="vii.v-p22.3"></A>ms.</span> of the tenth century. This family also includes three of the four Munich <span class="c22"><a name="vii.v-p22.4"></A>mss.</span> collated for Forbes by Krabinger.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p23"></A>The other family displays more variations from the current text. One Vienna <span class="c22"><a name="vii.v-p23.1"></A>ms.</span> &#8220;pervetustus&#8221; &#8220;initio mutilus,&#8221; was completely collated. Also belonging to this family are the oldest of the four Munich <span class="c22"><a name="vii.v-p23.2"></A>mss.</span>, the tenth-century Codex Regius (Paris), and a fourteenth-century <span class="c22"><a name="vii.v-p23.3"></A>ms.</span> at Christ Church, Oxford, clearly related to the last.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p24"></A>The Codex Baroccianus (Bodleian, perhaps eleventh century) appears to occupy an independent position.</p>  
+<p style="font-size: 16pt" class="c12"><a name="vii.v-p25"></A>For the <i>other Treatises and Letters</i> the text of the Paris Edition of 1638 (&#145;plenior et emendatior&#146; than that of 1615, according to Oehler, probably following its own title, but &#8220;much inferior to that of 1615&#8221; Canon Venables, <i>Dict. Christ. Biog.,</i> says, and this is the judgment of J. Fessler) and of Migne have been necessary as the latest <i>complete</i> editions of the works of Gregory Nyssene. (All the materials that had been collected for the edition of the Benedictines of St. Maur perished in the French Revolution.)</p>  
+<p style="font-size: 16pt" class="c39"><a name="vii.v-p26"></A>Of the two Paris Editions it must be confessed that they are based &#145;for the most part on inferior <span class="c22"><a name="vii.v-p26.1"></A>mss.</span>&#146; (Oehler.) The frequent lacun&aelig; attest this. Fronto Duc&aelig;us aided Claude, the brother of F. Morel, in settling the text, and the <span class="c22"><a name="vii.v-p26.2"></A>mss.</span> mentioned in the notes of the former are as follows:</p>  
+<p style="font-size: 16pt" class="c40"><a name="vii.v-p27"></A>1. Pithoeus&#146; &#8220;not of a very ancient hand,&#8221; &#8220;as like F. Morel&#146;s (No. 2.) as milk to milk&#8221; (so speaks John the Franciscan, who emended &#145;from one corrupt mutilated manuscript,&#146; i.e. the above, the Latin translation of the Books against Eunomius made by his father N. Gulonius.)</p>  
+<p style="font-size: 16pt" class="c40"><a name="vii.v-p28"></A>2. F. Morel&#146;s. (&#8220;Dean of Professors&#8221; and Royal Printer.)</p>  
+<p style="font-size: 16pt" class="c40"><a name="vii.v-p29"></A>3. The Royal (in the Library of Henry II., Paris), on vellum, tenth century.</p>  
+<p style="font-size: 16pt" class="c40"><a name="vii.v-p30"></A>4. Canter&#146;s (&#8220;ingens codex&#8221; sent from Antwerp by A. Schott; it had been written out for T. Canter, Senator of Utrecht).</p>  
+<p style="font-size: 16pt" class="c40"><a name="vii.v-p31"></A>5. Olivar&#146;s. &#8220;Multo emendatius&#8221; than (2.)</p>  
+<p style="font-size: 16pt" class="c40"><a name="vii.v-p32"></A>6. J. Vulcobius&#146;, Abbot of Belpr&eacute;.</p>  
+<p style="font-size: 16pt" class="c40"><a name="vii.v-p33"></A>7. The Vatican. For the treatise <i>On Virginity</i>. (The Paris Editors used Livineius&#146; Edition, based on (7) and (8).</p>  
+<p style="font-size: 16pt" class="c40"><a name="vii.v-p34"></A>8. Bricman&#146;s (Cologne). For the treatise <i>On Virginity</i>. (The Paris Editors used Livineius&#146; Edition, based on (7) and (8).</p>  
+<p style="font-size: 16pt" class="c40"><a name="vii.v-p35"></A>9. &#338;gidius David&#146;s, I.C. Paris. For the treatise <i>On Virginity</i>. (The Paris Editors used Livineius&#146; Edition, based on (7) and (8).</p>  
+<p style="font-size: 16pt" class="c40"><a name="vii.v-p36"></A><A NAME="page_XXXII"><FONT SIZE=1 COLOR=GREEN>p. XXXII</FONT></A> <a name="vii.v-Page_XXXII"></A>10. The Bavarian (Munich) for Books II.&#8211;XIII. Against Eunomius and other treatises; only after the first edition of 1615.</p>  
+<p style="font-size: 16pt" class="c12"><a name="vii.v-p37"></A>Other important <span class="c22"><a name="vii.v-p37.1"></A>mss.</span> existing for treatises here translated are</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p38"></A><i>On Pilgrimages:</i> <span class="c11"><a name="vii.v-p38.1"></A>ms.</span> C&aelig;sareus (Vienna): &#8220;valde vetustus&#8221; (Nessel, on the Imperial Library), vellum, No. 160, burnt at beginning.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p39"></A><span class="c11"><a name="vii.v-p39.1"></A>mss.</span> Florence (xx. 17: xvi. 8).</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p40"></A><span class="c11"><a name="vii.v-p40.1"></A>ms.</span> Leyden (not older than fifteenth century).</p>  
+<p style="font-size: 16pt" class="c41"><a name="vii.v-p41"></A>On the Making of Man:</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p42"></A><span class="c11"><a name="vii.v-p42.1"></A>ms.</span> Augsburgh, with twelve Homilies of Basil, the two last being wrongly attributed to Gregory (Reizer).</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p43"></A><span class="c11"><a name="vii.v-p43.1"></A>ms.</span> Ambrosian (Milan). See Montfaucon, Bibl. Bibliothec. p. 498.</p>  
+<p style="font-size: 16pt" class="c41"><a name="vii.v-p44"></A>On Infants&#146; Early Deaths:</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p45"></A><span class="c11"><a name="vii.v-p45.1"></A>ms.</span> Turin (Royal Library).</p>  
+<p style="font-size: 16pt" class="c41"><a name="vii.v-p46"></A>On the Soul and Resurrection:</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p47"></A><span class="c11"><a name="vii.v-p47.1"></A>mss.</span> Augsburgh, Florence, Turin, Venice.</p>  
+<p style="font-size: 16pt" class="c41"><a name="vii.v-p48"></A>Great Catechetical:</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p49"></A><span class="c11"><a name="vii.v-p49.1"></A>mss.</span> Augsburgh, Florence, Turin, C&aelig;sareus.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.v-p50"></A>Many other <span class="c22"><a name="vii.v-p50.1"></A>mss.</span>, for these and other treatises, are given by S. Heyns (<i>Disputatio de Greg. Nyss.</i> Leyden, 1835). But considering the mutilated condition of most of the oldest, and the still small number of treatises edited from an extended collation of these, the complaint is still true that &#145;the text of hardly any other ancient writer is in a more imperfect state than that of Gregory of Nyssa.&#146;</p>  
+<p style="font-size: 16pt" class="c37"><a name="vii.v-p51"></A><span class="c11"><a name="vii.v-p51.1"></A>Versions of Several Treatises</span>.</p>  
+<p style="font-size: 16pt" class="c42"><a name="vii.v-p52"></A>Latin.</p>  
+<p style="font-size: 16pt" class="c43"><a name="vii.v-p53"></A>1. Of Dionysius Exiguus (died before 556): <i>On the Making of Man.</i> Aldine, 1537. Cologne, 1551. Basle, 1562. Cologne, 1573. Dedicated to Eugippius.&#146; This Dedication and the Latin of Gregory&#146;s Preface was only once printed (i.e. in J. Mabillon&#146;s Analecta, Paris, 1677).</p>  
+<p style="font-size: 16pt" class="c44"><a name="vii.v-p54"></A>This ancient Latin Version was revised by Fronto Duc&aelig;us, the Jesuit, and Combeficius. There is a copy of it at Leyden. It stimulated J. Le&uuml;nclaius (see below), who judged it &#8220;foeda pollutum barbari&acirc; planeque perversum,&#8221; to make another. Basle, 1567.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p55"></A>2. Of Daniel Augentius: <i>On the Soul.</i> Paris 1557.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p56"></A>3. Of Laurent. Sifanus, I. U. Doct.: <i>On the Soul</i> and many other treatises. Basle, 1562 Apud N. Episcopum.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p57"></A>4. Of Pet. Galesinius: <i>On Virginity</i> and <i>On Prayer.</i> Rome, 1563, ap. P. Manutium.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p58"></A>5. Of Johann. Le&uuml;nclaius: <i>On the Making of Man.</i> Basle, 1567, ap. Oporinum.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p59"></A>6. Of Pet. Morelius, of Tours: <i>Great Catechetical.</i> Paris, 1568.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p60"></A>7. Of Gentianus Hervetus, Canon of Rheims, a diligent translator of the Fathers: <i>Great Catechetical,</i> and many others. Paris, 1573.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p61"></A>8. Of Johann. Livineius, of Ghent: <i>On Virginity.</i> Apud Plantinum, 1574.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p62"></A>9. Of Pet. Fr. Zinus, Canon of Verona, translator of Euthymius&#146; Panoplia, which contains the <i>Great Catechetical.</i> Venice, 1575.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p63"></A>10. Of Jacob Gretser, the Jesuit: <i>I. e. Eunom.</i> Paris, 1618.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p64"></A>11. Of Nicolas Gulonius, Reg. Prof. of Greek: <i>II.&#8211;XIII. c. Eunom.</i> Paris, 1615. Revised by his son John, the Franciscan.</p>  
+<p style="font-size: 16pt" class="c46"><a name="vii.v-p65"></A>12. Of J. Georg. Krabinger, Librarian of Royal Library, Munich: <i>On the Soul, Great Catechetical, On Infants&#146; Early Deaths,</i> and others. Leipzic, 1837.</p>  
+<p style="font-size: 16pt" class="c47"><a name="vii.v-p66"></A>German.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p67"></A>1. Of Glauber: <i>Great Catechetical,</i> &amp;c. Gregorius von Nyssa und Augustinus &uuml;ber den ersten Christlichen Religions-unterricht. Leipzic, 1781.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p68"></A>2. Of Julius Rupp, K&ouml;nigsberg: <i>On Meletius.</i> Gregors Leben und Meinungen. Leipzic, 1834.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p69"></A>3. Of Oehler: <i>Various treatises.</i> Bibliothek der Kirchenv&auml;ter I. Theil. Leipzic, 1858&#8211;59.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p70"></A>4. Herm. Schmidt, paraphrased rather than translated: <i>On the Soul.</i> Halle, 1864.</p>  
+<p style="font-size: 16pt" class="c45"><a name="vii.v-p71"></A>5. Of H. Hayd: <i>On Infants&#146; Early Deaths</i>: <i>On the Making of Man</i>, &amp;c. Kempton, 1874.</p>   
+<p>
+<p> 
+<p><HR>
+<CENTER>
+<A HREF="2050012.html">Next: Dogmatic Treatises.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/205/2050011.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/205/2050011.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/6qqwa9y'>tak.la/6qqwa9y</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/6qqwa9y';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+

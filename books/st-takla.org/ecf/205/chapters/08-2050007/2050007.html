@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META property="og:title" name="description" content="Nicene and Post-Nicene Fathers, Ser. II: Gregory of Nyssa: Dogmatic Treatises, etc., Vol. V, full text at St-Takla.org">
+<META name="keywords" content="Christianity Early Church Fathers Gregory Nyssa Dogmatic Treatises">
+<meta property="og:image" itemprop="image" name="twitter:image" id="commonOpenGraphImage" content="https://st-takla.org/Pix/2019/St-Takla-org--og-image.png" />
+
+<title>Nicene and Post-Nicene Fathers, Ser. II, Vol. V: Prolegomena.: Chapter I | St-Takla.org</TITLE>
+
+<meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8">  
+
+<!-- og headers 2024 / ?v=3.2-->
+<meta content="summary_large_image" name="twitter:card">
+<meta property="og:url" content="https://st-takla.org/books/en/ecf/205/2050007.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St-Takla.org">
+<meta property="fb:app_id" content="677700196384541"/>
+<meta property="og:updated_time" content="2025-01-26T01:28:14+02:00" />
+
+<script src="/resources/jquery.min.js"></script>
+
+<link href="/resources/2019/bootstrap.min.css" rel="stylesheet">
+<script src="/resources/2019/bootstrap.min.js"></script>
+
+<!-- the following scripts till before the line of common.css moved here by Mike, Jan 2021, to make them work -->
+
+<!-- font size -->
+<script>
+    // JavaScript logic to control font size
+    document.addEventListener("DOMContentLoaded", function () {
+        // Reference the bodytext div
+        const bodytext = document.getElementById("bodytext");
+
+        // Get initial font size
+        let currentFontSize = parseFloat(window.getComputedStyle(bodytext).fontSize);
+
+        // Decrease font size
+        document.getElementById("btn-decrease3").addEventListener("click", function () {
+            if (currentFontSize > 10) { // Prevent font from becoming too small
+                currentFontSize -= 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+
+        // Reset to original font size
+        document.getElementById("btn-orig3").addEventListener("click", function () {
+            currentFontSize = 24; // Default size
+            bodytext.style.fontSize = currentFontSize + "px";
+        });
+
+        // Increase font size
+        document.getElementById("btn-increase3").addEventListener("click", function () {
+            if (currentFontSize < 36) { // Prevent font from becoming too large
+                currentFontSize += 2;
+                bodytext.style.fontSize = currentFontSize + "px";
+            }
+        });
+    });
+</script>
+
+
+
+<!-- font size for large menu -->
+<script type="text/javascript">
+$(window).load(function(){
+      
+var $affectedElements = $("#bodytext *"); // Can be extended, ex. $("div, p, span.someClass")
+
+// Storing the original size in a data attribute so size can be reset
+$affectedElements.children().each( function(){
+  var $this = $(this);
+  $this.data("orig-size", $this.css("font-size") );
+});
+
+$("#btn-increase1").click(function(){
+  changeFontSize(1);
+})
+
+$("#btn-decrease1").click(function(){
+  changeFontSize(-1);
+})
+
+$("#btn-orig1").click(function(){
+  $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , $this.data("orig-size") );
+   });
+})
+
+function changeFontSize(direction){
+    $affectedElements.children().each( function(){
+        var $this = $(this);
+        $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
+    });
+}
+    });
+</script>
+
+
+<!-- show/hide tables with images -->
+  <script type="text/javascript">
+    $(window).load(function(){
+$(document).ready(function(){
+    $("button-hide").click(function(){
+        $(".table-responsive").toggle();
+    });
+});
+    });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/common.css" />
+<script src="/resources/common.js?v=3.2" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/resources/2019/bootstrap-dropdownhover.min.css">
+<script src="/resources/2019/bootstrap-dropdownhover.min.js"></script>
+<link rel="stylesheet" href="/resources/2019/animate.min.css">
+
+<link href="/resources/2019/common-2-navbar.css" rel="stylesheet">
+
+<script src="/resources/2019/form.js"></script>
+
+<base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1668cd">
+
+
+<!-- background color php cookie -->
+
+
+<!-- background color css -->
+  <style>
+  body { background-color: #dbdaec; } /* Here, use the color */
+  .color-btn {
+    width: 200px; height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0; padding: 0;
+    border: 1px solid black;
+  }
+  </style>
+
+
+<!-- background color js  -->
+  <script>
+  var setCookie = function (n, val) {
+    var exdays = 30;
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = n + "=" + val + "; " + expires;
+  };
+  document.onclick = function (e) {
+    if (e.target.className == 'color-btn') {
+      var favColor = e.target.style.backgroundColor;
+      setCookie('color', favColor);
+      document.body.style.backgroundColor = favColor;
+      console.log(favColor);
+    }
+  };
+  </script>
+
+
+<!-- 2024 current prayer js  -->
+<script>
+    function getPrayerLink() {
+        const now = new Date();
+        const hours = now.getHours();
+        let link = "";
+        let prayerName = "";
+
+        if (hours >= 6 && hours < 9) {
+            link = "/Agpeya/Agbeya_01_Prime.html";
+            prayerName = "Now: 1st Hour - Prime";
+        } else if (hours >= 9 && hours < 12) {
+            link = "/Agpeya/Agbeya_03_Terce.html";
+            prayerName = "Now: 3rd Hour - Terce";
+        } else if (hours >= 12 && hours < 15) {
+            link = "/Agpeya/Agbeya_06_Sext.html";
+            prayerName = "Now: 6th Hour - Sext";
+        }  else if (hours >= 15 && hours < 17) {
+            link = "/Agpeya/Agbeya_09_None.html";
+            prayerName = "Now: 9th Hour - None";
+        }  else if (hours >= 17 && hours < 18) {
+            link = "/Agpeya/Agbeya_11_Vespers.html";
+            prayerName = "Now: 11th Hour - Vespers";
+        }  else if (hours >= 18 && hours < 23) {
+            link = "/Agpeya/Agbeya_12_Compline.html";
+            prayerName = "Now: 12th Hour - Compline";
+        }  else if (hours >= 23 && hours < 6) {
+            link = "/Agpeya/Agbeya_Midnight.html";
+            prayerName = "Now: Midnight";
+            } else {
+                link = "#"; // Default link if no matching time range
+                prayerName = "No prayer available at this time";
+            }
+
+            // Update all prayer links
+            const links = document.querySelectorAll(".prayer-link");
+            links.forEach(linkElement => {
+                linkElement.href = link;
+                linkElement.innerText = prayerName;
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", getPrayerLink);
+
+</script>
+
+
+<!-- breadcrumbs js -->
+
+
+<!-- float1: to make it rtl for the large one / .container to make the main bar limited  / body {padding-top: 64px!important;} to add padding at top smaller navbar -->
+<style>
+
+.navbar{ font-size:17px!important; width: 100%!important;}
+.dropdown-menu{margin-top: -2px; font-size:16px!important;  }
+li.dropdown, li.dropdown *{font-weight: bold!important; }
+
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background-color:#78B4EC!important;}
+.dropdown-menu > li.open > a{background-color:#6A9AC6!important}
+
+
+.container{width:100%!important;}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px!important;
+margin-left: 0px!important;
+}
+
+.navbar {
+min-height: 0px!important;
+margin-bottom: 0px!important;
+border-radius: 0px!important;
+}
+
+.caret2{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+}
+
+.caret3{
+  border-width: 5px;
+  border-style: solid;
+  border-right: 5px solid transparent;
+  border-color: black transparent transparent;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  float: left;
+  margin-top: 7px;
+}
+
+.divider{
+background-color:#8c8b8b !important;
+}
+
+
+@media (max-width: 767px) {
+body {padding-top: 64px!important;}
+}
+
+h1 * {font-size: 24pt!important;}
+h2 * {font-size: 22pt!important;}
+h3 * {font-size: 21pt!important;}
+h4 * {font-size: 19pt!important;}
+h5 * {font-size: 16pt!important;}
+h6 * {font-size: 14pt!important;}
+
+</style></head>  
+
+<body>
+
+
+<!-- for smaller screens -->
+<div align="center" class ="visible-xs-block ">
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue navbar-fixed-top" role="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-animations">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/"><img border="0" src="/resources/2019/sts-logo-en-mobi-2.png" align="left"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav">
+
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="margin-top: 20px;">
+    <p  align="center">
+    <input type="text" name="q"  style="padding:5px; width:266px;  max-width: 500px;border-radius: 4px;" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px"><br style="display: block; margin-bottom: 10px;">
+    <button type="submit" class="btn btn-search btn-search-mobile" style="font-size: 14px">Site Search</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>  
+    <button type="submit"  class="btn btn-search btn-search-mobile" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+
+
+<li class="dropdown"><a href="#1nav" name="1nav" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#2nav" name="2nav" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#3nav" name="3nav" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#4nav" name="4nav" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+<li class="dropdown"><a href="#5nav" name="5nav" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q" placeholder="Search for images" style="font-size: 13px;height:32px;border-radius:4px;"> <!-- orginal fontsize only -->
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary btn-search" style="font-size: 14px">Gallery Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#6nav" name="6nav" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown" style="margin-bottom: 75px;"><a href="#8nav" name="8nav" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease3">Smaller font size</a></li>
+<li><a href="#" id="btn-orig3">Default font size</a></li>
+<li><a href="#" id="btn-increase3">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+
+<div id="rcorners3" dir="ltr" style="margin-right: -20px!important; margin-left: -20px!important; width: auto!important;"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/205/'>205</a></span></div>
+
+
+<!-- Prayer Message Overlay (Mobile) -->
+<div id="prayerMessageMob" style="
+    margin: 5px auto;
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookieMob(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookieMob(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookieMob("prayerMessageShownMob")) {
+    var msgMob = document.getElementById("prayerMessageMob");
+    if (msgMob) {
+      msgMob.style.display = "block";
+      setTimeout(function(){ msgMob.style.display="none"; }, 10000);
+      setCookieMob("prayerMessageShownMob", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+</div>
+
+
+
+<!-- main bar -->
+<div style="height: 150px; width: 100%; margin-bottom: 50px" class ="visible-md-block visible-lg-block visible-sm-block">
+<div style="background-color: #1668cd;  height: 132px; width: 100%; float: right; margin-right: -20px!important; margin-left: -20px!important; position: absolute" class ="visible-md-block visible-lg-block visible-sm-block">
+
+<div align="center" class ="visible-md-block visible-lg-block visible-sm-block">
+<table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td rowspan="2" bgcolor="#1668cd">
+<a href="/"><img border="0" src="/resources/2019/sts-logo-en.png"></a>
+</td>
+
+<td>
+
+
+    <div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue " role="navigation" >
+        <div class="container">
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Christianity</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/bible/dictionary/en/g/god.html" title="">God</a></li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Jesus Christ <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/JESUS-index.html" title="">Who is Jesus Christ?</a></li>
+<li><a href="/books/en/pope-shenouda-iii/divinity-of-christ/index.html" title="">Divinity of Christ</a></li>
+<li><a href="/books/en/pope-shenouda-iii/nature-of-christ/index.html" title="">The Nature of Christ</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">The Coptic Orthodox Church of Egypt <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/church/synaxarium/08-bermodah/30-baramouda-mark.html" title="">Saint Mark the Evengelist</a></li>
+<li><a href="/Coptic-church-1.html" title="">Brief history of the Coptic Church</a></li>
+<li><a href="/Feastes-&-Special-Events/Coptic-Orthodox-Feasts-Events-Fasting.html" title="">Feasts and Events</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" title="">Other Christian Denominations <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/books/en/pope-shenouda-iii/comparative-theology/index.html" title="">Comparative Theology</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><a href="/Links/Coptic-links-1.html" title="">Coptic Orthodox Websites Directory</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Holy&nbsp;Bible</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">English Bible</a></li>
+<li><a href="/Holy-Bible_.html" title="">Arabic Bible</a></li>
+<li><a href="/bible/dictionary/en/index.html" title="">Bible Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-01-Old-Testament.html" title="">Old Testament Maps</a></li>
+<li><a href="/Coptic-Bible-Maps/Holy-Bible-Map-index-02-New-Testament.html" title="">New Testament Maps</a></li>
+<li><a href="/Gallery/Bible/Maps.html" title="">Other Bible maps images</a></li>
+<li class="divider"></li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Gallery</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Books</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Bibles/Holy-Bible.html" title="">God's Book</a></li>
+<li><a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html" title="">Index: Coptic books in English</a></li>
+<li><a href="/Full-Free-Coptic-Books/St-Takla.org_Kotob-Keptya-index-01.html" title="">Christian Arabic books</a></li>
+<li><a href="/books/en/pope-shenouda-iii/index.html" title="">Pope Shenouda III English Books</a></li>
+<li><a href="/books/en/ecf/index.html" title="">Ante-Nicene, Nicene and Post-Nicene Fathers</a></li>
+</ul>
+</li>
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Prayers</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Agpeya.html" title="">Agbeya: the Coptic Book of Prayers</a></li>
+<li><a href="#" class="prayer-link" >Loading...</a></li>
+<li class="divider"></li>
+<li><a href="/Prayers-Slawat/Online-Coptic-Prayer-Book-01-Index.html" title="">Other Prayers</a></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/Kids-Corner/Kids-index.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="">Kids</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+</td></tr>
+
+
+
+
+
+<!-- Large Navbar 2: 2019 -->
+<tr><td>
+
+<div class="bs-demo-showcase">
+      <nav class="navbar navbar-material-blue2" role="navigation">
+        <div class="container">
+          <div  id="bs-example-navbar-collapse-animations" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+            <ul class="nav navbar-nav float1">
+
+
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false" title="���� ����� Gallery">&nbsp;&nbsp;&nbsp;Gallery</a>  
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">People <span class="caret2"></span></a>  
+<ul class="dropdown-menu">
+<li><a href="/Gallery/Jesus-Christ.html" title="">Jesus Christ Images</a></li>
+<li><a href="/Gallery/Saint-Mary.html" title="">Saint Mary Images</a></li>
+<li><a href="/Gallery/Angels-and-Archangels.html" title="">Angels Images</a></li>
+<li><a href="/Gallery/Saints-and-Figures.html" title="">Saints Images</a></li>
+<li><a href="/Gallery/Clergy.html" title="">Coptic Clergy Images</a></li>
+</ul>
+</li>
+<li><a href="/Gallery/Bible.html" title="">Holy Bible Images</a></li>
+<li><a href="/Gallery/Kids/Coloring.html" title="">Coloring Images</a></li>
+<li><a href="/Gallery" title="">More Images</a></li>
+<li><form method="GET"  accept-charset="utf-8" style="white-space: nowrap;" action="/Gallery/search.html?q=">
+          <p style="padding-left: 15px">
+          <input type="text" name="q"  placeholder="Search gallery" style="font-size: 13px;height:35px;border-radius:4px; padding-left:5px" size="15"">
+          <input type="hidden" name="op" value="and" style="font-size: 13px">
+          <button type="submit" class="btn btn-primary" style="font-size: 14px; margin-right: 10px;">Search</button></p>
+      </form></li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropdown-toggle" role="button" aria-expanded="false">&nbsp;Media</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Multimedia/001-Carols-index.html" title="">Spiritual Songs</a></li>
+<li><a href="/Multimedia/002-Hymns-index.html" title="">Coptic Hymns</a></li>
+<li><a href="/Multimedia/003-Masses-index.html" title="">Holy Liturgies</a></li>
+<li><a href="/Multimedia/004-Sermons-index.html" title="">Ar. Sermons</a></li>
+<li><a href="/Multimedia/005-Praise-index.html" title="">Praise</a></li>
+<li><a href="/Multimedia/006-Agpeya-index.html" title="">Audio Agbeya</a></li>
+<li><a href="/Multimedia/008-Midis-index.html" title="">.midi files</a></li>
+<li><a href="/Multimedia/011-Coptic-Orthodox-Spiritual-Music.html" title="">Hymns music</a></li>
+<li><a href="/Gallery/" title="">Gallery</a></li>
+<li class="dropdown"><a href="#" title="">Downloads <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html" title="">Coptic Fonts</a></li>
+<li><a href="/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Icons-ico_01.html" title="">.ico files</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+<li class="dropdown"><a href="/P-1_.html" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title="������ ������� �� ������ Arabic version of the website">&nbsp;����</a></li>
+
+
+<li class="dropdown"><a href="#" class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" title=""><img border="0" src="/resources/2019/gear.png" width="20" height ="20"> Options</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown"><a href="#" title="">Background color (to be saved) <span class="caret2"></span></a>
+  <ul class="dropdown-menu">      <li style="text-align: center!important;"><button class="color-btn" style="background-color: #dbdaec"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #bccbde"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c2dde6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #C2E5C6"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #c5d5cb"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e3e0cf"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #e6e9f0"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #f8e5e5"></button></li>
+          <li style="text-align: center!important;"><button class="color-btn" style="background-color: #ffffff"></button></li>
+      </ul>
+</li>
+<li class="divider"></li>
+<li class="dropdown"><a href="#" title="">Font Size <span class="caret2"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" id="btn-decrease1">Smaller font size</a></li>
+<li><a href="#" id="btn-orig1">Default font size</a></li>
+<li><a href="#" id="btn-increase1">Larger font size</a></li>
+</ul>
+</li>
+<li class="divider"></li>
+<li><button-hide>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show/Hide Images and Tables</button></li>
+</ul>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="search">
+<form method="GET" accept-charset="utf-8" action="/Coptic-Search-St-Takla.org/site_search.php" style="font-size: 16px; margin: -20px;">
+    <p  align="center"" style="margin-left: 10px;" >
+    <input type="text" name="q" size="20" style="height:32px;padding-top: 1px;margin-top: 0px;padding-right: 5px; padding-left: 5px; border-radius: 4px; font-size: 14px !important" placeholder="Type the search terms" style="font-size: 16px;">
+    <input type="hidden" name="op" value="and" style="font-size: 13px">
+    <button type="submit" class="btn btn-search" style="font-size: 14px">Site Search</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Bibles/BibleSearch/search.php">Arabic Bible</button>
+    <button type="submit" class="btn btn-search" style="font-size: 14px" formaction="/Gallery/search.html?q=">Gallery</button>
+    </p>
+</form>
+</div>					 
+</nav>
+</div>
+
+</td></tr>
+
+<tr style="line-height: 5px!important">
+<td></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+
+</td>
+
+</tr>
+</table>
+</div>
+<center><div dir="ltr"><div id="rcorners3"><span class='bc0'><a href='/'>St-Takla.org</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc1'><a href='/books/'>books</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc2'><a href='/books/en/'>en</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc3'><a href='/books/en/ecf/'>ecf</a> <b>&nbsp;>&nbsp;&nbsp;</b></span> <span class='bc4'><a href='/books/en/ecf/205/'>205</a></span></div></div></center>
+
+
+<!-- Prayer Message Overlay (Desktop) -->
+<div id="prayerMessage" style="
+    margin: 10px auto;
+    display: none;
+    background: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    width: fit-content;
+    text-align: center;
+">
+  Please pray for the site's ministry and its servants
+</div>
+
+<script>
+function setCookie(name, value, days) {
+  var d = new Date();
+  d.setTime(d.getTime() + (days*24*60*60*1000));
+  document.cookie = name + "=" + value + ";expires=" + d.toUTCString() + ";path=/";
+}
+function getCookie(name) {
+  var cname = name + "=";
+  var decoded = decodeURIComponent(document.cookie);
+  var ca = decoded.split(';');
+  for (var i=0;i<ca.length;i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(cname) == 0) return c.substring(cname.length,c.length);
+  }
+  return "";
+}
+
+window.addEventListener("load", function() {
+  if (!getCookie("prayerMessageShown")) {
+    var msg = document.getElementById("prayerMessage");
+    if (msg) {
+      msg.style.display = "block";
+      setTimeout(function(){ msg.style.display="none"; }, 10000);
+      setCookie("prayerMessageShown", "yes", 30);
+    }
+  }
+});
+</script>
+
+
+
+</div>
+</div>
+
+
+<div id="bodytext">
+<CENTER>
+<BR>
+
+<font face="Arial"><span style="font-size: 16pt">
+<h1>Nicene and Post-Nicene Fathers, Ser. II, Vol. V:<br>Prolegomena.: Chapter I</h1>
+<A HREF="../index.html">Early Church Fathers</A>&nbsp;
+<A HREF="index.html">Index</A>&nbsp;
+<A HREF="2050006.html" id="prev">Previous</A>&nbsp;
+<A HREF="2050008.html" id="next">Next</A>&nbsp;
+</CENTER>
+<HR>
+
+<p> <a name="vii.i"></A>  <A NAME="page_I"><FONT SIZE=1 COLOR=GREEN>p. I</FONT></A> <a name="vii.i-Page_I"></A>
+<p style="font-size: 16pt" class="c10"><a name="vii.i-p1"></A><span class="c9"><a name="vii.i-p1.1"></A>The Life and Writings of Gregory of Nyssa.</span></p>  
+<p style="font-size: 16pt" class="c2"><a name="vii.i-p2"></A>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</p>  
+<p style="font-size: 16pt" class="c37"><a name="vii.i-p3"></A><span class="c4"><a name="vii.i-p3.1"></A>Chapter I.&#8212;<span class="c22"><a name="vii.i-p3.2"></A>A Sketch of the Life of S. Gregory of Nyssa</span>.</span></p>  
+<p style="font-size: 16pt" class="c12"><a name="vii.i-p4"></A><span class="c11"><a name="vii.i-p4.1"></A>In</span> the roll of the Nicene Fathers there is no more honoured name than that of Gregory of Nyssa. Besides the praises of his great brother Basil and of his equally great friend Gregory Nazianzen, the sanctity of his life, his theological learning, and his strenuous advocacy of the faith embodied in the Nicene clauses, have received the praises of Jerome, Socrates, Theodoret, and many other Christian writers. Indeed such was the estimation in which he was held that some did not hesitate to call him &#145;the Father of Fathers&#146; as well as &#145;the Star of Nyssa&#146;&nbsp;<A NAME="fr_2"></A><A HREF="#fn_2"><FONT SIZE="1">4</FONT></A>
+.&#8221;</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p6"></A>Gregory of Nyssa was equally fortunate in his country, the name he bore, and the family which produced him. He was a native of Cappadocia, and was born most probably at C&aelig;sarea, the capital, about <span class="c22"><a name="vii.i-p6.1"></A>a.d.</span> 335 or 336. No province of the Roman Empire had in those early ages received more eminent Christian bishops than Cappadocia and the adjoining district of Pontus.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p7"></A>In the previous century the great prelate Firmilian, the disciple and friend of Origen, who visited him at his See, had held the Bishopric of C&aelig;sarea. In the same age another saint, Gregory Thaumaturgus, a friend also and disciple of Origen, was bishop of Neo-C&aelig;sarea in Pontus. During the same century, too, no less than four other Gregories shed more or less lustre on bishoprics in that country. The family of Gregory of Nyssa was one of considerable wealth and distinction, and one also conspicuously Christian.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p8"></A>During the Diocletian persecution his grandparents had fled for safety to the mountainous region of Pontus, where they endured great hardships and privations. It is said that his maternal grandfather, whose name is unknown, eventually lost both life and property. After a retirement of some few years the family appear to have returned and settled at C&aelig;sarea in Cappadocia, or else at Neo-C&aelig;sarea in Pontus, for there is some uncertainty in the account.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p9"></A>Gregory&#146;s father, Basil, who gave his name to his eldest son, was known as a rhetorician. He died at a comparatively early age, leaving a family of ten children, five of whom were boys and five girls, under the care of their grandmother Macrina and mother Emmelia. Both of these illustrious ladies were distinguished for the earnestness and strictness of their Christian principles, to which the latter added the charm of great personal beauty.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p10"></A>All the sons and daughters appear to have been of high character, but it is only of four sons and one daughter that we have any special record. The daughter, called Macrina, from her grandmother, was the angel in the house of this illustrious family. She shared with her grandmother and mother the care and education of all its younger members. Nor was there <A NAME="page_II"><FONT SIZE=1 COLOR=GREEN>p. II</FONT></A> <a name="vii.i-Page_II"></A>one of them who did not owe to her religious influence their settlement in the faith and consistency of Christian conduct.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p11"></A>This admirable woman had been betrothed in early life, but her intended husband died of fever. She permitted herself to contract no other alliance, but regarded herself as still united to her betrothed in the other world. She devoted herself to a religious life, and eventually, with her mother Emmelia, established a female conventual society on the family-property in Pontus, at a place called Annesi, on the banks of the river Iris.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p12"></A>It was owing to her persuasions that her brother Basil also gave up the worldly life, and retired to lead the devout life in a wild spot in the immediate neighbourhood of Annesi. Here for a while he was an hermit, and here he persuaded his friend Gregory Nazianzen to join him. They studied together the works of Origen, and published a selection of extracts from his Commentaries, which they called &#8220;Philocalia.&#8221; By the suggestions of a friend Basil enlarged his idea, and converted his hermit&#146;s seclusion into a monastery, which eventually became the centre of many others which sprung up in that district.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p13"></A>His inclination for the monastic life had been greatly influenced by his acquaintance with the Egyptian monks, who had impressed him with the value of their system as an aid to a life of religious devotion. He had visited also the hermit saints of Syria and Arabia, and learnt from them the practice of a severe asceticism, which both injured his health and shortened his days.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p14"></A>Gregory of Nyssa was the third son, and one of the youngest of the family. He had an elder brother, Nectarius, who followed the profession of their father, and became rhetorician, and like him died early. He had also a younger brother, Peter, who became bishop of Sebaste.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p15"></A>Besides the uncertainty as to the year and place of his birth it is not known where he received his education. From the weakness of his health and delicacy of his constitution, it was most probably at home. It is interesting, in the case of one so highly educated, to know who, in consequence of his father&#146;s early death, took charge of his merely intellectual bringing up: and his own words do not leave us in any doubt that, so far as he had a teacher, it was Basil, his senior by several years. He constantly speaks of him as the revered &#145;Master:&#146; to take but one instance, he says in his <i>Hexaemeron (ad init.)</i> that all that will be striking in that work will be due to Basil, what is inferior will be the &#145;pupil&#146;s.&#146; Even in the matter of style, he says in a letter written in early life to Libanius that though he enjoyed his brother&#146;s society but a short time yet Basil was the author of his oratory (<span class="Greek"><a name="vii.i-p15.1"></A>&#955;&#8057;&#947;&#959;&#965;</span>): and it is safe to conclude that he was introduced to all that Athens had to teach, perhaps even to medicine, by Basil: for Basil had been at Athens. On the other hand we can have no difficulty in crediting his mother, of whom he always spoke with the tenderest affection, and his admirable sister Macrina, with the care of his religious teaching. Indeed few could be more fortunate than Gregory in the influences of home. If, as there is every reason to believe, the grandmother Macrina survived Gregory&#146;s early childhood, then, like Timothy, he was blest with the religious instruction of another Lois and Eunice.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p16"></A>In this chain of female relationship it is difficult to say which link is worthier of note, grandmother, mother, or daughter. Of the first, Basil, who attributes his early religious impressions to his grandmother, tells us that as a child she taught him a Creed, which had been drawn up for the use of the Church of Neo-C&aelig;sarea by Gregory Thaumaturgus. This Creed, it is said, was revealed to the Saint in a vision. It has been translated by Bishop Bull in his &#8220;Fidei Nic&aelig;n&aelig; Defensio.&#8221; In its language and spirit it anticipates the Creed of Constantinople.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p17"></A>Certain it is that Gregory had not the benefit of a residence at Athens, or of foreign travel. It might have given him a strength of character and width of experience, in which he was certainly deficient. His shy and retiring disposition induced him to remain at home <A NAME="page_III"><FONT SIZE=1 COLOR=GREEN>p. III</FONT></A> <a name="vii.i-Page_III"></A>without choosing a profession, living on his share of the paternal property, and educating himself by a discipline of his own.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p18"></A>He remained for years unbaptized. And this is a very noticeable circumstance which meets us in the lives of many eminent Saints and Bishops of the Church. They either delayed baptism themselves, or it was delayed for them. Indeed there are instances of Bishops baptized and consecrated the same day.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p19"></A>Gregory&#146;s first inclination or impulse to make a public profession of Christianity is said to have been due to a remarkable dream or vision.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p20"></A>His mother Emmelia, at her retreat at Annesi, urgently entreated him to be present and take part in a religious ceremony in honour of the Forty Christian Martyrs. He had gone unwillingly, and wearied with his journey and the length of the service, which lasted far into the night, he lay down and fell asleep in the garden. He dreamed that the Martyrs appeared to him and, reproaching him for his indifference, beat him with rods. On awaking he was filled with remorse, and hastened to amend his past neglect by earnest entreaties for mercy and forgiveness. Under the influence of the terror which his dream inspired he consented to undertake the office of reader in the Church, which of course implied a profession of Christianity. But some unfitness, and, perhaps, that love of eloquence which clung to him to the last, soon led him to give up the office, and adopt the profession of a rhetorician or advocate. For this desertion of a sacred for a secular employment he is taken severely to task by his brother Basil and his friend Gregory Nazianzen. The latter does not hesitate to charge him with being influenced, not by conscientious scruples, but by vanity and desire of public display, a charge not altogether consistent with his character.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p21"></A>Here it is usual to place the marriage of Gregory with Theosebeia, said to have been a sister of Gregory Nazianzen. Certainly the tradition of Gregory&#146;s marriage received such credit as to be made in after times a proof of the non-celibacy of the Bishops of his age. But it rests mainly on two passages, which taken separately are not in the least conclusive. The first is the ninety-fifth letter of Gregory Nazianzen, written to console for a certain loss by death, i.e. of &#8220;Theosebeia, the fairest, the most lustrous even amidst such beauty of the <span class="Greek"><a name="vii.i-p21.1"></A>&#7936;</span><span class="Greek"><a name="vii.i-p21.2"></A>&#948;&#949;&#955;&#966;&#959;&#8054;</span>; Theosebeia, the true priestess, the yokefellow and the equal of a priest.&#8221; J. Rupp has well pointed out that the expression &#145;yokefellow&#146; (<span class="Greek"><a name="vii.i-p21.3"></A>&#963;&#8059;&#950;&#965;&#947;&#959;&#957;</span>), which has been insisted as meaning &#145;wife,&#146; may, especially in the language of Gregory Nazianzen, be equivalent to <span class="Greek"><a name="vii.i-p21.4"></A>&#7936;</span><span class="Greek"><a name="vii.i-p21.5"></A>&#948;&#949;&#955;&#966;&#8056;&#962;</span>. He sees in this Theosebeia &#145;a sister of the Cappadocian brothers.&#146; The second passage is contained in the third cap. of Gregory&#146;s treatise <i>On Virginity</i>. Gregory there complains that he is &#8220;cut off by a kind of gulf from this glory of virginity&#8221; (<span class="Greek"><a name="vii.i-p21.6"></A>&#960;&#945;&#961;&#952;&#949;&#957;&#8055;&#945;</span>). The whole passage should be consulted. Of course its significance depends on the meaning given to <span class="Greek"><a name="vii.i-p21.7"></A>&#960;&#945;&#961;&#952;&#949;&#957;&#8055;&#945;</span>. Rupp asserts that more and more towards the end of the century this word acquired a technical meaning derived from the purely ideal side, i.e. virginity of soul: and that Gregory is alluding to the same thing that his friend had not long before blamed him for, the keeping of a school for rhetoric, where his object had been merely worldly reputation, and the truly ascetic career had been marred (at the time he wrote). Certainly the terrible indictment of marriage in the third cap. of this treatise comes ill from one whose wife not only must have been still living, but possessed the virtues sketched in the letter of Gregory Nazianzen: while the allusions at the end of it to the law-courts and their revelations appear much more like the professional reminiscence of a rhetorician who must have been familiar with them, than the personal complaint of one who had cause to depreciate marriage. The powerful words of Basil, de Virgin. I. 610, a. b., also favour the above view of the meaning of <span class="Greek"><a name="vii.i-p21.8"></A>&#960;&#945;&#961;&#952;&#949;&#957;&#8055;&#945;</span>: and Gregory elsewhere distinctly calls celibacy <span class="Greek"><a name="vii.i-p21.9"></A>&#960;&#945;&#961;&#952;&#949;&#957;&#8055;&#945; &#964;&#959;&#8166; &#963;&#8061;&#956;&#945;&#964;&#959;&#962;</span>, and regards it as a means only to this higher <span class="Greek"><a name="vii.i-p21.10"></A>&#960;&#945;&#961;&#952;&#949;&#957;&#953;&#945;</span> (III. 131). But the two passages above, when combined, may have led to the tradition of Gregory&#146;s marriage. Nicephorus Callistus, for example, who first makes mention of it, must have put upon <span class="Greek"><a name="vii.i-p21.11"></A>&#960;&#945;&#961;&#952;&#949;&#957;&#8055;&#945;</span> the interpretation of his own time (thirteenth century,) <A NAME="page_IV"><FONT SIZE=1 COLOR=GREEN>p. IV</FONT></A> <a name="vii.i-Page_IV"></A>i.e. that of continence. Finally, those who adopt this tradition have still to account for the fact that no allusion to Theosebeia as his wife, and no letter to her, is to be found in Gregory&#146;s numerous writings. It is noteworthy that the Benedictine editors of Gregory Nazianzen (ad Epist. 95) also take the above view.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p22"></A>His final recovery and conversion to the Faith, of which he was always after so strenuous an asserter, was due to her who, all things considered, was the master spirit of the family. By the powerful persuasions of his sister Macrina, at length, after much struggle, he altered entirely his way of life, severed himself from all secular occupations, and retired to his brother&#146;s monastery in the solitudes of Pontus, a beautiful spot, and where, as we have seen, his mother and sister had established, in the immediate neighbourhood, a similar association for women.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p23"></A>Here, then, Gregory was settled for several years, and devoted himself to the study of the Scripture and the works of his master Origen. Here, too, his love of natural scenery was deepened so as to find afterwards constant and adequate expression. For in his writings we have in large measure that sentiment of delight in the beauty of nature of which, even when it was felt, the traces are so few and far between in the whole range of Greek literature. A notable instance is the following from the <i>Letter to Adelphus</i>, written long afterwards:&#8212;&#8220;The gifts bestowed upon the spot by Nature, who beautifies the earth with an impromptu grace, are such as these: below, the river Halys makes the place fair to look upon with his banks, and glides like a golden ribbon through their deep purple, reddening his current with the soil he washes down. Above, a mountain densely overgrown with wood stretches, with its long ridge, covered at all points with the foliage of oaks, more worthy of finding some Homer to sing its praises than that Ithacan Neritus which the poet calls &#145;far-seen with quivering leaves.&#146; But the natural growth of wood as it comes down the hill-side meets at the foot the plantations of human husbandry. For forthwith vines, spread out over the slopes and swellings and hollows at the mountain&#146;s base, cover with their colour, like a green mantle, all the lower ground: and the season also was now adding to their beauty with a display of magnificent grape-clusters.&#8221; Another is from the treatise <i>On Infants&#146; Early Deaths</i>:&#8212;&#8220;Nay look only at an ear of corn, at the germinating of some plant, at a ripe bunch of grapes, at the beauty of early autumn whether in fruit or flower, at the grass springing unbidden, at the mountain reaching up with its summit to the height of the ether, at the springs of the lower ground bursting from its flanks in streams like milk, and running in rivers through the glens, at the sea receiving those streams from every direction and yet remaining within its limits with waves edged by the stretches of beach, and never stepping beyond those fixed boundaries: and how can the eye of reason fail to find in them all that our education for Realities requires?&#8221; The treatise <i>On Virginity</i> was the fruit of this life in Basil&#146;s monastery.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p24"></A>Henceforward the fortunes of Gregory are more closely linked with those of his great brother Basil.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p25"></A>About <span class="c22"><a name="vii.i-p25.1"></A>a.d.</span> 365 Basil was summoned from his retirement to act as coadjutor to Eusebius, the Metropolitan of C&aelig;sarea in Cappadocia, and aid him in repelling the assaults of the Arian faction on the Faith. In these assaults the Arians were greatly encouraged and assisted by the proclivities of the Emperor Valens. After some few years of strenuous and successful resistance, and the endurance of great persecution from the Emperor and his Court, a persecution which indeed pursued him through life, Basil is called by the popular voice, on the death of Eusebius, <span class="c22"><a name="vii.i-p25.2"></A>a.d.</span> 370, to succeed him in the See. His election is vehemently opposed, but after much turmoil is at length accomplished.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p26"></A>To strengthen himself in his position, and surround himself with defenders of the orthodox Faith, he obliges his brother Gregory, in spite of his emphatic protest, to undertake the Bishopric of Nyssa&nbsp;<A NAME="fr_3"></A><A HREF="#fn_3"><FONT SIZE="1">5</FONT></A>
+, a small town in the west of Cappadocia. When a friend expressed his surprise that he had chosen so obscure a place for such a man as Gregory, he replied, that <A NAME="page_V"><FONT SIZE=1 COLOR=GREEN>p. V</FONT></A> <a name="vii.i-Page_V"></A>he did not desire his brother to receive distinction from the name of his See, but rather to confer distinction upon it.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p28"></A>It was with the same feeling, and by the exercise of a like masterful will, that he forced upon his friend Gregory Nazianzen the Bishopric of a still more obscure and unimportant place, called Sasima. But Gregory highly resented the nomination, which unhappily led to a lifelong estrangement.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p29"></A>It was about this time, too, that a quarrel had arisen between Basil and their uncle, another Gregory, one of the Cappadocian Bishops. And here Gregory of Nyssa gave a striking proof of the extreme simplicity and unreflectiveness of his character, which without guileful intent yet led him into guile. Without sufficient consideration he was induced to practise a deceit which was as irreconcileable with Christian principle as with common sense. In his endeavours to set his brother and uncle at one, when previous efforts had been in vain, he had recourse to an extraordinary method. He forged a letter, as if from their uncle, to Basil, earnestly entreating reconciliation. The inevitable discovery of course only widened the breach, and drew down on Gregory his brother&#146;s indignant condemnation. The reconciliation, however, which Gregory hoped for, was afterwards brought about.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p30"></A>Nor was this the only occasion on which Gregory needed Basil&#146;s advice and reproof, and protection from the consequences of his inexperienced zeal. After he had become Bishop of Nyssa, with a view to render assistance to his brother he promoted the summoning of Synods. But Basil&#146;s wider experience told him that no good would come of such assemblies under existing circumstances. Besides which he had reason to believe that Gregory would be made the tool of factious and designing men. He therefore discouraged the attempt. At another time Basil had to interpose his authority to prevent his brother joining in a mission to Rome to invite the interference of Pope Damasus and the Western Bishops in the settlement of the troubles at Antioch in consequence of the disputed election to the See. Basil had himself experience of the futility of such application to Rome, from the want of sympathy in the Pope and the Western Bishops with the troubles in the East. Nor would he, by such application, give a handle for Rome&#146;s assertion of supremacy, and encroachment on the independence of the Eastern Church. The Bishopric of Nyssa was indeed to Gregory no bed of roses. Sad was the contrast to one of his genre spirit, more fitted for studious retirement and monastic calm than for controversies which did not end with the pen, between the peaceful leisure of his retreat in Pontus and the troubles and antagonisms of his present position. The enthusiasm of his faith on the subject of the Trinity and the Incarnation brought upon him the full weight of Arian and Sabellian hostility, aggravated as it was by the patronage of the Emperor. In fact his whole life at Nyssa was a series of persecutions.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p31"></A>A charge of uncanonical irregularity in his ordination is brought up against him by certain Arian Bishops, and he is summoned to appear and answer them at a Synod at Ancyra. To this was added the vexation of a prosecution by Demosthenes, the Emperor&#146;s <i>chef de cuisine</i>, on a charge of defalcation in the Church funds.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p32"></A>A band of soldiers is sent to fetch him to the Synod. The fatigue of the journey, and the rough treatment of his conductors, together with anxiety of mind, produce a fever which prevents his attendance. His brother Basil comes to his assistance. He summons another Synod of orthodox Cappadocian Bishops, who dictate in their joint names a courteous letter, apologising for Gregory&#146;s absence from the Synod of Ancyra, and proving the falsehood of the charge of embezzlement. At the same time he writes to solicit the interest of Astorgus, a person of considerable influence at the Court, to save his brother from the indignity of being dragged before a secular tribunal.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p33"></A>Apparently the application was unsuccessful. Demosthenes now obtains the holding another Synod at Gregory&#146;s own See of Nyssa, where he is summoned to answer the same charges. Gregory refuses to attend. He is consequently pronounced contumacious, and <A NAME="page_VI"><FONT SIZE=1 COLOR=GREEN>p. VI</FONT></A> <a name="vii.i-Page_VI"></A>deposed from his Bishopric. His deposition is followed immediately by a decree of banishment from the Emperor, <span class="c22"><a name="vii.i-p33.1"></A>a.d.</span> 376. He retires to Seleucia. But his banishment did not secure him from the malice and persecution of his enemies. He is obliged frequently to shift his quarters, and is subjected to much bodily discomfort and suffering. From the consoling answers of his friend Gregory of Nazianzen (for his own letters are lost), we learn the crushing effects of all these troubles upon his gentle and sensitive spirit, and the deep despondency into which he had fallen.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p34"></A>At length there is a happier turn of affairs. The Emperor Valens is killed, <span class="c22"><a name="vii.i-p34.1"></A>a.d.</span> 378, and with him Arianism &#145;vanished in the crash of Hadrianople.&#146; He is succeeded by Gratian, the friend and disciple of St. Ambrose. The banished orthodox Bishops are restored to their Sees, and Gregory returns to Nyssa. In&nbsp;<A NAME="fr_4"></A><A HREF="#fn_4"><FONT SIZE="1">6</FONT></A>
+ one of his letters, most probably to his brother Basil, he gives a graphic description of the popular triumph with which his return was greeted.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p36"></A>But the joy of his restoration is overshadowed by domestic sorrows. His great brother, to whom he owed so much, soon after dies, ere he is 50 years of age, worn out by his unparalleled toils and the severity of his ascetic life. Gregory celebrated his death in a sincere panegyric. Its high-flown style is explained by the rhetorical fashion of the time. The same year another sorrow awaits him. After a separation of many years he revisits his sister Macrina, at her convent in Pontus, but only to find her on her death-bed. We have an interesting and graphic account of the scene between Gregory and his dying sister. To the last this admirable woman appears as the great teacher of her family. She supplies her brother with arguments for, and confirms his faith in, the resurrection of the dead; and almost reproves him for the distress he felt at her departure, bidding him, with St. Paul, not to sorrow as those who had no hope. After her decease an inmate of the convent, named Vestiana, brought to Gregory a ring, in which was a piece of the true Cross, and an iron cross, both of which were found on the body when laying it out. One Gregory retained himself, the other he gave to Vestiana. He buried his sister in the chapel at Annesi, in which her parents and her brother Naucratius slept.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p37"></A>From henceforth the labours of Gregory have a far more extended range. He steps into the place vacated by the death of Basil, and takes foremost rank among the defenders of the Faith of Nic&aelig;a. He is not, however, without trouble still from the heretical party. Certain Galatians had been busy in sowing the seeds of their heresy among his own people. He is subjected, too, to great annoyance from the disturbances which arose out of the wish of the people of Ibera in Pontus to have him as their Bishop. In that early age of the Church election to a Bishopric, if not dependent on the popular voice, at least called forth the expression of much popular feeling, like a contested election amongst ourselves. This often led to breaches of the peace, which required military intervention to suppress them, as it appears to have done on this occasion.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p38"></A>But the reputation of Gregory is now so advanced, and the weight of his authority as an eminent teacher so generally acknowledged, that we find him as one of the Prelates at the Synod of Antioch assembled for the purpose of healing the long-continued schisms in that distracted See. By the same Synod Gregory is chosen to visit and endeavour to reform the Churches of Arabia and Babylon, which had fallen into a very corrupt and degraded state. He gives a lamentable account of their condition, as being beyond all his powers of reformation. On this same journey he visits Jerusalem and its sacred scenes: it has been conjectured that the Apollinarian heresy drew him thither. Of the Church of Jerusalem he can give no better account than of those he had already visited. He expresses himself as greatly scandalized at the conduct of the Pilgrims who visited the Holy City on the plea of religion. Writing to three ladies, whom he had known at Jerusalem, he takes occasion, from what he had witnessed there, to speak of the uselessness of pilgrimages as any aids to <A NAME="page_VII"><FONT SIZE=1 COLOR=GREEN>p. VII</FONT></A> <a name="vii.i-Page_VII"></A>reverence and faith, and denounces in the strongest terms the moral dangers to which all pilgrims, especially women, are exposed.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p39"></A>This letter is so condemnatory of what was a common and authorized practice of the medieval Church that&nbsp;<A NAME="fr_5"></A><A HREF="#fn_5"><FONT SIZE="1">7</FONT></A>
+ Divines of the Latin communion have endeavoured, but in vain, to deny its authenticity.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p41"></A>The name and character of Gregory had now reached the Imperial Court, where Theodosius had lately succeeded to the Eastern Empire. As a proof of the esteem in which he was then held, it is said that in his recent journey to Babylon and the Holy Land he travelled with carriages provided for him by the Emperor.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p42"></A>Still greater distinction awaits him. He is one of the hundred and fifty Bishops summoned by Theodosius to the second &#338;cumenical Council, that of Constantinople, <span class="c22"><a name="vii.i-p42.1"></A>a.d.</span> 381. To the assembled Fathers he brings an&nbsp;<A NAME="fr_6"></A><A HREF="#fn_6"><FONT SIZE="1">8</FONT></A>
+ instalment of his treatise against the Eunomian heresy, which he had written in defence of his brother Basil&#146;s positions, on the subject of the Trinity and the Incarnation. This he first read to his friend Gregory Nazianzen, Jerome, and others. Such was the influence he exercised in the Council that it is said, though this is very doubtful, that the explanatory clauses added to the Nicene Creed are due to him. Certain, however, it is that he delivered the inaugural address, which is not extant; further that he preached the funeral oration, which has been preserved, on the death of Meletius, of Antioch, the first President of the Council, who died at Constantinople; also that he preached at the enthronement of Gregory Nazianzen in the capital. This oration has perished.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p44"></A>Shortly before the close of the Council, by a Constitution of the Emperor, issued from Heraclea, Gregory is nominated as one of the Bishops who were to be regarded as the central authorities of Catholic Communion. In other words, the primacy of Rome or Alexandria in the East was to be replaced by that of other Sees, especially Constantinople. Helladius of C&aelig;sarea was to be Gregory&#146;s colleague in his province. The connexion led to a misunderstanding. As to the grounds of this there is much uncertainty. The account of it is entirely derived from Gregory himself in his <i>Letter to Flavian</i>, and from his great namesake. Possibly there were faults on both sides.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p45"></A>We do not read of Gregory being at the Synod, <span class="c22"><a name="vii.i-p45.1"></A>a.d.</span> 382, which followed the great Council of Constantinople. But we find him present at the Synod held the following year.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p46"></A>This same year we have proof of the continued esteem and favour shown him by the Imperial Court. He is chosen to pronounce the funeral oration on the infant Princess Pulcheria. And not long after that also on the death of the Empress Flaccilla, or Placidia, herself. This last was a magnificent eulogy, but one, according to Tillemont, even surpassed by that of Theodoret. This admirable and holy woman, a saint of the Eastern Church, fully warranted all the praise that could be bestowed upon her. If her husband Theodosius did not owe his conversion to Christianity to her example and influence, he certainly did his adherence to the true Faith. It is one of the subjects of Gregory&#146;s praise of her that by her persuasion the Emperor refused to give an interview to the &#145;rationalist of the fourth century,&#146; Eunomius.</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p47"></A>Scarcely anything is known of the latter years of Gregory of Nyssa&#146;s life. The last record we have of him is that he was present at a Synod of Constantinople, summoned <span class="c22"><a name="vii.i-p47.1"></A>a.d.</span> 394, by Rufinus, the powerful prefect of the East, under the presidency of Nectarius. The rival claims to the See of Bostra in Arabia had to be then settled; but perhaps the chief reason for summoning this assembly was to glorify the consecration of Rufinus&#146; new Church in the suburbs. It was there that Gregory delivered the sermon which was probably his last, wrongly entitled <i>&#145;On his Ordination.&#146;</i> His words, which heighten the effect of others then preached, are humbly compared to the blue circles painted on the new walls as a foil to the gilded dome above. &#8220;The whole breathes a calmer and more peaceful spirit; the deep sorrow over heretics <A NAME="page_VIII"><FONT SIZE=1 COLOR=GREEN>p. VIII</FONT></A> <a name="vii.i-Page_VIII"></A>who forfeit the blessings of the Spirit changes only here and there into the flashes of a short-lived indignation.&#8221; (J. Rupp.)</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p48"></A>The prophecy of Basil had come true. Nyssa was ennobled by the name of its bishop appearing on the roll of this Synod, between those of the Metropolitans of C&aelig;sarea and Iconium. Even in outward rank he is equal to the highest. The character of Gregory could not be more justly drawn than in the words of Tillemont (IX. p. 269). &#8220;Autant en effet, qu&#146;on peut juger de lui par ses &eacute;crits, c&#145;&eacute;toit un esprit doux, bon, facile, qui avec beaucoup d&#146;&eacute;levation et de lumi&egrave;re, avoit n&eacute;anmois beaucoup de simplicit&eacute; et de candeur, qui aimoit plus le repos que l&#146;action, et le travail du cabinet que le tumulte des affaires, qui avec cela &eacute;toit sans faste, dispos&eacute; &agrave; estimer et &agrave; louer les autres et &agrave; se mettre &agrave; dessous d&#146;eux. Mais quoiqu&#146; il ne cherch&acirc;t que le repos, nous avons v&ucirc; que son z&egrave;le pour ses fr&egrave;res l&#146;avoit souvent engag&eacute; &agrave; de grands travaux, et que Dieu avait honor&eacute; sa simplicit&eacute; en le faisant regarder comme le maitre, le docteur, le pacificateur et l&#146;arbitre des &eacute;glises.&#8221;</p>  
+<p style="font-size: 16pt" class="c14"><a name="vii.i-p49"></A>His death (probably 395) is commemorated by the Greek Church on January 10, by the Latin on March 9.</p>   
+<HR>
+<H3 ALIGN="CENTER">Footnotes</H3>
+<A NAME="fn_2"></A><A HREF="2050007.html#fr_2">I:4</A> <a name="vii.i-p4.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.i-p5"></A> <span class="Greek"><a name="vii.i-p5.1"></A>&#8190;</span><span class="Greek"><a name="vii.i-p5.2"></A>&#927; &#964;&#8182;&#957; &#928;&#945;&#964;&#8051;&#961;&#969;&#957; &#928;&#945;&#964;&#8053;&#961;</span>; &#903;&#8001; <span class="Greek"><a name="vii.i-p5.3"></A>&#964;&#8182;&#957; &#925;&#965;&#963;&#963;&#945;&#8051;&#969;&#957; &#966;&#969;&#963;&#964;&#8053;&#961;</span>, Council. Nic. II. Act. VI. Edition of Labbe, p. 477.&#8212;Nicephor. Callist. <i>H. E.</i> xi. 19.</p>
+<A NAME="fn_3"></A><A HREF="2050007.html#fr_3">IV:5</A> <a name="vii.i-p26.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.i-p27"></A> Now Nirse.</p>
+<A NAME="fn_4"></A><A HREF="2050007.html#fr_4">VI:6</A> <a name="vii.i-p34.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.i-p35"></A> Epist. III. (Zacagni&#146;s collection).</p>
+<A NAME="fn_5"></A><A HREF="2050007.html#fr_5">VII:7</A> <a name="vii.i-p39.1"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.i-p40"></A> Notably Bellarmine: Gretser, the Jesuit, against the Calvinist Molino.</p>
+<A NAME="fn_6"></A><A HREF="2050007.html#fr_6">VII:8</A> <a name="vii.i-p42.2"></A>
+<p style="font-size: 16pt" class="endnote"><a name="vii.i-p43"></A> See Note 1 to the Introductory Letter to the Treatise.</p>
+<p><HR>
+<CENTER>
+<A HREF="2050008.html">Next: His General Character as a Theologian.</A></CENTER>
+</font></span>
+
+<hr class="style-two">
+</div>
+
+<!-- footer -->
+</small>
+
+
+<p dir="ltr" align="center"><b>
+<span style="font-size: 9pt"><a href="/Bibles/Holy-Bible.html">Bible</a> |
+<a href="https://st-takla.org/zJ/index.php/en-readings-katamaros">Daily Readings</a> 
+| <a href="/Agpeya.html">Agbeya</a> |
+<a href="/Full-Free-Coptic-Books/00-English-Christian-Books/Christian-Coptic-Library-00-index.html">
+Books</a> |
+<a href="/Lyrics-Spiritual-Songs/Spiritual_Songs_Lyrics_000-Index.html">Lyrics</a> 
+| <a href="/Gallery">Gallery</a> | <a href="/Multimedia/_Multimedia-index.html">
+Media</a> | <a href="/Links/Coptic-links-1.html">Links</a></span></b>
+
+
+<!-- div for search popup -->
+<div id="s" 
+   style="display:none; 
+      position:absolute;
+      background-color: white; left:10px; top:59px"
+	onmouseup="search('url')">
+</div>
+
+
+<!-- echo url at the bottom -->
+<p align="center" style="word-wrap: break-word;"><font size="1"><a href = "https://st-takla.org/books/en/ecf/205/2050007.html" style="text-decoration: none">https://st-takla.org/books/en/ecf/205/2050007.html</a></font></p>
+
+
+
+<!-- short url at the bottom - March 2023 + edited Jan 2025 -->
+
+    <p align="center" dir="ltr">
+        <font size="2">
+            <span id="copyText" style="cursor: pointer; color: blue;">Short URL (link): </span>
+<button id="copyButton" style="margin-left: 10px; cursor: pointer; background-color: #b7a8d6; border: none; border-radius: 25px; color: black; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">Copy</button>
+            <span id="copiedMessage" style="display: none; color: green; font-size: 12px; margin-left: 10px; position: absolute;">Copied</span>
+            <br>
+            <a href='https://tak.la/56f8vwk'>tak.la/56f8vwk</a>
+        </font>
+    </p>
+
+    <script>
+        function copyToClipboardURL() {
+            // Create a temporary input element
+            const tempInput = document.createElement('input');
+            tempInput.value = 'tak.la/56f8vwk';
+            document.body.appendChild(tempInput);
+
+            // Select and copy the text
+            tempInput.select();
+
+            try {
+                const success = document.execCommand('copy');
+                if (!success) {
+                    throw new Error('Failed to copy text using execCommand');
+                }
+            } catch (err) {
+                // Handle errors silently
+            }
+
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+
+            // Show the copied message
+            const copiedMessage = document.getElementById('copiedMessage');
+            copiedMessage.style.display = 'inline';
+
+            // Hide the message after 2 seconds
+            setTimeout(function() {
+                copiedMessage.style.display = 'none';
+            }, 2000);
+        }
+
+        // Ensure the DOM is fully loaded before attaching event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyText = document.getElementById('copyText');
+            const copyButton = document.getElementById('copyButton');
+
+            if (copyText && copyButton) {
+                copyText.addEventListener('click', copyToClipboardURL);
+                copyButton.addEventListener('click', copyToClipboardURL);
+            }
+        });
+    </script>
+    </body>
+</html>
+</HTML>
+
