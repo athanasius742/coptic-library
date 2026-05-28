@@ -52,4 +52,23 @@ export type Author = {
   slug: string;
   name: string;
   bookCount: number;
+  portraitPath: string | null;
+};
+
+export type AuthorInfo = {
+  slug: string;
+  kind: "person" | "collection" | "alias";
+  name_ar: string;
+  name_en: string;
+  bio_ar: string | null;
+  bio_en: string | null;
+  birth_year: number | null;
+  death_year: number | null;
+  portrait: string | null;
+  portrait_source: string | null;
+  portrait_status: "ok" | "not_found" | "license_unclear" | "n/a" | null;
+  wikipedia_ar: string | null;
+  wikipedia_en: string | null;
+  aliases_to: string | null;
+  note?: string;
 };

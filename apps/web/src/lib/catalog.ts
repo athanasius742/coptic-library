@@ -5,6 +5,7 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 
 import { authorDisplayName, cleanAuthorName } from "./author-names";
+import { loadAllAuthorInfos, resolveAuthorPortrait } from "./authors-meta";
 import type { Locale } from "./i18n";
 import type { Author, Book, BookMeta, CatalogEntry, Chapter } from "./types";
 
@@ -62,6 +63,7 @@ export const loadBookKeys = cache(async (): Promise<Set<string>> => {
 
 export const loadAuthors = cache(async (locale: Locale = "ar"): Promise<Author[]> => {
   const books = await loadAllBooks();
+  const infos = await loadAllAuthorInfos();
   const byAuthor = new Map<string, number>();
   for (const b of books) {
     byAuthor.set(b.authorSlug, (byAuthor.get(b.authorSlug) ?? 0) + 1);
@@ -75,6 +77,7 @@ export const loadAuthors = cache(async (locale: Locale = "ar"): Promise<Author[]
         locale,
       ),
       bookCount: count,
+      portraitPath: resolveAuthorPortrait(slug, infos).path,
     }))
     .sort((a, b) => b.bookCount - a.bookCount);
 });
