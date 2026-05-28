@@ -135,13 +135,19 @@
   .prose-coptic > p:first-of-type,
   .prose-coptic h1 + p,
   .prose-coptic h2 + p,
-  .prose-coptic h3 + p {
+  .prose-coptic h3 + p,
+  .prose-coptic h4 + p,
+  .prose-coptic h5 + p,
+  .prose-coptic h6 + p {
     text-indent: 0;
   }
 
   .prose-coptic h1,
   .prose-coptic h2,
-  .prose-coptic h3 {
+  .prose-coptic h3,
+  .prose-coptic h4,
+  .prose-coptic h5,
+  .prose-coptic h6 {
     color: var(--color-gold-100);
     font-weight: 700;
     line-height: 1.4;
@@ -151,6 +157,9 @@
   .prose-coptic h1 { font-size: 1.6rem; }
   .prose-coptic h2 { font-size: 1.35rem; }
   .prose-coptic h3 { font-size: 1.15rem; }
+  .prose-coptic h4 { font-size: 1.05rem; }
+  .prose-coptic h5 { font-size: 1rem; }
+  .prose-coptic h6 { font-size: 0.95rem; }
 
   .prose-coptic a {
     color: var(--color-gold-100);
@@ -194,17 +203,20 @@
     background: var(--color-ink);
   }
 
-  .prose-coptic table {
-    margin: 1.5em auto;
-    border-collapse: collapse;
-    max-width: 100%;
-  }
-
-  .prose-coptic table td,
-  .prose-coptic table th {
+  /* Data tables are rendered by the ContentTable component (overflow-x wrapper).
+     The cell border look lives here, scoped to .content-table, because the
+     component wraps itself in `not-prose` so it no longer inherits prose CSS. */
+  .content-table td,
+  .content-table th {
     padding: 0.5em 0.75em;
     border: 1px solid color-mix(in oklab, var(--color-gold-800) 60%, transparent);
     vertical-align: top;
+    text-align: start;
+  }
+
+  .content-table th {
+    color: var(--color-gold-100);
+    font-weight: 700;
   }
 
   .prose-coptic sup,
