@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { AuthorAvatar } from "@/components/author-avatar";
 import { BookCard } from "@/components/book-card";
 import { CrossDivider } from "@/components/ornament";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { loadAuthorInfo } from "@/lib/authors-meta";
 import { loadAuthorBooks, loadAuthors } from "@/lib/catalog";
 import { isLocale, t, type Locale } from "@/lib/i18n";
 
@@ -25,12 +27,15 @@ export default async function AuthorPage({ params }: { params: Promise<Params> }
   const locale: Locale = rawLocale;
   const isAr = locale === "ar";
 
-  const [authors, books] = await Promise.all([
+  const [authors, books, info] = await Promise.all([
     loadAuthors(locale),
     loadAuthorBooks(slug),
+    loadAuthorInfo(slug),
   ]);
   const author = authors.find((a) => a.slug === slug);
   if (!author) notFound();
+
+  const bio = isAr ? info?.bio_ar : info?.bio_en;
 
   return (
     <>
@@ -45,6 +50,16 @@ export default async function AuthorPage({ params }: { params: Promise<Params> }
         </nav>
 
         <header className="text-center">
+          {author.portraitPath && (
+            <div className="mb-6 flex justify-center">
+              <AuthorAvatar
+                slug={author.slug}
+                name={author.name}
+                size={160}
+                portraitPath={author.portraitPath}
+              />
+            </div>
+          )}
           <p className="font-display text-[10px] uppercase tracking-[0.45em] text-gold-600">
             {t(locale, "author.eyebrow")}
           </p>
@@ -58,6 +73,15 @@ export default async function AuthorPage({ params }: { params: Promise<Params> }
           <p className={`mt-3 text-sm text-bone/70 ${isAr ? "font-arabic" : "font-body"}`}>
             {author.bookCount} {t(locale, "author.subtitle.suffix")}
           </p>
+          {bio && (
+            <p
+              className={`mx-auto mt-5 max-w-2xl text-sm leading-relaxed text-bone/80 ${
+                isAr ? "font-arabic" : "font-body"
+              }`}
+            >
+              {bio}
+            </p>
+          )}
         </header>
 
         <CrossDivider />

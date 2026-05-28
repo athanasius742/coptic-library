@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { CopticCross } from "@/components/coptic-cross";
+import { AuthorAvatar } from "@/components/author-avatar";
 import { CrossDivider } from "@/components/ornament";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
@@ -50,9 +50,12 @@ export default async function AuthorsPage({
                 className="group flex items-center justify-between gap-4 border border-gold-800/70 bg-ink/60 px-5 py-4 transition hover:border-gold hover:bg-gold/5"
               >
                 <span className="flex items-center gap-4">
-                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-bg text-gold-200 ring-1 ring-gold-600 transition group-hover:text-gold-100">
-                    <CopticCross size={20} />
-                  </span>
+                  <AuthorAvatar
+                    slug={a.slug}
+                    name={a.name}
+                    size={40}
+                    portraitPath={a.portraitPath}
+                  />
                   <span className={`text-base text-gold-50 ${isAr ? "font-arabic" : "font-body"}`}>
                     {a.name}
                   </span>

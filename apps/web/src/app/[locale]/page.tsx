@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { AuthorAvatar } from "@/components/author-avatar";
 import { BookCard } from "@/components/book-card";
 import { CopticCross } from "@/components/coptic-cross";
 import { CrossDivider } from "@/components/ornament";
@@ -109,9 +110,12 @@ export default async function HomePage({
                   href={`/${locale}/authors/${author.slug}`}
                   className="group flex h-full flex-col items-center gap-3 border border-gold-800/70 bg-ink/70 p-5 text-center transition hover:border-gold hover:bg-gold/5"
                 >
-                  <span className="halo-glow inline-flex h-14 w-14 items-center justify-center rounded-full bg-bg text-gold-200 transition group-hover:text-gold-100">
-                    <CopticCross size={28} />
-                  </span>
+                  <AuthorAvatar
+                    slug={author.slug}
+                    name={author.name}
+                    size={56}
+                    portraitPath={author.portraitPath}
+                  />
                   <span
                     className={`text-sm leading-tight text-gold-50 ${
                       isAr ? "font-arabic" : "font-body"
