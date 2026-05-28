@@ -159,11 +159,9 @@ export default async function ChapterPage({ params }: { params: Promise<Params> 
               </p>
             </header>
 
-            <div
-              className="prose-coptic"
-              dir={bookDir}
-              dangerouslySetInnerHTML={{ __html: content.html }}
-            />
+            <div className="prose-coptic" dir={bookDir}>
+              {content.node}
+            </div>
 
             {/* Prev / Next */}
             <nav className="mt-12 grid gap-3 border-t border-gold-800/60 pt-6 sm:grid-cols-2">
