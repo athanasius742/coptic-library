@@ -50,16 +50,14 @@ export default async function AuthorPage({ params }: { params: Promise<Params> }
         </nav>
 
         <header className="text-center">
-          {author.portraitPath && (
-            <div className="mb-6 flex justify-center">
-              <AuthorAvatar
-                slug={author.slug}
-                name={author.name}
-                size={160}
-                portraitPath={author.portraitPath}
-              />
-            </div>
-          )}
+          <div className="mb-6 flex justify-center">
+            <AuthorAvatar
+              slug={author.slug}
+              name={author.name}
+              size={160}
+              portraitPath={author.portraitPath}
+            />
+          </div>
           <p className="font-display text-[10px] uppercase tracking-[0.45em] text-gold-600">
             {t(locale, "author.eyebrow")}
           </p>
