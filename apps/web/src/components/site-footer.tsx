@@ -23,6 +23,14 @@ export function SiteFooter({ locale }: { locale: Locale }) {
           >
             <InfoIcon />
           </Link>
+          <Link
+            href={`/${locale}/epub-format`}
+            aria-label={t(locale, "footer.epub")}
+            title={t(locale, "footer.epub")}
+            className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-gold-800/70 text-gold-200 transition hover:border-gold hover:bg-gold/10 hover:text-gold-50"
+          >
+            <BookIcon />
+          </Link>
           <a
             href={GITHUB_URL}
             target="_blank"
@@ -60,6 +68,19 @@ function InfoIcon() {
         strokeLinecap="round"
       />
       <circle cx="12" cy="8" r="1" fill="currentColor" />
+    </svg>
+  );
+}
+
+function BookIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden>
+      <path
+        d="M4 5.5A1.5 1.5 0 0 1 5.5 4H12v15H5.5A1.5 1.5 0 0 0 4 20.5V5.5ZM20 5.5A1.5 1.5 0 0 0 18.5 4H12v15h6.5a1.5 1.5 0 0 1 1.5 1.5V5.5Z"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 }

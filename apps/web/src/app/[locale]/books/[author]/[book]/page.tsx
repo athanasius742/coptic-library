@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { CopticCross } from "@/components/coptic-cross";
+import { EpubInfo } from "@/components/epub-info";
 import { CornerOrnament, CrossDivider } from "@/components/ornament";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
@@ -95,12 +96,15 @@ export default async function BookPage({ params }: { params: Promise<Params> }) 
             </div>
 
             {meta.epub && (
-              <a
-                href={`/api/epub/${meta.authorSlug}/${meta.bookSlug}`}
-                className={`halo-glow mt-6 inline-flex w-full items-center justify-center gap-3 bg-gradient-to-b from-gold-100 to-gold px-5 py-3 text-sm font-bold text-ink transition hover:from-gold-50 hover:to-gold-100 ${uiFontClass}`}
-              >
-                <DownloadIcon /> {t(locale, "book.downloadEpub")}
-              </a>
+              <div className="mt-6 flex items-stretch gap-3">
+                <a
+                  href={`/api/epub/${meta.authorSlug}/${meta.bookSlug}`}
+                  className={`halo-glow inline-flex flex-1 items-center justify-center gap-3 bg-gradient-to-b from-gold-100 to-gold px-5 py-3 text-sm font-bold text-ink transition hover:from-gold-50 hover:to-gold-100 ${uiFontClass}`}
+                >
+                  <DownloadIcon /> {t(locale, "book.downloadEpub")}
+                </a>
+                <EpubInfo locale={locale} />
+              </div>
             )}
             <a
               href={meta.source_url}

@@ -46,6 +46,15 @@ const STRINGS = {
   "footer.glory": { ar: "المجد لله", en: "Glory to God" },
   "footer.about": { ar: "حول المكتبة", en: "About" },
   "footer.github": { ar: "المصدر على GitHub", en: "Source on GitHub" },
+  "footer.epub": { ar: "حول صيغة EPUB", en: "About the EPUB format" },
+
+  // EPUB info button / popover
+  "epub.info.aria": { ar: "حول صيغة EPUB", en: "About the EPUB format" },
+  "epub.info.body": {
+    ar: "صيغة EPUB تعطيك الكتاب كنصٍّ حقيقي (وليس صورة)، فيمكنك تكبير الخط، وتحديد أي جزء ونسخه ولصقه والبحث فيه وتظليله — قراءة مريحة على أي جهاز.",
+    en: "EPUB gives you the book as real text (not a picture), so you can enlarge the font and easily select, copy, paste, search, and highlight anything — comfortable reading on any device.",
+  },
+  "epub.info.readMore": { ar: "اعرف المزيد ←", en: "Read more →" },
 
   // Home / hero
   "home.hero.eyebrow": {
