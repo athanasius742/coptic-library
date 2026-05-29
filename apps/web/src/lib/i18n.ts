@@ -36,6 +36,7 @@ const STRINGS = {
   "nav.home": { ar: "الرئيسية", en: "Home" },
   "nav.authors": { ar: "المؤلفون", en: "Authors" },
   "nav.books": { ar: "الكتب", en: "Books" },
+  "nav.profile": { ar: "ملفي", en: "Profile" },
 
   // Language switch
   "lang.arabic": { ar: "العربية", en: "العربية" },
@@ -152,6 +153,56 @@ const STRINGS = {
   "chapter.prev": { ar: "← السابق", en: "← Previous" },
   "chapter.next": { ar: "التالي →", en: "Next →" },
   "chapter.toc": { ar: "فهرس الكتاب", en: "Table of Contents" },
+
+  // Reading font-size controls
+  "reading.font.label": { ar: "حجم الخط", en: "Text size" },
+  "reading.font.decrease": { ar: "تصغير حجم الخط", en: "Decrease text size" },
+  "reading.font.increase": { ar: "تكبير حجم الخط", en: "Increase text size" },
+  "reading.font.reset": { ar: "إعادة ضبط حجم الخط", en: "Reset text size" },
+
+  // Profile / mock user
+  "profile.title": { ar: "ملفي", en: "My Profile" },
+  "profile.eyebrow": { ar: "القارئ", en: "· The Reader ·" },
+  "profile.greeting": { ar: "أهلاً بك", en: "Welcome back" },
+  "profile.defaultName": { ar: "قارئ", en: "Reader" },
+  "profile.signIn": { ar: "تسجيل الدخول", en: "Sign in" },
+  "profile.signOut": { ar: "تسجيل الخروج", en: "Sign out" },
+  "profile.clearHistory": {
+    ar: "مسح سجل القراءة",
+    en: "Clear reading history",
+  },
+  "profile.signInPrompt": {
+    ar: "سجّل الدخول لتتبّع تقدّمك في القراءة وتتابع من حيث توقفت.",
+    en: "Sign in to track your reading progress and pick up where you left off.",
+  },
+  "profile.empty": {
+    ar: "لم تبدأ القراءة بعد. تصفّح الكتب وابدأ رحلتك.",
+    en: "You haven't started reading yet. Browse the books and begin.",
+  },
+  "profile.mockNote": {
+    ar: "هذا تسجيل دخول تجريبي محفوظ على هذا المتصفح فقط — بلا حساب أو خادم.",
+    en: "This is a local mock sign-in stored on this browser only — no account or server.",
+  },
+
+  // Currently Reading shelf
+  "home.section.currentlyReading.eyebrow": {
+    ar: "مكتبتي",
+    en: "· Your Shelf ·",
+  },
+  "home.section.currentlyReading.title": {
+    ar: "أكمل القراءة",
+    en: "Continue Reading",
+  },
+  "home.section.currentlyReading.cta": { ar: "ملفي", en: "My Profile" },
+
+  // Reading-progress card labels
+  "reading.progress.chapter": { ar: "الفصل", en: "Chapter" },
+  "reading.progress.of": { ar: "من", en: "of" },
+  "reading.progress.resume": { ar: "تابع القراءة ←", en: "Continue reading →" },
+  // Read-progress indicator next to the font controls.
+  "reading.progress.read": { ar: "تم قراءته", en: "Read" },
+  "reading.progress.page": { ar: "الصفحة", en: "Page" },
+  "reading.progress.book": { ar: "الكتاب", en: "Book" },
 
   // Misc
   "common.notFound.book": { ar: "كتاب", en: "Book" },

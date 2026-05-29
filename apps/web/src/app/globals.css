@@ -173,8 +173,15 @@
 
   .prose-coptic {
     /* Default: Latin / English long-form prose */
+    /* Reader-controlled font scale (ReadingFontControls). The control sets
+       --reading-font-scale on <html>; we read it here via the inherited var with
+       a `1` fallback baked into the calc — so if the var is unset (no JS /
+       blocked inline bootstrap) prose renders at its design size (zero
+       regression). The fallback MUST live in var(), not as a property declared
+       on .prose-coptic, or it would shadow the inherited html value and the
+       control would have no effect. Unitless line-height scales with the size. */
     font-family: var(--font-body), serif;
-    font-size: 1.1875rem;          /* 19px */
+    font-size: calc(1.1875rem * var(--reading-font-scale, 1));   /* 19px base */
     line-height: 1.7;              /* tighter for Latin serif */
     color: var(--color-bone);
     max-width: 65ch;
@@ -183,10 +190,14 @@
     -webkit-font-smoothing: antialiased;
   }
 
+  @media (prefers-reduced-motion: no-preference) {
+    .prose-coptic { transition: font-size 120ms ease; }
+  }
+
   /* Arabic prose overrides — larger optical size + more leading per W3C ALReq */
   .prose-coptic[dir="rtl"] {
     font-family: var(--font-arabic), serif;
-    font-size: 1.3125rem;          /* 21px — Arabic needs ~10–15% larger optical size */
+    font-size: calc(1.3125rem * var(--reading-font-scale, 1));   /* 21px base — Arabic needs ~10–15% larger optical size */
     line-height: 1.85;             /* Tashkeel needs more leading */
     font-feature-settings: "liga", "calt", "kern", "mark", "mkmk";
   }
@@ -220,12 +231,14 @@
     margin: 1.6em 0 0.6em;
   }
 
-  .prose-coptic h1 { font-size: 1.6rem; }
-  .prose-coptic h2 { font-size: 1.35rem; }
-  .prose-coptic h3 { font-size: 1.15rem; }
-  .prose-coptic h4 { font-size: 1.05rem; }
-  .prose-coptic h5 { font-size: 1rem; }
-  .prose-coptic h6 { font-size: 0.95rem; }
+  /* Headings scale with the reader's font-scale too (so "bigger" feels whole),
+     while keeping their exact baseline sizes in both LTR and RTL at scale 1. */
+  .prose-coptic h1 { font-size: calc(1.6rem * var(--reading-font-scale, 1)); }
+  .prose-coptic h2 { font-size: calc(1.35rem * var(--reading-font-scale, 1)); }
+  .prose-coptic h3 { font-size: calc(1.15rem * var(--reading-font-scale, 1)); }
+  .prose-coptic h4 { font-size: calc(1.05rem * var(--reading-font-scale, 1)); }
+  .prose-coptic h5 { font-size: calc(1rem * var(--reading-font-scale, 1)); }
+  .prose-coptic h6 { font-size: calc(0.95rem * var(--reading-font-scale, 1)); }
 
   .prose-coptic a {
     color: var(--color-gold-100);

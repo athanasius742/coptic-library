@@ -4,6 +4,7 @@ import { t, type Locale } from "@/lib/i18n";
 
 import { CopticCross } from "./coptic-cross";
 import { LanguageSwitch } from "./language-switch";
+import { ProfileButton } from "./profile-button";
 import { ThemeToggle } from "./theme-toggle";
 
 export function SiteHeader({ locale }: { locale: Locale }) {
@@ -41,6 +42,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
           </nav>
           <ThemeToggle />
           <LanguageSwitch locale={locale} />
+          <ProfileButton locale={locale} />
         </div>
       </div>
     </header>

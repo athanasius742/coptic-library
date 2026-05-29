@@ -74,13 +74,17 @@ export default async function RootLayout({
       className={`${thmanyah.variable} ${cinzel.variable} ${sourceSerif.variable} ${arefRuqaa.variable} h-full antialiased`}
     >
       <head>
-        {/* Apply the persisted theme before paint to avoid a flash of the
-            wrong theme. Default (no stored value) is "dark", matching SSR
-            which renders no data-theme = default dark styles. */}
+        {/* Apply the persisted theme + reading font scale before paint to avoid
+            a flash of the wrong theme / unscaled text. Theme default (no stored
+            value) is "dark", matching SSR which renders no data-theme = default
+            dark styles. The font scale is clamped to [0.85, 1.6] and applied as
+            a CSS var consumed only by .prose-coptic; default 1 leaves prose at
+            its design size. We set a *style property*, not a rendered attribute,
+            so there is no SSR/CSR hydration mismatch. */}
         <script
           dangerouslySetInnerHTML={{
             __html:
-              "(function(){try{var t=localStorage.getItem('theme')||'dark';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();",
+              "(function(){try{var t=localStorage.getItem('theme')||'dark';document.documentElement.setAttribute('data-theme',t);}catch(e){}try{var s=parseFloat(localStorage.getItem('reading-font-scale'));if(!isFinite(s))s=1;s=Math.min(1.6,Math.max(0.85,s));if(s!==1)document.documentElement.style.setProperty('--reading-font-scale',String(s));}catch(e){}})();",
           }}
         />
       </head>

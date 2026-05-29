@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { AuthorAvatar } from "@/components/author-avatar";
 import { BookCard } from "@/components/book-card";
 import { CopticCross } from "@/components/coptic-cross";
+import { CurrentlyReadingShelf } from "@/components/currently-reading-shelf";
 import { CrossDivider } from "@/components/ornament";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
@@ -143,6 +144,11 @@ export default async function HomePage({
             ))}
           </ul>
         </section>
+
+        {/* Currently Reading — client island; self-hides (along with its own
+            leading divider) when signed out or empty, so the logged-out home is
+            unchanged. */}
+        <CurrentlyReadingShelf locale={locale} variant="home" />
 
         <CrossDivider />
 

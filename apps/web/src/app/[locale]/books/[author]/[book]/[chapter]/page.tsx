@@ -2,6 +2,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { CopticCross } from "@/components/coptic-cross";
+import { ReadingFontControls } from "@/components/reading-font-controls";
+import { ReadingProgressBar } from "@/components/reading-progress-bar";
+import { ReadingProgressTracker } from "@/components/reading-progress-tracker";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -101,7 +104,7 @@ export default async function ChapterPage({ params }: { params: Promise<Params> 
 
         <div className="grid gap-10 lg:grid-cols-[260px_1fr]">
           {/* TOC sidebar */}
-          <aside className="lg:sticky lg:top-6">
+          <aside className="lg:sticky lg:top-6 lg:self-start">
             <div className="border border-gold-800/70 bg-ink/60 p-5">
               <div className="flex items-center gap-2">
                 <CopticCross size={20} className="text-gold-200" />
@@ -146,6 +149,32 @@ export default async function ChapterPage({ params }: { params: Promise<Params> 
 
           {/* Content */}
           <article>
+            {/* Reading-only chrome: pill orients by the UI locale, not bookDir. */}
+            <ReadingFontControls
+              locale={locale}
+              chapterIndex={content.index}
+              totalChapters={chapters.length}
+            />
+
+            {/* Visual-only top bar: fills as the reader scrolls the prose. */}
+            <ReadingProgressBar />
+
+            {/* Invisible island: records reading position when signed in. */}
+            <ReadingProgressTracker
+              authorSlug={meta.authorSlug}
+              bookSlug={meta.bookSlug}
+              chapterSlug={chapter}
+              chapterIndex={content.index}
+              totalChapters={chapters.length}
+              chapterTitle={content.title}
+              bookTitle={meta.title}
+              bookTitleEn={meta.title_en}
+              author={meta.author}
+              authorEn={meta.author_en}
+              coverPath={meta.coverPath}
+              language={meta.language}
+            />
+
             <header className="mb-8 border-b border-gold-800/60 pb-6">
               {isAr ? (
                 <p className="font-ruqaa text-base text-gold-600">
