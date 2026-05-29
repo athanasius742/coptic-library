@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { ContinueReadingCta } from "@/components/continue-reading-cta";
 import { CopticCross } from "@/components/coptic-cross";
 import { EpubInfo } from "@/components/epub-info";
 import { CornerOrnament, CrossDivider } from "@/components/ornament";
@@ -201,12 +202,13 @@ export default async function BookPage({ params }: { params: Promise<Params> }) 
               </div>
 
               {chapters.length > 0 && (
-                <Link
-                  href={`/${locale}/books/${meta.authorSlug}/${meta.bookSlug}/${chapters[0].slug}`}
-                  className={`mt-6 inline-flex items-center gap-2 border border-gold-600 px-5 py-2.5 text-sm text-gold-100 transition hover:border-gold hover:bg-gold/10 ${uiFontClass}`}
-                >
-                  {t(locale, "book.toc.startReading")}
-                </Link>
+                <ContinueReadingCta
+                  locale={locale}
+                  authorSlug={meta.authorSlug}
+                  bookSlug={meta.bookSlug}
+                  firstChapterSlug={chapters[0].slug}
+                  uiFontClass={uiFontClass}
+                />
               )}
               <ol className="mt-6 grid grid-cols-1 gap-2 sm:grid-cols-2">
                 {chapters.map((ch) => (
