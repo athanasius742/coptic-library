@@ -33,8 +33,16 @@ export default async function BooksPage({
       <SiteHeader locale={locale} />
       <main className="mx-auto w-full max-w-6xl flex-1 px-6 py-14">
         <header className="text-center">
-          <p className="font-display text-[10px] uppercase tracking-[0.45em] text-gold-600">
-            · {t(locale, "books.eyebrow")} ·
+          <p
+            className={`text-gold-600 ${
+              isAr
+                ? "font-ruqaa text-base"
+                : "font-display text-[10px] uppercase tracking-[0.45em]"
+            }`}
+          >
+            {isAr
+              ? t(locale, "books.eyebrow")
+              : `· ${t(locale, "books.eyebrow")} ·`}
           </p>
           <h1
             className={`mt-3 text-4xl font-bold text-gold-100 sm:text-5xl ${

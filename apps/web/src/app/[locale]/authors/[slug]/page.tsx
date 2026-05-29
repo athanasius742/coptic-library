@@ -58,7 +58,13 @@ export default async function AuthorPage({ params }: { params: Promise<Params> }
               portraitPath={author.portraitPath}
             />
           </div>
-          <p className="font-display text-[10px] uppercase tracking-[0.45em] text-gold-600">
+          <p
+            className={`text-gold-600 ${
+              isAr
+                ? "font-ruqaa text-base"
+                : "font-display text-[10px] uppercase tracking-[0.45em]"
+            }`}
+          >
             {t(locale, "author.eyebrow")}
           </p>
           <h1

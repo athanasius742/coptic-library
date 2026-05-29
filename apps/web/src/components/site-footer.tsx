@@ -7,6 +7,7 @@ import { CopticCross } from "./coptic-cross";
 const GITHUB_URL = "https://github.com/athanasius742/coptic-library";
 
 export function SiteFooter({ locale }: { locale: Locale }) {
+  const isAr = locale === "ar";
   return (
     <footer className="relative mt-20 border-t border-gold-800/60 bg-ink/60">
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent opacity-70" />
@@ -34,7 +35,13 @@ export function SiteFooter({ locale }: { locale: Locale }) {
           </a>
         </nav>
 
-        <p className="font-display text-[10px] uppercase tracking-[0.32em] text-gold-600">
+        <p
+          className={`text-gold-600 ${
+            isAr
+              ? "font-ruqaa text-base"
+              : "font-display text-[10px] uppercase tracking-[0.32em]"
+          }`}
+        >
           {t(locale, "footer.glory")}
         </p>
       </div>

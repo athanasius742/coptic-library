@@ -43,13 +43,13 @@ const STRINGS = {
   "lang.switch": { ar: "اللغة", en: "Language" },
 
   // Footer
-  "footer.glory": { ar: "Glory to God", en: "Glory to God" },
+  "footer.glory": { ar: "المجد لله", en: "Glory to God" },
   "footer.about": { ar: "حول المكتبة", en: "About" },
   "footer.github": { ar: "المصدر على GitHub", en: "Source on GitHub" },
 
   // Home / hero
   "home.hero.eyebrow": {
-    ar: "· A Library of the Holy Fathers ·",
+    ar: "مكتبة الآباء القديسين",
     en: "· A Library of the Holy Fathers ·",
   },
   "home.hero.lead": {
@@ -69,13 +69,13 @@ const STRINGS = {
   "home.stat.authors": { ar: "مؤلف", en: "Authors" },
   "home.stat.arabic.label": { ar: "باللغة العربية", en: "In Arabic" },
   "home.stat.arabic.value": { ar: "100%", en: "100%" },
-  "home.section.authors.eyebrow": { ar: "The Fathers", en: "The Fathers" },
+  "home.section.authors.eyebrow": { ar: "الآباء", en: "The Fathers" },
   "home.section.authors.title": {
     ar: "مؤلفون من الآباء والمعلمين",
     en: "Fathers and Teachers",
   },
   "home.section.authors.cta": { ar: "كل المؤلفين", en: "All Authors" },
-  "home.section.books.eyebrow": { ar: "Selected Works", en: "Selected Works" },
+  "home.section.books.eyebrow": { ar: "مختارات", en: "Selected Works" },
   "home.section.books.title": {
     ar: "مختارات من الكتب",
     en: "Selected Works",
@@ -86,16 +86,16 @@ const STRINGS = {
   "author.bookCount.short": { ar: "كتب", en: "books" },
 
   // Authors index
-  "authors.eyebrow": { ar: "The Fathers", en: "The Fathers" },
+  "authors.eyebrow": { ar: "الآباء", en: "The Fathers" },
   "authors.title": { ar: "المؤلفون", en: "Authors" },
   "authors.subtitle.suffix": { ar: "مؤلفًا", en: "authors" },
 
   // Author detail
-  "author.eyebrow": { ar: "· A Father of the Church ·", en: "· A Father of the Church ·" },
+  "author.eyebrow": { ar: "من آباء الكنيسة", en: "· A Father of the Church ·" },
   "author.subtitle.suffix": { ar: "كتابًا في المكتبة", en: "books in the library" },
 
   // Books index
-  "books.eyebrow": { ar: "Selected Works", en: "Selected Works" },
+  "books.eyebrow": { ar: "مختارات", en: "Selected Works" },
   "books.title": { ar: "الكتب", en: "Books" },
   "books.search.placeholder": {
     ar: "ابحث في عناوين الكتب والمؤلفين…",
@@ -110,8 +110,8 @@ const STRINGS = {
   },
 
   // Book detail
-  "book.fromSource.prefix": { ar: "· From", en: "· From" },
-  "book.fromSource.suffix": { ar: "·", en: "·" },
+  "book.fromSource.prefix": { ar: "من", en: "· From" },
+  "book.fromSource.suffix": { ar: "", en: "·" },
   "book.downloadEpub": { ar: "تنزيل EPUB", en: "Download EPUB" },
   "book.sourceLink": { ar: "المصدر الأصلي", en: "Original Source" },
   "book.field.chapters": { ar: "عدد الفصول", en: "Chapters" },
@@ -120,7 +120,7 @@ const STRINGS = {
   "book.field.language.en": { ar: "الإنجليزية", en: "English" },
   "book.field.series": { ar: "السلسلة", en: "Series" },
   "book.field.source": { ar: "المصدر", en: "Source" },
-  "book.toc.eyebrow": { ar: "· Table of Contents ·", en: "· Table of Contents ·" },
+  "book.toc.eyebrow": { ar: "فهرس المحتويات", en: "· Table of Contents ·" },
   "book.toc.title": { ar: "فهرس الكتاب", en: "Table of Contents" },
   "book.toc.startReading": {
     ar: "ابدأ القراءة من الفصل الأول ←",

@@ -21,9 +21,9 @@ export function BookCard({ book, locale, showAuthor = false }: Props) {
   const isMissingEn = locale === "en" && !hasEnglish;
   // Titles for Arabic-only books should always render with the Arabic font,
   // even in English mode.
+  const isAr = locale === "ar";
   const titleFontClass = useEn ? "font-body" : "font-arabic";
   const authorFontClass = locale === "en" ? "font-body" : "font-arabic";
-  const chapterFontClass = "font-display";
 
   return (
     <Link
@@ -71,9 +71,13 @@ export function BookCard({ book, locale, showAuthor = false }: Props) {
         )}
         {book.chapterCount > 0 && (
           <p
-            className={`mt-2 text-[10px] uppercase tracking-[0.28em] text-gold-600 ${chapterFontClass}`}
+            className={`mt-2 text-gold-600 ${
+              isAr
+                ? "font-arabic text-xs"
+                : "font-display text-[10px] uppercase tracking-[0.28em]"
+            }`}
           >
-            {book.chapterCount} {locale === "ar" ? "فصول" : "chapters"}
+            {book.chapterCount} {isAr ? "فصول" : "chapters"}
           </p>
         )}
       </div>

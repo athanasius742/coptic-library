@@ -186,7 +186,13 @@ export default async function ChapterPage({ params }: { params: Promise<Params> 
                   href={`/${locale}/books/${meta.authorSlug}/${meta.bookSlug}/${content.prev.slug}`}
                   className="group border border-gold-800/70 bg-ink/60 p-4 transition hover:border-gold hover:bg-gold/5"
                 >
-                  <p className="font-display text-[10px] uppercase tracking-[0.32em] text-gold-600">
+                  <p
+                    className={`text-gold-600 ${
+                      isAr
+                        ? "font-arabic text-xs"
+                        : "font-display text-[10px] uppercase tracking-[0.32em]"
+                    }`}
+                  >
                     {t(locale, "chapter.prev")}
                   </p>
                   <p className={`mt-1 ${bookFontClass} text-sm text-gold-100`} dir={bookDir}>
@@ -201,7 +207,13 @@ export default async function ChapterPage({ params }: { params: Promise<Params> 
                   href={`/${locale}/books/${meta.authorSlug}/${meta.bookSlug}/${content.next.slug}`}
                   className="group border border-gold-800/70 bg-ink/60 p-4 text-left transition hover:border-gold hover:bg-gold/5 sm:text-right"
                 >
-                  <p className="font-display text-[10px] uppercase tracking-[0.32em] text-gold-600">
+                  <p
+                    className={`text-gold-600 ${
+                      isAr
+                        ? "font-arabic text-xs"
+                        : "font-display text-[10px] uppercase tracking-[0.32em]"
+                    }`}
+                  >
                     {t(locale, "chapter.next")}
                   </p>
                   <p className={`mt-1 ${bookFontClass} text-sm text-gold-100`} dir={bookDir}>

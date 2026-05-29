@@ -87,8 +87,14 @@ function PageTitle({
   const isAr = locale === "ar";
   return (
     <div className="text-center">
-      <p className="font-display text-[10px] uppercase tracking-[0.45em] text-gold-600">
-        · {eyebrow} ·
+      <p
+        className={`text-gold-600 ${
+          isAr
+            ? "font-ruqaa text-base"
+            : "font-display text-[10px] uppercase tracking-[0.45em]"
+        }`}
+      >
+        {isAr ? eyebrow : `· ${eyebrow} ·`}
       </p>
       <h1
         className={`mt-3 text-4xl font-bold text-gold-100 sm:text-5xl ${

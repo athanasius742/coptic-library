@@ -52,7 +52,13 @@ export default async function HomePage({
             >
               {t(locale, "site.title")}
             </h1>
-            <p className="mt-4 font-display text-xs uppercase tracking-[0.45em] text-gold-600">
+            <p
+              className={`mt-4 text-gold-600 ${
+                isAr
+                  ? "font-ruqaa text-base"
+                  : "font-display text-xs uppercase tracking-[0.45em]"
+              }`}
+            >
               {t(locale, "home.hero.eyebrow")}
             </p>
             <p
@@ -123,7 +129,13 @@ export default async function HomePage({
                   >
                     {author.name}
                   </span>
-                  <span className="font-display text-[10px] uppercase tracking-[0.28em] text-gold-600">
+                  <span
+                    className={`text-gold-600 ${
+                      isAr
+                        ? "font-arabic text-xs"
+                        : "font-display text-[10px] uppercase tracking-[0.28em]"
+                    }`}
+                  >
                     {author.bookCount} {t(locale, "author.bookCount.short")}
                   </span>
                 </Link>
@@ -195,8 +207,14 @@ function SectionHeading({
   return (
     <div className="mb-8 flex items-end justify-between gap-4">
       <div>
-        <p className="font-display text-[10px] uppercase tracking-[0.4em] text-gold-600">
-          · {eyebrow} ·
+        <p
+          className={`text-gold-600 ${
+            isAr
+              ? "font-ruqaa text-base"
+              : "font-display text-[10px] uppercase tracking-[0.4em]"
+          }`}
+        >
+          {isAr ? eyebrow : `· ${eyebrow} ·`}
         </p>
         <h2
           className={`mt-2 text-2xl font-bold text-gold-50 sm:text-3xl ${

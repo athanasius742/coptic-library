@@ -21,6 +21,11 @@ export function ChapterToc({
 
   if (entries.length === 0) return null;
 
+  // The heading is content-driven (the source book's own "محتويات"/"Contents"
+  // word). Arabic headings must not get the Latin uppercase/wide-tracking
+  // display treatment, which breaks Arabic glyph joining.
+  const headingIsArabic = /[؀-ۿ]/.test(heading);
+
   return (
     <nav
       aria-label={heading}
@@ -30,7 +35,11 @@ export function ChapterToc({
         type="button"
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
-        className="flex w-full items-center justify-between gap-3 text-start font-display text-sm font-bold uppercase tracking-[0.18em] text-gold-100 transition hover:text-gold-50"
+        className={`flex w-full items-center justify-between gap-3 text-start text-sm font-bold text-gold-100 transition hover:text-gold-50 ${
+          headingIsArabic
+            ? "font-arabic"
+            : "font-display uppercase tracking-[0.18em]"
+        }`}
       >
         <span>{heading}</span>
         <span

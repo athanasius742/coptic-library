@@ -114,7 +114,13 @@ export default async function BookPage({ params }: { params: Promise<Params> }) 
 
           {/* Meta panel */}
           <section>
-            <p className="font-display text-[10px] uppercase tracking-[0.45em] text-gold-600">
+            <p
+              className={`text-gold-600 ${
+                isAr
+                  ? "font-ruqaa text-base"
+                  : "font-display text-[10px] uppercase tracking-[0.45em]"
+              }`}
+            >
               {t(locale, "book.fromSource.prefix")} {meta.source} {t(locale, "book.fromSource.suffix")}
             </p>
             <h1
@@ -143,6 +149,7 @@ export default async function BookPage({ params }: { params: Promise<Params> }) 
               <Field
                 label={t(locale, "book.field.chapters")}
                 value={String(chapters.length || meta.chapterCount || "—")}
+                locale={locale}
               />
               <Field
                 label={t(locale, "book.field.language")}
@@ -153,11 +160,12 @@ export default async function BookPage({ params }: { params: Promise<Params> }) 
                       ? t(locale, "book.field.language.en")
                       : meta.language || "—"
                 }
+                locale={locale}
               />
               {display.series && (
-                <Field label={t(locale, "book.field.series")} value={display.series} />
+                <Field label={t(locale, "book.field.series")} value={display.series} locale={locale} />
               )}
-              <Field label={t(locale, "book.field.source")} value={meta.source} />
+              <Field label={t(locale, "book.field.source")} value={meta.source} locale={locale} />
             </dl>
           </section>
         </article>
@@ -168,7 +176,13 @@ export default async function BookPage({ params }: { params: Promise<Params> }) 
             <section>
               <div className="flex items-center justify-between gap-4">
                 <div>
-                  <p className="font-display text-[10px] uppercase tracking-[0.4em] text-gold-600">
+                  <p
+                    className={`text-gold-600 ${
+                      isAr
+                        ? "font-ruqaa text-base"
+                        : "font-display text-[10px] uppercase tracking-[0.4em]"
+                    }`}
+                  >
                     {t(locale, "book.toc.eyebrow")}
                   </p>
                   <h2
@@ -218,10 +232,25 @@ export default async function BookPage({ params }: { params: Promise<Params> }) 
   );
 }
 
-function Field({ label, value }: { label: string; value: string }) {
+function Field({
+  label,
+  value,
+  locale,
+}: {
+  label: string;
+  value: string;
+  locale: Locale;
+}) {
+  const isAr = locale === "ar";
   return (
     <div>
-      <dt className="font-display text-[10px] uppercase tracking-[0.32em] text-gold-600">
+      <dt
+        className={`text-gold-600 ${
+          isAr
+            ? "font-arabic text-xs"
+            : "font-display text-[10px] uppercase tracking-[0.32em]"
+        }`}
+      >
         {label}
       </dt>
       <dd className="mt-1 text-bone">{value}</dd>
