@@ -10,6 +10,9 @@ import { isLocale, t, type Locale } from "@/lib/i18n";
 
 type Params = { locale: string; author: string; book: string; chapter: string };
 
+const toArabicDigits = (n: number) =>
+  String(n).replace(/[0-9]/g, (d) => "٠١٢٣٤٥٦٧٨٩"[Number(d)]);
+
 export async function generateMetadata({ params }: { params: Promise<Params> }) {
   const { locale: rawLocale, author, book, chapter } = await params;
   if (!isLocale(rawLocale)) return {};
@@ -138,10 +141,17 @@ export default async function ChapterPage({ params }: { params: Promise<Params> 
           {/* Content */}
           <article>
             <header className="mb-8 border-b border-gold-800/60 pb-6">
-              <p className="font-display text-[10px] uppercase tracking-[0.4em] text-gold-600">
-                {t(locale, "chapter.eyebrow.prefix")} {content.index + 1} {t(locale, "chapter.eyebrow.of")}{" "}
-                {chapters.length} {t(locale, "chapter.eyebrow.suffix")}
-              </p>
+              {isAr ? (
+                <p className="font-ruqaa text-base text-gold-600">
+                  {t(locale, "chapter.eyebrow.prefix")} {toArabicDigits(content.index + 1)}{" "}
+                  {t(locale, "chapter.eyebrow.of")} {toArabicDigits(chapters.length)}
+                </p>
+              ) : (
+                <p className="font-display text-[10px] uppercase tracking-[0.4em] text-gold-600">
+                  {t(locale, "chapter.eyebrow.prefix")} {content.index + 1} {t(locale, "chapter.eyebrow.of")}{" "}
+                  {chapters.length} {t(locale, "chapter.eyebrow.suffix")}
+                </p>
+              )}
               <h1
                 className={`mt-3 ${bookFontClass} text-3xl font-bold leading-tight text-gold-100 sm:text-4xl`}
                 dir={bookDir}

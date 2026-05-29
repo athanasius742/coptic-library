@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
-import { Cinzel, Source_Serif_4 } from "next/font/google";
+import { Aref_Ruqaa, Cinzel, Source_Serif_4 } from "next/font/google";
 import localFont from "next/font/local";
 
 import { dirFor, isLocale, langFor, type Locale } from "@/lib/i18n";
@@ -31,6 +31,13 @@ const sourceSerif = Source_Serif_4({
   weight: ["400", "500", "600"],
   display: "swap",
   style: ["normal", "italic"],
+});
+
+const arefRuqaa = Aref_Ruqaa({
+  variable: "--font-ruqaa",
+  subsets: ["arabic"],
+  weight: ["400", "700"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -64,7 +71,7 @@ export default async function RootLayout({
     <html
       lang={langFor(locale)}
       dir={dirFor(locale)}
-      className={`${thmanyah.variable} ${cinzel.variable} ${sourceSerif.variable} h-full antialiased`}
+      className={`${thmanyah.variable} ${cinzel.variable} ${sourceSerif.variable} ${arefRuqaa.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

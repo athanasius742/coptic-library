@@ -136,9 +136,9 @@ const STRINGS = {
   },
 
   // Chapter
-  "chapter.eyebrow.prefix": { ar: "· Chapter", en: "· Chapter" },
-  "chapter.eyebrow.of": { ar: "of", en: "of" },
-  "chapter.eyebrow.suffix": { ar: "·", en: "·" },
+  "chapter.eyebrow.prefix": { ar: "الفصل", en: "· Chapter" },
+  "chapter.eyebrow.of": { ar: "من", en: "of" },
+  "chapter.eyebrow.suffix": { ar: "", en: "·" },
   "chapter.from": { ar: "من", en: "From" },
   "chapter.prev": { ar: "← السابق", en: "← Previous" },
   "chapter.next": { ar: "التالي →", en: "Next →" },
