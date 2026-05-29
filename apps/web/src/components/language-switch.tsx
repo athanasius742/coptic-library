@@ -5,38 +5,35 @@ import { usePathname } from "next/navigation";
 
 import { isLocale, t, type Locale } from "@/lib/i18n";
 
+import { CopticGlobe } from "./coptic-globe";
+
 export function LanguageSwitch({ locale }: { locale: Locale }) {
   const pathname = usePathname() ?? `/${locale}`;
-  const arHref = swapLocaleSegment(pathname, "ar");
-  const enHref = swapLocaleSegment(pathname, "en");
+  const isAr = locale === "ar";
+  const target: Locale = isAr ? "en" : "ar";
+  const targetHref = swapLocaleSegment(pathname, target);
+  const label =
+    target === "en" ? "Switch to English" : "التبديل إلى العربية";
 
   return (
-    <div className="flex items-center gap-1 border border-gold-800/70 bg-ink/60 p-0.5 text-xs">
-      <Link
-        href={arHref}
-        aria-current={locale === "ar" ? "true" : undefined}
-        prefetch={false}
-        className={`rounded-[2px] px-2.5 py-1 font-arabic transition ${
-          locale === "ar"
-            ? "bg-gold/15 text-gold-50"
-            : "text-gold-200 hover:text-gold-50"
-        }`}
+    <Link
+      href={targetHref}
+      prefetch={false}
+      aria-label={label}
+      title={label}
+      className="flex items-center gap-2 rounded-[2px] border border-gold-800/70 bg-ink/60 px-3 py-1.5 text-gold-200 transition hover:border-gold hover:text-gold-50"
+    >
+      <CopticGlobe size={18} />
+      <span
+        className={
+          isAr
+            ? "font-arabic text-sm"
+            : "font-display text-xs uppercase tracking-[0.18em]"
+        }
       >
-        {t(locale, "lang.arabic")}
-      </Link>
-      <Link
-        href={enHref}
-        aria-current={locale === "en" ? "true" : undefined}
-        prefetch={false}
-        className={`rounded-[2px] px-2.5 py-1 font-display uppercase tracking-[0.18em] transition ${
-          locale === "en"
-            ? "bg-gold/15 text-gold-50"
-            : "text-gold-200 hover:text-gold-50"
-        }`}
-      >
-        {t(locale, "lang.english")}
-      </Link>
-    </div>
+        {t(locale, "lang.switch")}
+      </span>
+    </Link>
   );
 }
 
