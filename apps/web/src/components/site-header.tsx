@@ -4,6 +4,7 @@ import { t, type Locale } from "@/lib/i18n";
 
 import { CopticCross } from "./coptic-cross";
 import { LanguageSwitch } from "./language-switch";
+import { ThemeToggle } from "./theme-toggle";
 
 export function SiteHeader({ locale }: { locale: Locale }) {
   const isAr = locale === "ar";
@@ -38,6 +39,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
               {t(locale, "nav.books")}
             </NavLink>
           </nav>
+          <ThemeToggle />
           <LanguageSwitch locale={locale} />
         </div>
       </div>

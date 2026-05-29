@@ -73,6 +73,17 @@ export default async function RootLayout({
       dir={dirFor(locale)}
       className={`${thmanyah.variable} ${cinzel.variable} ${sourceSerif.variable} ${arefRuqaa.variable} h-full antialiased`}
     >
+      <head>
+        {/* Apply the persisted theme before paint to avoid a flash of the
+            wrong theme. Default (no stored value) is "dark", matching SSR
+            which renders no data-theme = default dark styles. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(){try{var t=localStorage.getItem('theme')||'dark';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();",
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

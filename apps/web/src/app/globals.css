@@ -27,6 +27,52 @@
     color-scheme: dark;
   }
 
+  html[data-theme="dark"] {
+    color-scheme: dark;
+  }
+
+  /*
+   * LIGHT THEME — grounded in Coptic iconography & manuscript materials:
+   *   - parchment/vellum creams for surfaces (bg/ink/panel)
+   *   - carbon-ink browns for the text tokens (bone/parchment), which the
+   *     components consume as FOREGROUND text (text-bone, text-parchment)
+   *   - deeper, saturated gold-leaf/ochre scale so gold text & borders stay
+   *     legible on cream (and dark `text-ink` stays readable on gold buttons)
+   *   - kermes/madder crimson + lapis/indigo accents, darkened for contrast
+   *
+   * Re-themes the whole UI by overriding the SAME token names Tailwind v4
+   * emits from @theme — no component or token renames required.
+   */
+  html[data-theme="light"] {
+    color-scheme: light;
+
+    /* Surfaces — warm parchment, NOT a cold flat white. bg is the lightest. */
+    --color-bg: #f4ead2;       /* page — pale vellum cream */
+    --color-ink: #ece0c2;      /* cards / panels — slightly deeper parchment */
+    --color-panel: #e3d4ad;    /* raised panels — aged vellum */
+    --color-line: #cdb888;     /* hairlines on cream */
+
+    /* Gold-leaf / ochre scale — darkened & saturated so it reads on cream.
+       gold-50 is the deepest (used for emphasis text/hover) down to gold-800
+       used for faint rules; gold-100 must be dark enough as body-link text. */
+    --color-gold-50: #5c4408;  /* deepest — strong emphasis ink-gold */
+    --color-gold-100: #6e5410; /* primary gold text on cream */
+    --color-gold-200: #87691a; /* secondary gold text */
+    --color-gold: #a9851f;     /* mid ochre — buttons, active borders */
+    --color-gold-600: #876819; /* muted gold — eyebrows / labels */
+    --color-gold-800: #c9ad6e; /* faint rule / border on cream */
+
+    /* Foreground text tokens (consumed as text-bone / text-parchment) — these
+       become dark carbon/sepia inks for strong contrast on parchment. */
+    --color-bone: #2a2014;        /* primary body text — dark sepia-ink */
+    --color-parchment: #4a3a24;   /* secondary text (em, blockquote, captions) */
+
+    /* Accents — kermes/madder red & lapis/indigo, darkened for AA on cream. */
+    --color-crimson: #8a1f1f;
+    --color-crimson-bright: #a3261f;
+    --color-lapis: #2b4a78;
+  }
+
   /*
    * Any element using the Arabic font family is treated as its own RTL
    * isolation island. This keeps Arabic book content (titles, descriptions,
@@ -69,9 +115,23 @@
     font-family: var(--font-arabic), var(--font-body), serif;
   }
 
+  /* Light parchment ground — subtle warm ochre/crimson tints instead of the
+     dark glows, which would read as dirty smudges on a cream page. */
+  html[data-theme="light"] body {
+    background-image:
+      radial-gradient(ellipse at 50% -10%, rgba(169, 133, 31, 0.08), transparent 60%),
+      radial-gradient(ellipse at 80% 110%, rgba(138, 31, 31, 0.05), transparent 60%);
+  }
+
   ::selection {
     background-color: var(--color-gold);
     color: var(--color-ink);
+  }
+
+  /* On light, the gold selection bg is mid-ochre — use a dark ink for the
+     selected glyphs (the light --color-ink would otherwise vanish). */
+  html[data-theme="light"] ::selection {
+    color: var(--color-bone);
   }
 }
 
@@ -300,6 +360,23 @@
       0 0 0 5px var(--color-ink),
       0 0 0 6px var(--color-gold-800),
       0 0 40px rgba(201, 162, 39, 0.20);
+  }
+
+  /* On a cream ground the dark-tuned gold glows read as muddy halos. Use a
+     soft warm shadow + a slightly stronger gold ring instead, scoped to light. */
+  html[data-theme="light"] .gilt-frame {
+    box-shadow:
+      inset 0 0 0 2px var(--color-ink),
+      inset 0 0 0 3px var(--color-gold-800),
+      0 1px 8px rgba(92, 68, 8, 0.10);
+  }
+
+  html[data-theme="light"] .halo-glow {
+    box-shadow:
+      0 0 0 1px var(--color-gold-600),
+      0 0 0 5px var(--color-ink),
+      0 0 0 6px var(--color-gold-800),
+      0 2px 16px rgba(92, 68, 8, 0.18);
   }
 
 }
