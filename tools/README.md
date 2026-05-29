@@ -143,3 +143,52 @@ python3 tools/make_views.py
 **generated** — don't edit them by hand; edit a book's `meta.json` and re-run.
 Each book lives in exactly one place under `books/`; the catalogs are just tables
 of links (no symlinks or duplicated copies).
+
+## Publishing pipeline (LLM-driven hardening / digitization)
+
+The `../prompts/` directory plus the tools below turn one already-extracted book
+into a verified, catalog-wired publication — idempotently, resumably, with
+provenance. See `../PLAN-publishing-pipeline.md` for the full design and
+`../prompts/publish-book.md` for the agent-facing master prompt. The agent runs
+`../prompts/phases/NN-*.md` in order; each phase prefers the matching `tools/*.py`
+below and reads/writes the per-book build state `<book>/.build/state.json`
+(gitignored scratch; the web app never reads it).
+
+Phase-1 tools (HTML/EPUB intake):
+
+| Tool | Phase | Does |
+|---|---|---|
+| `state.py` | — | shared helpers: atomic writes, hashing, `.build/state.json`, issue queue |
+| `preflight.py` | 00 | assert preconditions, detect tools, init state, route Phase 1 vs PDF |
+| `normalize_chapters.py` | 10 | normalize `chapters/*/content.xhtml` to the renderer subset (no network) |
+| `reattribute_source.py` | 15 | detect st-takla self-references; apply span-bounded LLM rewrites + change log |
+| `extract_book_images.py` | 30 | (existing) pull/resize images from the `.epub` into `images/` |
+| `resolve_refs.py` | 20 | wire footnote markers↔notes (renderer-native `_ftn`/`_ftnhref` pairs); registries |
+| `build_epub.py` | 50 | rebuild `<slug>.epub` as a pure function of `content.xhtml`+images+meta (no network) |
+| `verify_book.py` | 60 | all deterministic gates (schema/counts/images/links/round-trip/epub/catalog/author) |
+| `resolve_author.py` | 45 | extract→match_key→research→dedup(tiers)→idempotent upsert→link author |
+| `catalog_upsert.py` | 90 | upsert `catalog.json` entry (`status:"draft"`, `chapter_links_guess`=content count) |
+| `publish.py` | 99 | write `REPORT.md` + review gate; `--run` orchestrates 10→90; `--approve` → `verified` |
+| `pdf_intake.py` | 05 | **Phase 2 stub** (deferred behind PLAN §13 decisions: OCR model/budget, deps) |
+
+Run one book end-to-end to the human gate, then approve:
+
+```bash
+python3 tools/preflight.py books/st-takla.org/<author>/<book>
+python3 tools/publish.py  books/st-takla.org/<author>/<book> --run   # 10→90, stops at the gate
+python3 tools/resolve_author.py books/st-takla.org/<author>/<book>   # author research (--no-network to skip)
+python3 tools/publish.py  books/st-takla.org/<author>/<book>         # writes REPORT.md, review:"pending"
+# ...human reviews REPORT.md (esp. any §4.1a re-attribution rewrites)...
+python3 tools/publish.py  books/st-takla.org/<author>/<book> --approve   # catalog status -> "verified"
+```
+
+A book stays invisible to the web app until `--approve` flips `catalog.json`
+`status` to `"verified"`. Re-running any tool on unchanged inputs is a no-op
+(hash-gated); every generated file is written atomically.
+
+**Dependencies.** Phase 1 needs only the existing `beautifulsoup4`+`lxml`
+(+`magick` for image resize; `java`+`epubcheck.jar` optional for strict EPUB
+validation). `rapidfuzz` is preferred for author dedup but `resolve_author.py`
+falls back to a pure-Python matcher when it is absent (`pip install rapidfuzz`
+for best results). Phase 2 (`pdf_intake.py`) would add `pymupdf`+`pyarabic` and a
+cloud vision-LLM — deferred. `pandoc`/`ebooklib` are **not** used.

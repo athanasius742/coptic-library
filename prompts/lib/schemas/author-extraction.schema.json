@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AuthorExtraction", "type": "object",
+  "required": ["contributors","is_anonymous","is_collection","attribution_uncertain"],
+  "properties": {
+    "title_ar": {"type":["string","null"]}, "title_en": {"type":["string","null"]},
+    "contributors": {"type":"array","items":{"type":"object",
+      "required":["surface_form","role","name_core_surface","lang","confidence"],
+      "properties":{
+        "surface_form":{"type":"string"},
+        "role":{"type":"string","enum":["author","translator","editor","compiler","attributed"]},
+        "honorific_surface":{"type":["string","null"]},
+        "name_core_surface":{"type":"string"},
+        "lang":{"type":"string","enum":["ar","en","other"]},
+        "confidence":{"type":"number","minimum":0,"maximum":1}}}},
+    "is_anonymous": {"type":"boolean"}, "is_collection": {"type":"boolean"},
+    "attribution_uncertain": {"type":"boolean"},
+    "series": {"type":["string","null"]},
+    "evidence": {"type":"string"}
+  }
+}

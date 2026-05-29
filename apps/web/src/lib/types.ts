@@ -66,9 +66,30 @@ export type AuthorInfo = {
   death_year: number | null;
   portrait: string | null;
   portrait_source: string | null;
-  portrait_status: "ok" | "not_found" | "license_unclear" | "n/a" | null;
+  portrait_status: "ok" | "not_found" | "license_unclear" | "n/a" | "missing" | null;
   wikipedia_ar: string | null;
   wikipedia_en: string | null;
   aliases_to: string | null;
   note?: string;
+  // Additive fields written by the publishing pipeline (tools/resolve_author.py,
+  // PLAN §6.5). Optional and ignored by the current reader.
+  match_key?: string[];
+  aliases_ar?: string[];
+  aliases_en?: string[];
+  bio_source?: string | null;
+  portrait_license?: string | null;
+  authority?: {
+    wikidata?: string | null;
+    viaf?: string | null;
+    loc?: string | null;
+  };
+  resolution?: {
+    confidence?: number;
+    method?: string;
+    matched_slug?: string | null;
+    source_surface?: string;
+    reviewed?: boolean;
+    needs_review?: boolean;
+    ts?: string;
+  };
 };

@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AuthorInfo", "type": "object",
+  "required": ["slug","kind","name_ar","name_en"],
+  "properties": {
+    "slug": {"type":"string","pattern":"^[a-z0-9-]+$"},
+    "kind": {"type":"string","enum":["person","collection","alias"]},
+    "name_ar": {"type":"string"}, "name_en": {"type":"string"},
+    "bio_ar": {"type":["string","null"]}, "bio_en": {"type":["string","null"]},
+    "bio_source": {"type":["string","null"]},
+    "birth_year": {"type":["integer","null"]}, "death_year": {"type":["integer","null"]},
+    "portrait": {"type":["string","null"]},
+    "portrait_source": {"type":["string","null"]},
+    "portrait_status": {"type":["string","null"],
+      "enum":["ok","not_found","license_unclear","n/a","missing",null]},
+    "portrait_license": {"type":["string","null"]},
+    "wikipedia_ar": {"type":["string","null"]}, "wikipedia_en": {"type":["string","null"]},
+    "aliases_to": {"type":["string","null"]},
+    "match_key": {"type":"array","items":{"type":"string"}},
+    "aliases_ar": {"type":"array","items":{"type":"string"}},
+    "aliases_en": {"type":"array","items":{"type":"string"}},
+    "authority": {"type":"object","properties":{
+      "wikidata":{"type":["string","null"]},"viaf":{"type":["string","null"]},
+      "loc":{"type":["string","null"]}}},
+    "resolution": {"type":"object","properties":{
+      "confidence":{"type":"number"},"method":{"type":"string",
+        "enum":["qid","matchkey","fuzzy","created","manual","wikidata-qid"]},
+      "matched_slug":{"type":["string","null"]},
+      "source_surface":{"type":"string"},
+      "reviewed":{"type":"boolean"},"needs_review":{"type":"boolean"},
+      "ts":{"type":"string"}}}
+  }
+}

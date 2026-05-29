@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ImageManifest",
+  "definitions": {
+    "image": {
+      "type": "object",
+      "required": ["name","referenced_in","present"],
+      "properties": {
+        "name": {"type":"string","pattern":"^img_[0-9a-f]{12}\\.(jpe?g|png|gif|webp)$"},
+        "referenced_in": {"type":"array","items":{"type":"string"}},
+        "present": {"type":"boolean"},
+        "bytes": {"type":"integer"},
+        "alt_present": {"type":"boolean"},
+        "source_page": {"type":["integer","null"]},
+        "bbox": {"type":["array","null"],"items":{"type":"number"}},
+        "caption": {"type":["string","null"]},
+        "hash": {"type":["string","null"]},
+        "master_path": {"type":["string","null"]}
+      }
+    }
+  },
+  "type": "array", "items": {"$ref": "#/definitions/image"}
+}

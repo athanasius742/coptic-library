@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BookBuildState", "type": "object",
+  "required": ["book_id","schema_version","phase","source_hash","phases"],
+  "properties": {
+    "book_id": {"type":"string"},
+    "schema_version": {"type":"integer","const":1},
+    "phase": {"type":"string","enum":["html","pdf"]},
+    "source_hash": {"type":"string"},
+    "phases": {"type":"object","additionalProperties":{
+      "type":"object","properties":{
+        "status":{"type":"string","enum":["pending","stale","done","failed"]},
+        "input_hash":{"type":"string"}}}},
+    "toc": {"type":"array","items":{"type":"object",
+      "required":["order","slug","title","id","level"],
+      "properties":{"order":{"type":"integer"},"slug":{"type":"string"},
+        "title":{"type":"string"},"id":{"type":"string"},"level":{"type":"integer"}}}},
+    "heading_map": {"type":"object","additionalProperties":{
+      "type":"object","properties":{"chapter":{"type":"string"},"text":{"type":"string"}}}},
+    "anchor_registry": {"type":"object","additionalProperties":{
+      "type":"object","properties":{"chapter":{"type":"string"},"kind":{"type":"string"}}}},
+    "footnote_registry": {"type":"array","items":{"type":"object",
+      "required":["id","chapter","marker","resolved"],
+      "properties":{"id":{"type":"string"},"chapter":{"type":"string"},
+        "marker":{"type":"string"},"ref_anchor":{"type":"string"},
+        "target_anchor":{"type":"string"},"text":{"type":"string"},
+        "resolved":{"type":"boolean"}}}},
+    "image_manifest": {"type":"array","items":{"$ref":"image-manifest.schema.json#/definitions/image"}},
+    "author": {"type":"object","properties":{
+      "slug":{"type":"string"},"confidence":{"type":"number"},
+      "method":{"type":"string"},"needs_review":{"type":"boolean"},
+      "authority":{"type":"object"},"source_surface":{"type":"string"}}},
+    "issues": {"type":"array","items":{"type":"object",
+      "required":["severity","code","detail"],
+      "properties":{"severity":{"type":"string","enum":["info","warn","error"]},
+        "code":{"type":"string"},"detail":{"type":"string"},"chapter":{"type":"string"}}}},
+    "review": {"type":"string","enum":["pending","approved"]}
+  }
+}
