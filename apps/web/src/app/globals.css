@@ -193,14 +193,55 @@
     font-style: italic;
   }
 
-  .prose-coptic img {
+  /* Chapter images are compact and float to the side OPPOSITE the running text
+     (RTL Arabic -> left, LTR Latin -> right) so they don't eat readable width;
+     body text wraps around them. */
+  .prose-coptic .content-image {
     display: block;
-    max-width: 100%;
+    width: 100%;
+    max-width: clamp(150px, 36%, 260px);
     height: auto;
-    margin: 1.5em auto;
+    margin-block: 0.3em 0.9em;
+    margin-inline-start: 1.3em;   /* gap on the text-facing side */
+    margin-inline-end: 0;
     border: 1px solid var(--color-gold-800);
     padding: 4px;
     background: var(--color-ink);
+  }
+
+  .prose-coptic .content-figure {
+    max-width: clamp(150px, 36%, 260px);
+    margin-block: 0.3em 0.9em;
+    margin-inline-start: 1.3em;
+    margin-inline-end: 0;
+  }
+
+  /* float side depends on the book's text direction */
+  .prose-coptic[dir="rtl"] .content-image,
+  .prose-coptic[dir="rtl"] .content-figure { float: left; }
+  .prose-coptic:not([dir="rtl"]) .content-image,
+  .prose-coptic:not([dir="rtl"]) .content-figure { float: right; }
+
+  /* inside a figure the FIGURE floats; the image just fills it */
+  .prose-coptic .content-figure .content-image {
+    float: none;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .prose-coptic .content-figcaption {
+    margin-top: 0.4em;
+    font-size: 0.72em;
+    line-height: 1.4;
+    text-align: start;
+    color: color-mix(in oklab, var(--color-bone) 60%, transparent);
+  }
+
+  /* contain floats so they don't bleed into the prev/next nav below */
+  .prose-coptic::after {
+    content: "";
+    display: block;
+    clear: both;
   }
 
   /* Data tables are rendered by the ContentTable component (overflow-x wrapper).

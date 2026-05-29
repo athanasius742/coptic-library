@@ -12,6 +12,8 @@ import sanitizeHtml from "sanitize-html";
 
 import {
   ChapterToc,
+  ContentFigure,
+  ContentImage,
   ContentLink,
   ContentTable,
   FootnoteRef,
@@ -24,6 +26,8 @@ export type RenderCtx = {
   chapterUrl: string;
   locale: Locale;
   bookKeys: Set<string>;
+  authorSlug: string;
+  bookSlug: string;
 };
 
 // ---------------------------------------------------------------------------
@@ -126,7 +130,7 @@ const SANITIZE: sanitizeHtml.IOptions = {
     "p", "br", "hr",
     "h1", "h2", "h3", "h4", "h5", "h6",
     "strong", "b", "em", "i", "u", "sup", "sub",
-    "a", "span",
+    "a", "span", "img",
     "ul", "ol", "li",
     "table", "thead", "tbody", "tr", "td", "th",
     "blockquote",
@@ -134,6 +138,7 @@ const SANITIZE: sanitizeHtml.IOptions = {
   ],
   allowedAttributes: {
     a: ["href", "id"],
+    img: ["src", "alt"],
     td: ["colspan", "rowspan"],
     th: ["colspan", "rowspan"],
     "*": ["dir", "lang"],
@@ -153,11 +158,14 @@ const SANITIZE: sanitizeHtml.IOptions = {
     "script", "style", "iframe", "button", "input", "form", "nav",
     "link", "meta", "textarea", "select", "option",
   ],
-  // Drop all images (assets absent) and image-wrapper tables.
+  // Keep only local chapter images (src="images/..."); drop any remote/data/
+  // empty <img>. Image-wrapper tables are now rendered (see replace()).
   exclusiveFilter: (frame) =>
-    frame.tag === "img" ||
-    (frame.tag === "table" && /src=["']?(?:\.\/)?images\//i.test(frame.text)),
+    frame.tag === "img" && !LOCAL_IMG_RE.test(frame.attribs?.src ?? ""),
 };
+
+/** A chapter-local image reference, e.g. `images/img_abc.jpg` or `./images/…`. */
+const LOCAL_IMG_RE = /^(?:\.\/)?images\/([^"'?#]+)$/i;
 
 function sanitize(body: string): string {
   return sanitizeHtml(body, SANITIZE);
@@ -341,6 +349,70 @@ function tableHasImage(el: Element): boolean {
   return found;
 }
 
+/** Build the served URL for a chapter-local image src, or null if not local. */
+function imageUrl(src: string, ctx: RenderCtx): string | null {
+  const m = src.match(LOCAL_IMG_RE);
+  if (!m) return null;
+  const file = m[1].split("/").pop() ?? m[1];
+  return `/book-images/${ctx.authorSlug}/${ctx.bookSlug}/${encodeURIComponent(file)}`;
+}
+
+/** First chapter-local <img> in a subtree, with its served url + alt. */
+function firstLocalImage(
+  el: Element,
+  ctx: RenderCtx,
+): { url: string; alt: string } | null {
+  let found: { url: string; alt: string } | null = null;
+  const visit = (n: DOMNode) => {
+    if (found || !isElement(n)) return;
+    if (n.name === "img") {
+      const url = imageUrl(n.attribs.src ?? "", ctx);
+      if (url) found = { url, alt: n.attribs.alt ?? "" };
+      return;
+    }
+    n.children.forEach((c) => visit(c as DOMNode));
+  };
+  el.children.forEach((c) => visit(c as DOMNode));
+  return found;
+}
+
+const CAPTION_BOILERPLATE =
+  /^(?:\s*(?:St-Takla\.org\s*(?:Image)?\s*:?|صورة\s+في\s+موقع\s+الأنبا\s+تكلا\s*:?))+/i;
+
+/** Caption text from an image-wrapper table: the non-image cells, cleaned and
+ *  truncated so a compact floated figure doesn't grow a tall caption column. */
+function imageTableCaption(el: Element): string {
+  const parts: string[] = [];
+  const visit = (n: DOMNode) => {
+    if (!isElement(n)) return;
+    if (n.name === "td" || n.name === "th") {
+      if (!tableCellHasImage(n)) {
+        const txt = childrenText(n).replace(/\s+/g, " ").trim();
+        if (txt) parts.push(txt);
+      }
+    }
+    n.children.forEach((c) => visit(c as DOMNode));
+  };
+  el.children.forEach((c) => visit(c as DOMNode));
+  let caption = parts.join(" ").replace(/\s+/g, " ").trim();
+  caption = caption.replace(CAPTION_BOILERPLATE, "").trim();
+  if (caption.length > 140) {
+    caption = caption.slice(0, 140).replace(/\s+\S*$/, "") + "…";
+  }
+  return caption;
+}
+
+function tableCellHasImage(td: Element): boolean {
+  let found = false;
+  const visit = (n: DOMNode) => {
+    if (found || !isElement(n)) return;
+    if (n.name === "img") found = true;
+    else n.children.forEach((c) => visit(c as DOMNode));
+  };
+  td.children.forEach((c) => visit(c as DOMNode));
+  return found;
+}
+
 function collectTocEntries(el: Element): TocEntry[] {
   const entries: TocEntry[] = [];
   const visit = (n: DOMNode) => {
@@ -429,9 +501,24 @@ export function renderChapterHtml(raw: string, ctx: RenderCtx): ReactNode {
         );
       }
 
+      // ---- standalone images ----
+      if (name === "img") {
+        const url = imageUrl(el.attribs.src ?? "", ctx);
+        if (!url) return <Fragment />;
+        return <ContentImage src={url} alt={el.attribs.alt ?? ""} />;
+      }
+
       // ---- tables ----
       if (name === "table") {
-        if (tableHasImage(el)) return <Fragment />; // 3.5 image-wrapper
+        // image-wrapper table -> floated figure (image + short caption)
+        if (tableHasImage(el)) {
+          const img = firstLocalImage(el, ctx);
+          if (!img) return <Fragment />;
+          const caption = imageTableCaption(el);
+          return (
+            <ContentFigure src={img.url} alt={img.alt} caption={caption || undefined} />
+          );
+        }
         if (isTocTable(el)) {
           const entries = collectTocEntries(el);
           if (entries.length === 0) return <Fragment />;

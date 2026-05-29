@@ -60,7 +60,13 @@ export const loadChapterContent = cache(async (
       ? ch.url
       : `${STTAKLA_ORIGIN}/books/${authorSlug}/${bookSlug}/${ch.file}`;
 
-  const node = renderChapterHtml(raw, { chapterUrl, locale, bookKeys });
+  const node = renderChapterHtml(raw, {
+    chapterUrl,
+    locale,
+    bookKeys,
+    authorSlug,
+    bookSlug,
+  });
   return {
     title: ch.title,
     node,
