@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { CopticCross } from "@/components/coptic-cross";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import { bookDisplay, loadAuthors, loadBook, loadChapters } from "@/lib/catalog";
 import { loadChapterContent } from "@/lib/chapter";
 import { isLocale, t, type Locale } from "@/lib/i18n";
@@ -100,7 +101,7 @@ export default async function ChapterPage({ params }: { params: Promise<Params> 
 
         <div className="grid gap-10 lg:grid-cols-[260px_1fr]">
           {/* TOC sidebar */}
-          <aside className="lg:sticky lg:top-6 lg:max-h-[calc(100vh-3rem)] lg:overflow-y-auto">
+          <aside className="lg:sticky lg:top-6">
             <div className="border border-gold-800/70 bg-ink/60 p-5">
               <div className="flex items-center gap-2">
                 <CopticCross size={20} className="text-gold-200" />
@@ -112,29 +113,34 @@ export default async function ChapterPage({ params }: { params: Promise<Params> 
                   {t(locale, "chapter.toc")}
                 </h2>
               </div>
-              <ol className="mt-4 space-y-1">
-                {chapters.map((c) => {
-                  const active = c.slug === chapter;
-                  return (
-                    <li key={c.slug}>
-                      <Link
-                        href={`/${locale}/books/${meta.authorSlug}/${meta.bookSlug}/${c.slug}`}
-                        className={`flex items-baseline gap-2 border-r-2 px-3 py-2 ${bookFontClass} text-sm leading-snug transition ${
-                          active
-                            ? "border-gold bg-gold/10 text-gold-50"
-                            : "border-transparent text-bone/80 hover:border-gold-800 hover:bg-gold/5 hover:text-gold-100"
-                        }`}
-                        dir={bookDir}
-                      >
-                        <span className="font-display text-[10px] text-gold-600">
-                          {String(c.order).padStart(2, "0")}
-                        </span>
-                        <span>{c.title}</span>
-                      </Link>
-                    </li>
-                  );
-                })}
-              </ol>
+              <ScrollArea
+                dir={bookDir}
+                className="mt-4 lg:max-h-[calc(100vh-9rem)]"
+              >
+                <ol className="space-y-1 pe-2.5">
+                  {chapters.map((c) => {
+                    const active = c.slug === chapter;
+                    return (
+                      <li key={c.slug}>
+                        <Link
+                          href={`/${locale}/books/${meta.authorSlug}/${meta.bookSlug}/${c.slug}`}
+                          className={`flex items-baseline gap-2 border-r-2 px-3 py-2 ${bookFontClass} text-sm leading-snug transition ${
+                            active
+                              ? "border-gold bg-gold/10 text-gold-50"
+                              : "border-transparent text-bone/80 hover:border-gold-800 hover:bg-gold/5 hover:text-gold-100"
+                          }`}
+                          dir={bookDir}
+                        >
+                          <span className="font-display text-[10px] text-gold-600">
+                            {String(c.order).padStart(2, "0")}
+                          </span>
+                          <span>{c.title}</span>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ol>
+              </ScrollArea>
             </div>
           </aside>
 
