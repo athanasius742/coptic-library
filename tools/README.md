@@ -143,3 +143,42 @@ python3 tools/make_views.py
 **generated** — don't edit them by hand; edit a book's `meta.json` and re-run.
 Each book lives in exactly one place under `books/`; the catalogs are just tables
 of links (no symlinks or duplicated copies).
+
+## coptic-treasures.com import (`ct_crawl.py` + `ct_download.py`)
+
+A second source: the [coptic-treasures.com](https://coptic-treasures.com) book
+library (~5,300 books, each a PDF on Google Drive). Two phases, mirroring the
+st-takla crawl→extract split. Output lands under `books/coptic-treasures.com/`
+in the same directory convention (ascii `author-slug`, decoded-Arabic `book-slug`).
+
+### `ct_crawl.py` — discover books → `ct_catalog.json`
+
+Walks the 6 `book-sitemap*.xml` files, fetches each book page, and records one
+catalog record per book: metadata from the `schema.org/Book` JSON-LD + the
+`<article class="… category-<slug> main-category-<id> author-speaker-<slug>">`
+taxonomy + the info-card, plus the Google-Drive download link(s) and file size.
+Resumable; polite (descriptive UA, default 0.6s delay).
+
+```bash
+python3 tools/ct_crawl.py                 # full discovery -> tools/ct_catalog.json
+python3 tools/ct_crawl.py --max-books 30  # cap (testing)
+```
+
+### `ct_download.py` — download PDFs + covers + `meta.json`
+
+Reads `ct_catalog.json` and downloads each book's file(s) from Google Drive into
+`books/coptic-treasures.com/<author>/<book>/` (`book.pdf` + `cover.jpg` +
+st-takla-style `meta.json`). Handles Google's >100MB virus-scan confirm
+interstitial; skips permanent 404/401 (dead/restricted files) without retrying.
+Resumable/idempotent; writes status back to the catalog.
+
+```bash
+python3 tools/ct_download.py              # download everything pending
+python3 tools/ct_download.py --retry-failed
+```
+
+**Access note:** ~93% of the Drive links are public; the rest are 401
+(restricted) or 404 (deleted) at the source. Unavailable books are recorded in
+`tools/ct_failed.json` (not kept on disk). Files exceeding GitHub's 100MB limit
+are tracked via Git LFS (see `.gitattributes`) and listed in
+`tools/ct_oversized.json`.
