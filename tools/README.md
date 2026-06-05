@@ -8,6 +8,16 @@ Requires Python 3 with `beautifulsoup4` and `lxml`:
 pip install beautifulsoup4 lxml
 ```
 
+## Required environment / API keys
+
+| Variable | Needed by | Why |
+| --- | --- | --- |
+| `ANTHROPIC_API_KEY` | **PDF→EPUB conversion OCR** (`ct_ocr_batch.py`, see below) | The coptic-treasures PDFs are mostly scanned (or have corrupt text layers), so converting them requires **vision-LLM OCR**. OCR runs through the **Anthropic Batch API** (Claude vision) — 50% cheaper than real-time and not subject to the Claude Code subagent throttle. Set this key (e.g. in `.env`, see `.env.example`) before running the OCR/convert step. |
+
+The PDF-conversion OCR additionally needs the publishing-pipeline deps
+(`pymupdf`, `pyarabic`, `beautifulsoup4`, `lxml`) — kept in the `.venv-pipeline`
+virtualenv. The HTML→EPUB tools (`build_epub.py`, `verify_book.py`) need no key.
+
 ## Bulk-extraction workflow (St-Takla.org library)
 
 The library is a tree of category indexes, not a flat list. Bulk extraction is
@@ -182,3 +192,29 @@ python3 tools/ct_download.py --retry-failed
 `tools/ct_failed.json` (not kept on disk). Files exceeding GitHub's 100MB limit
 are tracked via Git LFS (see `.gitattributes`) and listed in
 `tools/ct_oversized.json`.
+
+### PDF → HTML + EPUB conversion (OCR) — **requires `ANTHROPIC_API_KEY`**
+
+The downloaded PDFs are turned into per-chapter `chapters/<NN-slug>/content.xhtml`
+(the same HTML the web app renders) plus a validated `<book-slug>.epub`
+(`build_epub.py` builds the EPUB *from* the content.xhtml, so web and EPUB never
+drift).
+
+Most of these PDFs are **scanned**, or have a **corrupt/fake text layer** (broken
+ToUnicode CMap → Latin/PUA glyphs, or visual-order Arabic presentation forms) that
+looks extractable but decodes to garbage. So conversion does a per-page triage and,
+whenever the text layer can't be trusted, **OCRs the page image with a vision LLM**.
+
+That OCR runs through the **Anthropic Batch API** (Claude vision): 50% cheaper than
+real-time, async (results within 24h, usually much sooner), prompt-caching-friendly
+across the shared OCR prompt, and — crucially — **not subject to the Claude Code
+subagent concurrency throttle** that makes the in-agent route unusable at this scale.
+
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...        # or put it in .env (gitignored)
+python3 tools/ct_ocr_batch.py              # submit/poll/collect OCR batches -> content.xhtml + epub
+```
+
+The OCR text is treated as the SACRED source (verbatim, tashkeel preserved); any
+low-confidence span is flagged for human review. Conversion is resumable: a book
+that already has an `.epub` is skipped.
