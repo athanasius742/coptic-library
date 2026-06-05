@@ -220,6 +220,53 @@ def build_and_verify(book_dir):
     subprocess.run([py, tool("verify_book.py"), book_dir])
 
 
+# ----------------------------- per-page resumable modes -----------------------------
+# Each page's transcription is persisted to .build/pages_text/pNNNN.txt the moment
+# it's produced, so an interruption resumes at the first page lacking a .txt (and
+# chapters are re-derived deterministically from the page files at --assemble time).
+def pt_dir(book_dir):
+    return os.path.join(book_dir, ".build", "pages_text")
+
+
+def cmd_rasterize(book_dir):
+    """Triage + rasterize OCR pages + persist digital pages' text. Prints the list
+    of pages still needing OCR (already-transcribed pages are skipped) as JSON."""
+    plan = plan_book(book_dir)
+    tdir = pt_dir(book_dir)
+    os.makedirs(tdir, exist_ok=True)
+    todo = []
+    for p in plan["pages"]:
+        txt = os.path.join(tdir, f"p{p['index']:04d}.txt")
+        if p["cls"] == "digital":
+            if not os.path.exists(txt):
+                with open(txt, "w", encoding="utf-8") as f:
+                    f.write(p.get("text", ""))
+        elif not os.path.exists(txt):
+            todo.append({"index": p["index"], "png": p["png"],
+                         "txt": os.path.join(tdir, f"p{p['index']:04d}.txt")})
+    print(json.dumps({"book_dir": book_dir, "counts": plan["counts"],
+                      "pages": len(plan["pages"]), "ocr_todo": todo}, ensure_ascii=False))
+
+
+def cmd_assemble(book_dir):
+    """Build content.xhtml + manifest + epub from the persisted page texts."""
+    plan = json.load(open(os.path.join(book_dir, ".build", "ocr_plan.json"), encoding="utf-8"))
+    tdir = pt_dir(book_dir)
+    pt, missing = {}, []
+    for p in plan["pages"]:
+        f = os.path.join(tdir, f"p{p['index']:04d}.txt")
+        if os.path.exists(f):
+            pt[p["index"]] = open(f, encoding="utf-8").read()
+        else:
+            missing.append(p["index"])
+    if missing:
+        raise SystemExit(f"assemble: {len(missing)} pages still need OCR (e.g. {missing[:10]}) — "
+                         f"transcribe their .build/pages/pNNNN.png to .build/pages_text/pNNNN.txt first")
+    assemble_book(book_dir, pt)
+    build_and_verify(book_dir)
+    print(f"assembled + built {os.path.basename(book_dir)}")
+
+
 # ----------------------------- pending selection -----------------------------
 def pending_books(limit, only):
     recs = json.load(open(CATALOG, encoding="utf-8"))
@@ -248,7 +295,17 @@ def main():
     ap.add_argument("--collect", action="store_true", help="poll submitted batches and assemble")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--book", default="", help="substring filter on book dir")
+    ap.add_argument("--rasterize", metavar="BOOK_DIR",
+                    help="triage+rasterize one book, persist digital text, print OCR todo (resumable)")
+    ap.add_argument("--assemble", metavar="BOOK_DIR",
+                    help="build content.xhtml+manifest+epub from .build/pages_text/*.txt")
     args = ap.parse_args()
+
+    # per-page-resumable single-book modes (used by the subagent trickle)
+    if args.rasterize:
+        return cmd_rasterize(args.rasterize)
+    if args.assemble:
+        return cmd_assemble(args.assemble)
 
     books = pending_books(args.limit, args.book)
     print(f"{len(books)} pending books", flush=True)
