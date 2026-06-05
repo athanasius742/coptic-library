@@ -131,14 +131,19 @@ def ocr_request(custom_id, png_path):
 
 
 # ----------------------------- plan (triage + rasterize) -----------------------------
-def plan_book(book_dir):
-    """Triage + rasterize OCR pages + extract digital text. Returns the plan dict."""
+def plan_book(book_dir, ocr_all=False):
+    """Triage + rasterize OCR pages + extract digital text. Returns the plan dict.
+    ocr_all=True ignores the text layer entirely and rasterizes EVERY page for OCR
+    (the text layer on this source is unreliable even when it looks born-digital)."""
     import fitz
     pdf = os.path.join(book_dir, "book.pdf")
     build = os.path.join(book_dir, ".build")
     pdir = os.path.join(build, "pages")
     os.makedirs(pdir, exist_ok=True)
     doc, pages, toc = triage(pdf)
+    if ocr_all:
+        for p in pages:
+            p["cls"] = "scanned"
     plan = {"pages": [], "toc": toc, "counts": dict(Counter(p["cls"] for p in pages))}
     for p in pages:
         i = p["index"]
@@ -228,10 +233,11 @@ def pt_dir(book_dir):
     return os.path.join(book_dir, ".build", "pages_text")
 
 
-def cmd_rasterize(book_dir):
+def cmd_rasterize(book_dir, ocr_all=False):
     """Triage + rasterize OCR pages + persist digital pages' text. Prints the list
-    of pages still needing OCR (already-transcribed pages are skipped) as JSON."""
-    plan = plan_book(book_dir)
+    of pages still needing OCR (already-transcribed pages are skipped) as JSON.
+    ocr_all rasterizes every page (no text-layer fast-path)."""
+    plan = plan_book(book_dir, ocr_all=ocr_all)
     tdir = pt_dir(book_dir)
     os.makedirs(tdir, exist_ok=True)
     todo = []
@@ -299,11 +305,13 @@ def main():
                     help="triage+rasterize one book, persist digital text, print OCR todo (resumable)")
     ap.add_argument("--assemble", metavar="BOOK_DIR",
                     help="build content.xhtml+manifest+epub from .build/pages_text/*.txt")
+    ap.add_argument("--ocr-all", action="store_true",
+                    help="OCR every page (ignore the text layer — unreliable on this source)")
     args = ap.parse_args()
 
     # per-page-resumable single-book modes (used by the subagent trickle)
     if args.rasterize:
-        return cmd_rasterize(args.rasterize)
+        return cmd_rasterize(args.rasterize, ocr_all=args.ocr_all)
     if args.assemble:
         return cmd_assemble(args.assemble)
 
